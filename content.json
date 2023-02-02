@@ -19,7 +19,6 @@
 				"MizuLeo.FruitsVeggies_ButternutSquash": "Butternut Squash/200/8/Vegetable -75/Butternut Squash/It has a sweet, nutty taste similar to that of a pumpkin.////130/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Cabbage": "Cabbage/120/20/Vegetable -75/Cabbage/Cabbages are versatile and can be used in salad, pickling, and stews!////10/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_CanaryMelon": "Canary Melon/225/45/Fruits -79/Canary Melon/A bright yellow melon, it's distinctively sweet and tangy.////8/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CanolaFlower": "Canola Flower/50/18/Flowers -80/Canola Flower/A flower that can be used to make oil.////176/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Cantaloupe": "Cantaloupe/180/35/Fruits -79/Cantaloupe/A sweet melon that often tastes great with citrus or salty compliments.////132/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Carrot": "Carrot/65/10/Vegetable -75/Carrot/The old wive's tale says that eating carrots helps improve eyesight.////46/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Cassava": "Cassava/80/-20/Vegetable -75/Cassava/A hardy tuber from tropical climates, it has a woody flavor.////22/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -49,6 +48,7 @@
 				"MizuLeo.FruitsVeggies_Peanut": "Peanut/75/18/Vegetable -75/Peanut/A slightly salty nut that can be churned into peanut butter.////34/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_PintoBeans": "Pinto Beans/15/-300/Vegetable -75/Pinto Beans/Eating too many of these beans can produce large amounts of gas!////158/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Quinoa": "Quinoa/30/-300/Vegetable -75/Quinoa/Rich in protein, fiber, B vitamins, and dietary minerals in amounts greater than in many grains.////178/Mods\\MizuLeo.FruitsVeggies\\Objects",
+				"MizuLeo.FruitsVeggies_RapeseedFlower": "Rapeseed Flower/50/18/Flowers -80/Rapeseed Flower/A flower that can be used to make oil.////176/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Raspberry": "Raspberry/30/10/Fruits -79/Raspberry/An extremely tart berry that has a warm glow.////36/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_RedOnion": "Red Onion/115/8/Vegetable -75/Red Onion/A sweeter variety of onion.////180/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Shallot": "Shallot/115/8/Vegetable -75/Shallot/A milder version of an onion.////80/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -79,7 +79,6 @@
 				"MizuLeo.FruitsVeggies_ButternutSquashSeeds": "Butternut Squash Seeds/90/-300/Seeds -74/Butternut Squash Seeds/Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.////131/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_CabbageSeeds": "Cabbage Seeds/40/-300/Seeds -74/Cabbage Seeds/Plant these in spring. Takes 7 days to mature.////11/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_CanaryMelonSeeds": "Canary Melon Seeds/225/-300/Seeds -74/Canary Melon Seeds/Plant these in spring. Takes 11 days to mature, and continues to produce after the first harvest.////9/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CanolaSeeds": "Canola Seeds/50/-300/Seeds -74/Canola Seeds/Plant in spring or summer. Takes 8 days to produce a flower that can be used to make oil.////177/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_CantaloupeSeeds": "Cantaloupe Seeds/40/-300/Seeds -74/Cantaloupe Seeds/Plant these in spring. Takes 8 days to mature.////133/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_CarrotSeeds": "Carrot Seeds/25/-300/Seeds -74/Carrot Seeds/Plant these in fall. Takes 6 days to mature.////47/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_CassavaSeeds": "Cassava Seeds/30/-300/Seeds -74/Cassava Seeds/Plant these in summer. Takes 7 days to mature. Harvest with a scythe.////23/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -109,6 +108,7 @@
 				"MizuLeo.FruitsVeggies_PeanutSeeds": "Peanut Seeds/30/-300/Seeds -74/Peanut Seeds/Plant these in fall. Takes 6 days to mature.////35/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_PintoBeanStarter": "Pinto Bean Starter/40/-300/Seeds -74/Pinto Bean Starter/Plant these in spring. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.////159/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_QuinoaSeeds": "Quinoa Seeds/10/-300/Seeds -74/Quinoa Seeds/Plant these in summer. Takes 6 days to mature.////179/Mods\\MizuLeo.FruitsVeggies\\Objects",
+				"MizuLeo.FruitsVeggies_RapeseedSeeds": "Rapeseed Seeds/50/-300/Seeds -74/Rapeseed Seeds/Plant in spring or summer. Takes 8 days to produce a flower that can be used to make oil.////177/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_RaspberrySeeds": "Raspberry Seeds/30/-300/Seeds -74/Raspberry Seeds/Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.////37/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_RedOnionSeeds": "Red Onion Seeds/40/-300/Seeds -74/Red Onion Seeds/Plant these in spring. Takes 8 days to mature.////181/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_ShallotSeeds": "Shallot Seeds/40/-300/Seeds -74/Shallot Seeds/Plant these in spring. Takes 8 days to mature.////81/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -130,7 +130,6 @@
 				"MizuLeo.FruitsVeggies_Cashew": "Cashew/100/12/Forage -81/Cashew/A buttery nut that buds at the bottom of the cashew apple.////99/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_CinnamonSticks": "Cinnamon Sticks/140/-300/Forage -81/Cinnamon Sticks/Its scent is uniquely warming, uplifting, and stimulating, and its flavor sweet and delicious.////149/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_CocoaPod": "Cocoa Pod/125/-300/Forage -81/Cocoa Pod/The pod obtained from a cocoa tree. Mmm! Who's ready to make some chocolate?////1/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Nutmeg": "Nutmeg/90/-300/Forage -81/Nutmeg/A fragrant seed that can be ground into a useful spice.////145/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Pecan": "Pecan/125/12/Forage -81/Pecan/A savory nut with a striped seed. Do you own a nutcracker?////169/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Pistachio": "Pistachio/90/12/Forage -81/Pistachio/A versatile and delicious nut that can be eaten as is or used to flavor other products.////147/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Walnut": "Walnut/90/12/Forage -81/Walnut/A nut that makes delicious candies and pies. It's often used in the filling of sweet treats.////101/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -160,7 +159,6 @@
 				"MizuLeo.FruitsVeggies_CassiaSapling": "Cassia Sapling/1500/-300/Basic -74/Cassia Sapling/Takes 28 days to produce a mature Cassia tree. Ready to harvest in the winter. Only grows if the 8 surrounding tiles are empty.////148/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_CocoaSapling": "Cocoa Sapling/1250/-300/Basic -74/Cocoa Sapling/Takes 28 days to produce a mature Cocoa tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.////0/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_HazelnutSapling": "Hazelnut Sapling/875/-300/Basic -74/Hazelnut Sapling/Takes 28 days to produce a mature Hazel tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////6/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_NutmegSapling": "Nutmeg Sapling/1000/-300/Basic -74/Nutmeg Sapling/Takes 28 days to produce a mature Nutmeg tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.////144/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_PecanSapling": "Pecan Sapling/1250/-300/Basic -74/Pecan Sapling/Takes 28 days to produce a mature Pecan tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////168/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_PistachioSapling": "Pistachio Sapling/937/-300/Basic -74/Pistachio Sapling/Takes 28 days to produce a mature Pistachio tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////146/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_WalnutSapling": "Walnut Sapling/937/-300/Basic -74/Walnut Sapling/Takes 28 days to produce a mature Walnut tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////100/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -274,13 +272,6 @@
 					"ItemId": "MizuLeo.FruitsVeggies_CanaryMelonSeeds",
 					"Condition": "SEASON spring, YEAR 2",
 					"Price": 450,
-					"IgnoreShopPriceModifiers": true
-				},
-				"MizuLeo.FruitsVeggies_CanolaSeeds": {
-					"Id": "MizuLeo.FruitsVeggies_CanolaSeeds",
-					"ItemId": "MizuLeo.FruitsVeggies_CanolaSeeds",
-					"Condition": "SEASON spring summer, YEAR 3",
-					"Price": 100,
 					"IgnoreShopPriceModifiers": true
 				},
 				"MizuLeo.FruitsVeggies_CantaloupeSeeds": {
@@ -472,6 +463,13 @@
 					"Price": 20,
 					"IgnoreShopPriceModifiers": true
 				},
+				"MizuLeo.FruitsVeggies_RapeseedSeeds": {
+					"Id": "MizuLeo.FruitsVeggies_RapeseedSeeds",
+					"ItemId": "MizuLeo.FruitsVeggies_RapeseedSeeds",
+					"Condition": "SEASON spring summer, YEAR 3",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true
+				},
 				"MizuLeo.FruitsVeggies_RaspberrySeeds": {
 					"Id": "MizuLeo.FruitsVeggies_RaspberrySeeds",
 					"ItemId": "MizuLeo.FruitsVeggies_RaspberrySeeds",
@@ -591,13 +589,6 @@
 					"Price": 3500,
 					"IgnoreShopPriceModifiers": true
 				},
-				"MizuLeo.FruitsVeggies_NutmegSapling": {
-					"Id": "MizuLeo.FruitsVeggies_NutmegSapling",
-					"ItemId": "MizuLeo.FruitsVeggies_NutmegSapling",
-					"Condition": "YEAR 2",
-					"Price": 4000,
-					"IgnoreShopPriceModifiers": true
-				},
 				"MizuLeo.FruitsVeggies_PecanSapling": {
 					"Id": "MizuLeo.FruitsVeggies_PecanSapling",
 					"ItemId": "MizuLeo.FruitsVeggies_PecanSapling",
@@ -711,7 +702,6 @@
 				{ "Id": "MizuLeo.FruitsVeggies_ButternutSquashSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_CabbageSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_CanaryMelonSeeds", "BeforeId": "(O)245" },
-				{ "Id": "MizuLeo.FruitsVeggies_CanolaSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_CantaloupeSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_CassavaSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_CelerySeeds", "BeforeId": "(O)245" },
@@ -738,6 +728,7 @@
 				{ "Id": "MizuLeo.FruitsVeggies_PeanutSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_PintoBeanStarter", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_QuinoaSeeds", "BeforeId": "(O)245" },
+				{ "Id": "MizuLeo.FruitsVeggies_RapeseedSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_RaspberrySeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_RedOnionSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_ShallotSeeds", "BeforeId": "(O)245" },
@@ -891,9 +882,7 @@
 				"MizuLeo.FruitsVeggies_ButternutSquashSeeds": "1 2 3 2 2/summer/27/MizuLeo.FruitsVeggies_ButternutSquash/4/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_CabbageSeeds": "1 2 2 1 1/spring/1/MizuLeo.FruitsVeggies_Cabbage/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_CanaryMelonSeeds": "1 2 3 3 2/spring/4/MizuLeo.FruitsVeggies_CanaryMelon/4/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CanolaSeeds": "1 2 2 2 1/spring summer/10/MizuLeo.FruitsVeggies_CanolaFlower/-1/1/true 1 1 0 .1/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CantaloupeSeeds": "1 2 2 1 2/spring/48/MizuLeo.FruitsVeggies_Cantaloupe/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CarrotSeeds": "1 2 1 1 1/fall/16/MizuLeo.FruitsVeggies_Carrot/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
+				"MizuLeo.FruitsVeggies_CantaloupeSeeds": "1 2 2 1 2/spring/48/MizuLeo.FruitsVeggies_Cantaloupe/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops","MizuLeo.FruitsVeggies_CarrotSeeds": "1 2 1 1 1/fall/16/MizuLeo.FruitsVeggies_Carrot/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_CassavaSeeds": "1 2 2 1 1/summer/9/MizuLeo.FruitsVeggies_Cassava/-1/1/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_CelerySeeds": "1 2 2 1/fall/22/MizuLeo.FruitsVeggies_Celery/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_ChickpeaSeeds": "2 2 3 2 1/summer/44/MizuLeo.FruitsVeggies_Chickpea/5/0/true 2 2 0 .02/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
@@ -921,6 +910,7 @@
 				"MizuLeo.FruitsVeggies_PeanutSeeds": "1 1 2 2/fall/18/MizuLeo.FruitsVeggies_Peanut/-1/0/true 1 1 0 .2/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_PintoBeanStarter": "1 2 3 2 2/spring/39/MizuLeo.FruitsVeggies_PintoBeans/3/0/true 2 2 0 .1/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_QuinoaSeeds": "1 1 2 2/summer/38/MizuLeo.FruitsVeggies_Quinoa/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
+				"MizuLeo.FruitsVeggies_RapeseedSeeds": "1 2 2 2 1/spring summer/10/MizuLeo.FruitsVeggies_RapeseedFlower/-1/1/true 1 1 0 .1/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_RaspberrySeeds": "1 2 3 2 2/summer/24/MizuLeo.FruitsVeggies_Raspberry/4/0/true 3 3 0 .02/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_RedOnionSeeds": "1 2 3 2/spring/32/MizuLeo.FruitsVeggies_RedOnion/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_ShallotSeeds": "1 2 3 2/spring/33/MizuLeo.FruitsVeggies_Shallot/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
