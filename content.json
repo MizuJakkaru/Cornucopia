@@ -8,6 +8,7 @@
             "Entries": {
 				// produce
 				"MizuLeo.FruitsVeggies_AdzukiBean": "Adzuki Bean/90/10/Vegetable -75/Adzuki Bean/This bean creates a sweet paste when it's mashed.////104/Mods\\MizuLeo.FruitsVeggies\\Objects",
+				"MizuLeo.FruitsVeggies_Agave": "Agave/170/0/Vegetable -75/Agave/A cutting of the agave plant which can be used to brew alcohol.////84/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Asparagus": "Asparagus/35/12/Vegetable -75/Asparagus/A delicious and fresh spring vegetable.////166/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Bamboo": "Bamboo/55/-300/Vegetable -75/Bamboo/The shoots of this plant are edible. It grows incredibly quickly.////112/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Barley": "Barley/25/-300/Vegetable -75/Barley/A dark grain that has a more earthy taste when processed than wheat.////114/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -40,7 +41,6 @@
 				"MizuLeo.FruitsVeggies_KidneyBeans": "Kidney Beans/35/-300/Vegetable -75/Kidney Beans/They contain a high amount of phytohemagglutinin which makes them more toxic than other beans.////164/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Kiwi": "Kiwi/100/20/Fruits -79/Kiwi/A juicy, fresh kiwi.////182/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Lettuce": "Lettuce/65/20/Vegetable -75/Lettuce/Watery. It's the basis for salads worldwide.////118/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Maguey": "Maguey/170/0/Vegetable -75/Maguey/A cutting of the maguey plant which can be used to brew alcohol.////84/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_NavyBeans": "Navy Beans/15/-300/Vegetable -75/Navy Beans/A handful of beans. They have a mild flavor.////160/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Oats": "Oats/25/1/Vegetable -75/Oats/Associated with lower blood cholesterol and good fiber!////60/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Okra": "Okra/60/8/Vegetable -75/Okra/Wet and mushy on the inside, but delicious when fried.////136/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -67,6 +67,7 @@
 
 				// seeds
 				"MizuLeo.FruitsVeggies_AdzukiBeanSeeds": "Adzuki Bean Seeds/25/-300/Seeds -74/Adzuki Bean Seeds/Plant these in summer. Takes 9 days to mature.////105/Mods\\MizuLeo.FruitsVeggies\\Objects",
+				"MizuLeo.FruitsVeggies_AgaveSeeds": "Agave Seeds/50/-300/Seeds -74/Agave Seeds/Plant these in spring. Takes 8 days to mature.////85/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_AsparagusSeeds": "Asparagus Seeds/10/-300/Seeds -74/Asparagus Seeds/Plant these in summer. Takes 5 days to mature.////167/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_BambooShoot": "Bamboo Shoot/75/-300/Seeds -74/Bamboo Shoot/Plant these in spring or summer. Takes 7 days to mature, and continues to produce after the first harvest. Harvest with a scythe.////113/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_BarleySeeds": "Barley Seeds/5/-300/Seeds -74/Barley Seeds/Plant these in fall. Takes 4 days to mature. Harvest with a scythe.////115/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -100,7 +101,6 @@
 				"MizuLeo.FruitsVeggies_KidneyBeanStarter": "Kidney Bean Starter/90/-300/Seeds -74/Kidney Bean Starter/Plant these in fall. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.////165/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_KiwiStarter": "Kiwi Starter/150/-300/Seeds -74/Kiwi Starter/Plant these in summer. Takes 21 days to mature, but keeps producing after that. Grows on a trellis.////183/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_LettuceSeeds": "Lettuce Seeds/27/-300/Seeds -74/Lettuce Seeds/Plant these in summer. Takes 6 days to mature.////119/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_MagueySeeds": "Maguey Seeds/50/-300/Seeds -74/Maguey Seeds/Plant these in spring. Takes 8 days to mature.////85/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_NavyBeanStarter": "Navy Bean Starter/40/-300/Seeds -74/Navy Bean Starter/Plant these in summer. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.////161/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_OatSeeds": "Oat Seeds/5/-300/Seeds -74/Oat Seeds/Plant these in fall. Takes 4 days to mature. Harvest with a scythe.////61/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_OkraSeeds": "Okra Seeds/80/-300/Seeds -74/Okra Seeds/Plant these in summer or fall. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.////137/Mods\\MizuLeo.FruitsVeggies\\Objects",
@@ -807,9 +807,9 @@
 					"Price": 200,
 					"IgnoreShopPriceModifiers": true
 				},
-				"MizuLeo.FruitsVeggies_MagueySeeds": {
-					"Id": "MizuLeo.FruitsVeggies_MagueySeeds",
-					"ItemId": "MizuLeo.FruitsVeggies_MagueySeeds",
+				"MizuLeo.FruitsVeggies_AgaveSeeds": {
+					"Id": "MizuLeo.FruitsVeggies_AgaveSeeds",
+					"ItemId": "MizuLeo.FruitsVeggies_AgaveSeeds",
 					"Condition": "YEAR 4",
 					"Price": 100,
 					"IgnoreShopPriceModifiers": true
@@ -870,7 +870,7 @@
             "Target": "Data/Crops",
             "Entries": {
                 "MizuLeo.FruitsVeggies_AdzukiBeanSeeds": "1 2 3 2 1/summer/40/MizuLeo.FruitsVeggies_AdzukiBean/-1/0/true 2 2 0 .05/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_AsparagusSeeds": "1 1 2 1/summer/36/MizuLeo.FruitsVeggies_Asparagus/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
+				"MizuLeo.FruitsVeggies_AgaveSeeds": "1 2 3 2/spring/47/MizuLeo.FruitsVeggies_Agave/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops","MizuLeo.FruitsVeggies_AsparagusSeeds": "1 1 2 1/summer/36/MizuLeo.FruitsVeggies_Asparagus/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_BambooShoot": "1 1 2 1 2/spring summer/0/MizuLeo.FruitsVeggies_Bamboo/5/1/true 2 2 0 .1/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_BarleySeeds": "1 1 1 1/fall/28/MizuLeo.FruitsVeggies_Barley/-1/1/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_BellPepperSeeds": "1 2 3 2 2/fall/2/MizuLeo.FruitsVeggies_BellPepper/4/0/true 1 1 0 .2/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
@@ -901,7 +901,6 @@
 				"MizuLeo.FruitsVeggies_KidneyBeanStarter": "1 2 3 2 2/fall/41/MizuLeo.FruitsVeggies_KidneyBeans/4/0/true 2 2 0 .1/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_KiwiStarter": "3 4 3 10 1/summer/34/MizuLeo.FruitsVeggies_Kiwi/3/0/true 1 1 0 .02/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_LettuceSeeds": "1 1 1 2 1/summer/26/MizuLeo.FruitsVeggies_Lettuce/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_MagueySeeds": "1 2 3 2/spring/47/MizuLeo.FruitsVeggies_Maguey/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_NavyBeanStarter": "1 2 3 2 2/summer/37/MizuLeo.FruitsVeggies_NavyBeans/3/0/true 2 2 0 .1/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_OatSeeds": "1 1 1 1/fall/29/MizuLeo.FruitsVeggies_Oats/-1/1/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
 				"MizuLeo.FruitsVeggies_OkraSeeds": "1 2 3 2 2/summer fall/50/MizuLeo.FruitsVeggies_Okra/4/0/true 2 2 0 .05/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
@@ -1255,5 +1254,11 @@
             "Target": "Mods/MizuLeo.FruitsVeggies/Crops, Mods/MizuLeo.FruitsVeggies/Objects, Mods/MizuLeo.FruitsVeggies/FruitTrees",
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
         },
+		
+		// add subfiles
+		{
+			"Action": "Include",
+			"FromFile": "data/objectcontexttags.json"
+		},
     ]
 }
