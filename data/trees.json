@@ -1,0 +1,119 @@
+{
+    "Changes": [
+		// add trees
+        {
+        	"Action": "EditData",
+        	"Target": "Data/FruitTrees",
+        	"Entries": {
+        		"MizuLeo.HerbsFlowers_CamphorSapling": {
+        			"DisplayName": "Camphor",
+        			"Seasons": [ "winter" ],
+        			"Fruit": [
+        				{
+        					"Id": "MizuLeo.HerbsFlowers_CamphorLeaves",
+        					"ItemId": "MizuLeo.HerbsFlowers_CamphorLeaves"
+        				}
+        			],
+        			"Texture": "",
+        			"TextureSpriteRow": 0
+        		},
+        		"MizuLeo.HerbsFlowers_EucalyptusSapling": {
+        			"DisplayName": "Eucalyptus",
+        			"Seasons": [ "spring" ],
+        			"Fruit": [
+        				{
+        					"Id": "MizuLeo.HerbsFlowers_EucalyptusLeaves",
+        					"ItemId": "MizuLeo.HerbsFlowers_EucalyptusLeaves"
+        				}
+        			],
+        			"Texture": "",
+        			"TextureSpriteRow": 0
+        		},
+        		"MizuLeo.HerbsFlowers_HibiscusSapling": {
+        			"DisplayName": "Hibiscus",
+        			"Seasons": [ "summer" ],
+        			"Fruit": [
+        				{
+        					"Id": "MizuLeo.HerbsFlowers_Hibiscus",
+        					"ItemId": "MizuLeo.HerbsFlowers_Hibiscus"
+        				}
+        			],
+        			"Texture": "",
+        			"TextureSpriteRow": 0
+        		},
+        		"MizuLeo.HerbsFlowers_JasmineSapling": {
+        			"DisplayName": "Jasmine",
+        			"Seasons": [ "fall" ],
+        			"Fruit": [
+        				{
+        					"Id": "MizuLeo.HerbsFlowers_Jasmine",
+        					"ItemId": "MizuLeo.HerbsFlowers_Jasmine"
+        				}
+        			],
+        			"Texture": "",
+        			"TextureSpriteRow": 0
+        		},
+        		"MizuLeo.HerbsFlowers_MagnoliaSapling": {
+        			"DisplayName": "Magnolia",
+        			"Seasons": [ "spring" ],
+        			"Fruit": [
+        				{
+        					"Id": "MizuLeo.HerbsFlowers_Magnolia",
+        					"ItemId": "MizuLeo.HerbsFlowers_Magnolia"
+        				}
+        			],
+        			"Texture": "",
+        			"TextureSpriteRow": 0
+        		},
+        		"MizuLeo.HerbsFlowers_MelaleucaSapling": {
+        			"DisplayName": "Melaleuca",
+        			"Seasons": [ "spring" ],
+        			"Fruit": [
+        				{
+        					"Id": "MizuLeo.HerbsFlowers_MelaleucaLeaves",
+        					"ItemId": "MizuLeo.HerbsFlowers_MelaleucaLeaves"
+        				}
+        			],
+        			"Texture": "",
+        			"TextureSpriteRow": 0
+        		},
+        		"MizuLeo.HerbsFlowers_VanillaSapling": {
+        			"DisplayName": "Vanilla",
+        			"Seasons": [ "spring" ],
+        			"Fruit": [
+        				{
+        					"Id": "MizuLeo.HerbsFlowers_Vanilla",
+        					"ItemId": "MizuLeo.HerbsFlowers_Vanilla"
+        				}
+        			],
+        			"Texture": "",
+        			"TextureSpriteRow": 0
+        		},
+        		"MizuLeo.HerbsFlowers_WisteriaSapling": {
+        			"DisplayName": "Wisteria",
+        			"Seasons": [ "spring" ],
+        			"Fruit": [
+        				{
+        					"Id": "MizuLeo.HerbsFlowers_Wisteria",
+        					"ItemId": "MizuLeo.HerbsFlowers_Wisteria"
+        				}
+        			],
+        			"Texture": "",
+        			"TextureSpriteRow": 0
+        		},
+        		"MizuLeo.HerbsFlowers_YlangYlang": {
+        			"DisplayName": "Ylang Ylang",
+        			"Seasons": [ "summer" ],
+        			"Fruit": [
+        				{
+        					"Id": "MizuLeo.HerbsFlowers_YlangYlang",
+        					"ItemId": "MizuLeo.HerbsFlowers_YlangYlang"
+        				}
+        			],
+        			"Texture": "",
+        			"TextureSpriteRow": 0
+        		}
+        	}
+        },
+    ]
+}

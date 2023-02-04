@@ -1,0 +1,33 @@
+{
+    "Changes": [
+		// add shop data - island trader
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "IslandTrade", "Items" ],
+			"Entries": {
+				"MizuLeo.HerbsFlowers_PitcherPlantStarter": {
+					"Id": "MizuLeo.HerbsFlowers_PitcherPlant",
+					"ItemId": "MizuLeo.HerbsFlowers_PitcherPlant",
+					"TradeItemId": "(O)851", //Magma Cap
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_RafflesiaCutting": {
+					"Id": "MizuLeo.HerbsFlowers_RafflesiaCutting",
+					"ItemId": "MizuLeo.HerbsFlowers_RafflesiaCutting",
+					"TradeItemId": "(O)848", //Cinder Shard
+					"TradeItemAmount": 50,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_GingerSeeds": {
+					"Id": "MizuLeo.HerbsFlowers_GingerSeeds",
+					"ItemId": "MizuLeo.HerbsFlowers_GingerSeeds",
+					"TradeItemId": "(O)881", //Bone Fragment
+					"TradeItemAmount": 2,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}

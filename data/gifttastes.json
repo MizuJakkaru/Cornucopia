@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        // add gift tastes
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": "MizuLeo.HerbsFlowers_GreenPeaSeeds", 
+                    "Delimiter": " " // if there are already values, add a space between them and the new one
+                }
+            ]
+        },
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "Changes": [
+		// add shop data - oasis
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Sandy", "Items" ],
+			"Entries": {
+				"MizuLeo.HerbsFlowers_FairyDusterPod": {
+					"Id": "MizuLeo.HerbsFlowers_FairyDusterPod",
+					"ItemId": "MizuLeo.HerbsFlowers_FairyDusterPod",
+					"Price": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_LotusStarter": {
+					"Id": "MizuLeo.HerbsFlowers_LotusStarter",
+					"ItemId": "MizuLeo.HerbsFlowers_LotusStarter",
+					"Condition": "YEAR 3",
+					"Price": 60,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_HibiscusSapling": {
+					"Id": "MizuLeo.HerbsFlowers_HibiscusSapling",
+					"ItemId": "MizuLeo.HerbsFlowers_HibiscusSapling",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_YlangYlangSapling": {
+					"Id": "MizuLeo.HerbsFlowers_YlangYlangSapling",
+					"ItemId": "MizuLeo.HerbsFlowers_YlangYlangSapling",
+					"Condition": "YEAR 3",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+    ]
+}

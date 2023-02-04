@@ -1,0 +1,468 @@
+{
+    "Changes": [
+		 // add shop data - custom shop: catalog
+        {
+            "Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"MizuLeo.HerbsFlowers_FlowerCatalog": {
+					"Items": [
+					{
+						"Id": "MizuLeo.HerbsFlowers_AlliumSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_AlliumSeeds",
+						"Condition": "SEASON summer",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_AloePod",
+						"ItemId": "MizuLeo.HerbsFlowers_AloePod",
+						"Condition": "SEASON summer, YEAR 2",
+						"Price": 100,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_BasilSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_BasilSeeds",
+						"Condition": "SEASON spring, YEAR 2",
+						"Price": 50,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_BaySeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_BaySeeds",
+						"Condition": "SEASON winter, YEAR 2",
+						"Price": 50,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_BlueMistSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_BlueMistSeeds",
+						"Condition": "SEASON summer",
+						"Price": 20,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_BluebonnetSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_BluebonnetSeeds",
+						"Condition": "SEASON spring",
+						"Price": 20,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_CamelliaSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_CamelliaSeeds",
+						"Condition": "SEASON spring, YEAR 2",
+						"Price": 50,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_CarnationSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_CarnationSeeds",
+						"Condition": "SEASON spring, YEAR 2",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_ChamomileSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_ChamomileSeeds",
+						"Condition": "SEASON spring",
+						"Price": 25,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_ChiveSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_ChiveSeeds",
+						"Condition": "SEASON summer, YEAR 2",
+						"Price": 20,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_ChrysanthemumSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_ChrysanthemumSeeds",
+						"Condition": "SEASON fall, YEAR 2",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_CorrianderSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers",
+						"Condition": "SEASON fall, YEAR 2",
+						"Price": 20,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_ClarySageSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_ClarySageSeeds",
+						"Condition": "SEASON summer, YEAR 2",
+						"Price": 20,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_ClematisStarter",
+						"ItemId": "MizuLeo.HerbsFlowers_ClematisStarter",
+						"Condition": "SEASON fall, YEAR 2",
+						"Price": 90,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_CrocusBulb",
+						"ItemId": "MizuLeo.HerbsFlowers_CrocusBulb",
+						"Condition": "SEASON winter, YEAR 3",
+						"Price": 35,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_CuminSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_CuminSeeds",
+						"Condition": "SEASON fall, YEAR 3",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_DahliaSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_DahliaSeeds",
+						"Condition": "SEASON fall",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_DaisySeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_DaisySeeds",
+						"Condition": "SEASON summer",
+						"Price": 15,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_DelphiniumSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_DelphiniumSeeds",
+						"Condition": "SEASON spring, YEAR 2",
+						"Price": 50,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_DillSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_DillSeeds",
+						"Condition": "SEASON spring, YEAR 2",
+						"Price": 50,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_FallRoseStarter",
+						"ItemId": "MizuLeo.HerbsFlowers_FallRoseStarter",
+						"Condition": "SEASON fall, YEAR 2",
+						"Price": 200,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_FennelSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_FennelSeeds",
+						"Condition": "SEASON fall, YEAR 3",
+						"Price": 20,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_FenugreekSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_FenugreekSeeds",
+						"Condition": "SEASON spring, YEAR 3",
+						"Price": 20,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_FreesiaBulb",
+						"ItemId": "MizuLeo.HerbsFlowers_FreesiaBulb",
+						"Condition": "SEASON fall, YEAR 2",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_GeraniumSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_GeraniumSeeds",
+						"Condition": "SEASON fall, YEAR 2",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_HollySeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_HollySeeds",
+						"Condition": "SEASON winter, YEAR 3",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_HyacinthSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_HyacinthSeeds",
+						"Condition": "SEASON spring, YEAR 2",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_HydrangeaSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_HydrangeaSeeds",
+						"Condition": "SEASON summer",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_IrisBulb",
+						"ItemId": "MizuLeo.HerbsFlowers_IrisBulb",
+						"Condition": "SEASON fall",
+						"Price": 50,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_LavenderSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_LavenderSeeds",
+						"Condition": "SEASON summer",
+						"Price": 20,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_LemongrassSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_LemongrassSeeds",
+						"Condition": "SEASON summer, YEAR 3",
+						"Price": 25,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_LicoriceSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_LicoriceSeeds",
+						"Condition": "SEASON spring, YEAR 4",
+						"Price": 100,
+						"IgnoreShopPriceModifiers": true	
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_LilacPod",
+						"ItemId": "MizuLeo.HerbsFlowers_LilacPod",
+						"Condition": "SEASON spring summer",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_LilyBulb",
+						"ItemId": "MizuLeo.HerbsFlowers_LilyBulb",
+						"Condition": "SEASON summer, YEAR 2",
+						"Price": 50,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_LupineSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_LupineSeeds",
+						"Condition": "SEASON summer",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_MarjoramSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_MarjoramSeeds",
+						"Condition": "SEASON spring, YEAR 3",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_MintSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_MintSeeds",
+						"Condition": "SEASON winter, YEAR 2",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_MorningGloryStarter",
+						"ItemId": "MizuLeo.HerbsFlowers_MorningGloryStarter",
+						"Condition": "SEASON spring",
+						"Price": 80,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_OrchidBulb",
+						"ItemId": "MizuLeo.HerbsFlowers_OrchidBulb",
+						"Condition": "SEASON summer fall, YEAR 3",
+						"Price": 200,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_OreganoSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_OreganoSeeds",
+						"Condition": "SEASON summer, YEAR 2",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_PansySeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_PansySeeds",
+						"Condition": "SEASON spring",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_ParsleySeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_ParsleySeeds",
+						"Condition": "SEASON spring, YEAR 2",
+						"Price": 25,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_PeonySeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_PeonySeeds",
+						"Condition": "SEASON spring",
+						"Price": 50,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_PerillaSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_PerillaSeeds",
+						"Condition": "SEASON summer, YEAR 3",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_PetuniaSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_PetuniaSeeds",
+						"Condition": "SEASON summer",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_PurpleConeflowerSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_PurpleConeflowerSeeds",
+						"Condition": "SEASON fall, YEAR 2",
+						"Price": 35,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_RoseSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_RoseSeeds",
+						"Condition": "SEASON spring summer",
+						"Price": 200,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_RosemarySeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_RosemarySeeds",
+						"Condition": "SEASON fall, YEAR 2",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_SageSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_SageSeeds",
+						"Condition": "SEASON fall, YEAR 2",
+						"Price": 40,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_SpringRoseStarter",
+						"ItemId": "MizuLeo.HerbsFlowers_SpringRoseStarter",
+						"Condition": "SEASON spring, YEAR 2",
+						"Price": 200,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_SummerRoseStarter",
+						"ItemId": "MizuLeo.HerbsFlowers_SummerRoseStarter",
+						"Condition": "SEASON summer, YEAR 2",
+						"Price": 200,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_SweetPeaSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_SweetPeaSeeds",
+						"Condition": "SEASON summer, YEAR 3",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_TarragonSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_TarragonSeeds",
+						"Condition": "SEASON fall, YEAR 3",
+						"Price": 35,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_ThymeSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_ThymeSeeds",
+						"Condition": "SEASON fall, YEAR 3",
+						"Price": 30,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_TurmericSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_TurmericSeeds",
+						"Condition": "SEASON fall, YEAR 3",
+						"Price": 80,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_VioletSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_VioletSeeds",
+						"Condition": "SEASON spring",
+						"Price": 20,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_WinterRoseStarter",
+						"ItemId": "MizuLeo.HerbsFlowers_WinterRoseStarter",
+						"Condition": "SEASON winter, YEAR 2",
+						"Price": 200,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_WormwoodSeeds",
+						"ItemId": "MizuLeo.HerbsFlowers_WormwoodSeeds",
+						"Condition": "SEASON winter, YEAR 3",
+						"Price": 100,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_CamphorSapling",
+						"ItemId": "MizuLeo.HerbsFlowers_CamphorSapling",
+						"Condition": "YEAR 3",
+						"Price": 4000,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_EucalyptusSapling",
+						"ItemId": "MizuLeo.HerbsFlowers_EucalyptusSapling",
+						"Condition": "YEAR 2",
+						"Price": 5500,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_JasmineSapling",
+						"ItemId": "MizuLeo.HerbsFlowers_JasmineSapling",
+						"Condition": "YEAR 2",
+						"Price": 3000,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_NutmegSapling",
+						"ItemId": "MizuLeo.HerbsFlowers_NutmegSapling",
+						"Condition": "YEAR 2",
+						"Price": 4000,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_MagnoliaSapling",
+						"ItemId": "MizuLeo.HerbsFlowers_MagnoliaSapling",
+						"Condition": "YEAR 2",
+						"Price": 2500,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_VanillaSapling",
+						"ItemId": "MizuLeo.HerbsFlowers_VanillaSapling",
+						"Price": 5000,
+						"IgnoreShopPriceModifiers": true
+					},
+					{
+						"Id": "MizuLeo.HerbsFlowers_WisteriaSapling",
+						"ItemId": "MizuLeo.HerbsFlowers_WisteriaSapling",
+						"Price": 2500,
+						"IgnoreShopPriceModifiers": true
+					}
+					]
+				}
+			}
+		},
+    ]
+}

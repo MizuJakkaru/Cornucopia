@@ -1,0 +1,53 @@
+{
+    "Changes": [
+		// add shop data - marnie's ranch
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "AnimalShop", "Items" ],
+			"Entries": {
+				"MizuLeo.HerbsFlowers_BeeBalmSeeds": {
+					"Id": "MizuLeo.HerbsFlowers_BeeBalmSeeds",
+					"ItemId": "MizuLeo.HerbsFlowers_BeeBalmSeeds",
+					"Condition": "SEASON fall",
+					"Price": 20,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_ButtercupSeeds": {
+					"Id": "MizuLeo.HerbsFlowers_ButtercupSeeds",
+					"ItemId": "MizuLeo.HerbsFlowers_ButtercupSeeds",
+					"Condition": "SEASON summer",
+					"Price": 15,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_CatnipSeeds": {
+					"Id": "MizuLeo.HerbsFlowers_CatnipSeeds",
+					"ItemId": "MizuLeo.HerbsFlowers_CatnipSeeds",
+					"Condition": "SEASON spring, YEAR 2",
+					"Price": 60,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_HoneysuckleStarter": {
+					"Id": "MizuLeo.HerbsFlowers_HoneysuckleStarter",
+					"ItemId": "MizuLeo.HerbsFlowers_HoneysuckleStarter",
+					"Condition": "SEASON spring",
+					"Price": 80,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_PinkCatSeeds": {
+					"Id": "MizuLeo.HerbsFlowers_PinkCatSeeds",
+					"ItemId": "MizuLeo.HerbsFlowers_PinkCatSeeds",
+					"Condition": "SEASON spring",
+					"Price": 20,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.HerbsFlowers_MelaleucaSapling": {
+					"Id": "MizuLeo.HerbsFlowers_MelaleucaSapling",
+					"ItemId": "MizuLeo.HerbsFlowers_MelaleucaSapling",
+					"Price": 4000,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}
