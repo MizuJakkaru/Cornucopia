@@ -1,0 +1,30 @@
+{
+    "Changes": [
+		// add shop data - dwarf's shop
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Dwarf", "Items" ],
+			"Entries": {
+				"MizuLeo.FruitsVeggies_GinsengSeeds": {
+					"Id": "MizuLeo.FruitsVeggies_GinsengSeeds",
+					"ItemId": "MizuLeo.FruitsVeggies_GinsengSeeds",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.FruitsVeggies_ShiitakeStarter": {
+					"Id": "MizuLeo.FruitsVeggies_ShiitakeStarter",
+					"ItemId": "MizuLeo.FruitsVeggies_ShiitakeStarter",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.FruitsVeggies_SulfurShelfStarter": {
+					"Id": "MizuLeo.FruitsVeggies_SulfurShelfStarter",
+					"ItemId": "MizuLeo.FruitsVeggies_SulfurShelfStarter",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}

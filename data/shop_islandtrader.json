@@ -1,0 +1,26 @@
+{
+    "Changes": [
+		// add shop data - island trader
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "IslandTrade", "Items" ],
+			"Entries": {
+				"MizuLeo.FruitsVeggies_PapayaSapling": {
+					"Id": "MizuLeo.FruitsVeggies_PapayaSapling",
+					"ItemId": "MizuLeo.FruitsVeggies_PapayaSapling",
+					"TradeItemId": "(O)719", //Mussel
+					"TradeItemAmount": 75,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.FruitsVeggies_PlantainSapling": {
+					"Id": "MizuLeo.FruitsVeggies_PlantainSapling",
+					"ItemId": "MizuLeo.FruitsVeggies_PlantainSapling",
+					"TradeItemId": "(O)91", //Banana
+					"TradeItemAmount": 5,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}
