@@ -722,7 +722,7 @@
 				{ "Id": "MizuLeo.FruitsVeggies_LettuceSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_NavyBeanStarter", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_OatSeeds", "BeforeId": "(O)245" },
-				{ "Id": "MizuLeo.FruitsVeggies_OkraSeedsShopa", "BeforeId": "(O)245" },
+				{ "Id": "MizuLeo.FruitsVeggies_OkraSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_OnionSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_PassionFruitStarter", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_PeanutSeeds", "BeforeId": "(O)245" },
