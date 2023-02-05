@@ -363,6 +363,13 @@
 					"Price": 250,
 					"IgnoreShopPriceModifiers": true
 				},
+				"MizuLeo.FruitsVeggies_WhiteGrapeStarter": {
+					"Id": "MizuLeo.FruitsVeggies_WhiteGrapeStarter",
+					"ItemId": "MizuLeo.FruitsVeggies_WhiteGrapeStarter",
+					"Condition": "SEASON fall",
+					"Price": 55,
+					"IgnoreShopPriceModifiers": true
+				},
 				"MizuLeo.FruitsVeggies_ZucchiniSeeds": {
 					"Id": "MizuLeo.FruitsVeggies_ZucchiniSeeds",
 					"ItemId": "MizuLeo.FruitsVeggies_ZucchiniSeeds",
@@ -557,6 +564,7 @@
 				{ "Id": "MizuLeo.FruitsVeggies_TabascoPepperSeeds", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_WasabiTuber", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_WatermelonSeeds", "BeforeId": "(O)245" },
+				{ "Id": "MizuLeo.FruitsVeggies_WhiteGrapeStarter", "BeforeId": "(O)245" },
 				{ "Id": "MizuLeo.FruitsVeggies_ZucchiniSeeds", "BeforeId": "(O)245" }
 			]
 		},

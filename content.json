@@ -63,6 +63,7 @@
 				"MizuLeo.FruitsVeggies_TabascoPepper": "Tabasco Pepper/80/5/Fruits -79/Tabasco Pepper/The only juicy variety of chili pepper.////186/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_WasabiRoot": "Wasabi Root/165/5/Vegetable -75/Wasabi Root/A root that can be used to make wasabi paste. It has a strong flavor!////140/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Watermelon": "Watermelon/175/45/Fruits -79/Watermelon/Juicy and sweet, it's a delicious summer treat. Often brought on beach trips!////14/Mods\\MizuLeo.FruitsVeggies\\Objects",
+				"MizuLeo.FruitsVeggies_WhiteGrape": "White Grape/60/15/Fruits -79/White Grape/A different cultivar of grape. It can be used to make sparkling wine.////110/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_Zucchini": "Zucchini/175/18/Vegetable -75/Zucchini/The cousin of squash, it's used for vegetable dishes. It has much flavor when roasted.////116/Mods\\MizuLeo.FruitsVeggies\\Objects",
 
 				// seeds
@@ -123,6 +124,7 @@
 				"MizuLeo.FruitsVeggies_TabascoPepperSeeds": "Tabasco Pepper Seeds/65/-300/Seeds -74/Tabasco Pepper Seeds/Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.////187/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_WasabiTuber": "Wasabi Tuber/50/-300/Seeds -74/Wasabi Tuber/Plant these in summer. Takes 8 days to mature.////141/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_WatermelonSeeds": "Watermelon Seeds/125/-300/Seeds -74/Watermelon Seeds/Plant these in summer. Takes 14 days to mature, and continues to produce after the first harvest.////15/Mods\\MizuLeo.FruitsVeggies\\Objects",
+				"MizuLeo.FruitsVeggies_WhiteGrapeStarter": "White Grape Starter/28/-300/Seeds -74/White Grape Starter/Plant these in fall. Takes 8 days to mature, and continues to produce after the first harvest.////111/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				"MizuLeo.FruitsVeggies_ZucchiniSeeds": "Zucchini Seeds/112/-300/Seeds -74/Zucchini Seeds/Plant these in fall. Takes 14 days to mature, and continues to produce after the first harvest.////117/Mods\\MizuLeo.FruitsVeggies\\Objects",
 				
 				// tree produce
