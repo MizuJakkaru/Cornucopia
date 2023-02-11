@@ -1,68 +1,560 @@
 {
     "Changes": [
-        // add crops
+		// add crops
         {
             "Action": "EditData",
             "Target": "Data/Crops",
             "Entries": {
-                "MizuLeo.FruitsVeggies_AdzukiBeanSeeds": "1 2 3 2 1/summer/40/MizuLeo.FruitsVeggies_AdzukiBean/-1/0/true 2 2 0 .05/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_AgaveSeeds": "1 2 3 2/spring/47/MizuLeo.FruitsVeggies_Agave/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops","MizuLeo.FruitsVeggies_AsparagusSeeds": "1 1 2 1/summer/36/MizuLeo.FruitsVeggies_Asparagus/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_BambooShoot": "1 1 2 1 2/spring summer/0/MizuLeo.FruitsVeggies_Bamboo/5/1/true 2 2 0 .1/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_BarleySeeds": "1 1 1 1/fall/28/MizuLeo.FruitsVeggies_Barley/-1/1/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_BellPepperSeeds": "1 2 3 2 2/fall/2/MizuLeo.FruitsVeggies_BellPepper/4/0/true 1 1 0 .2/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_BlackBeanStarter": "1 2 3 2 2/fall/43/MizuLeo.FruitsVeggies_BlackBeans/3/0/true 2 2 0 .1/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_BlackberrySeeds": "1 2 3 2 2/fall/19/(O)410/4/0/true 3 3 0 .02/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_BlueAgaveSeeds": "2 3 4 3/summer/42/MizuLeo.FruitsVeggies_BlueAgave/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_BroccoliSeeds": "1 2 2 2/fall/20/MizuLeo.FruitsVeggies_Broccoli/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_BuckwheatSeeds": "1 1 1 1/spring/6/MizuLeo.FruitsVeggies_Buckwheat/-1/1/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_ButternutSquashSeeds": "1 2 3 2 2/summer/27/MizuLeo.FruitsVeggies_ButternutSquash/4/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CabbageSeeds": "1 2 2 1 1/spring/1/MizuLeo.FruitsVeggies_Cabbage/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CanaryMelonSeeds": "1 2 3 3 2/spring/4/MizuLeo.FruitsVeggies_CanaryMelon/4/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CantaloupeSeeds": "1 2 2 1 2/spring/48/MizuLeo.FruitsVeggies_Cantaloupe/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops","MizuLeo.FruitsVeggies_CarrotSeeds": "1 2 1 1 1/fall/16/MizuLeo.FruitsVeggies_Carrot/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CassavaSeeds": "1 2 2 1 1/summer/9/MizuLeo.FruitsVeggies_Cassava/-1/1/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CelerySeeds": "1 2 2 1/fall/22/MizuLeo.FruitsVeggies_Celery/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_ChickpeaSeeds": "2 2 3 2 1/summer/44/MizuLeo.FruitsVeggies_Chickpea/5/0/true 2 2 0 .02/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CottonSeeds": "1 1 1 2 2/summer fall/8/MizuLeo.FruitsVeggies_CottonBoll/3/0/true 2 2 0 .1/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CucumberStarter": "1 2 3 3 2/summer/7/MizuLeo.FruitsVeggies_Cucumber/3/0/true 2 2 0 .05/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_DaikonSeeds": "1 2 2 2 1/fall/45/MizuLeo.FruitsVeggies_Daikon/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_DurumSeeds": "1 1 1 1/fall/49/MizuLeo.FruitsVeggies_Durum/-1/1/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_ElderberrySeeds": "1 2 3 2 2/winter/11/MizuLeo.FruitsVeggies_Elderberries/4/0/true 2 2 0 .1/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_GinsengSeeds": "3 5 9 8 5/spring winter/25/MizuLeo.FruitsVeggies_Ginseng/-1/0/true 1 1 0 .5/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_GooseberrySeeds": "1 2 3 4 3/summer/35/MizuLeo.FruitsVeggies_Gooseberry/3/0/true 2 2 0 .1/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_GreenPeaStarter": "1 2 2 2 1/summer/46/MizuLeo.FruitsVeggies_GreenPeas/3/0/true 4 4 0 .02/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_HabaneroSeeds": "1 2 3 2 2/fall/30/MizuLeo.FruitsVeggies_Habanero/4/0/true 1 1 0 .03/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_HoneydewSeeds": "1 2 2 1 2/summer/57/MizuLeo.FruitsVeggies_Honeydew/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_JalapenoSeeds": "1 2 3 2 2/fall/31/MizuLeo.FruitsVeggies_Jalapeno/4/0/true 1 1 0 .03/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_JuniperSeeds": "1 2 3 4 3/winter/21/MizuLeo.FruitsVeggies_JuniperBerries/3/0/true 2 2 0 .1/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_KidneyBeanStarter": "1 2 3 2 2/fall/41/MizuLeo.FruitsVeggies_KidneyBeans/4/0/true 2 2 0 .1/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_KiwiStarter": "3 4 3 10 1/summer/34/MizuLeo.FruitsVeggies_Kiwi/3/0/true 1 1 0 .02/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_LettuceSeeds": "1 1 1 2 1/summer/26/MizuLeo.FruitsVeggies_Lettuce/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_NavyBeanStarter": "1 2 3 2 2/summer/37/MizuLeo.FruitsVeggies_NavyBeans/3/0/true 2 2 0 .1/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_OatSeeds": "1 1 1 1/fall/29/MizuLeo.FruitsVeggies_Oats/-1/1/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_OkraSeeds": "1 2 3 2 2/summer fall/50/MizuLeo.FruitsVeggies_Okra/4/0/true 2 2 0 .05/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_OnionSeeds": "1 2 3 2/spring/5/MizuLeo.FruitsVeggies_Onion/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_PassionFruitStarter": "1 2 3 4 2/spring/12/MizuLeo.FruitsVeggies_PassionFruit/5/0/true 1 1 0 .02/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_PeanutSeeds": "1 1 2 2/fall/18/MizuLeo.FruitsVeggies_Peanut/-1/0/true 1 1 0 .2/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_PintoBeanStarter": "1 2 3 2 2/spring/39/MizuLeo.FruitsVeggies_PintoBeans/3/0/true 2 2 0 .1/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_QuinoaSeeds": "1 1 2 2/summer/38/MizuLeo.FruitsVeggies_Quinoa/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_CanolaSeeds": "1 2 2 2 1/spring summer/10/MizuLeo.FruitsVeggies_CanolaFlower/-1/1/true 1 1 0 .1/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_RaspberrySeeds": "1 2 3 2 2/summer/24/MizuLeo.FruitsVeggies_Raspberry/4/0/true 3 3 0 .02/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_RedOnionSeeds": "1 2 3 2/spring/32/MizuLeo.FruitsVeggies_RedOnion/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_ShallotSeeds": "1 2 3 2/spring/33/MizuLeo.FruitsVeggies_Shallot/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_ShiitakeStarter": "2 3 3 2/spring fall/51/MizuLeo.FruitsVeggies_Shiitake/-1/0/true 1 1 0 .2/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_SoybeanSeeds": "1 2 3 2 2/fall/14/MizuLeo.FruitsVeggies_Soybean/-1/0/true 2 2 0 .05/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_SpinachSeeds": "1 1 1 2/spring fall/55/MizuLeo.FruitsVeggies_Spinach/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_SugarBeetSeeds": "1 1 2 3 1/spring/15/MizuLeo.FruitsVeggies_SugarBeet/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_SugarCaneSeeds": "1 2 3 2 2/summer/17/MizuLeo.FruitsVeggies_SugarCane/-1/1/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_SulfurShelfStarter": "2 3 3 2/summer fall/52/MizuLeo.FruitsVeggies_SulfurShelf/-1/0/true 1 1 0 .2/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_SummerSquashStarter": "2 2 3 4 3/summer/56/MizuLeo.FruitsVeggies_SummerSquash/2/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_SweetPotatoSeeds": "1 2 2 2 1/fall/13/MizuLeo.FruitsVeggies_SweetPotato/-1/0/true 1 1 0 .2/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_TabascoPepperSeeds": "1 2 3 2 2/fall/53/MizuLeo.FruitsVeggies_TabascoPepper/4/0/true 1 1 0 .03/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_WasabiTuber": "1 2 3 2/summer/23/MizuLeo.FruitsVeggies_WasabiRoot/-1/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_WatermelonSeeds": "2 2 3 4 3/summer/3/MizuLeo.FruitsVeggies_Watermelon/5/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_WhiteGrapeStarter": "1 2 2 2 1/fall/60/MizuLeo.FruitsVeggies_WhiteGrape/3/0/false/true/false/Mods\\MizuLeo.FruitsVeggies\\Crops",
-				"MizuLeo.FruitsVeggies_ZucchiniSeeds": "2 2 3 4 3/fall/54/MizuLeo.FruitsVeggies_Zucchini/2/0/false/false/false/Mods\\MizuLeo.FruitsVeggies\\Crops"
-			}
-        },
+                "MizuLeo.FruitsVeggies_AdzukiBeanSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_AdzukiBean",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 40,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.05
+                    },
+                "MizuLeo.FruitsVeggies_AgaveSeeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 2, 3, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Agave",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 47
+                    },
+                "MizuLeo.FruitsVeggies_AsparagusSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 1, 2, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Asparagus",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 36
+                    },
+                "MizuLeo.FruitsVeggies_BambooShoot": {
+                    "Seasons": [ "spring, summer" ],
+                    "DaysInPhase": [ 1, 1, 2, 1, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Bamboo",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 0,
+					"RegrowDays": 5,
+					"HarvestMethod": "Scythe",
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_BarleySeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 1, 1, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Barley",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 28,
+					"HarvestMethod": "Scythe"
+                    },
+                "MizuLeo.FruitsVeggies_BellPepperSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_BellPepper",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 2,
+					"RegrowDays": 4,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.2
+                    },
+                "MizuLeo.FruitsVeggies_BlackBeanStarter": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_BlackBeans",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 43,
+					"RegrowDays": 3,
+					"IsRaised": true,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_BlackberrySeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "(O)410",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 19,
+					"RegrowDays": 4,
+					"HarvestMinStack": 3,
+					"HarvestMaxStack": 3,
+					"ExtraHarvestChance": 0.02
+                    },
+                "MizuLeo.FruitsVeggies_BlueAgaveSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 2, 3, 4, 3 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_BlueAgave",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 42
+                    },
+                "MizuLeo.FruitsVeggies_BroccoliSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Broccoli",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 20
+                    },
+                "MizuLeo.FruitsVeggies_BuckwheatSeeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 1, 1, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Buckwheat",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 6,
+					"HarvestMethod": "Scythe"
+                    },
+                "MizuLeo.FruitsVeggies_ButternutSquashSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_ButternutSquash",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 27,
+					"RegrowDays": 4
+                    },
+                "MizuLeo.FruitsVeggies_CabbageSeeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 2, 2, 1, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Cabbage",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 1
+                    },
+                "MizuLeo.FruitsVeggies_CanaryMelonSeeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 2, 3, 3, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_CanaryMelon",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 4,
+					"RegrowDays": 4
+                    },
+                "MizuLeo.FruitsVeggies_CanolaSeeds": {
+                    "Seasons": [ "spring, summer" ],
+                    "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_CanolaFlower",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 10,
+					"HarvestMethod": "Scythe",
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_CantaloupeSeeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 2, 2, 1, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Cantaloupe",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 48
+                    },
+                "MizuLeo.FruitsVeggies_CarrotSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 1, 1, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Carrot",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 16
+                    },
+                "MizuLeo.FruitsVeggies_CassavaSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 2, 1, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Cassava",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 9,
+					"HarvestMethod": "Scythe"
+                    },
+                "MizuLeo.FruitsVeggies_CelerySeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 2, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Celery",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 22
+                    },
+                "MizuLeo.FruitsVeggies_ChickpeaSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Chickpea",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 44,
+					"RegrowDays": 5,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.02
+                    },
+                "MizuLeo.FruitsVeggies_CottonSeeds": {
+                    "Seasons": [ "summer, fall" ],
+                    "DaysInPhase": [ 1, 1, 1, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_CottonBoll",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 8,
+					"RegrowDays": 3,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_CucumberStarter": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 3, 3, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Cucumber",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 7,
+					"RegrowDays": 3,
+					"IsRaised": true,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.05
+                    },
+                "MizuLeo.FruitsVeggies_DaikonSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Daikon",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 45
+                    },
+                "MizuLeo.FruitsVeggies_DurumSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 1, 1, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Durum",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 49,
+					"HarvestMethod": "Scythe"
+                    },
+                "MizuLeo.FruitsVeggies_ElderberrySeeds": {
+                    "Seasons": [ "winter" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Elderberries",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 11,
+					"RegrowDays": 4,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_GinsengSeeds": {
+                    "Seasons": [ "spring, winter" ],
+                    "DaysInPhase": [ 3, 5, 9, 8, 5 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Ginseng",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 25,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.5
+                    },
+                "MizuLeo.FruitsVeggies_GooseberrySeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Gooseberry",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 35,
+					"RegrowDays": 3,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_GreenPeaStarter": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_GreenPeas",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 46,
+					"RegrowDays": 3,
+					"IsRaised": true,
+					"HarvestMinStack": 4,
+					"HarvestMaxStack": 4,
+					"ExtraHarvestChance": 0.02
+                    },
+                "MizuLeo.FruitsVeggies_HabaneroSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Habanero",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 30,
+					"RegrowDays": 4,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.03
+                    },
+                "MizuLeo.FruitsVeggies_HoneydewSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 2, 1, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Honeydew",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 57
+                    },
+                "MizuLeo.FruitsVeggies_JalapenoSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Jalapeno",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 31,
+					"RegrowDays": 4,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.03
+                    },
+                "MizuLeo.FruitsVeggies_JuniperSeeds": {
+                    "Seasons": [ "winter" ],
+                    "DaysInPhase": [ 1, 2, 3, 4, 3 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_JuniperBerries",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 21,
+					"RegrowDays": 3,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_KidneyBeanStarter": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_KidneyBeans",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 41,
+					"RegrowDays": 4,
+					"IsRaised": true,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_KiwiStarter": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 3, 4, 3, 10, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Kiwi",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 34,
+					"RegrowDays": 3,
+					"IsRaised": true,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.02
+                    },
+                "MizuLeo.FruitsVeggies_LettuceSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 1, 1, 2, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Lettuce",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 26
+                    },
+                "MizuLeo.FruitsVeggies_NavyBeanStarter": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_NavyBeans",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 37,
+					"RegrowDays": 3,
+					"IsRaised": true,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_OatSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 1, 1, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Oats",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 29,
+					"HarvestMethod": "Scythe"
+                    },
+                "MizuLeo.FruitsVeggies_OkraSeeds": {
+                    "Seasons": [ "summer, fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Okra",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 50,
+					"RegrowDays": 4,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.05
+                    },
+                "MizuLeo.FruitsVeggies_OnionSeeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 2, 3, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Onion",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 5
+                    },
+                "MizuLeo.FruitsVeggies_PassionFruitStarter": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 2, 3, 4, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_PassionFruit",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 12,
+					"RegrowDays": 5,
+					"IsRaised": true,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.02
+                    },
+                "MizuLeo.FruitsVeggies_PeanutSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 1, 2, 2],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Peanut",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 18,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.2
+                    },
+                "MizuLeo.FruitsVeggies_PintoBeanStarter": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_PintoBeans",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 39,
+					"RegrowDays": 3,
+					"IsRaised": true,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_QuinoaSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 1, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Quinoa",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 38,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.1
+                    },
+                "MizuLeo.FruitsVeggies_RaspberrySeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Raspberry",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 24,
+					"RegrowDays": 4,
+					"HarvestMinStack": 3,
+					"HarvestMaxStack": 3,
+					"ExtraHarvestChance": 0.02
+                    },
+                "MizuLeo.FruitsVeggies_RedOnionSeeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 2, 3, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_RedOnion",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 32
+                    },
+                "MizuLeo.FruitsVeggies_ShallotSeeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 2, 3, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Shallot",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 33
+                    },
+                "MizuLeo.FruitsVeggies_ShiitakeStarter": {
+                    "Seasons": [ "spring, fall" ],
+                    "DaysInPhase": [ 2, 3, 3, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Shiitake",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 51,
+					"IsRaised": true,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.2
+                    },
+                "MizuLeo.FruitsVeggies_SoybeanSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Soybean",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 14,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": 0.05
+                    },
+                "MizuLeo.FruitsVeggies_SpinachSeeds": {
+                    "Seasons": [ "spring fall" ],
+                    "DaysInPhase": [ 1, 1, 1, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Spinach",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 55
+                    },
+                "MizuLeo.FruitsVeggies_SugarBeetSeeds": {
+                    "Seasons": [ "spring" ],
+                    "DaysInPhase": [ 1, 1, 2, 3, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_SugarBeet",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 15
+                    },
+                "MizuLeo.FruitsVeggies_SugarCaneSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_SugarCane",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 17,
+					"HarvestMethod": "Scythe"
+                    },
+                "MizuLeo.FruitsVeggies_SulfurShelfStarter": {
+                    "Seasons": [ "summer, fall" ],
+                    "DaysInPhase": [ 2, 3, 3, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_SulfurShelf",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 52,
+					"IsRaised": true,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.2
+                    },
+                "MizuLeo.FruitsVeggies_SummerSquashStarter": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 2, 2, 3, 4, 3 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_SummerSquash",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 56,
+					"RegrowDays": 2
+                    },
+                "MizuLeo.FruitsVeggies_SweetPotatoSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_SweetPotato",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 13,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.2
+                    },
+                "MizuLeo.FruitsVeggies_TabascoPepperSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_TabascoPepper",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 53,
+					"RegrowDays": 4,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"ExtraHarvestChance": 0.03
+                    },
+                "MizuLeo.FruitsVeggies_WasabiTuber": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 1, 2, 3, 2 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_WasabiRoot",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 23
+                    },
+                "MizuLeo.FruitsVeggies_WatermelonSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 2, 2, 3, 4, 3 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Watermelon",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 3,
+					"RegrowDays": 5
+                    },
+                "MizuLeo.FruitsVeggies_WhiteGrapeStarter": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_WhiteGrape",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 60,
+					"RegrowDays": 3,
+					"IsRaised": true
+                    },
+                "MizuLeo.FruitsVeggies_ZucchiniSeeds": {
+                    "Seasons": [ "fall" ],
+                    "DaysInPhase": [ 2, 2, 3, 4, 3 ],
+                    "HarvestItemId": "MizuLeo.FruitsVeggies_Zucchini",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 54,
+					"RegrowDays": 2
+                    }
+                }
+		}
     ]
 }
