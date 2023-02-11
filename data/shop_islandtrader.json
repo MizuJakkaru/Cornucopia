@@ -10,7 +10,7 @@
 					"Id": "MizuLeo.FruitsVeggies_PapayaSapling",
 					"ItemId": "MizuLeo.FruitsVeggies_PapayaSapling",
 					"TradeItemId": "(O)719", //Mussel
-					"TradeItemAmount": 75,
+					"TradeItemAmount": 5,
 					"IgnoreShopPriceModifiers": true
 				},
 				"MizuLeo.FruitsVeggies_PlantainSapling": {
