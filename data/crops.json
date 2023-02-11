@@ -30,7 +30,7 @@
                     "SpriteIndex": 36
                     },
                 "MizuLeo.FruitsVeggies_BambooShoot": {
-                    "Seasons": [ "spring, summer" ],
+                    "Seasons": [ "spring", "summer" ],
                     "DaysInPhase": [ 1, 1, 2, 1, 2 ],
                     "HarvestItemId": "MizuLeo.FruitsVeggies_Bamboo",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
@@ -129,7 +129,7 @@
 					"RegrowDays": 4
                     },
                 "MizuLeo.FruitsVeggies_CanolaSeeds": {
-                    "Seasons": [ "spring, summer" ],
+                    "Seasons": [ "spring", "summer" ],
                     "DaysInPhase": [ 1, 2, 2, 2, 1 ],
                     "HarvestItemId": "MizuLeo.FruitsVeggies_CanolaFlower",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
@@ -180,7 +180,7 @@
 					"ExtraHarvestChance": 0.02
                     },
                 "MizuLeo.FruitsVeggies_CottonSeeds": {
-                    "Seasons": [ "summer, fall" ],
+                    "Seasons": [ "summer", "fall" ],
                     "DaysInPhase": [ 1, 1, 1, 2, 2 ],
                     "HarvestItemId": "MizuLeo.FruitsVeggies_CottonBoll",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
@@ -229,7 +229,7 @@
 					"ExtraHarvestChance": 0.1
                     },
                 "MizuLeo.FruitsVeggies_GinsengSeeds": {
-                    "Seasons": [ "spring, winter" ],
+                    "Seasons": [ "spring", "winter" ],
                     "DaysInPhase": [ 3, 5, 9, 8, 5 ],
                     "HarvestItemId": "MizuLeo.FruitsVeggies_Ginseng",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
@@ -353,7 +353,7 @@
 					"HarvestMethod": "Scythe"
                     },
                 "MizuLeo.FruitsVeggies_OkraSeeds": {
-                    "Seasons": [ "summer, fall" ],
+                    "Seasons": [ "summer", "fall" ],
                     "DaysInPhase": [ 1, 2, 3, 2, 2 ],
                     "HarvestItemId": "MizuLeo.FruitsVeggies_Okra",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
@@ -440,7 +440,7 @@
                     "SpriteIndex": 33
                     },
                 "MizuLeo.FruitsVeggies_ShiitakeStarter": {
-                    "Seasons": [ "spring, fall" ],
+                    "Seasons": [ "spring", "fall" ],
                     "DaysInPhase": [ 2, 3, 3, 2 ],
                     "HarvestItemId": "MizuLeo.FruitsVeggies_Shiitake",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
@@ -461,7 +461,7 @@
 					"ExtraHarvestChance": 0.05
                     },
                 "MizuLeo.FruitsVeggies_SpinachSeeds": {
-                    "Seasons": [ "spring fall" ],
+                    "Seasons": [ "spring", "fall" ],
                     "DaysInPhase": [ 1, 1, 1, 2 ],
                     "HarvestItemId": "MizuLeo.FruitsVeggies_Spinach",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
@@ -483,7 +483,7 @@
 					"HarvestMethod": "Scythe"
                     },
                 "MizuLeo.FruitsVeggies_SulfurShelfStarter": {
-                    "Seasons": [ "summer, fall" ],
+                    "Seasons": [ "summer", "fall" ],
                     "DaysInPhase": [ 2, 3, 3, 2 ],
                     "HarvestItemId": "MizuLeo.FruitsVeggies_SulfurShelf",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
