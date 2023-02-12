@@ -52,12 +52,12 @@
 				"Raspberry": "color_dark_red, season_summer, dye_strong",
 				"Red Onion": "color_dark_red, season_spring",
 				"Shallot": "color_salmon, season_spring",
-				"Shiitake": "color_brown, season_spring, season_fall",
+				"Shiitake": "color_brown, season_spring, season_fall, mushroom_item",
 				"Soybean": "color_green, season_fall",
 				"Spinach": "color_dark_green, season_spring, season_fall, dye_medium",
 				"SugarBeet": "color_white, season_spring",
 				"Sugar Cane": "color_dark_purple, season_summer",
-				"Sulfur Shelf": "color_brown, season_summer, season_fall",
+				"Sulfur Shelf": "color_brown, season_summer, season_fall, mushroom_item",
 				"Summer Squash": "color_yellow, season_summer",
 				"Sweet Potato": "color_dark_pink, season_fall, dye_medium",
 				"Tabasco Pepper": "color_red, season_fall",
@@ -94,20 +94,6 @@
 				"Ume": "color_green, season_summer",
 				"Yuzu": "color_yellow, season_winter"
 			}
-		},
-		
-		// add custom context tags, vanilla items
-		{
-			"Action": "EditData",
-			"Target": "Data/ObjectContextTags",
-			"TextOperations": [
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Hazelnut"],
-					"Value": "nut_soap_item",
-					"Delimiter": ", "
-				}
-			]
 		}
 	]
 }
