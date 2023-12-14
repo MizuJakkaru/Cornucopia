@@ -78,7 +78,7 @@
 				},
 				"MizuLeo.FruitsVeggies_CabbageSeeds": {
 					"Id": "MizuLeo.FruitsVeggies_CabbageSeeds",
-					"ItemId": "MizuLeo.FruitsVeggies_Cabbage",
+					"ItemId": "MizuLeo.FruitsVeggies_CabbageSeeds",
 					"Condition": "SEASON spring",
 					"Price": 80,
 					"IgnoreShopPriceModifiers": true

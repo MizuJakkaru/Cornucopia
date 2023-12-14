@@ -1,188 +1,2341 @@
 {
-    "Changes": [
-        // add items
+	"Changes": 
+	[
+        // add item
         {
             "Action": "EditData",
-            "Target": "Data/ObjectInformation",
-            "Entries": {
-				// produce
-				"MizuLeo.FruitsVeggies_AdzukiBean": "Adzuki Bean/90/10/Vegetable -75/Adzuki Bean/This bean creates a sweet paste when it's mashed.////104/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Agave": "Agave/170/0/Vegetable -75/Agave/A cutting of the agave plant which can be used to brew alcohol.////84/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Asparagus": "Asparagus/35/12/Vegetable -75/Asparagus/A delicious and fresh spring vegetable.////166/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Bamboo": "Bamboo/55/-300/Vegetable -75/Bamboo/The shoots of this plant are edible. It grows incredibly quickly.////112/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Barley": "Barley/25/-300/Vegetable -75/Barley/A dark grain that has a more earthy taste when processed than wheat.////114/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BellPepper": "Bell Pepper/70/15/Fruits -79/Bell Pepper/The tamest pepper on the scale. A delicious addition to many meals!////12/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BlackBeans": "Black Beans/15/-300/Vegetable -75/Black Beans/A savory bean that's earthy and rich in flavor.////162/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BlueAgave": "Blue Agave/300/0/Vegetable -75/Blue Agave/A cutting of the agave plant which can be used to brew alcohol.////86/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Broccoli": "Broccoli/120/30/Vegetable -75/Broccoli/The soft top of this vegetable is leafy and fluffy.////32/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Buckwheat": "Buckwheat/25/-300/Vegetable -75/Buckwheat/A more wild kind of wheat, it's somewhat bitter.////128/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_ButternutSquash": "Butternut Squash/200/8/Vegetable -75/Butternut Squash/It has a sweet, nutty taste similar to that of a pumpkin.////130/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Cabbage": "Cabbage/120/20/Vegetable -75/Cabbage/Cabbages are versatile and can be used in salad, pickling, and stews!////10/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CanaryMelon": "Canary Melon/225/45/Fruits -79/Canary Melon/A bright yellow melon, it's distinctively sweet and tangy.////8/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CanolaFlower": "Canola Flower/50/18/Flowers -80/Canola Flower/A flower that can be used to make oil.////176/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Cantaloupe": "Cantaloupe/180/35/Fruits -79/Cantaloupe/A sweet melon that often tastes great with citrus or salty compliments.////132/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Carrot": "Carrot/65/10/Vegetable -75/Carrot/The old wive's tale says that eating carrots helps improve eyesight.////46/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Cassava": "Cassava/80/-20/Vegetable -75/Cassava/A hardy tuber from tropical climates, it has a woody flavor.////22/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Celery": "Celery/70/8/Vegetable -75/Celery/Crisp and refreshing, it has little inherent taste on its own.////40/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Chickpea": "Chickpea/55/-300/Vegetable -75/Chickpea/A coastal stable. Roasted or boiled, they have a slightly nutty and salty taste.////62/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CottonBoll": "Cotton Boll/65/-300/Artisan_Goods -26/Cotton Boll/Fluffy and white, it can be used to make thread.////18/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Cucumber": "Cucumber/90/20/Vegetable -75/Cucumber/A delicious and watery snack.////16/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Daikon": "Daikon/120/18/Vegetable -75/Daikon/A large radish that's a favorite for making pickles!////154/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Durum": "Durum/25/-300/Vegetable -75/Durum/A hardy pasta that's used to make couscous and authentic pastas.////184/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Elderberries": "Elderberries/20/10/Fruits -79/Elderberries/Elderberries have been used for making preserves, wines, and winter cordials.////88/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Ginseng": "Ginseng/2000/10/Vegetable -75/Ginseng/A hard to find root. It's said to have many health benefits.////138/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Gooseberry": "Gooseberry/20/10/Fruits -79/Gooseberry/A large round berry that makes for tasty pies.////68/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_GreenPeas": "Green Peas/20/10/Vegetable -75/Green Peas/The average green pea. It's not very flavorful on its own.////106/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Habanero": "Habanero/120/5/Fruits -79/Habanero/A popular ingredient in hot sauces and other spicy foods.////188/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Honeydew": "Honeydew/180/35/Fruits -79/Honeydew/A simple melon that's a popular fruit salad addition.////134/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Jalapeno": "Jalapeño/40/5/Fruits -79/Jalapeño/A moderately spicy pepper. A festive staple.////108/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_JuniperBerries": "Juniper Berries/15/10/Fruits -79/Juniper Berries/Tart and not usually eaten on their own, but they ferment into gin.////38/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_KidneyBeans": "Kidney Beans/35/-300/Vegetable -75/Kidney Beans/They contain a high amount of phytohemagglutinin which makes them more toxic than other beans.////164/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Kiwi": "Kiwi/100/20/Fruits -79/Kiwi/A juicy, fresh kiwi.////182/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Lettuce": "Lettuce/65/20/Vegetable -75/Lettuce/Watery. It's the basis for salads worldwide.////118/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_NavyBeans": "Navy Beans/15/-300/Vegetable -75/Navy Beans/A handful of beans. They have a mild flavor.////160/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Oats": "Oats/25/1/Vegetable -75/Oats/Associated with lower blood cholesterol and good fiber!////60/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Okra": "Okra/60/8/Vegetable -75/Okra/Wet and mushy on the inside, but delicious when fried.////136/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Onion": "Onion/115/8/Vegetable -75/Onion/Be careful when cutting it!////20/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PassionFruit": "Passion Fruit/95/20/Fruits -79/Passion Fruit/The passion fruit is a pepo, a type of berry, with a juicy interior filled with numerous seeds.////94/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Peanut": "Peanut/75/18/Vegetable -75/Peanut/A slightly salty nut that can be churned into peanut butter.////34/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PintoBeans": "Pinto Beans/15/-300/Vegetable -75/Pinto Beans/Eating too many of these beans can produce large amounts of gas!////158/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Quinoa": "Quinoa/30/-300/Vegetable -75/Quinoa/Rich in protein, fiber, B vitamins, and dietary minerals in amounts greater than in many grains.////178/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Raspberry": "Raspberry/30/10/Fruits -79/Raspberry/An extremely tart berry that has a warm glow.////36/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_RedOnion": "Red Onion/115/8/Vegetable -75/Red Onion/A sweeter variety of onion.////180/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Shallot": "Shallot/115/8/Vegetable -75/Shallot/A milder version of an onion.////80/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Shiitake": "Shiitake/180/15/Greens -81/Shiitake/A strongly flavored mushroom, earthy and bold!////56/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Soybean": "Soybean/80/-20/Vegetable -75/Soybean/Nutty in flavor. Its oil can be used in a plethora of products.////82/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Spinach": "Spinach/35/20/Vegetable -75/Spinach/He's strong to the finish because he eats his spinach!////90/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SugarBeet": "Sugar Beet/180/12/Vegetable -75/Sugar Beet/This tuber has a high concentration of sucrose. It's good for processing into sugar!////92/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SugarCane": "Sugar Cane/230/-300/Vegetable -75/Sugar Cane/The cuttings and salks of a sugar cane. It can be processed into sugar.////42/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SulfurShelf": "Sulfur Shelf/180/15/Greens -81/Sulfur Shelf/Sometimes known by its alternative name: chicken of the woods.////58/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SummerSquash": "Summer Squash/55/18/Vegetable -75/Summer Squash/A versatile vegetable that can be baked, fried, or stewed.////142/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SweetPotato": "Sweet Potato/120/10/Vegetable -75/Sweet Potato/The nicer cousin of the potato. It's sweet and earthy when baked.////44/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_TabascoPepper": "Tabasco Pepper/80/5/Fruits -79/Tabasco Pepper/The only juicy variety of chili pepper.////186/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_WasabiRoot": "Wasabi Root/165/5/Vegetable -75/Wasabi Root/A root that can be used to make wasabi paste. It has a strong flavor!////140/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Watermelon": "Watermelon/175/45/Fruits -79/Watermelon/Juicy and sweet, it's a delicious summer treat. Often brought on beach trips!////14/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_WhiteGrape": "White Grape/60/15/Fruits -79/White Grape/A different cultivar of grape. It can be used to make sparkling wine.////110/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Zucchini": "Zucchini/175/18/Vegetable -75/Zucchini/The cousin of squash, it's used for vegetable dishes. It has much flavor when roasted.////116/Mods\\MizuLeo.FruitsVeggies\\Objects",
+            "Target": "Data/Objects",
+            "Entries": {	
+			// produce
+				"MizuLeo.FruitsVeggies_AdzukiBean": {
+					"Name": "Adzuki Bean",
+					"DisplayName": "Adzuki Bean",
+					"Description": "This bean creates a sweet paste when it's mashed.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 90,
 
-				// seeds
-				"MizuLeo.FruitsVeggies_AdzukiBeanSeeds": "Adzuki Bean Seeds/25/-300/Seeds -74/Adzuki Bean Seeds/Plant these in summer. Takes 9 days to mature.////105/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_AgaveSeeds": "Agave Seeds/50/-300/Seeds -74/Agave Seeds/Plant these in spring. Takes 8 days to mature.////85/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_AsparagusSeeds": "Asparagus Seeds/10/-300/Seeds -74/Asparagus Seeds/Plant these in summer. Takes 5 days to mature.////167/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BambooShoot": "Bamboo Shoot/75/-300/Seeds -74/Bamboo Shoot/Plant these in spring or summer. Takes 7 days to mature, and continues to produce after the first harvest. Harvest with a scythe.////113/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BarleySeeds": "Barley Seeds/5/-300/Seeds -74/Barley Seeds/Plant these in fall. Takes 4 days to mature. Harvest with a scythe.////115/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BellPepperSeeds": "Bell Pepper Seeds/65/-300/Seeds -74/Bell Pepper Seeds/Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.////13/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BlackBeanStarter": "Black Bean Starter/30/-300/Seeds -74/Black Bean Starter/Plant these in fall. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.////163/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BlackberrySeeds": "Blackberry Seeds/30/-300/Seeds -74/Blackberry Seeds/Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.////7/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BlueAgaveSeeds": "Blue Agave Seeds/100/-300/Seeds -74/Blue Agave Seeds/Plant these in summer. Takes 12 days to mature.////87/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BroccoliSeeds": "Broccoli Seeds/40/-300/Seeds -74/Broccoli Seeds/Plant these in fall. Takes 7 days to mature.////33/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BuckwheatSeeds": "Buckwheat Seeds/5/-300/Seeds -74/Buckwheat Seeds/Plant these in spring. Takes 4 days to mature. Harvest with a scythe.////129/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_ButternutSquashSeeds": "Butternut Squash Seeds/90/-300/Seeds -74/Butternut Squash Seeds/Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.////131/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CabbageSeeds": "Cabbage Seeds/40/-300/Seeds -74/Cabbage Seeds/Plant these in spring. Takes 7 days to mature.////11/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CanaryMelonSeeds": "Canary Melon Seeds/225/-300/Seeds -74/Canary Melon Seeds/Plant these in spring. Takes 11 days to mature, and continues to produce after the first harvest.////9/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CanolaSeeds": "Canola Seeds/50/-300/Seeds -74/Canola Seeds/Plant in spring or summer. Takes 8 days to produce a flower that can be used to make oil.////177/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CantaloupeSeeds": "Cantaloupe Seeds/40/-300/Seeds -74/Cantaloupe Seeds/Plant these in spring. Takes 8 days to mature.////133/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CarrotSeeds": "Carrot Seeds/25/-300/Seeds -74/Carrot Seeds/Plant these in fall. Takes 6 days to mature.////47/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CassavaSeeds": "Cassava Seeds/30/-300/Seeds -74/Cassava Seeds/Plant these in summer. Takes 7 days to mature. Harvest with a scythe.////23/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CelerySeeds": "Celery Seeds/27/-300/Seeds -74/Celery Seeds/Plant these in fall. Takes 6 days to mature.////41/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_ChickpeaSeeds": "Chickpea Seeds/100/-300/Seeds -74/Chickpea Seeds/Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.////63/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CottonSeeds": "Cotton Seeds/40/-300/Seeds -74/Cotton Seeds/Plant these in summer or fall. Takes 7 days to mature, and continues to produce after the first harvest.////19/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CucumberStarter": "Cucumber Starter/32/-300/Seeds -74/Cucumber Starter/Plant these in summer. Takes 11 days to mature, but keeps producing after that. Grows on a trellis.////17/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_DaikonSeeds": "Daikon Seeds/37/-300/Seeds -74/Daikon Seeds/Plant these in fall. Takes 8 days to mature.////155/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_DurumSeeds": "Durum Seeds/5/-300/Seeds -74/Durum Seeds/Plant these in fall. Takes 4 days to mature. Harvest with a scythe.////185/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_ElderberrySeeds": "Elderberry Seeds/40/-300/Seeds -74/Elderberry Seeds/Plant these in winter. Takes 10 days to mature, and continues to produce after the first harvest.////89/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_GinsengSeeds": "Ginseng Seeds/500/-300/Seeds -74/Ginseng Seeds/Plant these in spring or winter. Takes 30 days to mature.////139/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_GooseberrySeeds": "Gooseberry Seeds/40/-300/Seeds -74/Gooseberry Seeds/Plant these in summer. Takes 13 days to mature, and continues to produce after the first harvest.////69/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_GreenPeaStarter": "Green Pea Starter/25/-300/Seeds -74/Green Pea Starter/Plant these in summer. Takes 8 days to mature, but keeps producing after that. Grows on a trellis.////107/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_HabaneroSeeds": "Habanero Seeds/65/-300/Seeds -74/Habanero Seeds/Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.////189/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_HoneydewSeeds": "Honeydew Seeds/40/-300/Seeds -74/Honeydew Seeds/Plant these in summer. Takes 8 days to mature.////135/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_JalapenoSeeds": "Jalapeño Seeds/65/-300/Seeds -74/Jalapeño Seeds/Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.////109/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_JuniperSeeds": "Juniper Seeds/40/-300/Seeds -74/Juniper Seeds/Plant these in winter. Takes 13 days to mature, and continues to produce after the first harvest.////39/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_KidneyBeanStarter": "Kidney Bean Starter/90/-300/Seeds -74/Kidney Bean Starter/Plant these in fall. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.////165/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_KiwiStarter": "Kiwi Starter/150/-300/Seeds -74/Kiwi Starter/Plant these in summer. Takes 21 days to mature, but keeps producing after that. Grows on a trellis.////183/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_LettuceSeeds": "Lettuce Seeds/27/-300/Seeds -74/Lettuce Seeds/Plant these in summer. Takes 6 days to mature.////119/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_NavyBeanStarter": "Navy Bean Starter/40/-300/Seeds -74/Navy Bean Starter/Plant these in summer. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.////161/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_OatSeeds": "Oat Seeds/5/-300/Seeds -74/Oat Seeds/Plant these in fall. Takes 4 days to mature. Harvest with a scythe.////61/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_OkraSeeds": "Okra Seeds/80/-300/Seeds -74/Okra Seeds/Plant these in summer or fall. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.////137/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_OnionSeeds": "Onion Seeds/40/-300/Seeds -74/Onion Seeds/Plant these in spring. Takes 8 days to mature.////21/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PassionFruitStarter": "Passion Fruit Starter/65/-300/Seeds -74/Passion Fruit Starter/Plant these in spring. Takes 12 days to mature, but keeps producing after that. Grows on a trellis.////95/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PeanutSeeds": "Peanut Seeds/30/-300/Seeds -74/Peanut Seeds/Plant these in fall. Takes 6 days to mature.////35/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PintoBeanStarter": "Pinto Bean Starter/40/-300/Seeds -74/Pinto Bean Starter/Plant these in spring. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.////159/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_QuinoaSeeds": "Quinoa Seeds/10/-300/Seeds -74/Quinoa Seeds/Plant these in summer. Takes 6 days to mature.////179/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_RaspberrySeeds": "Raspberry Seeds/30/-300/Seeds -74/Raspberry Seeds/Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.////37/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_RedOnionSeeds": "Red Onion Seeds/40/-300/Seeds -74/Red Onion Seeds/Plant these in spring. Takes 8 days to mature.////181/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_ShallotSeeds": "Shallot Seeds/40/-300/Seeds -74/Shallot Seeds/Plant these in spring. Takes 8 days to mature.////81/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_ShiitakeStarter": "Shiitake Starter/250/-300/Seeds -74/Shiitake Starter/Plant these in spring or fall. Takes 10 days to mature. Grows in a planter.////57/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SoybeanSeeds": "Soybean Seeds/60/-300/Seeds -74/Soybean Seeds/Plant these in fall. Takes 10 days to mature.////83/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SpinachSeeds": "Spinach Seeds/7/-300/Seeds -74/Spinach Seeds/Plant these in spring or fall. Takes 5 days to mature.////91/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SugarBeetSeeds": "Sugar Beet Seeds/50/-300/Seeds -74/Sugar Beet Seeds/Plant these in spring. Takes 8 days to mature.////93/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SugarCaneSeeds": "Sugar Cane Seeds/55/-300/Seeds -74/Sugar Cane Seeds/Plant these in summer. Takes 10 days to mature. Harvest with a scythe.////43/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SulfurShelfStarter": "Sulfur Shelf Starter/250/-300/Seeds -74/Sulfur Shelf Starter/Plant these in summer or fall. Takes 10 days to mature. Grows in a planter.////59/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SummerSquashStarter": "Summer Squash Starter/87/-300/Seeds -74/Summer Squash Starter/Plant these in summer. Takes 14 days to mature, and continues to produce after the first harvest.////143/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_SweetPotatoSeeds": "Sweet Potato Seeds/45/-300/Seeds -74/Sweet Potato Seeds/Plant these in fall. Takes 8 days to mature.////45/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_TabascoPepperSeeds": "Tabasco Pepper Seeds/65/-300/Seeds -74/Tabasco Pepper Seeds/Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.////187/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_WasabiTuber": "Wasabi Tuber/50/-300/Seeds -74/Wasabi Tuber/Plant these in summer. Takes 8 days to mature.////141/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_WatermelonSeeds": "Watermelon Seeds/125/-300/Seeds -74/Watermelon Seeds/Plant these in summer. Takes 14 days to mature, and continues to produce after the first harvest.////15/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_WhiteGrapeStarter": "White Grape Starter/28/-300/Seeds -74/White Grape Starter/Plant these in fall. Takes 8 days to mature, and continues to produce after the first harvest.////111/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_ZucchiniSeeds": "Zucchini Seeds/112/-300/Seeds -74/Zucchini Seeds/Plant these in fall. Takes 14 days to mature, and continues to produce after the first harvest.////117/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				
-				// tree produce
-				"MizuLeo.FruitsVeggies_Almond": "Almond/90/12/Forage -81/Almond/A drupe consisting of an outer hull and a hard shell with the seed within.////97/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Cashew": "Cashew/100/12/Forage -81/Cashew/A buttery nut that buds at the bottom of the cashew apple.////99/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CinnamonSticks": "Cinnamon Sticks/140/-300/Forage -81/Cinnamon Sticks/Its scent is uniquely warming, uplifting, and stimulating, and its flavor sweet and delicious.////149/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CocoaPod": "Cocoa Pod/125/-300/Forage -81/Cocoa Pod/The pod obtained from a cocoa tree. Mmm! Who's ready to make some chocolate?////1/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Pecan": "Pecan/125/12/Forage -81/Pecan/A savory nut with a striped seed. Do you own a nutcracker?////169/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Pistachio": "Pistachio/90/12/Forage -81/Pistachio/A versatile and delicious nut that can be eaten as is or used to flavor other products.////147/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Walnut": "Walnut/90/12/Forage -81/Walnut/A nut that makes delicious candies and pies. It's often used in the filling of sweet treats.////101/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				
-				"MizuLeo.FruitsVeggies_Avocado": "Avocado/200/20/Fruit -79/Avocado/A soft plant that's a popular topping and addition to many meals. It's particular loved by younger generations.////51/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Breadfruit": "Breadfruit/200/15/Fruit -79/Breadfruit/A relative of the jackfruit. It has a robust flavor that is surprisingly fruity and sweet.////195/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_DragonFruit": "Dragon Fruit/125/40/Fruit -79/Dragon Fruit/Also called a pitaya, this is the fruit of a large cactus.////49/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Durian": "Durian/200/40/Fruit -79/Durian/A smelly fruit with a spiky husk. ////193/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Fig": "Fig/100/15/Fruit -79/Fig/A small and sweet fruit polinated by wasps. It's soft and delicious.////27/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Grapefruit": "Grapefruit/140/15/Fruit -79/Grapefruit/A large bitter fruit, high in Vitamin C. Are you a salty or sugary kind of person?////173/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Lemon": "Lemon/50/15/Fruit -79/Lemon/A tangy citrus fruit that's used to make lemonade.////25/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Lime": "Lime/50/15/Fruit -79/Lime/The tarter cousin of the lemon. It's often used as an accent to numerous dishes.////73/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Lychee": "Lychee/110/15/Fruit -79/Lychee/A tropical fruit with a unique appearance. Peel them first!////197/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Nectarine": "Nectarine/140/15/Fruit -79/Nectarine/A tangy relative of the peach, it's smooth instead of fuzzy.////75/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Olive": "Olive/50/12/Fruit -79/Olive/It's packed with vitamins! Olives are used to make oil and salads.////3/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Papaya": "Papaya/135/15/Fruit -79/Papaya/A tropical fruit from the rainforest. It has a sweet flavor and a lot of natural juiciness.////5/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Pear": "Pear/135/15/Fruit -79/Pear/A mildly sweet fruit that grows in the winter. Let it ripen for a few days before eating.////29/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Persimmon": "Persimmon/155/15/Fruit -79/Persimmon/A somewhat uncommon fruit filled with a honey-like flavor.////53/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Plantain": "Plantain/175/30/Fruit -79/Plantain/A relative of the banana. It can be starchy.////125/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Pomelo": "Pomelo/80/40/Fruit -79/Pomelo/A really large, not so bitter, cousin of the grapefruit.////171/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Ume": "Ume/50/15/Fruit -79/Ume/A type of plum that can be eaten fresh or pickled!////123/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_Yuzu": "Yuzu/40/15/Fruit -79/Yuzu/A citrus fruit that's related to the lemon, but sweeter.////121/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				
-				// saplings
-				"MizuLeo.FruitsVeggies_AlmondSapling": "Almond Sapling/937/-300/Basic -74/Almond Sapling/Takes 28 days to produce a mature Almond tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////96/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CashewSapling": "Cashew Sapling/1000/-300/Basic -74/Cashew Sapling/Takes 28 days to produce a mature Cashew tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////98/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CassiaSapling": "Cassia Sapling/1500/-300/Basic -74/Cassia Sapling/Takes 28 days to produce a mature Cassia tree. Ready to harvest in the winter. Only grows if the 8 surrounding tiles are empty.////148/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_CocoaSapling": "Cocoa Sapling/1250/-300/Basic -74/Cocoa Sapling/Takes 28 days to produce a mature Cocoa tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.////0/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_HazelnutSapling": "Hazelnut Sapling/875/-300/Basic -74/Hazelnut Sapling/Takes 28 days to produce a mature Hazel tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////6/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PecanSapling": "Pecan Sapling/1250/-300/Basic -74/Pecan Sapling/Takes 28 days to produce a mature Pecan tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////168/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PistachioSapling": "Pistachio Sapling/937/-300/Basic -74/Pistachio Sapling/Takes 28 days to produce a mature Pistachio tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////146/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_WalnutSapling": "Walnut Sapling/937/-300/Basic -74/Walnut Sapling/Takes 28 days to produce a mature Walnut tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.////100/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				
-				"MizuLeo.FruitsVeggies_AvocadoSapling": "Avocado Sapling/2000/-300/Basic -74/Avocado Sapling/Takes 28 days to produce a mature Avocado tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.////50/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_BreadfruitSapling": "Breadfruit Sapling/2000/-300/Basic -74/Breadfruit Sapling/Takes 28 days to produce a mature Breadfruit tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.////194/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_DragonFruitSapling": "Dragon Fruit Sapling/1250/-300/Basic -74/Dragon Fruit Sapling/Takes 28 days to produce a mature Dragon Fruit tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.////48/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_DurianSapling": "Durian Sapling/2000/-300/Basic -74/Durian Sapling/Takes 28 days to produce a mature Durian tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.////192/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_FigSapling": "Fig Sapling/1000/-300/Basic -74/Fig Sapling/Takes 28 days to produce a mature Fig tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.////26/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_GrapefruitSapling": "Grapefruit Sapling/1500/-300/Basic -74/Grapefruit Sapling/Takes 28 days to produce a mature Grapefruit tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.////172/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_LemonSapling": "Lemon Sapling/500/-300/Basic -74/Lemon Sapling/Takes 28 days to produce a mature Lemon tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.////24/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_LimeSapling": "Lime Sapling/500/-300/Basic -74/Lime Sapling/Takes 28 days to produce a mature Lime tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.////72/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_LycheeSapling": "Lychee Sapling/1250/-300/Basic -74/Lychee Sapling/Takes 28 days to produce a mature Lychee tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.////196/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_NectarineSapling": "Nectarine Sapling/1500/-300/Basic -74/Nectarine Sapling/Takes 28 days to produce a mature Nectarine tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.////74/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_OliveSapling": "Olive Sapling/500/-300/Basic -74/Olive Sapling/Takes 28 days to produce a mature Olive tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.////2/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PapayaSapling": "Papaya Sapling/1000/-300/Basic -74/Papaya Sapling/Takes 28 days to produce a mature Papaya tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.////4/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PearSapling": "Pear Sapling/1375/-300/Basic -74/Pear Sapling/Takes 28 days to produce a mature Pear tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.////28/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PersimmonSapling": "Persimmon Sapling/1750/-300/Basic -74/Persimmon Sapling/Takes 28 days to produce a mature Persimmon tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.////52/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PlantainSapling": "Plantain Sapling/1000/-300/Basic -74/Plantain Sapling/Takes 28 days to produce a mature Plantain tree. Bears fruit in the summer, or all year round when planted on Ginger Island.////124/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_PomeloSapling": "Pomelo Sapling/850/-300/Basic -74/Pomelo Sapling/Takes 28 days to produce a mature Pomelo tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.////170/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_UmeSapling": "Ume Sapling/500/-300/Basic -74/Ume Sapling/Takes 28 days to produce a mature Ume tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.////122/Mods\\MizuLeo.FruitsVeggies\\Objects",
-				"MizuLeo.FruitsVeggies_YuzuSapling": "Yuzu Sapling/500/-300/Basic -74/Yuzu Sapling/Takes 28 days to produce a mature Yuzu tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.////120/Mods\\MizuLeo.FruitsVeggies\\Objects",
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 104
+				},
+
+				"MizuLeo.FruitsVeggies_Agave": {
+					"Name": "Agave",
+					"DisplayName": "Agave",
+					"Description": "A cutting of the agave plant which can be used to brew alcohol.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 170,
+
+					"Edibility": 0,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 84
+				},
+
+				"MizuLeo.FruitsVeggies_Asparagus": {
+					"Name": "Asparagus",
+					"DisplayName": "Asparagus",
+					"Description": "A delicious and fresh spring vegetable.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 35,
+
+					"Edibility": 12,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 166
+				},
+
+				"MizuLeo.FruitsVeggies_Bamboo": {
+					"Name": "Bamboo",
+					"DisplayName": "Bamboo",
+					"Description": "The shoots of this plant are edible. It grows incredibly quickly.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 55,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 112
+				},
+
+				"MizuLeo.FruitsVeggies_Barley": {
+					"Name": "Barley",
+					"DisplayName": "Barley",
+					"Description": "A dark grain that has a more earthy taste when processed than wheat.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 25,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 114
+				},
+
+				"MizuLeo.FruitsVeggies_BellPepper": {
+					"Name": "Bell Pepper",
+					"DisplayName": "Bell Pepper",
+					"Description": "The tamest pepper on the scale. A delicious addition to many meals!",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 70,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 12
+				},
+
+				"MizuLeo.FruitsVeggies_BlackBeans": {
+					"Name": "Black Beans",
+					"DisplayName": "Black Beans",
+					"Description": "A savory bean that's earthy and rich in flavor.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 15,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 162
+				},
+
+				"MizuLeo.FruitsVeggies_BlueAgave": {
+					"Name": "Blue Agave",
+					"DisplayName": "Blue Agave",
+					"Description": "A cutting of the agave plant which can be used to brew alcohol.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 300,
+
+					"Edibility": 0,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 86
+				},
+
+				"MizuLeo.FruitsVeggies_Broccoli": {
+					"Name": "Broccoli",
+					"DisplayName": "Broccoli",
+					"Description": "The soft top of this vegetable is leafy and fluffy.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 120,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 32
+				},
+
+				"MizuLeo.FruitsVeggies_Buckwheat": {
+					"Name": "Buckwheat",
+					"DisplayName": "Buckwheat",
+					"Description": "A more wild kind of wheat, it's somewhat bitter.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 25,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 128
+				},
+
+				"MizuLeo.FruitsVeggies_ButternutSquash": {
+					"Name": "Butternut Squash",
+					"DisplayName": "Butternut Squash",
+					"Description": "It has a sweet, nutty taste similar to that of a pumpkin.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 200,
+
+					"Edibility": 8,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 130
+				},
+
+				"MizuLeo.FruitsVeggies_Cabbage": {
+					"Name": "Cabbage",
+					"DisplayName": "Cabbage",
+					"Description": "Cabbages are versatile and can be used in salad, pickling, and stews!",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 120,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 10
+				},
+
+				"MizuLeo.FruitsVeggies_CanaryMelon": {
+					"Name": "Canary Melon",
+					"DisplayName": "Canary Melon",
+					"Description": "A bright yellow melon, it's distinctively sweet and tangy.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 225,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 8
+				},
+
+				"MizuLeo.FruitsVeggies_CanolaFlower": {
+					"Name": "Canola Flower",
+					"DisplayName": "Canola Flower",
+					"Description": "A flower that can be used to make oil.",
+					"Type": "Flowers",
+					"Category": -80,
+					"Price": 50,
+
+					"Edibility": 18,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 176
+				},
+
+				"MizuLeo.FruitsVeggies_Cantaloupe": {
+					"Name": "Cantaloupe",
+					"DisplayName": "Cantaloupe",
+					"Description": "A sweet melon that often tastes great with citrus or salty compliments.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 180,
+
+					"Edibility": 35,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 132
+				},
+
+				"MizuLeo.FruitsVeggies_Carrot": {
+					"Name": "Carrot",
+					"DisplayName": "Carrot",
+					"Description": "The old wive's tale says that eating carrots helps improve eyesight.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 65,
+
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 46
+				},
+
+				"MizuLeo.FruitsVeggies_Cassava": {
+					"Name": "Cassava",
+					"DisplayName": "Cassava",
+					"Description": "A hardy tuber from tropical climates, it has a woody flavor.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 80,
+
+					"Edibility": -20,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 22
+				},
+
+				"MizuLeo.FruitsVeggies_Celery": {
+					"Name": "Celery",
+					"DisplayName": "Celery",
+					"Description": "Crisp and refreshing, it has little inherent taste on its own.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 70,
+
+					"Edibility": 8,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 40
+				},
+
+				"MizuLeo.FruitsVeggies_Chickpea": {
+					"Name": "Chickpea",
+					"DisplayName": "Chickpea",
+					"Description": "A coastal stable. Roasted or boiled, they have a slightly nutty and salty taste.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 55,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 62
+				},
+
+				"MizuLeo.FruitsVeggies_CottonBoll": {
+					"Name": "Cotton Boll",
+					"DisplayName": "Cotton Boll",
+					"Description": "Fluffy and white, it can be used to make thread.",
+					"Type": "Artisan_Goods",
+					"Category": -26,
+					"Price": 65,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 18
+				},
+
+				"MizuLeo.FruitsVeggies_Cucumber": {
+					"Name": "Cucumber",
+					"DisplayName": "Cucumber",
+					"Description": "A delicious and watery snack.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 90,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 16
+				},
+
+				"MizuLeo.FruitsVeggies_Daikon": {
+					"Name": "Daikon",
+					"DisplayName": "Daikon",
+					"Description": "A large radish that's a favorite for making pickles!",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 120,
+
+					"Edibility": 18,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 154
+				},
+
+				"MizuLeo.FruitsVeggies_Durum": {
+					"Name": "Durum",
+					"DisplayName": "Durum",
+					"Description": "A hardy pasta that's used to make couscous and authentic pastas.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 25,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 184
+				},
+
+				"MizuLeo.FruitsVeggies_Elderberries": {
+					"Name": "Elderberries",
+					"DisplayName": "Elderberries",
+					"Description": "Elderberries have been used for making preserves, wines, and winter cordials.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 20,
+
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 88
+				},
+
+				"MizuLeo.FruitsVeggies_Ginseng": {
+					"Name": "Ginseng",
+					"DisplayName": "Ginseng",
+					"Description": "A hard to find root. It's said to have many health benefits.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 2000,
+
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 138
+				},
+
+				"MizuLeo.FruitsVeggies_Gooseberry": {
+					"Name": "Gooseberry",
+					"DisplayName": "Gooseberry",
+					"Description": "A large round berry that makes for tasty pies.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 20,
+
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 68
+				},
+
+				"MizuLeo.FruitsVeggies_GreenPeas": {
+					"Name": "Green Peas",
+					"DisplayName": "Green Peas",
+					"Description": "The average green pea. It's not very flavorful on its own.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 20,
+
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 106
+				},
+
+				"MizuLeo.FruitsVeggies_Habanero": {
+					"Name": "Habanero",
+					"DisplayName": "Habanero",
+					"Description": "A popular ingredient in hot sauces and other spicy foods.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 120,
+
+					"Edibility": 5,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 188
+				},
+
+				"MizuLeo.FruitsVeggies_Honeydew": {
+					"Name": "Honeydew",
+					"DisplayName": "Honeydew",
+					"Description": "A simple melon that's a popular fruit salad addition.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 180,
+
+					"Edibility": 35,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 134
+				},
+
+				"MizuLeo.FruitsVeggies_Jalapeno": {
+					"Name": "Jalapeño",
+					"DisplayName": "Jalapeño",
+					"Description": "A moderately spicy pepper. A festive staple.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 40,
+
+					"Edibility": 5,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 108
+				},
+
+				"MizuLeo.FruitsVeggies_JuniperBerries": {
+					"Name": "Juniper Berries",
+					"DisplayName": "Juniper Berries",
+					"Description": "Tart and not usually eaten on their own, but they ferment into gin.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 15,
+
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 38
+				},
+
+				"MizuLeo.FruitsVeggies_KidneyBeans": {
+					"Name": "Kidney Beans",
+					"DisplayName": "Kidney Beans",
+					"Description": "They contain a high amount of phytohemagglutinin which makes them more toxic than other beans.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 35,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 164
+				},
+
+				"MizuLeo.FruitsVeggies_Kiwi": {
+					"Name": "Kiwi",
+					"DisplayName": "Kiwi",
+					"Description": "A juicy, fresh kiwi.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 100,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 182
+				},
+
+				"MizuLeo.FruitsVeggies_Lettuce": {
+					"Name": "Lettuce",
+					"DisplayName": "Lettuce",
+					"Description": "Watery. It's the basis for salads worldwide.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 65,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 118
+				},
+
+				"MizuLeo.FruitsVeggies_NavyBeans": {
+					"Name": "Navy Beans",
+					"DisplayName": "Navy Beans",
+					"Description": "A handful of beans. They have a mild flavor.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 15,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 160
+				},
+
+				"MizuLeo.FruitsVeggies_Oats": {
+					"Name": "Oats",
+					"DisplayName": "Oats",
+					"Description": "Associated with lower blood cholesterol and good fiber!",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 25,
+
+					"Edibility": 1,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 60
+				},
+
+				"MizuLeo.FruitsVeggies_Okra": {
+					"Name": "Okra",
+					"DisplayName": "Okra",
+					"Description": "Wet and mushy on the inside, but delicious when fried.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 60,
+
+					"Edibility": 8,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 136
+				},
+
+				"MizuLeo.FruitsVeggies_Onion": {
+					"Name": "Onion",
+					"DisplayName": "Onion",
+					"Description": "Be careful when cutting it!",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 115,
+
+					"Edibility": 8,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 20
+				},
+
+				"MizuLeo.FruitsVeggies_PassionFruit": {
+					"Name": "Passion Fruit",
+					"DisplayName": "Passion Fruit",
+					"Description": "The passion fruit is a pepo, a type of berry, with a juicy interior filled with numerous seeds.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 95,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 94
+				},
+
+				"MizuLeo.FruitsVeggies_Peanut": {
+					"Name": "Peanut",
+					"DisplayName": "Peanut",
+					"Description": "A slightly salty nut that can be churned into peanut butter.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 75,
+
+					"Edibility": 18,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 34
+				},
+
+				"MizuLeo.FruitsVeggies_PintoBeans": {
+					"Name": "Pinto Beans",
+					"DisplayName": "Pinto Beans",
+					"Description": "Eating too many of these beans can produce large amounts of gas!",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 15,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 158
+				},
+
+				"MizuLeo.FruitsVeggies_Quinoa": {
+					"Name": "Quinoa",
+					"DisplayName": "Quinoa",
+					"Description": "Rich in protein, fiber, B vitamins, and dietary minerals in amounts greater than in many grains.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 30,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 178
+				},
+
+				"MizuLeo.FruitsVeggies_Raspberry": {
+					"Name": "Raspberry",
+					"DisplayName": "Raspberry",
+					"Description": "An extremely tart berry that has a warm glow.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 30,
+
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 36
+				},
+
+				"MizuLeo.FruitsVeggies_RedOnion": {
+					"Name": "Red Onion",
+					"DisplayName": "Red Onion",
+					"Description": "A sweeter variety of onion.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 115,
+
+					"Edibility": 8,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 180
+				},
+
+				"MizuLeo.FruitsVeggies_Shallot": {
+					"Name": "Shallot",
+					"DisplayName": "Shallot",
+					"Description": "A milder version of an onion.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 115,
+
+					"Edibility": 8,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 80
+				},
+
+				"MizuLeo.FruitsVeggies_Shiitake": {
+					"Name": "Shiitake",
+					"DisplayName": "Shiitake",
+					"Description": "A strongly flavored mushroom, earthy and bold!",
+					"Type": "Greens",
+					"Category": -81,
+					"Price": 180,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 56
+				},
+
+				"MizuLeo.FruitsVeggies_Soybean": {
+					"Name": "Soybean",
+					"DisplayName": "Soybean",
+					"Description": "Nutty in flavor. Its oil can be used in a plethora of products.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 80,
+
+					"Edibility": -20,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 82
+				},
+
+				"MizuLeo.FruitsVeggies_Spinach": {
+					"Name": "Spinach",
+					"DisplayName": "Spinach",
+					"Description": "He's strong to the finish because he eats his spinach!",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 35,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 90
+				},
+
+				"MizuLeo.FruitsVeggies_SugarBeet": {
+					"Name": "Sugar Beet",
+					"DisplayName": "Sugar Beet",
+					"Description": "This tuber has a high concentration of sucrose. It's good for processing into sugar!",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 180,
+
+					"Edibility": 12,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 92
+				},
+
+				"MizuLeo.FruitsVeggies_SugarCane": {
+					"Name": "Sugar Cane",
+					"DisplayName": "Sugar Cane",
+					"Description": "The cuttings and salks of a sugar cane. It can be processed into sugar.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 230,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 42
+				},
+
+				"MizuLeo.FruitsVeggies_SulfurShelf": {
+					"Name": "Sulfur Shelf",
+					"DisplayName": "Sulfur Shelf",
+					"Description": "Sometimes known by its alternative name: chicken of the woods.",
+					"Type": "Greens",
+					"Category": -81,
+					"Price": 180,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 58
+				},
+
+				"MizuLeo.FruitsVeggies_SummerSquash": {
+					"Name": "Summer Squash",
+					"DisplayName": "Summer Squash",
+					"Description": "A versatile vegetable that can be baked, fried, or stewed.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 55,
+
+					"Edibility": 18,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 142
+				},
+
+				"MizuLeo.FruitsVeggies_SweetPotato": {
+					"Name": "Sweet Potato",
+					"DisplayName": "Sweet Potato",
+					"Description": "The nicer cousin of the potato. It's sweet and earthy when baked.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 120,
+
+					"Edibility": 10,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 44
+				},
+
+				"MizuLeo.FruitsVeggies_TabascoPepper": {
+					"Name": "Tabasco Pepper",
+					"DisplayName": "Tabasco Pepper",
+					"Description": "The only juicy variety of chili pepper.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 80,
+
+					"Edibility": 5,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 186
+				},
+
+				"MizuLeo.FruitsVeggies_WasabiRoot": {
+					"Name": "Wasabi Root",
+					"DisplayName": "Wasabi Root",
+					"Description": "A root that can be used to make wasabi paste. It has a strong flavor!",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 165,
+
+					"Edibility": 5,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 140
+				},
+
+				"MizuLeo.FruitsVeggies_Watermelon": {
+					"Name": "Watermelon",
+					"DisplayName": "Watermelon",
+					"Description": "Juicy and sweet, it's a delicious summer treat. Often brought on beach trips!",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 175,
+
+					"Edibility": 45,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 14
+				},
+
+				"MizuLeo.FruitsVeggies_WhiteGrape": {
+					"Name": "White Grape",
+					"DisplayName": "White Grape",
+					"Description": "A different cultivar of grape. It can be used to make sparkling wine.",
+					"Type": "Fruits",
+					"Category": -79,
+					"Price": 60,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 110
+				},
+
+				"MizuLeo.FruitsVeggies_Zucchini": {
+					"Name": "Zucchini",
+					"DisplayName": "Zucchini",
+					"Description": "The cousin of squash, it's used for vegetable dishes. It has much flavor when roasted.",
+					"Type": "Vegetable",
+					"Category": -75,
+					"Price": 175,
+
+					"Edibility": 18,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 116
+				},
+
+			// seeds
+				"MizuLeo.FruitsVeggies_AdzukiBeanSeeds": {
+					"Name": "Adzuki Bean Seeds",
+					"DisplayName": "Adzuki Bean Seeds",
+					"Description": "Plant these in summer. Takes 9 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 25,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 105
+				},
+
+				"MizuLeo.FruitsVeggies_AgaveSeeds": {
+					"Name": "Agave Seeds",
+					"DisplayName": "Agave Seeds",
+					"Description": "Plant these in spring. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 50,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 85
+				},
+
+				"MizuLeo.FruitsVeggies_AsparagusSeeds": {
+					"Name": "Asparagus Seeds",
+					"DisplayName": "Asparagus Seeds",
+					"Description": "Plant these in summer. Takes 5 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 10,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 167
+				},
+
+				"MizuLeo.FruitsVeggies_BambooShoot": {
+					"Name": "Bamboo Shoot",
+					"DisplayName": "Bamboo Shoot",
+					"Description": "Plant these in spring or summer. Takes 7 days to mature, and continues to produce after the first harvest. Harvest with a scythe.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 75,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 113
+				},
+
+				"MizuLeo.FruitsVeggies_BarleySeeds": {
+					"Name": "Barley Seeds",
+					"DisplayName": "Barley Seeds",
+					"Description": "Plant these in fall. Takes 4 days to mature. Harvest with a scythe.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 5,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 115
+				},
+
+				"MizuLeo.FruitsVeggies_BellPepperSeeds": {
+					"Name": "Bell Pepper Seeds",
+					"DisplayName": "Bell Pepper Seeds",
+					"Description": "Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 65,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 13
+				},
+
+				"MizuLeo.FruitsVeggies_BlackBeanStarter": {
+					"Name": "Black Bean Starter",
+					"DisplayName": "Black Bean Starter",
+					"Description": "Plant these in fall. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 30,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 163
+				},
+
+				"MizuLeo.FruitsVeggies_BlackberrySeeds": {
+					"Name": "Blackberry Seeds",
+					"DisplayName": "Blackberry Seeds",
+					"Description": "Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 30,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 7
+				},
+
+				"MizuLeo.FruitsVeggies_BlueAgaveSeeds": {
+					"Name": "Blue Agave Seeds",
+					"DisplayName": "Blue Agave Seeds",
+					"Description": "Plant these in summer. Takes 12 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 87
+				},
+
+				"MizuLeo.FruitsVeggies_BroccoliSeeds": {
+					"Name": "Broccoli Seeds",
+					"DisplayName": "Broccoli Seeds",
+					"Description": "Plant these in fall. Takes 7 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 33
+				},
+
+				"MizuLeo.FruitsVeggies_BuckwheatSeeds": {
+					"Name": "Buckwheat Seeds",
+					"DisplayName": "Buckwheat Seeds",
+					"Description": "Plant these in spring. Takes 4 days to mature. Harvest with a scythe.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 5,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 129
+				},
+
+				"MizuLeo.FruitsVeggies_ButternutSquashSeeds": {
+					"Name": "Butternut Squash Seeds",
+					"DisplayName": "Butternut Squash Seeds",
+					"Description": "Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 90,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 131
+				},
+
+				"MizuLeo.FruitsVeggies_CabbageSeeds": {
+					"Name": "Cabbage Seeds",
+					"DisplayName": "Cabbage Seeds",
+					"Description": "Plant these in spring. Takes 7 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 11
+				},
+
+				"MizuLeo.FruitsVeggies_CanaryMelonSeeds": {
+					"Name": "Canary Melon Seeds",
+					"DisplayName": "Canary Melon Seeds",
+					"Description": "Plant these in spring. Takes 11 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 225,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 9
+				},
+
+				"MizuLeo.FruitsVeggies_CanolaSeeds": {
+					"Name": "Canola Seeds",
+					"DisplayName": "Canola Seeds",
+					"Description": "Plant in spring or summer. Takes 8 days to produce a flower that can be used to make oil.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 50,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 177
+				},
+
+				"MizuLeo.FruitsVeggies_CantaloupeSeeds": {
+					"Name": "Cantaloupe Seeds",
+					"DisplayName": "Cantaloupe Seeds",
+					"Description": "Plant these in spring. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 133
+				},
+
+				"MizuLeo.FruitsVeggies_CarrotSeeds": {
+					"Name": "Carrot Seeds",
+					"DisplayName": "Carrot Seeds",
+					"Description": "Plant these in fall. Takes 6 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 25,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 47
+				},
+
+				"MizuLeo.FruitsVeggies_CassavaSeeds": {
+					"Name": "Cassava Seeds",
+					"DisplayName": "Cassava Seeds",
+					"Description": "Plant these in summer. Takes 7 days to mature. Harvest with a scythe.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 30,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 23
+				},
+
+				"MizuLeo.FruitsVeggies_CelerySeeds": {
+					"Name": "Celery Seeds",
+					"DisplayName": "Celery Seeds",
+					"Description": "Plant these in fall. Takes 6 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 27,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 41
+				},
+
+				"MizuLeo.FruitsVeggies_ChickpeaSeeds": {
+					"Name": "Chickpea Seeds",
+					"DisplayName": "Chickpea Seeds",
+					"Description": "Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 100,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 63
+				},
+
+				"MizuLeo.FruitsVeggies_CottonSeeds": {
+					"Name": "Cotton Seeds",
+					"DisplayName": "Cotton Seeds",
+					"Description": "Plant these in summer or fall. Takes 7 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 19
+				},
+
+				"MizuLeo.FruitsVeggies_CucumberStarter": {
+					"Name": "Cucumber Starter",
+					"DisplayName": "Cucumber Starter",
+					"Description": "Plant these in summer. Takes 11 days to mature, but keeps producing after that. Grows on a trellis.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 32,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 17
+				},
+
+				"MizuLeo.FruitsVeggies_DaikonSeeds": {
+					"Name": "Daikon Seeds",
+					"DisplayName": "Daikon Seeds",
+					"Description": "Plant these in fall. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 37,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 155
+				},
+
+				"MizuLeo.FruitsVeggies_DurumSeeds": {
+					"Name": "Durum Seeds",
+					"DisplayName": "Durum Seeds",
+					"Description": "Plant these in fall. Takes 4 days to mature. Harvest with a scythe.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 5,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 185
+				},
+
+				"MizuLeo.FruitsVeggies_ElderberrySeeds": {
+					"Name": "Elderberry Seeds",
+					"DisplayName": "Elderberry Seeds",
+					"Description": "Plant these in winter. Takes 10 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 89
+				},
+
+				"MizuLeo.FruitsVeggies_GinsengSeeds": {
+					"Name": "Ginseng Seeds",
+					"DisplayName": "Ginseng Seeds",
+					"Description": "Plant these in spring or winter. Takes 30 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 500,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 139
+				},
+
+				"MizuLeo.FruitsVeggies_GooseberrySeeds": {
+					"Name": "Gooseberry Seeds",
+					"DisplayName": "Gooseberry Seeds",
+					"Description": "Plant these in summer. Takes 13 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 69
+				},
+
+				"MizuLeo.FruitsVeggies_GreenPeaStarter": {
+					"Name": "Green Pea Starter",
+					"DisplayName": "Green Pea Starter",
+					"Description": "Plant these in summer. Takes 8 days to mature, but keeps producing after that. Grows on a trellis.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 25,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 107
+				},
+
+				"MizuLeo.FruitsVeggies_HabaneroSeeds": {
+					"Name": "Habanero Seeds",
+					"DisplayName": "Habanero Seeds",
+					"Description": "Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 65,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 189
+				},
+
+				"MizuLeo.FruitsVeggies_HoneydewSeeds": {
+					"Name": "Honeydew Seeds",
+					"DisplayName": "Honeydew Seeds",
+					"Description": "Plant these in summer. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 135
+				},
+
+				"MizuLeo.FruitsVeggies_JalapenoSeeds": {
+					"Name": "Jalapeño Seeds",
+					"DisplayName": "Jalapeño Seeds",
+					"Description": "Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 65,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 109
+				},
+
+				"MizuLeo.FruitsVeggies_JuniperSeeds": {
+					"Name": "Juniper Seeds",
+					"DisplayName": "Juniper Seeds",
+					"Description": "Plant these in winter. Takes 13 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 39
+				},
+
+				"MizuLeo.FruitsVeggies_KidneyBeanStarter": {
+					"Name": "Kidney Bean Starter",
+					"DisplayName": "Kidney Bean Starter",
+					"Description": "Plant these in fall. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 90,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 165
+				},
+
+				"MizuLeo.FruitsVeggies_KiwiStarter": {
+					"Name": "Kiwi Starter",
+					"DisplayName": "Kiwi Starter",
+					"Description": "Plant these in summer. Takes 21 days to mature, but keeps producing after that. Grows on a trellis.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 150,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 183
+				},
+
+				"MizuLeo.FruitsVeggies_LettuceSeeds": {
+					"Name": "Lettuce Seeds",
+					"DisplayName": "Lettuce Seeds",
+					"Description": "Plant these in summer. Takes 6 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 27,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 119
+				},
+
+				"MizuLeo.FruitsVeggies_NavyBeanStarter": {
+					"Name": "Navy Bean Starter",
+					"DisplayName": "Navy Bean Starter",
+					"Description": "Plant these in summer. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 161
+				},
+
+				"MizuLeo.FruitsVeggies_OatSeeds": {
+					"Name": "Oat Seeds",
+					"DisplayName": "Oat Seeds",
+					"Description": "Plant these in fall. Takes 4 days to mature. Harvest with a scythe.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 5,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 61
+				},
+
+				"MizuLeo.FruitsVeggies_OkraSeeds": {
+					"Name": "Okra Seeds",
+					"DisplayName": "Okra Seeds",
+					"Description": "Plant these in summer or fall. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 80,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 137
+				},
+
+				"MizuLeo.FruitsVeggies_OnionSeeds": {
+					"Name": "Onion Seeds",
+					"DisplayName": "Onion Seeds",
+					"Description": "Plant these in spring. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 21
+				},
+
+				"MizuLeo.FruitsVeggies_PassionFruitStarter": {
+					"Name": "Passion Fruit Starter",
+					"DisplayName": "Passion Fruit Starter",
+					"Description": "Plant these in spring. Takes 12 days to mature, but keeps producing after that. Grows on a trellis.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 65,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 95
+				},
+
+				"MizuLeo.FruitsVeggies_PeanutSeeds": {
+					"Name": "Peanut Seeds",
+					"DisplayName": "Peanut Seeds",
+					"Description": "Plant these in fall. Takes 6 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 30,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 35
+				},
+
+				"MizuLeo.FruitsVeggies_PintoBeanStarter": {
+					"Name": "Pinto Bean Starter",
+					"DisplayName": "Pinto Bean Starter",
+					"Description": "Plant these in spring. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 159
+				},
+
+				"MizuLeo.FruitsVeggies_QuinoaSeeds": {
+					"Name": "Quinoa Seeds",
+					"DisplayName": "Quinoa Seeds",
+					"Description": "Plant these in summer. Takes 6 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 10,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 179
+				},
+
+				"MizuLeo.FruitsVeggies_RaspberrySeeds": {
+					"Name": "Raspberry Seeds",
+					"DisplayName": "Raspberry Seeds",
+					"Description": "Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 30,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 37
+				},
+
+				"MizuLeo.FruitsVeggies_RedOnionSeeds": {
+					"Name": "Red Onion Seeds",
+					"DisplayName": "Red Onion Seeds",
+					"Description": "Plant these in spring. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 181
+				},
+
+				"MizuLeo.FruitsVeggies_ShallotSeeds": {
+					"Name": "Shallot Seeds",
+					"DisplayName": "Shallot Seeds",
+					"Description": "Plant these in spring. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 40,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 81
+				},
+
+				"MizuLeo.FruitsVeggies_ShiitakeStarter": {
+					"Name": "Shiitake Starter",
+					"DisplayName": "Shiitake Starter",
+					"Description": "Plant these in spring or fall. Takes 10 days to mature. Grows in a planter.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 250,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 57
+				},
+
+				"MizuLeo.FruitsVeggies_SoybeanSeeds": {
+					"Name": "Soybean Seeds",
+					"DisplayName": "Soybean Seeds",
+					"Description": "Plant these in fall. Takes 10 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 60,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 83
+				},
+
+				"MizuLeo.FruitsVeggies_SpinachSeeds": {
+					"Name": "Spinach Seeds",
+					"DisplayName": "Spinach Seeds",
+					"Description": "Plant these in spring or fall. Takes 5 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 7,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 91
+				},
+
+				"MizuLeo.FruitsVeggies_SugarBeetSeeds": {
+					"Name": "Sugar Beet Seeds",
+					"DisplayName": "Sugar Beet Seeds",
+					"Description": "Plant these in spring. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 50,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 93
+				},
+
+				"MizuLeo.FruitsVeggies_SugarCaneSeeds": {
+					"Name": "Sugar Cane Seeds",
+					"DisplayName": "Sugar Cane Seeds",
+					"Description": "Plant these in summer. Takes 10 days to mature. Harvest with a scythe.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 55,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 43
+				},
+
+				"MizuLeo.FruitsVeggies_SulfurShelfStarter": {
+					"Name": "Sulfur Shelf Starter",
+					"DisplayName": "Sulfur Shelf Starter",
+					"Description": "Plant these in summer or fall. Takes 10 days to mature. Grows in a planter.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 250,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 59
+				},
+
+				"MizuLeo.FruitsVeggies_SummerSquashStarter": {
+					"Name": "Summer Squash Starter",
+					"DisplayName": "Summer Squash Starter",
+					"Description": "Plant these in summer. Takes 14 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 87,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 143
+				},
+
+				"MizuLeo.FruitsVeggies_SweetPotatoSeeds": {
+					"Name": "Sweet Potato Seeds",
+					"DisplayName": "Sweet Potato Seeds",
+					"Description": "Plant these in fall. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 45,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 45
+				},
+
+				"MizuLeo.FruitsVeggies_TabascoPepperSeeds": {
+					"Name": "Tabasco Pepper Seeds",
+					"DisplayName": "Tabasco Pepper Seeds",
+					"Description": "Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 65,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 187
+				},
+
+				"MizuLeo.FruitsVeggies_WasabiTuber": {
+					"Name": "Wasabi Tuber",
+					"DisplayName": "Wasabi Tuber",
+					"Description": "Plant these in summer. Takes 8 days to mature.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 50,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 141
+				},
+
+				"MizuLeo.FruitsVeggies_WatermelonSeeds": {
+					"Name": "Watermelon Seeds",
+					"DisplayName": "Watermelon Seeds",
+					"Description": "Plant these in summer. Takes 14 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 125,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 15
+				},
+
+				"MizuLeo.FruitsVeggies_WhiteGrapeStarter": {
+					"Name": "White Grape Starter",
+					"DisplayName": "White Grape Starter",
+					"Description": "Plant these in fall. Takes 8 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 28,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 111
+				},
+
+				"MizuLeo.FruitsVeggies_ZucchiniSeeds": {
+					"Name": "Zucchini Seeds",
+					"DisplayName": "Zucchini Seeds",
+					"Description": "Plant these in fall. Takes 14 days to mature, and continues to produce after the first harvest.",
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 112,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 117
+				},
+
+			// tree produce
+				"MizuLeo.FruitsVeggies_Almond": {
+					"Name": "Almond",
+					"DisplayName": "Almond",
+					"Description": "A drupe consisting of an outer hull and a hard shell with the seed within.",
+					"Type": "Forage",
+					"Category": -81,
+					"Price": 90,
+
+					"Edibility": 12,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 97
+				},
+
+				"MizuLeo.FruitsVeggies_Cashew": {
+					"Name": "Cashew",
+					"DisplayName": "Cashew",
+					"Description": "A buttery nut that buds at the bottom of the cashew apple.",
+					"Type": "Forage",
+					"Category": -81,
+					"Price": 100,
+
+					"Edibility": 12,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 99
+				},
+
+				"MizuLeo.FruitsVeggies_CinnamonSticks": {
+					"Name": "Cinnamon Sticks",
+					"DisplayName": "Cinnamon Sticks",
+					"Description": "Its scent is uniquely warming, uplifting, and stimulating, and its flavor sweet and delicious.",
+					"Type": "Forage",
+					"Category": -81,
+					"Price": 140,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 149
+				},
+
+				"MizuLeo.FruitsVeggies_CocoaPod": {
+					"Name": "Cocoa Pod",
+					"DisplayName": "Cocoa Pod",
+					"Description": "The pod obtained from a cocoa tree. Mmm! Who's ready to make some chocolate?",
+					"Type": "Forage",
+					"Category": -81,
+					"Price": 125,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 1
+				},
+
+				"MizuLeo.FruitsVeggies_Pecan": {
+					"Name": "Pecan",
+					"DisplayName": "Pecan",
+					"Description": "A savory nut with a striped seed. Do you own a nutcracker?",
+					"Type": "Forage",
+					"Category": -81,
+					"Price": 125,
+
+					"Edibility": 12,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 169
+				},
+
+				"MizuLeo.FruitsVeggies_Pistachio": {
+					"Name": "Pistachio",
+					"DisplayName": "Pistachio",
+					"Description": "A versatile and delicious nut that can be eaten as is or used to flavor other products.",
+					"Type": "Forage",
+					"Category": -81,
+					"Price": 90,
+
+					"Edibility": 12,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 147
+				},
+
+				"MizuLeo.FruitsVeggies_Walnut": {
+					"Name": "Walnut",
+					"DisplayName": "Walnut",
+					"Description": "A nut that makes delicious candies and pies. It's often used in the filling of sweet treats.",
+					"Type": "Forage",
+					"Category": -81,
+					"Price": 90,
+
+					"Edibility": 12,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 101
+				},
+
+				"MizuLeo.FruitsVeggies_Avocado": {
+					"Name": "Avocado",
+					"DisplayName": "Avocado",
+					"Description": "A soft plant that's a popular topping and addition to many meals. It's particular loved by younger generations.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 200,
+
+					"Edibility": 20,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 51
+				},
+
+				"MizuLeo.FruitsVeggies_Breadfruit": {
+					"Name": "Breadfruit",
+					"DisplayName": "Breadfruit",
+					"Description": "A relative of the jackfruit. It has a robust flavor that is surprisingly fruity and sweet.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 200,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 195
+				},
+
+				"MizuLeo.FruitsVeggies_DragonFruit": {
+					"Name": "Dragon Fruit",
+					"DisplayName": "Dragon Fruit",
+					"Description": "Also called a pitaya, this is the fruit of a large cactus.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 125,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 49
+				},
+
+				"MizuLeo.FruitsVeggies_Durian": {
+					"Name": "Durian",
+					"DisplayName": "Durian",
+					"Description": "A smelly fruit with a spiky husk. ",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 200,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 193
+				},
+
+				"MizuLeo.FruitsVeggies_Fig": {
+					"Name": "Fig",
+					"DisplayName": "Fig",
+					"Description": "A small and sweet fruit polinated by wasps. It's soft and delicious.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 100,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 27
+				},
+
+				"MizuLeo.FruitsVeggies_Grapefruit": {
+					"Name": "Grapefruit",
+					"DisplayName": "Grapefruit",
+					"Description": "A large bitter fruit, high in Vitamin C. Are you a salty or sugary kind of person?",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 140,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 173
+				},
+
+				"MizuLeo.FruitsVeggies_Lemon": {
+					"Name": "Lemon",
+					"DisplayName": "Lemon",
+					"Description": "A tangy citrus fruit that's used to make lemonade.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 50,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 25
+				},
+
+				"MizuLeo.FruitsVeggies_Lime": {
+					"Name": "Lime",
+					"DisplayName": "Lime",
+					"Description": "The tarter cousin of the lemon. It's often used as an accent to numerous dishes.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 50,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 73
+				},
+
+				"MizuLeo.FruitsVeggies_Lychee": {
+					"Name": "Lychee",
+					"DisplayName": "Lychee",
+					"Description": "A tropical fruit with a unique appearance. Peel them first!",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 110,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 197
+				},
+
+				"MizuLeo.FruitsVeggies_Nectarine": {
+					"Name": "Nectarine",
+					"DisplayName": "Nectarine",
+					"Description": "A tangy relative of the peach, it's smooth instead of fuzzy.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 140,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 75
+				},
+
+				"MizuLeo.FruitsVeggies_Olive": {
+					"Name": "Olive",
+					"DisplayName": "Olive",
+					"Description": "It's packed with vitamins! Olives are used to make oil and salads.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 50,
+
+					"Edibility": 12,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 3
+				},
+
+				"MizuLeo.FruitsVeggies_Papaya": {
+					"Name": "Papaya",
+					"DisplayName": "Papaya",
+					"Description": "A tropical fruit from the rainforest. It has a sweet flavor and a lot of natural juiciness.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 135,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 5
+				},
+
+				"MizuLeo.FruitsVeggies_Pear": {
+					"Name": "Pear",
+					"DisplayName": "Pear",
+					"Description": "A mildly sweet fruit that grows in the winter. Let it ripen for a few days before eating.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 135,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 29
+				},
+
+				"MizuLeo.FruitsVeggies_Persimmon": {
+					"Name": "Persimmon",
+					"DisplayName": "Persimmon",
+					"Description": "A somewhat uncommon fruit filled with a honey-like flavor.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 155,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 53
+				},
+
+				"MizuLeo.FruitsVeggies_Plantain": {
+					"Name": "Plantain",
+					"DisplayName": "Plantain",
+					"Description": "A relative of the banana. It can be starchy.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 175,
+
+					"Edibility": 30,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 125
+				},
+
+				"MizuLeo.FruitsVeggies_Pomelo": {
+					"Name": "Pomelo",
+					"DisplayName": "Pomelo",
+					"Description": "A really large, not so bitter, cousin of the grapefruit.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 80,
+
+					"Edibility": 40,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 171
+				},
+
+				"MizuLeo.FruitsVeggies_Ume": {
+					"Name": "Ume",
+					"DisplayName": "Ume",
+					"Description": "A type of plum that can be eaten fresh or pickled!",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 50,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 123
+				},
+
+				"MizuLeo.FruitsVeggies_Yuzu": {
+					"Name": "Yuzu",
+					"DisplayName": "Yuzu",
+					"Description": "A citrus fruit that's related to the lemon, but sweeter.",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 40,
+
+					"Edibility": 15,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 121
+				},
+
+			// saplings
+				"MizuLeo.FruitsVeggies_AlmondSapling": {
+					"Name": "Almond Sapling",
+					"DisplayName": "Almond Sapling",
+					"Description": "Takes 28 days to produce a mature Almond tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 937,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 96
+				},
+
+				"MizuLeo.FruitsVeggies_CashewSapling": {
+					"Name": "Cashew Sapling",
+					"DisplayName": "Cashew Sapling",
+					"Description": "Takes 28 days to produce a mature Cashew tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1000,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 98
+				},
+
+				"MizuLeo.FruitsVeggies_CassiaSapling": {
+					"Name": "Cassia Sapling",
+					"DisplayName": "Cassia Sapling",
+					"Description": "Takes 28 days to produce a mature Cassia tree. Ready to harvest in the winter. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1500,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 148
+				},
+
+				"MizuLeo.FruitsVeggies_CocoaSapling": {
+					"Name": "Cocoa Sapling",
+					"DisplayName": "Cocoa Sapling",
+					"Description": "Takes 28 days to produce a mature Cocoa tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1250,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 0
+				},
+
+				"MizuLeo.FruitsVeggies_HazelnutSapling": {
+					"Name": "Hazelnut Sapling",
+					"DisplayName": "Hazelnut Sapling",
+					"Description": "Takes 28 days to produce a mature Hazel tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 875,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 6
+				},
+
+				"MizuLeo.FruitsVeggies_PecanSapling": {
+					"Name": "Pecan Sapling",
+					"DisplayName": "Pecan Sapling",
+					"Description": "Takes 28 days to produce a mature Pecan tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1250,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 168
+				},
+
+				"MizuLeo.FruitsVeggies_PistachioSapling": {
+					"Name": "Pistachio Sapling",
+					"DisplayName": "Pistachio Sapling",
+					"Description": "Takes 28 days to produce a mature Pistachio tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 937,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 146
+				},
+
+				"MizuLeo.FruitsVeggies_WalnutSapling": {
+					"Name": "Walnut Sapling",
+					"DisplayName": "Walnut Sapling",
+					"Description": "Takes 28 days to produce a mature Walnut tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 937,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 100
+				},
+
+				"MizuLeo.FruitsVeggies_AvocadoSapling": {
+					"Name": "Avocado Sapling",
+					"DisplayName": "Avocado Sapling",
+					"Description": "Takes 28 days to produce a mature Avocado tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 2000,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 50
+				},
+
+				"MizuLeo.FruitsVeggies_BreadfruitSapling": {
+					"Name": "Breadfruit Sapling",
+					"DisplayName": "Breadfruit Sapling",
+					"Description": "Takes 28 days to produce a mature Breadfruit tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 2000,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 194
+				},
+
+				"MizuLeo.FruitsVeggies_DragonFruitSapling": {
+					"Name": "Dragon Fruit Sapling",
+					"DisplayName": "Dragon Fruit Sapling",
+					"Description": "Takes 28 days to produce a mature Dragon Fruit tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1250,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 48
+				},
+
+				"MizuLeo.FruitsVeggies_DurianSapling": {
+					"Name": "Durian Sapling",
+					"DisplayName": "Durian Sapling",
+					"Description": "Takes 28 days to produce a mature Durian tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 2000,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 192
+				},
+
+				"MizuLeo.FruitsVeggies_FigSapling": {
+					"Name": "Fig Sapling",
+					"DisplayName": "Fig Sapling",
+					"Description": "Takes 28 days to produce a mature Fig tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1000,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 26
+				},
+
+				"MizuLeo.FruitsVeggies_GrapefruitSapling": {
+					"Name": "Grapefruit Sapling",
+					"DisplayName": "Grapefruit Sapling",
+					"Description": "Takes 28 days to produce a mature Grapefruit tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1500,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 172
+				},
+
+				"MizuLeo.FruitsVeggies_LemonSapling": {
+					"Name": "Lemon Sapling",
+					"DisplayName": "Lemon Sapling",
+					"Description": "Takes 28 days to produce a mature Lemon tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 500,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 24
+				},
+
+				"MizuLeo.FruitsVeggies_LimeSapling": {
+					"Name": "Lime Sapling",
+					"DisplayName": "Lime Sapling",
+					"Description": "Takes 28 days to produce a mature Lime tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 500,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 72
+				},
+
+				"MizuLeo.FruitsVeggies_LycheeSapling": {
+					"Name": "Lychee Sapling",
+					"DisplayName": "Lychee Sapling",
+					"Description": "Takes 28 days to produce a mature Lychee tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1250,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 196
+				},
+
+				"MizuLeo.FruitsVeggies_NectarineSapling": {
+					"Name": "Nectarine Sapling",
+					"DisplayName": "Nectarine Sapling",
+					"Description": "Takes 28 days to produce a mature Nectarine tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1500,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 74
+				},
+
+				"MizuLeo.FruitsVeggies_OliveSapling": {
+					"Name": "Olive Sapling",
+					"DisplayName": "Olive Sapling",
+					"Description": "Takes 28 days to produce a mature Olive tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 500,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 2
+				},
+
+				"MizuLeo.FruitsVeggies_PapayaSapling": {
+					"Name": "Papaya Sapling",
+					"DisplayName": "Papaya Sapling",
+					"Description": "Takes 28 days to produce a mature Papaya tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1000,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 4
+				},
+
+				"MizuLeo.FruitsVeggies_PearSapling": {
+					"Name": "Pear Sapling",
+					"DisplayName": "Pear Sapling",
+					"Description": "Takes 28 days to produce a mature Pear tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1375,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 28
+				},
+
+				"MizuLeo.FruitsVeggies_PersimmonSapling": {
+					"Name": "Persimmon Sapling",
+					"DisplayName": "Persimmon Sapling",
+					"Description": "Takes 28 days to produce a mature Persimmon tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 1750,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 52
+				},
+
+				"MizuLeo.FruitsVeggies_PlantainSapling": {
+					"Name": "Plantain Sapling",
+					"DisplayName": "Plantain Sapling",
+					"Description": "Takes 28 days to produce a mature Plantain tree. Bears fruit in the summer, or all year round when planted on Ginger Island.",
+					"Type": "Basic",
+					"Price": 1000,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 124
+				},
+
+				"MizuLeo.FruitsVeggies_PomeloSapling": {
+					"Name": "Pomelo Sapling",
+					"DisplayName": "Pomelo Sapling",
+					"Description": "Takes 28 days to produce a mature Pomelo tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 850,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 170
+				},
+
+				"MizuLeo.FruitsVeggies_UmeSapling": {
+					"Name": "Ume Sapling",
+					"DisplayName": "Ume Sapling",
+					"Description": "Takes 28 days to produce a mature Ume tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 500,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 122
+				},
+
+				"MizuLeo.FruitsVeggies_YuzuSapling": {
+					"Name": "Yuzu Sapling",
+					"DisplayName": "Yuzu Sapling",
+					"Description": "Takes 28 days to produce a mature Yuzu tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.",
+					"Type": "Basic",
+					"Price": 500,
+
+					"Edibility": -300,
+
+					"Texture": "Mods/MizuLeo.FruitsVeggies/Objects",
+					"SpriteIndex": 120
+				},
 			}
-        },
+        }
     ]
 }

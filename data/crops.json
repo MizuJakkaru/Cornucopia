@@ -527,7 +527,8 @@
                     "DaysInPhase": [ 1, 2, 3, 2 ],
                     "HarvestItemId": "MizuLeo.FruitsVeggies_WasabiRoot",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
-                    "SpriteIndex": 23
+                    "SpriteIndex": 23,
+					"IsPaddyCrop": true
                     },
                 "MizuLeo.FruitsVeggies_WatermelonSeeds": {
                     "Seasons": [ "summer" ],
