@@ -53,7 +53,17 @@
 					"Price": 5000,
 					"IgnoreShopPriceModifiers": true
 				}
-			}
-        },
+			},
+			
+			"MoveEntries": [
+				{ "Id": "MizuLeo.FruitsVeggies_BlueAgaveSeeds", "BeforeId": "(BC)196" },
+				{ "Id": "MizuLeo.FruitsVeggies_AgaveSeeds", "BeforeId": "(BC)196" },
+				{ "Id": "MizuLeo.FruitsVeggies_SugarCaneSeeds", "BeforeId": "(BC)196" },
+				{ "Id": "MizuLeo.FruitsVeggies_BreadfruitSapling", "BeforeId": "(BC)196" },
+				{ "Id": "MizuLeo.FruitsVeggies_DragonFruitSapling", "BeforeId": "(BC)196" },
+				{ "Id": "MizuLeo.FruitsVeggies_DurianSapling", "BeforeId": "(BC)196" },
+				{ "Id": "MizuLeo.FruitsVeggies_LycheeSapling", "BeforeId": "(BC)196" }
+			]
+		},
     ]
 }
