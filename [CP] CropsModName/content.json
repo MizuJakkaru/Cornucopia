@@ -4,7 +4,7 @@
         // add item + crop images
         {
             "Action": "Load",
-            "Target": "Mods/MizuLeo.FruitsVeggies/Crops, Mods/MizuLeo.FruitsVeggies/Objects, Mods/MizuLeo.FruitsVeggies/FruitTrees",
+            "Target": "Mods/Cornucopia.FruitsVeggies/Crops, Mods/Cornucopia.FruitsVeggies/Objects, Mods/Cornucopia.FruitsVeggies/FruitTrees",
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
         },
 		
