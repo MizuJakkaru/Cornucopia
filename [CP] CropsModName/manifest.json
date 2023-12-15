@@ -1,10 +1,10 @@
 {
     "Name": "More Fruits and Veggies",
-    "Author": "MizuJakkaru, DraconisLeonidas",
+    "Author": "Cornucopia",
     "Description": "An additional Fruits and Veggies mod for Stardew Valley 1.6 Content Patcher",
     "Version": "1.0.0",
     "MinimumApiVersion": "4.0.0-alpha",
-    "UniqueID": "MizuLeo.FruitsVeggies",
+    "UniqueID": "Cornucopia.FruitsVeggies",
     //"UpdateKeys": ["Nexus:"],
 	"ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
