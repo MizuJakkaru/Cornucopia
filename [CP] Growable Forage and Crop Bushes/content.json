@@ -1,0 +1,86 @@
+{
+	"Format": "1.29.0",
+	"ConfigSchema": {
+		"Spring Onion Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a crop for spring onions."
+		},
+		"Ginger Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a late-game crop for ginger."
+		},
+		"Common Mushroom Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a 'bush' or crop for common mushrooms."
+		},
+		"Morel Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a 'bush' or crop for morels."
+		},
+		"Chanterelle Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a 'bush' or crop for chanterelles."
+		},
+		"Salmonberry/Blackberry Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a seasonal bush that produces salmonberries and blackberries."
+		},
+		"Coffee Bush": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Turns coffee beans from a crop into a bush (if you have Custom Bush installed)."
+		},
+		"Blueberry Bush": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Turns blueberries from a crop into a bush (if you have Custom Bush installed)."
+		},
+		"Cactus Bush": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Turns cactus fruit from a crop into a bush (if you have Custom Bush installed)."
+		},
+		"Grape Trellis": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Turns grapes from a crop into a bush (if you have Custom Bush installed)."
+		},
+		"Hops Trellis": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Turns hops from a crop into a bush (if you have Custom Bush installed)."
+		},
+	},
+	"DynamicTokens": [
+		{
+			"Name": "QualityChance",
+			"Value": 4,
+			//"Value": "{{Random: 0, 1, 2, 4}}",
+		},
+	],
+	"Changes": [
+		{
+		"LogName": "Textures",
+		"Action": "Load",
+		"Target": "6480.growableforage/objects, 6480.growableforage/crops",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+		"LogName": "Tea Bush",
+		"Action": "Load",
+		"Target": "6480.growableforage/teabushes",
+		"FromFile": "assets/teabushes_{{season}}.png"
+		},
+		{
+		"LogName": "Vanilla Forage Crops",
+		"Action": "Include",
+		"FromFile": "data/vanillaforage.json",
+		},
+	]
+}

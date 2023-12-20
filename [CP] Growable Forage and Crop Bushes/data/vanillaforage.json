@@ -1,0 +1,276 @@
+{
+	"Changes": [
+		{
+			"LogName": "Ginger and Spring Onion Crop",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"Entries": {
+				"6480.growableforage_SpringOnionSeeds": {
+					"Seasons": [ "spring" ],
+					"DaysInPhase": [ 1, 1, 1 ],
+					"HarvestItemId": "(O)399",
+					"Texture": "6480.growableforage/crops",
+					"SpriteIndex": 0,
+				},
+				"6480.growableforage_GingerSeeds": {
+					"Seasons": [ "summer" ],
+					"DaysInPhase": [ 2, 2, 2, 2 ],
+					"HarvestItemId": "(O)829",
+					"Texture": "6480.growableforage/crops",
+					"SpriteIndex": 1,
+				},
+				/*"6480.growableforage_SalmonberrySeeds": 
+				{"Seasons": [ "spring" ],
+					"DaysInPhase": [ 1, 2, 1, 1, 1 ],
+					"HarvestItemId": "(O)296",
+					"Texture": "6480.growableforage/crops",
+					"SpriteIndex": 2,
+					"RegrowDays": 3,
+				},
+				"6480.growableforage_BlackberrySeeds": {
+					"Seasons": [ "fall" ],
+					"DaysInPhase": [ 1, 3, 1, 1, 2 ],
+					"HarvestItemId": "(O)410",
+					"Texture": "6480.growableforage/crops",
+					"SpriteIndex": 3,
+					"RegrowDays": 4,
+				},
+				"6480.growableforage_CommonMushroomSeeds": {
+					"Seasons": [ "spring, fall" ],
+					"DaysInPhase": [ 3, 1, 1, 1, 2 ],
+					"HarvestItemId": "(O)404",
+					"Texture": "6480.growableforage/crops",
+					"SpriteIndex": 5,
+					"RegrowDays": 3,
+					"IsRaised": true,
+				},
+				"6480.growableforage_MorelSeeds": {
+					"Seasons": [ "spring" ],
+					"DaysInPhase": [ 3, 1, 1, 2, 3 ],
+					"HarvestItemId": "(O)257",
+					"Texture": "6480.growableforage/crops",
+					"SpriteIndex": 4,
+					"RegrowDays": 4,
+					"IsRaised": true,
+				},
+				"6480.growableforage_ChanterelleSeeds": {
+					"Seasons": [ "fall" ],
+					"DaysInPhase": [ 3, 1, 1, 1, 2 ],
+					"HarvestItemId": "(O)281",
+					"Texture": "6480.growableforage/crops",
+					"SpriteIndex": 6,
+					"RegrowDays": 5,
+					"IsRaised": true,
+				},*/
+			}
+		},
+		{
+			"LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": {"HasMod": "furyx639.CustomBush"},
+			"Entries": {
+				//grapes
+				"(O)301": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)398",
+							"Id": "Default",
+							"Season": null,
+							"Chance": 1.0,
+							"RandomItemId": null,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": "{{QualityChance}}",
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack"
+						}
+					],
+					"Texture": "6480.growableforage/teabushes",
+					"TextureSpriteRow": 0,
+				},
+				//hops
+				"(O)302": {
+					"AgeToProduce": 16,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"ItemId": "(O)304",
+							"Season": "summer",
+						}
+					],
+					"Texture": "6480.growableforage/teabushes",
+					"TextureSpriteRow": 2,
+				},
+				//cactus fruit
+				"(O)802": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)90",
+							"Quality": "{{QualityChance}}",
+							"Season": "summer",
+						}
+					],
+					"Texture": "6480.growableforage/teabushes",
+					"TextureSpriteRow": 4,
+				},
+				//coffee
+				"(O)433": {
+					"AgeToProduce": 16,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring, summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH even",
+							"ItemId": "(O)433",
+							"Season": "spring, summer",
+							"MinStack": 3,
+							"MaxStack": 5,
+						}
+					],
+					"Texture": "6480.growableforage/teabushes",
+					"TextureSpriteRow": 6,
+				},
+				//blueberry
+				"(O)481": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 4 8 12 16 20 24 28",
+							"ItemId": "(O)258",
+							"MinStack": 3,
+							"MaxStack": 4,
+							"Quality": "{{QualityChance}}",
+							"Season": "summer",
+						}
+					],
+					"Texture": "6480.growableforage/teabushes",
+					"TextureSpriteRow": 8,
+				},
+				//salmonberry and blackberry
+				"6480.growableforage_BerryBushSeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring, fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 15 16 17 18",
+							"ItemId": "(O)296",
+							"Season": "spring",
+							"MinStack": 3,
+							"MaxStack": 3,
+							"Quality": "{{QualityChance}}",
+						},
+						{
+							"Condition": "DAY_OF_MONTH 8 9 10 11",
+							"ItemId": "(O)410",
+							"Season": "fall",
+							"MinStack": 3,
+							"MaxStack": 3,
+							"Quality": "{{QualityChance}}",
+						}
+					],
+					"Texture": "6480.growableforage/teabushes",
+					"IndoorTexture": "6480.growableforage/teabushes_indoor",
+					"TextureSpriteRow": 16,
+				},
+			}
+		},
+		{
+			"LogName": "Growable Forage Objects",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"6480.growableforage_GingerSeeds": {
+					"Name": "6480.growableforage_GingerSeeds",
+					"Displayname": "{{i18n:GingerSeeds_name}}",
+					"Description": "{{i18n:GingerSeeds_description}}",
+					"Texture": "6480.growableforage/objects",
+					"SpriteIndex": 0,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 10,
+					//optional
+					"ContextTags": [ "color_brown" ]
+				},
+				"6480.growableforage_SpringOnionSeeds": {
+					"Name": "6480.growableforage_SpringOnionSeeds",
+					"Displayname": "{{i18n:SpringOnionSeeds_name}}",
+					"Description": "{{i18n:SpringOnionSeeds_description}}",
+					"Texture": "6480.growableforage/objects",
+					"SpriteIndex": 0,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 2,
+					//optional
+					"ContextTags": [ "color_green" ]
+				},
+				"6480.growableforage_BerryBushSeeds": {
+					"Name": "6480.growableforage_BerryBushSeeds",
+					"Displayname": "{{i18n:BerryBushSeeds_name}}",
+					"Description": "{{i18n:BerryBushSeeds_description}}",
+					"Texture": "6480.growableforage/objects",
+					"SpriteIndex": 0,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 2,
+					//optional
+					"ContextTags": [ "color_green" ]
+				},
+				"6480.growableforage_CommonMushroomSeeds": {
+					"Name": "6480.growableforage_CommonMushroomSeeds",
+					"Displayname": "{{i18n:CommonMushroomSeeds_name}}",
+					"Description": "{{i18n:CommonMushroomSeeds_description}}",
+					"Texture": "6480.growableforage/objects",
+					"SpriteIndex": 0,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 2,
+					//optional
+					"ContextTags": [ "color_green" ]
+				},
+				"6480.growableforage_ChanterelleSeeds": {
+					"Name": "6480.growableforage_ChanterelleSeeds",
+					"Displayname": "{{i18n:ChanterelleSeeds_name}}",
+					"Description": "{{i18n:ChanterelleSeeds_description}}",
+					"Texture": "6480.growableforage/objects",
+					"SpriteIndex": 0,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 2,
+					//optional
+					"ContextTags": [ "color_green" ]
+				},
+				"6480.growableforage_MorelSeeds": {
+					"Name": "6480.growableforage_MorelSeeds",
+					"Displayname": "{{i18n:MorelSeeds_name}}",
+					"Description": "{{i18n:MorelSeeds_description}}",
+					"Texture": "6480.growableforage/objects",
+					"SpriteIndex": 0,
+					"Type": "Seeds",
+					"Category": -74,
+					"Price": 2,
+					//optional
+					"ContextTags": [ "color_green" ]
+				},
+			}
+		},
+	]
+}

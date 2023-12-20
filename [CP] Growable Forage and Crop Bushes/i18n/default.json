@@ -1,0 +1,33 @@
+{
+	"GingerSeeds_name": "Ginger Seeds",
+	"GingerSeeds_description": "Plant these in the summer. Takes 8 days to mature.",
+	
+	"SpringOnionSeeds_name": "Spring Onion Seeds",
+	"SpringOnionSeeds_description": "Plant these in the spring. Takes only 3 days to mature.",
+	
+	"GrapeSeeds_name": "Grape Planter",
+	"GrapeSeeds_description": "Takes 20 days to mature. Produces grapes every 3 days in fall, no watering necessary!",
+	
+	"HopsSeeds_name": "Hops Planter",
+	"HopsSeeds_description": "Takes 20 days to mature. Produces hops every day during summer, no watering necessary!",
+	
+	"CactusFruitSeeds_name": "Cactus Planter",
+	"CactusFruitSeeds_description": "Plant indoors or outdoors, and takes 20 days to mature. Produces cactus fruit every 3 days in summer, no watering necessary!",
+	
+	"CoffeeBean_description": "Plant to grow a coffee bush that produces coffee beans in spring and summer. Place five beans in a keg to make coffee.",
+	
+	"BlueberrySeeds_name": "Blueberry Bush Sapling",
+	"BlueberrySeeds_description": "Takes 20 days to mature into a blueberry bush. Produces blueberries every 4 days in summer.",
+	
+	"BerryBushSeeds_name": "Berry Bush Sapling",
+	"BerryBushSeeds_description": "Takes 20 days to mature into a berry bush. Produces salmonberries and blackberries during berry picking season.",
+	
+	"CommonMushroomSeeds_name": "Common Mushroom Planter",
+	"CommonMushroomSeeds_description": "Takes 20 days to mature into a common mushroom stump. Produces common mushrooms throughout spring and fall.",
+	
+	"ChanterelleSeeds_name": "Chanterelle Planter",
+	"ChanterelleSeeds_description": "Takes 20 days to mature into a common mushroom stump. Produces a bounty of chanterelles in late fall (Fall 18-24).",
+	
+	"MorelSeeds_name": "Morel Planter",
+	"MorelSeeds_description": "Takes 20 days to mature into a common mushroom stump. Produces a bounty of morels in late spring (Spring 20-28).",
+}

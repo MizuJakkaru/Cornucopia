@@ -1,0 +1,12 @@
+{
+	"Name": "Growable Forage and Crop Bushes",
+	"Author": "6480",
+	"Version": "1.0.0",
+	"Description": "Adds new ways of growing some forage items, and turns some crops into growable bushes!",
+	"UniqueID": "6480.growableforage",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.29.0"
+	},
+	"UpdateKeys": [ "Nexus: ???" ]
+}
