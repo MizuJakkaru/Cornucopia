@@ -1,0 +1,72 @@
+{
+    "Format": "1.29.0",
+	"ConfigSchema": {
+		"Enable Essential Pack": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Highly recommended) Adds an essential variety of 16 crops and bushes, 4 fruit trees, recipes, and other content. If you want to experience Cornucopia `lite`, make sure to turn off other pack options."
+		},
+		"Enable Extended Crops": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a large variety of 40+ crops and bushes in addition to the essential pack."
+		},
+		"Enable Extended Trees": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a large variety of 30+ fruit trees in addition to the essential pack."
+		},
+		"Enable Herbs Pack": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds 20+ new herbs as crops and trees."
+		},
+		"Enable Recipes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Recommended) Adds custom cooking recipes using vanilla and Cornucopia ingredients."
+		},
+		"Enable Artisan Goods": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Recommended) Adds custom, unique artisan goods for some Cornucopia crops. Generic goods like wine, juice, etc will still be automatically added regardless of this setting."
+		},
+	},
+	"DynamicTokens": [
+		//crop ExtraHarvestChance values for later testing
+		{
+			"Name": "10Percent",
+			"Value": "0.01"
+		},
+		{
+			"Name": "25Percent",
+			"Value": "0.03"
+		},
+		{
+			"Name": "50Percent",
+			"Value": "0.06"
+		},
+		{
+			"Name": "75Percent",
+			"Value": "0.1"
+		},
+		{
+			"Name": "90Percent",
+			"Value": "0.2"
+		},
+	],
+    "Changes": [		
+        // add item + crop images
+        {
+            "Action": "Load",
+            "Target": "Cornucopia.MoreCrops/Crops, Cornucopia.MoreCrops/Objects, Cornucopia.MoreCrops/FruitTrees",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
+        },
+		
+		// add subfiles
+		{
+			"Action": "Include",
+			"FromFile": "data/crops.json, data/gifttastes.json, data/objects.json, data/shop_dwarf.json, data/shop_pierre.json, data/shop_islandtrader.json, data/shop_oasis.json, data/fruittrees.json"
+		},
+    ]
+}

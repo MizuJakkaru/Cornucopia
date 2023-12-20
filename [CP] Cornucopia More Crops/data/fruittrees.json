@@ -1,0 +1,231 @@
+{
+	"Changes": [
+		//Base trees
+		{
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"When": {"Enable Essential Pack": true},
+			"Entries": {
+				"Cornucopia_AvocadoSapling": {
+					"DisplayName": "{{i18n:Avocado_name}}",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": "Cornucopia_Avocado"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 1
+				},
+				"Cornucopia_CocoaSapling": {
+					"DisplayName": "{{i18n:Cocoa_name}}",
+					"Seasons": [ "spring" ],
+					"Fruit": [{"ItemId": "Cornucopia_CocoaPod"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 2
+				},
+				"Cornucopia_PearSapling": {
+					"DisplayName": "{{i18n:Pear_name}}",
+					"Seasons": [ "winter" ],
+					"Fruit": [{"ItemId": "Cornucopia_Pear"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 3
+				},
+				"Cornucopia_PistachioSapling": {
+					"DisplayName": "{{i18n:Pistachio_name}}",
+					"Seasons": [ "fall" ],
+					"Fruit": [{"ItemId": "Cornucopia_Pistachio"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 4
+				},
+			}
+		},
+		//Extended trees
+		{
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"When": {"Enable Extended Trees": true},
+			"Entries": {
+				"Cornucopia_AlmondSapling": {
+					"DisplayName": "{{i18n:Almond_name}}",
+					"Seasons": [ "fall" ],
+					"Fruit": [{"ItemId": "Cornucopia_Almond"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 5
+				},
+				"Cornucopia_BreadfruitSapling": {
+					"DisplayName": "{{i18n:Breadfruit_name}}",
+					"Seasons": [ "spring" ],
+					"Fruit": [{"ItemId": "Cornucopia_Breadfruit"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 6
+				},
+				"Cornucopia_CashewSapling": {
+					"DisplayName": "{{i18n:Cashew_name}}",
+					"Seasons": [ "fall" ],
+					"Fruit": [{"ItemId": "Cornucopia_Cashew"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 7
+				},
+				"Cornucopia_DragonFruitSapling": {
+					"DisplayName": "{{i18n:DragonFruit_name}}",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": "Cornucopia_DragonFruit"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 8
+				},
+				"Cornucopia_DurianSapling": {
+					"DisplayName": "{{i18n:Durian_name}}",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": "Cornucopia_Durian"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 9
+				},
+				"Cornucopia_FigSapling": {
+					"DisplayName": "{{i18n:Fig_name}}",
+					"Seasons": [ "winter" ],
+					"Fruit": [{"ItemId": "Cornucopia_Fig"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 10
+				},
+				"Cornucopia_GrapefruitSapling": {
+					"DisplayName": "{{i18n:Grapefruit_name}}",
+					"Seasons": [ "fall" ],
+					"Fruit": [{"ItemId": "Cornucopia_Grapefruit"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 11
+				},
+				"Cornucopia_LemonSapling": {
+					"DisplayName": "{{i18n:Lemon_name}}",
+					"Seasons": [ "spring" ],
+					"Fruit": [{"ItemId": "Cornucopia_Lemon"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 12
+				},
+				"Cornucopia_LimeSapling": {
+					"DisplayName": "{{i18n:Lime_name}}",
+					"Seasons": [ "spring" ],
+					"Fruit": [{"ItemId": "Cornucopia_Lime"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 13
+				},
+				"Cornucopia_LycheeSapling": {
+					"DisplayName": "{{i18n:Lychee_name}}",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": "Cornucopia_Lychee"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 14
+				},
+				"Cornucopia_NectarineSapling": {
+					"DisplayName": "{{i18n:Nectarine_name}}",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": "Cornucopia_Nectarine"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 15
+				},
+				"Cornucopia_PapayaSapling": {
+					"DisplayName": "{{i18n:Papaya_name}}",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": "Cornucopia_Papaya"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 16
+				},
+				"Cornucopia_PecanSapling": {
+					"DisplayName": "{{i18n:Pecan_name}}",
+					"Seasons": [ "fall" ],
+					"Fruit": [{"ItemId": "Cornucopia_Pecan"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 17
+				},
+				"Cornucopia_PersimmonSapling": {
+					"DisplayName": "{{i18n:Persimmon_name}}",
+					"Seasons": [ "winter" ],
+					"Fruit": [{"ItemId": "Cornucopia_Persimmon"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 18
+				},
+				"Cornucopia_PlantainSapling": {
+					"DisplayName": "{{i18n:Plantain_name}}",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": "Cornucopia_Plantain"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 19
+				},
+				"Cornucopia_PomeloSapling": {
+					"DisplayName": "{{i18n:Pomelo_name}}",
+					"Seasons": [ "winter" ],
+					"Fruit": [{"ItemId": "Cornucopia_Pomelo"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 20
+				},
+				"Cornucopia_UmeSapling": {
+					"DisplayName": "{{i18n:Ume_name}}",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": "Cornucopia_Ume"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 21
+				},
+				"Cornucopia_VanillaSapling": {
+					"DisplayName": "{{i18n:Vanilla_name}}",
+					"Seasons": [ "fall" ],
+					"Fruit": [{"ItemId": "Cornucopia_Vanilla"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 22
+				},
+				"Cornucopia_WalnutSapling": {
+					"DisplayName": "{{i18n:Walnut_name}}",
+					"Seasons": [ "fall" ],
+					"Fruit": [{"ItemId": "Cornucopia_Walnut"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 23
+				},
+				"Cornucopia_YuzuSapling": {
+					"DisplayName": "{{i18n:Yuzu_name}}",
+					"Seasons": [ "winter" ],
+					"Fruit": [{"ItemId": "Cornucopia_Yuzu"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 24
+				},
+			}
+		},
+		//Herbs trees
+		{
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"When": {"Enable Herbs Pack": true},
+			"Entries": {
+				"Cornucopia_CamphorLeavesSapling": {
+					"DisplayName": "{{i18n:Camphor_name}}",
+					"Seasons": [ "winter" ],
+					"Fruit": [{"ItemId": "Cornucopia_CamphorLeaves"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 25
+				},
+				"Cornucopia_CinnamonSticksSapling": {
+					"DisplayName": "{{i18n:Cassia_name}}",
+					"Seasons": [ "winter" ],
+					"Fruit": [{"ItemId": "Cornucopia_CinnamonSticks"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 26
+				},
+				"Cornucopia_EucalyptusLeavesSapling": {
+					"DisplayName": "{{i18n:Eucalyptus_name}}",
+					"Seasons": [ "spring" ],
+					"Fruit": [{"ItemId": "Cornucopia_EucalyptusLeaves"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 27
+				},
+				"Cornucopia_MelaleucaLeavesSapling": {
+					"DisplayName": "{{i18n:Melaleuca_name}}",
+					"Seasons": [ "spring" ],
+					"Fruit": [{"ItemId": "Cornucopia_MelaleucaLeaves"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 28
+				},
+				"Cornucopia_NutmegSapling": {
+					"DisplayName": "{{i18n:Nutmeg_name}}",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": "Cornucopia_Nutmeg"}],
+					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"TextureSpriteRow": 28
+				},
+			}
+		},
+	]
+}

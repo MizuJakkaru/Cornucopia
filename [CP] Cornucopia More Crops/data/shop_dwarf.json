@@ -1,0 +1,30 @@
+{
+    "Changes": [
+		// add shop data - dwarf's shop
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Dwarf", "Items" ],
+			"Entries": {
+				"Cornucopia_GinsengSeeds": {
+					"Id": "Cornucopia_GinsengSeeds",
+					"ItemId": "Cornucopia_GinsengSeeds",
+					"Price": 1000,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_ShiitakeSeeds": {
+					"Id": "Cornucopia_ShiitakeSeeds",
+					"ItemId": "Cornucopia_ShiitakeSeeds",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_ChickenoftheWoodsSeeds": {
+					"Id": "Cornucopia_ChickenoftheWoodsSeeds",
+					"ItemId": "Cornucopia_ChickenoftheWoodsSeeds",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}
