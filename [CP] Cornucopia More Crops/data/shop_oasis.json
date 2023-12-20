@@ -1,0 +1,69 @@
+{
+    "Changes": [
+		// add shop data - oasis
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Sandy", "Items" ],
+			"Entries": {
+				"Cornucopia_BlueAgaveSeeds": {
+					"Id": "Cornucopia_BlueAgaveSeeds",
+					"ItemId": "Cornucopia_BlueAgaveSeeds",
+					"Condition": "YEAR 3",
+					"Price": 200,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_AgaveSeeds": {
+					"Id": "Cornucopia_AgaveSeeds",
+					"ItemId": "Cornucopia_AgaveSeeds",
+					"Condition": "YEAR 4",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_SugarcaneSeeds": {
+					"Id": "Cornucopia_SugarcaneSeeds",
+					"ItemId": "Cornucopia_SugarcaneSeeds",
+					"Price": 110,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_BreadfruitSapling": {
+					"Id": "Cornucopia_BreadfruitSapling",
+					"ItemId": "Cornucopia_BreadfruitSapling",
+					"Condition": "YEAR 2",
+					"Price": 8000,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_DragonFruitSapling": {
+					"Id": "Cornucopia_DragonFruitSapling",
+					"ItemId": "Cornucopia_DragonFruitSapling",
+					"Price": 5000,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_DurianSapling": {
+					"Id": "Cornucopia_DurianSapling",
+					"ItemId": "Cornucopia_DurianSapling",
+					"Condition": "YEAR 2",
+					"Price": 8000,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_LycheeSapling": {
+					"Id": "Cornucopia_LycheeSapling",
+					"ItemId": "Cornucopia_LycheeSapling",
+					"Condition": "YEAR 2",
+					"Price": 5000,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			
+			"MoveEntries": [
+				{ "Id": "Cornucopia_BlueAgaveSeeds", "BeforeId": "(BC)196" },
+				{ "Id": "Cornucopia_AgaveSeeds", "BeforeId": "(BC)196" },
+				{ "Id": "Cornucopia_SugarcaneSeeds", "BeforeId": "(BC)196" },
+				{ "Id": "Cornucopia_BreadfruitSapling", "BeforeId": "(BC)196" },
+				{ "Id": "Cornucopia_DragonFruitSapling", "BeforeId": "(BC)196" },
+				{ "Id": "Cornucopia_DurianSapling", "BeforeId": "(BC)196" },
+				{ "Id": "Cornucopia_LycheeSapling", "BeforeId": "(BC)196" }
+			]
+		},
+    ]
+}

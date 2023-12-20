@@ -6,16 +6,16 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "IslandTrade", "Items" ],
 			"Entries": {
-				"MizuLeo.FruitsVeggies_PapayaSapling": {
-					"Id": "MizuLeo.FruitsVeggies_PapayaSapling",
-					"ItemId": "MizuLeo.FruitsVeggies_PapayaSapling",
+				"Cornucopia_PapayaSapling": {
+					"Id": "Cornucopia_PapayaSapling",
+					"ItemId": "Cornucopia_PapayaSapling",
 					"TradeItemId": "(O)719", //Mussel
 					"TradeItemAmount": 5,
 					"IgnoreShopPriceModifiers": true
 				},
-				"MizuLeo.FruitsVeggies_PlantainSapling": {
-					"Id": "MizuLeo.FruitsVeggies_PlantainSapling",
-					"ItemId": "MizuLeo.FruitsVeggies_PlantainSapling",
+				"Cornucopia_PlantainSapling": {
+					"Id": "Cornucopia_PlantainSapling",
+					"ItemId": "Cornucopia_PlantainSapling",
 					"TradeItemId": "(O)91", //Banana
 					"TradeItemAmount": 5,
 					"IgnoreShopPriceModifiers": true

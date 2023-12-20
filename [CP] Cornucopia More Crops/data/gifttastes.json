@@ -8,7 +8,7 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Love"],
-                    "Value": "MizuLeo.FruitsVeggies_GreenPeaSeeds", 
+                    "Value": "Cornucopia_GreenPeasSeeds", 
                     "Delimiter": " " // if there are already values, add a space between them and the new one
                 }
             ]
