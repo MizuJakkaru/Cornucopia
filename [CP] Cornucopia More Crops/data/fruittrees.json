@@ -13,7 +13,7 @@
 					"Texture": "Cornucopia.MoreCrops/FruitTrees",
 					"TextureSpriteRow": 1
 				},
-				"Cornucopia_CocoaSapling": {
+				"Cornucopia_CocoaPodSapling": {
 					"DisplayName": "{{i18n:Cocoa_name}}",
 					"Seasons": [ "spring" ],
 					"Fruit": [{"ItemId": "Cornucopia_CocoaPod"}],
