@@ -1,19 +1,33 @@
 {
-    "Changes": [
-		// add shop data - marnie's ranch
-		{
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "AnimalShop", "Items" ],
-			"Entries": {
-				"Cornucopia_MelaleucaSapling": {
-					"Id": "Cornucopia_MelaleucaSapling",
-					"ItemId": "Cornucopia_MelaleucaSapling",
-					"Condition": "YEAR 2",
-					"Price": 20,
-					"IgnoreShopPriceModifiers": true
-				}
-			}
+  "Changes": [
+	//Herbs seeds & saplings
+    {
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "AnimalShop", "Items" ],
+      "When": {
+        "Enable Herbs Pack": true
+      },
+      "Entries": {
+		"Cornucopia_CatnipSeeds": {
+			"Id": "Cornucopia_CatnipSeeds",
+			"ItemId": "Cornucopia_CatnipSeeds",
+			"Condition": "SEASON spring, YEAR 2",
+			"Price": 60,
+			"IgnoreShopPriceModifiers": true
 		},
-    ]
+		"Cornucopia_MelaleucaLeavesSapling": {
+			"Id": "Cornucopia_MelaleucaLeavesSapling",
+			"ItemId": "Cornucopia_MelaleucaLeavesSapling",
+			"Condition": "YEAR 2",
+			"Price": 20,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_CatnipSeeds", "AfterID": "(O)178" },
+			{ "Id": "Cornucopia_MelaleucaLeavesSapling", "BeforeId": "(BC)104" }
+		]
+    },
+  ]
 }

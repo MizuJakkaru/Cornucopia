@@ -1,33 +1,41 @@
 {
-    "Changes": [
-		// add shop data - island trader
-		{
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "IslandTrade", "Items" ],
-			"Entries": {
-				"Cornucopia_PeppercornSeeds": {
-					"Id": "Cornucopia_PeppercornSeeds",
-					"ItemId": "Cornucopia_PeppercornSeeds",
-					"TradeItemId": "(O)881", //Bone Fragment
-					"TradeItemAmount": 10,
-					"IgnoreShopPriceModifiers": true
-				},
-				"Cornucopia_PapayaSapling": {
-					"Id": "Cornucopia_PapayaSapling",
-					"ItemId": "Cornucopia_PapayaSapling",
-					"TradeItemId": "(O)719", //Mussel
-					"TradeItemAmount": 5,
-					"IgnoreShopPriceModifiers": true
-				},
-				"Cornucopia_PlantainSapling": {
-					"Id": "Cornucopia_PlantainSapling",
-					"ItemId": "Cornucopia_PlantainSapling",
-					"TradeItemId": "(O)91", //Banana
-					"TradeItemAmount": 5,
-					"IgnoreShopPriceModifiers": true
-				}
-			}
+  "Changes": [
+	//Extended seeds & saplings
+    {
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "IslandTrade", "Items" ],
+      "When": {
+        "Enable Extended Crops Pack": true
+      },
+      "Entries": {
+		"Cornucopia_PeppercornSeeds": {
+			"Id": "Cornucopia_PeppercornSeeds",
+			"ItemId": "Cornucopia_PeppercornSeeds",
+			"TradeItemId": "(O)881", //Bone Fragment
+			"TradeItemAmount": 10,
+			"IgnoreShopPriceModifiers": true
 		},
-    ]
+		"Cornucopia_PapayaSapling": {
+			"Id": "Cornucopia_PapayaSapling",
+			"ItemId": "Cornucopia_PapayaSapling",
+			"TradeItemId": "(O)719", //Mussel
+			"TradeItemAmount": 5,
+			"IgnoreShopPriceModifiers": true
+		},
+		"Cornucopia_PlantainSapling": {
+			"Id": "Cornucopia_PlantainSapling",
+			"ItemId": "Cornucopia_PlantainSapling",
+			"TradeItemId": "(O)91", //Banana
+			"TradeItemAmount": 5,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_PeppercornSeeds", "AfterId": "(O)833" },
+			{ "Id": "Cornucopia_PapayaSapling", "AfterId": "(O)835" },
+			{ "Id": "Cornucopia_PlantainSapling", "AfterId": "(O)835" }
+		]
+    },
+  ]
 }

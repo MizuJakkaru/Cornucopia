@@ -119,7 +119,6 @@
 			{ "Id": "Cornucopia_BasilSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_BellPepperSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_BroccoliSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_BuckwheatSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_CarrotSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_CottonBollSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_CucumberSeeds", "BeforeId": "GrassStarter" },
@@ -467,7 +466,7 @@
 			{ "Id": "Cornucopia_YellowSquashSeeds", "BeforeId": "GrassStarter" }
 		]
     },
-   //Extended herb seeds
+   //Herb crop seeds
 	{
       "Action": "EditData",
 	  "Target": "Data/Shops",
@@ -593,6 +592,13 @@
 			"ItemId": "Cornucopia_SageSeeds",
 			"Condition": "SEASON fall, YEAR 2",
 			"Price": 40,
+			"IgnoreShopPriceModifiers": true
+		},
+		"Cornucopia_TarragonSeeds": {
+			"Id": "Cornucopia_TarragonSeeds",
+			"ItemId": "Cornucopia_TarragonSeeds",
+			"Condition": "SEASON fall, YEAR 3",
+			"Price": 35,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_ThymeSeeds": {
