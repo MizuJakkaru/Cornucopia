@@ -73,7 +73,7 @@
 					"Id": "Cornucopia_OnionSeeds",
 					"ItemId": "Cornucopia_OnionSeeds",
 					"Condition": "SEASON spring",
-					"Price": 80,
+					"Price": 900,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia_PeanutSeeds": {
@@ -87,7 +87,7 @@
 					"Id": "Cornucopia_RaspberrySeeds",
 					"ItemId": "Cornucopia_RaspberrySeeds",
 					"Condition": "SEASON summer, YEAR 2",
-					"Price": 60,
+					"Price": 950,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia_Soybeans": {
@@ -144,6 +144,13 @@
 					"ItemId": "Cornucopia_BlackBeansSeeds",
 					"Condition": "SEASON fall, YEAR 2",
 					"Price": 60,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_BlackCurrantsSeeds": {
+					"Id": "Cornucopia_BlackCurrantsSeeds",
+					"ItemId": "Cornucopia_BlackCurrantsSeeds",
+					"Condition": "SEASON summer, YEAR 2",
+					"Price": 1100,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia_BuckwheatSeeds": {
@@ -227,14 +234,14 @@
 					"Id": "Cornucopia_ElderberriesSeeds",
 					"ItemId": "Cornucopia_ElderberriesSeeds",
 					"Condition": "SEASON winter, YEAR 2",
-					"Price": 80,
+					"Price": 1100,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia_GooseberrySeeds": {
 					"Id": "Cornucopia_GooseberrySeeds",
 					"ItemId": "Cornucopia_GooseberrySeeds",
 					"Condition": "SEASON summer, YEAR 2",
-					"Price": 80,
+					"Price": 1100,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia_GreenPeasSeeds": {
@@ -242,6 +249,13 @@
 					"ItemId": "Cornucopia_GreenPeasSeeds",
 					"Condition": "SEASON summer, YEAR 4",
 					"Price": 50,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_GroundcherriesSeeds": {
+					"Id": "Cornucopia_GroundcherriesSeeds",
+					"ItemId": "Cornucopia_GroundcherriesSeeds",
+					"Condition": "SEASON summer fall, YEAR 2",
+					"Price": 100,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia_HabaneroSeeds": {
@@ -269,7 +283,7 @@
 					"Id": "Cornucopia_JuniperBerriesSeeds",
 					"ItemId": "Cornucopia_JuniperBerriesSeeds",
 					"Condition": "SEASON winter",
-					"Price": 80,
+					"Price": 1300,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia_KidneyBeansSeeds": {
@@ -388,7 +402,7 @@
 					"Id": "Cornucopia_BayLeavesSeeds",
 					"ItemId": "Cornucopia_BayLeavesSeeds",
 					"Condition": "SEASON winter, YEAR 2",
-					"Price": 50,
+					"Price": 800,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia_ChiveSeeds": {

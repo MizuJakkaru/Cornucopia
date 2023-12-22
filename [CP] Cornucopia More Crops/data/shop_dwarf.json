@@ -15,13 +15,13 @@
 				"Cornucopia_ShiitakeSeeds": {
 					"Id": "Cornucopia_ShiitakeSeeds",
 					"ItemId": "Cornucopia_ShiitakeSeeds",
-					"Price": 500,
+					"Price": 1000,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia_ChickenoftheWoodsSeeds": {
 					"Id": "Cornucopia_ChickenoftheWoodsSeeds",
 					"ItemId": "Cornucopia_ChickenoftheWoodsSeeds",
-					"Price": 500,
+					"Price": 1200,
 					"IgnoreShopPriceModifiers": true
 				}
 			}
