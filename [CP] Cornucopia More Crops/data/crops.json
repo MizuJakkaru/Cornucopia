@@ -140,7 +140,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Crops",
-			"When": {"Enable Extended Crops": true},
+			"When": {"Enable Extended Crops Pack": true},
 			"Entries": {
 				"Cornucopia_AdzukiBeanSeeds": {
 					"Seasons": [ "summer" ],

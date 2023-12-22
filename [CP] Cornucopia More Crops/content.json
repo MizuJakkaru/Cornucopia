@@ -6,12 +6,12 @@
 			"Default": "true",
 			"Description": "(Highly recommended) Adds an essential variety of 16 crops and bushes, 4 fruit trees, recipes, and other content. If you want to experience Cornucopia `lite`, make sure to turn off other pack options."
 		},
-		"Enable Extended Crops": {
+		"Enable Extended Crops Pack": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds a large variety of 40+ crops and bushes in addition to the essential pack."
 		},
-		"Enable Extended Trees": {
+		"Enable Extended Trees Pack": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds a large variety of 30+ fruit trees in addition to the essential pack."

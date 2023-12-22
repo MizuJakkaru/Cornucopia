@@ -243,7 +243,7 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "Enable Extended Crops": true
+        "Enable Extended Crops Pack": true
       },
       "Entries": {
         "Cornucopia_AdzukiBean": {
@@ -979,13 +979,13 @@
             "color_green"
           ]
         },
-        "Cornucopia_Cumin": {
-          "Name": "Cornucopia_Cumin",
+        "Cornucopia_CuminSeeds": {
+          "Name": "Cornucopia_CuminSeeds",
           "Type": "Seed",
           "Category": -74,
           "SpriteIndex": 218,
-          "DisplayName": "{{i18n:Cumin_name}}",
-          "Description": "{{i18n:Cumin_description}}",
+          "DisplayName": "{{i18n:CuminSeeds_name}}",
+          "Description": "{{i18n:CuminSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 70,
           "ContextTags": [
@@ -1401,7 +1401,7 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "Enable Extended Crops": true
+        "Enable Extended Crops Pack": true
       },
       "Entries": {
         "Cornucopia_AdzukiBeanSeeds": {
@@ -2148,7 +2148,7 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "Enable Extended Trees": true
+        "Enable Extended Trees Pack": true
       },
       "Entries": {
         "Cornucopia_Almond": {
@@ -2590,7 +2590,7 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "Enable Extended Trees": true
+        "Enable Extended Trees Pack": true
       },
       "Entries": {
         "Cornucopia_AlmondSapling": {

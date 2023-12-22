@@ -40,7 +40,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/FruitTrees",
-			"When": {"Enable Extended Trees": true},
+			"When": {"Enable Extended Trees Pack": true},
 			"Entries": {
 				"Cornucopia_AlmondSapling": {
 					"DisplayName": "{{i18n:Almond_name}}",
