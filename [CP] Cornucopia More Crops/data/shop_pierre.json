@@ -342,9 +342,9 @@
 					"Price": 90,
 					"IgnoreShopPriceModifiers": true
 				},
-				"Cornucopia_WasabiSeeds": {
-					"Id": "Cornucopia_WasabiSeeds",
-					"ItemId": "Cornucopia_WasabiSeeds",
+				"Cornucopia_WasabiRootSeeds": {
+					"Id": "Cornucopia_WasabiRootSeeds",
+					"ItemId": "Cornucopia_WasabiRootSeeds",
 					"Condition": "SEASON summer",
 					"Price": 100,
 					"IgnoreShopPriceModifiers": true
