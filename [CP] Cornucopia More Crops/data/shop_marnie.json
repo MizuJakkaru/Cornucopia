@@ -1,0 +1,19 @@
+{
+    "Changes": [
+		// add shop data - marnie's ranch
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "AnimalShop", "Items" ],
+			"Entries": {
+				"Cornucopia_MelaleucaSapling": {
+					"Id": "Cornucopia_MelaleucaSapling",
+					"ItemId": "Cornucopia_MelaleucaSapling",
+					"Condition": "YEAR 2",
+					"Price": 20,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}

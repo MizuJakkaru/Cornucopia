@@ -66,7 +66,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/gifttastes.json, data/objects.json, data/shop_dwarf.json, data/shop_pierre.json, data/shop_islandtrader.json, data/shop_oasis.json, data/fruittrees.json"
+			"FromFile": "data/crops.json, data/gifttastes.json, data/objects.json, data/shop_dwarf.json, data/shop_marnie.json, data/shop_pierre.json, data/shop_islandtrader.json, data/shop_oasis.json, data/fruittrees.json"
 		},
     ]
 }
