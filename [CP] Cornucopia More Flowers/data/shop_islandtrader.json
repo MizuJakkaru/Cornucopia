@@ -1,0 +1,33 @@
+{
+    "Changes": [
+		// add shop data - island trader
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "IslandTrade", "Items" ],
+			"Entries": {
+				"Cornucopia_PitcherPlantSeeds": {
+					"Id": "Cornucopia_PitcherPlantSeeds",
+					"ItemId": "Cornucopia_PitcherPlantSeeds",
+					"TradeItemId": "(O)851", // magma cap
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_PrismaticRoseSeeds": {
+					"Id": "Cornucopia_PrismaticRoseSeeds",
+					"ItemId": "Cornucopia_PrismaticRoseSeeds",
+					"TradeItemId": "(O)74", // prismatic shard
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_RafflesiaSeeds": {
+					"Id": "Cornucopia_RafflesiaSeeds",
+					"ItemId": "Cornucopia_RafflesiaSeeds",
+					"TradeItemId": "(O)848", // cinder shard
+					"TradeItemAmount": 50,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "Cornucopia - More Flowers",
+    "Author": "Cornucopia",
+    "Description": "An additional flowers mod for Stardew Valley 1.6 Content Patcher",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "4.0.0-alpha",
+    "UniqueID": "Cornucopia.MoreFlowers",
+    //"UpdateKeys": ["Nexus:"],
+	"ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

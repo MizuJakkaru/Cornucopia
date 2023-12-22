@@ -1,0 +1,47 @@
+{
+    "Changes": [
+		// add shop data - marnie's ranch
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "AnimalShop", "Items" ],
+			"Entries": {
+				"Cornucopia_BeeBalmSeeds": {
+					"Id": "Cornucopia_BeeBalmSeeds",
+					"ItemId": "Cornucopia_BeeBalmSeeds",
+					//"Condition": "SEASON fall",
+					"Price": 20,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_ButtercupSeeds": {
+					"Id": "Cornucopia_ButtercupSeeds",
+					"ItemId": "Cornucopia_ButtercupSeeds",
+					//"Condition": "SEASON summer",
+					"Price": 15,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_CatnipSeeds": {
+					"Id": "Cornucopia_CatnipSeeds",
+					"ItemId": "Cornucopia_CatnipSeeds",
+					//"Condition": "SEASON spring, YEAR 2",
+					"Price": 60,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_HoneysuckleSeeds": {
+					"Id": "Cornucopia_HoneysuckleSeeds",
+					"ItemId": "Cornucopia_HoneysuckleSeeds",
+					//"Condition": "SEASON spring",
+					"Price": 80,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_PinkCatSeeds": {
+					"Id": "Cornucopia_PinkCatSeeds",
+					"ItemId": "Cornucopia_PinkCatSeeds",
+					//"Condition": "SEASON spring",
+					"Price": 20,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}

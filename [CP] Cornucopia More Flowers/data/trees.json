@@ -1,0 +1,71 @@
+{
+    "Changes": [
+		// add trees
+        {
+        	"Action": "EditData",
+        	"Target": "Data/FruitTrees",
+        	"Entries": {
+        		"Cornucopia_HibiscusSapling": {
+        			"DisplayName": "Hibiscus",
+        			"Seasons": [ "summer" ],
+        			"Fruit": [
+        				{
+        					"Id": "Cornucopia_Hibiscus",
+        					"ItemId": "Cornucopia_Hibiscus"
+        				}
+        			],
+        			"Texture": "Cornucopia.MoreCrops/FruitTrees",
+        			"TextureSpriteRow": 0
+        		},
+        		"Cornucopia_JasmineSapling": {
+        			"DisplayName": "Jasmine",
+        			"Seasons": [ "fall" ],
+        			"Fruit": [
+        				{
+        					"Id": "Cornucopia_Jasmine",
+        					"ItemId": "Cornucopia_Jasmine"
+        				}
+        			],
+        			"Texture": "Cornucopia.MoreCrops/FruitTree",
+        			"TextureSpriteRow": 0
+        		},
+        		"Cornucopia_MagnoliaSapling": {
+        			"DisplayName": "Magnolia",
+        			"Seasons": [ "spring" ],
+        			"Fruit": [
+        				{
+        					"Id": "Cornucopia_Magnolia",
+        					"ItemId": "Cornucopia_Magnolia"
+        				}
+        			],
+        			"Texture": "Cornucopia.MoreCrops/FruitTree",
+        			"TextureSpriteRow": 0
+        		},
+        		"Cornucopia_WisteriaSapling": {
+        			"DisplayName": "Wisteria",
+        			"Seasons": [ "spring" ],
+        			"Fruit": [
+        				{
+        					"Id": "Cornucopia_Wisteria",
+        					"ItemId": "Cornucopia_Wisteria"
+        				}
+        			],
+        			"Texture": "Cornucopia.MoreCrops/FruitTree",
+        			"TextureSpriteRow": 0
+        		},
+        		"Cornucopia_YlangYlang": {
+        			"DisplayName": "Ylang Ylang",
+        			"Seasons": [ "summer" ],
+        			"Fruit": [
+        				{
+        					"Id": "Cornucopia_YlangYlang",
+        					"ItemId": "Cornucopia_YlangYlang"
+        				}
+        			],
+        			"Texture": "Cornucopia.MoreCrops/FruitTree",
+        			"TextureSpriteRow": 0
+        		}
+        	}
+        },
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "Changes": [
+		// add shop data - oasis
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Sandy", "Items" ],
+			"Entries": {
+				"Cornucopia_FairyDusterSeeds": {
+					"Id": "Cornucopia_FairyDusterSeeds",
+					"ItemId": "Cornucopia_FairyDusterSeeds",
+					"Price": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_LotusSeeds": {
+					"Id": "Cornucopia_LotusSeeds",
+					"ItemId": "Cornucopia_LotusSeeds",
+					"Condition": "YEAR 3",
+					"Price": 60,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_HibiscusSapling": {
+					"Id": "Cornucopia_HibiscusSapling",
+					"ItemId": "Cornucopia_HibiscusSapling",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_YlangYlangSapling": {
+					"Id": "Cornucopia_YlangYlangSapling",
+					"ItemId": "Cornucopia_YlangYlangSapling",
+					"Condition": "YEAR 3",
+					"Price": 3000,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			
+			"MoveEntries": [
+				{ "Id": "Cornucopia_FairyDusterPod", "BeforeId": "(BC)196" },
+				{ "Id": "Cornucopia_LotusStarter", "BeforeId": "(BC)196" },
+				{ "Id": "Cornucopia_HibiscusSapling", "BeforeId": "(BC)196" },
+				{ "Id": "Cornucopia_YlangYlangSapling", "BeforeId": "(BC)196" }
+			]
+		},
+    ]
+}
