@@ -472,6 +472,7 @@
 				"Cornucopia_WasabiRootSeeds": {
 					"Seasons": [ "summer" ],
 					"DaysInPhase": [ 1, 2, 3, 2 ],
+					"IsPaddyCrop": true,
 					"HarvestItemId": "Cornucopia_WasabiRoot",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 19,
