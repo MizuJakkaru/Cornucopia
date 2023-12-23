@@ -688,6 +688,22 @@
             "season_spring",
             "dye_medium"
           ]
+        },
+        "Cornucopia_Wolfsbane": {
+          "Name": "Cornucopia_Wolfsbane",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 84,
+          "DisplayName": "{{i18n:Wolfsbane_name}}",
+          "Description": "{{i18n:Wolfsbane_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 140,
+          "Edibility": -20,
+          "ContextTags": [
+            "color_purple",
+            "season_summer",
+            "dye_medium"
+          ]
         }
       }
     },
@@ -1128,6 +1144,16 @@
           "Description": "{{i18n:VioletSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
           "Price": 10
+        },
+        "Cornucopia_WolfsbaneSeeds": {
+          "Name": "Cornucopia_WolfsbaneSeeds",
+          "Type": "Seed",
+          "Category": -74,
+          "SpriteIndex": 85,
+          "DisplayName": "{{i18n:WolfsbaneSeeds_name}}",
+          "Description": "{{i18n:WolfsbaneSeeds_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 27
         }
       }
     },

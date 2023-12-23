@@ -116,18 +116,6 @@
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 16
                 },
-                "Cornucopia_CalicoRoseSeeds": {
-                    "Seasons": [ "spring", "summer", "fall", "winter" ],
-					"DaysInPhase": [ 2, 3, 3, 4, 3 ],
-                    "HarvestItemId": "Cornucopia_CalicoRose",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
-                    "SpriteIndex": 21,
-					"PlantableLocationRules": [
-					  {
-						"Id": "Indoors"
-					  }
-					]
-                },
                 "Cornucopia_CamelliaSeeds": {
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 3, 3, 2 ],
@@ -295,7 +283,11 @@
                     "SpriteIndex": 36,
 					"PlantableLocationRules": [
 					  {
-						"Id": "Indoors",
+						"Id": "NotOutsideUnlessGingerIsland",
+						"Condition": "LOCATION_IS_OUTDOORS Here, !LOCATION_CONTEXT Here Island",
+						"PlantedIn": 3,
+						"Result": 2,
+						"DeniedMessage": "[LocalizedText Strings\\Objects:CactusSeedsOutside]"
 					  }
 					]
                 },
@@ -349,6 +341,13 @@
                     "HarvestItemId": "Cornucopia_Violet",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 28
+                },
+                "Cornucopia_WolfsbaneSeeds": {
+                    "Seasons": [ "summer" ],
+                    "DaysInPhase": [ 2, 1, 2, 3, 2, 3 ],
+                    "HarvestItemId": "Cornucopia_Wolfsbane",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 4
                 }
 			}
         },

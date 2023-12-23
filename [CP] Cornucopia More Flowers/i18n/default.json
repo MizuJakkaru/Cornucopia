@@ -84,6 +84,8 @@
   "RoseWinter_description": "A rose by any other name would smell as sweet.",
   "Violet_name": "Violet",
   "Violet_description": "A small purple flower that favors the shade.",
+  "Wolfsbane_name": "Wolfsbane",
+  "Wolfsbane_description": "A poisonous bell-shaped flower with a deep purple hue.",
   
   //Crop seeds
   "BlueMistSeeds_name": "Blue Mist Seeds",
@@ -170,6 +172,8 @@
   "RoseWinterSeeds_description": "Plant in winter. Takes 12 days to produce a famously beautiful flower, and keeps producing after the first harvest. Grows on a trellis.",
   "VioletSeeds_name": "Violet Seeds",
   "VioletSeeds_description": "Plant in spring. Takes 6 days to produce a rich purple flower.",
+  "WolfsbaneSeeds_name": "Wolfsbane Seeds",
+  "WolfsbaneSeeds_description": "Plant these in summer. Takes 13 days to mature.",
   
   //Tree produce
   "Hibiscus_name": "Hibiscus",
