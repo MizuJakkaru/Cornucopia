@@ -1,0 +1,40 @@
+{
+	"Changes": [
+		//Extended trees
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"When": {
+			"Enable Extended Trees Pack": true
+			},
+			"Entries": {
+				"Cornucopia_SopadillaSeed": {
+					"Textures": [
+					  {
+						"Texture": "Cornucopia.MoreCrops/tree1_{{season}}",
+					  }
+					],
+					"SeedItemId": "(O)Cornucopia_SopadillaSeed",
+					"GrowthChance": -1.0,
+					"FertilizedGrowthChance": -1.0,
+					"SeedChance": -1.0,
+					"SeedOnChopChance": -1.0,
+					"DebrisColor": 100007 ,
+					"ChopItems": [
+					  {
+						"ItemId": "(O)92",
+						"MinStack": 1,
+						"MaxStack": 1,
+					  }
+					],
+					"TapItems": [
+					  {
+						"ItemId": "(O)Cornucopia_ChicleRubber",
+						"DaysUntilReady": 5,
+					  }
+					],
+				},
+			}
+		},
+	]
+}
