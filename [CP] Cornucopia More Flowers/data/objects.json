@@ -225,13 +225,13 @@
             "dye_medium"
           ]
         },
-        "Cornucopia_CactusFlower": {
-          "Name": "Cornucopia_CactusFlower",
+        "Cornucopia_CalicoRose": {
+          "Name": "Cornucopia_CalicoRose",
           "Type": "Flower",
           "Category": -80,
           "SpriteIndex": 0,
-          "DisplayName": "{{i18n:CactusFlower_name}}",
-          "Description": "{{i18n:CactusFlower_description}}",
+          "DisplayName": "{{i18n:CalicoRose_name}}",
+          "Description": "{{i18n:CalicoRose_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
           "Price": 400,
           "Edibility": 18,
@@ -839,13 +839,13 @@
           "Texture": "Cornucopia.MoreFlowers/Objects",
           "Price": 7
         },
-        "Cornucopia_CactusFlowerSeeds": {
-          "Name": "Cornucopia_CactusFlowerSeeds",
+        "Cornucopia_CalicoRoseSeeds": {
+          "Name": "Cornucopia_CalicoRoseSeeds",
           "Type": "Seed",
           "Category": -74,
           "SpriteIndex": 0,
-          "DisplayName": "{{i18n:CactusFlowerSeeds_name}}",
-          "Description": "{{i18n:CactusFlowerSeeds_description}}",
+          "DisplayName": "{{i18n:CalicoRoseSeeds_name}}",
+          "Description": "{{i18n:CalicoRoseSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
           "Price": 700
         },

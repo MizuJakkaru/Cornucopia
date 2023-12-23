@@ -116,6 +116,18 @@
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 16
                 },
+                "Cornucopia_CalicoRoseSeeds": {
+                    "Seasons": [ "spring", "summer", "fall", "winter" ],
+					"DaysInPhase": [ 2, 3, 3, 4, 3 ],
+                    "HarvestItemId": "Cornucopia_CalicoRose",
+                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "SpriteIndex": 21,
+					"PlantableLocationRules": [
+					  {
+						"Id": "Indoors"
+					  }
+					]
+                },
                 "Cornucopia_CamelliaSeeds": {
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 3, 3, 2 ],
@@ -276,11 +288,16 @@
                     "SpriteIndex": 8
                 },
                 "Cornucopia_RafflesiaSeeds": {
-                    "Seasons": [ "spring", "summer" ],
-                    "DaysInPhase": [ 5, 8, 10, 18, 15 ],
+                    "Seasons": [ "spring", "summer", "fall", "winter" ],
+					"DaysInPhase": [ 5, 8, 10, 18, 15 ],
                     "HarvestItemId": "Cornucopia_Rafflesia",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
-                    "SpriteIndex": 36
+                    "SpriteIndex": 36,
+					"PlantableLocationRules": [
+					  {
+						"Id": "Indoors",
+					  }
+					]
                 },
 				// rose variants
 				"Cornucopia_RoseSpringSeeds": {

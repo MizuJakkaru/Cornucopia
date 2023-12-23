@@ -513,12 +513,14 @@
                     "Texture": "Cornucopia.MoreCrops/Crops",
                     "SpriteIndex": 66
                     },
-                "Cornucopia_Cumin": {
+                "Cornucopia_CuminSeeds": {
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 1, 2, 1, 1 ],
-                    "HarvestItemId": "Cornucopia_Cumin",
+                    "HarvestItemId": "Cornucopia_CuminSeeds",
                     "Texture": "Cornucopia.MoreCrops/Crops",
-                    "SpriteIndex": 67
+                    "SpriteIndex": 67,
+					"HarvestMinStack": 2,
+					"ExtraHarvestChance": "{{10Percent}}",
                     },
                 "Cornucopia_DillSeeds": {
                     "Seasons": [ "spring" ],
