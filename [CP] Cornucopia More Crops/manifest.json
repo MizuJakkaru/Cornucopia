@@ -8,5 +8,11 @@
     //"UpdateKeys": ["Nexus:"],
 	"ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
-    }
+    },
+	"Dependencies": [
+   	{
+      "UniqueID": "furyx639.CustomBush",
+      "IsRequired": true
+   	}
+	],
 }

@@ -1,0 +1,194 @@
+{
+    "Changes": [
+		//Essential pack crops
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Enable Essential Pack": true
+				},
+			"Entries": {
+				"(O)Cornucopia_OliveSeeds": {
+					"AgeToProduce": 40,
+					"DayToBeginProducing": 0,
+					"Seasons": ["fall"],
+					"ItemsProduced": [
+						{
+							"ItemId": "(O)Cornucopia_Olive",
+							"Chance": 1.0,
+							"MinStack": 3,
+							"MaxStack": 3,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"TextureSpriteRow": 0,
+				},
+				"(O)Cornucopia_RaspberrySeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 4 8 12 16 20 24 28",
+							"ItemId": "(O)Cornucopia_Raspberry",
+							"Chance": 1.0,
+							"MinStack": 3,
+							"MaxStack": 3,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"TextureSpriteRow": 2,
+				}
+			}
+	    },
+		//Extended crops
+		{
+		"LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Enable Extended Crops Pack": true
+				},
+			"Entries": {
+				"(O)Cornucopia_ChickenoftheWoodsSeeds": {
+					"AgeToProduce": 30,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer", "fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 22 23 24 25 26 27 28",
+							"ItemId": "(O)Cornucopia_ChickenoftheWoods",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"TextureSpriteRow": 12,
+				},
+				"(O)Cornucopia_ElderberriesSeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["winter"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 4 8 12 16 20 24 28",
+							"ItemId": "(O)Cornucopia_Elderberries",
+							"Chance": 1.0,
+							"MinStack": 2,
+							"MaxStack": 2,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"TextureSpriteRow": 4,
+				},
+				"(O)Cornucopia_GooseberrySeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)Cornucopia_Gooseberry",
+							"Chance": 1.0,
+							"MinStack": 2,
+							"MaxStack": 2,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"TextureSpriteRow": 6,
+				},
+				"(O)Cornucopia_JuniperBerriesSeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["winter"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 5 10 15 20 25",
+							"ItemId": "(O)Cornucopia_JuniperBerries",
+							"Chance": 1.0,
+							"MinStack": 2,
+							"MaxStack": 2,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"TextureSpriteRow": 8,
+				},
+				"(O)Cornucopia_PeppercornSeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"ItemId": "(O)Cornucopia_Peppercorn",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"TextureSpriteRow": 14,
+				},
+				"(O)Cornucopia_ShiitakeSeeds": {
+					"AgeToProduce": 30,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring", "fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 5 10 15 20 25",
+							"ItemId": "(O)Cornucopia_Shiitake",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"TextureSpriteRow": 10,
+				}
+			}
+	    },
+		//Extended crops
+		{
+		"LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Enable Herbs Pack": true
+				},
+			"Entries": {
+				"(O)Cornucopia_BayLeavesSeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["winter"],
+					"ItemsProduced": [
+						{
+							"ItemId": "(O)Cornucopia_BayLeaves",
+							"Id": "Default",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": 4,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"TextureSpriteRow": 16,
+				},
+			}
+		},
+	]
+}
