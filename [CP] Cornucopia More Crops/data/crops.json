@@ -63,7 +63,7 @@
 				},
 				"Cornucopia_KiwiSeeds": {
 					"Seasons": [ "summer" ],
-					"DaysInPhase": [ 3, 4, 3, 10, 1 ],
+					"DaysInPhase": [ 3, 4, 3, 8, 3 ],
 					"HarvestItemId": "Cornucopia_Kiwi",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 47,
@@ -109,7 +109,7 @@
 				},
 				"Cornucopia_SugarcaneSeeds": {
 					"Seasons": [ "summer" ],
-					"DaysInPhase": [ 1, 2, 3, 2, 2 ],
+					"DaysInPhase": [ 2, 2, 3, 3 ],
 					"HarvestItemId": "Cornucopia_Sugarcane",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 6,
@@ -121,7 +121,7 @@
 				},
 				"Cornucopia_WatermelonSeeds": {
 					"Seasons": [ "summer" ],
-					"DaysInPhase": [ 2, 2, 3, 4, 3 ],
+					"DaysInPhase": [ 2, 2, 2, 3, 3, 2 ],
 					"HarvestItemId": "Cornucopia_Watermelon",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 36,
@@ -169,7 +169,7 @@
 				},
 				"Cornucopia_BambooSeeds": {
 					"Seasons": [ "spring", "summer" ],
-					"DaysInPhase": [ 1, 1, 2, 1, 2 ],
+					"DaysInPhase": [ 1, 2, 1, 2, 2, 1 ],
 					"HarvestItemId": "Cornucopia_Bamboo",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 5,
