@@ -100,7 +100,7 @@
 		{
 		"LogName": "Vanilla Forage Crops",
 		"Action": "Include",
-		"FromFile": "data/crops.json, data/objects.json, data/teabushes.json",
+		"FromFile": "data/crops.json, data/objects.json, data/teabushes.json, data/shop_islandtrader.json",
 		},
 	]
 }
