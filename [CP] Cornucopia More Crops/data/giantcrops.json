@@ -1,0 +1,70 @@
+{
+	"Changes": [
+		//Essential pack crops
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"When": {"Enable Essential Pack": true},
+			"Entries": {
+				"Cornucopia_GiantBroccoli": {
+					"FromItemId": "Cornucopia_Broccoli",
+					"HarvestItems": [
+						{
+							"ItemId": "Cornucopia_Broccoli",
+							"Quality": 0,
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Chance": 0.01,
+					"Texture": "Cornucopia.MoreCrops/GiantCrops",
+					"TexturePosition": [
+						{
+							"X": 0,
+							"Y": 0
+						}
+					]
+				},
+				"Cornucopia_GiantWatermelon": {
+					"FromItemId": "Cornucopia_Watermelon",
+					"HarvestItems": [
+						{
+							"ItemId": "Cornucopia_Watermelon",
+							"Quality": 0,
+							"MinStack": 15,
+							"MaxStack": 21
+						}
+					],
+					"Chance": 0.01,
+					"Texture": "Cornucopia.MoreCrops/GiantCrops",
+					"TexturePosition": [
+						{
+							"X": 48,
+							"Y": 0
+						}
+					]
+				},
+				"Cornucopia_LargeWatermelon": {
+					"FromItemId": "Cornucopia_Watermelon",
+					"HarvestItems": [
+						{
+							"ItemId": "Cornucopia_Watermelon",
+							"Quality": 0,
+							"MinStack": 7,
+							"MaxStack": 11
+						}
+					],
+					"Chance": 0.05,
+					"Texture": "Cornucopia.MoreCrops/GiantCrops",
+					"TexturePosition": [
+						{
+							"X": 0,
+							"Y": 64
+						}
+					],
+					"TileSize": "2,2"
+				}
+			}
+        },
+	]
+}
