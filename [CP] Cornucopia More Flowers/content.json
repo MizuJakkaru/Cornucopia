@@ -53,10 +53,17 @@
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
         },
 		
+		// add teabushes images
+        {
+            "Action": "Load",
+            "Target": "Cornucopia.MoreFlowers/teabushes",
+            "FromFile": "assets/teabushes_{{season}}.png"
+        },
+		
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/gifttastes.json, data/objects.json, data/shop_catalog.json, data/shop_islandtrader.json, data/shop_marnie.json, data/shop_oasis.json, data/trees.json, data/letters.json"
+			"FromFile": "data/crops.json, data/gifttastes.json, data/objects.json, data/shop_catalog.json, data/shop_islandtrader.json, data/shop_marnie.json, data/shop_oasis.json, data/trees.json, data/teabushes.json, data/letters.json"
 		},
     ]
 }

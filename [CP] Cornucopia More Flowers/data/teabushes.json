@@ -1,0 +1,34 @@
+{
+    "Changes": [
+		//Extended flowers crops
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Enable Extended Flowers Pack": true
+				},
+			"Entries": {
+				"(O)Cornucopia_CalicoRoseSeeds": {
+					"AgeToProduce": 15,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 5 10 15 20 25",
+							"ItemId": "(O)CalicoRose",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreFlowers/teabushes",
+					"TextureSpriteRow": 0,
+				}
+			}
+	    },
+	]
+}
