@@ -10,7 +10,7 @@
 					"DaysInPhase": [ 1, 1, 1 ],
 					"HarvestItemId": "(O)399",
 					"Texture": "Cornucopia.GrowableForage/Crops",
-					"SpriteIndex": 0
+					"SpriteIndex": 1
 				}
 			}
 		},
@@ -21,19 +21,10 @@
 			"Entries": {
 				"Cornucopia_GingerSeeds": {
 					"Seasons": [ "summer" ],
-					"DaysInPhase": [ 1, 1, 1, 1 ],
+					"DaysInPhase": [ 1, 2, 3, 2 ],
 					"HarvestItemId": "(O)829",
 					"Texture": "Cornucopia.GrowableForage/Crops",
-					"SpriteIndex": 0,
-					"PlantableLocationRules": [
-					  {
-						"Id": "NotOutsideUnlessGingerIsland",
-						"Condition": "LOCATION_IS_OUTDOORS Here, !LOCATION_CONTEXT Here Island",
-						"PlantedIn": 3,
-						"Result": 2,
-						"DeniedMessage": "[LocalizedText Strings\\Objects:CactusSeedsOutside]"
-					  }
-					]
+					"SpriteIndex": 2
 				}
 			}
 		},
@@ -44,10 +35,10 @@
 			"Entries": {
 				"Cornucopia_SweetPeaSeeds": {
 					"Seasons": [ "spring" ],
-					"DaysInPhase": [ 1, 1, 1 ],
+					"DaysInPhase": [ 1, 2, 3, 2 ],
 					"HarvestItemId": "(O)402",
 					"Texture": "Cornucopia.GrowableForage/Crops",
-					"SpriteIndex": 0
+					"SpriteIndex": 5
 				}
 			}
 		},
@@ -58,10 +49,10 @@
 			"Entries": {
 				"Cornucopia_CrocusSeeds": {
 					"Seasons": [ "winter" ],
-					"DaysInPhase": [ 1, 1, 1, 1 ],
+					"DaysInPhase": [ 2, 2, 3, 2 ],
 					"HarvestItemId": "(O)418",
 					"Texture": "Cornucopia.GrowableForage/Crops",
-					"SpriteIndex": 0
+					"SpriteIndex": 4
 				},
 			}
         },
