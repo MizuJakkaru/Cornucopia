@@ -1,0 +1,200 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Spring Onion Crop": true
+      },
+      "Entries": {
+        "Cornucopia_SpringOnionSeeds": {
+			"Name": "Cornucopia_SpringOnionSeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 2,
+			"Displayname": "{{i18n:SpringOnionSeeds_name}}",
+			"Description": "{{i18n:SpringOnionSeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Ginger Crop": true
+      },
+      "Entries": {
+        "Cornucopia_GingerSeeds": {
+			"Name": "Cornucopia_GingerSeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 3,
+			"Displayname": "{{i18n:GingerSeeds_name}}",
+			"Description": "{{i18n:GingerSeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Sweet Pea Crop": true
+      },
+      "Entries": {
+        "Cornucopia_SweetPeaSeeds": {
+			"Name": "Cornucopia_SweetPeaSeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 4,
+			"Displayname": "{{i18n:SweetPeaSeeds_name}}",
+			"Description": "{{i18n:SweetPeaSeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Crocus Crop": true
+      },
+      "Entries": {
+        "Cornucopia_CrocusSeeds": {
+			"Name": "Cornucopia_CrocusSeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 5,
+			"Displayname": "{{i18n:CrocusSeeds_name}}",
+			"Description": "{{i18n:CrocusSeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Common Mushroom Crop": true
+		},
+      "Entries": {
+        "Cornucopia_CommonMushroomSeeds": {
+			"Name": "Cornucopia_CommonMushroomSeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 10,
+			"Displayname": "{{i18n:CommonMushroomSeeds_name}}",
+			"Description": "{{i18n:CommonMushroomSeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Morel Crop": true
+		},
+      "Entries": {
+        "Cornucopia_MorelSeeds": {
+			"Name": "Cornucopia_MorelSeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 12,
+			"Displayname": "{{i18n:MorelSeeds_name}}",
+			"Description": "{{i18n:MorelSeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Chanterelle Crop": true
+		},
+      "Entries": {
+        "Cornucopia_ChanterelleSeeds": {
+			"Name": "Cornucopia_ChanterelleSeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 11,
+			"Displayname": "{{i18n:ChanterelleSeeds_name}}",
+			"Description": "{{i18n:ChanterelleSeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Salmonberry Crop": true
+		},
+      "Entries": {
+        "Cornucopia_SalmonberrySeeds": {
+			"Name": "Cornucopia_SalmonberrySeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 13,
+			"Displayname": "{{i18n:SalmonberrySeeds_name}}",
+			"Description": "{{i18n:SalmonberrySeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Blackberry Crop": true
+		},
+      "Entries": {
+        "Cornucopia_BlackberrySeeds": {
+			"Name": "Cornucopia_BlackberrySeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 14,
+			"Displayname": "{{i18n:BlackberrySeeds_name}}",
+			"Description": "{{i18n:BlackberrySeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Holly Crop": true
+		},
+      "Entries": {
+        "Cornucopia_HollySeeds": {
+			"Name": "Cornucopia_HollySeeds",
+			"Type": "Seeds",
+			"Category": -74,
+			"SpriteIndex": 15,
+			"Displayname": "{{i18n:HollySeeds_name}}",
+			"Description": "{{i18n:HollySeeds_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
+  ]
+}

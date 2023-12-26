@@ -1,0 +1,69 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Spring Onion Crop": true},
+			"Entries": {
+				"Cornucopia_SpringOnionSeeds": {
+					"Seasons": [ "spring" ],
+					"DaysInPhase": [ 1, 1, 1 ],
+					"HarvestItemId": "(O)399",
+					"Texture": "Cornucopia.GrowableForage/Crops",
+					"SpriteIndex": 0
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Ginger Crop": true},
+			"Entries": {
+				"Cornucopia_GingerSeeds": {
+					"Seasons": [ "summer" ],
+					"DaysInPhase": [ 1, 1, 1, 1 ],
+					"HarvestItemId": "(O)829",
+					"Texture": "Cornucopia.GrowableForage/Crops",
+					"SpriteIndex": 0,
+					"PlantableLocationRules": [
+					  {
+						"Id": "NotOutsideUnlessGingerIsland",
+						"Condition": "LOCATION_IS_OUTDOORS Here, !LOCATION_CONTEXT Here Island",
+						"PlantedIn": 3,
+						"Result": 2,
+						"DeniedMessage": "[LocalizedText Strings\\Objects:CactusSeedsOutside]"
+					  }
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Sweet Pea Crop": true},
+			"Entries": {
+				"Cornucopia_SweetPeaSeeds": {
+					"Seasons": [ "spring" ],
+					"DaysInPhase": [ 1, 1, 1 ],
+					"HarvestItemId": "(O)402",
+					"Texture": "Cornucopia.GrowableForage/Crops",
+					"SpriteIndex": 0
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Crocus Crop": true},
+			"Entries": {
+				"Cornucopia_CrocusSeeds": {
+					"Seasons": [ "winter" ],
+					"DaysInPhase": [ 1, 1, 1, 1 ],
+					"HarvestItemId": "(O)418",
+					"Texture": "Cornucopia.GrowableForage/Crops",
+					"SpriteIndex": 0
+				},
+			}
+        },
+	]
+}

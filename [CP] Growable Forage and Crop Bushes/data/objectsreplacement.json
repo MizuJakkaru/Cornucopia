@@ -1,0 +1,69 @@
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Coffee Bush": true
+		},
+      "Entries": {
+		"(O)433": {
+			"Description": "{{i18n:CoffeeBean_description}}",
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Blueberry Bush": true
+		},
+      "Entries": {
+		"(O)481": {
+			"Displayname": "{{i18n:BlueberrySeeds_name}}",
+			"Description": "{{i18n:BlueberrySeeds_description}}",
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Cactus Bush": true
+		},
+      "Entries": {
+		"(O)802": {
+			"Displayname": "{{i18n:CactusFruitSeeds_name}}",
+			"Description": "{{i18n:CactusFruitSeeds_description}}",
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Grape Bush": true
+		},
+      "Entries": {
+		"(O)301": {
+			"Displayname": "{{i18n:GrapeSeeds_name}}",
+			"Description": "{{i18n:GrapeSeeds_description}}",
+		},
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"HasMod": "furyx639.CustomBush",
+			"Hops Bush": true
+		},
+      "Entries": {
+		"(O)302": {
+			"Displayname": "{{i18n:HopsSeeds_name}}",
+			"Description": "{{i18n:HopsSeeds_description}}",
+		},
+      }
+    },

@@ -11,25 +11,45 @@
 			"Default": "true",
 			"Description": "Adds a late-game crop for ginger."
 		},
+		"Sweet Pea Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a crop for sweet pea flowers."
+		},
+		"Crocus Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a crop for crocus flowers."
+		},
 		"Common Mushroom Crop": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Adds a 'bush' or crop for common mushrooms."
+			"Description": "Adds a 'bush' crop for common mushrooms (if you have Custom Bush installed)."
 		},
 		"Morel Crop": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Adds a 'bush' or crop for morels."
+			"Description": "Adds a 'bush' crop for morels (if you have Custom Bush installed)."
 		},
 		"Chanterelle Crop": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Adds a 'bush' or crop for chanterelles."
+			"Description": "Adds a 'bush' crop for chanterelles (if you have Custom Bush installed)."
 		},
-		"Salmonberry/Blackberry Crop": {
+		"Salmonberry Crop": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Adds a seasonal bush that produces salmonberries and blackberries."
+			"Description": "Adds a bush crop for salmonberries (if you have Custom Bush installed)."
+		},
+		"Blackberry Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a bush crop for salmonberries (if you have Custom Bush installed)."
+		},
+		"Holly Crop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a bush crop for holly (if you have Custom Bush installed)."
 		},
 		"Coffee Bush": {
 			"AllowValues": "true, false",
@@ -46,15 +66,15 @@
 			"Default": "true",
 			"Description": "Turns cactus fruit from a crop into a bush (if you have Custom Bush installed)."
 		},
-		"Grape Trellis": {
+		"Grape Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Turns grapes from a crop into a bush (if you have Custom Bush installed)."
+			"Description": "Turns grapes from a crop into a bush (if you have Custom Bush installed). Visually still looks like a trellis."
 		},
-		"Hops Trellis": {
+		"Hops Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Turns hops from a crop into a bush (if you have Custom Bush installed)."
+			"Description": "Turns hops from a crop into a bush (if you have Custom Bush installed). Visually still looks like a trellis."
 		},
 	},
 	"DynamicTokens": [
@@ -68,19 +88,19 @@
 		{
 		"LogName": "Textures",
 		"Action": "Load",
-		"Target": "6480.growableforage/objects, 6480.growableforage/crops",
+		"Target": "Cornucopia.GrowableForage/objects, Cornucopia.GrowableForage/crops",
 		"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
 		"LogName": "Tea Bush",
 		"Action": "Load",
-		"Target": "6480.growableforage/teabushes",
+		"Target": "Cornucopia.GrowableForage/teabushes",
 		"FromFile": "assets/teabushes_{{season}}.png"
 		},
 		{
 		"LogName": "Vanilla Forage Crops",
 		"Action": "Include",
-		"FromFile": "data/vanillaforage.json",
+		"FromFile": "data/crops.json, data/objects.json, data/teabushes.json",
 		},
 	]
 }
