@@ -17,9 +17,9 @@
 	"ChanterelleSeeds_name": "Chanterelle Planter",
 	"ChanterelleSeeds_description": "Takes 30 days to mature into a mushroom stump. Produces a bounty of chanterelle during the late fall (days 18-24). No watering necessary!",
 	"SalmonberrySeeds_name": "Salmonberry Sapling",
-	"SalmonberrySeeds_description": "Takes 20 days to mature. Produces salmonberries every 3 days in spring. No watering necessary!",
+	"SalmonberrySeeds_description": "Takes 20 days to mature. Produces salmonberries during salmonberry season and a little longer during the spring (days 15-21). No watering necessary!",
 	"BlackberrySeeds_name": "Blackberry Sapling",
-	"BlackberrySeeds_description": "Takes 20 days to mature. Produces blackberries every 4 days in fall. No watering necessary!",
+	"BlackberrySeeds_description": "Takes 20 days to mature. Produces blackberries during blackberry season and a little longer during the fall (days 8-14). No watering necessary!",
 	"HollySeeds_name": "Holly Sapling",
 	"HollySeeds_description": "Takes 20 days to mature. Produces holly every 4 days in winter. No watering necessary!",
 	

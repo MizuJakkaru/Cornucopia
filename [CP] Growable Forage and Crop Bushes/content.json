@@ -93,7 +93,7 @@
 		{
 		"LogName": "Textures",
 		"Action": "Load",
-		"Target": "Cornucopia.GrowableForage/objects, Cornucopia.GrowableForage/crops, Cornucopia.GrowableForage/fruittrees, Cornucopia.GrowableForage/teabushes_indoor",
+		"Target": "Cornucopia.GrowableForage/objects, Cornucopia.GrowableForage/crops, Cornucopia.GrowableForage/fruittrees, Cornucopia.GrowableForage/teabushes_indoors",
 		"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
