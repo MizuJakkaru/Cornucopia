@@ -25,7 +25,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"TextureSpriteRow": 0,
+					"TextureSpriteRow": 26,
 				},
 				"(O)Cornucopia_RaspberrySeeds": {
 					"AgeToProduce": 20,
@@ -33,7 +33,7 @@
 					"Seasons": ["summer"],
 					"ItemsProduced": [
 						{
-							"Condition": "DAY_OF_MONTH 4 8 12 16 20 24 28",
+							"Condition": "DAY_OF_MONTH 5 6 7 8 9 10 11 12",
 							"ItemId": "(O)Cornucopia_Raspberry",
 							"Chance": 1.0,
 							"MinStack": 3,
@@ -42,7 +42,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"TextureSpriteRow": 2,
+					"TextureSpriteRow": 14,
 				}
 			}
 	    },
@@ -72,7 +72,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"TextureSpriteRow": 12,
+					"TextureSpriteRow": 10,
 				},
 				"(O)Cornucopia_ElderberriesSeeds": {
 					"AgeToProduce": 20,
@@ -89,7 +89,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"TextureSpriteRow": 4,
+					"TextureSpriteRow": 24,
 				},
 				"(O)Cornucopia_GooseberrySeeds": {
 					"AgeToProduce": 20,
@@ -106,7 +106,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"TextureSpriteRow": 6,
+					"TextureSpriteRow": 30,
 				},
 				"(O)Cornucopia_JuniperBerriesSeeds": {
 					"AgeToProduce": 20,
@@ -123,7 +123,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"TextureSpriteRow": 8,
+					"TextureSpriteRow": 22,
 				},
 				"(O)Cornucopia_PeppercornSeeds": {
 					"AgeToProduce": 20,
@@ -139,7 +139,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"TextureSpriteRow": 14,
+					"TextureSpriteRow": 32,
 				},
 				"(O)Cornucopia_ShiitakeSeeds": {
 					"AgeToProduce": 30,
@@ -156,11 +156,11 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"TextureSpriteRow": 10,
+					"TextureSpriteRow": 8,
 				}
 			}
 	    },
-		//Extended crops
+		//Herbs pack
 		{
 		"LogName": "Add to Custom Bush Framework",
 			"Action": "EditData",
@@ -186,7 +186,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"TextureSpriteRow": 16,
+					"TextureSpriteRow": 28,
 				},
 			}
 		},
