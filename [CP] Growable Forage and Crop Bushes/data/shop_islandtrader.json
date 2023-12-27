@@ -5,7 +5,7 @@
 	  "Target": "Data/Shops",
       "TargetField": [ "IslandTrade", "Items" ],
       "When": {
-        "Enable Ginger Crop": true
+        "Ginger Crop": true
       },
       "Entries": {
 		"Cornucopia_GingerSeeds": {

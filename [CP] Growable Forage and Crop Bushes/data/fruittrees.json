@@ -1,0 +1,20 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"When": {
+					"Hazelnut Tree": true
+				},
+			"Entries": {
+				"Cornucopia_HazelnutSapling": {
+					"DisplayName": "{{i18n:408}}",
+					"Seasons": [ "fall" ],
+					"Fruit": [{"ItemId": 408}],
+					"Texture": "Cornucopia.GrowableForage/FruitTrees",
+					"TextureSpriteRow": 0
+				},
+			}
+		},
+	]
+}

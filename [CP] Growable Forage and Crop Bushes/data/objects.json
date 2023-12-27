@@ -196,5 +196,24 @@
 		},
       }
     },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"Hazelnut Tree": true
+		},
+      "Entries": {
+        "Cornucopia_HazelnutSapling": {
+			"Name": "Cornucopia_HazelnutSapling",
+			"Type": "Basic",
+			"Category": -74,
+			"SpriteIndex": 9,
+			"Displayname": "{{i18n:HazelnutSapling_name}}",
+			"Description": "{{i18n:HazelnutSapling_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 0,
+		},
+      }
+    },
   ]
 }

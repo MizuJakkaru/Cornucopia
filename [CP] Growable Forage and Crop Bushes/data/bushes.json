@@ -25,6 +25,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				}
 			}
@@ -54,6 +55,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				}
 			}
@@ -83,6 +85,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				}
 			}
@@ -112,6 +115,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				}
 			}
@@ -141,6 +145,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				}
 			}
@@ -170,6 +175,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				}
 			}
@@ -200,6 +206,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				},
 			}
@@ -229,6 +236,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				},
 			}
@@ -258,6 +266,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				},
 			}
@@ -287,6 +296,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				},
 			}
@@ -311,6 +321,7 @@
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
 					"TextureSpriteRow": 0,
 				},
 			}

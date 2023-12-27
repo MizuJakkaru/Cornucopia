@@ -76,6 +76,11 @@
 			"Default": "true",
 			"Description": "Turns hops from a crop into a bush (if you have Custom Bush installed). Visually still looks like a trellis."
 		},
+		"Hazelnut Tree": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a tree sapling for hazelnuts."
+		},
 	},
 	"DynamicTokens": [
 		{
@@ -88,7 +93,7 @@
 		{
 		"LogName": "Textures",
 		"Action": "Load",
-		"Target": "Cornucopia.GrowableForage/objects, Cornucopia.GrowableForage/crops",
+		"Target": "Cornucopia.GrowableForage/objects, Cornucopia.GrowableForage/crops, Cornucopia.GrowableForage/fruittrees, Cornucopia.GrowableForage/teabushes_indoor",
 		"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
@@ -100,7 +105,7 @@
 		{
 		"LogName": "Vanilla Forage Crops",
 		"Action": "Include",
-		"FromFile": "data/crops.json, data/objects.json, data/teabushes.json, data/shop_islandtrader.json",
+		"FromFile": "data/crops.json, data/fruittrees.json, data/objects.json, data/bushes.json, data/shop_islandtrader.json",
 		},
 	]
 }
