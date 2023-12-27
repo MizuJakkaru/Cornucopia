@@ -1,0 +1,99 @@
+{
+    "Changes": [
+        // add forage (beach)
+        {
+            "Action": "EditData",
+            "Target": "Data/LocationsContexts",
+            "TargetField": [ "LocationsContexts", "Beach", "Forage" ],
+            "Entries": {
+                "(O)Cornucopia_SeaSalt": {
+                    "ItemId": "(O)Cornucopia_SeaSalt"
+                }
+            }
+        },
+		// add forage (island docks)
+        {
+            "Action": "EditData",
+            "Target": "Data/LocationsContexts",
+            "TargetField": [ "LocationsContexts", "IslandSouth", "Forage" ],
+            "Entries": {
+                "(O)Cornucopia_SeaSalt": {
+                    "ItemId": "(O)Cornucopia_SeaSalt"
+                }
+            }
+        },
+        // add forage (cindersap forest)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/LocationsContexts",
+        	"TargetField": [ "LocationsContexts", "Forest", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Season": "summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		// add forage (pelican town)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/LocationsContexts",
+        	"TargetField": [ "LocationsContexts", "Town", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		// add forage (mountain)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/LocationsContexts",
+        	"TargetField": [ "LocationsContexts", "Mountain", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Season": "summer"
+                }
+        	}
+        },
+		// add forage (ginger island west)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/LocationsContexts",
+        	"TargetField": [ "LocationsContexts", "IslandWest", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                }
+        	}
+        },
+		// add forage (ginger island north)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/LocationsContexts",
+        	"TargetField": [ "LocationsContexts", "IslandNorth", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                }
+        	}
+        },
+		// add forage (ginger island east)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/LocationsContexts",
+        	"TargetField": [ "LocationsContexts", "IslandEast", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                }
+        	}
+        }
+    ]
+}
