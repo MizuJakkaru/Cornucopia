@@ -33,7 +33,7 @@
 					"Seasons": ["summer"],
 					"ItemsProduced": [
 						{
-							"Condition": "DAY_OF_MONTH 5 6 7 8 9 10 11 12",
+							"Condition": "DAY_OF_MONTH 22 23 24 25 26 27 28",
 							"ItemId": "(O)Cornucopia_Raspberry",
 							"Chance": 1.0,
 							"MinStack": 3,
