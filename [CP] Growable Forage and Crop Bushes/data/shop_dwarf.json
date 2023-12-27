@@ -1,0 +1,62 @@
+{
+  "Changes": [
+	//Extended seeds & saplings
+    {
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "Dwarf", "Items" ],
+      "When": {
+        "Common Mushroom Crop": true
+      },
+      "Entries": {
+		"Cornucopia_CommonMushroomSeeds": {
+			"Id": "Cornucopia_CommonMushroomSeeds",
+			"ItemId": "Cornucopia_CommonMushroomSeeds",
+			"Price": 750,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_CommonMushroomSeeds", "BeforeId": "(O)773" }
+		]
+    },
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "Dwarf", "Items" ],
+      "When": {
+        "Chanterelle Crop": true
+      },
+      "Entries": {
+		"Cornucopia_ChanterelleSeeds": {
+			"Id": "Cornucopia_ChanterelleSeeds",
+			"ItemId": "Cornucopia_ChanterelleSeeds",
+			"Price": 1000,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_ChanterelleSeeds", "BeforeId": "(O)773" }
+		]
+    },
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "Dwarf", "Items" ],
+      "When": {
+        "Morel Crop": true
+      },
+      "Entries": {
+		"Cornucopia_MorelSeeds": {
+			"Id": "Cornucopia_MorelSeeds",
+			"ItemId": "Cornucopia_MorelSeeds",
+			"Price": 1000,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_MorelSeeds", "BeforeId": "(O)773" }
+		]
+    }
+  ]
+}

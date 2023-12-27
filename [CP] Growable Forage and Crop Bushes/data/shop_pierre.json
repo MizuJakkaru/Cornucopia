@@ -1,0 +1,144 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": {
+        "Spring Onion Crop": true
+      },
+      "Entries": {
+		"Cornucopia_SpringOnionSeeds": {
+			"Id": "Cornucopia_SpringOnionSeeds",
+			"ItemId": "Cornucopia_SpringOnionSeeds",
+			"Condition": "SEASON spring",
+			"Price": 20,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_SpringOnionSeeds", "BeforeId": "GrassStarter" }
+		]
+    },
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": {
+        "Salmonberry Crop": true
+      },
+      "Entries": {
+		"Cornucopia_SalmonberrySeeds": {
+			"Id": "Cornucopia_SalmonberrySeeds",
+			"ItemId": "Cornucopia_SalmonberrySeeds",
+			"Condition": "SEASON spring, YEAR 2",
+			"Price": 900,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_SalmonberrySeeds", "BeforeId": "GrassStarter" }
+		]
+    },
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": {
+        "Blackberry Crop": true
+      },
+      "Entries": {
+		"Cornucopia_BlackberrySeeds": {
+			"Id": "Cornucopia_BlackberrySeeds",
+			"ItemId": "Cornucopia_BlackberrySeeds",
+			"Condition": "SEASON fall, YEAR 2",
+			"Price": 950,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_BlackberrySeeds", "BeforeId": "GrassStarter" }
+		]
+    },
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": {
+        "Sweet Pea Crop": true
+      },
+      "Entries": {
+		"Cornucopia_SweetPeaSeeds": {
+			"Id": "Cornucopia_SweetPeaSeeds",
+			"ItemId": "Cornucopia_SweetPeaSeeds",
+			"Condition": "SEASON spring, YEAR 3",
+			"Price": 30,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_SweetPeaSeeds", "BeforeId": "GrassStarter" }
+		]
+    },
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": {
+        "Crocus Crop": true
+      },
+      "Entries": {
+		"Cornucopia_CrocusSeeds": {
+			"Id": "Cornucopia_CrocusSeeds",
+			"ItemId": "Cornucopia_CrocusSeeds",
+			"Condition": "SEASON winter, YEAR 3",
+			"Price": 35,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_CrocusSeeds", "BeforeId": "GrassStarter" }
+		]
+    },
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": {
+        "Holly Crop": true
+      },
+      "Entries": {
+		"Cornucopia_HollySeeds": {
+			"Id": "Cornucopia_HollySeeds",
+			"ItemId": "Cornucopia_HollySeeds",
+			"Condition": "SEASON winter, YEAR 3",
+			"Price": 1000,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_HollySeeds", "BeforeId": "GrassStarter" }
+		]
+    },
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": {
+        "Hazelnut Tree": true
+      },
+      "Entries": {
+		"Cornucopia_HazelnutSapling": {
+			"Id": "Cornucopia_HazelnutSapling",
+			"ItemId": "Cornucopia_HazelnutSapling",
+			"Condition": "YEAR 3",
+			"Price": 3500,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_HazelnutSapling", "BeforeId": "(O)458" }
+		]
+    }
+  ]
+}
