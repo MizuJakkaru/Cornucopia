@@ -1,0 +1,330 @@
+{
+    "Changes": [
+	//Forage crops
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Common Mushroom Crop": true
+				},
+			"Entries": {
+				"(O)Cornucopia_CommonMushroomSeeds": {
+					"AgeToProduce": 30,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring","fall"],
+					"ItemsProduced": [
+						{
+							"ItemId": "(O)404",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				}
+			}
+	    },
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Morel Crop": true
+				},
+			"Entries": {
+				"(O)Cornucopia_MorelSeeds": {
+					"AgeToProduce": 30,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 22 23 24 25 26 27 28",
+							"ItemId": "(O)257",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				}
+			}
+	    },
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Chanterelle Crop": true
+				},
+			"Entries": {
+				"(O)Cornucopia_ChanterelleSeeds": {
+					"AgeToProduce": 30,
+					"DayToBeginProducing": 0,
+					"Seasons": ["fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 18 19 20 21 22 23 24",
+							"ItemId": "(O)281",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				}
+			}
+		},
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Salmonberry Crop": true
+				},
+			"Entries": {
+				"(O)Cornucopia_SalmonberrySeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)296",
+							"Chance": 1.0,
+							"MinStack": 2,
+							"MaxStack": 2,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				}
+			}
+	    },
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Blackberry Crop": true
+				},
+			"Entries": {
+				"(O)Cornucopia_BlackberrySeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 4 8 12 16 20 24 28",
+							"ItemId": "(O)410",
+							"Chance": 1.0,
+							"MinStack": 3,
+							"MaxStack": 3,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				}
+			}
+	    },
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Holly Crop": true
+				},
+			"Entries": {
+				"(O)Cornucopia_HollySeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["winter"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 4 8 12 16 20 24 28",
+							"ItemId": "(O)283",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				}
+			}
+	    },
+	//Vanilla crops to bushes
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Coffee Bush": true
+				},
+			"Entries": {
+				"(O)433": {
+					"AgeToProduce": 16,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring, summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH even",
+							"ItemId": "(O)433",
+							"Chance": 1.0,
+							"MinStack": 3,
+							"MaxStack": 5,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				},
+			}
+	    },
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Blueberry Bush": true
+				},
+			"Entries": {
+				"(O)481": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 4 8 12 16 20 24 28",
+							"ItemId": "(O)258",
+							"Chance": 1.0,
+							"MinStack": 3,
+							"MaxStack": 4,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				},
+			}
+	    },
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Cactus Bush": true
+				},
+			"Entries": {
+				"(O)802": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)90",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				},
+			}
+	    },
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Grape Bush": true
+				},
+			"Entries": {
+				"(O)301": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)398",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				},
+			}
+	    },
+		{
+        "LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Hops Bush": true
+				},
+			"Entries": {
+				"(O)302": {
+					"AgeToProduce": 16,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"ItemId": "(O)304",
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoor",
+					"TextureSpriteRow": 0,
+				},
+			}
+	    },
+	]
+}

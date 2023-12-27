@@ -1,0 +1,60 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Spring Onion Crop": true},
+			"Entries": {
+				"Cornucopia_SpringOnionSeeds": {
+					"Seasons": [ "spring" ],
+					"DaysInPhase": [ 1, 1, 1 ],
+					"HarvestItemId": "(O)399",
+					"Texture": "Cornucopia.GrowableForage/Crops",
+					"SpriteIndex": 1
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Ginger Crop": true},
+			"Entries": {
+				"Cornucopia_GingerSeeds": {
+					"Seasons": [ "summer" ],
+					"DaysInPhase": [ 1, 2, 3, 2 ],
+					"HarvestItemId": "(O)829",
+					"Texture": "Cornucopia.GrowableForage/Crops",
+					"SpriteIndex": 2
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Sweet Pea Crop": true},
+			"Entries": {
+				"Cornucopia_SweetPeaSeeds": {
+					"Seasons": [ "spring" ],
+					"DaysInPhase": [ 1, 2, 3, 2 ],
+					"HarvestItemId": "(O)402",
+					"Texture": "Cornucopia.GrowableForage/Crops",
+					"SpriteIndex": 5
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Crocus Crop": true},
+			"Entries": {
+				"Cornucopia_CrocusSeeds": {
+					"Seasons": [ "winter" ],
+					"DaysInPhase": [ 2, 2, 3, 2 ],
+					"HarvestItemId": "(O)418",
+					"Texture": "Cornucopia.GrowableForage/Crops",
+					"SpriteIndex": 4
+				},
+			}
+        },
+	]
+}

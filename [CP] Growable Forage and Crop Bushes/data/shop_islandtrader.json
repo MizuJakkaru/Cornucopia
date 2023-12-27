@@ -1,0 +1,24 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "IslandTrade", "Items" ],
+      "When": {
+        "Ginger Crop": true
+      },
+      "Entries": {
+		"Cornucopia_GingerSeeds": {
+			"Id": "Cornucopia_GingerSeeds",
+			"ItemId": "Cornucopia_GingerSeeds",
+			"TradeItemId": "(O)881", //Bone Fragment
+			"TradeItemAmount": 2,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_GingerSeeds", "AfterId": "(O)833" }
+		]
+    },
+  ]
+}

@@ -1,33 +1,40 @@
 {
-	"GingerSeeds_name": "Ginger Seeds",
-	"GingerSeeds_description": "Plant these in the summer. Takes 8 days to mature.",
-	
+	//Crops seeds
 	"SpringOnionSeeds_name": "Spring Onion Seeds",
 	"SpringOnionSeeds_description": "Plant these in the spring. Takes only 3 days to mature.",
+	"GingerSeeds_name": "Ginger Seeds",
+	"GingerSeeds_description": "Plant these in the summer. Takes 8 days to mature.",
+	"SweetPeaSeeds_name": "Sweet Pea Seeds",
+	"SweetPeaSeeds_description": "Plant in summer. Takes 8 days to produce a sweet little flower.",
+	"CrocusSeeds_name": "Crocus Seeds",
+	"CrocusSeeds_description": "Plant in winter. Takes 9 days to produce a purple flower with saffron within.",
 	
-	"GrapeSeeds_name": "Grape Planter",
-	"GrapeSeeds_description": "Takes 20 days to mature. Produces grapes every 3 days in fall, no watering necessary!",
-	
-	"HopsSeeds_name": "Hops Planter",
-	"HopsSeeds_description": "Takes 20 days to mature. Produces hops every day during summer, no watering necessary!",
-	
-	"CactusFruitSeeds_name": "Cactus Planter",
-	"CactusFruitSeeds_description": "Plant indoors or outdoors, and takes 20 days to mature. Produces cactus fruit every 3 days in summer, no watering necessary!",
-	
-	"CoffeeBean_description": "Plant to grow a coffee bush that produces coffee beans in spring and summer. Place five beans in a keg to make coffee.",
-	
-	"BlueberrySeeds_name": "Blueberry Bush Sapling",
-	"BlueberrySeeds_description": "Takes 20 days to mature into a blueberry bush. Produces blueberries every 4 days in summer.",
-	
-	"BerryBushSeeds_name": "Berry Bush Sapling",
-	"BerryBushSeeds_description": "Takes 20 days to mature into a berry bush. Produces salmonberries and blackberries during berry picking season.",
-	
+	//Bush saplings
 	"CommonMushroomSeeds_name": "Common Mushroom Planter",
-	"CommonMushroomSeeds_description": "Takes 20 days to mature into a common mushroom stump. Produces common mushrooms throughout spring and fall.",
-	
-	"ChanterelleSeeds_name": "Chanterelle Planter",
-	"ChanterelleSeeds_description": "Takes 20 days to mature into a common mushroom stump. Produces a bounty of chanterelles in late fall (Fall 18-24).",
-	
+	"CommonMushroomSeeds_description": "Takes 30 days to mature into a mushroom stump. Produces common mushrooms throughout spring and fall. No watering necessary!",
 	"MorelSeeds_name": "Morel Planter",
-	"MorelSeeds_description": "Takes 20 days to mature into a common mushroom stump. Produces a bounty of morels in late spring (Spring 20-28).",
+	"MorelSeeds_description": "Takes 30 days to mature into a mushroom stump. Produces a bounty of morel during the late spring (days 22-28). No watering necessary!",
+	"ChanterelleSeeds_name": "Chanterelle Planter",
+	"ChanterelleSeeds_description": "Takes 30 days to mature into a mushroom stump. Produces a bounty of chanterelle during the late fall (days 18-24). No watering necessary!",
+	"SalmonberrySeeds_name": "Salmonberry Sapling",
+	"SalmonberrySeeds_description": "Takes 20 days to mature. Produces salmonberries every 3 days in spring. No watering necessary!",
+	"BlackberrySeeds_name": "Blackberry Sapling",
+	"BlackberrySeeds_description": "Takes 20 days to mature. Produces blackberries every 4 days in fall. No watering necessary!",
+	"HollySeeds_name": "Holly Sapling",
+	"HollySeeds_description": "Takes 20 days to mature. Produces holly every 4 days in winter. No watering necessary!",
+	
+	//Tree saplings
+	"HazelnutSapling_name": "Hazelnut Sapling",
+	"HazelnutSapling_description": "Takes 28 days to produce a mature Hazel tree. Ready to harvest in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+	
+	//Vanilla seeds to bush saplings changes
+	"CoffeeBean_description": "Plant to grow a coffee bush that produces coffee beans in spring and summer. Place five beans in a keg to make coffee.",
+	"BlueberrySeeds_name": "Blueberry Sapling",
+	"BlueberrySeeds_description": "Takes 20 days to mature. Produces blueberries every 4 days in summer. No watering necessary!",
+	"CactusFruitSeeds_name": "Cactus Planter",
+	"CactusFruitSeeds_description": "Plant indoors or outdoors. Takes 20 days to mature, and then produces cactus fruit every 3 days in summer. No watering necessary!",
+	"GrapeSeeds_name": "Grape Planter",
+	"GrapeSeeds_description": "Takes 20 days to mature. Produces grapes every 3 days in fall. No watering necessary!",
+	"HopsSeeds_name": "Hops Planter",
+	"HopsSeeds_description": "Takes 16 days to mature. Produces hops every day during summer. No watering necessary!",	
 }
