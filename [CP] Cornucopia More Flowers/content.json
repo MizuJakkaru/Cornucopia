@@ -49,7 +49,7 @@
         // add item + crop images
         {
             "Action": "Load",
-            "Target": "Cornucopia.MoreFlowers/Crops, Cornucopia.MoreFlowers/Objects, Cornucopia.MoreFlowers/FruitTrees",
+            "Target": "Cornucopia.MoreFlowers/Crops, Cornucopia.MoreFlowers/Objects, Cornucopia.MoreFlowers/FruitTrees, Cornucopia.MoreFlowers/teabushes_indoors",
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
         },
 		

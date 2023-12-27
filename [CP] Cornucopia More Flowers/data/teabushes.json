@@ -26,7 +26,8 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
-					"TextureSpriteRow": 0,
+					"IndoorTexture": "Cornucopia.MoreFlowers/teabushes_indoors",
+					"TextureSpriteRow": 2,
 				}
 			}
 	    },

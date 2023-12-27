@@ -25,6 +25,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 26,
 				},
 				"(O)Cornucopia_RaspberrySeeds": {
@@ -42,6 +43,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 14,
 				}
 			}
@@ -72,6 +74,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 10,
 				},
 				"(O)Cornucopia_ElderberriesSeeds": {
@@ -89,6 +92,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 24,
 				},
 				"(O)Cornucopia_GooseberrySeeds": {
@@ -106,6 +110,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 30,
 				},
 				"(O)Cornucopia_JuniperBerriesSeeds": {
@@ -123,6 +128,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 22,
 				},
 				"(O)Cornucopia_PeppercornSeeds": {
@@ -139,6 +145,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 32,
 				},
 				"(O)Cornucopia_ShiitakeSeeds": {
@@ -156,6 +163,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 8,
 				}
 			}
@@ -186,6 +194,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 28,
 				},
 			}

@@ -59,7 +59,7 @@
         // add item + crop images
         {
             "Action": "Load",
-            "Target": "Cornucopia.MoreCrops/Crops, Cornucopia.MoreCrops/GiantCrops, Cornucopia.MoreCrops/Objects, Cornucopia.MoreCrops/FruitTrees, Cornucopia.MoreCrops/Tree1_{{season}}",
+            "Target": "Cornucopia.MoreCrops/Crops, Cornucopia.MoreCrops/GiantCrops, Cornucopia.MoreCrops/Objects, Cornucopia.MoreCrops/FruitTrees, Cornucopia.MoreCrops/teabushes_indoors, Cornucopia.MoreCrops/Tree1_{{season}}",
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
         },
 		
