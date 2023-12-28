@@ -24,7 +24,7 @@
 	"HollySeeds_description": "Takes 20 days to mature. Produces holly every 4 days in winter. No watering necessary!",
 	
 	//Tree saplings
-	"Hazelnut_name": "Hazelnut"
+	"Hazelnut_name": "Hazelnut",
 	"HazelnutSapling_name": "Hazelnut Sapling",
 	"HazelnutSapling_description": "Takes 28 days to produce a mature Hazel tree. Ready to harvest in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
 	

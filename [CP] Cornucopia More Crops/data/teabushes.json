@@ -43,7 +43,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 14,
 				}
 			}
@@ -106,7 +106,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 10,
 				},
 				"(O)Cornucopia_ElderberriesSeeds": {
@@ -124,7 +124,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 24,
 				},
 				"(O)Cornucopia_GooseberrySeeds": {
@@ -142,7 +142,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 30,
 				},
 				"(O)Cornucopia_JuniperBerriesSeeds": {
@@ -160,7 +160,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 22,
 				},
 				"(O)Cornucopia_PeppercornSeeds": {
@@ -177,7 +177,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 32,
 				},
 				"(O)Cornucopia_ShiitakeSeeds": {
@@ -195,7 +195,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 8,
 				}
 			}
@@ -208,7 +208,7 @@
 			"When": 
 				{
 					"HasMod": "furyx639.CustomBush",
-					"Enable Extended Pack": true,
+					"Enable Extended Crops Pack": true,
 					"Disable Grape Bushes": false
 				},
 			"Entries": {
@@ -258,7 +258,7 @@
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
-					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 28,
 				},
 			}
