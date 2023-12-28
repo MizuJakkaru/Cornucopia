@@ -296,5 +296,35 @@
 				},
 			}
 	    },
+		{
+		"LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Grapes Bush": true
+				},
+			"Entries": {
+				"(O)301": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)398",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.GrowableForage/teabushes",
+					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoors",
+					"TextureSpriteRow": 22,
+				},
+			}
+	    },
 	]
 }

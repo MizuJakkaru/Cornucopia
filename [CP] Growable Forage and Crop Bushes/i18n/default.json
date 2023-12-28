@@ -26,7 +26,7 @@
 	//Tree saplings
 	"Hazelnut_name": "Hazelnut",
 	"HazelnutSapling_name": "Hazelnut Sapling",
-	"HazelnutSapling_description": "Takes 28 days to produce a mature Hazel tree. Ready to harvest in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+	"HazelnutSapling_description": "Takes 28 days to produce a mature Hazelnut tree. Ready to harvest in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
 	
 	//Vanilla seeds to bush saplings changes
 	"CoffeeBean_description": "Plant to grow a coffee bush that produces coffee beans in spring and summer. Place five beans in a keg to make coffee.",
@@ -37,5 +37,5 @@
 	"HopsSeeds_name": "Hops Planter",
 	"HopsSeeds_description": "Takes 16 days to mature. Produces hops every day during summer. No watering necessary!",	
 	"GrapeSeeds_name": "Grape Planter",
-	"GrapeSeeds_description": "Takes 16 days to mature. Produces grapes every 3 days in fall. No watering necessary!",	
+	"GrapeSeeds_description": "Takes 20 days to mature. Produces grapes every 3 days in fall. No watering necessary!",	
 }
