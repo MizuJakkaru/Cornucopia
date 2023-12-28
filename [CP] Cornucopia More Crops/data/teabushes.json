@@ -1,6 +1,6 @@
 {
     "Changes": [
-		//Essential pack crops
+		//Essential crops
 		{
         "LogName": "Add to Custom Bush Framework",
 			"Action": "EditData",
@@ -45,6 +45,38 @@
 					"Texture": "Cornucopia.MoreCrops/teabushes",
 					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 14,
+				}
+			}
+		},
+		{
+        //Essential crops - grapes config (unique)
+		"LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Enable Essential Pack": true,
+					"Disable Grape Bushes": false
+				},
+			"Entries": {
+				"(O)301": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)398",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
+					"TextureSpriteRow": 36,
 				}
 			}
 	    },
@@ -165,6 +197,38 @@
 					"Texture": "Cornucopia.MoreCrops/teabushes",
 					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",,
 					"TextureSpriteRow": 8,
+				}
+			}
+	    },
+		{
+        //Extended crops - white grapes config (unique)
+		"LogName": "Add to Custom Bush Framework",
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"When": 
+				{
+					"HasMod": "furyx639.CustomBush",
+					"Enable Extended Pack": true,
+					"Disable Grape Bushes": false
+				},
+			"Entries": {
+				"(O)Cornucopia_WhiteGrapesSeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["fall"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)Cornucopia_WhiteGrapes",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
+					"TextureSpriteRow": 34,
 				}
 			}
 	    },

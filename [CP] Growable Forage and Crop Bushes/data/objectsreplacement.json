@@ -45,20 +45,6 @@
       "Target": "Data/Objects",
       "When": {
 			"HasMod": "furyx639.CustomBush",
-			"Grape Bush": true
-		},
-      "Entries": {
-		"301": {
-			"Displayname": "{{i18n:GrapeSeeds_name}}",
-			"Description": "{{i18n:GrapeSeeds_description}}",
-		},
-      }
-    },
-	{
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "When": {
-			"HasMod": "furyx639.CustomBush",
 			"Hops Bush": true
 		},
       "Entries": {

@@ -408,13 +408,6 @@
 			"Price": 100,
 			"IgnoreShopPriceModifiers": true
 		},
-		"Cornucopia_WhiteGrapeSeeds": {
-			"Id": "Cornucopia_WhiteGrapeSeeds",
-			"ItemId": "Cornucopia_WhiteGrapeSeeds",
-			"Condition": "SEASON fall, YEAR 2",
-			"Price": 55,
-			"IgnoreShopPriceModifiers": true
-		},
 		"Cornucopia_YellowSquashSeeds": {
 			"Id": "Cornucopia_YellowSquashSeeds",
 			"ItemId": "Cornucopia_YellowSquashSeeds",
@@ -464,6 +457,49 @@
 			{ "Id": "Cornucopia_WasabiRootSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_YellowSquashSeeds", "BeforeId": "GrassStarter" }
+		]
+    },
+	//Extended crops seeds - white grapes (unique)
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": {
+        "Enable Extended Crops Pack": true,
+		"Disable Grape Bushes": false
+      },
+	  "Entries": {
+		"Cornucopia_WhiteGrapeSeeds": {
+			"Id": "Cornucopia_WhiteGrapeSeeds",
+			"ItemId": "Cornucopia_WhiteGrapeSeeds",
+			"Condition": "SEASON fall, YEAR 2",
+			"Price": 500,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "GrassStarter" }
+		]
+    },
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": {
+        "Enable Extended Crops Pack": true,
+		"Disable Grape Bushes": true
+      },
+	  "Entries": {
+		"Cornucopia_WhiteGrapeSeeds": {
+			"Id": "Cornucopia_WhiteGrapeSeeds",
+			"ItemId": "Cornucopia_WhiteGrapeSeeds",
+			"Condition": "SEASON fall, YEAR 2",
+			"Price": 55,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "GrassStarter" }
 		]
     },
    //Herb crop seeds

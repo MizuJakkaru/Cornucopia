@@ -31,6 +31,11 @@
 			"Default": "true",
 			"Description": "(Recommended) Adds custom, unique artisan goods for some Cornucopia crops. Generic goods like wine, juice, etc will still be automatically added regardless of this setting."
 		},
+		"Disable Grape Bushes": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Disables grapes and/or white grapes as bushes and reinstates them as standard trellis crops."
+		},
 	},
 	"DynamicTokens": [
 		//crop ExtraHarvestChance values for later testing

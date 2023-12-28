@@ -24,6 +24,7 @@
 	"HollySeeds_description": "Takes 20 days to mature. Produces holly every 4 days in winter. No watering necessary!",
 	
 	//Tree saplings
+	"Hazelnut_name": "Hazelnut"
 	"HazelnutSapling_name": "Hazelnut Sapling",
 	"HazelnutSapling_description": "Takes 28 days to produce a mature Hazel tree. Ready to harvest in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
 	
@@ -33,8 +34,6 @@
 	"BlueberrySeeds_description": "Takes 20 days to mature. Produces blueberries every 4 days in summer. No watering necessary!",
 	"CactusFruitSeeds_name": "Cactus Planter",
 	"CactusFruitSeeds_description": "Plant indoors or outdoors. Takes 20 days to mature, and then produces cactus fruit every 3 days in summer. No watering necessary!",
-	"GrapeSeeds_name": "Grape Planter",
-	"GrapeSeeds_description": "Takes 20 days to mature. Produces grapes every 3 days in fall. No watering necessary!",
 	"HopsSeeds_name": "Hops Planter",
 	"HopsSeeds_description": "Takes 16 days to mature. Produces hops every day during summer. No watering necessary!",	
 }

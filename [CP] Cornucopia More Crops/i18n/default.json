@@ -309,7 +309,7 @@
   "WasabiRootSeeds_name": "Wasabi Tuber",
   "WasabiRootSeeds_description": "Plant these in summer. Takes 8 days to mature.",
   "WhiteGrapeSeeds_name": "White Grape Starter",
-  "WhiteGrapeSeeds_description": "Plant these in fall. Takes 8 days to mature, and continues to produce after the first harvest. Grows on a trellis.",
+  "WhiteGrapeSeeds_description": "Takes 20 days to mature. Produces grapes every 3 days in fall. No watering necessary!",
   "YellowSquashSeeds_name": "Yellow Squash Starter",
   "YellowSquashSeeds_description": "Plant these in summer. Takes 14 days to mature, and continues to produce after the first harvest.",
   "AloeSeeds_name": "Aloe Pod",
@@ -479,6 +479,14 @@
   "NutmegSapling_name": "Nutmeg Sapling",
   "NutmegSapling_description": "Takes 28 days to produce a mature Nutmeg tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
   
+  //Vanilla seeds to bush saplings changes
+  "GrapeSeeds_name": "Grape Planter",
+  "GrapeSeeds_description": "Takes 20 days to mature. Produces grapes every 3 days in fall. No watering necessary!",
+  
+  //Special name/descriptions for Disable Grape Bushes: True
+  "WhiteGrapeSeeds_name2": "White Grape Starter",
+  "WhiteGrapeSeeds_description2": "Plant these in fall. Takes 8 days to mature, and continues to produce after the first harvest. Grows on a trellis.",
+	
   //Special tree names (for the "Your ___ tree wasn't able to grow last night" message)
   "Cocoa_name": "Cocoa",
   "Cassia_name": "Cassia",

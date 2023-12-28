@@ -8,7 +8,7 @@
 				},
 			"Entries": {
 				"Cornucopia_HazelnutSapling": {
-					"DisplayName": "{{i18n:408}}",
+					"DisplayName": "{{i18n:Hazelnut_name}}",
 					"Seasons": [ "fall" ],
 					"Fruit": [{"ItemId": 408}],
 					"Texture": "Cornucopia.GrowableForage/FruitTrees",

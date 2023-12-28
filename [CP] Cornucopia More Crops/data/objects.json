@@ -886,7 +886,7 @@
             "color_green"
           ]
         },
-        "Cornucopia_WhiteGrape": {
+		"Cornucopia_WhiteGrape": {
           "Name": "Cornucopia_WhiteGrape",
           "Type": "Fruit",
           "Category": -79,
@@ -916,7 +916,7 @@
         }
       }
     },
-    //Herb crop produce
+	//Herb crop produce
 	{
       "Action": "EditData",
       "Target": "Data/Objects",
@@ -1871,16 +1871,6 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 50
         },
-        "Cornucopia_WhiteGrapeSeeds": {
-          "Name": "Cornucopia_WhiteGrapeSeeds",
-          "Type": "Seed",
-          "Category": -74,
-          "SpriteIndex": 95,
-          "DisplayName": "{{i18n:WhiteGrapeSeeds_name}}",
-          "Description": "{{i18n:WhiteGrapeSeeds_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 27
-        },
         "Cornucopia_YellowSquashSeeds": {
           "Name": "Cornucopia_YellowSquashSeeds",
           "Type": "Seed",
@@ -1890,6 +1880,47 @@
           "Description": "{{i18n:YellowSquashSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 87
+        }
+      }
+    },
+    //Extended crop seeds - white grapes (unique)
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Enable Extended Crops Pack": true,
+		"Disable Grape Bushes": false
+      },
+      "Entries": {
+        "Cornucopia_WhiteGrapeSeeds": {
+          "Name": "Cornucopia_WhiteGrapeSeeds",
+          "Type": "Seed",
+          "Category": -74,
+          "SpriteIndex": 95,
+          "DisplayName": "{{i18n:WhiteGrapeSeeds_name}}",
+          "Description": "{{i18n:WhiteGrapeSeeds_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 250
+        }
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Enable Extended Crops Pack": true,
+		"Disable Grape Bushes": true
+      },
+      "Entries": {
+        "Cornucopia_WhiteGrapeSeeds": {
+          "Name": "Cornucopia_WhiteGrapeSeeds",
+          "Type": "Seed",
+          "Category": -74,
+          "SpriteIndex": 95,
+          "DisplayName": "{{i18n:WhiteGrapeSeeds_name2}}",
+          "Description": "{{i18n:WhiteGrapeSeeds_description2}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 27
         }
       }
     },

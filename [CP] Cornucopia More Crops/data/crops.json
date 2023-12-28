@@ -476,8 +476,26 @@
 					"HarvestItemId": "Cornucopia_WasabiRoot",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 19,
-					"IsPaddyCrop": true
+				}
+			}
+		},
+		// Extended crops - white grapes config (unique)
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": 
+				{
+					"Enable Extended Crops Pack": true,
+					"Disable Grape Bushes": true
 				},
+			"Entries": {
+				"Cornucopia_WhiteGrapeSeeds": {
+					"Seasons": [ "fall" ],
+					"DaysInPhase": [ 1, 1, 2, 2, 2 ],
+					"HarvestItemId": "Cornucopia_WhiteGrape",
+					"Texture": "Cornucopia.MoreCrops/Crops",
+					"SpriteIndex": 57,
+				}
 			}
 		},
 		// Herbs pack crops

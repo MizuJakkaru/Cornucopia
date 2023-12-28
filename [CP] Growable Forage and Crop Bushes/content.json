@@ -66,11 +66,6 @@
 			"Default": "true",
 			"Description": "Turns cactus fruit from a crop into a bush (if you have Custom Bush installed)."
 		},
-		"Grape Bush": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Turns grapes from a crop into a bush (if you have Custom Bush installed). Visually still looks like a trellis."
-		},
 		"Hops Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
