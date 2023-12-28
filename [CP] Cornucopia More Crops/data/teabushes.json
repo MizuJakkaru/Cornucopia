@@ -109,7 +109,6 @@
 					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 20,
 				},
-				{
 				"(O)Cornucopia_ChickenoftheWoodsSeeds": {
 					"AgeToProduce": 30,
 					"DayToBeginProducing": 0,

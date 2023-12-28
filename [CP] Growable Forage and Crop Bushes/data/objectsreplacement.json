@@ -1,56 +1,63 @@
-,
+{
+	"Changes": [
 		{
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "When": {
-			"HasMod": "furyx639.CustomBush",
-			"Coffee Bush": true
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Coffee Bush": true
+			},
+			"Entries": {
+				"CoffeeBean_Description": "{{i18n:CoffeeBean_description}}"
+			}
 		},
-      "Entries": {
-		"433": {
-			"Description": "{{i18n:CoffeeBean_description}}",
+		{
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Blueberry Bush": true
+			},
+			"Entries": {
+				"BlueberrySeeds_Name": "{{i18n:BlueberrySeeds_name}}",
+				"BlueberrySeeds_Description": "{{i18n:BlueberrySeeds_description}}"
+			}
 		},
-      }
-    },
-	{
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "When": {
-			"HasMod": "furyx639.CustomBush",
-			"Blueberry Bush": true
+		{
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Cactus Bush": true
+			},
+			"Entries": {
+				"CactusSeeds_Name": "{{i18n:CactusFruitSeeds_name}}",
+				"CactusSeeds_Description": "{{i18n:CactusFruitSeeds_description}}"
+			}
 		},
-      "Entries": {
-		"481": {
-			"Displayname": "{{i18n:BlueberrySeeds_name}}",
-			"Description": "{{i18n:BlueberrySeeds_description}}",
+		{
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Hops Bush": true
+			},
+			"Entries": {
+				"HopsStarter_Name": "{{i18n:HopsSeeds_name}}",
+				"HopsStarter_Description": "{{i18n:HopsSeeds_description}}"
+			}
 		},
-      }
-    },
-	{
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "When": {
-			"HasMod": "furyx639.CustomBush",
-			"Cactus Bush": true
-		},
-      "Entries": {
-		"802": {
-			"Displayname": "{{i18n:CactusFruitSeeds_name}}",
-			"Description": "{{i18n:CactusFruitSeeds_description}}",
-		},
-      }
-    },
-	{
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "When": {
-			"HasMod": "furyx639.CustomBush",
-			"Hops Bush": true
-		},
-      "Entries": {
-		"302": {
-			"Displayname": "{{i18n:HopsSeeds_name}}",
-			"Description": "{{i18n:HopsSeeds_description}}",
-		},
-      }
-    }
+		{
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Grapes Bush": true
+			},
+			"Entries": {
+				"GrapeStarter_Name": "{{i18n:GrapeSeeds_name}}",
+				"GrapeStarter_Description": "{{i18n:GrapeSeeds_description}}"
+			}
+		}
+	]
+}
