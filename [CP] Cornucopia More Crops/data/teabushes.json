@@ -91,6 +91,25 @@
 					"Enable Extended Crops Pack": true
 				},
 			"Entries": {
+				"(O)Cornucopia_BlackCurrantsSeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)Cornucopia_BlackCurrants",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/teabushes",
+					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
+					"TextureSpriteRow": 20,
+				},
+				{
 				"(O)Cornucopia_ChickenoftheWoodsSeeds": {
 					"AgeToProduce": 30,
 					"DayToBeginProducing": 0,
@@ -254,7 +273,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"Quality": 4,
+							"Quality": -1,
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
