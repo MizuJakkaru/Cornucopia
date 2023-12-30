@@ -18,7 +18,7 @@
 					"ItemsProduced": [
 						{
 							"Condition": "DAY_OF_MONTH 5 10 15 20 25",
-							"ItemId": "(O)CalicoRose",
+							"ItemId": "(O)Cornucopia_CalicoRose",
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
@@ -28,6 +28,42 @@
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
 					"IndoorTexture": "Cornucopia.MoreFlowers/teabushes_indoors",
 					"TextureSpriteRow": 2,
+				},
+				"(O)Cornucopia_CamelliaSeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"ItemId": "(O)Cornucopia_Camellia",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreFlowers/teabushes",
+					"IndoorTexture": "Cornucopia.MoreFlowers/teabushes_indoors",
+					"TextureSpriteRow": 8,
+				},
+				"(O)Cornucopia_LilacSeeds": {
+					"AgeToProduce": 20,
+					"DayToBeginProducing": 0,
+					"Seasons": ["spring, summer"],
+					"ItemsProduced": [
+						{
+							"Condition": "DAY_OF_MONTH 12 14 16 18 20",
+							"ItemId": "(O)Cornucopia_Lilac",
+							"Chance": 1.0,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+						}
+					],
+					"Texture": "Cornucopia.MoreFlowers/teabushes",
+					"IndoorTexture": "Cornucopia.MoreFlowers/teabushes_indoors",
+					"TextureSpriteRow": 6,
 				}
 			}
 	    },

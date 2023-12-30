@@ -45,7 +45,7 @@
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 35,
 					"RegrowDays": 5,
-					"IsRaised": true
+					"IsPaddyCrop": true
                 },
 				"Cornucopia_MorningGlorySeeds": {
                     "Seasons": [ "spring" ],
@@ -115,14 +115,6 @@
                     "HarvestItemId": "Cornucopia_Buttercup",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 16
-                },
-                "Cornucopia_CamelliaSeeds": {
-                    "Seasons": [ "spring" ],
-                    "DaysInPhase": [ 1, 2, 3, 3, 2 ],
-                    "HarvestItemId": "Cornucopia_Camellia",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
-                    "SpriteIndex": 22,
-					"RegrowDays": 3
                 },
                 "Cornucopia_CarnationSeeds": {
                     "Seasons": [ "spring", "summer" ],
@@ -229,13 +221,6 @@
                     "HarvestItemId": "Cornucopia_Lavender",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 5
-                },
-                "Cornucopia_LilacSeeds": {
-                    "Seasons": [ "spring", "summer" ],
-                    "DaysInPhase": [ 2, 1, 2, 2, 2 ],
-                    "HarvestItemId": "Cornucopia_Lilac",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
-                    "SpriteIndex": 6
                 },
                 "Cornucopia_LupineSeeds": {
                     "Seasons": [ "summer" ],
