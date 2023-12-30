@@ -26,8 +26,8 @@
         					"ItemId": "Cornucopia_Jasmine"
         				}
         			],
-        			"Texture": "Cornucopia.MoreCrops/FruitTree",
-        			"TextureSpriteRow": 0
+        			"Texture": "Cornucopia.MoreCrops/FruitTrees",
+        			"TextureSpriteRow": 1
         		},
         		"Cornucopia_MagnoliaSapling": {
         			"DisplayName": "Magnolia",
@@ -38,8 +38,8 @@
         					"ItemId": "Cornucopia_Magnolia"
         				}
         			],
-        			"Texture": "Cornucopia.MoreCrops/FruitTree",
-        			"TextureSpriteRow": 0
+        			"Texture": "Cornucopia.MoreCrops/FruitTrees",
+        			"TextureSpriteRow": 2
         		},
         		"Cornucopia_WisteriaSapling": {
         			"DisplayName": "Wisteria",
@@ -50,10 +50,10 @@
         					"ItemId": "Cornucopia_Wisteria"
         				}
         			],
-        			"Texture": "Cornucopia.MoreCrops/FruitTree",
-        			"TextureSpriteRow": 0
+        			"Texture": "Cornucopia.MoreCrops/FruitTrees",
+        			"TextureSpriteRow": 3
         		},
-        		"Cornucopia_YlangYlang": {
+        		"Cornucopia_YlangYlangSapling": {
         			"DisplayName": "Ylang Ylang",
         			"Seasons": [ "summer" ],
         			"Fruit": [
@@ -62,8 +62,8 @@
         					"ItemId": "Cornucopia_YlangYlang"
         				}
         			],
-        			"Texture": "Cornucopia.MoreCrops/FruitTree",
-        			"TextureSpriteRow": 0
+        			"Texture": "Cornucopia.MoreCrops/FruitTrees",
+        			"TextureSpriteRow": 4
         		}
         	}
         },
