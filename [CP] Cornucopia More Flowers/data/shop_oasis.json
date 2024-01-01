@@ -10,7 +10,6 @@
 		"Cornucopia_LotusSeeds": {
 			"Id": "Cornucopia_LotusSeeds",
 			"ItemId": "Cornucopia_LotusSeeds",
-			"Condition": "YEAR 3",
 			"Price": 60,
 			"IgnoreShopPriceModifiers": true
 		}

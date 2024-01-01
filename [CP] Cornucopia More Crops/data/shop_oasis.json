@@ -10,7 +10,7 @@
 		"Cornucopia_SugarcaneSeeds": {
 			"Id": "Cornucopia_SugarcaneSeeds",
 			"ItemId": "Cornucopia_SugarcaneSeeds",
-			"Price": 110,
+			"Price": 30,
 			"IgnoreShopPriceModifiers": true
 		}
       },
@@ -27,24 +27,21 @@
         "Enable Extended Crops Pack": true
       },
 	  "Entries": {
-		"Cornucopia_BlueAgaveSeeds": {
-			"Id": "Cornucopia_BlueAgaveSeeds",
-			"ItemId": "Cornucopia_BlueAgaveSeeds",
-			"Condition": "YEAR 3",
-			"Price": 200,
-			"IgnoreShopPriceModifiers": true
-		},
 		"Cornucopia_AgaveSeeds": {
 			"Id": "Cornucopia_AgaveSeeds",
 			"ItemId": "Cornucopia_AgaveSeeds",
-			"Condition": "YEAR 4",
 			"Price": 100,
+			"IgnoreShopPriceModifiers": true
+		},
+		"Cornucopia_BlueAgaveSeeds": {
+			"Id": "Cornucopia_BlueAgaveSeeds",
+			"ItemId": "Cornucopia_BlueAgaveSeeds",
+			"Price": 180,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_BreadfruitSapling": {
 			"Id": "Cornucopia_BreadfruitSapling",
 			"ItemId": "Cornucopia_BreadfruitSapling",
-			"Condition": "YEAR 2",
 			"Price": 8000,
 			"IgnoreShopPriceModifiers": true
 		},
@@ -57,14 +54,12 @@
 		"Cornucopia_DurianSapling": {
 			"Id": "Cornucopia_DurianSapling",
 			"ItemId": "Cornucopia_DurianSapling",
-			"Condition": "YEAR 2",
 			"Price": 8000,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_LycheeSapling": {
 			"Id": "Cornucopia_LycheeSapling",
 			"ItemId": "Cornucopia_LycheeSapling",
-			"Condition": "YEAR 2",
 			"Price": 5000,
 			"IgnoreShopPriceModifiers": true
 		}

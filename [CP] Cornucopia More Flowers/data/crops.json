@@ -44,12 +44,11 @@
                     "HarvestItemId": "Cornucopia_Lotus",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 35,
-					"RegrowDays": 5,
 					"IsPaddyCrop": true
                 },
 				"Cornucopia_MorningGlorySeeds": {
                     "Seasons": [ "spring" ],
-                    "DaysInPhase": [ 1, 2, 3, 2, 2 ],
+                    "DaysInPhase": [ 1, 2, 2, 3, 2 ],
                     "HarvestItemId": "Cornucopia_MorningGlory",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 43,
@@ -143,7 +142,9 @@
                     "DaysInPhase": [ 1, 2, 3, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Clematis",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
-                    "SpriteIndex": 25
+                    "SpriteIndex": 25,
+					"RegrowDays": 3,
+					"IsRaised": true
                 },
                 "Cornucopia_DahliaSeeds": {
                     "Seasons": [ "fall" ],
@@ -184,7 +185,7 @@
                 },
                 "Cornucopia_HoneysuckleSeeds": {
                     "Seasons": [ "spring", "summer" ],
-                    "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+                    "DaysInPhase": [ 2, 3, 4, 4, 3 ],
                     "HarvestItemId": "Cornucopia_Honeysuckle",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 3,
@@ -262,7 +263,7 @@
                 },
                 "Cornucopia_RafflesiaSeeds": {
                     "Seasons": [ "spring", "summer", "fall", "winter" ],
-					"DaysInPhase": [ 5, 8, 10, 18, 15 ],
+					"DaysInPhase": [ 5, 8, 10, 15, 12 ],
                     "HarvestItemId": "Cornucopia_Rafflesia",
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 36,

@@ -20,7 +20,7 @@
 			"Id": "Cornucopia_RafflesiaSeeds",
 			"ItemId": "Cornucopia_RafflesiaSeeds",
 			"TradeItemId": "(O)848", // Cinder Shard
-			"TradeItemAmount": 50,
+			"TradeItemAmount": 10,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_RosePrismaticSeeds": {

@@ -18,7 +18,8 @@
 		"Cornucopia_GinsengSeeds": {
 			"Id": "Cornucopia_GinsengSeeds",
 			"ItemId": "Cornucopia_GinsengSeeds",
-			"Price": 1000,
+			"TradeItemId": "Cornucopia_Carrot",
+			"TradeItemAmount": 4,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_ShiitakeSeeds": {

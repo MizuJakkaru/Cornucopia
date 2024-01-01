@@ -11,7 +11,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_CalicoRoseSeeds": {
-					"AgeToProduce": 15,
+					"AgeToProduce": 20,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],
 					"ItemsProduced": [
@@ -29,7 +29,7 @@
 					"TextureSpriteRow": 2,
 				},
 				"(O)Cornucopia_CamelliaSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 121,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring"],
 					"ItemsProduced": [
@@ -47,12 +47,12 @@
 					"TextureSpriteRow": 8,
 				},
 				"(O)Cornucopia_LilacSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 18,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring, summer"],
 					"ItemsProduced": [
 						{
-							"Condition": "DAY_OF_MONTH 12 14 16 18 20",
+							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
 							"ItemId": "(O)Cornucopia_Lilac",
 							"Chance": 1.0,
 							"MinStack": 1,

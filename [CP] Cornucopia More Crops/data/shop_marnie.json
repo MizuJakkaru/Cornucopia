@@ -12,7 +12,7 @@
 		"Cornucopia_CatnipSeeds": {
 			"Id": "Cornucopia_CatnipSeeds",
 			"ItemId": "Cornucopia_CatnipSeeds",
-			"Condition": "SEASON spring, YEAR 2",
+			"Condition": "SEASON spring",
 			"Price": 60,
 			"IgnoreShopPriceModifiers": true
 		},

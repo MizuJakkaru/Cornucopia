@@ -1,5 +1,24 @@
 {
   "Changes": [
+	//Essential flowers seeds & saplings
+    {
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "AnimalShop", "Items" ],
+      //"When": {"Enable Essential Flowers Pack": true},
+      "Entries": {
+		"Cornucopia_PinkCatSeeds": {
+			"Id": "Cornucopia_PinkCatSeeds",
+			"ItemId": "Cornucopia_PinkCatSeeds",
+			"Condition": "SEASON spring",
+			"Price": 20,
+			"IgnoreShopPriceModifiers": true
+		}
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_PinkCatSeeds", "AfterId": "(O)178" }
+		]
+    },
 	//Extended flowers seeds & saplings
     {
       "Action": "EditData",
@@ -27,14 +46,14 @@
 			"Id": "Cornucopia_HoneysuckleSeeds",
 			"ItemId": "Cornucopia_HoneysuckleSeeds",
 			"Condition": "SEASON spring summer",
-			"Price": 80,
+			"Price": 240,
 			"IgnoreShopPriceModifiers": true
 		},
-		"Cornucopia_PinkCatSeeds": {
-			"Id": "Cornucopia_PinkCatSeeds",
-			"ItemId": "Cornucopia_PinkCatSeeds",
-			"Condition": "SEASON spring",
-			"Price": 20,
+		"Cornucopia_WolfsbaneSeeds": {
+			"Id": "Cornucopia_WolfsbaneSeeds",
+			"ItemId": "Cornucopia_WolfsbaneSeeds",
+			"Condition": "SEASON summer",
+			"Price": 55,
 			"IgnoreShopPriceModifiers": true
 		}
       },
@@ -42,7 +61,8 @@
 			{ "Id": "Cornucopia_BeeBalmSeeds", "AfterId": "(O)178" },
 			{ "Id": "Cornucopia_ButtercupSeeds", "AfterId": "(O)178" },
 			{ "Id": "Cornucopia_HoneysuckleSeeds", "AfterId": "(O)178" },
-			{ "Id": "Cornucopia_PinkCatSeeds", "AfterId": "(O)178" }
+			{ "Id": "Cornucopia_PinkCatSeeds", "AfterId": "(O)178" },
+			{ "Id": "Cornucopia_WolfsbaneSeeds", "AfterId": "(O)178" }
 		]
     },
   ]
