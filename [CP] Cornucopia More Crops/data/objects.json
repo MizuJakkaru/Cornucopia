@@ -1009,7 +1009,6 @@
           "Description": "{{i18n:CuminSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 40,
-          "Edibility": 5,
           "ContextTags": [
             "herb_item",
             "seedmaker_banned",

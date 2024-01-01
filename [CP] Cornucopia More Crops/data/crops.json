@@ -26,7 +26,7 @@
 				},
 				"Cornucopia_BroccoliSeeds": {
 					"Seasons": [ "fall" ],
-					"DaysInPhase": [ 1, 2, 2, 2 ],
+					"DaysInPhase": [ 2, 2, 3, 3, 3 ],
 					"HarvestItemId": "Cornucopia_Broccoli",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 20
@@ -40,13 +40,13 @@
 				},
 				"Cornucopia_CottonBollSeeds": {
 					"Seasons": [ "summer", "fall" ],
-					"DaysInPhase": [ 1, 1, 1, 2, 2 ],
+					"DaysInPhase": [ 1, 1, 2, 2, 2 ],
 					"HarvestItemId": "Cornucopia_CottonBoll",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 28,
-					"RegrowDays": 3,
-					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
+					"RegrowDays": 2,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
 					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_CucumberSeeds": {
@@ -57,9 +57,9 @@
 					"SpriteIndex": 54,
 					"RegrowDays": 3,
 					"IsRaised": true,
-					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{10Percent}}",
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_KiwiSeeds": {
 					"Seasons": [ "summer" ],
@@ -67,11 +67,11 @@
 					"HarvestItemId": "Cornucopia_Kiwi",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 47,
-					"RegrowDays": 3,
+					"RegrowDays": 2,
 					"IsRaised": true,
 					"HarvestMinStack": 1,
 					"HarvestMaxStack": 2,
-					"ExtraHarvestChance": "{{25Percent}}",
+					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_LettuceSeeds": {
 					"Seasons": [ "summer" ],
@@ -89,13 +89,13 @@
 				},
 				"Cornucopia_PeanutSeeds": {
 					"Seasons": [ "fall" ],
-					"DaysInPhase": [ 2, 3, 4, 4, 5],
+					"DaysInPhase": [ 2, 4, 4, 5, 5],
 					"HarvestItemId": "Cornucopia_Peanut",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 12,
-					"HarvestMinStack": 4,
-					"HarvestMaxStack": 5,
-					"ExtraHarvestChance": "{{50Percent}}",
+					"HarvestMinStack": 6,
+					"HarvestMaxStack": 8,
+					"ExtraHarvestChance": "{{75Percent}}",
 				},
 				"Cornucopia_Soybeans": {
 					"Seasons": [ "fall" ],
@@ -103,13 +103,13 @@
 					"HarvestItemId": "Cornucopia_Soybeans",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 26,
-					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{10Percent}}"
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": "{{75Percent}}"
 				},
 				"Cornucopia_SugarcaneSeeds": {
 					"Seasons": [ "summer" ],
-					"DaysInPhase": [ 2, 2, 3, 3 ],
+					"DaysInPhase": [ 2, 2, 2, 2 ],
 					"HarvestItemId": "Cornucopia_Sugarcane",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 6,
@@ -121,7 +121,7 @@
 				},
 				"Cornucopia_WatermelonSeeds": {
 					"Seasons": [ "summer" ],
-					"DaysInPhase": [ 2, 2, 2, 3, 3, 2 ],
+					"DaysInPhase": [ 2, 2, 2, 2, 2, 2 ],
 					"HarvestItemId": "Cornucopia_Watermelon",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 36,
@@ -132,7 +132,10 @@
 					"HarvestItemId": "Cornucopia_Zucchini",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 22,
-					"RegrowDays": 2
+					"RegrowDays": 2,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": "{{10Percent}}"
 				}
 			}
 		},
@@ -149,9 +152,9 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 41,
 					"RegrowDays": 4,
-					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{10Percent}}",
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_AgaveSeeds": {
 					"Seasons": [ "spring" ],
@@ -174,9 +177,9 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 5,
 					"HarvestMethod": "Scythe",
-					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{50Percent}}",
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": "{{75Percent}}",
 				},
 				"Cornucopia_BarleySeeds": {
 					"Seasons": [ "fall" ],
@@ -196,7 +199,7 @@
 					"IsRaised": true,
 					"HarvestMinStack": 2,
 					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{10Percent}}",
+					"ExtraHarvestChance": "{{50Percent}}",
 				},
 				"Cornucopia_BlueAgaveSeeds": {
 					"Seasons": [ "summer" ],
@@ -219,7 +222,7 @@
 					"HarvestItemId": "Cornucopia_ButternutSquash",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 35,
-					"RegrowDays": 4
+					"RegrowDays": 5
 				},
 				"Cornucopia_CabbageSeeds": {
 					"Seasons": [ "spring" ],
@@ -234,7 +237,7 @@
 					"HarvestItemId": "Cornucopia_CanaryMelon",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 37,
-					"RegrowDays": 4
+					"RegrowDays": 5
 				},
 				"Cornucopia_CanolaFlowerSeeds": {
 					"Seasons": [ "spring", "summer" ],
@@ -243,9 +246,9 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 29,
 					"HarvestMethod": "Scythe",
-					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
-					"ExtraHarvestChance": "{{10Percent}}",
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 3,
+					"ExtraHarvestChance": "{{50Percent}}",
 				},
 				"Cornucopia_CantaloupeSeeds": {
 					"Seasons": [ "spring" ],
@@ -260,11 +263,13 @@
 					"HarvestItemId": "Cornucopia_Cassava",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 7,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
 					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_CelerySeeds": {
 					"Seasons": [ "fall" ],
-					"DaysInPhase": [ 1, 2, 2, 1 ],
+					"DaysInPhase": [ 1, 1, 1, 1 ],
 					"HarvestItemId": "Cornucopia_Celery",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 15
@@ -278,7 +283,7 @@
 					"RegrowDays": 5,
 					"HarvestMinStack": 2,
 					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{25Percent}}",
+					"ExtraHarvestChance": "{{50Percent}}",
 				},
 				"Cornucopia_DaikonSeeds": {
 					"Seasons": [ "fall" ],
@@ -301,9 +306,6 @@
 					"HarvestItemId": "Cornucopia_Ginseng",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 75,
-					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
-					"ExtraHarvestChance": "{{50Percent}}",
 				},
 				"Cornucopia_GreenPeasSeeds": {
 					"Seasons": [ "summer" ],
@@ -313,9 +315,18 @@
 					"SpriteIndex": 46,
 					"RegrowDays": 3,
 					"IsRaised": true,
-					"HarvestMinStack": 4,
-					"HarvestMaxStack": 5,
-					"ExtraHarvestChance": "{{10Percent}}",
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 3,
+					"ExtraHarvestChance": "{{50Percent}}",
+				},
+					"Cornucopia_GroundcherriesSeeds": {
+					"Seasons": [ "summer" ],
+					"DaysInPhase": [ 1, 2, 2, 2, 2 ],
+					"HarvestItemId": "Cornucopia_Groundcherries",
+					"Texture": "Cornucopia.MoreCrops/Crops",
+					"SpriteIndex": 46,
+					"RegrowDays": 3,
+					"HarvestMinStack": 2,
 				},
 				"Cornucopia_HabaneroSeeds": {
 					"Seasons": [ "fall" ],
@@ -323,7 +334,7 @@
 					"HarvestItemId": "Cornucopia_Habanero",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 31,
-					"RegrowDays": 4,
+					"RegrowDays": 5,
 					"HarvestMinStack": 1,
 					"HarvestMaxStack": 2,
 					"ExtraHarvestChance": "{{10Percent}}",
@@ -337,7 +348,7 @@
 				},
 				"Cornucopia_JalapenoSeeds": {
 					"Seasons": [ "fall" ],
-					"DaysInPhase": [ 1, 2, 3, 2, 2 ],
+					"DaysInPhase": [ 1, 2, 1, 2, 2 ],
 					"HarvestItemId": "Cornucopia_Jalapeno",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 32,
@@ -355,8 +366,6 @@
 					"RegrowDays": 4,
 					"IsRaised": true,
 					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_NavyBeansSeeds": {
 					"Seasons": [ "summer" ],
@@ -367,8 +376,6 @@
 					"RegrowDays": 3,
 					"IsRaised": true,
 					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_OatsSeeds": {
 					"Seasons": [ "fall" ],
@@ -385,9 +392,9 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 21,
 					"RegrowDays": 4,
-					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{10Percent}}",
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": "{{90Percent}}",
 				},
 				"Cornucopia_PassionFruitSeeds": {
 					"Seasons": [ "spring" ],
@@ -398,8 +405,6 @@
 					"RegrowDays": 5,
 					"IsRaised": true,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
-					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_PintoBeansSeeds": {
 					"Seasons": [ "spring" ],
@@ -410,8 +415,6 @@
 					"RegrowDays": 3,
 					"IsRaised": true,
 					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_QuinoaSeeds": {
 					"Seasons": [ "summer" ],
@@ -421,7 +424,7 @@
 					"SpriteIndex": 51,
 					"HarvestMinStack": 1,
 					"HarvestMaxStack": 2,
-					"ExtraHarvestChance": "{{10Percent}}",
+					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_RedOnionSeeds": {
 					"Seasons": [ "spring" ],
@@ -442,7 +445,8 @@
 					"DaysInPhase": [ 1, 1, 1, 2 ],
 					"HarvestItemId": "Cornucopia_Spinach",
 					"Texture": "Cornucopia.MoreCrops/Crops",
-					"SpriteIndex": 18
+					"SpriteIndex": 18,
+					"HarvestMethod": "Scythe"
 				},
 				"Cornucopia_SugarBeetSeeds": {
 					"Seasons": [ "spring" ],
@@ -451,14 +455,6 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 14
 				},
-				"Cornucopia_YellowSquashSeeds": {
-					"Seasons": [ "summer" ],
-					"DaysInPhase": [ 2, 2, 3, 4, 3 ],
-					"HarvestItemId": "Cornucopia_YellowSquash",
-					"Texture": "Cornucopia.MoreCrops/Crops",
-					"SpriteIndex": 24,
-					"RegrowDays": 2
-				},
 				"Cornucopia_SweetPotatoSeeds": {
 					"Seasons": [ "fall" ],
 					"DaysInPhase": [ 1, 2, 2, 2, 1 ],
@@ -466,8 +462,6 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 27,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
-					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_WasabiRootSeeds": {
 					"Seasons": [ "summer" ],
@@ -476,7 +470,18 @@
 					"HarvestItemId": "Cornucopia_WasabiRoot",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 19,
-				}
+				},
+				"Cornucopia_YellowSquashSeeds": {
+					"Seasons": [ "summer" ],
+					"DaysInPhase": [ 2, 2, 3, 4, 3 ],
+					"HarvestItemId": "Cornucopia_YellowSquash",
+					"Texture": "Cornucopia.MoreCrops/Crops",
+					"SpriteIndex": 24,
+					"RegrowDays": 2,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": "{{10Percent}}",
+				},
 			}
 		},
 		// Extended crops - white grapes config (unique)
@@ -491,10 +496,11 @@
 			"Entries": {
 				"Cornucopia_WhiteGrapeSeeds": {
 					"Seasons": [ "fall" ],
-					"DaysInPhase": [ 1, 1, 2, 2, 2 ],
+					"DaysInPhase": [ 1, 1, 2, 3, 3 ],
 					"HarvestItemId": "Cornucopia_WhiteGrape",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 57,
+					"RegrowDays": 3,
 				}
 			}
 		},
@@ -539,7 +545,6 @@
                     "Texture": "Cornucopia.MoreCrops/Crops",
                     "SpriteIndex": 67,
 					"HarvestMinStack": 2,
-					"ExtraHarvestChance": "{{10Percent}}",
                     },
                 "Cornucopia_DillSeeds": {
                     "Seasons": [ "spring" ],
@@ -564,7 +569,7 @@
                     },
                 "Cornucopia_LemongrassSeeds": {
                     "Seasons": [ "summer" ],
-                    "DaysInPhase": [ 1, 2, 2, 2 ],
+                    "DaysInPhase": [ 1, 1, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Lemongrass",
                     "Texture": "Cornucopia.MoreCrops/Crops",
                     "SpriteIndex": 70
