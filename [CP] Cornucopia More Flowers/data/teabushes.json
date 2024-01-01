@@ -7,7 +7,6 @@
 			"Target": "furyx639.CustomBush/Data",
 			"When": 
 				{
-					"HasMod": "furyx639.CustomBush",
 					"Enable Extended Flowers Pack": true
 				},
 			"Entries": {

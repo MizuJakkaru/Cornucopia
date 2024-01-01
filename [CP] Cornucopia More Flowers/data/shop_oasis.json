@@ -5,9 +5,7 @@
       "Action": "EditData",
 	  "Target": "Data/Shops",
       "TargetField": [ "Sandy", "Items" ],
-      "When": {
-        "Enable Essential Flowers Pack": true
-      },
+      //"When": {"Enable Essential Flowers Pack": true},
       "Entries": {
 		"Cornucopia_LotusSeeds": {
 			"Id": "Cornucopia_LotusSeeds",

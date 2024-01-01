@@ -1,15 +1,10 @@
 {
     "Format": "1.29.0",
 	"ConfigSchema": {
-		"Enable Essential Flowers Pack": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "(Highly recommended) Adds an essential variety of 10 flowers, recipes, and other content. If you want to experience Cornucopia `lite`, make sure to turn off other pack options."
-		},
 		"Enable Extended Flowers Pack": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Adds a large variety of 30+ flowers and flowering trees in addition to the essential pack."
+			"Description": "(Recommended) Adds a large variety of 30+ flowers and flowering trees in addition to the essential pack."
 		},
 		"Enable Recipes": {
 			"AllowValues": "true, false",

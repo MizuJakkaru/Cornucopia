@@ -4,9 +4,7 @@
     {
       "Action": "EditData",
       "Target": "Data/Objects",
-      "When": {
-        "Enable Essential Flowers Pack": true
-      },
+      //"When": {"Enable Essential Flowers Pack": true},
       "Entries": {
         "Cornucopia_BlueMist": {
           "Name": "Cornucopia_BlueMist",
@@ -711,9 +709,7 @@
 	{
       "Action": "EditData",
       "Target": "Data/Objects",
-      "When": {
-        "Enable Essential Flowers Pack": true
-      },
+      //"When": {"Enable Essential Flowers Pack": true},
       "Entries": {
         "Cornucopia_BlueMistSeeds": {
           "Name": "Cornucopia_BlueMistSeeds",

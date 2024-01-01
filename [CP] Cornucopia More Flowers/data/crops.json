@@ -4,7 +4,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Crops",
-			"When": {"Enable Essential Flowers Pack": true},
+			//"When": {"Enable Essential Flowers Pack": true},
 			"Entries": {
 				"Cornucopia_BlueMistSeeds": {
                     "Seasons": [ "summer" ],
