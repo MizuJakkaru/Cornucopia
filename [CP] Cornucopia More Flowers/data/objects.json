@@ -248,7 +248,7 @@
           "DisplayName": "{{i18n:Camellia_name}}",
           "Description": "{{i18n:Camellia_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 80,
+          "Price": 90,
           "Edibility": 18,
           "ContextTags": [
             "color_white",
@@ -773,7 +773,7 @@
           "DisplayName": "{{i18n:MorningGlorySeeds_name}}",
           "Description": "{{i18n:MorningGlorySeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 40
+          "Price": 120
         },
         "Cornucopia_OrchidSeeds": {
           "Name": "Cornucopia_OrchidSeeds",
@@ -873,7 +873,7 @@
           "DisplayName": "{{i18n:CamelliaSeeds_name}}",
           "Description": "{{i18n:CamelliaSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 25
+          "Price": 550
         },
         "Cornucopia_CarnationSeeds": {
           "Name": "Cornucopia_CarnationSeeds",
@@ -945,6 +945,16 @@
           "Texture": "Cornucopia.MoreFlowers/Objects",
           "Price": 12
         },
+        "Cornucopia_RoseFallSeeds": {
+          "Name": "Cornucopia_RoseFallSeeds",
+          "Type": "Seed",
+          "Category": -74,
+          "SpriteIndex": 75,
+          "DisplayName": "{{i18n:RoseFallSeeds_name}}",
+          "Description": "{{i18n:RoseFallSeeds_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 100
+        },
         "Cornucopia_FreesiaSeeds": {
           "Name": "Cornucopia_FreesiaSeeds",
           "Type": "Seed",
@@ -973,7 +983,7 @@
           "DisplayName": "{{i18n:HoneysuckleSeeds_name}}",
           "Description": "{{i18n:HoneysuckleSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 40
+          "Price": 120
         },
         "Cornucopia_HyacinthSeeds": {
           "Name": "Cornucopia_HyacinthSeeds",
@@ -1023,7 +1033,7 @@
           "DisplayName": "{{i18n:LilacSeeds_name}}",
           "Description": "{{i18n:LilacSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 20
+          "Price": 400
         },
         "Cornucopia_LupineSeeds": {
           "Name": "Cornucopia_LupineSeeds",
@@ -1063,7 +1073,17 @@
           "DisplayName": "{{i18n:PitcherPlantSeeds_name}}",
           "Description": "{{i18n:PitcherPlantSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 100
+          "Price": 150
+        },
+        "Cornucopia_RosePrismaticSeeds": {
+          "Name": "Cornucopia_RosePrismaticSeeds",
+          "Type": "Seed",
+          "Category": -74,
+          "SpriteIndex": 79,
+          "DisplayName": "{{i18n:RosePrismaticSeeds_name}}",
+          "Description": "{{i18n:RosePrismaticSeeds_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 1000
         },
         "Cornucopia_PurpleConeflowerSeeds": {
           "Name": "Cornucopia_PurpleConeflowerSeeds",
@@ -1083,27 +1103,7 @@
           "DisplayName": "{{i18n:RafflesiaSeeds_name}}",
           "Description": "{{i18n:RafflesiaSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 3000
-        },
-        "Cornucopia_RoseFallSeeds": {
-          "Name": "Cornucopia_RoseFallSeeds",
-          "Type": "Seed",
-          "Category": -74,
-          "SpriteIndex": 75,
-          "DisplayName": "{{i18n:RoseFallSeeds_name}}",
-          "Description": "{{i18n:RoseFallSeeds_description}}",
-          "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 100
-        },
-        "Cornucopia_RosePrismaticSeeds": {
-          "Name": "Cornucopia_RosePrismaticSeeds",
-          "Type": "Seed",
-          "Category": -74,
-          "SpriteIndex": 79,
-          "DisplayName": "{{i18n:RosePrismaticSeeds_name}}",
-          "Description": "{{i18n:RosePrismaticSeeds_description}}",
-          "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 1000
+          "Price": 500
         },
         "Cornucopia_RoseSpringSeeds": {
           "Name": "Cornucopia_RoseSpringSeeds",
@@ -1125,16 +1125,6 @@
           "Texture": "Cornucopia.MoreFlowers/Objects",
           "Price": 100
         },
-        "Cornucopia_RoseWinterSeeds": {
-          "Name": "Cornucopia_RoseWinterSeeds",
-          "Type": "Seed",
-          "Category": -74,
-          "SpriteIndex": 77,
-          "DisplayName": "{{i18n:RoseWinterSeeds_name}}",
-          "Description": "{{i18n:RoseWinterSeeds_description}}",
-          "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 100
-        },
         "Cornucopia_VioletSeeds": {
           "Name": "Cornucopia_VioletSeeds",
           "Type": "Seed",
@@ -1144,6 +1134,16 @@
           "Description": "{{i18n:VioletSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
           "Price": 10
+        },
+        "Cornucopia_RoseWinterSeeds": {
+          "Name": "Cornucopia_RoseWinterSeeds",
+          "Type": "Seed",
+          "Category": -74,
+          "SpriteIndex": 77,
+          "DisplayName": "{{i18n:RoseWinterSeeds_name}}",
+          "Description": "{{i18n:RoseWinterSeeds_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 100
         },
         "Cornucopia_WolfsbaneSeeds": {
           "Name": "Cornucopia_WolfsbaneSeeds",

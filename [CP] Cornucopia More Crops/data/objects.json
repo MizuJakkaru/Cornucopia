@@ -8,6 +8,7 @@
         "Enable Essential Pack": true
       },
       "Entries": {
+        "Entries": {
         "Cornucopia_Basil": {
           "Name": "Cornucopia_Basil",
           "Type": "Vegetable",
@@ -45,7 +46,7 @@
           "DisplayName": "{{i18n:Broccoli_name}}",
           "Description": "{{i18n:Broccoli_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 120,
+          "Price": 190,
           "Edibility": 30,
           "ContextTags": [
             "color_dark_green"
@@ -59,7 +60,7 @@
           "DisplayName": "{{i18n:Carrot_name}}",
           "Description": "{{i18n:Carrot_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 65,
+          "Price": 75,
           "Edibility": 10,
           "ContextTags": [
             "color_orange"
@@ -73,7 +74,7 @@
           "DisplayName": "{{i18n:CottonBoll_name}}",
           "Description": "{{i18n:CottonBoll_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 65,
+          "Price": 80,
           "Edibility": -300,
           "ContextTags": [
             "color_sand"
@@ -87,7 +88,7 @@
           "DisplayName": "{{i18n:Cucumber_name}}",
           "Description": "{{i18n:Cucumber_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 90,
+          "Price": 85,
           "Edibility": 20,
           "ContextTags": [
             "color_green"
@@ -130,7 +131,7 @@
           "DisplayName": "{{i18n:Olive_name}}",
           "Description": "{{i18n:Olive_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 30,
+          "Price": 35,
           "Edibility": 8,
           "ContextTags": [
             "color_green"
@@ -158,7 +159,7 @@
           "DisplayName": "{{i18n:Peanut_name}}",
           "Description": "{{i18n:Peanut_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 75,
+          "Price": 85,
           "Edibility": 18,
           "ContextTags": [
             "nut_item",
@@ -173,7 +174,7 @@
           "DisplayName": "{{i18n:Raspberry_name}}",
           "Description": "{{i18n:Raspberry_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 30,
+          "Price": 60,
           "Edibility": 10,
           "ContextTags": [
             "berry_item",
@@ -188,7 +189,7 @@
           "DisplayName": "{{i18n:Soybeans_name}}",
           "Description": "{{i18n:Soybeans_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 80,
+          "Price": 65,
           "Edibility": -20,
           "ContextTags": [
             "bean_item",
@@ -204,7 +205,7 @@
           "DisplayName": "{{i18n:Sugarcane_name}}",
           "Description": "{{i18n:Sugarcane_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 230,
+          "Price": 30,
           "Edibility": -300,
           "ContextTags": [
             "color_green"
@@ -218,7 +219,7 @@
           "DisplayName": "{{i18n:Watermelon_name}}",
           "Description": "{{i18n:Watermelon_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 175,
+          "Price": 640,
           "Edibility": 50,
           "ContextTags": [
             "color_jade"
@@ -232,7 +233,7 @@
           "DisplayName": "{{i18n:Zucchini_name}}",
           "Description": "{{i18n:Zucchini_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 175,
+          "Price": 60,
           "Edibility": 18,
           "ContextTags": [
             "color_green"
@@ -256,9 +257,10 @@
           "DisplayName": "{{i18n:AdzukiBean_name}}",
           "Description": "{{i18n:AdzukiBean_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 90,
+          "Price": 60,
           "Edibility": 10,
           "ContextTags": [
+            "bean_item",
             "color_sand",
             "color_dark_red",
             "season_summer"
@@ -272,7 +274,7 @@
           "DisplayName": "{{i18n:Agave_name}}",
           "Description": "{{i18n:Agave_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 170,
+          "Price": 270,
           "ContextTags": [
             "color_green"
           ]
@@ -285,7 +287,7 @@
           "DisplayName": "{{i18n:Asparagus_name}}",
           "Description": "{{i18n:Asparagus_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 35,
+          "Price": 140,
           "Edibility": 12,
           "ContextTags": [
             "color_dark_green"
@@ -299,7 +301,7 @@
           "DisplayName": "{{i18n:Bamboo_name}}",
           "Description": "{{i18n:Bamboo_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 55,
+          "Price": 65,
           "Edibility": -300,
           "ContextTags": [
             "color_sand"
@@ -343,7 +345,7 @@
           "DisplayName": "{{i18n:BlackCurrants_name}}",
           "Description": "{{i18n:BlackCurrants_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 30,
+          "Price": 70,
           "Edibility": 10,
           "ContextTags": [
             "berry_item",
@@ -358,7 +360,7 @@
           "DisplayName": "{{i18n:BlueAgave_name}}",
           "Description": "{{i18n:BlueAgave_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 300,
+          "Price": 400,
           "ContextTags": [
             "color_blue"
           ]
@@ -400,7 +402,7 @@
           "DisplayName": "{{i18n:Cabbage_name}}",
           "Description": "{{i18n:Cabbage_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 120,
+          "Price": 130,
           "Edibility": 20,
           "ContextTags": [
             "color_green"
@@ -470,7 +472,7 @@
           "DisplayName": "{{i18n:Celery_name}}",
           "Description": "{{i18n:Celery_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 70,
+          "Price": 45,
           "Edibility": 8,
           "ContextTags": [
             "color_green"
@@ -484,7 +486,7 @@
           "DisplayName": "{{i18n:ChickenoftheWoods_name}}",
           "Description": "{{i18n:ChickenoftheWoods_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 180,
+          "Price": 200,
           "Edibility": 15,
           "ContextTags": [
             "mushroom_item",
@@ -513,7 +515,7 @@
           "DisplayName": "{{i18n:Daikon_name}}",
           "Description": "{{i18n:Daikon_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 120,
+          "Price": 200,
           "Edibility": 18,
           "ContextTags": [
             "color_yellow_green"
@@ -542,7 +544,7 @@
           "DisplayName": "{{i18n:Elderberries_name}}",
           "Description": "{{i18n:Elderberries_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 20,
+          "Price": 60,
           "Edibility": 10,
           "ContextTags": [
             "berry_item",
@@ -557,7 +559,7 @@
           "DisplayName": "{{i18n:Ginseng_name}}",
           "Description": "{{i18n:Ginseng_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 2000,
+          "Price": 2600,
           "Edibility": 10,
           "ContextTags": [
             "herb_item",
@@ -572,7 +574,7 @@
           "DisplayName": "{{i18n:Gooseberry_name}}",
           "Description": "{{i18n:Gooseberry_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 20,
+          "Price": 40,
           "Edibility": 10,
           "ContextTags": [
             "berry_item",
@@ -587,7 +589,7 @@
           "DisplayName": "{{i18n:GreenPeas_name}}",
           "Description": "{{i18n:GreenPeas_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 20,
+          "Price": 35,
           "Edibility": 10,
           "ContextTags": [
             "color_lime"
@@ -601,7 +603,7 @@
           "DisplayName": "{{i18n:Groundcherries_name}}",
           "Description": "{{i18n:Groundcherries_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 80,
+          "Price": 60,
           "Edibility": 10,
           "ContextTags": [
             "berry_item",
@@ -660,7 +662,7 @@
           "DisplayName": "{{i18n:JuniperBerries_name}}",
           "Description": "{{i18n:JuniperBerries_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 15,
+          "Price": 25,
           "Edibility": 10,
           "ContextTags": [
             "berry_item",
@@ -735,7 +737,7 @@
           "DisplayName": "{{i18n:PassionFruit_name}}",
           "Description": "{{i18n:PassionFruit_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 95,
+          "Price": 180,
           "Edibility": 20,
           "ContextTags": [
             "color_pink",
@@ -822,7 +824,7 @@
           "DisplayName": "{{i18n:Shiitake_name}}",
           "Description": "{{i18n:Shiitake_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 180,
+          "Price": 220,
           "Edibility": 15,
           "ContextTags": [
             "mushroom_item",
@@ -865,7 +867,7 @@
           "DisplayName": "{{i18n:SweetPotato_name}}",
           "Description": "{{i18n:SweetPotato_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 120,
+          "Price": 180,
           "Edibility": 10,
           "ContextTags": [
             "color_dark_pink"
@@ -886,7 +888,7 @@
             "color_green"
           ]
         },
-		"Cornucopia_WhiteGrape": {
+        "Cornucopia_WhiteGrape": {
           "Name": "Cornucopia_WhiteGrape",
           "Type": "Fruit",
           "Category": -79,
@@ -894,7 +896,7 @@
           "DisplayName": "{{i18n:WhiteGrape_name}}",
           "Description": "{{i18n:WhiteGrape_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 60,
+          "Price": 80,
           "Edibility": 15,
           "ContextTags": [
             "color_yellow_green"
@@ -932,7 +934,7 @@
           "DisplayName": "{{i18n:Aloe_name}}",
           "Description": "{{i18n:Aloe_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 140,
+          "Price": 170,
           "Edibility": 15,
           "ContextTags": [
             "herb_item",
@@ -948,7 +950,7 @@
           "DisplayName": "{{i18n:BayLeaves_name}}",
           "Description": "{{i18n:BayLeaves_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 65,
+          "Price": 30,
           "Edibility": 5,
           "ContextTags": [
             "herb_item",
@@ -1003,13 +1005,13 @@
         },
         "Cornucopia_CuminSeeds": {
           "Name": "Cornucopia_CuminSeeds",
-          "Type": "Vegetable",
-          "Category": -75,
+          "Type": "Seed",
+          "Category": -74,
           "SpriteIndex": 218,
           "DisplayName": "{{i18n:CuminSeeds_name}}",
           "Description": "{{i18n:CuminSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 70,
+          "Price": 40,
           "Edibility": 5,
           "ContextTags": [
             "herb_item",
@@ -1070,7 +1072,7 @@
           "DisplayName": "{{i18n:Lemongrass_name}}",
           "Description": "{{i18n:Lemongrass_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 45,
+          "Price": 50,
           "Edibility": 8,
           "ContextTags": [
             "herb_item",
@@ -1309,7 +1311,7 @@
           "DisplayName": "{{i18n:CarrotSeeds_name}}",
           "Description": "{{i18n:CarrotSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 25
+          "Price": 17
         },
         "Cornucopia_CottonBollSeeds": {
           "Name": "Cornucopia_CottonBollSeeds",
@@ -1319,7 +1321,7 @@
           "DisplayName": "{{i18n:CottonBollSeeds_name}}",
           "Description": "{{i18n:CottonBollSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 40
+          "Price": 100
         },
         "Cornucopia_CucumberSeeds": {
           "Name": "Cornucopia_CucumberSeeds",
@@ -1329,7 +1331,7 @@
           "DisplayName": "{{i18n:CucumberSeeds_name}}",
           "Description": "{{i18n:CucumberSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 32
+          "Price": 50
         },
         "Cornucopia_KiwiSeeds": {
           "Name": "Cornucopia_KiwiSeeds",
@@ -1349,7 +1351,7 @@
           "DisplayName": "{{i18n:LettuceSeeds_name}}",
           "Description": "{{i18n:LettuceSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 27
+          "Price": 12
         },
         "Cornucopia_OliveSeeds": {
           "Name": "Cornucopia_OliveSeeds",
@@ -1359,7 +1361,7 @@
           "DisplayName": "{{i18n:OliveSeeds_name}}",
           "Description": "{{i18n:OliveSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 450
+          "Price": 1000
         },
         "Cornucopia_OnionSeeds": {
           "Name": "Cornucopia_OnionSeeds",
@@ -1399,7 +1401,7 @@
           "DisplayName": "{{i18n:SugarcaneSeeds_name}}",
           "Description": "{{i18n:SugarcaneSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 55
+          "Price": 15
         },
         "Cornucopia_WatermelonSeeds": {
           "Name": "Cornucopia_WatermelonSeeds",
@@ -1409,7 +1411,7 @@
           "DisplayName": "{{i18n:WatermelonSeeds_name}}",
           "Description": "{{i18n:WatermelonSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 125
+          "Price": 150
         },
         "Cornucopia_ZucchiniSeeds": {
           "Name": "Cornucopia_ZucchiniSeeds",
@@ -1419,7 +1421,7 @@
           "DisplayName": "{{i18n:ZucchiniSeeds_name}}",
           "Description": "{{i18n:ZucchiniSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 112
+          "Price": 25
         }
       }
     },
@@ -1439,7 +1441,7 @@
           "DisplayName": "{{i18n:AdzukiBeanSeeds_name}}",
           "Description": "{{i18n:AdzukiBeanSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 25
+          "Price": 50
         },
         "Cornucopia_AgaveSeeds": {
           "Name": "Cornucopia_AgaveSeeds",
@@ -1459,7 +1461,7 @@
           "DisplayName": "{{i18n:AsparagusSeeds_name}}",
           "Description": "{{i18n:AsparagusSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 10
+          "Price": 30
         },
         "Cornucopia_BambooSeeds": {
           "Name": "Cornucopia_BambooSeeds",
@@ -1509,7 +1511,7 @@
           "DisplayName": "{{i18n:BlueAgaveSeeds_name}}",
           "Description": "{{i18n:BlueAgaveSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 100
+          "Price": 90
         },
         "Cornucopia_BuckwheatSeeds": {
           "Name": "Cornucopia_BuckwheatSeeds",
@@ -1539,7 +1541,7 @@
           "DisplayName": "{{i18n:CabbageSeeds_name}}",
           "Description": "{{i18n:CabbageSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 40
+          "Price": 35
         },
         "Cornucopia_CanaryMelonSeeds": {
           "Name": "Cornucopia_CanaryMelonSeeds",
@@ -1579,7 +1581,7 @@
           "DisplayName": "{{i18n:CassavaSeeds_name}}",
           "Description": "{{i18n:CassavaSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 30
+          "Price": 27
         },
         "Cornucopia_CelerySeeds": {
           "Name": "Cornucopia_CelerySeeds",
@@ -1589,7 +1591,7 @@
           "DisplayName": "{{i18n:CelerySeeds_name}}",
           "Description": "{{i18n:CelerySeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 27
+          "Price": 15
         },
         "Cornucopia_ChickenoftheWoodsSeeds": {
           "Name": "Cornucopia_ChickenoftheWoodsSeeds",
@@ -1649,7 +1651,7 @@
           "DisplayName": "{{i18n:GinsengSeeds_name}}",
           "Description": "{{i18n:GinsengSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 500
+          "Price": 296
         },
         "Cornucopia_GooseberrySeeds": {
           "Name": "Cornucopia_GooseberrySeeds",
@@ -1679,7 +1681,7 @@
           "DisplayName": "{{i18n:GroundcherriesSeeds_name}}",
           "Description": "{{i18n:GroundcherriesSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 50
+          "Price": 75
         },
         "Cornucopia_HabaneroSeeds": {
           "Name": "Cornucopia_HabaneroSeeds",
@@ -1709,7 +1711,7 @@
           "DisplayName": "{{i18n:JalapenoSeeds_name}}",
           "Description": "{{i18n:JalapenoSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 65
+          "Price": 10
         },
         "Cornucopia_JuniperBerriesSeeds": {
           "Name": "Cornucopia_JuniperBerriesSeeds",
@@ -1859,7 +1861,7 @@
           "DisplayName": "{{i18n:SweetPotatoSeeds_name}}",
           "Description": "{{i18n:SweetPotatoSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 45
+          "Price": 35
         },
         "Cornucopia_WasabiRootSeeds": {
           "Name": "Cornucopia_WasabiRootSeeds",
@@ -1879,7 +1881,7 @@
           "DisplayName": "{{i18n:YellowSquashSeeds_name}}",
           "Description": "{{i18n:YellowSquashSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 87
+          "Price": 40
         }
       }
     },
@@ -1900,7 +1902,7 @@
           "DisplayName": "{{i18n:WhiteGrapeSeeds_name}}",
           "Description": "{{i18n:WhiteGrapeSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 250
+          "Price": 300
         }
       }
     },

@@ -15,7 +15,7 @@
 			"Displayname": "{{i18n:SpringOnionSeeds_name}}",
 			"Description": "{{i18n:SpringOnionSeeds_description}}",
 			"Texture": "Cornucopia.GrowableForage/objects",
-			"Price": 10,
+			"Price": 15,
 		},
       }
     },
