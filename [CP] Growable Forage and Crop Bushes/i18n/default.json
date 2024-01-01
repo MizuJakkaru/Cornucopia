@@ -32,12 +32,12 @@
 	
 	//Vanilla seeds to bush saplings changes
 	"BlueberrySeeds_name": "Blueberry Sapling",
-	"BlueberrySeeds_description": "Takes 20 days to mature. Produces blueberries every 4 days in summer. No watering necessary!",
+	"BlueberrySeeds_description": "Takes 20 days to mature into a bush. Produces blueberries every 4 days in summer.",
 	"CactusFruitSeeds_name": "Cactus Planter",
-	"CactusFruitSeeds_description": "Plant indoors or outdoors. Takes 20 days to mature, and then produces cactus fruit every 3 days in summer. No watering necessary!",
+	"CactusFruitSeeds_description": "Plant indoors or outdoors. Takes 20 days to mature, and then produces cactus fruit every 3 days in summer.",
 	"CoffeeBean_description": "Plant to grow a coffee bush that produces coffee beans in spring and summer. Place five beans in a keg to make coffee.",
 	"HopsSeeds_name": "Hops Planter",
-	"HopsSeeds_description": "Takes 16 days to mature. Produces hops every day during summer. No watering necessary!",	
+	"HopsSeeds_description": "Takes 16 days to mature into a bush. Produces hops every day during summer.",	
 	"GrapeSeeds_name": "Grape Planter",
-	"GrapeSeeds_description": "Takes 20 days to mature. Produces grapes every 3 days in fall. No watering necessary!",	
+	"GrapeSeeds_description": "Takes 20 days to mature into a bush. Produces grapes every 3 days in fall.",	
 }
