@@ -4,7 +4,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/GiantCrops",
-			"When": {"Enable Essential Pack": true},
+			//"When": {"Enable Essential Pack": true},
 			"Entries": {
 				"Cornucopia_GiantBroccoli": {
 					"FromItemId": "Cornucopia_Broccoli",

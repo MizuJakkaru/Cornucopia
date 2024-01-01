@@ -4,9 +4,7 @@
     {
       "Action": "EditData",
       "Target": "Data/Objects",
-      "When": {
-        "Enable Essential Pack": true
-      },
+      //"When": {"Enable Essential Pack": true},
       "Entries": {
         "Cornucopia_Basil": {
           "Name": "Cornucopia_Basil",
@@ -1268,9 +1266,7 @@
 	{
       "Action": "EditData",
       "Target": "Data/Objects",
-      "When": {
-        "Enable Essential Pack": true
-      },
+      //"When": {"Enable Essential Pack": true},
       "Entries": {
         "Cornucopia_BasilSeeds": {
           "Name": "Cornucopia_BasilSeeds",
@@ -2149,9 +2145,7 @@
 	{
       "Action": "EditData",
       "Target": "Data/Objects",
-      "When": {
-        "Enable Essential Pack": true
-      },
+      //"When": {"Enable Essential Pack": true},
       "Entries": {
         "Cornucopia_Avocado": {
           "Name": "Cornucopia_Avocado",
@@ -2618,9 +2612,7 @@
 	{
       "Action": "EditData",
       "Target": "Data/Objects",
-      "When": {
-        "Enable Essential Pack": true
-      },
+      //"When": {"Enable Essential Pack": true},
       "Entries": {
         "Cornucopia_AvocadoSapling": {
           "Name": "Cornucopia_AvocadoSapling",

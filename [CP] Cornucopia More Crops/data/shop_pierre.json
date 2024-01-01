@@ -5,9 +5,7 @@
       "Action": "EditData",
 	  "Target": "Data/Shops",
       "TargetField": [ "SeedShop", "Items" ],
-      "When": {
-        "Enable Essential Pack": true
-      },
+      //"When": {"Enable Essential Pack": true},
       "Entries": {
 		"Cornucopia_BasilSeeds": {
 			"Id": "Cornucopia_BasilSeeds",
@@ -688,9 +686,7 @@
       "Action": "EditData",
 	  "Target": "Data/Shops",
       "TargetField": [ "SeedShop", "Items" ],
-      "When": {
-        "Enable Essential Pack": true
-      },
+      //"When": {"Enable Essential Pack": true},
 	  "Entries": {
 		"Cornucopia_AvocadoSapling": {
 			"Id": "Cornucopia_AvocadoSapling",

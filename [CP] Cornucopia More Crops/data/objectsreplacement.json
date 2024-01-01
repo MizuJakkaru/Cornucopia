@@ -3,9 +3,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Strings/Objects",
-			"When": {
-				"Enable Essential Pack": true
-			},
+			//"When": {"Enable Essential Pack": true},
 			"Entries": {
 				"Cloth_Description": "{{i18n:Cloth_description}}"
 			}
@@ -15,7 +13,7 @@
 			"Target": "Strings/Objects",
 			"When": {
 				"HasMod": "furyx639.CustomBush",
-				"Enable Essential Pack": true,
+				"Enable Extended Crops Pack": true,
 				"Disable Grape Bushes": false
 			},
 			"Entries": {

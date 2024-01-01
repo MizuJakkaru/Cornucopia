@@ -4,7 +4,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Crops",
-			"When": {"Enable Essential Pack": true},
+			//"When": {"Enable Essential Pack": true},
 			"Entries": {
 				"Cornucopia_BasilSeeds": {
 					"Seasons": [ "spring" ],

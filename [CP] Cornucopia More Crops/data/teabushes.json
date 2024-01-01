@@ -5,11 +5,7 @@
         "LogName": "Add to Custom Bush Framework",
 			"Action": "EditData",
 			"Target": "furyx639.CustomBush/Data",
-			"When": 
-				{
-					"HasMod": "furyx639.CustomBush",
-					"Enable Essential Pack": true
-				},
+			//"When": {"Enable Essential Pack": true},
 			"Entries": {
 				"(O)Cornucopia_OliveSeeds": {
 					"AgeToProduce": 40,
@@ -55,8 +51,7 @@
 			"Target": "furyx639.CustomBush/Data",
 			"When": 
 				{
-					"HasMod": "furyx639.CustomBush",
-					"Enable Essential Pack": true,
+					"Enable Extended Crops Pack": true,
 					"Disable Grape Bushes": false
 				},
 			"Entries": {
@@ -87,7 +82,6 @@
 			"Target": "furyx639.CustomBush/Data",
 			"When": 
 				{
-					"HasMod": "furyx639.CustomBush",
 					"Enable Extended Crops Pack": true
 				},
 			"Entries": {
@@ -225,7 +219,6 @@
 			"Target": "furyx639.CustomBush/Data",
 			"When": 
 				{
-					"HasMod": "furyx639.CustomBush",
 					"Enable Extended Crops Pack": true,
 					"Disable Grape Bushes": false
 				},
@@ -257,7 +250,6 @@
 			"Target": "furyx639.CustomBush/Data",
 			"When": 
 				{
-					"HasMod": "furyx639.CustomBush",
 					"Enable Herbs Pack": true
 				},
 			"Entries": {
