@@ -53,7 +53,10 @@
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 43,
 					"RegrowDays": 4,
-					"IsRaised": true
+					"IsRaised": true,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 3,
+					"ExtraHarvestChance": "{{50Percent}}"
                 },
                 "Cornucopia_OrchidSeeds": {
                     "Seasons": [ "summer", "fall" ],
@@ -144,7 +147,10 @@
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 25,
 					"RegrowDays": 3,
-					"IsRaised": true
+					"IsRaised": true,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 3,
+					"ExtraHarvestChance": "{{25Percent}}"
                 },
                 "Cornucopia_DahliaSeeds": {
                     "Seasons": [ "fall" ],
@@ -190,7 +196,10 @@
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 3,
 					"RegrowDays": 3,
-					"IsRaised": true
+					"IsRaised": true,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 3,
+					"ExtraHarvestChance": "{{75Percent}}"
                 },
                 "Cornucopia_HyacinthSeeds": {
                     "Seasons": [ "spring" ],
