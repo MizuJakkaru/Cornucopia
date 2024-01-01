@@ -453,7 +453,6 @@
 			{ "Id": "Cornucopia_SugarBeetSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_SweetPotatoSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_WasabiRootSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_YellowSquashSeeds", "BeforeId": "GrassStarter" }
 		]
     },
