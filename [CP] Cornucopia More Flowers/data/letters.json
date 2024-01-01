@@ -1,20 +1,19 @@
 {
 	"Changes": [
-		// Add Letter from Pierre notifying of Flower/Herb Catalogue
+		// Add Letter from Pierre notifying of Flower Catalogue
 		{
 			"Action": "EditData",
 			"Target": "Data/Mail",
 			"Entries": {
-				"CornucopiaCatalog": "Hey @,^I wanted to let you know that I've set up a catalogue for ordering flower seeds! I heard from a friend in the city that demand for floral items has been increasing, so I wanted to get ahead of the curve, and ahead of Jojamart. I can't say I know much about flowers, so I'll just let you browse the catalogue yourself.^-Pierre[#]Flower Catalogue Available"
+				"Cornucopia_FlowerCatalogue": "Hey @,^I wanted to let you know that I've set up a catalogue for ordering flower seeds! I heard from a friend in the city that demand for floral items has been increasing, so I wanted to get ahead of the curve and ahead of JojaMart. I can't say I know much about flowers, so I'll just let you browse the catalogue yourself.^-Pierre[#]Flower Catalogue Available"
 			}
 		},
-		// Add Letter 'Event'
+		// Add Letter Event
 		{
 			"Action": "EditData",
 			"Target": "Data/Events/Farm",
 			"Entries": {
-				// Send letter [decide condition, currently sends immediately]. Replace ID (first number in sequence) with Mod ID when getting ready to publish/publishing page is made
-				"01245/x CornucopiaCatalog true": "null"
+				"Cornucopia_SendFlowerCatalogue/dayofweek monday/season spring/year 1/sendmail Cornucopia_FlowerCatalogue": "null"
 			}
 		}
 	]
