@@ -2693,13 +2693,13 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 2000
         },
-        "Cornucopia_SopadillaSeed": {
-          "Name": "Cornucopia_SopadillaSeed",
+        "Cornucopia_SapodillaSeed": {
+          "Name": "Cornucopia_SapodillaSeed",
           "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 443,
-          "DisplayName": "{{i18n:SopadillaSeed_name}}",
-          "Description": "{{i18n:SopadillaSeed_description}}",
+          "DisplayName": "{{i18n:SapodillaSeed_name}}",
+          "Description": "{{i18n:SapodillaSeed_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 50
         },

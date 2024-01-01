@@ -28,9 +28,9 @@
 			"Price": 1000,
 			"IgnoreShopPriceModifiers": true
 		},
-		"Cornucopia_SopadillaSeed": {
-			"Id": "Cornucopia_SopadillaSeed",
-			"ItemId": "Cornucopia_SopadillaSeed",
+		"Cornucopia_SapodillaSeed": {
+			"Id": "Cornucopia_SapodillaSeed",
+			"ItemId": "Cornucopia_SapodillaSeed",
 			"Price": 100,
 			"IgnoreShopPriceModifiers": true
 		}
@@ -39,7 +39,7 @@
 			{ "Id": "Cornucopia_ChickenoftheWoodsSeeds", "BeforeId": "(O)773" },
 			{ "Id": "Cornucopia_GinsengSeeds", "BeforeId": "(O)773" },
 			{ "Id": "Cornucopia_ShiitakeSeeds", "BeforeId": "(O)773" },
-			{ "Id": "Cornucopia_SopadillaSeed", "BeforeId": "(O)243" }
+			{ "Id": "Cornucopia_SapodillaSeed", "BeforeId": "(O)243" }
 		]
     },
   ]

@@ -8,13 +8,13 @@
 			"Enable Extended Trees Pack": true
 			},
 			"Entries": {
-				"Cornucopia_SopadillaSeed": {
+				"Cornucopia_SapodillaSeed": {
 					"Textures": [
 					  {
 						"Texture": "Cornucopia.MoreCrops/tree1_{{season}}",
 					  }
 					],
-					"SeedItemId": "(O)Cornucopia_SopadillaSeed",
+					"SeedItemId": "(O)Cornucopia_SapodillaSeed",
 					"GrowthChance": -1.0,
 					"FertilizedGrowthChance": -1.0,
 					"SeedChance": -1.0,
