@@ -1912,7 +1912,7 @@
           "Name": "Cornucopia_WhiteGrapeSeeds",
           "Type": "Seed",
           "Category": -74,
-          "SpriteIndex": 95,
+          "SpriteIndex": 75,
           "DisplayName": "{{i18n:WhiteGrapeSeeds_name2}}",
           "Description": "{{i18n:WhiteGrapeSeeds_description2}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
