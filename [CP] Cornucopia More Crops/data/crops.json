@@ -21,7 +21,7 @@
 					"SpriteIndex": 30,
 					"RegrowDays": 4,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_BroccoliSeeds": {
@@ -46,7 +46,7 @@
 					"SpriteIndex": 28,
 					"RegrowDays": 2,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_CucumberSeeds": {
@@ -58,7 +58,7 @@
 					"RegrowDays": 3,
 					"IsRaised": true,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_KiwiSeeds": {
@@ -70,7 +70,7 @@
 					"RegrowDays": 2,
 					"IsRaised": true,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_LettuceSeeds": {
@@ -95,7 +95,6 @@
 					"SpriteIndex": 12,
 					"HarvestMinStack": 6,
 					"HarvestMaxStack": 8,
-					"ExtraHarvestChance": "{{75Percent}}",
 				},
 				"Cornucopia_Soybeans": {
 					"Seasons": [ "fall" ],
@@ -104,7 +103,7 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 26,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"RegrowDays": 3,
 					"ExtraHarvestChance": "{{75Percent}}"
 				},
@@ -117,7 +116,7 @@
 					"IsPaddyCrop": true,
 					"HarvestMethod": "Scythe",
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{10Percent}}"
 				},
 				"Cornucopia_WatermelonSeeds": {
@@ -135,7 +134,7 @@
 					"SpriteIndex": 22,
 					"RegrowDays": 2,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{10Percent}}"
 				}
 			}
@@ -154,7 +153,7 @@
 					"SpriteIndex": 41,
 					"RegrowDays": 4,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_AgaveSeeds": {
@@ -179,7 +178,7 @@
 					"SpriteIndex": 5,
 					"HarvestMethod": "Scythe",
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{75Percent}}",
 				},
 				"Cornucopia_BarleySeeds": {
@@ -247,7 +246,6 @@
 					"HarvestMethod": "Scythe",
 					"HarvestMinStack": 2,
 					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{50Percent}}",
 				},
 				"Cornucopia_CantaloupeSeeds": {
 					"Seasons": [ "spring" ],
@@ -263,7 +261,7 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 7,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_CelerySeeds": {
@@ -281,7 +279,7 @@
 					"SpriteIndex": 34,
 					"RegrowDays": 5,
 					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
+					"HarvestMaxStack": 2,
 					"ExtraHarvestChance": "{{50Percent}}",
 				},
 				"Cornucopia_DaikonSeeds": {
@@ -315,7 +313,7 @@
 					"RegrowDays": 3,
 					"IsRaised": true,
 					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
+					"HarvestMaxStack": 2,
 					"ExtraHarvestChance": "{{50Percent}}",
 				},
 					"Cornucopia_GroundcherriesSeeds": {
@@ -335,7 +333,7 @@
 					"SpriteIndex": 31,
 					"RegrowDays": 5,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_HoneydewSeeds": {
@@ -353,7 +351,7 @@
 					"SpriteIndex": 32,
 					"RegrowDays": 4,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{10Percent}}",
 				},
 				"Cornucopia_KidneyBeansSeeds": {
@@ -392,7 +390,7 @@
 					"SpriteIndex": 21,
 					"RegrowDays": 4,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{90Percent}}",
 				},
 				"Cornucopia_PassionFruitSeeds": {
@@ -422,7 +420,7 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 51,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_RedOnionSeeds": {
@@ -478,7 +476,7 @@
 					"SpriteIndex": 24,
 					"RegrowDays": 2,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 2,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{10Percent}}",
 				},
 			}

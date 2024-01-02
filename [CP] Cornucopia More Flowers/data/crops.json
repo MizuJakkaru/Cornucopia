@@ -55,7 +55,7 @@
 					"RegrowDays": 4,
 					"IsRaised": true,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 3,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{50Percent}}"
                 },
                 "Cornucopia_OrchidSeeds": {
@@ -149,7 +149,7 @@
 					"RegrowDays": 3,
 					"IsRaised": true,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 3,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{25Percent}}"
                 },
                 "Cornucopia_DahliaSeeds": {
@@ -198,7 +198,7 @@
 					"RegrowDays": 3,
 					"IsRaised": true,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 3,
+					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{75Percent}}"
                 },
                 "Cornucopia_HyacinthSeeds": {

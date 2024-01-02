@@ -36,23 +36,23 @@
 		//crop ExtraHarvestChance values for later testing
 		{
 			"Name": "10Percent",
-			"Value": "0.01"
-		},
-		{
-			"Name": "25Percent",
-			"Value": "0.03"
-		},
-		{
-			"Name": "50Percent",
-			"Value": "0.06"
-		},
-		{
-			"Name": "75Percent",
 			"Value": "0.1"
 		},
 		{
-			"Name": "90Percent",
+			"Name": "25Percent",
 			"Value": "0.2"
+		},
+		{
+			"Name": "50Percent",
+			"Value": "0.33"
+		},
+		{
+			"Name": "75Percent",
+			"Value": "0.42"
+		},
+		{
+			"Name": "90Percent",
+			"Value": "0.47"
 		},
 	],
     "Changes": [		
