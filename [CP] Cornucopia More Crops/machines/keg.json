@@ -1,0 +1,84 @@
+{
+	"Changes":
+	[
+		// add custom machine goods
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)12", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_DarkAle": {
+					"Id": "Cornucopia_DarkAle",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Durum",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_DarkAle",
+							}
+						],
+					"MinutesUntilReady": 2250,
+				},
+				"Cornucopia_Porter": {
+					"Id": "Cornucopia_Porter",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Buckwheat",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Porter",
+							}
+						],
+					"MinutesUntilReady": 1750,
+				},
+				"Cornucopia_SparklingWine": {
+					"Id": "Cornucopia_SparklingWine",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_WhiteGrape",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SparklingWine",
+							}
+						],
+					"MinutesUntilReady": 6000,
+				},
+				"Cornucopia_Stout": {
+					"Id": "Cornucopia_Stout",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Barley",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Stout",
+							}
+						],
+					"MinutesUntilReady": 1750,
+				}
+			},
+			"MoveEntries": 
+				[
+					{ "Id": "Cornucopia_DarkAle", "BeforeId": "Default_Juice" },
+					{ "Id": "Cornucopia_Porter", "BeforeId": "Default_Juice" },
+					{ "Id": "Cornucopia_SparklingWine", "BeforeId": "Default_Wine" },
+					{ "Id": "Cornucopia_Stout", "BeforeId": "Default_Juice" }
+				]
+		}
+    ]
+}

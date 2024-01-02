@@ -1,0 +1,29 @@
+{
+	"Changes":
+	[
+		// add custom machine goods
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)17", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_CottonCloth": {
+					"Id": "Cornucopia_CottonCloth",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_CottonBoll",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)428",
+							}
+						],
+					"MinutesUntilReady": 240,
+				}
+			}
+		}
+    ]
+}

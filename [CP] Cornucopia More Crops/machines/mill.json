@@ -1,0 +1,99 @@
+{
+	"Changes":
+	[
+		// add custom mill recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [ "Mill", "ItemConversions" ],
+			"Entries": 
+				{
+					"Cornucopia_BuckwheatFlour": 
+						{
+							"Id": "Cornucopia_BuckwheatFlour",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
+							"RequiredTags": 
+								[
+									"id_o_cornucopia_buckwheat"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)Cornucopia_BuckwheatFlour"
+									}
+								],
+							"MaxDailyConversions": -1
+						},
+					"Cornucopia_SemolinaFlour": 
+						{
+							"Id": "Cornucopia_SemolinaFlour",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
+							"RequiredTags": 
+								[
+									"id_o_cornucopia_durum"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)Cornucopia_SemolinaFlour"
+									}
+								],
+							"MaxDailyConversions": -1
+						},
+					"Cornucopia_SugarBeetSugar": 
+						{
+							"Id": "Cornucopia_SugarBeetSugar",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
+							"RequiredTags": 
+								[
+									"id_o_cornucopia_sugarbeet"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)245"
+									}
+								],
+							"MaxDailyConversions": -1
+						},
+					"Cornucopia_SugarCaneSugar": 
+						{
+							"Id": "Cornucopia_SugarCaneSugar",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
+							"RequiredTags": 
+								[
+									"id_o_cornucopia_sugarcane"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)245"
+									}
+								],
+							"MaxDailyConversions": -1
+						},
+					"Cornucopia_TapiocaFlour": 
+						{
+							"Id": "Cornucopia_TapiocaFlour",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
+							"RequiredTags": 
+								[
+									"id_o_cornucopia_cassava"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)Cornucopia_TapiocaFlour"
+									}
+								],
+							"MaxDailyConversions": -1
+						}
+				}
+		}
+	]
+}

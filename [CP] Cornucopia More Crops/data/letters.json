@@ -1,0 +1,21 @@
+{
+	"Changes": [
+		// Add Letter from Pierre notifying of Flower Catalogue
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"Cornucopia_MarnieY2Herbs": "Hi @,^It's the start of a new year and I thought I would let you know that I have a new kind of tree in stock. It has a very pleasant smell and I have found that my animals are calmed by it. Please come by and check out the stock when you have a chance!^-Marnie[#]New Sapling Available"
+			}
+		},
+		// Add Letter Event
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"When": {"Enable Herbs Pack": true},
+			"Entries": {
+				"Cornucopia_SendMarnieY2Herbs/dayofweek monday/season spring/year 2/sendmail Cornucopia_MarnieY2Herbs": "null"
+			}
+		}
+	]
+}

@@ -2935,5 +2935,158 @@
         }
       }
     },
+	//Essential crop artisan goods
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      //"When": {"Enable Essential Pack": true},
+      "Entries": {
+        "Cornucopia_OliveOil": {
+          "Name": "Cornucopia_OliveOil",
+          "Type": "Artisan_Goods",
+          "Category": -26,
+          "SpriteIndex": 5,
+          "DisplayName": "{{i18n:OliveOil_name}}",
+          "Description": "{{i18n:OliveOil_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+          "Price": 150,
+          "Edibility": 5,
+		  "IsDrink": true,
+          "ContextTags": [
+            "color_yellow"
+          ]
+        }
+      }
+    },
+	//Extended crop artisan goods
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {"Enable Extended Crops Pack": true},
+      "Entries": {
+        "Cornucopia_BuckwheatFlour": {
+          "Name": "Cornucopia_BuckwheatFlour",
+          "Type": "Artisan_Goods",
+          "Category": -26,
+          "SpriteIndex": 2,
+          "DisplayName": "{{i18n:BuckwheatFlour_name}}",
+          "Description": "{{i18n:BuckwheatFlour_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+          "Price": 50,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_brown"
+          ]
+        },
+		"Cornucopia_DarkAle": {
+          "Name": "Cornucopia_DarkAle",
+          "Type": "Artisan_Goods",
+          "Category": -26,
+          "SpriteIndex": 8,
+          "DisplayName": "{{i18n:DarkAle_name}}",
+          "Description": "{{i18n:DarkAle_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+          "Price": 300,
+          "Edibility": 20,
+		  "IsDrink": true,
+		  "Buff": {
+			"BuffId": 17,
+			"Duration": 45
+		  },
+          "ContextTags": [
+            "color_brown,
+			alcohol_item"
+          ]
+        },
+		"Cornucopia_Porter": {
+          "Name": "Cornucopia_Porter",
+          "Type": "Artisan_Goods",
+          "Category": -26,
+          "SpriteIndex": 9,
+          "DisplayName": "{{i18n:Porter_name}}",
+          "Description": "{{i18n:Porter_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+          "Price": 250,
+          "Edibility": 20,
+		  "IsDrink": true,
+		  "Buff": {
+			"BuffId": 17,
+			"Duration": 45
+		  },
+          "ContextTags": [
+            "color_brown,
+			alcohol_item"
+          ]
+        },
+		"Cornucopia_SemolinaFlour": {
+          "Name": "Cornucopia_SemolinaFlour",
+          "Type": "Artisan_Goods",
+          "Category": -26,
+          "SpriteIndex": 3,
+          "DisplayName": "{{i18n:SemolinaFlour_name}}",
+          "Description": "{{i18n:SemolinaFlour_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+          "Price": 50,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_brown"
+          ]
+        },
+		"Cornucopia_SparklingWine": {
+          "Name": "Cornucopia_SparklingWine",
+          "Type": "Artisan_Goods",
+          "Category": -26,
+          "SpriteIndex": 6,
+          "DisplayName": "{{i18n:SparklingWine_name}}",
+          "Description": "{{i18n:SparklingWine_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+          "Price": 150,
+          "Edibility": 20,
+		  "IsDrink": true,
+		  "Buff": {
+			"BuffId": 17,
+			"Duration": 45
+		  },
+          "ContextTags": [
+            "color_cyan,
+			alcohol_item"
+          ]
+        },
+		"Cornucopia_Stout": {
+          "Name": "Cornucopia_Stout",
+          "Type": "Artisan_Goods",
+          "Category": -26,
+          "SpriteIndex": 7,
+          "DisplayName": "{{i18n:Stout_name}}",
+          "Description": "{{i18n:Stout_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+          "Price": 250,
+          "Edibility": 20,
+		  "IsDrink": true,
+		  "Buff": {
+			"BuffId": 17,
+			"Duration": 45
+		  },
+          "ContextTags": [
+            "color_brown,
+			alcohol_item"
+          ]
+        },
+		"Cornucopia_TapiocaFlour": {
+          "Name": "Cornucopia_TapiocaFlour",
+          "Type": "Artisan_Goods",
+          "Category": -26,
+          "SpriteIndex": 4,
+          "DisplayName": "{{i18n:TapiocaFlour_name}}",
+          "Description": "{{i18n:TapiocaFlour_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+          "Price": 125,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_white"
+          ]
+        }
+      }
+    },
   ]
 }

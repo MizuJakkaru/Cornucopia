@@ -463,6 +463,25 @@
   "NutmegSapling_name": "Nutmeg Sapling",
   "NutmegSapling_description": "Takes 28 days to produce a mature Nutmeg tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
   
+  //Artisan goods
+  "OliveOil_name": "Olive Oil",
+  "OliveOil_description": "A light vegetable oil often used for salads.",
+  
+  "BuckwheatFlour_name": "Buckwheat Flour",
+  "BuckwheatFlour_description": "A cooking ingredient made from crushed buckwheat.",
+  "DarkAle_name": "Dark Ale",
+  "DarkAle_description": "Drink in moderation.",
+  "Porter_name": "Porter",
+  "Porter_description": "Drink in moderation.",
+  "SemolinaFlour_name": "Semolina Flour",
+  "SemolinaFlour_description": "A cooking ingredient made from milled durum.",
+  "SparklingWine_name": "Sparkling Wine",
+  "SparklingWine_description": "Drink in moderation.",
+  "Stout_name": "Stout",
+  "Stout_description": "Drink in moderation.",
+  "TapiocaFlour_name": "Tapioca Flour",
+  "TapiocaFlour_description": "A cooking ingredient made from crushed cassava.",
+  
   //Vanilla changes
   "Cloth_description": "A bolt of fine cloth.",
   "GrapeSeeds_name": "Grape Planter",
