@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        // add sea salt (all seasons, beach)
+        {
+            "Action": "EditData",
+            "Target": "Data/LocationsContexts",
+            "TargetField": [ "LocationsContexts", "Beach", "Forage" ],
+            "Entries": {
+                "(O)Cornucopia_SeaSalt": {
+                    "ItemId": "(O)Cornucopia_SeaSalt"
+                }
+            }
+        },
+		// add sea salt (all seasons, island docks)
+        {
+            "Action": "EditData",
+            "Target": "Data/LocationsContexts",
+            "TargetField": [ "LocationsContexts", "IslandSouth", "Forage" ],
+            "Entries": {
+                "(O)Cornucopia_SeaSalt": {
+                    "ItemId": "(O)Cornucopia_SeaSalt"
+                }
+            }
+        }
+    ]
+}

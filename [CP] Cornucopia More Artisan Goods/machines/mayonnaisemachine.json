@@ -1,0 +1,144 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)24", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_AvocadoMayonnaise": {
+					"Id": "Cornucopia_AvocadoMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Avocado",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_AvocadoMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 180,
+				},
+				"Cornucopia_BlackPepperMayonnaise": {
+					"Id": "Cornucopia_BlackPepperMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Pepper",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_BlackPepperMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 180,
+				},
+				"Cornucopia_DillMayonnaise": {
+					"Id": "Cornucopia_DillMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Dill",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_DillMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 180,
+				},
+				"Cornucopia_GarlicMayonnaise": {
+					"Id": "Cornucopia_GarlicMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)248",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_GarlicMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 180,
+				},
+				"Cornucopia_OliveOilMayonnaise": {
+					"Id": "Cornucopia_OliveOilMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_OliveOil",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_OliveOilMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 180,
+				},
+				"Cornucopia_SpicyMayonnaise": {
+					"Id": "Cornucopia_SpicyMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Habanero",
+							},
+							{
+								"RequiredItemId": "(O)260",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SpicyMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 180,
+				},
+				"Cornucopia_ThunderMayonnaise": {
+					"Id": "Cornucopia_ThunderMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)558",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_ThunderMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 1750,
+				},
+				"Cornucopia_WasabiMayonnaise": {
+					"Id": "Cornucopia_WasabiMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_WasabiPaste",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_WasabiMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 180,
+				}
+			}
+		}
+    ]
+}

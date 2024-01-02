@@ -1,0 +1,166 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)Cornucopia_DryingRack": 
+						{
+							"OutputRules":
+								[
+									{
+										"Id": "Cornucopia_BarleyMalt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Barley",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_BarleyMalt",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "Cornucopia_CornMalt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)270",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_CornMalt",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "Cornucopia_Hay",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)771",
+													"RequiredCount": 10,
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)178",
+													"MinStack": 3,
+													"MaxStack": 8,
+												}
+											],
+										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "Cornucopia_MatchaPowder",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)815",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_MatchaPowder",
+												}
+											],
+										"MinutesUntilReady": 4320,
+									},
+									{
+										"Id": "Cornucopia_WheatMalt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)262",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_WheatMalt",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "Cornucopia_DriedFlower",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_flowers" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_DriedFlower",
+													"Name": "Dried {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedFlower %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "DriedFlower",
+																"Modification": "Multiply",
+																"Amount": 1.75,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 1440,
+									},
+									{
+										"Id": "Cornucopia_DriedHerb",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "herb_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_DriedHerb",
+													"Name": "Dried {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedHerb %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "DriedHerb",
+																"Modification": "Multiply",
+																"Amount": 1.75,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 1440,
+									}
+								],
+							"LoadEffects":
+								[
+									{
+										"Sound": "Ship",
+									}
+								],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

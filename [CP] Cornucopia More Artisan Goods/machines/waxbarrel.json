@@ -1,0 +1,83 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)Cornucopia_WaxBarrel":
+						{
+							"OutputRules":
+								[
+									{
+										"Id": "Cornucopia_Candles",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Thread",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Candles",
+												}
+											],
+										"MinutesUntilReady": 300,
+									},
+									{
+										"Id": "Cornucopia_SnackCheeses",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)424",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_SnackCheeses",
+												}
+											],
+										"MinutesUntilReady": 300,
+									},
+									{
+										"Id": "Cornucopia_WaxMelts",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_EssentialOil",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_WaxMelts",
+												}
+											],
+										"MinutesUntilReady": 300,
+									}
+								],
+							"AdditionalConsumedItems":
+								[
+									{
+										"ItemId": "(O)Cornucopia_Beeswax",
+										"RequiredCount": 1,
+										"InvalidCountMessage": "Requires 1 Beeswax"
+									}
+								],
+							"LoadEffects":
+								[
+									{
+										"Sound": "Ship",
+									}
+								],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

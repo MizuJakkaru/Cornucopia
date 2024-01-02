@@ -1,0 +1,270 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)12", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_Cauim": {
+					"Id": "Cornucopia_Cauim",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Cassava",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Cauim",
+							}
+						],
+					"MinutesUntilReady": 6000,
+				},
+				"Cornucopia_DarkAle": {
+					"Id": "Cornucopia_DarkAle",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Durum",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_DarkAle",
+							}
+						],
+					"MinutesUntilReady": 2250,
+				},
+				"Cornucopia_FramboiseLambic": {
+					"Id": "Cornucopia_FramboiseLambic",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Raspberry",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_FramboiseLambic",
+							}
+						],
+					"MinutesUntilReady": 7200,
+				},
+				"Cornucopia_HardAppleCider": {
+					"Id": "Cornucopia_HardAppleCider",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_AppleCider",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_HardAppleCider",
+							}
+						],
+					"MinutesUntilReady": 2250,
+				},
+				"Cornucopia_Kefir": {
+					"Id": "Cornucopia_Kefir",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)436",
+							},
+							{
+								"RequiredItemId": "(O)438",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Kefir",
+							}
+						],
+					"MinutesUntilReady": 600,
+				},
+				"Cornucopia_Kumis": {
+					"Id": "Cornucopia_Kumis",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)184",
+							},
+							{
+								"RequiredItemId": "(O)186",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Kumis",
+							}
+						],
+					"MinutesUntilReady": 600,
+				},
+				"Cornucopia_Lassi": {
+					"Id": "Cornucopia_Lassi",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Yogurt",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Lassi",
+							}
+						],
+					"MinutesUntilReady": 600,
+				},
+				"Cornucopia_Perry": {
+					"Id": "Cornucopia_Perry",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Pear",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Perry",
+							}
+						],
+					"MinutesUntilReady": 7200,
+				},
+				"Cornucopia_Porter": {
+					"Id": "Cornucopia_Porter",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_WheatMalt",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Porter",
+							}
+						],
+					"MinutesUntilReady": 1750,
+				},
+				"Cornucopia_PrismaticWine": {
+					"Id": "Cornucopia_PrismaticWine",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)74",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_PrismaticWine",
+							}
+						],
+					"MinutesUntilReady": 10000,
+				},
+				"Cornucopia_Pulque": {
+					"Id": "Cornucopia_Pulque",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Agave",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Pulque",
+							}
+						],
+					"MinutesUntilReady": 6000,
+				},
+				"Cornucopia_Sake": {
+					"Id": "Cornucopia_Sake",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)271",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Sake",
+							}
+						],
+					"MinutesUntilReady": 10000,
+				},
+				"Cornucopia_SparklingWine": {
+					"Id": "Cornucopia_SparklingWine",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_WhiteGrape",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SparklingWine",
+							}
+						],
+					"MinutesUntilReady": 6000,
+				},
+				"Cornucopia_Stout": {
+					"Id": "Cornucopia_Stout",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_BarleyMalt",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Stout",
+							}
+						],
+					"MinutesUntilReady": 1750,
+				},
+				"Cornucopia_Umeshu": {
+					"Id": "Cornucopia_Umeshu",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Ume",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Umeshu",
+							}
+						],
+					"MinutesUntilReady": 7200,
+				}
+			},
+			"MoveEntries": 
+				[
+					{ "Id": "Cornucopia_Cauim", "BeforeId": "Default_Juice" },
+					{ "Id": "Cornucopia_DarkAle", "BeforeId": "Default_Juice" },
+					{ "Id": "Cornucopia_FramboiseLambic", "BeforeId": "Default_Wine" },
+					{ "Id": "Cornucopia_Perry", "BeforeId": "Default_Wine" },
+					{ "Id": "Cornucopia_Pulque", "BeforeId": "Default_Juice" },
+					{ "Id": "Cornucopia_Sake", "BeforeId": "Default_Juice" },
+					{ "Id": "Cornucopia_SparklingWine", "BeforeId": "Default_Wine" },
+					{ "Id": "Cornucopia_Umeshu", "BeforeId": "Default_Wine" }
+				]
+		}
+    ]
+}

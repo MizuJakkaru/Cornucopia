@@ -1,0 +1,252 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)Cornucopia_Alembic":
+						{
+							"OutputRules":				
+								[
+									{
+										"Id": "Cornucopia_AlmondExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Almond",
+													"RequiredCount": 2,
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_AlmondExtract",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_HabaneroExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Habanero",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_HabaneroExtract",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_JalapenoExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Jalapeno",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_JalapenoExtract",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_PrismaticExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)74",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_PrismaticExtract",
+												}
+											],
+										"MinutesUntilReady": 1750,
+									},
+									{
+										"Id": "Cornucopia_VanillaExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Vanilla",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_VanillaExtract",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_EssentialOilFlowers",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_flowers", "!id_o_Cornucopia_vanilla" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_EssentialOil",
+													"Name": "{0} Essential Oil",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_EssentialOil %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "EssentialOil",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_EssentialOilFruits",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_fruits", "!id_o_Cornucopia_habanero", "!id_o_Cornucopia_jalapeno" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_EssentialOil",
+													"Name": "{0} Essential Oil",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_EssentialOil %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "EssentialOil",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_EssentialOilVegetables",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_vegetable" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_EssentialOil",
+													"Name": "{0} Essential Oil",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_EssentialOil %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "EssentialOil",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 360,
+									}
+								],
+							"LoadEffects":
+								[
+									{
+										"Sound": "bubbles",
+										"DelayedSounds": 
+											[
+												{
+													"Sound": "sipTea",
+													"Delay": 0
+												}
+											],
+										"TemporarySprites": 
+											[
+												{
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "White"
+												}
+											],
+									}
+								],
+							"WorkingEffects":
+								[
+									{
+										"TemporarySprites": 
+											[
+												{
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "White"
+												}
+											],
+									}
+								],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

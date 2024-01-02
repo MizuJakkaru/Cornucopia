@@ -1,0 +1,133 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)17", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_CopperThread": {
+					"Id": "Cornucopia_CopperThread",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)334",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_CopperThread",
+							}
+						],
+					"MinutesUntilReady": 180,
+				},
+				"Cornucopia_GoldThread": {
+					"Id": "Cornucopia_GoldThread",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)336",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_GoldThread",
+							}
+						],
+					"MinutesUntilReady": 240,
+				},
+				"Cornucopia_IridiumThread": {
+					"Id": "Cornucopia_IridiumThread",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)337",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_IridiumThread",
+							}
+						],
+					"MinutesUntilReady": 6000,
+				},
+				"Cornucopia_SilveryThread": {
+					"Id": "Cornucopia_SilveryThread",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)335",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SilveryThread",
+							}
+						],
+					"MinutesUntilReady": 180,
+				},
+				"Cornucopia_Thread": {
+					"Id": "Cornucopia_Thread",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_CottonBoll",
+								"RequiredCount": 2,	
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Thread",
+								"MinStack": 1,
+								"MaxStack": 2,
+							}
+						],
+					"MinutesUntilReady": 120,
+				},
+				"Cornucopia_Twine": {
+					"Id": "Cornucopia_Twine",
+						"Triggers": 
+							[
+								{
+									"RequiredItemId": "(O)771",
+								},
+								{
+									"RequiredItemId": "(O)178",
+								}
+							],
+						"OutputItem":
+							[
+								{
+									"ItemId": "(O)Cornucopia_Twine",
+									"MinStack": 2,
+									"MaxStack": 4,
+								}
+							],
+						"MinutesUntilReady": 60,
+				},
+				"Cornucopia_Yarn": {
+					"Id": "Cornucopia_Yarn",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Thread",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Yarn",
+							}
+						],
+					"MinutesUntilReady": 120,
+				}
+			}
+		}
+    ]
+}
