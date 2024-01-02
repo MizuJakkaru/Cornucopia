@@ -22,4 +22,4 @@ The mod could not be a reality without the following people having shared in mak
 * PPJA Contributors: ParadigmNomad, who developed and spearheaded PPJA originally. SpringsSong, Eemie, and those listed on the PPJA [wiki page](https://github.com/paradigmnomad/PPJA/wiki/Artist-Credits).
 * MCM Contributors: Killerbotto and those listed on the MCM [forum page](https://community.playstarbound.com/threads/more-crops-mod-even-more-crops-mod-updated-20-04.111944/).
 * Other Thanks: Amburr, xangria, and mystictempest, old friends from the ancient times of SDV modding. Also Dr.Drub, dollbae, gamerfluid, Igorius, Platonymous, TenkoKuugen. And also tallasse for troubleshooting, coding help, and making sure I stay on scope despite my best efforts.
-* Paid Art Assets: ([anarchisedlute](https://anarchisedlute.itch.io/)), ([artoftic](https://artoftic.itch.io/)), ([cyangmou](https://cyangmou.itch.io/)) ([pixeltier](https://pixeltier.itch.io/)
+* Paid Art Assets: [anarchisedlute](https://anarchisedlute.itch.io/), [artoftic](https://artoftic.itch.io/), [cyangmou](https://cyangmou.itch.io/) [pixeltier](https://pixeltier.itch.io/)
