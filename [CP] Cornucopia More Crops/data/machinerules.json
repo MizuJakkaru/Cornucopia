@@ -1,0 +1,9 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {}
+		}
+	]
+}
