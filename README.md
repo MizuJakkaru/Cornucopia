@@ -26,9 +26,10 @@ The mod could not be a reality without the following people having shared in mak
 
 ## Art Credits
 We hope that people also find enjoyment in the updated sprites of Cornucopia. Everything is being done with a strong drive to capture the game's original spirit. Anything not done by MizuJakkaru or 6480 has been edited from paid assets from the info below. Provided a sprite does not list a paid asset artist below on the mod's informational spreadsheet, the following rules apply to Cornucopia's art assets:
+
 * Anyone can edit and use for any SDV mod, without permission, with credit.
 * Can't use it to recreate an existing mod.
 * Can use it for mods with donations enabled.
 
-* Paid Assets Artists: [anarchisedlute](https://anarchisedlute.itch.io/), [artoftic](https://artoftic.itch.io/), [cyangmou](https://cyangmou.itch.io/), [pixeltier](https://pixeltier.itch.io/)
+Paid Assets Artists: [anarchisedlute](https://anarchisedlute.itch.io/), [artoftic](https://artoftic.itch.io/), [cyangmou](https://cyangmou.itch.io/), [pixeltier](https://pixeltier.itch.io/)
 
