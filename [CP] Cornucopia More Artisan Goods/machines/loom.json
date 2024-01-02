@@ -71,25 +71,6 @@
 						],
 					"MinutesUntilReady": 180,
 				},
-				"Cornucopia_Thread": {
-					"Id": "Cornucopia_Thread",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_CottonBoll",
-								"RequiredCount": 2,	
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_Thread",
-								"MinStack": 1,
-								"MaxStack": 2,
-							}
-						],
-					"MinutesUntilReady": 120,
-				},
 				"Cornucopia_Twine": {
 					"Id": "Cornucopia_Twine",
 						"Triggers": 
@@ -110,22 +91,6 @@
 								}
 							],
 						"MinutesUntilReady": 60,
-				},
-				"Cornucopia_Yarn": {
-					"Id": "Cornucopia_Yarn",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Thread",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_Yarn",
-							}
-						],
-					"MinutesUntilReady": 120,
 				}
 			}
 		}

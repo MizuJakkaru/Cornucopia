@@ -28,6 +28,22 @@
 										"MinutesUntilReady": 360,
 									},
 									{
+										"Id": "Cornucopia_CoconutMilk",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)88",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_CoconutMilk",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
 										"Id": "Cornucopia_ChiliPowder",
 										"Triggers": 
 											[
@@ -139,6 +155,23 @@
 												}
 											],
 										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "Cornucopia_MisoPaste",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Soybeans",
+													"RequiredCount": 2,
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_MisoPaste",
+												}
+											],
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "Cornucopia_OrangePeel",

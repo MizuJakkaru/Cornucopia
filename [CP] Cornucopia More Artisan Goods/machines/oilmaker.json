@@ -56,22 +56,6 @@
 						],
 					"MinutesUntilReady": 960,
 				},
-				"Cornucopia_CottonseedOil": {
-					"Id": "Cornucopia_CottonseedOil",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_CottonBoll",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_CottonseedOil",
-							}
-						],
-					"MinutesUntilReady": 960,
-				},
 				"Cornucopia_FishOil": {
 					"Id": "Cornucopia_FishOil",
 					"Triggers": 
@@ -87,22 +71,6 @@
 							}
 						],
 					"MinutesUntilReady": 960,
-				},
-				"Cornucopia_Oil": {
-					"Id": "Cornucopia_Oil",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_CanolaFlower",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)247",
-							}
-						],
-					"MinutesUntilReady": 60,
 				},
 				"Cornucopia_OliveOil": {
 					"Id": "Cornucopia_OliveOil",

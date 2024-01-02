@@ -28,7 +28,7 @@
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)Cornucopia_Pepper",
+								"RequiredItemId": "(O)Cornucopia_Peppercorn",
 							}
 						],
 					"OutputItem":
@@ -127,7 +127,7 @@
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)Cornucopia_WasabiPaste",
+								"RequiredItemId": "(O)Cornucopia_WasabiRoot",
 							}
 						],
 					"OutputItem":

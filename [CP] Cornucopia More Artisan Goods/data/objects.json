@@ -6,6 +6,46 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
+			   "Cornucopia_Tofu": {
+					"Name": "Cornucopia_Tofu",
+					"DisplayName": "Tofu",
+					"Description": "Made from soybean milk. Also known as bean curds.",
+					"Type": "Artisan_Goods",
+					"Category": -26,
+					"Price": 0,
+
+					"Edibility": 10,
+
+					"Texture": "Cornucopia.ArtisanGoods/Objects",
+					"SpriteIndex": 0
+				},
+				"Cornucopia_CoconutMilk": {
+					"Name": "Cornucopia_CoconutMilk",
+					"DisplayName": "Coconut Milk",
+					"Description": "Milk made from pulverized coconut meat. It's sweet and creamy.",
+					"Type": "Artisan_Goods",
+					"Category": -26,
+					"Price": 0,
+
+					"Edibility": 10,
+
+					"Texture": "Cornucopia.ArtisanGoods/Objects",
+					"SpriteIndex": 0
+				},
+				"Cornucopia_VanillaYogurt": {
+					"Name": "Cornucopia_VanillaYogurt",
+					"DisplayName": "Vanilla Yogurt",
+					"Description": "A yogurt with a mild flavor.",
+					"Type": "Artisan_Goods",
+					"Category": -26,
+					"Price": 350,
+
+					"Edibility": 10,
+
+					"Texture": "Cornucopia.ArtisanGoods/Objects",
+					"SpriteIndex": 46
+				}
+				
 			// alembic goods
 				"Cornucopia_EssentialOil": {
 					"Name": "Cornucopia_EssentialOil",
@@ -2021,7 +2061,7 @@
 				},
 
 				"Cornucopia_MisoPaste": {
-					"Name": "Cornucopia_Miso Paste",
+					"Name": "Cornucopia_MisoPaste",
 					"DisplayName": "Miso Paste",
 					"Description": "A paste made from soybeans. Used to make soup.",
 					"Type": "Artisan_Goods",
