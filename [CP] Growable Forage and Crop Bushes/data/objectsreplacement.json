@@ -84,7 +84,7 @@
 				"Cactus Bush": true
 			},
 			"FromArea": { "X": 96, "Y": 16, "Width": 16, "Height": 16 },
-			"ToArea": { "X": 160, "Y": 582, "Width": 16, "Height": 16 }
+			"ToArea": { "X": 160, "Y": 528, "Width": 16, "Height": 16 }
 		},
 		{
 			"Action": "EditData",
