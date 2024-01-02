@@ -1,5 +1,6 @@
 {
 	"Changes": [
+		//Coffee Bean changes
 		{
 			"Action": "EditData",
 			"Target": "Strings/Objects",
@@ -11,6 +12,7 @@
 				"CoffeeBean_Description": "{{i18n:CoffeeBean_description}}"
 			}
 		},
+		//Blueberry Seeds changes
 		{
 			"Action": "EditData",
 			"Target": "Strings/Objects",
@@ -24,6 +26,18 @@
 			}
 		},
 		{
+			"Action": "EditImage",
+			"Target": "maps/springobjects",
+			"FromFile": "assets/objects.png",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Blueberry Bush": true
+			},
+			"FromArea": { "X": 112, "Y": 16, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 320, "Width": 16, "Height": 16 }
+		},
+		//Cactus Seeds changes
+		{
 			"Action": "EditData",
 			"Target": "Strings/Objects",
 			"When": {
@@ -35,6 +49,18 @@
 				"CactusSeeds_Description": "{{i18n:CactusFruitSeeds_description}}"
 			}
 		},
+		{
+			"Action": "EditImage",
+			"Target": "maps/springobjects",
+			"FromFile": "assets/objects.png",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Cactus Bush": true
+			},
+			"FromArea": { "X": 96, "Y": 16, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 582, "Width": 16, "Height": 16 }
+		},
+		//Hops Starter changes
 		{
 			"Action": "EditData",
 			"Target": "Strings/Objects",
@@ -48,6 +74,18 @@
 			}
 		},
 		{
+			"Action": "EditImage",
+			"Target": "maps/springobjects",
+			"FromFile": "assets/objects.png",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Hops Bush": true
+			},
+			"FromArea": { "X": 144, "Y": 16, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 224, "Y": 192, "Width": 16, "Height": 16 }
+		},
+		//Grape Starter changes
+		{
 			"Action": "EditData",
 			"Target": "Strings/Objects",
 			"When": {
@@ -58,6 +96,17 @@
 				"GrapeStarter_Name": "{{i18n:GrapeSeeds_name}}",
 				"GrapeStarter_Description": "{{i18n:GrapeSeeds_description}}"
 			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "maps/springobjects",
+			"FromFile": "assets/objects.png",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Grapes Bush": true
+			},
+			"FromArea": { "X": 128, "Y": 16, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 16 }
 		}
 	]
 }
