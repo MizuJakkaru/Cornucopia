@@ -92,7 +92,7 @@
 		"Cornucopia_CamelliaSeeds": {
 			"Id": "Cornucopia_CamelliaSeeds",
 			"ItemId": "Cornucopia_CamelliaSeeds",
-			"Condition": "SEASON spring, YEAR 2",
+			"Condition": "YEAR 2",
 			"Price": 1100,
 			"IgnoreShopPriceModifiers": true
 		},
@@ -183,7 +183,6 @@
 		"Cornucopia_LilacSeeds": {
 			"Id": "Cornucopia_LilacSeeds",
 			"ItemId": "Cornucopia_LilacSeeds",
-			"Condition": "SEASON spring summer",
 			"Price": 800,
 			"IgnoreShopPriceModifiers": true
 		},
@@ -273,7 +272,7 @@
       },
 	  "MoveEntries": [
 			{ "Id": "Cornucopia_BluebonnetSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CamelliaSeeds", "BeforeId": "GrassStarter" },
+			{ "Id": "Cornucopia_CamelliaSeeds", "BeforeId": "(O)628" },
 			{ "Id": "Cornucopia_CarnationSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_ChamomileSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_ClarySageSeeds", "BeforeId": "GrassStarter" },
@@ -286,7 +285,7 @@
 			{ "Id": "Cornucopia_HydrangeaSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_LarkspurSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_LavenderSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_LilacSeeds", "BeforeId": "GrassStarter" },
+			{ "Id": "Cornucopia_LilacSeeds", "BeforeId": "(O)628" },
 			{ "Id": "Cornucopia_LupineSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_PeonySeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_PetuniaSeeds", "BeforeId": "GrassStarter" },

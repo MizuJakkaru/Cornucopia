@@ -11,18 +11,6 @@
 		},
 		// Grape Starter changes
 		{
-			"Action": "EditData",
-			"Target": "Strings/Objects",
-			"When": {
-				"Enable Extended Crops Pack": true,
-				"Disable Grape Bushes": false
-			},
-			"Entries": {
-				"GrapeStarter_Name": "{{i18n:GrapeSeeds_name}}",
-				"GrapeStarter_Description": "{{i18n:GrapeSeeds_description}}"
-			}
-		},
-		{
 			"Action": "EditImage",
 			"Target": "maps/springobjects",
 			"FromFile": "assets/objects.png",
@@ -35,30 +23,42 @@
 		},
 		{
 			"Action": "EditData",
-			"Target": "Data/ObjectInformation",
+			"Target": "Data/Objects",
 			"When": {
 				"Enable Extended Crops Pack": true,
 				"Disable Grape Bushes": false
 			},
-			"Entries": { 
-				"(O)301": {
-					"Price": 300
+			"Fields": { 
+				"301": {
+					"Price": 300,
+					"DisplayName": "{{i18n:GrapeSeeds_name}}",
+					"Description": "{{i18n:GrapeSeeds_description}}"
 				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": [ "SeedShop", "Items" ],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"When": {
 				"Enable Extended Crops Pack": true,
 				"Disable Grape Bushes": false
 			},
-			"Entries": { 
+			"Fields": {
 				"(O)301": {
-					"Price": 600
+					"Condition": "SEASON spring summer fall winter",
+					"ApplyProfitMargins": false,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "(O)301",
+					"BeforeId": "(O)628"
 				}
-			}
-		}
+			]
+		},
 	]
 }

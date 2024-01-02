@@ -12,32 +12,7 @@
 				"CoffeeBean_Description": "{{i18n:CoffeeBean_description}}"
 			}
 		},
-		/*{
-			"Action": "EditData",
-			"Target": "Data/ObjectInformation",
-			"When": {
-				"HasMod": "furyx639.CustomBush",
-				"Coffee Bush": true
-			},
-			"Entries": { 
-				"(O)433": {
-					"Price": 400
-				}
-			}
-		},*/
 		//Blueberry Seeds changes
-		{
-			"Action": "EditData",
-			"Target": "Strings/Objects",
-			"When": {
-				"HasMod": "furyx639.CustomBush",
-				"Blueberry Bush": true
-			},
-			"Entries": {
-				"BlueberrySeeds_Name": "{{i18n:BlueberrySeeds_name}}",
-				"BlueberrySeeds_Description": "{{i18n:BlueberrySeeds_description}}"
-			}
-		},
 		{
 			"Action": "EditImage",
 			"Target": "maps/springobjects",
@@ -51,30 +26,44 @@
 		},
 		{
 			"Action": "EditData",
-			"Target": "Data/ObjectInformation",
+			"Target": "Data/Objects",
 			"When": {
 				"HasMod": "furyx639.CustomBush",
 				"Blueberry Bush": true
 			},
-			"Entries": { 
-				"(O)481": {
-					"Price": 475
+			"Fields": { 
+				"481": {
+					"Price": 475,
+					"DisplayName": "{{i18n:BlueberrySeeds_name}}",
+					"Description": 	"{{i18n:BlueberrySeeds_description}}"
 				}
 			}
 		},
-		//Cactus Seeds changes
 		{
 			"Action": "EditData",
-			"Target": "Strings/Objects",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"When": {
 				"HasMod": "furyx639.CustomBush",
-				"Cactus Bush": true
+				"Blueberry Bush": true
 			},
-			"Entries": {
-				"CactusSeeds_Name": "{{i18n:CactusFruitSeeds_name}}",
-				"CactusSeeds_Description": "{{i18n:CactusFruitSeeds_description}}"
-			}
+			"Fields": {
+				"(O)481": {
+					"Condition": "SEASON spring summer fall winter",
+					"ApplyProfitMargins": false,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "(O)481",
+					"BeforeId": "(O)628"
+				}
+			]
 		},
+		//Cactus Seeds changes
 		{
 			"Action": "EditImage",
 			"Target": "maps/springobjects",
@@ -88,30 +77,20 @@
 		},
 		{
 			"Action": "EditData",
-			"Target": "Data/ObjectInformation",
+			"Target": "Data/Objects",
 			"When": {
 				"HasMod": "furyx639.CustomBush",
-				"Hops Bush": true
+				"Cactus Bush": true
 			},
-			"Entries": { 
-				"(O)802": {
-					"Price": 600
+			"Fields": { 
+				"802": {
+					"Price": 600,
+					"DisplayName": "{{i18n:CactusFruitSeeds_name}}",
+					"Description": "{{i18n:CactusFruitSeeds_description}}"
 				}
 			}
 		},
 		//Hops Starter changes
-		{
-			"Action": "EditData",
-			"Target": "Strings/Objects",
-			"When": {
-				"HasMod": "furyx639.CustomBush",
-				"Hops Bush": true
-			},
-			"Entries": {
-				"HopsStarter_Name": "{{i18n:HopsSeeds_name}}",
-				"HopsStarter_Description": "{{i18n:HopsSeeds_description}}"
-			}
-		},
 		{
 			"Action": "EditImage",
 			"Target": "maps/springobjects",
@@ -125,30 +104,44 @@
 		},
 		{
 			"Action": "EditData",
-			"Target": "Data/ObjectInformation",
+			"Target": "Data/Objects",
 			"When": {
 				"HasMod": "furyx639.CustomBush",
 				"Hops Bush": true
 			},
-			"Entries": { 
-				"(O)302": {
-					"Price": 300
+			"Fields": { 
+				"302": {
+					"Price": 300,
+					"DisplayName": "{{i18n:HopsSeeds_name}}",
+					"Description": "{{i18n:HopsSeeds_description}}"
 				}
 			}
 		},
-		//Grape Starter changes
 		{
 			"Action": "EditData",
-			"Target": "Strings/Objects",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"When": {
 				"HasMod": "furyx639.CustomBush",
-				"Grapes Bush": true
+				"Hops Bush": true
 			},
-			"Entries": {
-				"GrapeStarter_Name": "{{i18n:GrapeSeeds_name}}",
-				"GrapeStarter_Description": "{{i18n:GrapeSeeds_description}}"
-			}
+			"Fields": {
+				"(O)302": {
+					"Condition": "SEASON spring summer fall winter",
+					"ApplyProfitMargins": false,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "(O)302",
+					"BeforeId": "(O)628"
+				}
+			]
 		},
+		//Grape Starter changes
 		{
 			"Action": "EditImage",
 			"Target": "maps/springobjects",
@@ -162,16 +155,42 @@
 		},
 		{
 			"Action": "EditData",
-			"Target": "Data/ObjectInformation",
+			"Target": "Data/Objects",
 			"When": {
 				"HasMod": "furyx639.CustomBush",
 				"Grapes Bush": true
 			},
-			"Entries": { 
-				"(O)301": {
-					"Price": 300
+			"Fields": { 
+				"301": {
+					"Price": 300,
+					"DisplayName": "{{i18n:GrapeSeeds_name}}",
+					"Description": "{{i18n:GrapeSeeds_description}}"
 				}
 			}
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Grapes Bush": true
+			},
+			"Fields": {
+				"(O)301": {
+					"Condition": "SEASON spring summer fall winter",
+					"ApplyProfitMargins": false,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "(O)301",
+					"BeforeId": "(O)628"
+				}
+			]
+		},
 	]
 }
