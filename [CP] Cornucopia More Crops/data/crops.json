@@ -198,8 +198,6 @@
 					"RegrowDays": 3,
 					"IsRaised": true,
 					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
-					"ExtraHarvestChance": "{{50Percent}}",
 				},
 				"Cornucopia_BlueAgaveSeeds": {
 					"Seasons": [ "summer" ],
