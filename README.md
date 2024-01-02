@@ -9,7 +9,7 @@ Though the entire code has been redone from the ground up to use Content Patcher
 
 Though not a direct port or fork of anything that came before it, we have put a lot of effort into revitalizing the content from the original spreadsheet that PPJA used as its bible to capture a true Stardew Valley essence and expand upon vanilla content. We hope you find a lot of new and old favorites in the crops, flowers, artisan goods, and recipes in these mods.
 
-I hope that people also find enjoyment in the updated sprites of Cornucopia. Everything is being done with a strong drive to capture the game's original spirit.
+I hope that people also find enjoyment in the updated sprites of Cornucopia. Everything is being done with a strong drive to capture the game's original spirit. Anything not done by MizuJakkaru or 6480 has been edited from paid assets from the info below.
 
 ## Cornucopia Team
 * MizuJakkaru
