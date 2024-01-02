@@ -12,6 +12,19 @@
 				"CoffeeBean_Description": "{{i18n:CoffeeBean_description}}"
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Coffee Bush": true
+			},
+			"Entries": { 
+				"(O)433": {
+					"Price": 400
+				}
+			}
+		},
 		//Blueberry Seeds changes
 		{
 			"Action": "EditData",
@@ -35,6 +48,19 @@
 			},
 			"FromArea": { "X": 112, "Y": 16, "Width": 16, "Height": 16 },
 			"ToArea": { "X": 16, "Y": 320, "Width": 16, "Height": 16 }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Blueberry Bush": true
+			},
+			"Entries": { 
+				"(O)481": {
+					"Price": 475
+				}
+			}
 		},
 		//Cactus Seeds changes
 		{
@@ -60,6 +86,19 @@
 			"FromArea": { "X": 96, "Y": 16, "Width": 16, "Height": 16 },
 			"ToArea": { "X": 160, "Y": 582, "Width": 16, "Height": 16 }
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Hops Bush": true
+			},
+			"Entries": { 
+				"(O)802": {
+					"Price": 600
+				}
+			}
+		},
 		//Hops Starter changes
 		{
 			"Action": "EditData",
@@ -84,6 +123,19 @@
 			"FromArea": { "X": 144, "Y": 16, "Width": 16, "Height": 16 },
 			"ToArea": { "X": 224, "Y": 192, "Width": 16, "Height": 16 }
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Hops Bush": true
+			},
+			"Entries": { 
+				"(O)302": {
+					"Price": 300
+				}
+			}
+		},
 		//Grape Starter changes
 		{
 			"Action": "EditData",
@@ -107,6 +159,19 @@
 			},
 			"FromArea": { "X": 128, "Y": 16, "Width": 16, "Height": 16 },
 			"ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 16 }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Grapes Bush": true
+			},
+			"Entries": { 
+				"(O)301": {
+					"Price": 300
+				}
+			}
 		}
 	]
 }
