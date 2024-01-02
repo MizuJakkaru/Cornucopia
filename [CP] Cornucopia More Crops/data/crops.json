@@ -105,6 +105,7 @@
 					"SpriteIndex": 26,
 					"HarvestMinStack": 1,
 					"HarvestMaxStack": 2,
+					"RegrowDays": 3,
 					"ExtraHarvestChance": "{{75Percent}}"
 				},
 				"Cornucopia_SugarcaneSeeds": {
