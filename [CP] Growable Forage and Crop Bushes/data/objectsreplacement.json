@@ -12,7 +12,7 @@
 				"CoffeeBean_Description": "{{i18n:CoffeeBean_description}}"
 			}
 		},
-		{
+		/*{
 			"Action": "EditData",
 			"Target": "Data/ObjectInformation",
 			"When": {
@@ -24,7 +24,7 @@
 					"Price": 400
 				}
 			}
-		},
+		},*/
 		//Blueberry Seeds changes
 		{
 			"Action": "EditData",
