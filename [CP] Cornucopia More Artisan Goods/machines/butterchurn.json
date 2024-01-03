@@ -274,7 +274,8 @@
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)Cornucopia_Soybean",
+													"RequiredItemId": "(O)Cornucopia_Soybeans",
+													"RequiredCount": 2,
 												}
 											],
 										"OutputItem":

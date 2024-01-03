@@ -1,6 +1,6 @@
 {
     "Changes": [
-        // add sea salt (all seasons, beach)
+		// add forage (beach)
         {
             "Action": "EditData",
             "Target": "Data/LocationsContexts",
@@ -11,7 +11,7 @@
                 }
             }
         },
-		// add sea salt (all seasons, island docks)
+		// add forage (island south/docks)
         {
             "Action": "EditData",
             "Target": "Data/LocationsContexts",

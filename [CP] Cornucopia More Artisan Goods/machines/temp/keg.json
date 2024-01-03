@@ -23,8 +23,8 @@
 						],
 					"MinutesUntilReady": 6000,
 				},
-				"Cornucopia_FramboiseLambic": {
-					"Id": "Cornucopia_FramboiseLambic",
+				"Cornucopia_Framboise": {
+					"Id": "Cornucopia_Framboise",
 					"Triggers": 
 						[
 							{
@@ -34,7 +34,7 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_FramboiseLambic",
+								"ItemId": "(O)Cornucopia_Framboise",
 							}
 						],
 					"MinutesUntilReady": 7200,

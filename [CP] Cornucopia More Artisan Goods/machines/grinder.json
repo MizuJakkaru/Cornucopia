@@ -314,6 +314,34 @@
 										"MinutesUntilReady": 360,
 									},
 									{
+										"Id": "Cornucopia_GroundMushroom",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "mushroom_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_GroundMushroom",
+													"Name": "Ground {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_GroundMushroom %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "GroundMushroom",
+																"Modification": "Multiply",
+																"Amount": 1.25,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
 										"Id": "Cornucopia_GroundVegetable",
 										"Triggers": 
 											[
