@@ -1,317 +1,17 @@
 {
 	"Changes":
-	[
+	[		
 		// add custom context tags
 		{
 			"Action": "EditData",
 			"Target": "Data/ObjectContextTags",
-			"Entries": {
-				// alembic goods
-				"Almond Extract": "color_sand", 
-				"Cocoa Butter": "color_white", 
-				"Essential Oil": "color_yellow", 
-				"Habanero Extract": "color_orange, dye_medium",
-				"Jalapeño Extract": "color_green, dye_medium", 
-				"Prismatic Extract": "color_prismatic", 
-				"Vanilla Extract": "color_brown, dye_strong", 
-
-				//butter churn goods
-				"Almond Butter": "color_sand", 
-				"Butter": "color_yellow", 
-				"Cashew Butter": "color_sand",
-				"Coconut Butter": "color_white", 
-				"Cookie Butter": "color_brown", 
-				"Goat Butter": "color_white", 
-				"Hazelnut Butter": "color_brown",
-				"Margarine": "color_yellow", 
-				"Peanut Butter": "color_brown", 
-				"Pecan Butter": "color_brown", 
-				"Pistachio Butter": "color_green", 
-				"Slime Butter": "color_green", 
-				"Soynut Butter": "color_sand", 
-				"Sunflower Butter": "color_yellow", 
-				"Walnut Butter": "color_brown", 
-				
-				//canning machine goods
-				"Canned Fish": "color_gray", 
-				"Canned Fruit": "color_pink", 
-				"Canned Mollusc": "color_gray", 
-				"Canned Tuna": "color_gold",
-				"Canned Vegetables": "color_green", 
-				
-				//dehydrator goods
-				"Dried Fruit": "color_brown", 
-				"Dried Mushrooms": "color_brown", 
-				"Dried Vegetable": "color_green",
-				"Prunes": "color_dark_purple, dye_medium", 
-				"Raisins": "color_dark_red, dye_medium", 
-				
-				//drying rack goods
-				"Barley Malt": "color_brown", 
-				"Corn Malt": "color_brown", 
-				"Dried Flower": "color_dark_green", 
-				"Dried Herb": "color_dark_green", 
-				"Matcha Powder": "color_green, dye_strong", 
-				"Potpourri": "color_dark_pink", 
-				"Wheat Malt": "color_brown", 
-
-				//espresso machine goods
-				"Affogato": "color_dark_brown, dye_strong", 
-				"Caffè Latte": "color_dark_brown, dye_strong",
-				"Caffè Mocha": "color_dark_brown, dye_strong", 
-				"Caffè Pelicano": "color_brown, dye_strong", 
-				"Cappuccino": "color_dark_brown, dye_strong", 
-				"Hot Whiskey Coffee": "color_dark_brown, alcohol_item, dye_strong", 
-				"Macchiato": "color_brown, dye_strong", 
-				"Maple Macchiato": "color_brown, dye_strong", 
-				"Peppermint Mocha": "color_red, dye_strong", 
-				"Pumpkin Spice Latte": "color_orange, dye_strong", 
-				"Salted Caramel Mocha": "color_purple, dye_strong", 
-				"Toasted Coconut Mocha": "color_cyan, dye_strong", 
-				"Vanilla Latte": "color_white, dye_strong", 
-				
-				//extruder goods
-				"Beeswax": "color_sand", 
-				"Buckwheat Pasta": "color_brown", 
-				"Chewing Gum": "color_pink", 
-				"Rice Pasta": "color_white", 
-				"Semolina Pasta": "color_brown", 
-				"Tapioca Pearls": "color_black", 
-				"Wheat Pasta": "color_yellow", 
-				"Zoodles": "color_green", 
-
-				//fermenting jar goods
-				"Cucumber Kimchi": "color_dark_green, pickle_item", 
-				"Fish Sauce": "color_brown, dye_medium", 
-				"Garum": "color_brown, dye_medium", 
-				"Kimchi": "color_dark_green, pickle_item", 
-				"Miso Paste": "color_dark_yellow", 
-				"Natto": "color_dark_yellow", 
-				"Perilla Kimchi": "color_dark_green, pickle_item", 
-				"Pickled Ume": "color_pale_red_violet, pickle_item", 
-				"Red Sauerkraut": "color_pale_red_violet, pickle_item", 
-				"Sauerkraut": "color_dark_yellow, pickle_item", 
-				"Soy Sauce": "color_dark_brown, dye_strong", 
-
-				//glass jar goods
-				"Barley Kombucha": "color_black", 
-				"Berry Fusion Kombucha": "color_pale_red_violet",
-				"Black Kombucha": "color_black",
-				"Blue Mist Kombucha": "color_blue", 
-				"Breakfast Kombucha": "color_brown", 
-				"Camellia Kombucha": "color_green", 
-				"Chai Kombucha": "color_sand", 
-				"Chamomile Kombucha": "color_white", 
-				"Chanterelle Kombucha": "color_brown", 
-				"Cranberry Pomegranate Kombucha": "color_black",
-				"Dandelion Kombucha": "color_white", 
-				"Earl Grey Kombucha": "color_brown", 
-				"Green Kombucha": "color_green", 
-				"Jasmine Kombucha": "color_white",
-				"Kombucha": "color_brown", 
-				"Lemon Kombucha": "color_yellow", 
-				"Magma Kombucha": "color_dark_pink", 
-				"Matcha Kombucha": "color_green", 
-				"Mint Kombucha": "color_green", 
-				"Morel Kombucha": "color_brown", 
-				"Oolong Kombucha": "color_green", 
-				"Purple Kombucha": "color_purple", 
-				"Red Kombucha": "color_red", 
-				"Rose Kombucha": "color_pink", 
-				"Spiced Kombucha": "color_white", 
-				"Strawberry Grapefruit Kombucha": "color_pale_red_violet", 
-				"White Kombucha": "color_white", 
-
-				//grinder goods
-				"Applesauce": "color_dark_yellow", 
-				"Chili Powder": "color_dark_orange, dye_medium",
-				"Gelatin": "color_white", 
-				"Ground Herb": "color_brown", 
-				"Ground Vegetable": "color_dark_green",
-				"Ground Cumin": "color_brown", 
-				"Ground Nutmeg": "color_brown", 
-				"Ground Turmeric": "color_orange, dye_strong", 
-				"Lemon Peel": "color_yellow, dye_medium", 
-				"Lime Peel": "color_lime, dye_medium", 
-				"Orange Peel": "color_orange, dye_medium", 
-				"Paprika": "color_red", 
-				"Pepper": "color_black", 
-				"Saffron": "color_red, dye_medium", 
-				"Salt": "color_white", 
-				"Shrimp Paste": "color_dark_red, dye_strong", 
-				"Wasabi Paste": "color_green", 
-
-				//ice cream machine goods
-				"Amarena Ice Cream": "color_pink", 
-				"Banana Ice Cream": "color_yellow", 
-				"Blue Moon Ice Cream": "color_blue", 
-				"Cherry Ice Cream": "color_red", 
-				"Cherry Yogurt Ice Cream": "color_red", 
-				"Chocolate Ice Cream": "color_dark_brown", 
-				"Chunky Monkey Ice Cream": "color_brown", 
-				"Hazelnut Ice Cream": "color_brown", 
-				"Honey Lavender Ice Cream": "color_purple", 
-				"Lemon Sherbet": "color_yellow", 
-				"Lime Sherbert": "color_lime", 
-				"Mango Sherbert": "color_orange", 
-				"Matcha Ice Cream": "color_green", 
-				"Mint Chip Ice Cream": "color_jade",
-				"Neapolitan Ice Cream": "color_pink", 
-				"Orange Sherbert": "color_orange", 
-				"Pistachio Ice Cream": "color_green", 
-				"Prismatic Ice Cream": "color_prismatic", 
-				"Rainbow Sherbert": "color_orange", 
-				"Rum Raisin Ice Cream": "color_brown", 
-				"Strawberry Ice Cream": "color_red", 
-				"Vanilla Ice Cream": "color_white", 
-
-				//infuser goods
-				"Schnapps": "color_white, alcohol_item", 
-				"Apple Schnapps": "color_dark_yellow, alcohol_item", 
-				"Chocolate Liqueur": "color_dark_brown, alcohol_item", 
-				"Coffee Liqueur": "color_dark_brown, alcohol_item", 
-				"Mint Schnapps": "color_jade, alcohol_item", 
-				"Peach Schnapps": "color_dark_yellow, alcohol_item", 
-
-				//juicer goods
-				"Fruit Juice": "color_dark_pink, juice_item", 
-				"Lemonade": "color_yellow, juice_item", 
-				"Limeade": "color_lime, juice_item", 
-				"Orange Juice": "color_orange, juice_item", 
-
-				//keg goods
-				"Cauim": "color_brown, alcohol_item", 
-				"Dark Ale": "color_brown, alcohol_item", 
-				"Framboise Lambic": "color_dark_pink, alcohol_item", 
-				"Hard Apple Cider": "color_green, alcohol_item", 
-				"Kefir": "color_white, alcohol_item", 
-				"Kumis": "color_white, alcohol_item", 
-				"Lassi": "color_dark_yellow, alcohol_item", 
-				"Perry": "color_yellow, alcohol_item", 
-				"Porter": "color_brown, alcohol_item", 
-				"Prismatic Wine": "color_prismatic, alcohol_item, wine_item", 
-				"Pulque": "color_brown, alcohol_item", 
-				"Saké": "color_dark_green, alcohol_item", 
-				"Sparkling Wine": "color_cyan, alcohol_item", 
-				"Stout": "color_brown, alcohol_item", 
-				"Umeshu": "color_dark_yellow, alcohol_item", 
-				
-				//loom goods
-				"Copper Thread": "color_copper", 
-				"Gold Thread": "color_gold", 
-				"Iridium Thread": "color_iridium", 
-				"Silvery Thread": "color_iron", 
-				"Thread": "color_sand", 
-				"Twine": "color_sand", 
-				"Yarn": "color_sand", 
-
-				//mayonnaise machine goods
-				"Avocado Mayonnaise": "color_green, mayo_item", 
-				"BlackPepper Mayonnaise": "color_white, mayo_item", 
-				"Dill Mayonnaise": "color_yellow_green, mayo_item", 
-				"Garlic Mayonnaise": "color_dark_yellow, mayo_item", 
-				"OliveOil Mayonnaise": "color_yellow_green, mayo_item", 
-				"Spicy Mayonnaise": "color_orange, mayo_item", 
-				"Thunder Mayonnaise": "color_purple, mayo_item", 
-				"Wasabi Mayonnaise": "color_green, mayo_item", 
-
-				//mill goods
-				"Buckwheat Flour": "color_brown", 
-				"Corn Flour": "color_green", 
-				"Rice Flour": "color_blue", 
-				"Semolina Flour": "color_brown", 
-				"Tapioca Flour": "color_white", 
-				"Taro Flour": "color_purple, dye_medium", 
-
-				//oil maker goods
-				"Avocado Oil": "color_green", 
-				"Chili Oil": "color_red, dye_strong", 
-				"Coconut Oil": "color_white",
-				"Cottonseed Oil": "color_yellow", 
-				"Fish Oil": "color_yellow", 
-				"Olive Oil": "color_yellow", 
-				"Peanut Oil": "color_yellow", 
-				"Sesame Oil": "color_yellow", 
-
-				//smoker goods
-				"Roasted Garlic": "color_brown",
-				"Roasted Sunflower Seeds": "color_brown", 
-				"Smoked Cheese": "color_red", 
-				"Smoked Egg": "color_dark_brown", 
-				"Smoked Fish": "color_brown", 
-				"Smoked Salmon": "color_pink", 
-
-				//soap press goods
-				"Floral Soap": "color_sand", 
-				"Fruit Soap": "color_pink", 
-				"Herbal Soap": "color_sand", 
-				"Nutty Soap": "color_brown", 
-				"Prismatic Soap": "color_prismatic", 
-				"Tea Soap": "color_green", 
-
-				//sorbet machine goods
-				"Blueberry Sorbet": "color_dark_pink", 
-				"Dragon Fruit Sorbet": "color_white", 
-				"Mango Sorbet": "color_orange", 
-				"Orange Sorbet": "color_orange", 
-				"Pineapple Sorbet": "color_yellow", 
-				"Raspberry Dragon Fruit Sorbet": "color_pink", 
-				"Raspberry Sorbet": "color_pink", 
-				"Salmonberry Sorbet": "color_dark_pink",
-				"Strawberry Dragon Fruit Sorbet": "color_white", 
-				"Strawberry Sorbet": "color_pink", 
-				"Yuzu Sorbet": "color_white", 
-
-				//still goods
-				"Absinthe": "color_lime, alcohol_item", 
-				"Amaretto": "color_brown, alcohol_item", 
-				"Bitter": "color_white, alcohol_item", 
-				"Bourbon": "color_brown, alcohol_item", 
-				"Brandy": "color_brown, alcohol_item", 
-				"Campari": "color_brown, alcohol_item",  
-				"Chambord": "color_dark_pink, alcohol_item", 
-				"Cointreau": "color_brown, alcohol_item", 
-				"Crème de Cacao": "color_brown, alcohol_item", 
-				"Frangelico": "color_brown, alcohol_item", 
-				"Gin": "color_green, alcohol_item", 
-				"Mezcal": "color_yellow_green, alcohol_item", 
-				"Moonshine": "color_brown, alcohol_item", 
-				"Rum": "color_dark_orange, alcohol_item", 
-				"Scotch": "color_dark_yellow, alcohol_item", 
-				"Shochu": "color_white, alcohol_item",
-				"Tequila": "color_white, alcohol_item", 
-				"Vermouth": "color_green, alcohol_item", 
-				"Vodka": "color_white, alcohol_item",
-				"Whiskey": "color_brown, alcohol_item", 
-
-				//wax barrel goods
-				"Candles": "color_sand",
-				"Snack Cheeses": "color_red", 
-				"Wax Melts": "color_sand", 
-
-				//yogurt jar goods
-				"Fruit Yogurt": "color_pink", 
-				"Goat Yogurt": "color_blue",
-				"Yogurt": "color_white", 
-				
-				//purchasable goods
-				"Miso Starter": "color_sand", 
-				"Natto Starter": "color_sand", 
-				"Sesame Seeds": "color_white", 
-				
-				//custom forage, trees & misc
-				"Chicle Rubber": "color_brown", 
-				"Peppercorn": "color_green", 
-				"Sea Salt": "color_pink", 
-				"Sopadilla Seed": "color_dark_brown", 
-			}
-		},
-		
-		// add custom context tags, vanilla items
-		{
-			"Action": "EditData",
-			"Target": "Data/ObjectContextTags",
 			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Blueberry"],
+					"Value": "berry_item",
+					"Delimiter": ", "
+				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Ginger"],
@@ -321,7 +21,13 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Hazelnut"],
-					"Value": "nut_soap_item",
+					"Value": "nut_item, nut_soap_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Hot Pepper"],
+					"Value": "chili_item",
 					"Delimiter": ", "
 				},
 				{
@@ -334,6 +40,12 @@
 					"Operation": "Append",
 					"Target": ["Entries", "Common Mushroom"],
 					"Value": "mushroom_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Green Bean"],
+					"Value": "bean_item",
 					"Delimiter": ", "
 				},
 				{
@@ -358,6 +70,36 @@
 					"Operation": "Append",
 					"Target": ["Entries", "Red Mushroom"],
 					"Value": "mushroom_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Salmonberry"],
+					"Value": "berry_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Spice Berry"],
+					"Value": "berry_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Strawberry"],
+					"Value": "berry_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Sweet Gem Berry"],
+					"Value": "berry_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Wheat"],
+					"Value": "grain_item",
 					"Delimiter": ", "
 				}
 			]
