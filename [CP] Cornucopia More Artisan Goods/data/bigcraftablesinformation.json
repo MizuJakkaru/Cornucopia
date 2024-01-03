@@ -30,14 +30,6 @@
 					"SpriteIndex": 2
 				},
 				
-				"Cornucopia_Dehydrator": {
-					"Name": "Cornucopia_Dehydrator",
-					"DisplayName": "Dehydrator",
-					"Description": "Dehydrates fruits, mushrooms, and vegetables.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 3
-				},
-				
 				"Cornucopia_DryingRack": {
 					"Name": "Cornucopia_Drying Rack",
 					"DisplayName": "Drying Rack",
@@ -57,17 +49,9 @@
 				"Cornucopia_Extruder": {
 					"Name": "Cornucopia_Extruder",
 					"DisplayName": "Extruder",
-					"Description": "Turns flour into noodles and honey into wax!",
+					"Description": "Turns flour into noodles!",
 					"Texture": "Cornucopia.ArtisanGoods/Craftables",
 					"SpriteIndex": 6
-				},
-				
-				"Cornucopia_FermentingJar": {
-					"Name": "Cornucopia_Fermenting Jar",
-					"DisplayName": "Fermenting Jar",
-					"Description": "This stone jar is of a foreign design. It's used for a different fermentation process.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 7
 				},
 				
 				"Cornucopia_GlassJar": {

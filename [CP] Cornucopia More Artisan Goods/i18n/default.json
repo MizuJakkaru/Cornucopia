@@ -1,4 +1,5 @@
 {
+	// Use {0} to indicate where the flavor text will appear.
     "bitter": "{0} Bitter",
 	"canned-fish": "Canned {0}",
 	"canned-fruit": "Canned {0}",
