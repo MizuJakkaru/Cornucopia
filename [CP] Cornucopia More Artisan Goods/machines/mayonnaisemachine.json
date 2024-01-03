@@ -106,22 +106,6 @@
 						],
 					"MinutesUntilReady": 180,
 				},
-				"Cornucopia_ThunderMayonnaise": {
-					"Id": "Cornucopia_ThunderMayonnaise",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)558",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_ThunderMayonnaise",
-							}
-						],
-					"MinutesUntilReady": 1750,
-				},
 				"Cornucopia_WasabiMayonnaise": {
 					"Id": "Cornucopia_WasabiMayonnaise",
 					"Triggers": 

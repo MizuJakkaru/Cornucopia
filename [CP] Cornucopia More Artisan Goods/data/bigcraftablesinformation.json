@@ -81,7 +81,7 @@
 				"Cornucopia_Grinder": {
 					"Name": "Cornucopia_Grinder",
 					"DisplayName": "Grinder",
-					"Description": "Use it to grind produce into valuable goods and spices..",
+					"Description": "Use it to grind produce into valuable goods and spices.",
 					"Texture": "Cornucopia.ArtisanGoods/Craftables",
 					"SpriteIndex": 9
 				},

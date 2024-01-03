@@ -44,7 +44,7 @@
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)Cornucopia_AppleCider",
+								"RequiredItemId": "(O)613",
 							}
 						],
 					"OutputItem":
@@ -108,6 +108,22 @@
 							}
 						],
 					"MinutesUntilReady": 600,
+				},
+				{
+					"Id": "Cornucopia_Moonshine",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)270",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Moonshine",
+							}
+						],
+					"MinutesUntilReady": 1750,
 				},
 				"Cornucopia_Perry": {
 					"Id": "Cornucopia_Perry",
@@ -192,13 +208,13 @@
 			},
 			"MoveEntries": 
 				[
-					{ "Id": "Cornucopia_Cauim", "BeforeId": "Default_Juice" },
-					{ "Id": "Cornucopia_DarkAle", "BeforeId": "Default_Juice" },
+					{ "Id": "Cornucopia_Cauim", "BeforeId": "Default_Juice" },,
 					{ "Id": "Cornucopia_FramboiseLambic", "BeforeId": "Default_Wine" },
+					{ "Id": "Cornucopia_HardAppleCider", "BeforeId": "Default_Wine" },
+					{ "Id": "Cornucopia_Moonshine", "BeforeId": "Default_Juice" }
 					{ "Id": "Cornucopia_Perry", "BeforeId": "Default_Wine" },
 					{ "Id": "Cornucopia_Pulque", "BeforeId": "Default_Juice" },
 					{ "Id": "Cornucopia_Sake", "BeforeId": "Default_Juice" },
-					{ "Id": "Cornucopia_SparklingWine", "BeforeId": "Default_Wine" },
 					{ "Id": "Cornucopia_Umeshu", "BeforeId": "Default_Wine" }
 				]
 		}

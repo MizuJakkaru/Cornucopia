@@ -67,8 +67,9 @@
 											],
 										"MinutesUntilReady": 360,
 									},
+									//herbal soap, naming pattern unchanged
 									{
-										"Id": "Cornucopia_HerbalSoap",								//herbal soap, naming pattern unchanged
+										"Id": "Cornucopia_HerbalSoap",
 										"Triggers": 
 											[
 												{
@@ -95,8 +96,9 @@
 											],
 										"MinutesUntilReady": 360,
 									},
+									//naming pattern for camphor leaves
 									{
-										"Id": "Cornucopia_HerbalSoapCamphor",						//naming pattern for camphor leaves
+										"Id": "Cornucopia_HerbalSoapCamphor",
 										"Triggers": 
 											[
 												{
@@ -123,8 +125,9 @@
 											],
 										"MinutesUntilReady": 360,
 									},
+									//naming pattern for eucalyptus leaves
 									{
-										"Id": "Cornucopia_HerbalSoapEucalyptus",						//naming pattern for eucalyptus leaves
+										"Id": "Cornucopia_HerbalSoapEucalyptus",
 										"Triggers": 
 											[
 												{
@@ -151,8 +154,9 @@
 											],
 										"MinutesUntilReady": 360,
 									},
+									//naming pattern for melaleuca leaves
 									{
-										"Id": "Cornucopia_HerbalSoapMelaleuca",						//naming pattern for melaleuca leaves
+										"Id": "Cornucopia_HerbalSoapMelaleuca",
 										"Triggers": 
 											[
 												{
@@ -179,8 +183,9 @@
 											],
 										"MinutesUntilReady": 360,
 									},
+									//nutty soap, naming pattern unchanged
 									{
-										"Id": "Cornucopia_NuttySoap",								//nutty soap, naming pattern unchanged
+										"Id": "Cornucopia_NuttySoap",
 										"Triggers": 
 											[
 												{
@@ -207,8 +212,9 @@
 											],
 										"MinutesUntilReady": 360,
 									},
+									//naming pattern for cinnamon sticks
 									{
-										"Id": "Cornucopia_NuttySoapCinnamon",						//naming pattern for cinnamon sticks
+										"Id": "Cornucopia_NuttySoapCinnamon",
 										"Triggers": 
 											[
 												{
@@ -235,8 +241,9 @@
 											],
 										"MinutesUntilReady": 360,
 									},
+									//naming pattern for cocoa pod
 									{
-										"Id": "Cornucopia_NuttySoapCocoa",							//naming pattern for cocoa pod
+										"Id": "Cornucopia_NuttySoapCocoa",
 										"Triggers": 
 											[
 												{
@@ -263,8 +270,9 @@
 											],
 										"MinutesUntilReady": 360,
 									},
+									//naming pattern for oats
 									{
-										"Id": "Cornucopia_NuttySoapOat",								//naming pattern for oats
+										"Id": "Cornucopia_NuttySoapOat",
 										"Triggers": 
 											[
 												{

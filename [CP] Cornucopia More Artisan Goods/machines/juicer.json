@@ -64,7 +64,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "category_fruits", "!id_o_Cornucopia_lime", "!id_o_Cornucopia_lemon", "!id_o_635" ],
+													"RequiredTags":[ "category_fruits", "!id_o_cornucopia_lime", "!id_o_cornucopia_lemon", "!id_o_635" ],
 												}
 											],
 										"OutputItem":

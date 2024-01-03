@@ -16,7 +16,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)Cornucopia_Thread",
+													"RequiredItemId": "(O)Cornucopia_Twine",
 												}
 											],
 										"OutputItem":

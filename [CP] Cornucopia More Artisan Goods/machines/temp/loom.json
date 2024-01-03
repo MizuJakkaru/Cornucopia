@@ -1,0 +1,34 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)17", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_Twine": {
+					"Id": "Cornucopia_Twine",
+						"Triggers": 
+							[
+								{
+									"RequiredItemId": "(O)771",
+								},
+								{
+									"RequiredItemId": "(O)178",
+								}
+							],
+						"OutputItem":
+							[
+								{
+									"ItemId": "(O)Cornucopia_Twine",
+									"MinStack": 2,
+									"MaxStack": 4,
+								}
+							],
+						"MinutesUntilReady": 60,
+				}
+			}
+		}
+    ]
+}

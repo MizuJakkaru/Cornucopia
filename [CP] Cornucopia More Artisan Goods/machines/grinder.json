@@ -28,22 +28,6 @@
 										"MinutesUntilReady": 360,
 									},
 									{
-										"Id": "Cornucopia_CoconutMilk",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)88",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_CoconutMilk",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
 										"Id": "Cornucopia_ChiliPowder",
 										"Triggers": 
 											[
@@ -58,6 +42,22 @@
 												}
 											],
 										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "Cornucopia_CoconutMilk",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)88",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_CoconutMilk",
+												}
+											],
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "Cornucopia_Gelatin",
@@ -290,7 +290,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "herb_item", "!id_o_Cornucopia_cumin", "!id_o_Cornucopia_nutmeg", "!id_o_Cornucopia_turmeric" ],
+													"RequiredTags":[ "herb_item", "!id_o_cornucopia_cumin", "!id_o_cornucopia_nutmeg", "!id_o_cornucopia_turmeric" ],
 												}
 											],
 										"OutputItem":

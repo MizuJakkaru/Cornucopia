@@ -49,7 +49,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)Cornucopia_CornMalt",
+													"RequiredItemId": "(O)Cornucopia_Corn",
 												}
 											],
 										"OutputItem":
@@ -175,27 +175,11 @@
 										"MinutesUntilReady": 7200,
 									},
 									{
-										"Id": "Cornucopia_Moonshine",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)270",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_Moonshine",
-												}
-											],
-										"MinutesUntilReady": 1750,
-									},
-									{
 										"Id": "Cornucopia_Rum",
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)Cornucopia_SugarCane",
+													"RequiredItemId": "(O)Cornucopia_Sugarcane",
 												}
 											],
 										"OutputItem":
@@ -211,7 +195,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)Cornucopia_BarleyMalt",
+													"RequiredItemId": "(O)Cornucopia_Barley",
 												}
 											],
 										"OutputItem":
@@ -291,7 +275,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)Cornucopia_WheatMalt",
+													"RequiredItemId": "(O)Cornucopia_Wheat",
 												}
 											],
 										"OutputItem":

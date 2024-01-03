@@ -45,6 +45,22 @@
 										"MinutesUntilReady": 360,
 									},
 									{
+										"Id": "Cornucopia_VanillaYogurt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Vanilla",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_VanillaYogurt",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
 										"Id": "Cornucopia_Yogurt",
 										"Triggers": 
 											[
@@ -73,22 +89,6 @@
 												{
 													"ItemId": "(O)Cornucopia_Yogurt",
 													"Quality": 2,
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_VanillaYogurt",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Vanilla",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_VanillaYogurt",
 												}
 											],
 										"MinutesUntilReady": 360,

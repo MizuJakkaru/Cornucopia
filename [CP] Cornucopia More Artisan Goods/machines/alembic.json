@@ -97,7 +97,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "category_flowers", "!id_o_Cornucopia_vanilla" ],
+													"RequiredTags":[ "category_flowers", "!id_o_cornucopia_vanilla" ],
 												}
 											],
 										"OutputItem":
@@ -125,7 +125,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "category_fruits", "!id_o_Cornucopia_habanero", "!id_o_Cornucopia_jalapeno" ],
+													"RequiredTags":[ "category_fruits", "!id_o_cornucopia_habanero", "!id_o_cornucopia_jalapeno" ],
 												}
 											],
 										"OutputItem":
