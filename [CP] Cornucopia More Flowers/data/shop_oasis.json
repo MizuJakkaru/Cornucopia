@@ -10,7 +10,7 @@
 		"Cornucopia_LotusSeeds": {
 			"Id": "Cornucopia_LotusSeeds",
 			"ItemId": "Cornucopia_LotusSeeds",
-			"Price": 60,
+			//"Price": 60,
 			"IgnoreShopPriceModifiers": true
 		}
       },
@@ -30,20 +30,20 @@
 		"Cornucopia_FairyDusterSeeds": {
 			"Id": "Cornucopia_FairyDusterSeeds",
 			"ItemId": "Cornucopia_FairyDusterSeeds",
-			"Price": 25,
+			//"Price": 25,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_HibiscusSapling": {
 			"Id": "Cornucopia_HibiscusSapling",
 			"ItemId": "Cornucopia_HibiscusSapling",
-			"Price": 3000,
+			//"Price": 3000,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_YlangYlangSapling": {
 			"Id": "Cornucopia_YlangYlangSapling",
 			"ItemId": "Cornucopia_YlangYlangSapling",
 			"Condition": "YEAR 3",
-			"Price": 3000,
+			//"Price": 3000,
 			"IgnoreShopPriceModifiers": true
 		}
       },

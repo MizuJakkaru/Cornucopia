@@ -512,7 +512,7 @@
           "DisplayName": "{{i18n:Daikon_name}}",
           "Description": "{{i18n:Daikon_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 200,
+          "Price": 195,
           "Edibility": 18,
           "ContextTags": [
             "color_yellow_green"
@@ -1305,7 +1305,7 @@
           "DisplayName": "{{i18n:CarrotSeeds_name}}",
           "Description": "{{i18n:CarrotSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 17
+          "Price": 15
         },
         "Cornucopia_CottonBollSeeds": {
           "Name": "Cornucopia_CottonBollSeeds",
@@ -1345,7 +1345,7 @@
           "DisplayName": "{{i18n:LettuceSeeds_name}}",
           "Description": "{{i18n:LettuceSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 12
+          "Price": 10
         },
         "Cornucopia_OliveSeeds": {
           "Name": "Cornucopia_OliveSeeds",
@@ -1575,7 +1575,7 @@
           "DisplayName": "{{i18n:CassavaSeeds_name}}",
           "Description": "{{i18n:CassavaSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 27
+          "Price": 25
         },
         "Cornucopia_CelerySeeds": {
           "Name": "Cornucopia_CelerySeeds",
@@ -1615,7 +1615,7 @@
           "DisplayName": "{{i18n:DaikonSeeds_name}}",
           "Description": "{{i18n:DaikonSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 37
+          "Price": 70
         },
         "Cornucopia_DurumSeeds": {
           "Name": "Cornucopia_DurumSeeds",
@@ -1835,7 +1835,7 @@
           "DisplayName": "{{i18n:SpinachSeeds_name}}",
           "Description": "{{i18n:SpinachSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 7
+          "Price": 5
         },
         "Cornucopia_SugarBeetSeeds": {
           "Name": "Cornucopia_SugarBeetSeeds",
@@ -2016,7 +2016,7 @@
           "DisplayName": "{{i18n:LemongrassSeeds_name}}",
           "Description": "{{i18n:LemongrassSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 12
+          "Price": 10
         },
         "Cornucopia_LicoriceRootSeeds": {
           "Name": "Cornucopia_LicoriceRootSeeds",
@@ -2066,7 +2066,7 @@
           "DisplayName": "{{i18n:ParsleySeeds_name}}",
           "Description": "{{i18n:ParsleySeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 12
+          "Price": 10
         },
         "Cornucopia_PerillaLeavesSeeds": {
           "Name": "Cornucopia_PerillaLeavesSeeds",
@@ -2106,7 +2106,7 @@
           "DisplayName": "{{i18n:TarragonSeeds_name}}",
           "Description": "{{i18n:TarragonSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 17
+          "Price": 15
         },
         "Cornucopia_ThymeSeeds": {
           "Name": "Cornucopia_ThymeSeeds",

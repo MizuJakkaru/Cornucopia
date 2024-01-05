@@ -216,7 +216,7 @@
           "DisplayName": "{{i18n:Buttercup_name}}",
           "Description": "{{i18n:Buttercup_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 20,
+          "Price": 25,
           "ContextTags": [
             "color_yellow",
             "season_summer",
@@ -279,7 +279,7 @@
           "DisplayName": "{{i18n:Chamomile_name}}",
           "Description": "{{i18n:Chamomile_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 40,
+          "Price": 35,
           "Edibility": 18,
           "ContextTags": [
             "color_white",
@@ -342,7 +342,7 @@
           "DisplayName": "{{i18n:Daisy_name}}",
           "Description": "{{i18n:Daisy_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 20,
+          "Price": 15,
           "Edibility": 18,
           "ContextTags": [
             "color_white",
@@ -849,7 +849,7 @@
           "DisplayName": "{{i18n:ButtercupSeeds_name}}",
           "Description": "{{i18n:ButtercupSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 7
+          "Price": 10
         },
         "Cornucopia_CalicoRoseSeeds": {
           "Name": "Cornucopia_CalicoRoseSeeds",
@@ -889,7 +889,7 @@
           "DisplayName": "{{i18n:ChamomileSeeds_name}}",
           "Description": "{{i18n:ChamomileSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 12
+          "Price": 10
         },
         "Cornucopia_ClarySageSeeds": {
           "Name": "Cornucopia_ClarySageSeeds",
@@ -929,7 +929,7 @@
           "DisplayName": "{{i18n:DaisySeeds_name}}",
           "Description": "{{i18n:DaisySeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 7
+          "Price": 5
         },
         "Cornucopia_FairyDusterSeeds": {
           "Name": "Cornucopia_FairyDusterSeeds",
@@ -939,7 +939,7 @@
           "DisplayName": "{{i18n:FairyDusterSeeds_name}}",
           "Description": "{{i18n:FairyDusterSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 12
+          "Price": 10
         },
         "Cornucopia_RoseFallSeeds": {
           "Name": "Cornucopia_RoseFallSeeds",
@@ -1089,7 +1089,7 @@
           "DisplayName": "{{i18n:PurpleConeflowerSeeds_name}}",
           "Description": "{{i18n:PurpleConeflowerSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 17
+          "Price": 15
         },
         "Cornucopia_RafflesiaSeeds": {
           "Name": "Cornucopia_RafflesiaSeeds",
@@ -1149,7 +1149,7 @@
           "DisplayName": "{{i18n:WolfsbaneSeeds_name}}",
           "Description": "{{i18n:WolfsbaneSeeds_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 27
+          "Price": 25
         }
       }
     },

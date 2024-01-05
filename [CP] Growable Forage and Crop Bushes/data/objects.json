@@ -72,7 +72,7 @@
 			"Displayname": "{{i18n:CrocusSeeds_name}}",
 			"Description": "{{i18n:CrocusSeeds_description}}",
 			"Texture": "Cornucopia.GrowableForage/objects",
-			"Price": 17,
+			"Price": 15,
 		},
       }
     },
