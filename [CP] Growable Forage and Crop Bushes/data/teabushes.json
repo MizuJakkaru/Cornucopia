@@ -8,7 +8,7 @@
 			"When": 
 				{
 					"HasMod": "furyx639.CustomBush",
-					"Common Mushroom Crop": true
+					"Common Mushroom Planter": true
 				},
 			"Entries": {
 				"(O)Cornucopia_CommonMushroomSeeds": {
@@ -37,7 +37,7 @@
 			"When": 
 				{
 					"HasMod": "furyx639.CustomBush",
-					"Morel Crop": true
+					"Morel Planter": true
 				},
 			"Entries": {
 				"(O)Cornucopia_MorelSeeds": {
@@ -67,7 +67,7 @@
 			"When": 
 				{
 					"HasMod": "furyx639.CustomBush",
-					"Chanterelle Crop": true
+					"Chanterelle Planter": true
 				},
 			"Entries": {
 				"(O)Cornucopia_ChanterelleSeeds": {
@@ -97,7 +97,7 @@
 			"When": 
 				{
 					"HasMod": "furyx639.CustomBush",
-					"Salmonberry Crop": true
+					"Salmonberry Bush": true
 				},
 			"Entries": {
 				"(O)Cornucopia_SalmonberrySeeds": {
@@ -127,7 +127,7 @@
 			"When": 
 				{
 					"HasMod": "furyx639.CustomBush",
-					"Blackberry Crop": true
+					"Blackberry Bush": true
 				},
 			"Entries": {
 				"(O)Cornucopia_BlackberrySeeds": {
@@ -157,7 +157,7 @@
 			"When": 
 				{
 					"HasMod": "furyx639.CustomBush",
-					"Holly Crop": true
+					"Holly Bush": true
 				},
 			"Entries": {
 				"(O)Cornucopia_HollySeeds": {

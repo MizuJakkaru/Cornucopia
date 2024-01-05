@@ -21,32 +21,32 @@
 			"Default": "true",
 			"Description": "Adds a crop for crocus flowers."
 		},
-		"Common Mushroom Crop": {
+		"Common Mushroom Planter": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds a 'bush' crop for common mushrooms (if you have Custom Bush installed)."
 		},
-		"Morel Crop": {
+		"Morel Planter": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds a 'bush' crop for morels (if you have Custom Bush installed)."
 		},
-		"Chanterelle Crop": {
+		"Chanterelle Planter": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds a 'bush' crop for chanterelles (if you have Custom Bush installed)."
 		},
-		"Salmonberry Crop": {
+		"Salmonberry Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds a bush crop for salmonberries (if you have Custom Bush installed)."
 		},
-		"Blackberry Crop": {
+		"Blackberry Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds a bush crop for salmonberries (if you have Custom Bush installed)."
 		},
-		"Holly Crop": {
+		"Holly Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Adds a bush crop for holly (if you have Custom Bush installed)."
