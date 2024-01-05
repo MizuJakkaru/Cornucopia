@@ -57,7 +57,7 @@
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_BlackberrySeeds", "BeforeId": "GrassStarter" }
+			{ "Id": "Cornucopia_BlackberrySeeds", "BeforeId": "(O)628" }
 		]
     },
 	{
