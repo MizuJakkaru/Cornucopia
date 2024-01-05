@@ -307,7 +307,7 @@
 				},
 			"Entries": {
 				"(O)301": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
 					"ItemsProduced": [

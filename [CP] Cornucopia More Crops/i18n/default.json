@@ -175,7 +175,7 @@
   "BasilSeeds_name": "Basil Seeds",
   "BasilSeeds_description": "Plant these in spring. Takes 5 days to mature.",
   "BellPepperSeeds_name": "Bell Pepper Seeds",
-  "BellPepperSeeds_description": "Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest.",
+  "BellPepperSeeds_description": "Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.",
   "BroccoliSeeds_name": "Broccoli Seeds",
   "BroccoliSeeds_description": "Plant these in fall. Takes 13 days to mature.",
   "CarrotSeeds_name": "Carrot Seeds",
@@ -258,7 +258,7 @@
   "HoneydewSeeds_name": "Honeydew Seeds",
   "HoneydewSeeds_description": "Plant these in summer. Takes 8 days to mature.",
   "JalapenoSeeds_name": "Jalapeño Seeds",
-  "JalapenoSeeds_description": "Plant these in fall. Takes 8 days to mature, and continues to produce after the first harvest.",
+  "JalapenoSeeds_description": "Plant these in spring. Takes 8 days to mature, and continues to produce after the first harvest.",
   "JuniperBerriesSeeds_name": "Juniper Sapling",
   "JuniperBerriesSeeds_description": "Takes 20 days to mature into a bush. Produces elderberries every 3 days in winter.",
   "KidneyBeansSeeds_name": "Kidney Bean Starter",
@@ -292,7 +292,7 @@
   "WasabiRootSeeds_name": "Wasabi Tuber",
   "WasabiRootSeeds_description": "Plant these in summer. Takes 8 days to mature.",
   "WhiteGrapeSeeds_name": "White Grape Planter",
-  "WhiteGrapeSeeds_description": "Takes 16 days to mature into a bush. Produces grapes every other day in fall. No watering necessary!",
+  "WhiteGrapeSeeds_description": "Takes 16 days to mature into a bush. Produces grapes every other day in fall.",
   "YellowSquashSeeds_name": "Yellow Squash Seeds",
   "YellowSquashSeeds_description": "Plant these in summer. Takes 14 days to mature, and continues to produce after the first harvest.",
   
@@ -485,7 +485,7 @@
   //Vanilla changes
   "Cloth_description": "A bolt of fine cloth.",
   "GrapeSeeds_name": "Grape Planter",
-  "GrapeSeeds_description": "Takes 20 days to mature. Produces grapes every other day in fall. No watering necessary!",
+  "GrapeSeeds_description": "Takes 16 days to mature into a bush. Produces grapes every other day in fall.",
   
   //Special name/descriptions for Disable Grape Bushes: True
   "WhiteGrapeSeeds_name2": "White Grape Starter",

@@ -56,7 +56,7 @@
 				},
 			"Entries": {
 				"(O)301": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
 					"ItemsProduced": [
@@ -224,7 +224,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_WhiteGrapeSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
 					"ItemsProduced": [
