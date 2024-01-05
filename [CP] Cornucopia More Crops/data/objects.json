@@ -2994,8 +2994,8 @@
 			"Duration": 45
 		  },
           "ContextTags": [
-            "color_brown,
-			alcohol_item"
+            "color_brown",
+			"alcohol_item"
           ]
         },
 		"Cornucopia_Porter": {
@@ -3014,8 +3014,8 @@
 			"Duration": 45
 		  },
           "ContextTags": [
-            "color_brown,
-			alcohol_item"
+            "color_brown",
+			"alcohol_item"
           ]
         },
 		"Cornucopia_SemolinaFlour": {
@@ -3048,8 +3048,8 @@
 			"Duration": 45
 		  },
           "ContextTags": [
-            "color_cyan,
-			alcohol_item"
+            "color_cyan",
+			"alcohol_item"
           ]
         },
 		"Cornucopia_Stout": {
@@ -3068,8 +3068,8 @@
 			"Duration": 45
 		  },
           "ContextTags": [
-            "color_brown,
-			alcohol_item"
+            "color_brown",
+			"alcohol_item"
           ]
         },
 		"Cornucopia_TapiocaFlour": {
