@@ -14,7 +14,7 @@
 					"SpriteIndex": 76,
 				},
 				"Cornucopia_BellPepperSeeds": {
-					"Seasons": [ "fall" ],
+					"Seasons": [ "summer" ],
 					"DaysInPhase": [ 1, 2, 3, 2, 2 ],
 					"HarvestItemId": "Cornucopia_BellPepper",
 					"Texture": "Cornucopia.MoreCrops/Crops",
@@ -344,7 +344,7 @@
 					"SpriteIndex": 39
 				},
 				"Cornucopia_JalapenoSeeds": {
-					"Seasons": [ "fall" ],
+					"Seasons": [ "spring" ],
 					"DaysInPhase": [ 1, 2, 1, 2, 2 ],
 					"HarvestItemId": "Cornucopia_Jalapeno",
 					"Texture": "Cornucopia.MoreCrops/Crops",

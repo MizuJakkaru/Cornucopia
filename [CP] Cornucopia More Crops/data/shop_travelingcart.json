@@ -1,0 +1,21 @@
+{
+  "Changes": [
+	//Essential seeds & saplings
+    {
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "Traveler", "Items" ],
+      //"When": {"Enable Essential Pack": true},
+      "Entries": {
+		"Cornucopia_Soybeans": {
+			"Id": "Cornucopia_Soybeans",
+			"ItemId": "Cornucopia_Soybeans",
+			"Condition": "SYNCED_RANDOM day cart_soy_bean 0.25",
+			"IgnoreShopPriceModifiers": true,
+			"Price": 500,
+			"AvailableStock": 1,			
+		}
+      }
+    },
+  ]
+}

@@ -10,7 +10,7 @@
 		"Cornucopia_LotusSeeds": {
 			"Id": "Cornucopia_LotusSeeds",
 			"ItemId": "Cornucopia_LotusSeeds",
-			"Price": 60,
+			//"Price": 60,
 			"IgnoreShopPriceModifiers": true
 		}
       },
@@ -27,27 +27,46 @@
         "Enable Extended Flowers Pack": true
       },
 	  "Entries": {
+		"Cornucopia_CalicoRoseSeeds": {
+			"Id": "Cornucopia_CalicoRoseSeeds",
+			"ItemId": "Cornucopia_CalicoRoseSeeds",
+			//"Price": 25,
+			"IgnoreShopPriceModifiers": true
+		},
 		"Cornucopia_FairyDusterSeeds": {
 			"Id": "Cornucopia_FairyDusterSeeds",
 			"ItemId": "Cornucopia_FairyDusterSeeds",
-			"Price": 25,
+			//"Price": 25,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_HibiscusSapling": {
 			"Id": "Cornucopia_HibiscusSapling",
 			"ItemId": "Cornucopia_HibiscusSapling",
-			"Price": 3000,
-			"IgnoreShopPriceModifiers": true
+			"IgnoreShopPriceModifiers": true,
+			//"Price": 3000,
+			"PriceModifiers": [
+				{
+					"Modification": "Multiply",
+					"Amount": 2.0
+				}
+			]
 		},
 		"Cornucopia_YlangYlangSapling": {
 			"Id": "Cornucopia_YlangYlangSapling",
 			"ItemId": "Cornucopia_YlangYlangSapling",
 			"Condition": "YEAR 3",
-			"Price": 3000,
-			"IgnoreShopPriceModifiers": true
+			//"Price": 3000,
+			"IgnoreShopPriceModifiers": true,
+			"PriceModifiers": [
+				{
+					"Modification": "Multiply",
+					"Amount": 2.0
+				}
+			]
 		}
       },
 	  "MoveEntries": [
+			{ "Id": "Cornucopia_CalicoRoseSeeds", "AfterId": "(O)802" },
 			{ "Id": "Cornucopia_FairyDusterSeeds", "AfterId": "(O)494" },
 			{ "Id": "Cornucopia_HibiscusSapling", "BeforeId": "(BC)196" },
 			{ "Id": "Cornucopia_YlangYlangSapling", "BeforeId": "(BC)196" }

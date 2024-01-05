@@ -56,12 +56,12 @@
 				},
 			"Entries": {
 				"(O)301": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
 					"ItemsProduced": [
 						{
-							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"Condition": "DAY_OF_MONTH even",
 							"ItemId": "(O)398",
 							"Chance": 1.0,
 							"MinStack": 1,
@@ -224,12 +224,12 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_WhiteGrapeSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
 					"ItemsProduced": [
 						{
-							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
+							"Condition": "DAY_OF_MONTH even",
 							"ItemId": "(O)Cornucopia_WhiteGrape",
 							"Chance": 1.0,
 							"MinStack": 1,

@@ -12,7 +12,7 @@
 			"Id": "Cornucopia_SpringOnionSeeds",
 			"ItemId": "Cornucopia_SpringOnionSeeds",
 			"Condition": "SEASON spring",
-			"Price": 20,
+			//"Price": 20,
 			"IgnoreShopPriceModifiers": true
 		}
       },
@@ -25,19 +25,19 @@
 	  "Target": "Data/Shops",
       "TargetField": [ "SeedShop", "Items" ],
       "When": {
-        "Salmonberry Crop": true
+        "Salmonberry Bush": true
       },
       "Entries": {
 		"Cornucopia_SalmonberrySeeds": {
 			"Id": "Cornucopia_SalmonberrySeeds",
 			"ItemId": "Cornucopia_SalmonberrySeeds",
 			"Condition": "SEASON spring, YEAR 2",
-			"Price": 900,
+			//"Price": 900,
 			"IgnoreShopPriceModifiers": true
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_SalmonberrySeeds", "BeforeId": "GrassStarter" }
+			{ "Id": "Cornucopia_SalmonberrySeeds", "BeforeId": "(O)628" }
 		]
     },
 	{
@@ -45,19 +45,19 @@
 	  "Target": "Data/Shops",
       "TargetField": [ "SeedShop", "Items" ],
       "When": {
-        "Blackberry Crop": true
+        "Blackberry Bush": true
       },
       "Entries": {
 		"Cornucopia_BlackberrySeeds": {
 			"Id": "Cornucopia_BlackberrySeeds",
 			"ItemId": "Cornucopia_BlackberrySeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 950,
+			//"Price": 950,
 			"IgnoreShopPriceModifiers": true
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_BlackberrySeeds", "BeforeId": "GrassStarter" }
+			{ "Id": "Cornucopia_BlackberrySeeds", "BeforeId": "(O)628" }
 		]
     },
 	{
@@ -72,7 +72,7 @@
 			"Id": "Cornucopia_SweetPeaSeeds",
 			"ItemId": "Cornucopia_SweetPeaSeeds",
 			"Condition": "SEASON spring, YEAR 3",
-			"Price": 30,
+			//"Price": 30,
 			"IgnoreShopPriceModifiers": true
 		}
       },
@@ -92,7 +92,7 @@
 			"Id": "Cornucopia_CrocusSeeds",
 			"ItemId": "Cornucopia_CrocusSeeds",
 			"Condition": "SEASON winter, YEAR 3",
-			"Price": 35,
+			//"Price": 35,
 			"IgnoreShopPriceModifiers": true
 		}
       },
@@ -105,19 +105,19 @@
 	  "Target": "Data/Shops",
       "TargetField": [ "SeedShop", "Items" ],
       "When": {
-        "Holly Crop": true
+        "Holly Bush": true
       },
       "Entries": {
 		"Cornucopia_HollySeeds": {
 			"Id": "Cornucopia_HollySeeds",
 			"ItemId": "Cornucopia_HollySeeds",
 			"Condition": "SEASON winter, YEAR 3",
-			"Price": 1000,
+			//"Price": 1000,
 			"IgnoreShopPriceModifiers": true
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_HollySeeds", "BeforeId": "GrassStarter" }
+			{ "Id": "Cornucopia_HollySeeds", "BeforeId": "(O)628" }
 		]
     },
 	{
@@ -132,7 +132,7 @@
 			"Id": "Cornucopia_HazelnutSapling",
 			"ItemId": "Cornucopia_HazelnutSapling",
 			"Condition": "YEAR 3",
-			"Price": 3500,
+			//"Price": 3500,
 			"IgnoreShopPriceModifiers": true
 		}
       },

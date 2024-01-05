@@ -9,12 +9,6 @@
         "Enable Extended Crops Pack": true
       },
       "Entries": {
-		"Cornucopia_ChickenoftheWoodsSeeds": {
-			"Id": "Cornucopia_ChickenoftheWoodsSeeds",
-			"ItemId": "Cornucopia_ChickenoftheWoodsSeeds",
-			"Price": 1200,
-			"IgnoreShopPriceModifiers": true
-		},
 		"Cornucopia_GinsengSeeds": {
 			"Id": "Cornucopia_GinsengSeeds",
 			"ItemId": "Cornucopia_GinsengSeeds",
@@ -22,24 +16,30 @@
 			"TradeItemAmount": 4,
 			"IgnoreShopPriceModifiers": true
 		},
+		"Cornucopia_ChickenoftheWoodsSeeds": {
+			"Id": "Cornucopia_ChickenoftheWoodsSeeds",
+			"ItemId": "Cornucopia_ChickenoftheWoodsSeeds",
+			//"Price": 1200,
+			"IgnoreShopPriceModifiers": true
+		},
 		"Cornucopia_ShiitakeSeeds": {
 			"Id": "Cornucopia_ShiitakeSeeds",
 			"ItemId": "Cornucopia_ShiitakeSeeds",
-			"Price": 1000,
+			//"Price": 1000,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_SapodillaSeed": {
 			"Id": "Cornucopia_SapodillaSeed",
 			"ItemId": "Cornucopia_SapodillaSeed",
-			"Price": 100,
+			//"Price": 100,
 			"IgnoreShopPriceModifiers": true
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_ChickenoftheWoodsSeeds", "BeforeId": "(O)773" },
 			{ "Id": "Cornucopia_GinsengSeeds", "BeforeId": "(O)773" },
+			{ "Id": "Cornucopia_ChickenoftheWoodsSeeds", "BeforeId": "(O)773" },
 			{ "Id": "Cornucopia_ShiitakeSeeds", "BeforeId": "(O)773" },
-			{ "Id": "Cornucopia_SapodillaSeed", "BeforeId": "(O)243" }
+			{ "Id": "Cornucopia_SapodillaSeed", "BeforeId": "(O)286" }
 		]
     },
   ]

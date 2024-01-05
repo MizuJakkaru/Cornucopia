@@ -39,5 +39,5 @@
 	"HopsSeeds_name": "Hops Planter",
 	"HopsSeeds_description": "Takes 16 days to mature into a bush. Produces hops every day during summer.",	
 	"GrapeSeeds_name": "Grape Planter",
-	"GrapeSeeds_description": "Takes 20 days to mature into a bush. Produces grapes every 3 days in fall.",	
+	"GrapeSeeds_description": "Takes 16 days to mature into a bush. Produces grapes every other day in fall.",	
 }
