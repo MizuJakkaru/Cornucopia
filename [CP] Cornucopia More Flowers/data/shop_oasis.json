@@ -50,7 +50,7 @@
 			"ItemId": "Cornucopia_YlangYlangSapling",
 			"Condition": "YEAR 3",
 			//"Price": 3000,
-			"IgnoreShopPriceModifiers": true
+			"IgnoreShopPriceModifiers": true,
 			"PriceModifiers": [
 				{
 					"Modification": "Multiply",

@@ -587,7 +587,7 @@
 		"Cornucopia_MintSeeds": {
 			"Id": "Cornucopia_MintSeeds",
 			"ItemId": "Cornucopia_MintSeeds",
-			"Condition": "SEASON winter, YEAR 2",
+			"Condition": "SEASON winter",
 			"IgnoreShopPriceModifiers": true,//"Price": 30,
 			
 		},

@@ -1,10 +1,11 @@
 {
 	"Changes": [
-		// Add Letter from Pierre notifying of Flower Catalogue
+		// Add Letter
 		{
 			"Action": "EditData",
 			"Target": "Data/Mail",
 			"Entries": {
+				"Cornucopia_PierreY1WinterCrops": "Hi @,^I just wanted to let you know that even though it's winter, there are still a few things you can grow. Come check out what's in stock or plant a sapling to grow for the coming new year!^-Pierre[#]Winter Crops Available",
 				"Cornucopia_MarnieY2Herbs": "Hi @,^It's the start of a new year and I thought I would let you know that I have a new kind of tree in stock. It has a very pleasant smell and I have found that my animals are calmed by it. Please come by and check out the stock when you have a chance!^-Marnie[#]New Sapling Available"
 			}
 		},
@@ -15,6 +16,16 @@
 			"When": {"Enable Herbs Pack": true},
 			"Entries": {
 				"Cornucopia_SendMarnieY2Herbs/dayofweek monday/season spring/year 2/sendmail Cornucopia_MarnieY2Herbs": "null"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"When": {
+				"Query: {{Enable Extended Crops Pack}} OR {{Enable Herbs Pack}}": true
+			},
+			"Entries": {
+				"Cornucopia_SendPierreY1WinterCrops/dayofmonth 28/season fall/year 1/sendmail Cornucopia_PierreY1WinterCrops": "null"
 			}
 		}
 	]
