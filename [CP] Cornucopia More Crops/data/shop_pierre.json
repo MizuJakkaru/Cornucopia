@@ -11,105 +11,105 @@
 			"Id": "Cornucopia_BasilSeeds",
 			"ItemId": "Cornucopia_BasilSeeds",
 			"Condition": "SEASON spring, YEAR 2",
-			"Price": 20,
+			"IgnoreShopPriceModifiers": true,//"Price": 20,
 			
 		},
 		"Cornucopia_BellPepperSeeds": {
 			"Id": "Cornucopia_BellPepperSeeds",
 			"ItemId": "Cornucopia_BellPepperSeeds",
 			"Condition": "SEASON fall",
-			"Price": 130,
+			"IgnoreShopPriceModifiers": true,//"Price": 130,
 			
 		},
 		"Cornucopia_BroccoliSeeds": {
 			"Id": "Cornucopia_BroccoliSeeds",
 			"ItemId": "Cornucopia_BroccoliSeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_CarrotSeeds": {
 			"Id": "Cornucopia_CarrotSeeds",
 			"ItemId": "Cornucopia_CarrotSeeds",
 			"Condition": "SEASON fall",
-			"Price": 35,
+			"IgnoreShopPriceModifiers": true,//"Price": 35,
 			
 		},
 		"Cornucopia_CottonBollSeeds": {
 			"Id": "Cornucopia_CottonBollSeeds",
 			"ItemId": "Cornucopia_CottonBollSeeds",
 			"Condition": "SEASON summer fall",
-			"Price": 200,
+			"IgnoreShopPriceModifiers": true,//"Price": 200,
 			
 		},
 		"Cornucopia_CucumberSeeds": {
 			"Id": "Cornucopia_CucumberSeeds",
 			"ItemId": "Cornucopia_CucumberSeeds",
 			"Condition": "SEASON summer, YEAR 2",
-			"Price": 100,
+			"IgnoreShopPriceModifiers": true,//"Price": 100,
 			
 		},
 		"Cornucopia_KiwiSeeds": {
 			"Id": "Cornucopia_KiwiSeeds",
 			"ItemId": "Cornucopia_KiwiSeeds",
 			"Condition": "SEASON summer",
-			"Price": 300,
+			"IgnoreShopPriceModifiers": true,//"Price": 300,
 			
 		},
 		"Cornucopia_LettuceSeeds": {
 			"Id": "Cornucopia_LettuceSeeds",
 			"ItemId": "Cornucopia_LettuceSeeds",
 			"Condition": "SEASON summer",
-			"Price": 25,
+			"IgnoreShopPriceModifiers": true,//"Price": 25,
 			
 		},
 		"Cornucopia_OliveSeeds": {
 			"Id": "Cornucopia_OliveSeeds",
 			"ItemId": "Cornucopia_OliveSeeds",
 			//"Condition": "SEASON fall",
-			"Price": 2000,
+			"IgnoreShopPriceModifiers": true,//"Price": 2000,
 			
 		},
 		"Cornucopia_OnionSeeds": {
 			"Id": "Cornucopia_OnionSeeds",
 			"ItemId": "Cornucopia_OnionSeeds",
 			"Condition": "SEASON spring",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_PeanutSeeds": {
 			"Id": "Cornucopia_PeanutSeeds",
 			"ItemId": "Cornucopia_PeanutSeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 60,
+			"IgnoreShopPriceModifiers": true,//"Price": 60,
 			
 		},
 		"Cornucopia_RaspberrySeeds": {
 			"Id": "Cornucopia_RaspberrySeeds",
 			"ItemId": "Cornucopia_RaspberrySeeds",
 			"Condition": "YEAR 2",
-			"Price": 950,
+			"IgnoreShopPriceModifiers": true,//"Price": 950,
 			
 		},
 		"Cornucopia_Soybeans": {
 			"Id": "Cornucopia_Soybeans",
 			"ItemId": "Cornucopia_Soybeans",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 120,
+			"IgnoreShopPriceModifiers": true,//"Price": 120,
 			
 		},
 		"Cornucopia_WatermelonSeeds": {
 			"Id": "Cornucopia_WatermelonSeeds",
 			"ItemId": "Cornucopia_WatermelonSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 300,
+			"IgnoreShopPriceModifiers": true,//"Price": 300,
 			
 		},
 		"Cornucopia_ZucchiniSeeds": {
 			"Id": "Cornucopia_ZucchiniSeeds",
 			"ItemId": "Cornucopia_ZucchiniSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 50,
+			"IgnoreShopPriceModifiers": true,//"Price": 50,
 			
 		}
       },
@@ -144,272 +144,272 @@
 			"Id": "Cornucopia_AdzukiBeanSeeds",
 			"ItemId": "Cornucopia_AdzukiBeanSeeds",
 			"Condition": "SEASON summer",
-			"Price": 100,
+			"IgnoreShopPriceModifiers": true,//"Price": 100,
 			
 		},
 		"Cornucopia_AsparagusSeeds": {
 			"Id": "Cornucopia_AsparagusSeeds",
 			"ItemId": "Cornucopia_AsparagusSeeds",
 			"Condition": "SEASON summer, YEAR 3",
-			"Price": 60,
+			"IgnoreShopPriceModifiers": true,//"Price": 60,
 			
 		},
 		"Cornucopia_BambooSeeds": {
 			"Id": "Cornucopia_BambooSeeds",
 			"ItemId": "Cornucopia_BambooSeeds",
 			"Condition": "SEASON spring summer, YEAR 3",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_BarleySeeds": {
 			"Id": "Cornucopia_BarleySeeds",
 			"ItemId": "Cornucopia_BarleySeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 10,
+			"IgnoreShopPriceModifiers": true,//"Price": 10,
 			
 		},
 		"Cornucopia_BlackBeansSeeds": {
 			"Id": "Cornucopia_BlackBeansSeeds",
 			"ItemId": "Cornucopia_BlackBeansSeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 60,
+			"IgnoreShopPriceModifiers": true,//"Price": 60,
 			
 		},
 		"Cornucopia_BlackCurrantsSeeds": {
 			"Id": "Cornucopia_BlackCurrantsSeeds",
 			"ItemId": "Cornucopia_BlackCurrantsSeeds",
 			"Condition": "YEAR 2",
-			"Price": 1100,
+			"IgnoreShopPriceModifiers": true,//"Price": 1100,
 			
 		},
 		"Cornucopia_BuckwheatSeeds": {
 			"Id": "Cornucopia_BuckwheatSeeds",
 			"ItemId": "Cornucopia_BuckwheatSeeds",
 			"Condition": "SEASON spring, YEAR 2",
-			"Price": 10,
+			"IgnoreShopPriceModifiers": true,//"Price": 10,
 			
 		},
 		"Cornucopia_ButternutSquashSeeds": {
 			"Id": "Cornucopia_ButternutSquashSeeds",
 			"ItemId": "Cornucopia_ButternutSquashSeeds",
 			"Condition": "SEASON summer, YEAR 3",
-			"Price": 180,
+			"IgnoreShopPriceModifiers": true,//"Price": 180,
 			
 		},
 		"Cornucopia_CabbageSeeds": {
 			"Id": "Cornucopia_CabbageSeeds",
 			"ItemId": "Cornucopia_CabbageSeeds",
 			"Condition": "SEASON spring",
-			"Price": 70,
+			"IgnoreShopPriceModifiers": true,//"Price": 70,
 			
 		},
 		"Cornucopia_CanaryMelonSeeds": {
 			"Id": "Cornucopia_CanaryMelonSeeds",
 			"ItemId": "Cornucopia_CanaryMelonSeeds",
 			"Condition": "SEASON spring, YEAR 2",
-			"Price": 450,
+			"IgnoreShopPriceModifiers": true,//"Price": 450,
 			
 		},
 		"Cornucopia_CanolaFlowerSeeds": {
 			"Id": "Cornucopia_CanolaFlowerSeeds",
 			"ItemId": "Cornucopia_CanolaFlowerSeeds",
 			"Condition": "SEASON spring summer, YEAR 3",
-			"Price": 100,
+			"IgnoreShopPriceModifiers": true,//"Price": 100,
 			
 		},
 		"Cornucopia_CantaloupeSeeds": {
 			"Id": "Cornucopia_CantaloupeSeeds",
 			"ItemId": "Cornucopia_CantaloupeSeeds",
 			"Condition": "SEASON spring, YEAR 2",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_CassavaSeeds": {
 			"Id": "Cornucopia_CassavaSeeds",
 			"ItemId": "Cornucopia_CassavaSeeds",
 			"Condition": "SEASON summer, YEAR 2",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_CelerySeeds": {
 			"Id": "Cornucopia_CelerySeeds",
 			"ItemId": "Cornucopia_CelerySeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 30,
+			"IgnoreShopPriceModifiers": true,//"Price": 30,
 			
 		},
 		"Cornucopia_ChickpeaSeeds": {
 			"Id": "Cornucopia_ChickpeaSeeds",
 			"ItemId": "Cornucopia_ChickpeaSeeds",
 			"Condition": "SEASON summer, YEAR 3",
-			"Price": 200,
+			"IgnoreShopPriceModifiers": true,//"Price": 200,
 			
 		},
 		"Cornucopia_DaikonSeeds": {
 			"Id": "Cornucopia_DaikonSeeds",
 			"ItemId": "Cornucopia_DaikonSeeds",
 			"Condition": "SEASON fall",
-			"Price": 75,
+			"IgnoreShopPriceModifiers": true,//"Price": 75,
 			
 		},
 		"Cornucopia_DurumSeeds": {
 			"Id": "Cornucopia_DurumSeeds",
 			"ItemId": "Cornucopia_DurumSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 10,
+			"IgnoreShopPriceModifiers": true,//"Price": 10,
 			
 		},
 		"Cornucopia_ElderberriesSeeds": {
 			"Id": "Cornucopia_ElderberriesSeeds",
 			"ItemId": "Cornucopia_ElderberriesSeeds",
 			"Condition": "YEAR 2",
-			"Price": 1100,
+			"IgnoreShopPriceModifiers": true,//"Price": 1100,
 			
 		},
 		"Cornucopia_GooseberrySeeds": {
 			"Id": "Cornucopia_GooseberrySeeds",
 			"ItemId": "Cornucopia_GooseberrySeeds",
 			"Condition": "YEAR 2",
-			"Price": 1100,
+			"IgnoreShopPriceModifiers": true,//"Price": 1100,
 			
 		},
 		"Cornucopia_GreenPeasSeeds": {
 			"Id": "Cornucopia_GreenPeasSeeds",
 			"ItemId": "Cornucopia_GreenPeasSeeds",
 			"Condition": "SEASON summer, YEAR 3",
-			"Price": 50,
+			"IgnoreShopPriceModifiers": true,//"Price": 50,
 			
 		},
 		"Cornucopia_GroundcherriesSeeds": {
 			"Id": "Cornucopia_GroundcherriesSeeds",
 			"ItemId": "Cornucopia_GroundcherriesSeeds",
 			"Condition": "SEASON summer fall, YEAR 2",
-			"Price": 150,
+			"IgnoreShopPriceModifiers": true,//"Price": 150,
 			
 		},
 		"Cornucopia_HabaneroSeeds": {
 			"Id": "Cornucopia_HabaneroSeeds",
 			"ItemId": "Cornucopia_HabaneroSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 130,
+			"IgnoreShopPriceModifiers": true,//"Price": 130,
 			
 		},
 		"Cornucopia_HoneydewSeeds": {
 			"Id": "Cornucopia_HoneydewSeeds",
 			"ItemId": "Cornucopia_HoneydewSeeds",
 			"Condition": "SEASON summer, YEAR 2",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_JalapenoSeeds": {
 			"Id": "Cornucopia_JalapenoSeeds",
 			"ItemId": "Cornucopia_JalapenoSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 20,
+			"IgnoreShopPriceModifiers": true,//"Price": 20,
 			
 		},
 		"Cornucopia_JuniperBerriesSeeds": {
 			"Id": "Cornucopia_JuniperBerriesSeeds",
 			"ItemId": "Cornucopia_JuniperBerriesSeeds",
-			"Price": 1300,
+			"IgnoreShopPriceModifiers": true,//"Price": 1300,
 			
 		},
 		"Cornucopia_KidneyBeansSeeds": {
 			"Id": "Cornucopia_KidneyBeansSeeds",
 			"ItemId": "Cornucopia_KidneyBeansSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 180,
+			"IgnoreShopPriceModifiers": true,//"Price": 180,
 			
 		},
 		"Cornucopia_NavyBeansSeeds": {
 			"Id": "Cornucopia_NavyBeansSeeds",
 			"ItemId": "Cornucopia_NavyBeansSeeds",
 			"Condition": "SEASON summer",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_OatsSeeds": {
 			"Id": "Cornucopia_OatsSeeds",
 			"ItemId": "Cornucopia_OatsSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 10,
+			"IgnoreShopPriceModifiers": true,//"Price": 10,
 			
 		},
 		"Cornucopia_OkraSeeds": {
 			"Id": "Cornucopia_OkraSeeds",
 			"ItemId": "Cornucopia_OkraSeeds",
 			"Condition": "SEASON summer fall, YEAR 3",
-			"Price": 160,
+			"IgnoreShopPriceModifiers": true,//"Price": 160,
 			
 		},
 		"Cornucopia_PassionFruitSeeds": {
 			"Id": "Cornucopia_PassionFruitSeeds",
 			"ItemId": "Cornucopia_PassionFruitSeeds",
 			"Condition": "SEASON spring, YEAR 3",
-			"Price": 130,
+			"IgnoreShopPriceModifiers": true,//"Price": 130,
 			
 		},
 		"Cornucopia_PintoBeansSeeds": {
 			"Id": "Cornucopia_PintoBeansSeeds",
 			"ItemId": "Cornucopia_PintoBeansSeeds",
 			"Condition": "SEASON spring, YEAR 2",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_QuinoaSeeds": {
 			"Id": "Cornucopia_QuinoaSeeds",
 			"ItemId": "Cornucopia_QuinoaSeeds",
 			"Condition": "SEASON summer, YEAR 3",
-			"Price": 20,
+			"IgnoreShopPriceModifiers": true,//"Price": 20,
 			
 		},
 		"Cornucopia_RedOnionSeeds": {
 			"Id": "Cornucopia_RedOnionSeeds",
 			"ItemId": "Cornucopia_RedOnionSeeds",
 			"Condition": "SEASON spring, YEAR 3",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_ShallotSeeds": {
 			"Id": "Cornucopia_ShallotSeeds",
 			"ItemId": "Cornucopia_ShallotSeeds",
 			"Condition": "SEASON spring, YEAR 3",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_SpinachSeeds": {
 			"Id": "Cornucopia_SpinachSeeds",
 			"ItemId": "Cornucopia_SpinachSeeds",
 			"Condition": "SEASON spring fall",
-			"Price": 15,
+			"IgnoreShopPriceModifiers": true,//"Price": 15,
 			
 		},
 		"Cornucopia_SugarBeetSeeds": {
 			"Id": "Cornucopia_SugarBeetSeeds",
 			"ItemId": "Cornucopia_SugarBeetSeeds",
 			"Condition": "SEASON spring, YEAR 2",
-			"Price": 100,
+			"IgnoreShopPriceModifiers": true,//"Price": 100,
 			
 		},
 		"Cornucopia_SweetPotatoSeeds": {
 			"Id": "Cornucopia_SweetPotatoSeeds",
 			"ItemId": "Cornucopia_SweetPotatoSeeds",
 			"Condition": "SEASON fall",
-			"Price": 70,
+			"IgnoreShopPriceModifiers": true,//"Price": 70,
 			
 		},
 		"Cornucopia_WasabiRootSeeds": {
 			"Id": "Cornucopia_WasabiRootSeeds",
 			"ItemId": "Cornucopia_WasabiRootSeeds",
 			"Condition": "SEASON summer",
-			"Price": 100,
+			"IgnoreShopPriceModifiers": true,//"Price": 100,
 			
 		},
 		"Cornucopia_YellowSquashSeeds": {
 			"Id": "Cornucopia_YellowSquashSeeds",
 			"ItemId": "Cornucopia_YellowSquashSeeds",
 			"Condition": "SEASON summer, YEAR 2",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		}
       },
@@ -469,7 +469,7 @@
 			"Id": "Cornucopia_WhiteGrapeSeeds",
 			"ItemId": "Cornucopia_WhiteGrapeSeeds",
 			"Condition": "YEAR 2",
-			"Price": 600,
+			"IgnoreShopPriceModifiers": true,//"Price": 600,
 			
 		}
       },
@@ -490,7 +490,7 @@
 			"Id": "Cornucopia_WhiteGrapeSeeds",
 			"ItemId": "Cornucopia_WhiteGrapeSeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 55,
+			"IgnoreShopPriceModifiers": true,//"Price": 55,
 			
 		}
       },
@@ -511,147 +511,147 @@
 			"Id": "Cornucopia_AloeSeeds",
 			"ItemId": "Cornucopia_AloeSeeds",
 			"Condition": "SEASON summer, YEAR 2",
-			"Price": 100,
+			"IgnoreShopPriceModifiers": true,//"Price": 100,
 			
 		},
 		"Cornucopia_BayLeavesSeeds": {
 			"Id": "Cornucopia_BayLeavesSeeds",
 			"ItemId": "Cornucopia_BayLeavesSeeds",
 			"Condition": "YEAR 2",
-			"Price": 800,
+			"IgnoreShopPriceModifiers": true,//"Price": 800,
 			
 		},
 		"Cornucopia_ChivesSeeds": {
 			"Id": "Cornucopia_ChivesSeeds",
 			"ItemId": "Cornucopia_ChivesSeeds",
 			"Condition": "SEASON summer, YEAR 2",
-			"Price": 20,
+			"IgnoreShopPriceModifiers": true,//"Price": 20,
 			
 		},
 		"Cornucopia_CilantroSeeds": {
 			"Id": "Cornucopia_CilantroSeeds",
 			"ItemId": "Cornucopia_CilantroSeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 20,
+			"IgnoreShopPriceModifiers": true,//"Price": 20,
 			
 		},
 		"Cornucopia_CuminSeeds": {
 			"Id": "Cornucopia_CuminSeeds",
 			"ItemId": "Cornucopia_CuminSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 20,
+			"IgnoreShopPriceModifiers": true,//"Price": 20,
 			
 		},
 		"Cornucopia_DillSeeds": {
 			"Id": "Cornucopia_DillSeeds",
 			"ItemId": "Cornucopia_DillSeeds",
 			"Condition": "SEASON spring, YEAR 2",
-			"Price": 50,
+			"IgnoreShopPriceModifiers": true,//"Price": 50,
 			
 		},
 		"Cornucopia_FennelSeeds": {
 			"Id": "Cornucopia_FennelSeeds",
 			"ItemId": "Cornucopia_FennelSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 20,
+			"IgnoreShopPriceModifiers": true,//"Price": 20,
 			
 		},
 		"Cornucopia_FenugreekSeeds": {
 			"Id": "Cornucopia_FenugreekSeeds",
 			"ItemId": "Cornucopia_FenugreekSeeds",
 			"Condition": "SEASON spring, YEAR 3",
-			"Price": 20,
+			"IgnoreShopPriceModifiers": true,//"Price": 20,
 			
 		},
 		"Cornucopia_LemongrassSeeds": {
 			"Id": "Cornucopia_LemongrassSeeds",
 			"ItemId": "Cornucopia_LemongrassSeeds",
 			"Condition": "SEASON summer, YEAR 3",
-			"Price": 25,
+			"IgnoreShopPriceModifiers": true,//"Price": 25,
 			
 		},
 		"Cornucopia_LicoriceRootSeeds": {
 			"Id": "Cornucopia_LicoriceRootSeeds",
 			"ItemId": "Cornucopia_LicoriceRootSeeds",
 			"Condition": "SEASON spring, YEAR 3",
-			"Price": 100,
+			"IgnoreShopPriceModifiers": true,//"Price": 100,
 				
 		},
 		"Cornucopia_MarjoramSeeds": {
 			"Id": "Cornucopia_MarjoramSeeds",
 			"ItemId": "Cornucopia_MarjoramSeeds",
 			"Condition": "SEASON spring, YEAR 3",
-			"Price": 30,
+			"IgnoreShopPriceModifiers": true,//"Price": 30,
 			
 		},
 		"Cornucopia_MintSeeds": {
 			"Id": "Cornucopia_MintSeeds",
 			"ItemId": "Cornucopia_MintSeeds",
 			"Condition": "SEASON winter, YEAR 2",
-			"Price": 30,
+			"IgnoreShopPriceModifiers": true,//"Price": 30,
 			
 		},
 		"Cornucopia_OreganoSeeds": {
 			"Id": "Cornucopia_OreganoSeeds",
 			"ItemId": "Cornucopia_OreganoSeeds",
 			"Condition": "SEASON summer, YEAR 2",
-			"Price": 30,
+			"IgnoreShopPriceModifiers": true,//"Price": 30,
 			
 		},
 		"Cornucopia_ParsleySeeds": {
 			"Id": "Cornucopia_ParsleySeeds",
 			"ItemId": "Cornucopia_ParsleySeeds",
 			"Condition": "SEASON spring, YEAR 2",
-			"Price": 25,
+			"IgnoreShopPriceModifiers": true,//"Price": 25,
 			
 		},
 		"Cornucopia_PerillaLeavesSeeds": {
 			"Id": "Cornucopia_PerillaLeavesSeeds",
 			"ItemId": "Cornucopia_PerillaLeavesSeeds",
 			"Condition": "SEASON summer, YEAR 3",
-			"Price": 30,
+			"IgnoreShopPriceModifiers": true,//"Price": 30,
 			
 		},
 		"Cornucopia_RosemarySeeds": {
 			"Id": "Cornucopia_RosemarySeeds",
 			"ItemId": "Cornucopia_RosemarySeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 30,
+			"IgnoreShopPriceModifiers": true,//"Price": 30,
 			
 		},
 		"Cornucopia_SageSeeds": {
 			"Id": "Cornucopia_SageSeeds",
 			"ItemId": "Cornucopia_SageSeeds",
 			"Condition": "SEASON fall, YEAR 2",
-			"Price": 40,
+			"IgnoreShopPriceModifiers": true,//"Price": 40,
 			
 		},
 		"Cornucopia_TarragonSeeds": {
 			"Id": "Cornucopia_TarragonSeeds",
 			"ItemId": "Cornucopia_TarragonSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 35,
+			"IgnoreShopPriceModifiers": true,//"Price": 35,
 			
 		},
 		"Cornucopia_ThymeSeeds": {
 			"Id": "Cornucopia_ThymeSeeds",
 			"ItemId": "Cornucopia_ThymeSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 30,
+			"IgnoreShopPriceModifiers": true,//"Price": 30,
 			
 		},
 		"Cornucopia_TurmericSeeds": {
 			"Id": "Cornucopia_TurmericSeeds",
 			"ItemId": "Cornucopia_TurmericSeeds",
 			"Condition": "SEASON fall, YEAR 3",
-			"Price": 80,
+			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
 		"Cornucopia_WormwoodSeeds": {
 			"Id": "Cornucopia_WormwoodSeeds",
 			"ItemId": "Cornucopia_WormwoodSeeds",
 			"Condition": "SEASON winter, YEAR 3",
-			"Price": 100,
+			"IgnoreShopPriceModifiers": true,//"Price": 100,
 			
 		}
       },
@@ -690,28 +690,28 @@
 			"Id": "Cornucopia_AvocadoSapling",
 			"ItemId": "Cornucopia_AvocadoSapling",
 			"Condition": "YEAR 2",
-			"Price": 8000,
+			"IgnoreShopPriceModifiers": true,//"Price": 8000,
 			
 		},
 		"Cornucopia_CocoaPodSapling": {
 			"Id": "Cornucopia_CocoaPodSapling",
 			"ItemId": "Cornucopia_CocoaPodSapling",
 			"Condition": "YEAR 2",
-			"Price": 5000,
+			"IgnoreShopPriceModifiers": true,//"Price": 5000,
 			
 		},
 		"Cornucopia_PearSapling": {
 			"Id": "Cornucopia_PearSapling",
 			"ItemId": "Cornucopia_PearSapling",
 			"Condition": "YEAR 2",
-			"Price": 5500,
+			"IgnoreShopPriceModifiers": true,//"Price": 5500,
 			
 		},
 		"Cornucopia_PistachioSapling": {
 			"Id": "Cornucopia_PistachioSapling",
 			"ItemId": "Cornucopia_PistachioSapling",
 			"Condition": "YEAR 3",
-			"Price": 3750,
+			"IgnoreShopPriceModifiers": true,//"Price": 3750,
 			
 		}
       },
@@ -735,86 +735,86 @@
 			"Id": "Cornucopia_AlmondSapling",
 			"ItemId": "Cornucopia_AlmondSapling",
 			"Condition": "YEAR 3",
-			"Price": 3750,
+			"IgnoreShopPriceModifiers": true,//"Price": 3750,
 			
 		},
 		"Cornucopia_CashewSapling": {
 			"Id": "Cornucopia_CashewSapling",
 			"ItemId": "Cornucopia_CashewSapling",
 			"Condition": "YEAR 3",
-			"Price": 4000,
+			"IgnoreShopPriceModifiers": true,//"Price": 4000,
 			
 		},
 		"Cornucopia_FigSapling": {
 			"Id": "Cornucopia_FigSapling",
 			"ItemId": "Cornucopia_FigSapling",
 			"Condition": "YEAR 2",
-			"Price": 4000,
+			"IgnoreShopPriceModifiers": true,//"Price": 4000,
 			
 		},
 		"Cornucopia_GrapefruitSapling": {
 			"Id": "Cornucopia_GrapefruitSapling",
 			"ItemId": "Cornucopia_GrapefruitSapling",
 			"Condition": "YEAR 2",
-			"Price": 6000,
+			"IgnoreShopPriceModifiers": true,//"Price": 6000,
 			
 		},
 		"Cornucopia_LemonSapling": {
 			"Id": "Cornucopia_LemonSapling",
 			"ItemId": "Cornucopia_LemonSapling",
-			"Price": 2000,
+			"IgnoreShopPriceModifiers": true,//"Price": 2000,
 			
 		},
 		"Cornucopia_LimeSapling": {
 			"Id": "Cornucopia_LimeSapling",
 			"ItemId": "Cornucopia_LimeSapling",
-			"Price": 2000,
+			"IgnoreShopPriceModifiers": true,//"Price": 2000,
 			
 		},
 		"Cornucopia_NectarineSapling": {
 			"Id": "Cornucopia_NectarineSapling",
 			"ItemId": "Cornucopia_NectarineSapling",
 			"Condition": "YEAR 2",
-			"Price": 6000,
+			"IgnoreShopPriceModifiers": true,//"Price": 6000,
 			
 		},
 		"Cornucopia_PecanSapling": {
 			"Id": "Cornucopia_PecanSapling",
 			"ItemId": "Cornucopia_PecanSapling",
 			"Condition": "YEAR 3",
-			"Price": 5000,
+			"IgnoreShopPriceModifiers": true,//"Price": 5000,
 			
 		},
 		"Cornucopia_PersimmonSapling": {
 			"Id": "Cornucopia_PersimmonSapling",
 			"ItemId": "Cornucopia_PersimmonSapling",
-			"Price": 7000,
+			"IgnoreShopPriceModifiers": true,//"Price": 7000,
 			
 		},
 		"Cornucopia_PomeloSapling": {
 			"Id": "Cornucopia_PomeloSapling",
 			"ItemId": "Cornucopia_PomeloSapling",
 			"Condition": "YEAR 2",
-			"Price": 3400,
+			"IgnoreShopPriceModifiers": true,//"Price": 3400,
 			
 		},
 		"Cornucopia_UmeSapling": {
 			"Id": "Cornucopia_UmeSapling",
 			"ItemId": "Cornucopia_UmeSapling",
-			"Price": 2000,
+			"IgnoreShopPriceModifiers": true,//"Price": 2000,
 			
 		},
 		"Cornucopia_WalnutSapling": {
 			"Id": "Cornucopia_WalnutSapling",
 			"ItemId": "Cornucopia_WalnutSapling",
 			"Condition": "YEAR 3",
-			"Price": 3750,
+			"IgnoreShopPriceModifiers": true,//"Price": 3750,
 			
 		},
 		"Cornucopia_YuzuSapling": {
 			"Id": "Cornucopia_YuzuSapling",
 			"ItemId": "Cornucopia_YuzuSapling",
-			"Price": 2000,
+			"IgnoreShopPriceModifiers": true,//"Price": 2000,
 			
 		}
       },
@@ -847,21 +847,21 @@
 			"Id": "Cornucopia_CamphorLeavesSapling",
 			"ItemId": "Cornucopia_CamphorLeavesSapling",
 			"Condition": "YEAR 3",
-			"Price": 4000,
+			"IgnoreShopPriceModifiers": true,//"Price": 4000,
 			
 		},
 		"Cornucopia_CinnamonSticksSapling": {
 			"Id": "Cornucopia_CinnamonSticksSapling",
 			"ItemId": "Cornucopia_CinnamonSticksSapling",
 			"Condition": "YEAR 2",
-			"Price": 6000,
+			"IgnoreShopPriceModifiers": true,//"Price": 6000,
 			
 		},
 		"Cornucopia_EucalyptusLeavesSapling": {
 			"Id": "Cornucopia_EucalyptusLeavesSapling",
 			"ItemId": "Cornucopia_EucalyptusLeavesSapling",
 			"Condition": "YEAR 2",
-			"Price": 5500,
+			"IgnoreShopPriceModifiers": true,//"Price": 5500,
 			
 		}
       },
