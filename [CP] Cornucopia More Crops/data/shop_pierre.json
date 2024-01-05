@@ -91,13 +91,6 @@
 			"IgnoreShopPriceModifiers": true,//"Price": 950,
 			
 		},
-		"Cornucopia_Soybeans": {
-			"Id": "Cornucopia_Soybeans",
-			"ItemId": "Cornucopia_Soybeans",
-			"Condition": "SEASON fall, YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 120,
-			
-		},
 		"Cornucopia_WatermelonSeeds": {
 			"Id": "Cornucopia_WatermelonSeeds",
 			"ItemId": "Cornucopia_WatermelonSeeds",
@@ -126,7 +119,6 @@
 			{ "Id": "Cornucopia_OnionSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_PeanutSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_RaspberrySeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_Soybeans", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_WatermelonSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_ZucchiniSeeds", "BeforeId": "GrassStarter" }
 		]
