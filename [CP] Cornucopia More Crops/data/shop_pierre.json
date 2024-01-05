@@ -17,7 +17,7 @@
 		"Cornucopia_BellPepperSeeds": {
 			"Id": "Cornucopia_BellPepperSeeds",
 			"ItemId": "Cornucopia_BellPepperSeeds",
-			"Condition": "SEASON fall",
+			"Condition": "SEASON summer",
 			"IgnoreShopPriceModifiers": true,//"Price": 130,
 			
 		},
@@ -304,7 +304,7 @@
 		"Cornucopia_JalapenoSeeds": {
 			"Id": "Cornucopia_JalapenoSeeds",
 			"ItemId": "Cornucopia_JalapenoSeeds",
-			"Condition": "SEASON fall, YEAR 3",
+			"Condition": "SEASON spring, YEAR 3",
 			"IgnoreShopPriceModifiers": true,//"Price": 20,
 			
 		},
