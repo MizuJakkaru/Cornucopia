@@ -690,28 +690,28 @@
 			"Id": "Cornucopia_AvocadoSapling",
 			"ItemId": "Cornucopia_AvocadoSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 8000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 8000,
 			
 		},
 		"Cornucopia_CocoaPodSapling": {
 			"Id": "Cornucopia_CocoaPodSapling",
 			"ItemId": "Cornucopia_CocoaPodSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 5000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 5000,
 			
 		},
 		"Cornucopia_PearSapling": {
 			"Id": "Cornucopia_PearSapling",
 			"ItemId": "Cornucopia_PearSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 5500,
+			//"IgnoreShopPriceModifiers": true,//"Price": 5500,
 			
 		},
 		"Cornucopia_PistachioSapling": {
 			"Id": "Cornucopia_PistachioSapling",
 			"ItemId": "Cornucopia_PistachioSapling",
 			"Condition": "YEAR 3",
-			"IgnoreShopPriceModifiers": true,//"Price": 3750,
+			//"IgnoreShopPriceModifiers": true,//"Price": 3750,
 			
 		}
       },
@@ -735,86 +735,86 @@
 			"Id": "Cornucopia_AlmondSapling",
 			"ItemId": "Cornucopia_AlmondSapling",
 			"Condition": "YEAR 3",
-			"IgnoreShopPriceModifiers": true,//"Price": 3750,
+			//"IgnoreShopPriceModifiers": true,//"Price": 3750,
 			
 		},
 		"Cornucopia_CashewSapling": {
 			"Id": "Cornucopia_CashewSapling",
 			"ItemId": "Cornucopia_CashewSapling",
 			"Condition": "YEAR 3",
-			"IgnoreShopPriceModifiers": true,//"Price": 4000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 4000,
 			
 		},
 		"Cornucopia_FigSapling": {
 			"Id": "Cornucopia_FigSapling",
 			"ItemId": "Cornucopia_FigSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 4000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 4000,
 			
 		},
 		"Cornucopia_GrapefruitSapling": {
 			"Id": "Cornucopia_GrapefruitSapling",
 			"ItemId": "Cornucopia_GrapefruitSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 6000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 6000,
 			
 		},
 		"Cornucopia_LemonSapling": {
 			"Id": "Cornucopia_LemonSapling",
 			"ItemId": "Cornucopia_LemonSapling",
-			"IgnoreShopPriceModifiers": true,//"Price": 2000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
 			
 		},
 		"Cornucopia_LimeSapling": {
 			"Id": "Cornucopia_LimeSapling",
 			"ItemId": "Cornucopia_LimeSapling",
-			"IgnoreShopPriceModifiers": true,//"Price": 2000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
 			
 		},
 		"Cornucopia_NectarineSapling": {
 			"Id": "Cornucopia_NectarineSapling",
 			"ItemId": "Cornucopia_NectarineSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 6000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 6000,
 			
 		},
 		"Cornucopia_PecanSapling": {
 			"Id": "Cornucopia_PecanSapling",
 			"ItemId": "Cornucopia_PecanSapling",
 			"Condition": "YEAR 3",
-			"IgnoreShopPriceModifiers": true,//"Price": 5000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 5000,
 			
 		},
 		"Cornucopia_PersimmonSapling": {
 			"Id": "Cornucopia_PersimmonSapling",
 			"ItemId": "Cornucopia_PersimmonSapling",
-			"IgnoreShopPriceModifiers": true,//"Price": 7000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 7000,
 			
 		},
 		"Cornucopia_PomeloSapling": {
 			"Id": "Cornucopia_PomeloSapling",
 			"ItemId": "Cornucopia_PomeloSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 3400,
+			//"IgnoreShopPriceModifiers": true,//"Price": 3400,
 			
 		},
 		"Cornucopia_UmeSapling": {
 			"Id": "Cornucopia_UmeSapling",
 			"ItemId": "Cornucopia_UmeSapling",
-			"IgnoreShopPriceModifiers": true,//"Price": 2000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
 			
 		},
 		"Cornucopia_WalnutSapling": {
 			"Id": "Cornucopia_WalnutSapling",
 			"ItemId": "Cornucopia_WalnutSapling",
 			"Condition": "YEAR 3",
-			"IgnoreShopPriceModifiers": true,//"Price": 3750,
+			//"IgnoreShopPriceModifiers": true,//"Price": 3750,
 			
 		},
 		"Cornucopia_YuzuSapling": {
 			"Id": "Cornucopia_YuzuSapling",
 			"ItemId": "Cornucopia_YuzuSapling",
-			"IgnoreShopPriceModifiers": true,//"Price": 2000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
 			
 		}
       },
@@ -847,21 +847,21 @@
 			"Id": "Cornucopia_CamphorLeavesSapling",
 			"ItemId": "Cornucopia_CamphorLeavesSapling",
 			"Condition": "YEAR 3",
-			"IgnoreShopPriceModifiers": true,//"Price": 4000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 4000,
 			
 		},
 		"Cornucopia_CinnamonSticksSapling": {
 			"Id": "Cornucopia_CinnamonSticksSapling",
 			"ItemId": "Cornucopia_CinnamonSticksSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 6000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 6000,
 			
 		},
 		"Cornucopia_EucalyptusLeavesSapling": {
 			"Id": "Cornucopia_EucalyptusLeavesSapling",
 			"ItemId": "Cornucopia_EucalyptusLeavesSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 5500,
+			//"IgnoreShopPriceModifiers": true,//"Price": 5500,
 			
 		}
       },

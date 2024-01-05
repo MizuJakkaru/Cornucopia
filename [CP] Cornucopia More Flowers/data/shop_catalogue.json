@@ -252,20 +252,20 @@
 			"Id": "Cornucopia_JasmineSapling",
 			"ItemId": "Cornucopia_JasmineSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 3000,
+			//"IgnoreShopPriceModifiers": true,//"Price": 3000,
 			
 		},
 		"Cornucopia_MagnoliaSapling": {
 			"Id": "Cornucopia_MagnoliaSapling",
 			"ItemId": "Cornucopia_MagnoliaSapling",
 			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 2500,
+			//"IgnoreShopPriceModifiers": true,//"Price": 2500,
 			
 		},
 		"Cornucopia_WisteriaSapling": {
 			"Id": "Cornucopia_WisteriaSapling",
 			"ItemId": "Cornucopia_WisteriaSapling",
-			"IgnoreShopPriceModifiers": true,//"Price": 2500,
+			//"IgnoreShopPriceModifiers": true,//"Price": 2500,
 			
 		}
       },
