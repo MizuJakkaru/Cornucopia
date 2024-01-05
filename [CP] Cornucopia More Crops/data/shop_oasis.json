@@ -10,7 +10,7 @@
 		"Cornucopia_SugarcaneSeeds": {
 			"Id": "Cornucopia_SugarcaneSeeds",
 			"ItemId": "Cornucopia_SugarcaneSeeds",
-			"Price": 30,
+			//"Price": 30,
 			"IgnoreShopPriceModifiers": true
 		}
       },
@@ -30,38 +30,62 @@
 		"Cornucopia_AgaveSeeds": {
 			"Id": "Cornucopia_AgaveSeeds",
 			"ItemId": "Cornucopia_AgaveSeeds",
-			"Price": 100,
+			//"Price": 100,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_BlueAgaveSeeds": {
 			"Id": "Cornucopia_BlueAgaveSeeds",
 			"ItemId": "Cornucopia_BlueAgaveSeeds",
-			"Price": 180,
+			//"Price": 180,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_BreadfruitSapling": {
 			"Id": "Cornucopia_BreadfruitSapling",
 			"ItemId": "Cornucopia_BreadfruitSapling",
-			"Price": 8000,
-			"IgnoreShopPriceModifiers": true
+			//"Price": 8000,
+			"IgnoreShopPriceModifiers": true,
+			"PriceModifiers": [
+				{
+					"Modification": "Multiply",
+					"Amount": 2.0
+				}
+			]
 		},
 		"Cornucopia_DragonFruitSapling": {
 			"Id": "Cornucopia_DragonFruitSapling",
 			"ItemId": "Cornucopia_DragonFruitSapling",
-			"Price": 5000,
-			"IgnoreShopPriceModifiers": true
+			//"Price": 5000,
+			"IgnoreShopPriceModifiers": true,
+			"PriceModifiers": [
+				{
+					"Modification": "Multiply",
+					"Amount": 2.0
+				}
+			]
 		},
 		"Cornucopia_DurianSapling": {
 			"Id": "Cornucopia_DurianSapling",
 			"ItemId": "Cornucopia_DurianSapling",
-			"Price": 8000,
-			"IgnoreShopPriceModifiers": true
+			//"Price": 8000,
+			"IgnoreShopPriceModifiers": true,
+			"PriceModifiers": [
+				{
+					"Modification": "Multiply",
+					"Amount": 2.0
+				}
+			]
 		},
 		"Cornucopia_LycheeSapling": {
 			"Id": "Cornucopia_LycheeSapling",
 			"ItemId": "Cornucopia_LycheeSapling",
-			"Price": 5000,
-			"IgnoreShopPriceModifiers": true
+			//"Price": 5000,
+			"IgnoreShopPriceModifiers": true,
+			"PriceModifiers": [
+				{
+					"Modification": "Multiply",
+					"Amount": 2.0
+				}
+			]
 		}
       },
 	  "MoveEntries": [

@@ -36,8 +36,14 @@
 		"Cornucopia_HibiscusSapling": {
 			"Id": "Cornucopia_HibiscusSapling",
 			"ItemId": "Cornucopia_HibiscusSapling",
+			"IgnoreShopPriceModifiers": true,
 			//"Price": 3000,
-			"IgnoreShopPriceModifiers": true
+			"PriceModifiers": [
+				{
+					"Modification": "Multiply",
+					"Amount": 2.0
+				}
+			]
 		},
 		"Cornucopia_YlangYlangSapling": {
 			"Id": "Cornucopia_YlangYlangSapling",
@@ -45,6 +51,12 @@
 			"Condition": "YEAR 3",
 			//"Price": 3000,
 			"IgnoreShopPriceModifiers": true
+			"PriceModifiers": [
+				{
+					"Modification": "Multiply",
+					"Amount": 2.0
+				}
+			]
 		}
       },
 	  "MoveEntries": [
