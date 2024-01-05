@@ -90,6 +90,25 @@
 				}
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Cactus Bush": true
+			},
+			"Fields": {
+				"(O)802": {
+					"Condition": "SEASON spring summer fall winter",
+					"Price": -1,
+					"ApplyProfitMargins": false,
+				}
+			}
+		},
 		//Hops Starter changes
 		{
 			"Action": "EditImage",
