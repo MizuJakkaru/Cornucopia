@@ -13,7 +13,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Farm",
 			"Entries": {
-				// "Cornucopia_SendFlowerCatalogue/dayofweek monday/season spring/year 1/sendmail Cornucopia_FlowerCatalogue": "null"
+				"Cornucopia_SendFlowerCatalogue/dayofweek monday/season spring/year 1/sendmail Cornucopia_FlowerCatalogue": "null"
 			}
 		}
 	]
