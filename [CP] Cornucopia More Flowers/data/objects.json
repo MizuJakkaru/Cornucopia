@@ -1247,7 +1247,7 @@
           "DisplayName": "{{i18n:HibiscusSapling_name}}",
           "Description": "{{i18n:HibiscusSapling_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 1500
+          "Price": 750
         },
         "Cornucopia_JasmineSapling": {
           "Name": "Cornucopia_JasmineSapling",
@@ -1257,7 +1257,7 @@
           "DisplayName": "{{i18n:JasmineSapling_name}}",
           "Description": "{{i18n:JasmineSapling_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 1500
+          "Price": 750
         },
         "Cornucopia_MagnoliaSapling": {
           "Name": "Cornucopia_MagnoliaSapling",
@@ -1267,7 +1267,7 @@
           "DisplayName": "{{i18n:MagnoliaSapling_name}}",
           "Description": "{{i18n:MagnoliaSapling_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 1250
+          "Price": 625
         },
         "Cornucopia_WisteriaSapling": {
           "Name": "Cornucopia_WisteriaSapling",
@@ -1277,7 +1277,7 @@
           "DisplayName": "{{i18n:WisteriaSapling_name}}",
           "Description": "{{i18n:WisteriaSapling_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 1250
+          "Price": 625
         },
         "Cornucopia_YlangYlangSapling": {
           "Name": "Cornucopia_YlangYlangSapling",
@@ -1287,7 +1287,7 @@
           "DisplayName": "{{i18n:YlangYlangSapling_name}}",
           "Description": "{{i18n:YlangYlangSapling_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 1500
+          "Price": 750
         }
       }
     },
