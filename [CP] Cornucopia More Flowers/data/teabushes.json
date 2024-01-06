@@ -21,7 +21,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"Quality": -1,
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
@@ -38,8 +38,8 @@
 							"ItemId": "(O)Cornucopia_Camellia",
 							"Chance": 1.0,
 							"MinStack": 1,
-							"MaxStack": 1,
-							"Quality": -1,
+							"MaxStack": 2,
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
@@ -57,7 +57,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"Quality": -1,
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
