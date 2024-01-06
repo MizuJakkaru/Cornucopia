@@ -1349,7 +1349,7 @@
         },
         "Cornucopia_OliveSeeds": {
           "Name": "Cornucopia_OliveSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 267,
           "DisplayName": "{{i18n:OliveSeeds_name}}",
@@ -1379,7 +1379,7 @@
         },
         "Cornucopia_RaspberrySeeds": {
           "Name": "Cornucopia_RaspberrySeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 25,
           "DisplayName": "{{i18n:RaspberrySeeds_name}}",
@@ -1489,7 +1489,7 @@
         },
         "Cornucopia_BlackCurrantsSeeds": {
           "Name": "Cornucopia_BlackCurrantsSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 71,
           "DisplayName": "{{i18n:BlackCurrantsSeeds_name}}",
@@ -1589,7 +1589,7 @@
         },
         "Cornucopia_ChickenoftheWoodsSeeds": {
           "Name": "Cornucopia_ChickenoftheWoodsSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 39,
           "DisplayName": "{{i18n:ChickenoftheWoodsSeeds_name}}",
@@ -1629,7 +1629,7 @@
         },
         "Cornucopia_ElderberriesSeeds": {
           "Name": "Cornucopia_ElderberriesSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 81,
           "DisplayName": "{{i18n:ElderberriesSeeds_name}}",
@@ -1649,7 +1649,7 @@
         },
         "Cornucopia_GooseberrySeeds": {
           "Name": "Cornucopia_GooseberrySeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 69,
           "DisplayName": "{{i18n:GooseberrySeeds_name}}",
@@ -1709,7 +1709,7 @@
         },
         "Cornucopia_JuniperBerriesSeeds": {
           "Name": "Cornucopia_JuniperBerriesSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 27,
           "DisplayName": "{{i18n:JuniperBerriesSeeds_name}}",
@@ -1769,7 +1769,7 @@
         },
         "Cornucopia_PeppercornSeeds": {
           "Name": "Cornucopia_PeppercornSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 191,
           "DisplayName": "{{i18n:PeppercornSeeds_name}}",
@@ -1819,7 +1819,7 @@
         },
         "Cornucopia_ShiitakeSeeds": {
           "Name": "Cornucopia_ShiitakeSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 37,
           "DisplayName": "{{i18n:ShiitakeSeeds_name}}",
@@ -1890,7 +1890,7 @@
       "Entries": {
         "Cornucopia_WhiteGrapeSeeds": {
           "Name": "Cornucopia_WhiteGrapeSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 95,
           "DisplayName": "{{i18n:WhiteGrapeSeeds_name}}",
@@ -1940,7 +1940,7 @@
         },
         "Cornucopia_BayLeavesSeeds": {
           "Name": "Cornucopia_BayLeavesSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 213,
           "DisplayName": "{{i18n:BayLeavesSeeds_name}}",
@@ -2943,7 +2943,7 @@
       "Entries": {
         "Cornucopia_OliveOil": {
           "Name": "Cornucopia_OliveOil",
-          "Type": "Artisan_Goods",
+          "Type": "Basic",
           "Category": -26,
           "SpriteIndex": 5,
           "DisplayName": "{{i18n:OliveOil_name}}",
@@ -2966,7 +2966,7 @@
       "Entries": {
         "Cornucopia_BuckwheatFlour": {
           "Name": "Cornucopia_BuckwheatFlour",
-          "Type": "Artisan_Goods",
+          "Type": "Basic",
           "Category": -26,
           "SpriteIndex": 2,
           "DisplayName": "{{i18n:BuckwheatFlour_name}}",
@@ -2980,7 +2980,7 @@
         },
 		"Cornucopia_DarkAle": {
           "Name": "Cornucopia_DarkAle",
-          "Type": "Artisan_Goods",
+          "Type": "Basic",
           "Category": -26,
           "SpriteIndex": 8,
           "DisplayName": "{{i18n:DarkAle_name}}",
@@ -3000,7 +3000,7 @@
         },
 		"Cornucopia_Porter": {
           "Name": "Cornucopia_Porter",
-          "Type": "Artisan_Goods",
+          "Type": "Basic",
           "Category": -26,
           "SpriteIndex": 9,
           "DisplayName": "{{i18n:Porter_name}}",
@@ -3020,7 +3020,7 @@
         },
 		"Cornucopia_SemolinaFlour": {
           "Name": "Cornucopia_SemolinaFlour",
-          "Type": "Artisan_Goods",
+          "Type": "Basic",
           "Category": -26,
           "SpriteIndex": 3,
           "DisplayName": "{{i18n:SemolinaFlour_name}}",
@@ -3034,7 +3034,7 @@
         },
 		"Cornucopia_SparklingWine": {
           "Name": "Cornucopia_SparklingWine",
-          "Type": "Artisan_Goods",
+          "Type": "Basic",
           "Category": -26,
           "SpriteIndex": 6,
           "DisplayName": "{{i18n:SparklingWine_name}}",
@@ -3054,7 +3054,7 @@
         },
 		"Cornucopia_Stout": {
           "Name": "Cornucopia_Stout",
-          "Type": "Artisan_Goods",
+          "Type": "Basic",
           "Category": -26,
           "SpriteIndex": 7,
           "DisplayName": "{{i18n:Stout_name}}",
@@ -3074,7 +3074,7 @@
         },
 		"Cornucopia_TapiocaFlour": {
           "Name": "Cornucopia_TapiocaFlour",
-          "Type": "Artisan_Goods",
+          "Type": "Basic",
           "Category": -26,
           "SpriteIndex": 4,
           "DisplayName": "{{i18n:TapiocaFlour_name}}",

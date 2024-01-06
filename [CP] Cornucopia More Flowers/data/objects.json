@@ -863,7 +863,7 @@
         },
         "Cornucopia_CamelliaSeeds": {
           "Name": "Cornucopia_CamelliaSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 31,
           "DisplayName": "{{i18n:CamelliaSeeds_name}}",
@@ -1023,7 +1023,7 @@
         },
         "Cornucopia_LilacSeeds": {
           "Name": "Cornucopia_LilacSeeds",
-          "Type": "Seed",
+          "Type": "Basic",
           "Category": -74,
           "SpriteIndex": 81,
           "DisplayName": "{{i18n:LilacSeeds_name}}",
