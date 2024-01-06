@@ -34,6 +34,7 @@
 			"Condition": "SEASON spring, YEAR 2",
 			//"Price": 900,
 			"IgnoreShopPriceModifiers": true
+			"ApplyProfitMargins": false,
 		}
       },
 	  "MoveEntries": [
@@ -54,6 +55,7 @@
 			"Condition": "SEASON fall, YEAR 2",
 			//"Price": 950,
 			"IgnoreShopPriceModifiers": true
+			"ApplyProfitMargins": false,
 		}
       },
 	  "MoveEntries": [
@@ -114,6 +116,7 @@
 			"Condition": "SEASON winter, YEAR 3",
 			//"Price": 1000,
 			"IgnoreShopPriceModifiers": true
+			"ApplyProfitMargins": false,
 		}
       },
 	  "MoveEntries": [
@@ -134,6 +137,7 @@
 			"Condition": "YEAR 3",
 			//"Price": 3500,
 			"IgnoreShopPriceModifiers": true
+			"ApplyProfitMargins": false,
 		}
       },
 	  "MoveEntries": [

@@ -95,6 +95,7 @@
 			"Condition": "YEAR 2",
 			"IgnoreShopPriceModifiers": true,
 			//"Price": 1100,
+			"ApplyProfitMargins": false,
 		},
 		"Cornucopia_CarnationSeeds": {
 			"Id": "Cornucopia_CarnationSeeds",
@@ -185,6 +186,7 @@
 			"ItemId": "Cornucopia_LilacSeeds",
 			"IgnoreShopPriceModifiers": true,
 			//"Price": 800,
+			"ApplyProfitMargins": false,
 		},
 		"Cornucopia_LupineSeeds": {
 			"Id": "Cornucopia_LupineSeeds",
@@ -255,6 +257,7 @@
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,
 			//"Price": 3000,
+			"ApplyProfitMargins": false,
 		},
 		"Cornucopia_MagnoliaSapling": {
 			"Id": "Cornucopia_MagnoliaSapling",
@@ -262,12 +265,14 @@
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,
 			//"Price": 2500,
+			"ApplyProfitMargins": false,
 		},
 		"Cornucopia_WisteriaSapling": {
 			"Id": "Cornucopia_WisteriaSapling",
 			"ItemId": "Cornucopia_WisteriaSapling",
 			//"IgnoreShopPriceModifiers": true,
 			//"Price": 2500,
+			"ApplyProfitMargins": false,
 		}
       },
 	  "MoveEntries": [
