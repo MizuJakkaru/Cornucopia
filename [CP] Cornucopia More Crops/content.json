@@ -83,7 +83,15 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/objectcontexttags.json, data/gifttastes.json, data/objects.json, data/shop_dwarf.json, data/shop_marnie.json, data/shop_islandtrader.json, data/shop_oasis.json, data/shop_pierre.json, data/shop_travelingcart.json, data/teabushes.json, data/wildtrees.json, machines/keg.json, machines/loom.json, machines/mill.json, machines/oilmaker.json, data/objectsreplacement.json"
+			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/objectcontexttags.json, data/gifttastes.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/shop_dwarf.json, data/shop_marnie.json, data/shop_islandtrader.json, data/shop_oasis.json, data/shop_pierre.json, data/shop_travelingcart.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "machines/keg.json, machines/loom.json, machines/mill.json, machines/oilmaker.json"
 		},
 		{
 			"Action": "Include",
