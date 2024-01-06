@@ -288,7 +288,7 @@
 					"ItemsProduced": [
 						{
 							"ItemId": "(O)304",
-							"MinStack": 1
+							"MinStack": 1,
 							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
 						}
 					],
