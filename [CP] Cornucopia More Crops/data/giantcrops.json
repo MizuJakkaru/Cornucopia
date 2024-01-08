@@ -74,5 +74,35 @@
 				}
 			}
         },
+				//Extended pack crops
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"When": {"Enable Extended Crops Pack": true},
+			"Entries": {
+				"Cornucopia_GiantDaikon": {
+					"FromItemId": "Cornucopia_Daikon",
+					"HarvestItems": [
+						{
+							"Chance": 1.0,
+							"ItemId": "Cornucopia_Daikon",
+							"Quality": 0,
+							"MinStack": 15,
+							"MaxStack": 21,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/GiantCrops",
+					"TexturePosition": {
+							"X": 96,
+							"Y": 0
+						},
+					"TileSize": {
+							"X": 3,
+							"Y": 3
+						},
+					"Chance": 0.01,
+				},
+			}
+		}
 	]
 }

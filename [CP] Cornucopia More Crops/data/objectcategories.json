@@ -1,0 +1,73 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"When": {"Vanilla Category Overrides": true,
+			"Category Overrides": true},
+			"Entries": {
+				"408": {
+					"CategoryTextOverride": "Nut"
+				},
+				"257": {
+					"CategoryTextOverride": "Mushroom"
+				},
+				"404": {
+					"CategoryTextOverride": "Mushroom"
+				},
+				"281": {
+					"CategoryTextOverride": "Mushroom"
+				},
+				"420": {
+					"CategoryTextOverride": "Mushroom"
+				},
+				"422": {
+					"CategoryTextOverride": "Mushroom"
+				},
+				"851": {
+					"CategoryTextOverride": "Mushroom"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"When": {"Category Overrides": true},
+			"Entries": {
+				"Cornucopia_Peanut": {
+					"CategoryTextOverride": "Nut"
+				},
+				"Cornucopia_Shiitake": {
+					"CategoryTextOverride": "Mushroom"
+				},
+				"Cornucopia_ChickenoftheWoods": {
+					"CategoryTextOverride": "Mushroom"
+				},
+				"Cornucopia_HenoftheWoods": {
+					"CategoryTextOverride": "Mushroom"
+				},
+				"Cornucopia_Enoki": {
+					"CategoryTextOverride": "Mushroom"
+				},
+				"Cornucopia_Almond": {
+					"CategoryTextOverride": "Nut"
+				},
+				"Cornucopia_Cashew": {
+					"CategoryTextOverride": "Nut"
+				},
+				"Cornucopia_Nutmeg": {
+					"CategoryTextOverride": "Nut"
+				},
+				"Cornucopia_Pecan": {
+					"CategoryTextOverride": "Nut"
+				},
+				"Cornucopia_Pistachio": {
+					"CategoryTextOverride": "Nut"
+				},
+				"Cornucopia_Walnut": {
+					"CategoryTextOverride": "Nut"
+				},
+			}
+		}
+	]
+}

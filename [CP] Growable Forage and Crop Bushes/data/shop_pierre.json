@@ -33,7 +33,8 @@
 			"ItemId": "Cornucopia_SalmonberrySeeds",
 			"Condition": "SEASON spring, YEAR 2",
 			//"Price": 900,
-			"IgnoreShopPriceModifiers": true
+			"IgnoreShopPriceModifiers": true,
+			"ApplyProfitMargins": false,
 		}
       },
 	  "MoveEntries": [
@@ -53,7 +54,8 @@
 			"ItemId": "Cornucopia_BlackberrySeeds",
 			"Condition": "SEASON fall, YEAR 2",
 			//"Price": 950,
-			"IgnoreShopPriceModifiers": true
+			"IgnoreShopPriceModifiers": true,
+			"ApplyProfitMargins": false,
 		}
       },
 	  "MoveEntries": [
@@ -113,7 +115,8 @@
 			"ItemId": "Cornucopia_HollySeeds",
 			"Condition": "SEASON winter, YEAR 3",
 			//"Price": 1000,
-			"IgnoreShopPriceModifiers": true
+			"IgnoreShopPriceModifiers": true,
+			"ApplyProfitMargins": false,
 		}
       },
 	  "MoveEntries": [
@@ -133,7 +136,8 @@
 			"ItemId": "Cornucopia_HazelnutSapling",
 			"Condition": "YEAR 3",
 			//"Price": 3500,
-			"IgnoreShopPriceModifiers": true
+			"IgnoreShopPriceModifiers": true,
+			"ApplyProfitMargins": false,
 		}
       },
 	  "MoveEntries": [
