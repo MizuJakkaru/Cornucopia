@@ -65,7 +65,63 @@
 			"Value": "0.45"
 		},
 	],
-    "Changes": [		
+    "Changes": [	
+		//set mail flags
+		{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "Cornucopia_RemoveConfigFlags": { 
+                    "Id": "Cornucopia_RemoveConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia_RepeatConfigFlags false",
+						"MarkActionApplied All Cornucopia_SetHerbsPackFlags false",
+						"MarkActionApplied All Cornucopia_SetExtendedCropsPackFlags false",
+						"MarkActionApplied All Cornucopia_SetExtendedTreesPackFlags false",
+                        "RemoveMail All Cornucopia_HerbsPackEnabled all",
+						"RemoveMail All Cornucopia_ExtendedCropsPackEnabled all",
+						"RemoveMail All Cornucopia_ExtendedTreesPackEnabled all",
+                    ]
+                },
+				//Entries to set flags based on config
+				"Cornucopia_SetExtendedCropsPackFlags": {
+                    "Id": "Cornucopia_SetExtendedCropsPackFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Enable Extended Crops Pack}}",
+                    "HostOnly": true,
+                    "Action": "AddMail All Cornucopia_ExtendedCropsPackEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia_SetExtendedTreesPackFlags": {
+                    "Id": "Cornucopia_SetExtendedTreesPackFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Enable Extended Trees Pack}}",
+                    "HostOnly": true,
+                    "Action": "AddMail All Cornucopia_ExtendedTreesPackEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia_SetHerbsPackFlags": { 
+                    "Id": "Cornucopia_SetHerbsPackFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Enable Herbs Pack}}", //Config name, true/false
+                    "HostOnly": true,
+                    "Action": "AddMail All Cornucopia_HerbsPackEnabled received", //Mailflag that will be checked by other mod
+                    "Actions": null
+                },
+				"Cornucopia_RepeatConfigFlags": { 
+                    "Id": "Cornucopia_RepeatConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia_RemoveConfigFlags false",
+                    ]
+                },
+            }
+        },
         // add item + crop images
         {
             "Action": "Load",
