@@ -8,9 +8,25 @@
 				},
 			"Entries": {
 				"Cornucopia_HazelnutSapling": {
-					"DisplayName": "{{i18n:Hazelnut_name}}",
+					"DisplayName": "[LocalizedText Strings\\Objects:Hazelnut_Name]",
 					"Seasons": [ "fall" ],
 					"Fruit": [{"ItemId": 408}],
+					"Texture": "Cornucopia.GrowableForage/FruitTrees",
+					"TextureSpriteRow": 0
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"When": {
+					"Coconut Tree": true
+				},
+			"Entries": {
+				"Cornucopia_CoconutSapling": {
+					"DisplayName": "[LocalizedText Strings\\Objects:Coconut_Name]",
+					"Seasons": [ "summer" ],
+					"Fruit": [{"ItemId": 88}],
 					"Texture": "Cornucopia.GrowableForage/FruitTrees",
 					"TextureSpriteRow": 0
 				},

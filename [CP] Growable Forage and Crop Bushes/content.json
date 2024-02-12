@@ -81,6 +81,11 @@
 			"Default": "true",
 			"Description": "Adds a tree sapling for hazelnuts."
 		},
+		"Coconut Tree": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a tropical tree sapling for coconut."
+		},
 	},
 	"DynamicTokens": [
 		{
