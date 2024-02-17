@@ -28,7 +28,7 @@
 					"Seasons": [ "summer" ],
 					"Fruit": [{"ItemId": 88}],
 					"Texture": "Cornucopia.GrowableForage/FruitTrees",
-					"TextureSpriteRow": 0
+					"TextureSpriteRow": 1
 				},
 			}
 		},
