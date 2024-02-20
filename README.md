@@ -14,8 +14,8 @@ Though not a direct port or fork of anything that came before it, we have put a 
 
 ## Cornucopia Team
 * MizuJakkaru
+* DraconisLeonidas
 * 6480
-* DraconisLeonidas  
 
 ## Credit & Thanks
 The mod could not be a reality without the following people having shared in making their own mods or contributations along the way:
