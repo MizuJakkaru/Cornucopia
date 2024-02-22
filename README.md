@@ -13,9 +13,9 @@ Though the entire code has been redone from the ground up to use Content Patcher
 Though not a direct port or fork of anything that came before it, we have put a lot of effort into revitalizing the content from the original spreadsheet that PPJA used as its bible to capture a true Stardew Valley essence and expand upon vanilla content. We hope you find a lot of new and old favorites in the crops, flowers, artisan goods, and recipes in these mods.
 
 ## Cornucopia Team
-* MizuJakkaru
-* DraconisLeonidas
-* 6480
+* MizuJakkaru ([Nexus](https://www.nexusmods.com/stardewvalley/users/2821799), [Kofi](https://ko-fi.com/mizujakkaru))
+* DraconisLeonidas ([Nexus](https://www.nexusmods.com/stardewvalley/users/158706123))
+* 6480 ([Nexus](https://www.nexusmods.com/users/55537262), [Kofi](https://ko-fi.com/6480k), [Twitter](https://twitter.com/6480n), Discord **@6480**)
 
 ## Credit & Thanks
 The mod could not be a reality without the following people having shared in making their own mods or contributations along the way. To see a full list of all the people who helped inspire or troubleshoot this mod, go to our [Credits](https://github.com/MizuJakkaru/Cornucopia/blob/main/CREDITS.md) page.
