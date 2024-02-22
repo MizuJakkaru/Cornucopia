@@ -17,7 +17,12 @@ The mod could not be a reality without the following people having shared in mak
 * Placeholder.
 
 ## Artists
-We hope that people also find enjoyment in the updated sprites of Cornucopia. Everything is being done with a strong drive to capture the game's original spirit. Anything not done by MizuJakkaru or 6480 has been edited from licensed/paid assets from the info below. Provided a sprite /does not/ list a paid asset artist below on the mod's informational spreadsheet, the following rules apply to Cornucopia's art assets:
+We hope that people also find enjoyment in the updated sprites of Cornucopia. Everything is being done with a strong drive to capture the game's original spirit. Anything not done by MizuJakkaru or 6480 has been edited from licensed/paid assets from the info below. You may not redistribute assets credited to these artists (Check the Informational Spreadsheet for credit info). Currently, only **Cornucopia - More Recipes** includes outsourced assets.
+
+Paid Assets Artists: [anarchisedlute](https://anarchisedlute.itch.io/), [artoftic](https://artoftic.itch.io/), [cyangmou](https://cyangmou.itch.io/), [pixeltier](https://pixeltier.itch.io/)
+
+## Permissions
+The following permissions apply to original Cornucopia assets, as in, any art created by MizuJakkaru or 6480. This includes all art for More Crops, More Flowers, Growable Forage, More Artisan Goods, and some art from More Recipes (Check the Informational Spreadsheet for credit info).
 
 * You may edit and use original Cornucopia assets for any Stardew Valley mod, with credit and a link given to Cornucopia or the artist themselves (MizuJakkaru or 6480).
 * You do not need to obtain permission to edit or use original Cornucopia assets.
@@ -33,6 +38,4 @@ Additionally, the following permissions apply for Cornucopia content:
 * Cornucopia updates will be handled by the Cornucopia team. However, in the case that the Cornucopia team is fully inactive, or the project has been abandoned for whatever reason, you may create unofficial updates and post them in the comments of the relevant mods.
 * You may /not/ upload updated versions of Cornucopia to Nexus without first contacting us for permission, or if we are entirely unreachable.
 * You /must/ exhaust all reasonable methods of reaching us (Nexus, the public Stardew Valley discord, Twitter, etc) before considering us unreachable. Reaching out to one team member on Nexus without a response is /not/ sufficient grounds. See Team Members for contact information.
-
-Paid Assets Artists: [anarchisedlute](https://anarchisedlute.itch.io/), [artoftic](https://artoftic.itch.io/), [cyangmou](https://cyangmou.itch.io/), [pixeltier](https://pixeltier.itch.io/)
 
