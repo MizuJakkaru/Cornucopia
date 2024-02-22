@@ -19,3 +19,9 @@ Though not a direct port or fork of anything that came before it, we have put a 
 
 ## Credit & Thanks
 The mod could not be a reality without the following people having shared in making their own mods or contributations along the way. To see a full list of all the people who helped inspire or troubleshoot this mod, go to our [Credits](https://github.com/MizuJakkaru/Cornucopia/blob/main/CREDITS.md) page.
+
+## So... What's Included?
+(placeholder)
+
+## Configuring Cornucopia
+(placeholder)
