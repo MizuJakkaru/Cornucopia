@@ -5,7 +5,7 @@
     "Version": "1.0.0",
     "MinimumApiVersion": "4.0.0-alpha",
     "UniqueID": "Cornucopia.MoreCrops",
-    //"UpdateKeys": ["Nexus:"],
+    "UpdateKeys": ["Nexus: 19508"],
 	"ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     },
