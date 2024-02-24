@@ -215,5 +215,24 @@
 		},
       }
     },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+			"Coconut Tree": true
+		},
+      "Entries": {
+        "Cornucopia_CoconutSapling": {
+			"Name": "Cornucopia_CoconutSapling",
+			"Type": "Basic",
+			"Category": -74,
+			"SpriteIndex": 8,
+			"Displayname": "{{i18n:CoconutSapling_name}}",
+			"Description": "{{i18n:CoconutSapling_description}}",
+			"Texture": "Cornucopia.GrowableForage/objects",
+			"Price": 1750,
+		},
+      }
+    },
   ]
 }

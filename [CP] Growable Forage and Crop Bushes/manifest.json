@@ -6,7 +6,7 @@
 	"UniqueID": "Cornucopia.GrowableForage",
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",
-		"MinimumVersion": "1.29.0"
+		"MinimumVersion": "2.0.0"
 	},
 	"UpdateKeys": [ "Nexus: ???" ]
 }
