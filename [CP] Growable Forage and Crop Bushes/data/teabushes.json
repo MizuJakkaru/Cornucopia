@@ -21,7 +21,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 2,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
@@ -51,7 +51,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
@@ -81,7 +81,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
@@ -111,7 +111,7 @@
 							"Chance": 1.0,
 							"MinStack": 3,
 							"MaxStack": 5,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
@@ -141,7 +141,7 @@
 							"Chance": 1.0,
 							"MinStack": 2,
 							"MaxStack": 4,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
@@ -171,7 +171,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
@@ -232,7 +232,7 @@
 							"Chance": 1.0,
 							"MinStack": 3,
 							"MaxStack": 4,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
@@ -262,7 +262,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
@@ -289,7 +289,7 @@
 						{
 							"ItemId": "(O)304",
 							"MinStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
@@ -318,7 +318,7 @@
 							"ItemId": "(O)398",
 							"Chance": 1.0,
 							"MinStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
