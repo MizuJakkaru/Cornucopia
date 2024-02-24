@@ -16,11 +16,6 @@
 			"Default": "true",
 			"Description": "Adds 20+ new herbs as crops and trees."
 		},
-		"Enable Recipes": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "(Recommended) Adds custom cooking recipes using vanilla and Cornucopia ingredients."
-		},
 		"Enable Artisan Goods": {
 			"AllowValues": "true, false",
 			"Default": "true",
