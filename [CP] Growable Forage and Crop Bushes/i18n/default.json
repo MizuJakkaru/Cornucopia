@@ -29,6 +29,9 @@
 	"Hazelnut_name": "Hazelnut",
 	"HazelnutSapling_name": "Hazelnut Sapling",
 	"HazelnutSapling_description": "Takes 28 days to produce a mature Hazelnut tree. Ready to harvest in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+	"Coconut_name": "Coconut",
+	"CoconutSapling_name": "Coconut Sapling",
+	"CoconutSapling_description": "Takes 28 days to produce a mature Coconut tree. Ready to harvest in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
 	
 	//Vanilla seeds to bush saplings changes
 	"BlueberrySeeds_name": "Blueberry Sapling",

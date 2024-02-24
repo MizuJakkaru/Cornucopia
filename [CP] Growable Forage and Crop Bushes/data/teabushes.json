@@ -176,7 +176,7 @@
 					],
 					"Texture": "Cornucopia.GrowableForage/teabushes",
 					"IndoorTexture": "Cornucopia.GrowableForage/teabushes_indoors",
-					"TextureSpriteRow": 0,
+					"TextureSpriteRow": 20,
 				}
 			}
 	    },
