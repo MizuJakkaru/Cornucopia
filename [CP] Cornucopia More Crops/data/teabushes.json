@@ -17,7 +17,7 @@
 							"Chance": 1.0,
 							"MinStack": 2,
 							"MaxStack": 3,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -35,7 +35,7 @@
 							"Chance": 1.0,
 							"MinStack": 2,
 							"MaxStack": 4,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -66,7 +66,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -96,7 +96,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 3,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -114,7 +114,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -132,7 +132,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 3,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -150,7 +150,7 @@
 							"Chance": 1.0,
 							"MinStack": 3,
 							"MaxStack": 4,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -168,7 +168,7 @@
 							"Chance": 1.0,
 							"MinStack": 2,
 							"MaxStack": 4,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -185,7 +185,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -203,7 +203,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -234,7 +234,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",
@@ -264,7 +264,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/teabushes",

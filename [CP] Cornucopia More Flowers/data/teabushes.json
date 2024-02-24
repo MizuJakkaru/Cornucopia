@@ -21,7 +21,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
@@ -39,7 +39,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 2,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
@@ -57,7 +57,7 @@
 							"Chance": 1.0,
 							"MinStack": 1,
 							"MaxStack": 1,
-							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 1, 2],}],
+							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
 					],
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
