@@ -1,0 +1,28 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"When": {
+				"Coconut Tree": true
+			},
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_CoconutSapling": {
+					"Id": "Cornucopia_CoconutSapling",
+					"ItemId": "Cornucopia_CoconutSapling",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_CoconutSapling",
+					"BeforeId": "(BC)196"
+				}
+			]
+		}
+	]
+}
