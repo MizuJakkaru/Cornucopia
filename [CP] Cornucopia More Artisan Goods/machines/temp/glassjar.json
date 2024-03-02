@@ -1,0 +1,512 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)Cornucopia_GlassJar":
+						{
+							"OutputRules":				
+								[
+									{
+										"Id": "Cornucopia_ChanterelleKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)281",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_ChanterelleKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_GreenKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)614",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_GreenKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_Kombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)404",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Kombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_MagmaKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)851",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_MagmaKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_MorelKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)257",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_MorelKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_PurpleKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)422",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_PurpleKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_RedKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)420",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_RedKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_BarleyKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_BarleyTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_BarleyKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_BerryFusionKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_BerryFusionTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_BerryFusionKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_BlackKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_BlackTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_BlackKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_BlueMistKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_BlueMistTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_BlueMistKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_BreakfastKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_BreakfastTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_BreakfastKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_CamelliaKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_CamelliaTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_CamelliaKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_ChaiKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_ChaiTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_ChaiKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_ChamomileKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_ChamomileTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_ChamomileKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_CranberryPomegranateKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_CranberryPomegranateTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_CranberryPomegranateKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_DandelionKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_DandelionTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_DandelionKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_EarlGrayKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_EarlGrayTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_EarlGrayKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_JasmineKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_JasmineTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_JasmineKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_LemonKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_LemonTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_LemonKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_MatchaKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Matcha",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_MatchaKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_MintKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_MintTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_MintKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_OolongKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_OolongTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_OolongKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_RoseKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_RoseTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_RoseKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_SpicedKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_SpicedTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_SpicedKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_StrawberryGrapefruitKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_StrawberryGrapefruitTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_StrawberryGrapefruitKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "Cornucopia_WhiteKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_WhiteTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_WhiteKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									}
+								],
+							"LoadEffects":
+								[
+									{
+										"Sound": "Ship",
+										"TemporarySprites": 
+											[
+												{
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "Salmon"
+												}
+											],
+									}
+								],
+							"WorkingEffects":
+								[
+									{
+										"TemporarySprites": 
+											[
+												{
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "Salmon"
+												}
+											],
+									}
+								],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}
