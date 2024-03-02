@@ -6,6 +6,16 @@
 			"Default": "true",
 			"Description": "(Recommended) Adds a large variety of 30+ flowers and flowering trees in addition to the essential pack."
 		},
+		"Enable Recipes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Recommended) Adds custom cooking recipes using vanilla and Cornucopia ingredients."
+		},
+		"Enable Artisan Goods": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Recommended) Adds custom, unique artisan goods for some Cornucopia crops. Generic goods like wine, juice, etc will still be automatically added regardless of this setting."
+		},
 	},
 	"DynamicTokens": [
 		//crop ExtraHarvestChance values for later testing
