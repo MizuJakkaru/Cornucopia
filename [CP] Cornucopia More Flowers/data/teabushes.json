@@ -29,7 +29,7 @@
 					"TextureSpriteRow": 2,
 				},
 				"(O)Cornucopia_CamelliaSeeds": {
-					"AgeToProduce": 12,
+					"AgeToProduce": 121,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring"],
 					"ItemsProduced": [
