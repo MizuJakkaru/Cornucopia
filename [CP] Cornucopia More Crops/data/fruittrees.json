@@ -149,7 +149,7 @@
 				},
 				"Cornucopia_PomeloSapling": {
 					"DisplayName": "{{i18n:Pomelo_name}}",
-					"Seasons": [ "winter" ],
+					"Seasons": [ "fall" ],
 					"Fruit": [{"ItemId": "Cornucopia_Pomelo"}],
 					"Texture": "Cornucopia.MoreCrops/FruitTrees",
 					"TextureSpriteRow": 20
