@@ -120,15 +120,20 @@
         // add item + crop images
         {
             "Action": "Load",
-            "Target": "Cornucopia.MoreCrops/Crops, Cornucopia.MoreCrops/GiantCrops, Cornucopia.MoreCrops/Objects, Cornucopia.MoreCrops/Objects-Artisan, Cornucopia.MoreCrops/FruitTrees, Cornucopia.MoreCrops/teabushes_indoors, Cornucopia.MoreCrops/Tree1_{{season}}",
+            "Target": "Cornucopia.MoreCrops/Crops, Cornucopia.MoreCrops/GiantCrops, Cornucopia.MoreCrops/Objects, Cornucopia.MoreCrops/Objects-Artisan, Cornucopia.MoreCrops/FruitTrees, Cornucopia.MoreCrops/teabushes_indoors",
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
         },
 		
-		// add teabushes images
+		// add teabushes and wild trees images
         {
             "Action": "Load",
             "Target": "Cornucopia.MoreCrops/teabushes",
             "FromFile": "assets/teabushes_{{season}}.png"
+        },
+		{
+            "Action": "Load",
+            "Target": "Cornucopia.MoreCrops/treesapodilla_spring, Cornucopia.MoreCrops/treesapodilla_summer, Cornucopia.MoreCrops/treesapodilla_fall, Cornucopia.MoreCrops/treesapodilla_winter",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
         },
 		
 		// add subfiles

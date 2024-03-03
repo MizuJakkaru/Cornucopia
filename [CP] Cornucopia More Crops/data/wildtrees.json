@@ -11,8 +11,21 @@
 				"Cornucopia_SapodillaSeed": {
 					"Textures": [
 					  {
-						"Texture": "Cornucopia.MoreCrops/treesapodilla_{{season}}",
-					  }
+						"Texture": "Cornucopia.MoreCrops/treesapodilla_spring",
+						"Season": "spring",
+					  },
+					  {
+						"Texture": "Cornucopia.MoreCrops/treesapodilla_summer",
+						"Season": "summer",
+					  },
+					  {
+						"Texture": "Cornucopia.MoreCrops/treesapodilla_fall",
+						"Season": "fall",
+					  },
+					  {
+						"Texture": "Cornucopia.MoreCrops/treesapodilla_winter",
+						"Season": "winter",
+					  },
 					],
 					"SeedItemId": "(O)Cornucopia_SapodillaSeed",
 					"DebrisColor": 100004,
