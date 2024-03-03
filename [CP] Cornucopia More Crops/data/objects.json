@@ -912,7 +912,7 @@
           "ContextTags": [
             "color_yellow"
           ]
-        }
+        },
       }
     },
 	//Herb crop produce
@@ -2272,7 +2272,21 @@
           "Price": 100,
           "Edibility": -300,
           "ContextTags": [
-            "color_pink"
+            "color_yellow"
+          ]
+        },
+		  "Cornucopia_Sapodilla": {
+          "Name": "Cornucopia_Sapodilla",
+          "Type": "Fruit",
+          "Category": -79,
+          "SpriteIndex": 444,
+          "DisplayName": "{{i18n:Sapodilla_name}}",
+          "Description": "{{i18n:Sapodilla_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 110,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_yellow"
           ]
         },
         "Cornucopia_DragonFruit": {
