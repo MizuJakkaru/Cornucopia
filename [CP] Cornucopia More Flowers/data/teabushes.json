@@ -44,12 +44,12 @@
 					],
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
 					"IndoorTexture": "Cornucopia.MoreFlowers/teabushes_indoors",
-					"TextureSpriteRow": 8,
+					"TextureSpriteRow": 6,
 				},
 				"(O)Cornucopia_LilacSeeds": {
 					"AgeToProduce": 18,
 					"DayToBeginProducing": 0,
-					"Seasons": ["spring, summer"],
+					"Seasons": ["spring", "summer"],
 					"ItemsProduced": [
 						{
 							"Condition": "DAY_OF_MONTH 3 6 9 12 15 18 21 24 27",
@@ -62,7 +62,7 @@
 					],
 					"Texture": "Cornucopia.MoreFlowers/teabushes",
 					"IndoorTexture": "Cornucopia.MoreFlowers/teabushes_indoors",
-					"TextureSpriteRow": 6,
+					"TextureSpriteRow": 4,
 				}
 			}
 	    },
