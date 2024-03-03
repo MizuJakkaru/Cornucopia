@@ -1,0 +1,385 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)Cornucopia_Grinder": 
+						{
+							"OutputRules":
+								[
+									{
+										"Id": "Cornucopia_Applesauce",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)613",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Applesauce",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_ChiliPowder",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)260",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_ChiliPowder",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "Cornucopia_CoconutMilk",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)88",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_CoconutMilk",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_Gelatin",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)881",
+													"RequiredCount": 3,
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Gelatin",
+												}
+											],
+										"MinutesUntilReady": 200,
+									},,
+									{
+										"Id": "Cornucopia_GroundCumin",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Cumin",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_GroundCumin",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "Cornucopia_GroundNutmeg",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Nutmeg",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_GroundNutmeg",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "Cornucopia_GroundTurmeric",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Turmeric",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_GroundTurmeric",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "Cornucopia_LemonPeel",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Lemon",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_LemonPeel",
+												}
+											],
+										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "Cornucopia_LimePeel",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Lime",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_LimePeel",
+												}
+											],
+										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "Cornucopia_MisoPaste",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Soybeans",
+													"RequiredCount": 2,
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_MisoPaste",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_OrangePeel",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)635",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_OrangePeel",
+												}
+											],
+										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "Cornucopia_Paprika",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_BellPepper",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Paprika",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "Cornucopia_Pepper",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_Peppercorn",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Pepper",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "Cornucopia_Saffron",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)418",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Saffron",
+												}
+											],
+										"MinutesUntilReady": 600,
+									},
+									{
+										"Id": "Cornucopia_Salt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_SeaSalt",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Salt",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "Cornucopia_ShrimpPaste",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)720",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_ShrimpPaste",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_WasabiPaste",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_WasabiRoot",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_WasabiPaste",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_GroundHerb",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "herb_item", "!id_o_cornucopia_cumin", "!id_o_cornucopia_nutmeg", "!id_o_cornucopia_turmeric" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_GroundHerb",
+													"Name": "Ground {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_GroundHerb %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "GroundHerb",
+																"Modification": "Multiply",
+																"Amount": 1.25,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_GroundMushroom",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "mushroom_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_GroundMushroom",
+													"Name": "Ground {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_GroundMushroom %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "GroundMushroom",
+																"Modification": "Multiply",
+																"Amount": 1.25,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "Cornucopia_GroundVegetable",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_vegetable", "!herb_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_GroundVegetable",
+													"Name": "Ground {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_GroundVegetable %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "GroundVegetable",
+																"Modification": "Multiply",
+																"Amount": 1.25,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 360,
+									}
+								],
+							"LoadEffects":
+								[
+									{
+										"Sound": "woodchipper",
+									}
+								],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}
