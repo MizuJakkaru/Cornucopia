@@ -20,7 +20,7 @@
                     "Texture": "{{InternalAssetKey: assets/crops.png}}",
                     "SpriteIndex": 42,
 					"RegrowDays": 3,
-					"IsRaised": true,
+					"IsRaised": false,
 					"TintColors": [ "#ffed21", "#fffffc", "#ffb320", "#ff88b8" ]
                 },
 				 "Cornucopia_IrisSeeds": {
