@@ -3,8 +3,10 @@
 		{
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
-			"When": {"Vanilla Category Overrides": true,
-			"Category Overrides": true},
+			"When": {
+				"Vanilla Category Overrides": true,
+				"Category Overrides": true
+			},
 			"Entries": {
 				"408": {
 					"CategoryTextOverride": "Nut"
@@ -27,12 +29,20 @@
 				"851": {
 					"CategoryTextOverride": "Mushroom"
 				},
+				"829": {
+					"CategoryTextOverride": "Spice"
+				},
+				"16": {
+					"CategoryTextOverride": "Spice"
+				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
-			"When": {"Category Overrides": true},
+			"When": {
+				"Category Overrides": true
+			},
 			"Entries": {
 				"Cornucopia_Peanut": {
 					"CategoryTextOverride": "Nut"
@@ -55,9 +65,6 @@
 				"Cornucopia_Cashew": {
 					"CategoryTextOverride": "Nut"
 				},
-				"Cornucopia_Nutmeg": {
-					"CategoryTextOverride": "Nut"
-				},
 				"Cornucopia_Pecan": {
 					"CategoryTextOverride": "Nut"
 				},
@@ -67,6 +74,96 @@
 				"Cornucopia_Walnut": {
 					"CategoryTextOverride": "Nut"
 				},
+				"Cornucopia_Nutmeg": {
+					"CategoryTextOverride": "Spice"
+				},
+				"Cornucopia_CinnamonSticks": {
+					"CategoryTextOverride": "Spice"
+				},
+				"Cornucopia_CuminSeeds": {
+					"CategoryTextOverride": "Spice"
+				},
+				"Cornucopia_Ginseng": {
+					"CategoryTextOverride": "Spice"
+				},
+				"Cornucopia_LicoriceRoot": {
+					"CategoryTextOverride": "Spice"
+				},
+				"Cornucopia_Peppercorn": {
+					"CategoryTextOverride": "Spice"
+				},
+				"Cornucopia_Turmeric": {
+					"CategoryTextOverride": "Spice"
+				},
+				"Cornucopia_Vanilla": {
+					"CategoryTextOverride": "Spice"
+				},
+				"Cornucopia_WasabiRoot": {
+					"CategoryTextOverride": "Spice"
+				},
+				"Cornucopia_Basil": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_BayLeaves": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_CamphorLeaves": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Catnip": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Chives": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Cilantro": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Dill": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_EucalyptusLeaves": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Fennel": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Fenugreek": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Lemongrass": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Marjoram": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_MelaleucaLeaves": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Mint": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Oregano": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Parsley": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_PerillaLeaves": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Rosemary": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Sage": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Tarragon": {
+					"CategoryTextOverride": "Herb"
+				},
+				"Cornucopia_Thyme": {
+					"CategoryTextOverride": "Herb"
+				}
 			}
 		}
 	]

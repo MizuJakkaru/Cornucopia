@@ -8,5 +8,11 @@
 		"UniqueID": "Pathoschild.ContentPatcher",
 		"MinimumVersion": "1.30.0"
 	},
-	"UpdateKeys": [ "Nexus: ???" ]
+	"UpdateKeys": [ "Nexus: 20340" ],
+	"Dependencies": [
+   	{
+      "UniqueID": "furyx639.CustomBush",
+      "IsRequired": false
+   	}
+	],
 }
