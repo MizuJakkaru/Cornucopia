@@ -15,7 +15,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Ginger"],
-					"Value": "herb_item, herb_soap_item",
+					"Value": "spice_item, herb_soap_item",
 					"Delimiter": ", "
 				},
 				{
