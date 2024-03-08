@@ -559,7 +559,7 @@
           "Price": 2600,
           "Edibility": 10,
           "ContextTags": [
-            "herb_item",
+            "spice_item",
             "color_sand"
           ]
         },
@@ -752,7 +752,8 @@
           "Price": 40,
           "Edibility": -300,
           "ContextTags": [
-            "color_poppyseed"
+            "spice_item",
+			"color_poppyseed"
           ]
         },
         "Cornucopia_PintoBeans": {
@@ -880,7 +881,8 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 150,
           "ContextTags": [
-            "color_white"
+            "spice_item",
+			"color_white"
           ]
         },
         "Cornucopia_WasabiRoot": {
@@ -894,8 +896,8 @@
           "Price": 165,
           "Edibility": 5,
           "ContextTags": [
-            "herb_item",
-            "color_green"
+            "spice_item",
+			"color_green"
           ]
         },
         "Cornucopia_WhiteGrape": {
@@ -1023,7 +1025,7 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 40,
           "ContextTags": [
-            "herb_item",
+            "spice_item",
             "seedmaker_banned",
             "color_poppyseed"
           ]
@@ -1099,7 +1101,7 @@
           "Price": 135,
           "Edibility": 5,
           "ContextTags": [
-            "herb_item",
+            "spice_item",
             "color_brown"
           ]
         },
@@ -1252,7 +1254,7 @@
           "Price": 100,
           "Edibility": 10,
           "ContextTags": [
-            "herb_item",
+            "spice_item",
             "color_orange"
           ]
         },
@@ -1999,7 +2001,10 @@
           "DisplayName": "{{i18n:CilantroSeeds_name}}",
           "Description": "{{i18n:CilantroSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 10
+          "Price": 10,
+		  "ContextTags": [
+            "spice_item"
+          ]
         },
         "Cornucopia_DillSeeds": {
           "Name": "Cornucopia_DillSeeds",
@@ -2577,7 +2582,8 @@
           "Price": 140,
           "Edibility": -300,
           "ContextTags": [
-            "nut_soap_item",
+            "spice_item",
+			"nut_soap_item",
             "color_yellow"
           ]
         },
@@ -2624,7 +2630,7 @@
           "Price": 90,
           "Edibility": -300,
           "ContextTags": [
-            "nut_item",
+            "spice_item",
             "nut_soap_item",
             "color_brown"
           ]
