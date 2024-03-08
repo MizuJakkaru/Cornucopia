@@ -870,6 +870,19 @@
             "color_dark_pink"
           ]
         },
+        "Cornucopia_Vanilla": {
+          "Name": "Cornucopia_Vanilla",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 270,
+          "DisplayName": "{{i18n:Vanilla_name}}",
+          "Description": "{{i18n:Vanilla_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 150,
+          "ContextTags": [
+            "color_white"
+          ]
+        },
         "Cornucopia_WasabiRoot": {
           "Name": "Cornucopia_WasabiRoot",
           "Type": "Vegetable",
@@ -1857,6 +1870,16 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 35
         },
+        "Cornucopia_VanillaSeeds": {
+          "Name": "Cornucopia_VanillaSeeds",
+          "Type": "Basic",
+          "Category": -74,
+          "SpriteIndex": 271,
+          "DisplayName": "{{i18n:VanillaSeeds_name}}",
+          "Description": "{{i18n:VanillaSeeds_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 500
+        },
         "Cornucopia_WasabiRootSeeds": {
           "Name": "Cornucopia_WasabiRootSeeds",
           "Type": "Seed",
@@ -2487,19 +2510,6 @@
             "color_green"
           ]
         },
-        "Cornucopia_Vanilla": {
-          "Name": "Cornucopia_Vanilla",
-          "Type": "Flower",
-          "Category": -80,
-          "SpriteIndex": 432,
-          "DisplayName": "{{i18n:Vanilla_name}}",
-          "Description": "{{i18n:Vanilla_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 200,
-          "ContextTags": [
-            "color_white"
-          ]
-        },
         "Cornucopia_Walnut": {
           "Name": "Cornucopia_Walnut",
           "Type": "Forage",
@@ -2856,16 +2866,6 @@
           "Description": "{{i18n:UmeSapling_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 500
-        },
-        "Cornucopia_VanillaSapling": {
-          "Name": "Cornucopia_VanillaSapling",
-          "Type": "Basic",
-          "Category": -74,
-          "SpriteIndex": 433,
-          "DisplayName": "{{i18n:VanillaSapling_name}}",
-          "Description": "{{i18n:VanillaSapling_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 1250
         },
         "Cornucopia_WalnutSapling": {
           "Name": "Cornucopia_WalnutSapling",

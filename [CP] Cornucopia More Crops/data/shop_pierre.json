@@ -390,6 +390,13 @@
 			"IgnoreShopPriceModifiers": true,//"Price": 70,
 			
 		},
+		"Cornucopia_VanillaSeeds": {
+			"Id": "Cornucopia_VanillaSeeds",
+			"ItemId": "Cornucopia_VanillaSeeds",
+			"Condition": "SEASON spring, YEAR 2",
+			"IgnoreShopPriceModifiers": true,//"Price": 1000,
+			
+		},
 		"Cornucopia_WasabiRootSeeds": {
 			"Id": "Cornucopia_WasabiRootSeeds",
 			"ItemId": "Cornucopia_WasabiRootSeeds",

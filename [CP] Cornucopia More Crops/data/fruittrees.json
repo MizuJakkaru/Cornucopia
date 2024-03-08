@@ -161,13 +161,6 @@
 					"Texture": "Cornucopia.MoreCrops/FruitTrees",
 					"TextureSpriteRow": 21
 				},
-				"Cornucopia_VanillaSapling": {
-					"DisplayName": "{{i18n:Vanilla_name}}",
-					"Seasons": [ "fall" ],
-					"Fruit": [{"ItemId": "Cornucopia_Vanilla"}],
-					"Texture": "Cornucopia.MoreCrops/FruitTrees",
-					"TextureSpriteRow": 22
-				},
 				"Cornucopia_WalnutSapling": {
 					"DisplayName": "{{i18n:Walnut_name}}",
 					"Seasons": [ "fall" ],
