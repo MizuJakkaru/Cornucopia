@@ -10,31 +10,29 @@
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 1, 2, 2, 2 ],
                     "HarvestItemId": "Cornucopia_BlueMist",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 11
                 },
 				"Cornucopia_ChrysanthemumSeeds": {
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 1, 2, 3, 3 ],
                     "HarvestItemId": "Cornucopia_Chrysanthemum",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 42,
-					"RegrowDays": 3,
-					"IsRaised": true,
 					"TintColors": [ "#ffed21", "#fffffc", "#ffb320", "#ff88b8" ]
                 },
 				 "Cornucopia_IrisSeeds": {
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 2, 3, 3, 2 ],
                     "HarvestItemId": "Cornucopia_Iris",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 38
                 },
 				"Cornucopia_LilySeeds": {
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 2, 2, 3, 2 ],
                     "HarvestItemId": "Cornucopia_Lily",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 30,
 					"TintColors": [ "#fffeff", "#e72e41", "#ff6c45", "#efca00", "#b06bff" ]
                 },
@@ -42,7 +40,7 @@
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 2, 2, 2, 3, 2 ],
                     "HarvestItemId": "Cornucopia_Lotus",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 35,
 					"IsPaddyCrop": true
                 },
@@ -50,7 +48,7 @@
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 2, 3, 2 ],
                     "HarvestItemId": "Cornucopia_MorningGlory",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 43,
 					"RegrowDays": 4,
 					"IsRaised": true,
@@ -62,7 +60,7 @@
                     "Seasons": [ "summer", "fall" ],
                     "DaysInPhase": [ 2, 3, 3, 2 ],
                     "HarvestItemId": "Cornucopia_Orchid",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 40,
 					"TintColors": [ "#ee2da3", "#fffffe", "#414fda" ]
                 },
@@ -70,7 +68,7 @@
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 1, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Pansy",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 47,
 					"TintColors": [ "#fee101", "#df1829", "#a741ef", "#fffffe" ]
                 },
@@ -78,14 +76,14 @@
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 1, 1, 2 ],
                     "HarvestItemId": "Cornucopia_PinkCat",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 10
                 },
 				"Cornucopia_RoseSeeds": {
                     "Seasons": [ "spring", "summer", "fall" ],
                     "DaysInPhase": [ 2, 3, 4, 3 ],
                     "HarvestItemId": "Cornucopia_Rose",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 17,
 					"TintColors": [ "#f52536", "#fff8f8", "#737391", "#f03888" ]
                 }
@@ -101,28 +99,28 @@
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 1, 2, 3, 2 ],
                     "HarvestItemId": "Cornucopia_BeeBalm",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 1
                 },
                 "Cornucopia_BluebonnetSeeds": {
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Bluebonnet",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 24
                 },
                 "Cornucopia_ButtercupSeeds": {
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 1, 1, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Buttercup",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 16
                 },
                 "Cornucopia_CarnationSeeds": {
                     "Seasons": [ "spring", "summer" ],
                     "DaysInPhase": [ 1, 2, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Carnation",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 20,
 					"TintColors": [ "#e83b49", "#f983ea", "#fff8f8" ]
                 },
@@ -130,21 +128,21 @@
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 1, 1, 2 ],
                     "HarvestItemId": "Cornucopia_Chamomile",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 18
                 },
                 "Cornucopia_ClarySageSeeds": {
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 1, 2, 3, 2 ],
                     "HarvestItemId": "Cornucopia_ClarySage",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 2
                 },
                 "Cornucopia_ClematisSeeds": {
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 1, 2, 3, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Clematis",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 25,
 					"RegrowDays": 3,
 					"IsRaised": true,
@@ -156,7 +154,7 @@
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 1, 1, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Dahlia",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 37,
 					"TintColors": [ "#ff5400", "#fee101", "#e72e2e", "#ff5172" ]
                 },
@@ -164,21 +162,21 @@
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 1, 1, 1, 1 ],
                     "HarvestItemId": "Cornucopia_Daisy",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 26
                 },
                 "Cornucopia_FairyDusterSeeds": {
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 2, 1, 2, 2 ],
                     "HarvestItemId": "Cornucopia_FairyDuster",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 9
                 },
                 "Cornucopia_FreesiaSeeds": {
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 1, 2, 3, 2 ],
                     "HarvestItemId": "Cornucopia_Freesia",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 41,
 					"TintColors": [ "#ff357c", "#ff6113", "#ffb400", "#d053ff" ]
                 },
@@ -186,14 +184,14 @@
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 1, 2, 3, 3 ],
                     "HarvestItemId": "Cornucopia_Geranium",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 34
                 },
                 "Cornucopia_HoneysuckleSeeds": {
                     "Seasons": [ "spring", "summer" ],
                     "DaysInPhase": [ 2, 3, 4, 4, 3 ],
                     "HarvestItemId": "Cornucopia_Honeysuckle",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 3,
 					"RegrowDays": 3,
 					"IsRaised": true,
@@ -205,7 +203,7 @@
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Hyacinth",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 31,
 					"TintColors": [ "#ca93ff", "#fdfcff", "#367bff" ]
                 },
@@ -213,7 +211,7 @@
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 2, 3, 3, 2 ],
                     "HarvestItemId": "Cornucopia_Hydrangea",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 33,
 					"TintColors": [ "#9accff", "#ff86f5", "#dff3ff" ]
                 },
@@ -221,7 +219,7 @@
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 3, 3 ],
                     "HarvestItemId": "Cornucopia_Larkspur",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 27,
 					"TintColors": [ "#6ca7ff", "#ae7dff", "#faf7ff" ]
                 },
@@ -229,35 +227,35 @@
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 1, 1, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Lavender",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 5
                 },
                 "Cornucopia_LupineSeeds": {
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 1, 2, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Lupine",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 29
                 },
                 "Cornucopia_PeonySeeds": {
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 2, 3, 3 ],
                     "HarvestItemId": "Cornucopia_Peony",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 32
                 },
                 "Cornucopia_PetuniaSeeds": {
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 1, 1, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Petunia",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 39
                 },
                 "Cornucopia_PitcherPlantSeeds": {
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 2, 3, 3, 4, 3 ],
                     "HarvestItemId": "Cornucopia_PitcherPlant",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 23,
 					"RegrowDays": 5,
 					"IsRaised": true,
@@ -267,14 +265,14 @@
                     "Seasons": [ "fall" ],
                     "DaysInPhase": [ 1, 2, 3, 3 ],
                     "HarvestItemId": "Cornucopia_PurpleConeflower",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 8
                 },
                 "Cornucopia_RafflesiaSeeds": {
                     "Seasons": [ "spring", "summer", "fall", "winter" ],
 					"DaysInPhase": [ 5, 8, 10, 15, 12 ],
                     "HarvestItemId": "Cornucopia_Rafflesia",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 36,
 					"PlantableLocationRules": [
 					  {
@@ -291,7 +289,7 @@
 					"Seasons": [ "spring" ],
 					"DaysInPhase": [ 2, 2, 3, 3, 2 ],
 					"HarvestItemId": "Cornucopia_RoseSpring",
-					"Texture": "{{InternalAssetKey: assets/crops.png}}",
+					"Texture": "Cornucopia.MoreFlowers/Crops",
 					"SpriteIndex": 12,
 					"RegrowDays": 5,
 					"IsRaised": true
@@ -300,7 +298,7 @@
 					"Seasons": [ "summer" ],
 					"DaysInPhase": [ 2, 2, 3, 3, 2 ],
 					"HarvestItemId": "Cornucopia_RoseSummer",
-					"Texture": "{{InternalAssetKey: assets/crops.png}}",
+					"Texture": "Cornucopia.MoreFlowers/Crops",
 					"SpriteIndex": 13,
 					"RegrowDays": 5,
 					"IsRaised": true
@@ -309,7 +307,7 @@
 					"Seasons": [ "fall" ],
 					"DaysInPhase": [ 2, 2, 3, 3, 2 ],
 					"HarvestItemId": "Cornucopia_RoseFall",
-					"Texture": "{{InternalAssetKey: assets/crops.png}}",
+					"Texture": "Cornucopia.MoreFlowers/Crops",
 					"SpriteIndex": 14,
 					"RegrowDays": 5,
 					"IsRaised": true
@@ -318,7 +316,7 @@
 					"Seasons": [ "winter" ],
 					"DaysInPhase": [ 2, 2, 3, 3, 2 ],
 					"HarvestItemId": "Cornucopia_RoseWinter",
-					"Texture": "{{InternalAssetKey: assets/crops.png}}",
+					"Texture": "Cornucopia.MoreFlowers/Crops",
 					"SpriteIndex": 15,
 					"RegrowDays": 5,
 					"IsRaised": true
@@ -327,21 +325,21 @@
 					"Seasons": [ "spring", "summer", "fall" ],
 					"DaysInPhase": [ 3, 6, 7, 4 ],
 					"HarvestItemId": "Cornucopia_RosePrismatic",
-					"Texture": "{{InternalAssetKey: assets/crops.png}}",
+					"Texture": "Cornucopia.MoreFlowers/Crops",
 					"SpriteIndex": 19
 				},
                 "Cornucopia_VioletSeeds": {
                     "Seasons": [ "spring" ],
                     "DaysInPhase": [ 1, 1, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Violet",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 28
                 },
                 "Cornucopia_WolfsbaneSeeds": {
                     "Seasons": [ "summer" ],
                     "DaysInPhase": [ 2, 1, 2, 3, 2, 3 ],
                     "HarvestItemId": "Cornucopia_Wolfsbane",
-                    "Texture": "{{InternalAssetKey: assets/crops.png}}",
+                    "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 4
                 }
 			}
