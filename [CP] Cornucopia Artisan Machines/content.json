@@ -1,0 +1,17 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+        // add item + machine images
+        {
+            "Action": "Load",
+            "Target": "Cornucopia.ArtisanGoods/Objects, Cornucopia.ArtisanGoods/Craftables",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Objects.png
+        },
+		
+		// add subfiles
+		{
+			"Action": "Include",
+			"FromFile": "data/bigcraftablesinformation.json, data/craftingrecipes.json, data/objects.json, data/objectcontexttags.json, data/shops.json, data/strings.json, machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/cheesepress.json, machines/dryingrack.json, machines/extruder.json, machines/grinder.json, machines/juicer.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/smoker.json, machines/vinegarkeg.json,  machines/yogurtjar.json, data/forage.json"
+		},
+    ]
+}
