@@ -151,7 +151,7 @@
 		},
 		{
 			"Action": "Include",
-			"When": {"HasMod:spacechase0.SpaceCore": true},
+			"When": {"HasMod |contains=spacechase0.SpaceCore": true},
 			"FromFile": "data/objectcategories.json",
 		}
     ]
