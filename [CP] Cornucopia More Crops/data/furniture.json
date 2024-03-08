@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Furniture",
+        	"Entries": {
+                "Cornucopia_Cornucopia": "{{i18n:Cornucopia_name}}/decor/1 1/1 1/1/500/-1/{{i18n:Cornucopia_name}}/0/Cornucopia.MoreCrops\\Furniture//, "
+            }
+        }
+    ]
+}
