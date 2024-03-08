@@ -9,31 +9,31 @@
 			},
 			"Entries": {
 				"408": {
-					"CategoryTextOverride": "Nut"
+					"CategoryTextOverride": "{{i18n:Nut}}"
 				},
 				"257": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"404": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"281": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"420": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"422": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"851": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"829": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"16": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				}
 			}
 		},
@@ -45,124 +45,124 @@
 			},
 			"Entries": {
 				"Cornucopia_Peanut": {
-					"CategoryTextOverride": "Nut"
+					"CategoryTextOverride": "{{i18n:Nut}}"
 				},
 				"Cornucopia_Shiitake": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"Cornucopia_ChickenoftheWoods": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"Cornucopia_HenoftheWoods": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"Cornucopia_Enoki": {
-					"CategoryTextOverride": "Mushroom"
+					"CategoryTextOverride": "{{i18n:Mushroom}}"
 				},
 				"Cornucopia_Almond": {
-					"CategoryTextOverride": "Nut"
+					"CategoryTextOverride": "{{i18n:Nut}}"
 				},
 				"Cornucopia_Cashew": {
-					"CategoryTextOverride": "Nut"
+					"CategoryTextOverride": "{{i18n:Nut}}"
 				},
 				"Cornucopia_Pecan": {
-					"CategoryTextOverride": "Nut"
+					"CategoryTextOverride": "{{i18n:Nut}}"
 				},
 				"Cornucopia_Pistachio": {
-					"CategoryTextOverride": "Nut"
+					"CategoryTextOverride": "{{i18n:Nut}}"
 				},
 				"Cornucopia_Walnut": {
-					"CategoryTextOverride": "Nut"
+					"CategoryTextOverride": "{{i18n:Nut}}"
 				},
 				"Cornucopia_Nutmeg": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"Cornucopia_CinnamonSticks": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"Cornucopia_CuminSeeds": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"Cornucopia_Ginseng": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"Cornucopia_LicoriceRoot": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"Cornucopia_Peppercorn": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"Cornucopia_Turmeric": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"Cornucopia_Vanilla": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"Cornucopia_WasabiRoot": {
-					"CategoryTextOverride": "Spice"
+					"CategoryTextOverride": "{{i18n:Spice}}"
 				},
 				"Cornucopia_Basil": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_BayLeaves": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_CamphorLeaves": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Catnip": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Chives": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Cilantro": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Dill": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_EucalyptusLeaves": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Fennel": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Fenugreek": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Lemongrass": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Marjoram": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_MelaleucaLeaves": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Mint": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Oregano": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Parsley": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_PerillaLeaves": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Rosemary": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Sage": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Tarragon": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				},
 				"Cornucopia_Thyme": {
-					"CategoryTextOverride": "Herb"
+					"CategoryTextOverride": "{{i18n:Herb}}"
 				}
 			}
 		}
