@@ -1,6 +1,6 @@
 {
 	//Crops seeds
-	"CrocusSeeds_name": "Crocus Seeds",
+	"CrocusSeeds_name": "Crocus Bulb",
 	"CrocusSeeds_description": "Plant in winter. Takes 9 days to produce a purple flower with saffron within.",
 	"GingerSeeds_name": "Ginger Seeds",
     "GingerSeeds_description": "Plant these in summer. Takes 8 days to mature.",
@@ -16,8 +16,6 @@
 	"ChanterelleSeeds_description": "Takes 30 days to mature into a mushroom stump. Produces a bounty of chanterelle during late fall (days 18-24).",
 	"CommonMushroomSeeds_name": "Common Mushroom Planter",
 	"CommonMushroomSeeds_description": "Takes 25 days to mature into a mushroom stump. Produces common mushrooms throughout spring and fall.",
-	"CrocusSeeds_name": "Crocus Bulb",
-	"CrocusSeeds_description": "Plant in winter. Takes 9 days to produce a purple flower with saffron within.",
 	"HollySeeds_name": "Holly Sapling",
     "HollySeeds_description": "Takes 20 days to mature into a bush. Produces holly every 4 days in winter.",
 	"MorelSeeds_name": "Morel Planter",
