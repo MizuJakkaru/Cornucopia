@@ -30,7 +30,9 @@ Cornucopia is a **collection of mods**, all of which can be used together, or on
 **Cornucopia - More Flowers** A large crop and fruit tree expansion mod based primarily around **decorative flowers**. You'll find some beautiful blooms for honey, not to mention gorgeous hedges and trees to decorate with!
 
 **Cornucopia - Artisan Machines** \(Not published yet\) An expansion for the types of artisan goods you can make. Long gone are the days of min-maxing with ancient fruit wine! Now you can create butters and nut milks, dried herbs or flowers, smoke your fishing haul, and make many more unique goods!
-*Some sets of artisan goods, such as alcohols, coffee/teas, soap-making, and ice cream are being separated out into their own mods, to allow for players who are looking for a specific aesthetic. Those will be coming at a later date!
+*Some sets of artisan goods, such as alcohols, coffee/teas, soap-making, and ice cream are being separated out into their own mods, to allow for players who are looking for a specific aesthetic. Those will be coming at a later date!*
+
+**Cornucopia - Cooking Recipes** \(Not published yet\) A large expansion of 300+ recipes that utilize vanilla and Cornucopia items! We have iconic dishes from all over the world, ensuring you'll find some foods you know and love.
 
 ## Configuring Cornucopia
 (placeholder)
