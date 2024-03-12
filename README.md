@@ -12,7 +12,7 @@ Though the entire codebase has been redone from the ground up to use Content Pat
 
 We have put a lot of effort into revitalizing the content from the original spreadsheet that inspired PPJA, aiming to capture the true Stardew Valley essence and bring refreshing new content to the game. We hope you find a lot of new and old favorites in the crops, flowers, artisan goods, and recipes in these mods.
 
-- MizuJakkaru
+-MizuJakkaru
 
 ## Cornucopia Team
 * MizuJakkaru ([Nexus](https://www.nexusmods.com/stardewvalley/users/2821799), [Kofi](https://ko-fi.com/mizujakkaru))
