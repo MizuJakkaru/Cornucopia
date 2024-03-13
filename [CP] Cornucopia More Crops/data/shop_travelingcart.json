@@ -12,7 +12,7 @@
 			"ItemId": "Cornucopia_Soybeans",
 			"Condition": "SYNCED_RANDOM day cart_soy_bean 0.25",
 			"IgnoreShopPriceModifiers": true,
-			"Price": 500,
+			"Price": 2000,
 			"AvailableStock": 1,			
 		}
       }
