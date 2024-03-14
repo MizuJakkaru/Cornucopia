@@ -95,7 +95,7 @@
             "Target": "Data/TriggerActions",
             "Entries": {
                 "Cornucopia.GrowableForage_RemoveConfigFlags": { 
-                    "Id": "Cornucopia_RemoveConfigFlags",
+                    "Id": "Cornucopia.GrowableForage_RemoveConfigFlags",
                     "Trigger": "DayStarted DayEnding", 
                     "HostOnly": true,
                     "Action": null,
