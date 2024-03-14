@@ -31,6 +31,42 @@
 		},
 	],
     "Changes": [		
+			//mail flags
+			{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "Cornucopia.MoreFlowers_RemoveConfigFlags": { 
+                    "Id": "Cornucopia_RemoveConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia.MoreFlowers_RepeatConfigFlags false",
+						"MarkActionApplied All Cornucopia.MoreFlowers_SetExtendedFlowersPackFlags false",
+						"RemoveMail All Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled all",
+                    ]
+                },
+				//Entries to set flags based on config
+				"Cornucopia.MoreFlowers_SetExtendedFlowersPackFlags": {
+                    "Id": "Cornucopia.MoreFlowers_SetExtendedFlowersPackFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Enable Extended Flowers Pack}}",
+                    "HostOnly": true,
+                    "Action": "AddMail All Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia.MoreFlowers_RepeatConfigFlags": { 
+                    "Id": "Cornucopia.MoreFlowers_RepeatConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia.MoreFlowers_RemoveConfigFlags false",
+                    ]
+                },
+            }
+        },
         // add item + crop images
         {
             "Action": "Load",

@@ -89,6 +89,42 @@
 	},
 	"DynamicTokens": [],
 	"Changes": [
+			//mail flags
+			{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "Cornucopia.GrowableForage_RemoveConfigFlags": { 
+                    "Id": "Cornucopia_RemoveConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia.GrowableForage_RepeatConfigFlags false",
+						"MarkActionApplied All Cornucopia.GrowableForage_SetGingerCropFlags false",
+						"RemoveMail All Cornucopia.GrowableForage_GingerSeedsEnabled all",
+                    ]
+                },
+				//Entries to set flags based on config
+				"Cornucopia.GrowableForage_SetExtendedFlowersPackFlags": {
+                    "Id": "Cornucopia.GrowableForage_SetGingerCropFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Ginger Crop}}",
+                    "HostOnly": true,
+                    "Action": "AddMail All Cornucopia.GrowableForage_GingerSeedsEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia.GrowableForage_RepeatConfigFlags": { 
+                    "Id": "Cornucopia.GrowableForage_RepeatConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia.GrowableForage_RemoveConfigFlags false",
+                    ]
+                },
+            }
+        },
 		{
 		"LogName": "Textures",
 		"Action": "Load",
