@@ -120,7 +120,7 @@
         // add item + crop images
         {
             "Action": "Load",
-            "Target": "Cornucopia.MoreCrops/Crops, Cornucopia.MoreCrops/GiantCrops, Cornucopia.MoreCrops/Objects, Cornucopia.MoreCrops/Objects-Artisan, Cornucopia.MoreCrops/FruitTrees, Cornucopia.MoreCrops/Furniture, , Cornucopia.MoreCrops/teabushes_indoors",
+            "Target": "Cornucopia.MoreCrops/Crops, Cornucopia.MoreCrops/GiantCrops, Cornucopia.MoreCrops/Objects, Cornucopia.MoreCrops/Objects-Artisan, Cornucopia.MoreCrops/FruitTrees, Cornucopia.MoreCrops/Furniture, , Cornucopia.MoreCrops/teabushes_indoors, Cornucopia.MoreCrops/FruitTrees_Custom1",
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
         },
 		

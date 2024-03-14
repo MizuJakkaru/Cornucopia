@@ -10,8 +10,8 @@
 					"DisplayName": "{{i18n:Avocado_name}}",
 					"Seasons": [ "summer" ],
 					"Fruit": [{"ItemId": "Cornucopia_Avocado"}],
-					"Texture": "Cornucopia.MoreCrops/FruitTrees",
-					"TextureSpriteRow": 1
+					"Texture": "Cornucopia.MoreCrops/FruitTrees_Custom1",
+					"TextureSpriteRow": 0
 				},
 				"Cornucopia_CocoaPodSapling": {
 					"DisplayName": "{{i18n:Cocoa_name}}",
@@ -24,7 +24,7 @@
 					"DisplayName": "{{i18n:Pear_name}}",
 					"Seasons": [ "winter" ],
 					"Fruit": [{"ItemId": "Cornucopia_Pear"}],
-					"Texture": "Cornucopia.MoreCrops/FruitTrees",
+					"Texture": "Cornucopia.MoreCrops/FruitTrees_Custom1",
 					"TextureSpriteRow": 3
 				},
 				"Cornucopia_PistachioSapling": {
@@ -95,15 +95,15 @@
 					"DisplayName": "{{i18n:Lemon_name}}",
 					"Seasons": [ "spring" ],
 					"Fruit": [{"ItemId": "Cornucopia_Lemon"}],
-					"Texture": "Cornucopia.MoreCrops/FruitTrees",
-					"TextureSpriteRow": 12
+					"Texture": "Cornucopia.MoreCrops/FruitTrees_Custom1",
+					"TextureSpriteRow": 2
 				},
 				"Cornucopia_LimeSapling": {
 					"DisplayName": "{{i18n:Lime_name}}",
 					"Seasons": [ "spring" ],
 					"Fruit": [{"ItemId": "Cornucopia_Lime"}],
-					"Texture": "Cornucopia.MoreCrops/FruitTrees",
-					"TextureSpriteRow": 13
+					"Texture": "Cornucopia.MoreCrops/FruitTrees_Custom1",
+					"TextureSpriteRow": 1
 				},
 				"Cornucopia_LycheeSapling": {
 					"DisplayName": "{{i18n:Lychee_name}}",
