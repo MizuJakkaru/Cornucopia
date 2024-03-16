@@ -60,5 +60,14 @@
 				}
 			]
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+				"Chocolate Cake": {
+					"0": "Cornucopia_CocoaPod 1 246 1 245 1 -5 1"
+				}
+			}
+		}
 	]
 }
