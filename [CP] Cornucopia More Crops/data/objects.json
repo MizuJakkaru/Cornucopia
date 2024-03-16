@@ -887,8 +887,8 @@
         },
         "Cornucopia_WasabiRoot": {
           "Name": "Cornucopia_WasabiRoot",
-          "Type": "Vegetable",
-          "Category": -75,
+          "Type": "Forage",
+          "Category": -81,
           "SpriteIndex": 136,
           "DisplayName": "{{i18n:WasabiRoot_name}}",
           "Description": "{{i18n:WasabiRoot_description}}",
