@@ -191,7 +191,7 @@
 					"TextureSpriteRow": 25
 				},
 				"Cornucopia_CinnamonSticksSapling": {
-					"DisplayName": "{{i18n:Cassia_name}}",
+					"DisplayName": "{{i18n:Cinnamon_name}}",
 					"Seasons": [ "winter" ],
 					"Fruit": [{"ItemId": "Cornucopia_CinnamonSticks"}],
 					"Texture": "Cornucopia.MoreCrops/FruitTrees",

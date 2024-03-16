@@ -456,8 +456,8 @@
   "YuzuSapling_description": "Takes 28 days to produce a mature Yuzu tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.",
   "CamphorLeavesSapling_name": "Camphor Sapling",
   "CamphorLeavesSapling_description": "Takes 28 days to produce a mature Camphor tree. Ready to harvest in the winter. Only grows if the 8 surrounding \"tiles\" are empty.",
-  "CinnamonSticksSapling_name": "Cassia Sapling",
-  "CinnamonSticksSapling_description": "Takes 28 days to produce a mature Cassia tree. Ready to harvest in the winter. Only grows if the 8 surrounding \"tiles\" are empty.",
+  "CinnamonSticksSapling_name": "Cinnamon Sapling",
+  "CinnamonSticksSapling_description": "Takes 28 days to produce a mature Cinnamon tree. Ready to harvest in the winter. Only grows if the 8 surrounding \"tiles\" are empty.",
   "EucalyptusLeavesSapling_name": "Eucalyptus Sapling",
   "EucalyptusLeavesSapling_description": "Takes 28 days to produce a mature Eucalyptus tree. Ready to harvest in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
   "MelaleucaLeavesSapling_name": "Melaleuca Sapling",
@@ -495,7 +495,7 @@
 	
   //Special tree names (for the "Your ___ tree wasn't able to grow last night" message)
   "Cocoa_name": "Cocoa",
-  "Cassia_name": "Cassia",
+  "Cinnamon_name": "Cinnamon",
   "Camphor_name": "Camphor",
   "Eucalyptus_name": "Eucalyptus",
   "Melaleuca_name": "Melaleuca",
