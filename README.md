@@ -1,4 +1,4 @@
-![Cornucopia banner](https://imgur.com/xeREF8V)
+![Cornucopia banner](https://i.imgur.com/xeREF8V.png)
 
 This is the hub for the Cornucopia mod suite for Stardew Valley 1.6.
 
