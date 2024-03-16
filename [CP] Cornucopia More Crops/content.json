@@ -16,11 +16,6 @@
 			"Default": "true",
 			"Description": "Adds 20+ new herbs as crops and trees."
 		},
-		"Enable Artisan Goods": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "(Recommended) Adds custom, unique artisan goods for some Cornucopia crops. Generic goods like wine, juice, etc will still be automatically added regardless of this setting."
-		},
 		"Category Overrides": {
 			"AllowValues": "true, false",
 			"Default": "true",
