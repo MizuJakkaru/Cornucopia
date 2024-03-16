@@ -25,11 +25,11 @@ The mod could not be a reality without the following people having shared in mak
 ## So... What's Included?
 Cornucopia is a **collection of mods**, all of which can be used together, or on their own. We're constantly working on new mods and updates to expand what's offered!
 
-**Cornucopia - More Crops** The main mod for crops and fruit trees. Here you'll find **fruits, vegetables, berry bushes, plantable mushrooms,** as well as **a couple wild trees and forage items**.
+[**Cornucopia - More Crops**](https://www.nexusmods.com/stardewvalley/mods/19508) The main mod for crops and fruit trees. Here you'll find **fruits, vegetables, berry bushes, plantable mushrooms,** as well as **a couple wild trees and forage items**.
 
 ![A list of items included in More Crops](https://raw.githubusercontent.com/MizuJakkaru/Cornucopia/main/%5BCP%5D%20Cornucopia%20More%20Crops/config%20options.png)
 
-**Cornucopia - More Flowers** A large crop and fruit tree expansion mod based primarily around **decorative flowers**. You'll find some beautiful blooms for honey, not to mention gorgeous hedges and trees to decorate with!
+[**Cornucopia - More Flowers**](https://www.nexusmods.com/stardewvalley/mods/20290) A large crop and fruit tree expansion mod based primarily around **decorative flowers**. You'll find some beautiful blooms for honey, not to mention gorgeous hedges and trees to decorate with!
 
 ![A list of items included in More Crops](https://raw.githubusercontent.com/MizuJakkaru/Cornucopia/main/%5BCP%5D%20Cornucopia%20More%20Flowers/config%20options.png)
 
@@ -38,12 +38,12 @@ Cornucopia is a **collection of mods**, all of which can be used together, or on
 
 **Cornucopia - Cooking Recipes** \(Not published yet\) A large expansion of 300+ recipes that utilize vanilla and Cornucopia items! We have iconic dishes from all over the world, ensuring you'll find some foods you know and love.
 
-**Growable Forage and Crop Bushes** Growable Forage is a companion mod made by the Cornucopia team that modifies some of the vanilla crops 
+[**Growable Forage and Crop Bushes**](https://www.nexusmods.com/stardewvalley/mods/20340) Growable Forage is a companion mod made by the Cornucopia team that modifies some of the vanilla crops 
 
 ## Configuring Cornucopia
 Cornucopia mods are simple to configure with the help of Generic Mod Config Menu (GMCM). We allow you to choose a limited or expanded set of items depending on your specific desire.
 
-**Cornucopia - More Crops**
+[**Cornucopia - More Crops**](https://www.nexusmods.com/stardewvalley/mods/19508)
 * "Enable Extended Crops Pack": See image in previous section for included items.
 * "Enable Extended Trees Pack": See image in previous section for included items.
 * "Enable Herbs Pack": See image in previous section for included items.
@@ -51,10 +51,10 @@ Cornucopia mods are simple to configure with the help of Generic Mod Config Menu
 * "Vanilla Category Overrides": Turns some vanilla items into the following custom categories: Nut, Mushroom, Herb, Spice. This has no mechanical effect and is purely for visuals.
 * "Disable Grape Bushes": When this option is **false**, both White Grape and Grape (vanilla) will act like teabushes (don't need watering, live all year, produce only in fall). If you prefer the crop behavior, set this to **true** and both plants will act like typical crops.
 
-**Cornucopia - More Flowers**
+[**Cornucopia - More Flowers**](https://www.nexusmods.com/stardewvalley/mods/20290)
 * "Enable Extended Flower Pack": See image in previous section for included items.
 
-**Growable Forage and Crop Bushes**
+[**Growable Forage and Crop Bushes**](https://www.nexusmods.com/stardewvalley/mods/20340)
 All options can be set to **true** or **false** to turn them on or off. "Teabush-like" plants act like vanilla teabushes--they don't need watering, should be planted on untilled soil, and survive year-round. Each one has a certain harvest time.
 * "Spring Onion Crop": Seeds for spring onion.
 * "Ginger Crop": Seeds for ginger (available only on Ginger Island).
