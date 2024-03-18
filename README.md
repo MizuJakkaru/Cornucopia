@@ -41,7 +41,9 @@ Cornucopia is a **collection of mods**, all of which can be used together, or on
 [**Growable Forage and Crop Bushes**](https://www.nexusmods.com/stardewvalley/mods/20340) Growable Forage is a companion mod made by the Cornucopia team that modifies some of the vanilla crops 
 
 ## Configuring Cornucopia
-Cornucopia mods are simple to configure with the help of Generic Mod Config Menu (GMCM). We allow you to choose a limited or expanded set of items depending on your specific desire.
+Cornucopia mods are simple to configure with the help of Generic Mod Config Menu (GMCM). We allow you to choose a limited or expanded set of items depending on your specific desire. **We recommend choosing config options for Cornucopia mods right after you install them, rather than later.**
+
+Some config options allow you to enable or disable sets of items in the game. These can be changed at any time, though keep in mind that if you choose to disable items, then any existing items from that "pack" will turn into error items with no picture. These error items are entirely harmless, and can be safely thrown away to get rid of them. Furthermore, they still keep the information of the original item intact. So if you accidentally deleted our mod and ended up with a bunch of error items, no worries! You can reinstall or enable the item pack again, and your error items will turn back into normal.
 
 [**Cornucopia - More Crops**](https://www.nexusmods.com/stardewvalley/mods/19508)
 * "Enable Extended Crops Pack": See image in previous section for included items.
@@ -73,3 +75,8 @@ All options can be set to **true** or **false** to turn them on or off. "Teabush
 * "Grapes Bush": Turns grapes into a teabush instead of a crop.
 * "Hazelnut Tree": Adds a fruit tree that gives hazelnuts.
 * "Coconut Tree": Adds a fruit tree that gives coconuts.
+
+## For Mod Authors
+Mod cross-compatibility is very important to the Cornucopia team. If you are a mod author and would like to discuss compatibility with your mod, or if you need help integrating Cornucopia content into your mod, feel free to [join our Discord server](https://discord.gg/qEMWVcNPxe), or reach out to [6480](https://www.nexusmods.com/users/55537262) to chat.
+
+We utilize a number of custom item categories (through Spacecore) and custom context tags for machine goods and cooking recipes. The standardization of generic custom context tags between item modders is incredibly helpful not just for other item modders, but for NPC modders who would like to use context tags in NPC gift tastes or for special orders. **We maintain a list of custom context tags that are used in Cornucopia, which any modder can apply to their own items as desired.** Please refer to the following document for more information: (placeholder)
