@@ -5,9 +5,6 @@
       "Action": "EditData",
 	  "Target": "Data/Shops",
       "TargetField": [ "IslandTrade", "Items" ],
-      "When": {
-        "Enable Extended Crops Pack": true
-      },
       "Entries": {
 		"Cornucopia_PeppercornSeeds": {
 			"Id": "Cornucopia_PeppercornSeeds",
@@ -16,6 +13,16 @@
 			"TradeItemAmount": 10,
 			"IgnoreShopPriceModifiers": true
 		},
+	  },
+	},
+	{
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "IslandTrade", "Items" ],
+      "When": {
+        "Enable Extended Crops Pack": true
+      },
+      "Entries": {
 		"Cornucopia_PapayaSapling": {
 			"Id": "Cornucopia_PapayaSapling",
 			"ItemId": "Cornucopia_PapayaSapling",

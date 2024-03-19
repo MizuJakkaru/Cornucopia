@@ -235,7 +235,36 @@
           "ContextTags": [
             "color_green"
           ]
-        }
+        },
+        "Cornucopia_Vanilla": {
+          "Name": "Cornucopia_Vanilla",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 270,
+          "DisplayName": "{{i18n:Vanilla_name}}",
+          "Description": "{{i18n:Vanilla_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 150,
+          "ContextTags": [
+            "spice_item",
+			"color_white"
+          ]
+        },
+        "Cornucopia_Peppercorn": {
+          "Name": "Cornucopia_Peppercorn",
+          "Type": "Vegetable",
+          "Category": -75,
+          "SpriteIndex": 190,
+          "DisplayName": "{{i18n:Peppercorn_name}}",
+          "Description": "{{i18n:Peppercorn_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 40,
+          "Edibility": -300,
+          "ContextTags": [
+            "spice_item",
+			"color_poppyseed"
+          ]
+        },
       }
     },
     //Extended crops produce
@@ -741,21 +770,6 @@
             "color_dark_pink"
           ]
         },
-        "Cornucopia_Peppercorn": {
-          "Name": "Cornucopia_Peppercorn",
-          "Type": "Vegetable",
-          "Category": -75,
-          "SpriteIndex": 190,
-          "DisplayName": "{{i18n:Peppercorn_name}}",
-          "Description": "{{i18n:Peppercorn_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 40,
-          "Edibility": -300,
-          "ContextTags": [
-            "spice_item",
-			"color_poppyseed"
-          ]
-        },
         "Cornucopia_PintoBeans": {
           "Name": "Cornucopia_PintoBeans",
           "Type": "Vegetable",
@@ -869,20 +883,6 @@
           "Edibility": 10,
           "ContextTags": [
             "color_dark_pink"
-          ]
-        },
-        "Cornucopia_Vanilla": {
-          "Name": "Cornucopia_Vanilla",
-          "Type": "Flower",
-          "Category": -80,
-          "SpriteIndex": 270,
-          "DisplayName": "{{i18n:Vanilla_name}}",
-          "Description": "{{i18n:Vanilla_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 150,
-          "ContextTags": [
-            "spice_item",
-			"color_white"
           ]
         },
         "Cornucopia_WasabiRoot": {
@@ -1431,7 +1431,27 @@
           "Description": "{{i18n:ZucchiniSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 25
-        }
+        },
+        "Cornucopia_VanillaSeeds": {
+          "Name": "Cornucopia_VanillaSeeds",
+          "Type": "Basic",
+          "Category": -74,
+          "SpriteIndex": 271,
+          "DisplayName": "{{i18n:VanillaSeeds_name}}",
+          "Description": "{{i18n:VanillaSeeds_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 500
+        },
+        "Cornucopia_PeppercornSeeds": {
+          "Name": "Cornucopia_PeppercornSeeds",
+          "Type": "Basic",
+          "Category": -74,
+          "SpriteIndex": 191,
+          "DisplayName": "{{i18n:PeppercornSeeds_name}}",
+          "Description": "{{i18n:PeppercornSeeds_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 120
+        },
       }
     },
     //Extended crop seeds
@@ -1782,16 +1802,6 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 65
         },
-        "Cornucopia_PeppercornSeeds": {
-          "Name": "Cornucopia_PeppercornSeeds",
-          "Type": "Basic",
-          "Category": -74,
-          "SpriteIndex": 191,
-          "DisplayName": "{{i18n:PeppercornSeeds_name}}",
-          "Description": "{{i18n:PeppercornSeeds_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 120
-        },
         "Cornucopia_PintoBeansSeeds": {
           "Name": "Cornucopia_PintoBeansSeeds",
           "Type": "Seed",
@@ -1871,16 +1881,6 @@
           "Description": "{{i18n:SweetPotatoSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 35
-        },
-        "Cornucopia_VanillaSeeds": {
-          "Name": "Cornucopia_VanillaSeeds",
-          "Type": "Basic",
-          "Category": -74,
-          "SpriteIndex": 271,
-          "DisplayName": "{{i18n:VanillaSeeds_name}}",
-          "Description": "{{i18n:VanillaSeeds_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 500
         },
         "Cornucopia_WasabiRootSeeds": {
           "Name": "Cornucopia_WasabiRootSeeds",

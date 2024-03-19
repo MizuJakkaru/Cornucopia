@@ -104,7 +104,14 @@
 			"Condition": "SEASON fall, YEAR 3",
 			"IgnoreShopPriceModifiers": true,//"Price": 50,
 			
-		}
+		},
+		"Cornucopia_VanillaSeeds": {
+			"Id": "Cornucopia_VanillaSeeds",
+			"ItemId": "Cornucopia_VanillaSeeds",
+			"Condition": "SEASON spring, YEAR 2",
+			"IgnoreShopPriceModifiers": true,//"Price": 1000,
+			
+		},
       },
 	  "MoveEntries": [
 			{ "Id": "Cornucopia_BasilSeeds", "BeforeId": "GrassStarter" },
@@ -118,6 +125,7 @@
 			{ "Id": "Cornucopia_OnionSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_PeanutSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_RaspberrySeeds", "BeforeId": "(O)628" },
+			{ "Id": "Cornucopia_VanillaSeeds", "BeforeId": "(O)628" },
 			{ "Id": "Cornucopia_WatermelonSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_ZucchiniSeeds", "BeforeId": "GrassStarter" }
 		]
@@ -387,13 +395,6 @@
 			"ItemId": "Cornucopia_SweetPotatoSeeds",
 			"Condition": "SEASON fall",
 			"IgnoreShopPriceModifiers": true,//"Price": 70,
-			
-		},
-		"Cornucopia_VanillaSeeds": {
-			"Id": "Cornucopia_VanillaSeeds",
-			"ItemId": "Cornucopia_VanillaSeeds",
-			"Condition": "SEASON spring, YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 1000,
 			
 		},
 		"Cornucopia_WasabiRootSeeds": {

@@ -3,7 +3,7 @@
     "Author": "Cornucopia",
     "Description": "An additional Fruits and Veggies mod for Stardew Valley 1.6 Content Patcher",
     "Version": "1.0.0",
-    "MinimumApiVersion": "4.0.0-alpha",
+    "MinimumApiVersion": "4.0.0",
     "UniqueID": "Cornucopia.MoreCrops",
     "UpdateKeys": ["Nexus: 19508"],
 	"ContentPackFor": {
