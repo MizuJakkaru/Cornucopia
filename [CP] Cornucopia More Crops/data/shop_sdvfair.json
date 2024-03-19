@@ -17,7 +17,7 @@
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_Cornucopia", "BeforeId": "(BC)112" }
+			{ "Id": "Cornucopia_Cornucopia", "AfterId": "(F)1307" }
 		]
     },
   ]

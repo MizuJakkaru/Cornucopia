@@ -8,12 +8,13 @@
 		"Cornucopia_HousePlantLotus": {
 			"Id": "Cornucopia_HousePlantLotus",
 			"ItemId": "Cornucopia_HousePlantLotus",
+			"Condition": "DAY_OF_WEEK Thursday Sunday, RANDOM 0.25",
 			"Price": 250,
 			"IgnoreShopPriceModifiers": true
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_HousePlantLotus", "AfterId": "(O)178" }
+			{ "Id": "Cornucopia_HousePlantLotus", "AfterId": "(F)1616" }
 		]
     },
   ]
