@@ -31,12 +31,12 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 20
 				},
-				"Cornucopia_CarrotSeeds": {
+				"Cornucopia_TurnipSeeds": {
 					"Seasons": [ "fall" ],
 					"DaysInPhase": [ 1, 2, 1, 2 ],
-					"HarvestItemId": "Cornucopia_Carrot",
+					"HarvestItemId": "Cornucopia_Turnip",
 					"Texture": "Cornucopia.MoreCrops/Crops",
-					"SpriteIndex": 11
+					"SpriteIndex": 48
 				},
 				"Cornucopia_CottonBollSeeds": {
 					"Seasons": [ "summer", "fall" ],

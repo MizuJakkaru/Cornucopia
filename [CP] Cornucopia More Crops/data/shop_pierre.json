@@ -21,16 +21,16 @@
 			"IgnoreShopPriceModifiers": true,//"Price": 130,
 			
 		},
-		"Cornucopia_BroccoliSeeds": {
+		/*"Cornucopia_BroccoliSeeds": {
 			"Id": "Cornucopia_BroccoliSeeds",
 			"ItemId": "Cornucopia_BroccoliSeeds",
 			"Condition": "SEASON fall, YEAR 2",
 			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
-		},
-		"Cornucopia_CarrotSeeds": {
-			"Id": "Cornucopia_CarrotSeeds",
-			"ItemId": "Cornucopia_CarrotSeeds",
+		},*/
+		"Cornucopia_TurnipSeeds": {
+			"Id": "Cornucopia_TurnipSeeds",
+			"ItemId": "Cornucopia_TurnipSeeds",
 			"Condition": "SEASON fall",
 			"IgnoreShopPriceModifiers": true,//"Price": 35,
 			
@@ -109,8 +109,7 @@
 	  "MoveEntries": [
 			{ "Id": "Cornucopia_BasilSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_BellPepperSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_BroccoliSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CarrotSeeds", "BeforeId": "GrassStarter" },
+			{ "Id": "Cornucopia_TurnipSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_CottonBollSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_CucumberSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_KiwiSeeds", "BeforeId": "GrassStarter" },
@@ -404,13 +403,13 @@
 			"IgnoreShopPriceModifiers": true,//"Price": 100,
 			
 		},
-		"Cornucopia_YellowSquashSeeds": {
+		/*"Cornucopia_YellowSquashSeeds": {
 			"Id": "Cornucopia_YellowSquashSeeds",
 			"ItemId": "Cornucopia_YellowSquashSeeds",
 			"Condition": "SEASON summer, YEAR 2",
 			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
-		}
+		}*/
       },
 	  "MoveEntries": [
 			{ "Id": "Cornucopia_AdzukiBeanSeeds", "BeforeId": "GrassStarter" },
@@ -451,7 +450,6 @@
 			{ "Id": "Cornucopia_SugarBeetSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_SweetPotatoSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_WasabiRootSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_YellowSquashSeeds", "BeforeId": "GrassStarter" }
 		]
     },
 	//Extended crops seeds - white grapes (unique)

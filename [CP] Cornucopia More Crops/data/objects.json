@@ -35,7 +35,7 @@
             "color_red"
           ]
         },
-        "Cornucopia_Broccoli": {
+        /*"Cornucopia_Broccoli": {
           "Name": "Cornucopia_Broccoli",
           "Type": "Vegetable",
           "Category": -75,
@@ -48,19 +48,19 @@
           "ContextTags": [
             "color_dark_green"
           ]
-        },
-        "Cornucopia_Carrot": {
-          "Name": "Cornucopia_Carrot",
+        },*/
+        "Cornucopia_Turnip": {
+          "Name": "Cornucopia_Turnip",
           "Type": "Vegetable",
           "Category": -75,
-          "SpriteIndex": 34,
-          "DisplayName": "{{i18n:Carrot_name}}",
-          "Description": "{{i18n:Carrot_description}}",
+          "SpriteIndex": 140,
+          "DisplayName": "{{i18n:Turnip_name}}",
+          "Description": "{{i18n:Turnip_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 75,
           "Edibility": 10,
           "ContextTags": [
-            "color_orange"
+            "color_purple"
           ]
         },
         "Cornucopia_CottonBoll": {
@@ -914,7 +914,7 @@
             "color_yellow_green"
           ]
         },
-        "Cornucopia_YellowSquash": {
+        /*"Cornucopia_YellowSquash": {
           "Name": "Cornucopia_YellowSquash",
           "Type": "Vegetable",
           "Category": -75,
@@ -927,7 +927,7 @@
           "ContextTags": [
             "color_yellow"
           ]
-        },
+        },*/
       }
     },
 	//Herb crop produce
@@ -1302,7 +1302,7 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 65
         },
-        "Cornucopia_BroccoliSeeds": {
+        /*"Cornucopia_BroccoliSeeds": {
           "Name": "Cornucopia_BroccoliSeeds",
           "Type": "Seed",
           "Category": -74,
@@ -1311,14 +1311,14 @@
           "Description": "{{i18n:BroccoliSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 40
-        },
-        "Cornucopia_CarrotSeeds": {
-          "Name": "Cornucopia_CarrotSeeds",
+        },*/
+        "Cornucopia_TurnipSeeds": {
+          "Name": "Cornucopia_TurnipSeeds",
           "Type": "Seed",
           "Category": -74,
-          "SpriteIndex": 35,
-          "DisplayName": "{{i18n:CarrotSeeds_name}}",
-          "Description": "{{i18n:CarrotSeeds_description}}",
+          "SpriteIndex": 141,
+          "DisplayName": "{{i18n:TurnipSeeds_name}}",
+          "Description": "{{i18n:TurnipSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 15
         },
@@ -1892,7 +1892,7 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 50
         },
-        "Cornucopia_YellowSquashSeeds": {
+        /*"Cornucopia_YellowSquashSeeds": {
           "Name": "Cornucopia_YellowSquashSeeds",
           "Type": "Seed",
           "Category": -74,
@@ -1901,7 +1901,7 @@
           "Description": "{{i18n:YellowSquashSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 40
-        }
+        }*/
       }
     },
     //Extended crop seeds - white grapes (unique)
