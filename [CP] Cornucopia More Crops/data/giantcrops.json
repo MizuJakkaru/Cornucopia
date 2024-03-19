@@ -6,7 +6,7 @@
 			"Target": "Data/GiantCrops",
 			//"When": {"Enable Essential Pack": true},
 			"Entries": {
-				"Cornucopia_GiantBroccoli": {
+				/*"Cornucopia_GiantBroccoli": {
 					"FromItemId": "Cornucopia_Broccoli",
 					"HarvestItems": [
 						{
@@ -27,7 +27,7 @@
 							"Y": 3
 						},
 					"Chance": 0.01,
-				},
+				},*/
 				"Cornucopia_GiantWatermelon": {
 					"FromItemId": "Cornucopia_Watermelon",
 					"HarvestItems": [
