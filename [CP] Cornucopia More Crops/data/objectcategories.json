@@ -9,31 +9,85 @@
 			},
 			"Entries": {
 				"408": {
-					"CategoryTextOverride": "{{i18n:Nut}}"
+					"CategoryTextOverride": "{{i18n:Nut}}",
+					"CategoryColorOverride": {
+						"R": 197,
+						"G": 92,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"257": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"404": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"281": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"420": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"422": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"851": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"829": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"16": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				}
 			}
 		},
@@ -45,124 +99,364 @@
 			},
 			"Entries": {
 				"Cornucopia_Peanut": {
-					"CategoryTextOverride": "{{i18n:Nut}}"
+					"CategoryTextOverride": "{{i18n:Nut}}",
+					"CategoryColorOverride": {
+						"R": 197,
+						"G": 92,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_Shiitake": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_ChickenoftheWoods": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_HenoftheWoods": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_Enoki": {
-					"CategoryTextOverride": "{{i18n:Mushroom}}"
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 120,
+						"G": 56,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_Almond": {
-					"CategoryTextOverride": "{{i18n:Nut}}"
+					"CategoryTextOverride": "{{i18n:Nut}}",
+					"CategoryColorOverride": {
+						"R": 197,
+						"G": 92,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_Cashew": {
-					"CategoryTextOverride": "{{i18n:Nut}}"
+					"CategoryTextOverride": "{{i18n:Nut}}",
+					"CategoryColorOverride": {
+						"R": 197,
+						"G": 92,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_Pecan": {
-					"CategoryTextOverride": "{{i18n:Nut}}"
+					"CategoryTextOverride": "{{i18n:Nut}}",
+					"CategoryColorOverride": {
+						"R": 197,
+						"G": 92,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_Pistachio": {
-					"CategoryTextOverride": "{{i18n:Nut}}"
+					"CategoryTextOverride": "{{i18n:Nut}}",
+					"CategoryColorOverride": {
+						"R": 197,
+						"G": 92,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_Walnut": {
-					"CategoryTextOverride": "{{i18n:Nut}}"
+					"CategoryTextOverride": "{{i18n:Nut}}",
+					"CategoryColorOverride": {
+						"R": 197,
+						"G": 92,
+						"B": 0,
+						"A": 255
+					},
 				},
 				"Cornucopia_Nutmeg": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"Cornucopia_CinnamonSticks": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"Cornucopia_CuminSeeds": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"Cornucopia_Ginseng": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"Cornucopia_LicoriceRoot": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"Cornucopia_Peppercorn": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"Cornucopia_Turmeric": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"Cornucopia_Vanilla": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"Cornucopia_WasabiRoot": {
-					"CategoryTextOverride": "{{i18n:Spice}}"
+					"CategoryTextOverride": "{{i18n:Spice}}",
+					"CategoryColorOverride": {
+						"R": 136,
+						"G": 14,
+						"B": 14,
+						"A": 255
+					},
 				},
 				"Cornucopia_Basil": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_BayLeaves": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_CamphorLeaves": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Catnip": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Chives": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Cilantro": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Dill": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_EucalyptusLeaves": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Fennel": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Fenugreek": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Lemongrass": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Marjoram": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_MelaleucaLeaves": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Mint": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Oregano": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Parsley": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_PerillaLeaves": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Rosemary": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Sage": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Tarragon": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				},
 				"Cornucopia_Thyme": {
-					"CategoryTextOverride": "{{i18n:Herb}}"
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				}
 			}
 		}
