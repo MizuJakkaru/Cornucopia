@@ -3,7 +3,7 @@
     "Author": "Cornucopia",
     "Description": "An additional flowers mod for Stardew Valley 1.6 Content Patcher",
     "Version": "1.0.0",
-    "MinimumApiVersion": "4.0.0-alpha",
+    "MinimumApiVersion": "4.0.0",
     "UniqueID": "Cornucopia.MoreFlowers",
     "UpdateKeys": ["Nexus: 20290"],
 	"ContentPackFor": {
