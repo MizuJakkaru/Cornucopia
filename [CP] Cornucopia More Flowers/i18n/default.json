@@ -200,4 +200,7 @@
   "WisteriaSapling_description": "Takes 28 days to produce a mature Wisteria tree. Blossoms in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
   "YlangYlangSapling_name": "Ylang Ylang Sapling",
   "YlangYlangSapling_description": "Takes 28 days to produce a mature Ylang Ylang tree. Blossoms in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+  
+  //Furniture
+  "HousePlant_name": "House Plant",
 }
