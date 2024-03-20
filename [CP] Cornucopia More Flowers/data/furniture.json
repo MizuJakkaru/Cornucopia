@@ -4,7 +4,7 @@
         	"Action": "EditData",
         	"Target": "Data/Furniture",
         	"Entries": {
-                "Cornucopia_HousePlantLotus": "House Plant/decor/1 2/1 1/1/250/-1/House Plant/0/Cornucopia.MoreFlowers\\Furniture//, "
+                "Cornucopia_HousePlantLotus": "{{i18n:HousePlant_name}}/decor/1 2/1 1/1/250/-1/{{i18n:HousePlant_name}}/0/Cornucopia.MoreFlowers\\Furniture//, "
             }
         }
     ]
