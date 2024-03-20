@@ -60,22 +60,6 @@
 										"MinutesUntilReady": 720,
 									},
 									{
-										"Id": "Cornucopia_SmokedSalmon",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)139",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_SmokedSalmon",	
-												}
-											],
-										"MinutesUntilReady": 1440,
-									},
-									{
 										"Id": "Cornucopia_SmokedEgg",
 										"Triggers": 
 											[
@@ -90,34 +74,6 @@
 												}
 											],
 										"MinutesUntilReady": 720,
-									},
-									{
-										"Id": "Cornucopia_SmokedFish",
-										"Triggers": 
-											[
-												{
-													"RequiredTags":[ "category_fish", "!fish_crab_pot", "!id_o_139" ],
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "Cornucopia_SmokedFish",
-													"Name": "Smoked {0}",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_SmokedFish %PRESERVED_DISPLAY_NAME]",
-													"PreserveId": "DROP_IN",
-													"CopyPrice": true,
-													"PriceModifiers":
-														[
-															{
-																"Id": "SmokedFish",
-																"Modification": "Multiply",
-																"Amount": 2.0,
-															}
-														],
-												}
-											],
-										"MinutesUntilReady": 1440,
 									}
 								],
 							"AdditionalConsumedItems":

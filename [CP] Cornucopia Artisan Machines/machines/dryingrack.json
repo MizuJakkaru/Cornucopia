@@ -47,38 +47,6 @@
 										"MinutesUntilReady": 4320,
 									},
 									{
-										"Id": "Cornucopia_Prunes",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)406",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_Prunes",
-												}
-											],
-										"MinutesUntilReady": 2250,
-									},
-									{
-										"Id": "Cornucopia_Raisins",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)398",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_Raisins",
-												}
-											],
-										"MinutesUntilReady": 2250,
-									},
-									{
 										"Id": "Cornucopia_DriedFlower",
 										"Triggers": 
 											[
@@ -107,34 +75,6 @@
 										"MinutesUntilReady": 1440,
 									},
 									{
-										"Id": "Cornucopia_DriedFruit",
-										"Triggers": 
-											[
-												{
-													"RequiredTags":[ "category_fruits", "!id_o_398", "!id_o_406" ],
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_DriedFruit",
-													"Name": "Dried {0}",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedFruit %PRESERVED_DISPLAY_NAME]",
-													"PreserveId": "DROP_IN",
-													"CopyPrice": true,
-													"PriceModifiers":
-														[
-															{
-																"Id": "DriedFruit",
-																"Modification": "Multiply",
-																"Amount": 2.0,
-															}
-														],
-												}
-											],
-										"MinutesUntilReady": 1440,
-									},
-									{
 										"Id": "Cornucopia_DriedHerb",
 										"Triggers": 
 											[
@@ -156,62 +96,6 @@
 																"Id": "DriedHerb",
 																"Modification": "Multiply",
 																"Amount": 1.75,
-															}
-														],
-												}
-											],
-										"MinutesUntilReady": 1440,
-									},
-									{
-										"Id": "Cornucopia_DriedMushrooms",
-										"Triggers": 
-											[
-												{
-													"RequiredTags":[ "mushroom_item" ],
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_DriedMushrooms",
-													"Name": "Dried {0}",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedMushrooms %PRESERVED_DISPLAY_NAME]",
-													"PreserveId": "DROP_IN",
-													"CopyPrice": true,
-													"PriceModifiers":
-														[
-															{
-																"Id": "DriedMushrooms",
-																"Modification": "Multiply",
-																"Amount": 1.75,
-															}
-														],
-												}
-											],
-										"MinutesUntilReady": 1440,
-									},
-									{
-										"Id": "Cornucopia_DriedVegetable",
-										"Triggers": 
-											[
-												{
-													"RequiredTags":[ "category_vegetable" ],
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_DriedVegetable",
-													"Name": "Dried {0}",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedVegetable %PRESERVED_DISPLAY_NAME]",
-													"PreserveId": "DROP_IN",
-													"CopyPrice": true,
-													"PriceModifiers":
-														[
-															{
-																"Id": "DriedVegetable",
-																"Modification": "Multiply",
-																"Amount": 2.0,
 															}
 														],
 												}

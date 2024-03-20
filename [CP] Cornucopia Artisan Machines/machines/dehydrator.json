@@ -1,0 +1,57 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)##", "OutputRules" ], 			//add BC value
+			"Entries": { 
+				"Cornucopia_Prunes": {
+					"Id": "Cornucopia_Prunes",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)406",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Prunes",
+							}
+						],
+					"MinutesUntilReady": 2250,
+				},
+				"Cornucopia_DriedVegetable": {
+					"Id": "Cornucopia_DriedVegetable",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "category_vegetable" ],
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_DriedVegetable",
+								"Name": "Dried {0}",
+								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedVegetable %PRESERVED_DISPLAY_NAME]",
+								"PreserveId": "DROP_IN",
+								"CopyPrice": true,
+								"PriceModifiers":
+									[
+										{
+											"Id": "DriedVegetable",
+											"Modification": "Multiply",
+											"Amount": 2.0,
+										}
+									],
+							}
+						],
+					"MinutesUntilReady": 1440,
+				}
+			}
+		}
+    ]
+}
