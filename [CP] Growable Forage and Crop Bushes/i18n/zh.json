@@ -1,0 +1,44 @@
+{
+	//Crops seeds
+	"CrocusSeeds_name": "藏红花种子",
+	"CrocusSeeds_description": "冬季种植。需要9天才能产生带有藏红花的紫色花朵。",
+	"GingerSeeds_name": "姜种子",
+	"GingerSeeds_description": "夏季种植。需要8天成熟。",
+	"SpringOnionSeeds_name": "春葱种子",
+	"SpringOnionSeeds_description": "春季种植。只需3天就能成熟。",
+	"SweetPeaSeeds_name": "甜豌豆种子",
+	"SweetPeaSeeds_description": "夏季种植。需要8天才能开出一朵香甜的小花。",
+	
+	//Bush saplings
+	"BlackberrySeeds_name": "黑莓树苗",
+	"BlackberrySeeds_description": "需要20天才能长成灌木。在黑莓季节和之后一段时间（秋季8-14天）都能结出黑莓。",
+	"ChanterelleSeeds_name": "松茸种植盆",
+	"ChanterelleSeeds_description": "需要30天才能长成蘑菇树桩。在晚秋（第18-24天）能产出丰富的松茸。",
+	"CommonMushroomSeeds_name": "普通蘑菇种植盆",
+	"CommonMushroomSeeds_description": "需要25天才能长成蘑菇树桩。在春季和秋季期间都能产出普通蘑菇。",
+	"HollySeeds_name": "冬青树苗",
+	"HollySeeds_description": "需要20天才能长成灌木。在冬季每4天结出一次冬青。",
+	"MorelSeeds_name": "松露种植盆",
+	"MorelSeeds_description": "需要30天才能长成蘑菇树桩。在晚春（第22-28天）能产出丰富的松露。",
+	"SalmonberrySeeds_name": "红树莓树苗",
+	"SalmonberrySeeds_description": "需要20天才能长成灌木。在红树莓季节和之后一段时间（春季15-21天）都能结出红树莓。",
+	
+	//Tree saplings
+	"Hazelnut_name": "榛子",
+	"HazelnutSapling_name": "榛子树苗",
+	"HazelnutSapling_description": "需要28天才能长成成熟的榛子树。在秋季成熟可收获。只有周围8个“格子”为空时才会生长。",
+	"Coconut_name": "椰子",
+	"CoconutSapling_name": "椰子树苗",
+	"CoconutSapling_description": "需要28天才能长成成熟的椰子树。在夏季成熟可收获。只有周围8个“格子”为空时才会生长。",
+	
+	//Vanilla seeds to bush saplings changes
+	"BlueberrySeeds_name": "蓝莓树苗",
+	"BlueberrySeeds_description": "需要20天才能长成灌木。在夏季每4天结出蓝莓。",
+	"CactusFruitSeeds_name": "仙人掌种植盆",
+	"CactusFruitSeeds_description": "室内或室外种植。需要20天才能成熟，然后在夏季每3天结出仙人掌果实。",
+	"CoffeeBean_description": "种植以长成咖啡灌木，在春季和夏季结出咖啡豆。将五颗豆子放入酒桶中制作咖啡。",
+	"HopsSeeds_name": "啤酒花种植盆",
+	"HopsSeeds_description": "需要16天才能长成灌木。在夏季每天都结出啤酒花。",
+	"GrapeSeeds_name": "葡萄种植盆",
+	"GrapeSeeds_description": "需要16天才能长成灌木。在秋季每隔一天结出葡萄。",	
+}
