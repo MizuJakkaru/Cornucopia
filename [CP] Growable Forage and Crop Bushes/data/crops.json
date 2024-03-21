@@ -34,7 +34,7 @@
 			"When": {"Sweet Pea Crop": true},
 			"Entries": {
 				"Cornucopia_SweetPeaSeeds": {
-					"Seasons": [ "spring" ],
+					"Seasons": [ "summer" ],
 					"DaysInPhase": [ 1, 2, 3, 2 ],
 					"HarvestItemId": "(O)402",
 					"Texture": "Cornucopia.GrowableForage/Crops",
