@@ -134,11 +134,11 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json"
+			"FromFile": "data/shop_dwarf.json, data/shop_marnie.json, data/shop_islandtrader.json, data/shop_oasis.json, data/shop_pierre.json, data/shop_sdvfair.json, data/shop_travelingcart.json"
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/shop_dwarf.json, data/shop_marnie.json, data/shop_islandtrader.json, data/shop_oasis.json, data/shop_pierre.json, data/shop_sdvfair.json, data/shop_travelingcart.json"
+			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json"
 		},
 		{
 			"Action": "Include",
