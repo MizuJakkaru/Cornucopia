@@ -1,7 +1,7 @@
 {
 	"Name": "Growable Forage and Crop Bushes",
 	"Author": "Cornucopia",
-	"Version": "1.2.0",
+	"Version": "1.3.0",
 	"Description": "Adds new ways of growing some forage items and turns some crops into growable bushes!",
 	"UniqueID": "Cornucopia.GrowableForage",
 	"ContentPackFor": {
