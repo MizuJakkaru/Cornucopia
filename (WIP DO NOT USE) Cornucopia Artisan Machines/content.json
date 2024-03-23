@@ -4,7 +4,7 @@
         // add item + machine images
         {
             "Action": "Load",
-            "Target": "Cornucopia.ArtisanGoods/Objects, Cornucopia.ArtisanGoods/Craftables",
+            "Target": "Cornucopia.ArtisanMachines/Objects, Cornucopia.ArtisanMachines/Craftables",
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Objects.png
         },
 		

@@ -1,10 +1,10 @@
 {
-    "Name": "Cornucopia - More Artisan Goods",
+    "Name": "Cornucopia - Artisan Machines",
     "Author": "Cornucopia",
     "Description": "An additional Artisan Goods and Machines mod for Stardew Valley 1.6 Content Patcher",
     "Version": "1.0.0",
     "MinimumApiVersion": "4.0.0-alpha",
-    "UniqueID": "Cornucopia.ArtisanGoods",
+    "UniqueID": "Cornucopia.ArtisanMachines",
     //"UpdateKeys": ["Nexus:"],
 	"ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
