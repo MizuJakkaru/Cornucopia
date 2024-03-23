@@ -8,146 +8,82 @@
 			"Entries": {
 				"Cornucopia_Alembic": {
 					"Name": "Cornucopia_Alembic",
-					"DisplayName": "Alembic",
-					"Description": "Distills flowers, fruits, herbs, and vegetables into essential oils or extracts.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
+					"DisplayName": "{{i18n:Alembic_name}}",
+					"Description": "{{i18n:Alembic_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
 					"SpriteIndex": 0
 				},
 				
 				"Cornucopia_ButterChurn": {
-					"Name": "Cornucopia_Butter Churn",
-					"DisplayName": "Butter Churn",
-					"Description": "Turns milk or nuts into butter.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
+					"Name": "Cornucopia_ButterChurn",
+					"DisplayName": "{{i18n:ButterChurn_name}}",
+					"Description": "{{i18n:ButterChurn_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
 					"SpriteIndex": 1
 				},
 				
 				"Cornucopia_CanningMachine": {
-					"Name": "Cornucopia_Canning Machine",
-					"DisplayName": "Canning Machine",
-					"Description": "Used for canning produce.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
+					"Name": "Cornucopia_CanningMachine",
+					"DisplayName": "{{i18n:CanningMachine_name}}",
+					"Description": "{{i18n:CanningMachine_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
 					"SpriteIndex": 2
 				},
 				
 				"Cornucopia_DryingRack": {
-					"Name": "Cornucopia_Drying Rack",
-					"DisplayName": "Drying Rack",
-					"Description": "Used to to dry out various flowers and herbs.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 20
-				},
-				
-				"Cornucopia_EspressoMachine": {
-					"Name": "Cornucopia_Espresso Machine",
-					"DisplayName": "Espresso Machine",
-					"Description": "Infuse coffee into different beverages.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 5
+					"Name": "Cornucopia_DryingRack",
+					"DisplayName": "{{i18n:DryingRack_name}}",
+					"Description": "{{i18n:DryingRack_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
+					"SpriteIndex": 8
 				},
 				
 				"Cornucopia_Extruder": {
 					"Name": "Cornucopia_Extruder",
-					"DisplayName": "Extruder",
-					"Description": "Turns flour into noodles!",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
+					"DisplayName": "{{i18n:Extruder_name}}",
+					"Description": "{{i18n:Extruder_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
 					"SpriteIndex": 6
 				},
 				
-				"Cornucopia_GlassJar": {
-					"Name": "Cornucopia_Glass Jar",
-					"DisplayName": "Glass Jar",
-					"Description": "A jar to ferment non-alcoholic beverages. Turns mushrooms and tea into kombucha.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 8
-				},
-				
-				"Cornucopia_Grinder": {
-					"Name": "Cornucopia_Grinder",
-					"DisplayName": "Grinder",
-					"Description": "Use it to grind produce into valuable goods and spices.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 9
-				},
-				
-				"Cornucopia_IceCreamMachine": {
-					"Name": "Cornucopia_Ice Cream Machine",
-					"DisplayName": "Ice Cream Machine",
-					"Description": "A machine for making homemade ice cream.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 10
-				},
-				
-				"Cornucopia_Infuser": {
-					"Name": "Cornucopia_Infuser",
-					"DisplayName": "Infuser",
-					"Description": "A chemical apparatus for infusing liquers and schnapps.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 11
+				"Cornucopia_CompactMill": {
+					"Name": "Cornucopia_CompactMill",
+					"DisplayName": "{{i18n:CompactMill_name}}",
+					"Description": "{{i18n:CompactMill_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
+					"SpriteIndex": 7
 				},
 				
 				"Cornucopia_Juicer": {
 					"Name": "Cornucopia_Juicer",
-					"DisplayName": "Juicer",
-					"Description": "Turns fruit into delicious juice!",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 21
+					"DisplayName": "{{i18n:Juicer_name}}",
+					"Description": "{{i18n:Juicer_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
+					"SpriteIndex": 9
 				},
 				
-				"Cornucopia_Smoker": {
-					"Name": "Cornucopia_Smoker",
-					"DisplayName": "Smoker",
-					"Description": "Use it to smoke meat and fish.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 12
-				},
-				
-				"Cornucopia_SoapPress": {
-					"Name": "Cornucopia_Soap Press",
-					"DisplayName": "Soap Press",
-					"Description": "A machine that can be used to press soap blocks of various kinds.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 14
-				},
-				
-				"Cornucopia_Still": {
-					"Name": "Cornucopia_Still",
-					"DisplayName": "Still",
-					"Description": "A distillation system used to make liquor.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 16
-				},
-				
-				"Cornucopia_SorbetMachine": {
-					"Name": "Cornucopia_Sorbet Machine",
-					"DisplayName": "Sorbet Machine",
-					"Description": "A machine for making homemade sorbet.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 15
+				"Cornucopia_DeliSmoker": {
+					"Name": "Cornucopia_DeliSmoker",
+					"DisplayName": "{{i18n:DeliSmoker_name}}",
+					"Description": "{{i18n:DeliSmoker_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
+					"SpriteIndex": 4
 				},
 				
 				"Cornucopia_VinegarKeg": {
-					"Name": "Cornucopia_Vinegar Keg",
-					"DisplayName": "Vinegar Keg",
-					"Description": "A smaller keg used to make tart vinegars.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 17
-				},
-				
-				"Cornucopia_WaxBarrel": {
-					"Name": "Cornucopia_Wax Barrel",
-					"DisplayName": "Wax Barrel",
-					"Description": "A barrel for dipping candles..",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 18
+					"Name": "Cornucopia_VinegarKeg",
+					"DisplayName": "{{i18n:VinegarKeg_name}}",
+					"Description": "{{i18n:VinegarKeg_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
+					"SpriteIndex": 10
 				},
 				
 				"Cornucopia_YogurtJar": {
-					"Name": "Cornucopia_Yogurt Jar",
-					"DisplayName": "Yogurt Jar",
-					"Description": "A jar to allow milk to ferment into yogurt.",
-					"Texture": "Cornucopia.ArtisanGoods/Craftables",
-					"SpriteIndex": 19
+					"Name": "Cornucopia_YogurtJar",
+					"DisplayName": "{{i18n:YogurtJar_name}}",
+					"Description": "{{i18n:YogurtJar_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
+					"SpriteIndex": 11
 				}
 			}
 		},
