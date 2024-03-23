@@ -1,3503 +1,1429 @@
 {
-    "Changes": 
-	[
-        // add item
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-			   "Cornucopia_Tofu": {
-					"Name": "Cornucopia_Tofu",
-					"DisplayName": "Tofu",
-					"Description": "Made from soybean milk. Also known as bean curds.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 10,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 0
-				},
-				"Cornucopia_CoconutMilk": {
-					"Name": "Cornucopia_CoconutMilk",
-					"DisplayName": "Coconut Milk",
-					"Description": "Milk made from pulverized coconut meat. It's sweet and creamy.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 10,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 0
-				},
-				"Cornucopia_VanillaYogurt": {
-					"Name": "Cornucopia_VanillaYogurt",
-					"DisplayName": "Vanilla Yogurt",
-					"Description": "A yogurt with a mild flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 350,
-
-					"Edibility": 10,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 46
-				},
-				
-			// alembic goods
-				"Cornucopia_EssentialOil": {
-					"Name": "Cornucopia_EssentialOil",
-					"DisplayName": "Essential Oil",
-					"Description": "A liquid containing concentrated aroma compounds.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 0
-				},
-
-				"Cornucopia_PrismaticExtract": {
-					"Name": "Cornucopia_PrismaticExtract",
-					"DisplayName": "Prismatic Extract",
-					"Description": "A bottle of pure prismatic color!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 3500,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 6
-				},
-
-			// butter churn goods
-				"Cornucopia_Butter": {
-					"Name": "Cornucopia_Butter",
-					"DisplayName": "Butter",
-					"Description": "I can't believe it's not- Oh, wait, yes it is.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 105
-				},
-
-				"Cornucopia_CoconutButter": {
-					"Name": "Cornucopia_CoconutButter",
-					"DisplayName": "Coconut Butter",
-					"Description": "A light butter with a tropical scent.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 110
-				},
-
-				"Cornucopia_CookieButter": {
-					"Name": "Cornucopia_CookieButter",
-					"DisplayName": "Cookie Butter",
-					"Description": "Cookies ground into a smooth, delicious paste. Don't lie to yourself. Just use a spoon.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 111
-				},
-
-				"Cornucopia_GoatButter": {
-					"Name": "Cornucopia_GoatButter",
-					"DisplayName": "Goat Butter",
-					"Description": "Soft butter made from goat’s milk.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 325,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 106
-				},
-
-				"Cornucopia_HazelnutButter": {
-					"Name": "Cornucopia_HazelnutButter",
-					"DisplayName": "Hazelnut Butter",
-					"Description": "An irresistible, chocolate-flavored spread.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 230,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 112
-				},
-
-				"Cornucopia_Margarine": {
-					"Name": "Cornucopia_Margarine",
-					"DisplayName": "Margarine",
-					"Description": "You can't believe it's not butter!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 107
-				},
-
-				"Cornucopia_SlimeButter": {
-					"Name": "Cornucopia_SlimeButter",
-					"DisplayName": "Slime Butter",
-					"Description": "A green butter made from slime...",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 116
-				},
-
-				"Cornucopia_SunflowerButter": {
-					"Name": "Cornucopia_SunflowerButter",
-					"DisplayName": "Sunflower Butter",
-					"Description": "A peanut butter substitute with a sunny flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 230,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 118
-				},
-
-			// canning machine goods
-				"Cornucopia_CannedFish": {
-					"Name": "Cornucopia_CannedFish",
-					"DisplayName": "Canned Fish",
-					"Description": "A tin can of fish.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 147
-				},
-
-				"Cornucopia_CannedFruit": {
-					"Name": "Cornucopia_CannedFruit",
-					"DisplayName": "Canned Fruit",
-					"Description": "A can of preserved fruit.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 151
-				},
-
-				"Cornucopia_CannedMollusc": {
-					"Name": "Cornucopia_CannedMollusc",
-					"DisplayName": "Canned Mollusc",
-					"Description": "A tin can of shellfish.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 149
-				},
-
-				"Cornucopia_CannedTuna": {
-					"Name": "Cornucopia_CannedTuna",
-					"DisplayName": "Canned Tuna",
-					"Description": "A tin can of tuna.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 148
-				},
-
-				"Cornucopia_CannedVegetables": {
-					"Name": "Cornucopia_CannedVegetables",
-					"DisplayName": "Canned Vegetables",
-					"Description": "A can of preserved vegetables.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 150
-				},
-
-			// dehydrator goods
-				"Cornucopia_DriedFruit": {
-					"Name": "Cornucopia_DriedFruit",
-					"DisplayName": "Dried Fruit",
-					"Description": "A box of dehydrated fruit.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 24
-				},
-
-				"Cornucopia_DriedMushrooms": {
-					"Name": "Cornucopia_DriedMushroom",
-					"DisplayName": "Dried Mushroom",
-					"Description": "A jar of dried mushrooms.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 26
-				},
-
-				"Cornucopia_DriedVegetable": {
-					"Name": "Cornucopia_DriedVegetable",
-					"DisplayName": "Dried Vegetable",
-					"Description": "A sack of dried vegetables.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 25
-				},
-
-				"Cornucopia_Prunes": {
-					"Name": "Cornucopia_Prunes",
-					"DisplayName": "Prunes",
-					"Description": "These help promote regularity.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 160,
-
-					"Edibility": 10,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 12
-				},
-
-				"Cornucopia_Raisins": {
-					"Name": "Cornucopia_Raisins",
-					"DisplayName": "Raisins",
-					"Description": "Dried grapes that make for a tasty snack!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 160,
-
-					"Edibility": 15,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 11
-				},
-
-			// drying rack goods
-
-				"Cornucopia_DriedFlower": {
-					"Name": "Cornucopia_Dried Flower",
-					"DisplayName": "Dried Flower",
-					"Description": "A bundle of dried flowers.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 27
-				},
-
-				"Cornucopia_MatchaPowder": {
-					"Name": "Cornucopia_MatchaPowder",
-					"DisplayName": "Matcha Powder",
-					"Description": "A laquered jar and scoop filled with fine matcha powder used to make tea.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 14
-				},
-
-			// espresso machine goods
-				"Cornucopia_CaffeLatte": {
-					"Name": "Cornucopia_CaffèLatte",
-					"DisplayName": "Caffè Latte",
-					"Description": "Made by steaming milk and mixing it with espresso.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 242
-				},
-
-				"Cornucopia_CaffePelicano": {
-					"Name": "Cornucopia_CaffèPelicano",
-					"DisplayName": "Caffè Pelicano",
-					"Description": "Espresso diluted in water, making it taste similar to standard coffee.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 2,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 241
-				},
-
-				"Cornucopia_Cappuccino": {
-					"Name": "Cornucopia_Cappuccino",
-					"DisplayName": "Cappuccino",
-					"Description": "This drink is like a latte, but uses richer milk or cream instead.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 244
-				},
-
-				"Cornucopia_HotWhiskeyCoffee": {
-					"Name": "Cornucopia_HotWhiskeyCoffee",
-					"DisplayName": "Hot Whiskey Coffee",
-					"Description": "Piping hot coffee mixed with a rich whiskey.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 500,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 245
-				},
-
-				"Cornucopia_Macchiato": {
-					"Name": "Cornucopia_Macchiato",
-					"DisplayName": "Macchiato",
-					"Description": "A concentrated beverage with a little bit of milk mixed with the espresso.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 350,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 246
-				},
-
-				"Cornucopia_MapleMacchiato": {
-					"Name": "Cornucopia_MapleMacchiato",
-					"DisplayName": "Maple Macchiato",
-					"Description": "A concentrated beverate with a strong maple flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 350,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 247
-				},
-
-				"Cornucopia_PumpkinSpiceLatte": {
-					"Name": "Cornucopia_PumpkinSpiceLatte",
-					"DisplayName": "Pumpkin Spice Latte",
-					"Description": "A fall sensation! It has pumpkin and cinnamon-like flavor notes.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 500,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 249
-				},
-
-				"Cornucopia_ToastedCoconutMocha": {
-					"Name": "Cornucopia_ToastedCoconutMocha",
-					"DisplayName": "Toasted Coconut Mocha",
-					"Description": "A moccachino with coconut flavor notes.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 251
-				},
-
-			// extruder goods
-				"Cornucopia_Beeswax": {
-					"Name": "Cornucopia_Beeswax",
-					"DisplayName": "Beeswax",
-					"Description": "Wax used to bind goods and make numerous products.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 56
-				},
-
-				"Cornucopia_ChewingGum": {
-					"Name": "Cornucopia_ChewingGum",
-					"DisplayName": "Chewing Gum",
-					"Description": "The worldwide phenomenon.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 40,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 57
-				},
-
-				"Cornucopia_RicePasta": {
-					"Name": "Cornucopia_RicePasta",
-					"DisplayName": "Rice Pasta",
-					"Description": "A bag of thin, rice-flavored noodles.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 225
-				},
-
-				"Cornucopia_WheatPasta": {
-					"Name": "Cornucopia_WheatPasta",
-					"DisplayName": "Wheat Pasta",
-					"Description": "A bag of robust noodles used throughout the world for a multitude of meals.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 223
-				},
-
-			// fermenting jar goods
-				"Cornucopia_FishSauce": {
-					"Name": "Cornucopia_FishSauce",
-					"DisplayName": "Fish Sauce",
-					"Description": "It's the king of flavor!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 254
-				},
-
-				"Cornucopia_Garum": {
-					"Name": "Cornucopia_Garum",
-					"DisplayName": "Garum",
-					"Description": "An ancient recipe, it has a rich and savory flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 256
-				},
-
-				"Cornucopia_RedSauerkraut": {
-					"Name": "Cornucopia_RedSauerkraut",
-					"DisplayName": "Red Sauerkraut",
-					"Description": "Shredded red cabbage with a distinct sour flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 570,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 93
-				},
-
-			// glass jar goods
-				"Cornucopia_ChanterelleKombucha": {
-					"Name": "Cornucopia_ChanterelleKombucha",
-					"DisplayName": "Chanterelle Kombucha",
-					"Description": "A fruity, slightly peppery tea-like drink made from fermented mushrooms. ",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 183
-				},
-
-				"Cornucopia_GreenKombucha": {
-					"Name": "Cornucopia_GreenKombucha",
-					"DisplayName": "Green Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 236
-				},
-
-				"Cornucopia_Kombucha": {
-					"Name": "Cornucopia_Kombucha",
-					"DisplayName": "Kombucha",
-					"Description": "A tea-like drink made from fermented mushrooms. ",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 182
-				},
-
-				"Cornucopia_MagmaKombucha": {
-					"Name": "Cornucopia_MagmaKombucha",
-					"DisplayName": "Magma Kombucha",
-					"Description": "A rare, fiery tea-like drink made from fermented mushrooms.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 187
-				},
-
-				"Cornucopia_MorelKombucha": {
-					"Name": "Cornucopia_MorelKombucha",
-					"DisplayName": "Morel Kombucha",
-					"Description": "A uniquely nutty tea-like drink made from fermented mushrooms. ",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 184
-				},
-
-				"Cornucopia_PurpleKombucha": {
-					"Name": "Cornucopia_PurpleKombucha",
-					"DisplayName": "Purple Kombucha",
-					"Description": "A purple tea-like drink made from fermented mushrooms.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 186
-				},
-
-				"Cornucopia_RedKombucha": {
-					"Name": "Cornucopia_RedKombucha",
-					"DisplayName": "Red Kombucha",
-					"Description": "A cautionary tale in kombucha recipes. ",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 185
-				},
-
-			// grinder goods
-				"Cornucopia_Applesauce": {
-					"Name": "Cornucopia_Applesauce",
-					"DisplayName": "Applesauce",
-					"Description": "Apples that have been ground into a sweet sauce.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 41
-				},
-
-				"Cornucopia_ChiliPowder": {
-					"Name": "Cornucopia_ChiliPowder",
-					"DisplayName": "Chili Powder",
-					"Description": "A jar of ground peppers, commonly used in cooking.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 69
-				},
-
-				"Cornucopia_Gelatin": {
-					"Name": "Cornucopia_Gelatin",
-					"DisplayName": "Gelatin",
-					"Description": "Bone fragments ground up into a powder.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 253
-				},
-
-				"Cornucopia_GroundVegetable": {
-					"Name": "Cornucopia_GroundVegetable",
-					"DisplayName": "Ground Vegetable",
-					"Description": "A jar of ground vegetables.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 29
-				},
-
-				"Cornucopia_OrangePeel": {
-					"Name": "Cornucopia_OrangePeel",
-					"DisplayName": "Orange Peel",
-					"Description": "The zest of an orange.",
-					"Type": "Basic",
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 66
-				},
-
-				"Cornucopia_Pepper": {
-					"Name": "Cornucopia_Pepper",
-					"DisplayName": "Pepper",
-					"Description": "A grinder filled with peppercorns.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 180,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 194
-				},
-
-				"Cornucopia_Saffron": {
-					"Name": "Cornucopia_Saffron",
-					"DisplayName": "Saffron",
-					"Description": "A rare and valued spice.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 62
-				},
-
-				"Cornucopia_Salt": {
-					"Name": "Cornucopia_Salt",
-					"DisplayName": "Salt",
-					"Description": "A grinder filled with salt crystals.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 180,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 195
-				},
-
-				"Cornucopia_ShrimpPaste": {
-					"Name": "Cornucopia_ShrimpPaste",
-					"DisplayName": "Shrimp Paste",
-					"Description": "This pungent paste is used to give an umami taste to food.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 255
-				},
-
-			// ice cream machine goods
-				"Cornucopia_CherryIceCream": {
-					"Name": "Cornucopia_CherryIceCream",
-					"DisplayName": "Cherry Ice Cream",
-					"Description": "Sweet cherry ice cream with cherry bits mixed throughout.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 51
-				},
-
-				"Cornucopia_CherryYogurtIceCream": {
-					"Name": "Cornucopia_CherryYogurtIceCream",
-					"DisplayName": "Cherry Yogurt Ice Cream",
-					"Description": "Sweet cherry ice cream with frozen yogurt mixed throughout.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 52
-				},
-
-				"Cornucopia_HazelnutIceCream": {
-					"Name": "Cornucopia_HazelnutIceCream",
-					"DisplayName": "Hazelnut Ice Cream",
-					"Description": "Rich hazelnut ice cream with hazelnut butter swirled throughout.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 55
-				},
-
-				"Cornucopia_MangoSherbert": {
-					"Name": "Cornucopia_MangoSherbert",
-					"DisplayName": "Mango Sherbert",
-					"Description": "Tart and refreshing mango sherbert.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 75
-				},
-
-				"Cornucopia_MatchaIceCream": {
-					"Name": "Cornucopia_MatchaIceCream",
-					"DisplayName": "Matcha Ice Cream",
-					"Description": "Green ice cream with a distinct tea flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 500,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 76
-				},
-
-				"Cornucopia_OrangeSherbert": {
-					"Name": "Cornucopia_OrangeSherbert",
-					"DisplayName": "Orange Sherbert",
-					"Description": "Tart and refreshing orange sherbert.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 79
-				},
-
-				"Cornucopia_PrismaticIceCream": {
-					"Name": "Cornucopia_PrismaticIceCream",
-					"DisplayName": "Prismatic Ice Cream",
-					"Description": "Rainbow ice cream that glows in every color!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 2500,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 97
-				},
-
-				"Cornucopia_StrawberryIceCream": {
-					"Name": "Cornucopia_StrawberryIceCream",
-					"DisplayName": "Strawberry Ice Cream",
-					"Description": "Sweet strawberry ice cream.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 99
-				},
-
-			// infuser goods
-				"Cornucopia_Schnapps": {
-					"Name": "Cornucopia_Schnapps",
-					"DisplayName": "Schnapps",
-					"Description": "Add to beverages to give it a splash of fruit flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 5,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 128
-				},
-
-				"Cornucopia_AppleSchnapps": {
-					"Name": "Cornucopia_AppleSchnapps",
-					"DisplayName": "Apple Schnapps",
-					"Description": "Add to beverages to give it a splash of apple flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 5,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 129
-				},
-
-				"Cornucopia_CoffeeLiqueur": {
-					"Name": "Cornucopia_CoffeeLiqueur",
-					"DisplayName": "Coffee Liqueur",
-					"Description": "Add to beverages to give it a splash of coffee flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 5,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 174
-				},
-
-				"Cornucopia_PeachSchnapps": {
-					"Name": "Cornucopia_PeachSchnapps",
-					"DisplayName": "Peach Schnapps",
-					"Description": "Add to beverages to give it a splash of peach flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 5,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 130
-				},
-
-			// juicer goods
-				"Cornucopia_FruitJuice": {
-					"Name": "Cornucopia_Juice",
-					"DisplayName": "Juice",
-					"Description": "A sweet, nutritious beverage.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 16
-				},
-
-				"Cornucopia_OrangeJuice": {
-					"Name": "Cornucopia_OrangeJuice",
-					"DisplayName": "Orange Juice",
-					"Description": "A tart, nutritious beverage.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 222
-				},
-
-			// keg goods
-				"Cornucopia_Kefir": {
-					"Name": "Cornucopia_Kefir",
-					"DisplayName": "Kefir",
-					"Description": "Made from sheep or goat milk and a kefir yeast. It's creamy. Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 137
-				},
-
-				"Cornucopia_Kumis": {
-					"Name": "Cornucopia_Kumis",
-					"DisplayName": "Kumis",
-					"Description": "A fermented milk beverage usually made from mare’s milk. Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 138
-				},
-
-				"Cornucopia_Lassi": {
-					"Name": "Cornucopia_Lassi",
-					"DisplayName": "Lassi",
-					"Description": "A creamy and frothy beverage made from fermented yogurt. Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 139
-				},
-
-				"Cornucopia_Porter": {
-					"Name": "Cornucopia_Porter",
-					"DisplayName": "Porter",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 141
-				},
-
-				"Cornucopia_PrismaticWine": {
-					"Name": "Cornucopia_PrismaticWine",
-					"DisplayName": "Prismatic Wine",
-					"Description": "It glows with every color! Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 5500,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 191
-				},
-
-				"Cornucopia_Sake": {
-					"Name": "Cornucopia_Saké",
-					"DisplayName": "Saké",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 143
-				},
-
-			// loom goods
-				"Cornucopia_CopperThread": {
-					"Name": "Cornucopia_CopperThread",
-					"DisplayName": "Copper Thread",
-					"Description": "A spool of copper thread. It sparkles in the light.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 110,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 80
-				},
-
-				"Cornucopia_GoldThread": {
-					"Name": "Cornucopia_GoldThread",
-					"DisplayName": "Gold Thread",
-					"Description": "A spool of gold thread. It sparkles in the light.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 82
-				},
-
-				"Cornucopia_IridiumThread": {
-					"Name": "Cornucopia_IridiumThread",
-					"DisplayName": "Iridium Thread",
-					"Description": "A spool of purple thread. It sparkles in the light.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 1250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 83
-				},
-
-				"Cornucopia_SilveryThread": {
-					"Name": "Cornucopia_SilveryThread",
-					"DisplayName": "Silvery Thread",
-					"Description": "A spool of silvery thread. It sparkles in the light.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 170,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 81
-				},
-
-				"Cornucopia_Twine": {
-					"Name": "Cornucopia_Twine",
-					"DisplayName": "Twine",
-					"Description": "A spool of rough twine.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 20,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 58
-				},
-
-			// mayonnaise machine goods
-				"Cornucopia_BlackPepperMayonnaise": {
-					"Name": "Cornucopia_BlackPepperMayonnaise",
-					"DisplayName": "Black Pepper Mayonnaise",
-					"Description": "It's a peppery mayonnaise.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 220,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 20
-				},
-
-				"Cornucopia_GarlicMayonnaise": {
-					"Name": "Cornucopia_GarlicMayonnaise",
-					"DisplayName": "Garlic Mayonnaise",
-					"Description": "It's a pungent, yellow mayonnaise.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 240,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 19
-				},
-
-				"Cornucopia_SpicyMayonnaise": {
-					"Name": "Cornucopia_SpicyMayonnaise",
-					"DisplayName": "Spicy Mayonnaise",
-					"Description": "It's a mayonnaise with a kick!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 240,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 22
-				},
-
-				"Cornucopia_ThunderMayonnaise": {
-					"Name": "Cornucopia_ThunderMayonnaise",
-					"DisplayName": "Thunder Mayonnaise",
-					"Description": "A thick, purple paste that smells like the air during a storm.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 500,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 47
-				},
-
-			// mill goods
-				"Cornucopia_CornFlour": {
-					"Name": "Cornucopia_CornFlour",
-					"DisplayName": "Corn Flour",
-					"Description": "A cooking ingredient made from milled corn.",
-					"Type": "Basic",
-					"Price": 100,
-
-					"Edibility": 5,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 205
-				},
-
-				"Cornucopia_RiceFlour": {
-					"Name": "Cornucopia_RiceFlour",
-					"DisplayName": "Rice Flour",
-					"Description": "A cooking ingredient made from milled rice.",
-					"Type": "Basic",
-					"Price": 150,
-
-					"Edibility": 5,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 201
-				},
-
-				"Cornucopia_TaroFlour": {
-					"Name": "Cornucopia_TaroFlour",
-					"DisplayName": "Taro Flour",
-					"Description": "A cooking ingredient made from crushed taro root.",
-					"Type": "Basic",
-					"Price": 150,
-
-					"Edibility": 5,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 204
-				},
-
-			// oil maker goods
-				"Cornucopia_ChiliOil": {
-					"Name": "Cornucopia_ChiliOil",
-					"DisplayName": "Chili Oil",
-					"Description": "A spicy oil used to give a kick to food or as a topping.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 160,
-
-					"Edibility": 5,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 31
-				},
-
-				"Cornucopia_CoconutOil": {
-					"Name": "Cornucopia_CoconutOil",
-					"DisplayName": "Coconut Oil",
-					"Description": "A multi-purpose oil used in cooking and household products.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": 5,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 38
-				},
-
-				"Cornucopia_FishOil": {
-					"Name": "Cornucopia_FishOil",
-					"DisplayName": "Fish Oil",
-					"Description": "Oil rendered from a fish.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 5,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 33
-				},
-
-				"Cornucopia_SesameOil": {
-					"Name": "Cornucopia_SesameOil",
-					"DisplayName": "Sesame Oil",
-					"Description": "A bottle of oil made from sesame seeds.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 120,
-
-					"Edibility": 15,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 37
-				},
-
-			// smoker goods
-				"Cornucopia_RoastedGarlic": {
-					"Name": "Cornucopia_RoastedGarlic",
-					"DisplayName": "Roasted Garlic",
-					"Description": "Garlic that's been roasted and smoked. Spread it on toast or crackers!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 15,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 198
-				},
-
-				"Cornucopia_RoastedSunflowerSeeds": {
-					"Name": "Cornucopia_RoastedSunflowerSeeds",
-					"DisplayName": "Roasted Sunflower Seeds",
-					"Description": "A bag of roasted sunflower seeds.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 75,
-
-					"Edibility": 20,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 34
-				},
-
-				"Cornucopia_SmokedCheese": {
-					"Name": "Cornucopia_SmokedCheese",
-					"DisplayName": "Smoked Cheese",
-					"Description": "A wheel of smoked cheese.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": 36,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 216
-				},
-
-				"Cornucopia_SmokedEgg": {
-					"Name": "Cornucopia_SmokedEgg",
-					"DisplayName": "Smoked Egg",
-					"Description": "A whole egg that's been smoked. It has a savory flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 18,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 199
-				},
-
-				"Cornucopia_SmokedFish": {
-					"Name": "Cornucopia_SmokedFish",
-					"DisplayName": "Smoked Fish",
-					"Description": "A whole smoked fish.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 30,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 197
-				},
-
-				"Cornucopia_SmokedSalmon": {
-					"Name": "Cornucopia_SmokedSalmon",
-					"DisplayName": "Smoked Salmon",
-					"Description": "A packaged smoked salmon filet.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 30,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 196
-				},
-
-			// soap press goods
-				"Cornucopia_FloralSoap": {
-					"Name": "Cornucopia_FloralSoap",
-					"DisplayName": "Floral Soap",
-					"Description": "A scented bar of artisanal soap. It smells floral.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 168
-				},
-
-				"Cornucopia_FruitSoap": {
-					"Name": "Cornucopia_FruitSoap",
-					"DisplayName": "Fruit Soap",
-					"Description": "A scented bar of artisanal soap. It smells like fruit.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 169
-				},
-
-				"Cornucopia_PrismaticSoap": {
-					"Name": "Cornucopia_PrismaticSoap",
-					"DisplayName": "Prismatic Soap",
-					"Description": "A scented bar of artisanal soap. It glows like a rainbow!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 3000,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 173
-				},
-
-				"Cornucopia_TeaSoap": {
-					"Name": "Cornucopia_TeaSoap",
-					"DisplayName": "Tea Soap",
-					"Description": "A scented bar of artisanal soap. It smells like tea.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 172
-				},
-
-			// still goods
-				"Cornucopia_Bitter": {
-					"Name": "Cornucopia_Bitter",
-					"DisplayName": "Bitter",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 157
-				},
-
-				"Cornucopia_Bourbon": {
-					"Name": "Cornucopia_Bourbon",
-					"DisplayName": "Bourbon",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 158
-				},
-
-				"Cornucopia_Brandy": {
-					"Name": "Cornucopia_Brandy",
-					"DisplayName": "Brandy",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 159
-				},
-
-				"Cornucopia_Campari": {
-					"Name": "Cornucopia_Campari",
-					"DisplayName": "Campari",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 132
-				},
-
-				"Cornucopia_Cointreau": {
-					"Name": "Cornucopia_Cointreau",
-					"DisplayName": "Cointreau",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 161
-				},
-
-				"Cornucopia_Frangelico": {
-					"Name": "Cornucopia_Frangelico",
-					"DisplayName": "Frangelico",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 270,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 163
-				},
-
-				"Cornucopia_Moonshine": {
-					"Name": "Cornucopia_Moonshine",
-					"DisplayName": "Moonshine",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 166
-				},
-
-				"Cornucopia_Vermouth": {
-					"Name": "Cornucopia_Vermouth",
-					"DisplayName": "Vermouth",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 179
-				},
-
-				"Cornucopia_Vodka": {
-					"Name": "Cornucopia_Vodka",
-					"DisplayName": "Vodka",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 180
-				},
-
-				"Cornucopia_Whiskey": {
-					"Name": "Cornucopia_Whiskey",
-					"DisplayName": "Whiskey",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 181
-				},
-
-			// wax barrel goods
-				"Cornucopia_SnackCheeses": {
-					"Name": "Cornucopia_SnackCheeses",
-					"DisplayName": "Snack Cheeses",
-					"Description": "Small wax-covered cheeses.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 36,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 217
-				},
-
-				"Cornucopia_WaxMelts": {
-					"Name": "Cornucopia_WaxMelts",
-					"DisplayName": "Wax Melts",
-					"Description": "Scented wax used for melting in special warmers.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 350,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 193
-				},
-
-			// yogurt jar goods
-				"Cornucopia_FruitYogurt": {
-					"Name": "Cornucopia_FruitYogurt",
-					"DisplayName": "Fruit Yogurt",
-					"Description": "Yogurt with the flavor of a fruit.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": 15,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 45
-				},
-
-				"Cornucopia_GoatYogurt": {
-					"Name": "Cornucopia_GoatYogurt",
-					"DisplayName": "Goat Yogurt",
-					"Description": "A tart yogurt that's favored in some lands.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 25,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 44
-				},
-
-				"Cornucopia_Yogurt": {
-					"Name": "Cornucopia_Yogurt",
-					"DisplayName": "Yogurt",
-					"Description": "Yogurt made from cow's milk. It's plain, with a slightly sweet flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 175,
-
-					"Edibility": 15,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 43
-				},
-
-			// purchasable goods
-				"Cornucopia_SesameSeeds": {
-					"Name": "Cornucopia_SesameSeeds",
-					"DisplayName": "Sesame Seeds",
-					"Description": "A bag of sesame seeds.",
-					"Type": "Basic",
-					"Price": 20,
-
-					"Edibility": 20,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 35
-				},
-
-			// custom forage, trees, & misc
-
-				"Cornucopia_SeaSalt": {
-					"Name": "Cornucopia_Sea Salt",
-					"DisplayName": "Sea Salt",
-					"Description": "A clump of salt gathered together as the tide drifted in and out.",
-					"Type": "Mineral",
-					"Category": -12,
-					"Price": 60,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 219
-				},
-
-		// add items (fruits and veggies conditional)
-
-			// alembic goods
-				"Cornucopia_AlmondExtract": {
-					"Name": "Cornucopia_AlmondExtract",
-					"DisplayName": "Almond Extract",
-					"Description": "Commonly used in baking, it imparts a rich almond flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 7
-				},
-
-				"Cornucopia_HabaneroExtract": {
-					"Name": "Cornucopia_HabaneroExtract",
-					"DisplayName": "Habanero Extract",
-					"Description": "The extract from a habanero, it's incredibly potent and spicy.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 240,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 4
-				},
-
-				"Cornucopia_JalapenoExtract": {
-					"Name": "Cornucopia_JalapeñoExtract",
-					"DisplayName": "Jalapeño Extract",
-					"Description": "The extract from a jalapeño, good for adding a kick to recipes.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 5
-				},
-
-			// butter churn goods
-				"Cornucopia_AlmondButter": {
-					"Name": "Cornucopia_AlmondButter",
-					"DisplayName": "Almond Butter",
-					"Description": "A gritty butter with bits of almond inside.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 230,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 108
-				},
-
-				"Cornucopia_CashewButter": {
-					"Name": "Cornucopia_CashewButter",
-					"DisplayName": "Cashew Butter",
-					"Description": "A warm butter with bits of cashew inside.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 109
-				},
-
-				"Cornucopia_CocoaButter": {
-					"Name": "Cornucopia_CocoaButter",
-					"DisplayName": "Cocoa Butter",
-					"Description": "Commonly used in baking, it's oils from a cocoa pod seperated out.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 257
-				},
-
-				"Cornucopia_PeanutButter": {
-					"Name": "Cornucopia_PeanutButter",
-					"DisplayName": "Peanut Butter",
-					"Description": "The classic staple. Do you like smooth or crunchy? ",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 113
-				},
-
-				"Cornucopia_PecanButter": {
-					"Name": "Cornucopia_PecanButter",
-					"DisplayName": "Pecan Butter",
-					"Description": "A sweet butter with bits of pecan inside.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 114
-				},
-
-				"Cornucopia_PistachioButter": {
-					"Name": "Cornucopia_PistachioButter",
-					"DisplayName": "Pistachio Butter",
-					"Description": "A rich butter with bits of pistachio inside.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 230,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 115
-				},
-
-				"Cornucopia_SoynutButter": {
-					"Name": "Cornucopia_SoynutButter",
-					"DisplayName": "Soynut Butter",
-					"Description": "A butter made of soybeans for individuals with lactose intolerance",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 230,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 117
-				},
-
-				"Cornucopia_WalnutButter": {
-					"Name": "Cornucopia_WalnutButter",
-					"DisplayName": "Walnut Butter",
-					"Description": "A crunchy butter with bits of walnut inside.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 230,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 119
-				},
-
-			// espresso machine goods
-				"Cornucopia_CaffeMocha": {
-					"Name": "Cornucopia_CaffèMocha",
-					"DisplayName": "Caffè Mocha",
-					"Description": "Also called a mocaccino, it's chocolately.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 243
-				},
-
-			// extruder goods
-				"Cornucopia_BuckwheatPasta": {
-					"Name": "Cornucopia_BuckwheatPasta",
-					"DisplayName": "Buckwheat Pasta",
-					"Description": "A bag of coarse, earthy-flavored noodles.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 224
-				},
-
-				"Cornucopia_SemolinaPasta": {
-					"Name": "Cornucopia_SemolinaPasta",
-					"DisplayName": "Semolina Pasta",
-					"Description": "A bag of whole grain noodles used for authentic dishes.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 226
-				},
-
-				"Cornucopia_TapiocaPearls": {
-					"Name": "Cornucopia_TapiocaPearls",
-					"DisplayName": "Tapioca Pearls",
-					"Description": "A gelatin-like substance that has a chewy texture.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 225,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 61
-				},
-
-				"Cornucopia_Zoodles": {
-					"Name": "Cornucopia_Zoodles",
-					"DisplayName": "Zoodles",
-					"Description": "A bag of spiralized zucchini noodles good for those with gluten allergies.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 275,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 227
-				},
-
-			// fermenting jar goods
-
-				"Cornucopia_Kimchi": {
-					"Name": "Cornucopia_Kimchi",
-					"DisplayName": "Kimchi",
-					"Description": "Most commonly made from cabbage mixed with spicy seasonings.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 84
-				},
-
-				"Cornucopia_MisoPaste": {
-					"Name": "Cornucopia_MisoPaste",
-					"DisplayName": "Miso Paste",
-					"Description": "A paste made from soybeans. Used to make soup.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 275,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 87
-				},
-
-
-				"Cornucopia_Sauerkraut": {
-					"Name": "Cornucopia_Sauerkraut",
-					"DisplayName": "Sauerkraut",
-					"Description": "Shredded cabbage with a distinct sour flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 92
-				},
-
-				"Cornucopia_SoySauce": {
-					"Name": "Cornucopia_SoySauce",
-					"DisplayName": "Soy Sauce",
-					"Description": "A versatile sauce with a strong umami flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 91
-				},
-
-			// grinder goods
-				"Cornucopia_LemonPeel": {
-					"Name": "Cornucopia_LemonPeel",
-					"DisplayName": "Lemon Peel",
-					"Description": "The zest of a lemon.",
-					"Type": "Basic",
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 65
-				},
-
-				"Cornucopia_LimePeel": {
-					"Name": "Cornucopia_LimePeel",
-					"DisplayName": "Lime Peel",
-					"Description": "The zest of a lime.",
-					"Type": "Basic",
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 64
-				},
-
-				"Cornucopia_Paprika": {
-					"Name": "Cornucopia_Paprika",
-					"DisplayName": "Paprika",
-					"Description": "A jar of ground bell peppers, it has a smoky taste.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 71
-				},
-
-				"Cornucopia_WasabiPaste": {
-					"Name": "Cornucopia_WasabiPaste",
-					"DisplayName": "Wasabi Paste",
-					"Description": "When made fresh, it doesn't last for long.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 330,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 63
-				},
-
-			// ice cream machine goods
-				"Cornucopia_AmarenaIceCream": {
-					"Name": "Cornucopia_AmarenaIceCream",
-					"DisplayName": "Amarena Ice Cream",
-					"Description": "Sweet ice cream with amaretto syurp and cherries swirled throughout.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 550,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 48
-				},
-
-				"Cornucopia_ChocolateIceCream": {
-					"Name": "Cornucopia_ChocolateIceCream",
-					"DisplayName": "Chocolate Ice Cream",
-					"Description": "Rich chocolate ice cream.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 53
-				},
-
-				"Cornucopia_ChunkyMonkeyIceCream": {
-					"Name": "Cornucopia_ChunkyMonkeyIceCream",
-					"DisplayName": "Chunky Monkey Ice Cream",
-					"Description": "Banana ice cream with chocolate chunks and walnuts mixed throughout.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 550,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 54
-				},
-
-				"Cornucopia_LemonSherbet": {
-					"Name": "Cornucopia_LemonSherbert",
-					"DisplayName": "Lemon Sherbert",
-					"Description": "Tart and refreshing lemon sherbert.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 73
-				},
-
-				"Cornucopia_LimeSherbert": {
-					"Name": "Cornucopia_LimeSherbert",
-					"DisplayName": "Lime Sherbert",
-					"Description": "Tart and refreshing lime sherbert.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 74
-				},
-
-				"Cornucopia_PistachioIceCream": {
-					"Name": "Cornucopia_PistachioIceCream",
-					"DisplayName": "Pistachio Ice Cream",
-					"Description": "Green ice cream with a distinct nutty flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 96
-				},
-
-				"Cornucopia_RainbowSherbert": {
-					"Name": "Cornucopia_RainbowSherbert",
-					"DisplayName": "Rainbow Sherbert",
-					"Description": "Orange, lime, and strawberry sherbert all in one tub!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 550,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 101
-				},
-
-				"Cornucopia_RumRaisinIceCream": {
-					"Name": "Cornucopia_RumRaisinIceCream",
-					"DisplayName": "Rum Raisin Ice Cream",
-					"Description": "Sweet ice cream with rum caramel and raisins swirled throughout.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 550,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 98
-				},
-
-			// infuser goods
-				"Cornucopia_ChocolateLiqueur": {
-					"Name": "Cornucopia_ChocolateLiqueur",
-					"DisplayName": "Chocolate Liqueur",
-					"Description": "Add to beverages to give it a splash of chocolate flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 5,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 175
-				},
-
-			// juicer goods
-				"Cornucopia_Lemonade": {
-					"Name": "Cornucopia_Lemonade",
-					"DisplayName": "Lemonade",
-					"Description": "A tart, nutritious beverage.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 221
-				},
-
-				"Cornucopia_Limeade": {
-					"Name": "Cornucopia_Limeade",
-					"DisplayName": "Limeade",
-					"Description": "A tart, nutritious beverage.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 220
-				},
-
-			// keg goods
-				"Cornucopia_Cauim": {
-					"Name": "Cornucopia_Cauim",
-					"DisplayName": "Cauim",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 175,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 133
-				},
-
-				"Cornucopia_FramboiseLambic": {
-					"Name": "Cornucopia_FramboiseLambic",
-					"DisplayName": "Framboise Lambic",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 135
-				},
-
-				"Cornucopia_Perry": {
-					"Name": "Cornucopia_Perry",
-					"DisplayName": "Perry",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 140
-				},
-
-				"Cornucopia_Pulque": {
-					"Name": "Cornucopia_Pulque",
-					"DisplayName": "Pulque",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 350,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 142
-				},
-				
-				"Cornucopia_Umeshu": {
-					"Name": "Cornucopia_Umeshu",
-					"DisplayName": "Umeshu",
-					"Description": "A sweet wine made from plum. ",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 275,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 154
-				},
-
-			// mayonnaise machine goods
-				"Cornucopia_AvocadoMayonnaise": {
-					"Name": "Cornucopia_AvocadoMayonnaise",
-					"DisplayName": "Avocado Mayonnaise",
-					"Description": "It's a buttery and smooth mayonnaise.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 17
-				},
-
-				"Cornucopia_OliveOilMayonnaise": {
-					"Name": "Cornucopia_OliveOilMayonnaise",
-					"DisplayName": "Olive Oil Mayonnaise",
-					"Description": "It's a light and creamy mayonnaise.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 220,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 18
-				},
-
-				"Cornucopia_WasabiMayonnaise": {
-					"Name": "Cornucopia_WasabiMayonnaise",
-					"DisplayName": "Wasabi Mayonnaise",
-					"Description": "It's a mayonnaise with a powerful kick!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 275,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 21
-				},
-
-			// oil maker goods
-				"Cornucopia_AvocadoOil": {
-					"Name": "Cornucopia_AvocadoOil",
-					"DisplayName": "Avocado Oil",
-					"Description": "The oil of the avocado has a high burning point.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": 5,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 32
-				},
-
-				"Cornucopia_PeanutOil": {
-					"Name": "Cornucopia_PeanutOil",
-					"DisplayName": "Peanut Oil",
-					"Description": "An oil generally used in cooking or frying.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 120,
-
-					"Edibility": 5,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 40
-				},
-
-			// soap press goods
-				"Cornucopia_NuttySoap": {
-					"Name": "Cornucopia_NuttySoap",
-					"DisplayName": "Nutty Soap",
-					"Description": "A scented bar of artisanal soap. It smells nutty.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 171
-				},
-
-			// sorbet machine goods
-				"Cornucopia_BlueberrySorbet": {
-					"Name": "Cornucopia_BlueberrySorbet",
-					"DisplayName": "Blueberry Sorbet",
-					"Description": "Purple sorbet with a sweet and tart blueberry flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 120
-				},
-
-				"Cornucopia_DragonFruitSorbet": {
-					"Name": "Cornucopia_DragonFruitSorbet",
-					"DisplayName": "Dragon Fruit Sorbet",
-					"Description": "White sorbet with bits of dragon fruit mixed within.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 121
-				},
-
-				"Cornucopia_MangoSorbet": {
-					"Name": "Cornucopia_MangoSorbet",
-					"DisplayName": "Mango Sorbet",
-					"Description": "Yellow sorbet with a sweet and tart mango flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 122
-				},
-
-				"Cornucopia_OrangeSorbet": {
-					"Name": "Cornucopia_OrangeSorbet",
-					"DisplayName": "Orange Sorbet",
-					"Description": "Orange sorbet with a tart citrus flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 123
-				},
-
-				"Cornucopia_PineappleSorbet": {
-					"Name": "Cornucopia_PineappleSorbet",
-					"DisplayName": "Pineapple Sorbet",
-					"Description": "Yellow sorbet with a sweet pineapple flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 124
-				},
-
-				"Cornucopia_RaspberryDragonFruitSorbet": {
-					"Name": "Cornucopia_RaspberryDragonFruitSorbet",
-					"DisplayName": "Raspberry Dragon Fruit Sorbet",
-					"Description": "Raspberry sorbet with bits of dragon fruit mized within.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 125
-				},
-
-				"Cornucopia_RaspberrySorbet": {
-					"Name": "Cornucopia_RaspberrySorbet",
-					"DisplayName": "Raspberry Sorbet",
-					"Description": "Red sorbet with a tart raspberry flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 126
-				},
-
-				"Cornucopia_SalmonberrySorbet": {
-					"Name": "Cornucopia_SalmonberrySorbet",
-					"DisplayName": "Salmonberry Sorbet",
-					"Description": "Pink sorbet with a tart salmonberry flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 127
-				},
-
-				"Cornucopia_StrawberryDragonFruitSorbet": {
-					"Name": "Cornucopia_StrawberryDragonFruitSorbet",
-					"DisplayName": "Strawberry Dragon Fruit Sorbet",
-					"Description": "Strawberry sorbet with bits of dragon fruit mized within.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 144,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 144
-				},
-
-				"Cornucopia_StrawberrySorbet": {
-					"Name": "Cornucopia_StrawberrySorbet",
-					"DisplayName": "Strawberry Sorbet",
-					"Description": "Pink sorbet with a sweet and tart strawberry flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 145
-				},
-
-				"Cornucopia_YuzuSorbet": {
-					"Name": "Cornucopia_YuzuSorbet",
-					"DisplayName": "Yuzu Sorbet",
-					"Description": "White sorbet with a sweet and tart yuzu flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 146
-				},
-
-			// still goods
-				"Cornucopia_Amaretto": {
-					"Name": "Cornucopia_Amaretto",
-					"DisplayName": "Amaretto",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 350,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 156
-				},
-
-				"Cornucopia_Chambord": {
-					"Name": "Cornucopia_Chambord",
-					"DisplayName": "Chambord",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 160
-				},
-
-				"Cornucopia_CremedeCacao": {
-					"Name": "Cornucopia_CrèmedeCacao",
-					"DisplayName": "Crème de Cacao",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 275,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 162
-				},
-
-				"Cornucopia_Gin": {
-					"Name": "Cornucopia_Gin",
-					"DisplayName": "Gin",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 164
-				},
-
-				"Cornucopia_Mezcal": {
-					"Name": "Cornucopia_Mezcal",
-					"DisplayName": "Mezcal",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 350,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 165
-				},
-
-				"Cornucopia_Rum": {
-					"Name": "Cornucopia_Rum",
-					"DisplayName": "Rum",
-					"Description": "Why is the rum gone? When you find it, drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 350,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 167
-				},
-
-				"Cornucopia_Scotch": {
-					"Name": "Cornucopia_Scotch",
-					"DisplayName": "Scotch",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 176
-				},
-
-				"Cornucopia_Shochu": {
-					"Name": "Cornucopia_Shochu",
-					"DisplayName": "Shochu",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 240,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 177
-				},
-
-				"Cornucopia_Tequila": {
-					"Name": "Cornucopia_Tequila",
-					"DisplayName": "Tequila",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 500,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 178
-				},
-
-			// wax barrel goods
-				"Cornucopia_Candles": {
-					"Name": "Cornucopia_Candles",
-					"DisplayName": "Candles",
-					"Description": "A bundle of plain scented candles.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 103
-				},
+  "Changes": [
+  
+	//Essential crops config
+  
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Cornucopia_AvocadoMayonnaise": {
+          "Name": "Cornucopia_AvocadoMayonnaise",
+          "Category": -26,
+          "SpriteIndex": 120,
+          "DisplayName": "{{i18n:AvocadoMayonnaise_name}}",
+          "Description": "{{i18n:AvocadoMayonnaise_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_green",
+            "mayo_item"
+          ]
+        },
+        "Cornucopia_AvocadoOil": {
+          "Name": "Cornucopia_AvocadoOil",
+          "Category": -26,
+          "SpriteIndex": 131,
+          "DisplayName": "{{i18n:AvocadoOil_name}}",
+          "Description": "{{i18n:AvocadoOil_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 400,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_green",
+            "oil_item"
+          ]
+        },
+        "Cornucopia_BlackPepperMayonnaise": {
+          "Name": "Cornucopia_BlackPepperMayonnaise",
+          "Category": -26,
+          "SpriteIndex": 123,
+          "DisplayName": "{{i18n:BlackPepperMayonnaise_name}}",
+          "Description": "{{i18n:BlackPepperMayonnaise_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 220,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_white",
+            "mayo_item"
+          ]
+        },
+        "Cornucopia_BrinedOlives": {
+          "Name": "Cornucopia_BrinedOlives",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:BrinedOlives_name}}",
+          "Description": "{{i18n:BrinedOlives_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_green"
+          ]
+        },
+        "Cornucopia_CocoaButter": {
+          "Name": "Cornucopia_CocoaButter",
+          "Category": -26,
+          "SpriteIndex": 20,
+          "DisplayName": "{{i18n:CocoaButter_name}}",
+          "Description": "{{i18n:CocoaButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand",
+            "butter_item"
+          ]
+        },
+        "Cornucopia_MisoPaste": {
+          "Name": "Cornucopia_MisoPaste",
+          "Category": -26,
+          "SpriteIndex": 87,
+          "DisplayName": "{{i18n:MisoPaste_name}}",
+          "Description": "{{i18n:MisoPaste_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 275,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_yellow"
+          ]
+        },
+        "Cornucopia_OliveOilMayonnaise": {
+          "Name": "Cornucopia_OliveOilMayonnaise",
+          "Category": -26,
+          "SpriteIndex": 121,
+          "DisplayName": "{{i18n:OliveOilMayonnaise_name}}",
+          "Description": "{{i18n:OliveOilMayonnaise_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 220,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_yellow_green",
+            "mayo_item"
+          ]
+        },
+        "Cornucopia_Paprika": {
+          "Name": "Cornucopia_Paprika",
+          "Category": -26,
+          "SpriteIndex": 79,
+          "DisplayName": "{{i18n:Paprika_name}}",
+          "Description": "{{i18n:Paprika_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_red",
+            "spice_item"
+          ]
+        },
+        "Cornucopia_PeanutButter": {
+          "Name": "Cornucopia_PeanutButter",
+          "Category": -26,
+          "SpriteIndex": 19,
+          "DisplayName": "{{i18n:PeanutButter_name}}",
+          "Description": "{{i18n:PeanutButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_PeanutOil": {
+          "Name": "Cornucopia_PeanutOil",
+          "Category": -26,
+          "SpriteIndex": 135,
+          "DisplayName": "{{i18n:PeanutOil_name}}",
+          "Description": "{{i18n:PeanutOil_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 120,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_yellow",
+            "oil_item"
+          ]
+        },
+        "Cornucopia_Pepper": {
+          "Name": "Cornucopia_Pepper",
+          "Category": -26,
+          "SpriteIndex": 83,
+          "DisplayName": "{{i18n:Pepper_name}}",
+          "Description": "{{i18n:Pepper_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 180,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_black",
+            "spice_item"
+          ]
+        },
+        "Cornucopia_PickledCucumber": {
+          "Name": "Cornucopia_PickledCucumber",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:PickledCucumber_name}}",
+          "Description": "{{i18n:PickledCucumber_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_green",
+            "pickle_item"
+          ]
+        },
+        "Cornucopia_PistachioButter": {
+          "Name": "Cornucopia_PistachioButter",
+          "Category": -26,
+          "SpriteIndex": 22,
+          "DisplayName": "{{i18n:PistachioButter_name}}",
+          "Description": "{{i18n:PistachioButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 230,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_green",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_SoyMilk": {
+          "Name": "Cornucopia_SoyMilk",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:SoyMilk_name}}",
+          "Description": "{{i18n:SoyMilk_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 180,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_white",
+            "milk_item",
+            "plant_milk_item"
+          ]
+        },
+        "Cornucopia_SoySauce": {
+          "Name": "Cornucopia_SoySauce",
+          "Category": -26,
+          "SpriteIndex": 140,
+          "DisplayName": "{{i18n:SoySauce_name}}",
+          "Description": "{{i18n:SoySauce_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_brown",
+            "dye_strong"
+          ]
+        },
+        "Cornucopia_SoynutButter": {
+          "Name": "Cornucopia_SoynutButter",
+          "Category": -26,
+          "SpriteIndex": 24,
+          "DisplayName": "{{i18n:SoynutButter_name}}",
+          "Description": "{{i18n:SoynutButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 230,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_Tofu": {
+          "Name": "Cornucopia_Tofu",
+          "Category": -26,
+          "SpriteIndex": 60,
+          "DisplayName": "{{i18n:Tofu_name}}",
+          "Description": "{{i18n:Tofu_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_white"
+          ]
+        },
+        "Cornucopia_VanillaExtract": {
+          "Name": "Cornucopia_VanillaExtract",
+          "Category": -26,
+          "SpriteIndex": 6,
+          "DisplayName": "{{i18n:VanillaExtract_name}}",
+          "Description": "{{i18n:VanillaExtract_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "dye_strong"
+          ]
+        },
+        "Cornucopia_VanillaYogurt": {
+          "Name": "Cornucopia_VanillaYogurt",
+          "Category": -26,
+          "SpriteIndex": 99,
+          "DisplayName": "{{i18n:VanillaYogurt_name}}",
+          "Description": "{{i18n:VanillaYogurt_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 350,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_purple",
+            "yogurt_item"
+          ]
+        },
+        "Cornucopia_Zoodles": {
+          "Name": "Cornucopia_Zoodles",
+          "Category": -26,
+          "SpriteIndex": 69,
+          "DisplayName": "{{i18n:Zoodles_name}}",
+          "Description": "{{i18n:Zoodles_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 275,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_green",
+            "noodle_item"
+          ]
+        }
+      }
+    },
 	
-		// add items (herbs and flowers conditional)
-		
-			// alembic goods
-				"Cornucopia_VanillaExtract": {
-					"Name": "Cornucopia_VanillaExtract",
-					"DisplayName": "Vanilla Extract",
-					"Description": "Commonly used in baking, it imparts a rich vanilla flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 3
-				},
-
-			// drying rack goods
-				"Cornucopia_DriedHerb": {
-					"Name": "Cornucopia_DriedHerb",
-					"DisplayName": "Dried Herb",
-					"Description": "A bundle of dried herbs.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 28
-				},
-
-			// espresso machine goods
-				"Cornucopia_Affogato": {
-					"Name": "Cornucopia_Affogato",
-					"DisplayName": "Affogato",
-					"Description": "A coffee-based dessert consisting of a scoop of ice cream topped with espresso.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 500,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 240
-				},
-
-				"Cornucopia_PeppermintMocha": {
-					"Name": "Cornucopia_PeppermintMocha",
-					"DisplayName": "Peppermint Mocha",
-					"Description": "A moccachino with peppermint and chocolate flavor notes.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 248
-				},
-
-				"Cornucopia_VanillaLatte": {
-					"Name": "Cornucopia_VanillaLatte",
-					"DisplayName": "Vanilla Latte",
-					"Description": "A latte with vanilla flavor notes.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 252
-				},
-
-			// fermenting jar goods
-
-			// grinder goods
-				"Cornucopia_GroundHerb": {
-					"Name": "Cornucopia_GroundHerb",
-					"DisplayName": "Ground Herb",
-					"Description": "A jar of ground herbs.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 100,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 30
-				},
-
-				"Cornucopia_GroundCumin": {
-					"Name": "Cornucopia_GroundCumin",
-					"DisplayName": "Ground Cumin",
-					"Description": "A jar of ground cumin, it gives a distinct flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 70
-				},
-
-				"Cornucopia_GroundNutmeg": {
-					"Name": "Cornucopia_GroundNutmeg",
-					"DisplayName": "Ground Nutmeg",
-					"Description": "A jar of ground nutmeg, used in baked goods.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 68
-				},
-
-				"Cornucopia_GroundTurmeric": {
-					"Name": "Cornucopia_GroundTurmeric",
-					"DisplayName": "Ground Turmeric",
-					"Description": "A jar of ground turmeric, used in traditional dishes.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 67
-				},
-
-			// ice cream machine goods
-				"Cornucopia_BananaIceCream": {
-					"Name": "Cornucopia_BananaIceCream",
-					"DisplayName": "Banana Ice Cream",
-					"Description": "Tropical banana ice cream.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 49
-				},
-
-				"Cornucopia_BlueMoonIceCream": {
-					"Name": "Cornucopia_BlueMoonIceCream",
-					"DisplayName": "Blue Moon Ice Cream",
-					"Description": "Bright blue ice cream with a distinctly berry-like flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 350,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 50
-				},
-
-				"Cornucopia_HoneyLavenderIceCream": {
-					"Name": "Cornucopia_HoneyLavenderIceCream",
-					"DisplayName": "Honey Lavender Ice Cream",
-					"Description": "Purple ice cream with a distinctly floral flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 72
-				},
-
-				"Cornucopia_VanillaIceCream": {
-					"Name": "Cornucopia_VanillaIceCream",
-					"DisplayName": "Vanilla Ice Cream",
-					"Description": "Refreshingly simple homemade vanilla ice cream.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 100
-				},
-
-			// infuser goods
-				"Cornucopia_MintSchnapps": {
-					"Name": "Cornucopia_MintSchnapps",
-					"DisplayName": "Mint Schnapps",
-					"Description": "Add to beverages to give it a splash of mint flavor.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": 5,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 131
-				},
-
-			// mayonnaise machine goods
-				"Cornucopia_DillMayonnaise": {
-					"Name": "Cornucopia_DillMayonnaise",
-					"DisplayName": "Dill Mayonnaise",
-					"Description": "It's a strong, green mayonnaise.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 200,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 23
-				},
-
-			// soap press goods
-				"Cornucopia_HerbalSoap": {
-					"Name": "Cornucopia_HerbalSoap",
-					"DisplayName": "Herbal Soap",
-					"Description": "A scented bar of artisanal soap. It smells herbal.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 150,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 170
-				},
-
-			// still goods
-				"Cornucopia_Absinthe": {
-					"Name": "Cornucopia_Absinthe",
-					"DisplayName": "Absinthe",
-					"Description": "Drink in strict moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 155
-				},
-		
-		// add items (fruits and veggies AND herbs and flowers conditional)
+	// Extended crops config
 	
-			// fermenting jar goods
-				"Cornucopia_PickledUme": {
-					"Name": "Cornucopia_PickledUme",
-					"DisplayName": "Pickled Ume",
-					"Description": "Unripened plums that have been made tart by an acidic fermentation process.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 250,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 94
-				},
-
-			// ice cream machine goods
-				"Cornucopia_MintChipIceCream": {
-					"Name": "Cornucopia_MintChipIceCream",
-					"DisplayName": "Mint Chip Ice Cream",
-					"Description": "Minty ice cream with chocolate chips mixed throughout.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 400,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 77
-				},
-
-				"Cornucopia_NeapolitanIceCream": {
-					"Name": "Cornucopia_NeapolitanIceCream",
-					"DisplayName": "Neapolitan Ice Cream",
-					"Description": "Chocolate, strawberry, and vanilla all in one tub!",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 550,
-
-					"Edibility": -300,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 78
-				},
-
-		// add items (recipes conditional)
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Cornucopia_BuckwheatPasta": {
+          "Name": "Cornucopia_BuckwheatPasta",
+          "Category": -26,
+          "SpriteIndex": 66,
+          "DisplayName": "{{i18n:BuckwheatPasta_name}}",
+          "Description": "{{i18n:BuckwheatPasta_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "noodle_item"
+          ]
+        },
+        "Cornucopia_HabaneroExtract": {
+          "Name": "Cornucopia_HabaneroExtract",
+          "Category": -26,
+          "SpriteIndex": 7,
+          "DisplayName": "{{i18n:HabaneroExtract_name}}",
+          "Description": "{{i18n:HabaneroExtract_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 240,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_orange",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_JalapenoExtract": {
+          "Name": "Cornucopia_JalapenoExtract",
+          "Category": -26,
+          "SpriteIndex": 8,
+          "DisplayName": "{{i18n:JalapenoExtract_name}}",
+          "Description": "{{i18n:JalapenoExtract_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_green",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_Kimchi": {
+          "Name": "Cornucopia_Kimchi",
+          "Category": -26,
+          "SpriteIndex": 138,
+          "DisplayName": "{{i18n:Kimchi_name}}",
+          "Description": "{{i18n:Kimchi_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_green",
+            "pickle_item"
+          ]
+        },
+        "Cornucopia_Sauerkraut": {
+          "Name": "Cornucopia_Sauerkraut",
+          "Category": -26,
+          "SpriteIndex": 141,
+          "DisplayName": "{{i18n:Sauerkraut_name}}",
+          "Description": "{{i18n:Sauerkraut_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 450,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_yellow",
+            "pickle_item"
+          ]
+        },
+        "Cornucopia_SemolinaPasta": {
+          "Name": "Cornucopia_SemolinaPasta",
+          "Category": -26,
+          "SpriteIndex": 68,
+          "DisplayName": "{{i18n:SemolinaPasta_name}}",
+          "Description": "{{i18n:SemolinaPasta_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "noodle_item"
+          ]
+        },
+        "Cornucopia_SesameOil": {
+          "Name": "Cornucopia_SesameOil",
+          "Category": -26,
+          "SpriteIndex": 133,
+          "DisplayName": "{{i18n:SesameOil_name}}",
+          "Description": "{{i18n:SesameOil_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 120,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_yellow",
+            "oil_item"
+          ]
+        },
+        "Cornucopia_WasabiMayonnaise": {
+          "Name": "Cornucopia_WasabiMayonnaise",
+          "Category": -26,
+          "SpriteIndex": 124,
+          "DisplayName": "{{i18n:WasabiMayonnaise_name}}",
+          "Description": "{{i18n:WasabiMayonnaise_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 275,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_green",
+            "mayo_item"
+          ]
+        },
+        "Cornucopia_WasabiPaste": {
+          "Name": "Cornucopia_WasabiPaste",
+          "Category": -26,
+          "SpriteIndex": 86,
+          "DisplayName": "{{i18n:WasabiPaste_name}}",
+          "Description": "{{i18n:WasabiPaste_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 330,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_green"
+          ]
+        }
+      }
+    },
 	
-			// espresso machine goods
-				"Cornucopia_SaltedCaramelMocha": {
-					"Name": "Cornucopia_SaltedCaramelMocha",
-					"DisplayName": "Salted Caramel Mocha",
-					"Description": "A moccachino with salt and caramel flavor notes.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 450,
-
-					"Edibility": 1,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 250
-				},
-
-			// glass jar goods
-				"Cornucopia_BarleyKombucha": {
-					"Name": "Cornucopia_BarleyKombucha",
-					"DisplayName": "Barley Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 206
-				},
-
-				"Cornucopia_BerryFusionKombucha": {
-					"Name": "Cornucopia_BerryFusionKombucha",
-					"DisplayName": "Berry Fusion Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 207
-				},
-
-				"Cornucopia_BlackKombucha": {
-					"Name": "Cornucopia_BlackKombucha",
-					"DisplayName": "Black Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 233
-				},
-
-				"Cornucopia_BlueMistKombucha": {
-					"Name": "Cornucopia_BlueMistKombucha",
-					"DisplayName": "Blue Mist Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 208
-				},
-
-				"Cornucopia_BreakfastKombucha": {
-					"Name": "Cornucopia_BreakfastKombucha",
-					"DisplayName": "Breakfast Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 234
-				},
-
-				"Cornucopia_CamelliaKombucha": {
-					"Name": "Cornucopia_CamelliaKombucha",
-					"DisplayName": "Camellia Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 188
-				},
-
-				"Cornucopia_ChaiKombucha": {
-					"Name": "Cornucopia_ChaiKombucha",
-					"DisplayName": "Chai Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 209
-				},
-
-				"Cornucopia_ChamomileKombucha": {
-					"Name": "Cornucopia_ChamomileKombucha",
-					"DisplayName": "Chamomile Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 210
-				},
-
-				"Cornucopia_CranberryPomegranateKombucha": {
-					"Name": "Cornucopia_CranberryPomegranateKombucha",
-					"DisplayName": "Cranberry Pomegranate Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 211
-				},
-
-				"Cornucopia_DandelionKombucha": {
-					"Name": "Cornucopia_DandelionKombucha",
-					"DisplayName": "Dandelion Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 212
-				},
-
-				"Cornucopia_EarlGreyKombucha": {
-					"Name": "Cornucopia_EarlGreyKombucha",
-					"DisplayName": "Earl Grey Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 235
-				},
-
-				"Cornucopia_JasmineKombucha": {
-					"Name": "Cornucopia_JasmineKombucha",
-					"DisplayName": "Jasmine Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 213
-				},
-
-				"Cornucopia_LemonKombucha": {
-					"Name": "Cornucopia_LemonKombucha",
-					"DisplayName": "Lemon Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 214
-				},
-
-				"Cornucopia_MatchaKombucha": {
-					"Name": "Cornucopia_MatchaKombucha",
-					"DisplayName": "Matcha Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 237
-				},
-
-				"Cornucopia_MintKombucha": {
-					"Name": "Cornucopia_MintKombucha",
-					"DisplayName": "Mint Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 215
-				},
-
-				"Cornucopia_OolongKombucha": {
-					"Name": "Cornucopia_OolongKombucha",
-					"DisplayName": "Oolong Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 238
-				},
-
-				"Cornucopia_RoseKombucha": {
-					"Name": "Cornucopia_RoseKombucha",
-					"DisplayName": "Rose Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 230
-				},
-
-				"Cornucopia_SpicedKombucha": {
-					"Name": "Cornucopia_SpicedKombucha",
-					"DisplayName": "Spiced Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 231
-				},
-
-				"Cornucopia_StrawberryGrapefruitKombucha": {
-					"Name": "Cornucopia_StrawberryGrapefruitKombucha",
-					"DisplayName": "Strawberry Grapefruit Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 232
-				},
-
-				"Cornucopia_WhiteKombucha": {
-					"Name": "Cornucopia_WhiteKombucha",
-					"DisplayName": "White Kombucha",
-					"Description": "A tea-flavored kombucha drink.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 0,
-
-					"Edibility": 30,
-					"IsDrink": true,
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 239
-				},
-
-			// keg goods
-				"Cornucopia_HardAppleCider": {
-					"Name": "Cornucopia_HardAppleCider",
-					"DisplayName": "Hard Apple Cider",
-					"Description": "Drink in moderation.",
-					"Type": "Artisan_Goods",
-					"Category": -26,
-					"Price": 300,
-
-					"Edibility": 20,
-					"IsDrink": true,
-					"Buff": {
-						"BuffId": 17,
-						"Duration": 45
-					},
-
-					"Texture": "Cornucopia.ArtisanGoods/Objects",
-					"SpriteIndex": 136
-				},
-			}
-		},
-    ]
+	//Extended trees config
+	
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Cornucopia_AlmondButter": {
+          "Name": "Cornucopia_AlmondButter",
+          "Category": -26,
+          "SpriteIndex": 14,
+          "DisplayName": "{{i18n:AlmondButter_name}}",
+          "Description": "{{i18n:AlmondButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 230,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_AlmondExtract": {
+          "Name": "Cornucopia_AlmondExtract",
+          "Category": -26,
+          "SpriteIndex": 10,
+          "DisplayName": "{{i18n:AlmondExtract_name}}",
+          "Description": "{{i18n:AlmondExtract_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand"
+          ]
+        },
+        "Cornucopia_CashewButter": {
+          "Name": "Cornucopia_CashewButter",
+          "Category": -26,
+          "SpriteIndex": 15,
+          "DisplayName": "{{i18n:CashewButter_name}}",
+          "Description": "{{i18n:CashewButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_ChewingGum": {
+          "Name": "Cornucopia_ChewingGum",
+          "Category": -26,
+          "SpriteIndex": 64,
+          "DisplayName": "{{i18n:ChewingGum_name}}",
+          "Description": "{{i18n:ChewingGum_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": 40,
+          "ContextTags": [
+            "color_pink"
+          ]
+        },
+        "Cornucopia_LemonPeel": {
+          "Name": "Cornucopia_LemonPeel",
+          "Category": 0,
+          "SpriteIndex": 72,
+          "DisplayName": "{{i18n:LemonPeel_name}}",
+          "Description": "{{i18n:LemonPeel_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_LimePeel": {
+          "Name": "Cornucopia_LimePeel",
+          "Category": 0,
+          "SpriteIndex": 71,
+          "DisplayName": "{{i18n:LimePeel_name}}",
+          "Description": "{{i18n:LimePeel_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_lime",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_PecanButter": {
+          "Name": "Cornucopia_PecanButter",
+          "Category": -26,
+          "SpriteIndex": 21,
+          "DisplayName": "{{i18n:PecanButter_name}}",
+          "Description": "{{i18n:PecanButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_PickledUme": {
+          "Name": "Cornucopia_PickledUme",
+          "Category": -26,
+          "SpriteIndex": 143,
+          "DisplayName": "{{i18n:PickledUme_name}}",
+          "Description": "{{i18n:PickledUme_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_pale_red_violet",
+            "pickle_item"
+          ]
+        },
+        "Cornucopia_WalnutButter": {
+          "Name": "Cornucopia_WalnutButter",
+          "Category": -26,
+          "SpriteIndex": 26,
+          "DisplayName": "{{i18n:WalnutButter_name}}",
+          "Description": "{{i18n:WalnutButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 230,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "nut_butter_item"
+          ]
+        }
+      }
+    },
+	
+	//Herbs config
+	
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Cornucopia_AloeGel": {
+          "Name": "Cornucopia_AloeGel",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:AloeGel_name}}",
+          "Description": "{{i18n:AloeGel_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "Cornucopia_DillMayonnaise": {
+          "Name": "Cornucopia_DillMayonnaise",
+          "Category": -26,
+          "SpriteIndex": 126,
+          "DisplayName": "{{i18n:DillMayonnaise_name}}",
+          "Description": "{{i18n:DillMayonnaise_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_yellow_green",
+            "mayo_item"
+          ]
+        },
+        "Cornucopia_GroundCumin": {
+          "Name": "Cornucopia_GroundCumin",
+          "Category": -26,
+          "SpriteIndex": 78,
+          "DisplayName": "{{i18n:GroundCumin_name}}",
+          "Description": "{{i18n:GroundCumin_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "spice_item"
+          ]
+        },
+        "Cornucopia_GroundNutmeg": {
+          "Name": "Cornucopia_GroundNutmeg",
+          "Category": -26,
+          "SpriteIndex": 76,
+          "DisplayName": "{{i18n:GroundNutmeg_name}}",
+          "Description": "{{i18n:GroundNutmeg_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "spice_item"
+          ]
+        },
+        "Cornucopia_GroundTurmeric": {
+          "Name": "Cornucopia_GroundTurmeric",
+          "Category": -26,
+          "SpriteIndex": 75,
+          "DisplayName": "{{i18n:GroundTurmeric_name}}",
+          "Description": "{{i18n:GroundTurmeric_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_orange",
+            "dye_strong",
+            "spice_item"
+          ]
+        }
+      }
+    },
+	
+	//Vanilla
+	
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Cornucopia_Applesauce": {
+          "Name": "Cornucopia_Applesauce",
+          "Category": -26,
+          "SpriteIndex": 85,
+          "DisplayName": "{{i18n:Applesauce_name}}",
+          "Description": "{{i18n:Applesauce_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_yellow"
+          ]
+        },
+        "Cornucopia_Butter": {
+          "Name": "Cornucopia_Butter",
+          "Category": -26,
+          "SpriteIndex": 11,
+          "DisplayName": "{{i18n:Butter_name}}",
+          "Description": "{{i18n:Butter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow",
+            "butter_item"
+          ]
+        },
+        "Cornucopia_CannedAnchovies": {
+          "Name": "Cornucopia_CannedAnchovies",
+          "Category": -26,
+          "SpriteIndex": 29,
+          "DisplayName": "{{i18n:CannedAnchovies_name}}",
+          "Description": "{{i18n:CannedAnchovies_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_gray"
+          ]
+        },
+        "Cornucopia_CannedFish": {
+          "Name": "Cornucopia_CannedFish",
+          "Category": -26,
+          "SpriteIndex": 30,
+          "DisplayName": "{{i18n:CannedFish_name}}",
+          "Description": "{{i18n:CannedFish_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_gray"
+          ]
+        },
+        "Cornucopia_CannedFruit": {
+          "Name": "Cornucopia_CannedFruit",
+          "Category": -26,
+          "SpriteIndex": 34,
+          "DisplayName": "{{i18n:CannedFruit_name}}",
+          "Description": "{{i18n:CannedFruit_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 75,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_pink"
+          ]
+        },
+        "Cornucopia_CannedShellfish": {
+          "Name": "Cornucopia_CannedShellfish",
+          "Category": -26,
+          "SpriteIndex": 32,
+          "DisplayName": "{{i18n:CannedShellfish_name}}",
+          "Description": "{{i18n:CannedShellfish_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_gray"
+          ]
+        },
+        "Cornucopia_CannedTuna": {
+          "Name": "Cornucopia_CannedTuna",
+          "Category": -26,
+          "SpriteIndex": 31,
+          "DisplayName": "{{i18n:CannedTuna_name}}",
+          "Description": "{{i18n:CannedTuna_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_gold"
+          ]
+        },
+        "Cornucopia_CannedVegetables": {
+          "Name": "Cornucopia_CannedVegetables",
+          "Category": -26,
+          "SpriteIndex": 33,
+          "DisplayName": "{{i18n:CannedVegetables_name}}",
+          "Description": "{{i18n:CannedVegetables_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 75,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "Cornucopia_ChiliOil": {
+          "Name": "Cornucopia_ChiliOil",
+          "Category": -26,
+          "SpriteIndex": 130,
+          "DisplayName": "{{i18n:ChiliOil_name}}",
+          "Description": "{{i18n:ChiliOil_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 160,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_red",
+            "oil_item",
+            "dye_strong"
+          ]
+        },
+        "Cornucopia_ChiliPowder": {
+          "Name": "Cornucopia_ChiliPowder",
+          "Category": -26,
+          "SpriteIndex": 77,
+          "DisplayName": "{{i18n:ChiliPowder_name}}",
+          "Description": "{{i18n:ChiliPowder_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_orange",
+            "dye_medium",
+            "spice_item"
+          ]
+        },
+        "Cornucopia_CoconutButter": {
+          "Name": "Cornucopia_CoconutButter",
+          "Category": -26,
+          "SpriteIndex": 16,
+          "DisplayName": "{{i18n:CoconutButter_name}}",
+          "Description": "{{i18n:CoconutButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_white",
+            "butter_item"
+          ]
+        },
+        "Cornucopia_CoconutMilk": {
+          "Name": "Cornucopia_CoconutMilk",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:CoconutMilk_name}}",
+          "Description": "{{i18n:CoconutMilk_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_white",
+            "milk_item",
+            "plant_milk_item"
+          ]
+        },
+        "Cornucopia_CoconutOil": {
+          "Name": "Cornucopia_CoconutOil",
+          "Category": -26,
+          "SpriteIndex": 134,
+          "DisplayName": "{{i18n:CoconutOil_name}}",
+          "Description": "{{i18n:CoconutOil_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_white",
+            "oil_item"
+          ]
+        },
+        "Cornucopia_CookieButter": {
+          "Name": "Cornucopia_CookieButter",
+          "Category": -26,
+          "SpriteIndex": 17,
+          "DisplayName": "{{i18n:CookieButter_name}}",
+          "Description": "{{i18n:CookieButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "butter_item"
+          ]
+        },
+        "Cornucopia_CornFlour": {
+          "Name": "Cornucopia_CornFlour",
+          "Category": 0,
+          "SpriteIndex": 129,
+          "DisplayName": "{{i18n:CornFlour_name}}",
+          "Description": "{{i18n:CornFlour_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_green",
+            "flour_item"
+          ]
+        },
+        "Cornucopia_DriedFlower": {
+          "Name": "Cornucopia_DriedFlower",
+          "Category": -26,
+          "SpriteIndex": 38,
+          "DisplayName": "{{i18n:DriedFlower_name}}",
+          "Description": "{{i18n:DriedFlower_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_green"
+          ]
+        },
+        "Cornucopia_DriedHerb": {
+          "Name": "Cornucopia_DriedHerb",
+          "Category": -26,
+          "SpriteIndex": 39,
+          "DisplayName": "{{i18n:DriedHerb_name}}",
+          "Description": "{{i18n:DriedHerb_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_green"
+          ]
+        },
+        "Cornucopia_DriedVegetable": {
+          "Name": "Cornucopia_DriedVegetable",
+          "Category": -26,
+          "SpriteIndex": 35,
+          "DisplayName": "{{i18n:DriedVegetable_name}}",
+          "Description": "{{i18n:DriedVegetable_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 120,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_green"
+          ]
+        },
+        "Cornucopia_FishOil": {
+          "Name": "Cornucopia_FishOil",
+          "Category": -26,
+          "SpriteIndex": 132,
+          "DisplayName": "{{i18n:FishOil_name}}",
+          "Description": "{{i18n:FishOil_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_yellow",
+            "oil_item"
+          ]
+        },
+        "Cornucopia_FishSauce": {
+          "Name": "Cornucopia_FishSauce",
+          "Category": -26,
+          "SpriteIndex": 136,
+          "DisplayName": "{{i18n:FishSauce_name}}",
+          "Description": "{{i18n:FishSauce_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_FruitJuice": {
+          "Name": "Cornucopia_FruitJuice",
+          "Category": -26,
+          "SpriteIndex": 94,
+          "DisplayName": "{{i18n:FruitJuice_name}}",
+          "Description": "{{i18n:FruitJuice_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": 30,
+          "ContextTags": [
+            "color_dark_pink",
+            "juice_item"
+          ]
+        },
+        "Cornucopia_FruitYogurt": {
+          "Name": "Cornucopia_FruitYogurt",
+          "Category": -26,
+          "SpriteIndex": 98,
+          "DisplayName": "{{i18n:FruitYogurt_name}}",
+          "Description": "{{i18n:FruitYogurt_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_pink",
+            "yogurt_item"
+          ]
+        },
+        "Cornucopia_GarlicMayonnaise": {
+          "Name": "Cornucopia_GarlicMayonnaise",
+          "Category": -26,
+          "SpriteIndex": 122,
+          "DisplayName": "{{i18n:GarlicMayonnaise_name}}",
+          "Description": "{{i18n:GarlicMayonnaise_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 240,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_dark_yellow",
+            "mayo_item"
+          ]
+        },
+        "Cornucopia_Garum": {
+          "Name": "Cornucopia_Garum",
+          "Category": -26,
+          "SpriteIndex": 137,
+          "DisplayName": "{{i18n:Garum_name}}",
+          "Description": "{{i18n:Garum_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_Gelatin": {
+          "Name": "Cornucopia_Gelatin",
+          "Category": -26,
+          "SpriteIndex": 89,
+          "DisplayName": "{{i18n:Gelatin_name}}",
+          "Description": "{{i18n:Gelatin_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_white"
+          ]
+        },
+        "Cornucopia_GoatButter": {
+          "Name": "Cornucopia_GoatButter",
+          "Category": -26,
+          "SpriteIndex": 12,
+          "DisplayName": "{{i18n:GoatButter_name}}",
+          "Description": "{{i18n:GoatButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 325,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_white",
+            "butter_item"
+          ]
+        },
+        "Cornucopia_GoatYogurt": {
+          "Name": "Cornucopia_GoatYogurt",
+          "Category": -26,
+          "SpriteIndex": 97,
+          "DisplayName": "{{i18n:GoatYogurt_name}}",
+          "Description": "{{i18n:GoatYogurt_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": 25,
+          "ContextTags": [
+            "color_blue",
+            "yogurt_item"
+          ]
+        },
+        "Cornucopia_HazelnutButter": {
+          "Name": "Cornucopia_HazelnutButter",
+          "Category": -26,
+          "SpriteIndex": 18,
+          "DisplayName": "{{i18n:HazelnutButter_name}}",
+          "Description": "{{i18n:HazelnutButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 230,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_HoneyButter": {
+          "Name": "Cornucopia_HoneyButter",
+          "Category": -26,
+          "SpriteIndex": 28,
+          "DisplayName": "{{i18n:HoneyButter_name}}",
+          "Description": "{{i18n:HoneyButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow",
+            "butter_item"
+          ]
+        },
+        "Cornucopia_MapleButter": {
+          "Name": "Cornucopia_MapleButter",
+          "Category": -26,
+          "SpriteIndex": 27,
+          "DisplayName": "{{i18n:MapleButter_name}}",
+          "Description": "{{i18n:MapleButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand",
+            "butter_item"
+          ]
+        },
+        "Cornucopia_Margarine": {
+          "Name": "Cornucopia_Margarine",
+          "Category": -26,
+          "SpriteIndex": 13,
+          "DisplayName": "{{i18n:Margarine_name}}",
+          "Description": "{{i18n:Margarine_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow",
+            "butter_item"
+          ]
+        },
+        "Cornucopia_NutMilk": {
+          "Name": "Cornucopia_NutMilk",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:NutMilk_name}}",
+          "Description": "{{i18n:NutMilk_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_dark_pink",
+            "milk_item",
+            "plant_milk_item"
+          ]
+        },
+        "Cornucopia_OrangePeel": {
+          "Name": "Cornucopia_OrangePeel",
+          "Category": 0,
+          "SpriteIndex": 73,
+          "DisplayName": "{{i18n:OrangePeel_name}}",
+          "Description": "{{i18n:OrangePeel_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_orange",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_PickledEggs": {
+          "Name": "Cornucopia_PickledEggs",
+          "Category": -26,
+          "SpriteIndex": 150,
+          "DisplayName": "{{i18n:PickledEggs_name}}",
+          "Description": "{{i18n:PickledEggs_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_white",
+            "pickle_item"
+          ]
+        },
+        "Cornucopia_PickledFish": {
+          "Name": "Cornucopia_PickledFish",
+          "Category": -26,
+          "SpriteIndex": 151,
+          "DisplayName": "{{i18n:PickledFish_name}}",
+          "Description": "{{i18n:PickledFish_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_white",
+            "pickle_item"
+          ]
+        },
+        "Cornucopia_PineNuts": {
+          "Name": "Cornucopia_PineNuts",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:PineNuts_name}}",
+          "Description": "{{i18n:PineNuts_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 50,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_white",
+            "nut_item"
+          ]
+        },
+        "Cornucopia_PrismaticExtract": {
+          "Name": "Cornucopia_PrismaticExtract",
+          "Category": -26,
+          "SpriteIndex": 9,
+          "DisplayName": "{{i18n:PrismaticExtract_name}}",
+          "Description": "{{i18n:PrismaticExtract_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 3500,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_prismatic"
+          ]
+        },
+        "Cornucopia_ProduceEssentialOil": {
+          "Name": "Cornucopia_ProduceEssentialOil",
+          "Category": -26,
+          "SpriteIndex": 3,
+          "DisplayName": "{{i18n:ProduceEssentialOil_name}}",
+          "Description": "{{i18n:ProduceEssentialOil_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow"
+          ]
+        },
+        "Cornucopia_Prunes": {
+          "Name": "Cornucopia_Prunes",
+          "Category": -26,
+          "SpriteIndex": 37,
+          "DisplayName": "{{i18n:Prunes_name}}",
+          "Description": "{{i18n:Prunes_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 160,
+          "Edibility": 10,
+          "ContextTags": [
+            "color_dark_purple",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_RedSauerkraut": {
+          "Name": "Cornucopia_RedSauerkraut",
+          "Category": -26,
+          "SpriteIndex": 142,
+          "DisplayName": "{{i18n:RedSauerkraut_name}}",
+          "Description": "{{i18n:RedSauerkraut_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 570,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_pale_red_violet",
+            "pickle_item"
+          ]
+        },
+        "Cornucopia_RiceFlour": {
+          "Name": "Cornucopia_RiceFlour",
+          "Category": 0,
+          "SpriteIndex": 127,
+          "DisplayName": "{{i18n:RiceFlour_name}}",
+          "Description": "{{i18n:RiceFlour_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_blue",
+            "flour_item"
+          ]
+        },
+        "Cornucopia_RicePasta": {
+          "Name": "Cornucopia_RicePasta",
+          "Category": -26,
+          "SpriteIndex": 67,
+          "DisplayName": "{{i18n:RicePasta_name}}",
+          "Description": "{{i18n:RicePasta_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_white",
+            "noodle_item"
+          ]
+        },
+        "Cornucopia_RoastedGarlic": {
+          "Name": "Cornucopia_RoastedGarlic",
+          "Category": -26,
+          "SpriteIndex": 147,
+          "DisplayName": "{{i18n:RoastedGarlic_name}}",
+          "Description": "{{i18n:RoastedGarlic_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_brown"
+          ]
+        },
+        "Cornucopia_RoastedSunflowerSeeds": {
+          "Name": "Cornucopia_RoastedSunflowerSeeds",
+          "Category": -26,
+          "SpriteIndex": 144,
+          "DisplayName": "{{i18n:RoastedSunflowerSeeds_name}}",
+          "Description": "{{i18n:RoastedSunflowerSeeds_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 75,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_brown"
+          ]
+        },
+        "Cornucopia_Saffron": {
+          "Name": "Cornucopia_Saffron",
+          "Category": -26,
+          "SpriteIndex": 74,
+          "DisplayName": "{{i18n:Saffron_name}}",
+          "Description": "{{i18n:Saffron_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 400,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_red",
+            "dye_medium",
+            "spice_item"
+          ]
+        },
+        "Cornucopia_Salt": {
+          "Name": "Cornucopia_Salt",
+          "Category": -26,
+          "SpriteIndex": 84,
+          "DisplayName": "{{i18n:Salt_name}}",
+          "Description": "{{i18n:Salt_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 180,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_white",
+            "spice_item"
+          ]
+        },
+        "Cornucopia_ShrimpPaste": {
+          "Name": "Cornucopia_ShrimpPaste",
+          "Category": -26,
+          "SpriteIndex": 88,
+          "DisplayName": "{{i18n:ShrimpPaste_name}}",
+          "Description": "{{i18n:ShrimpPaste_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_red",
+            "dye_strong"
+          ]
+        },
+        "Cornucopia_SmokedCheese": {
+          "Name": "Cornucopia_SmokedCheese",
+          "Category": -26,
+          "SpriteIndex": 149,
+          "DisplayName": "{{i18n:SmokedCheese_name}}",
+          "Description": "{{i18n:SmokedCheese_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 400,
+          "Edibility": 36,
+          "ContextTags": [
+            "color_red"
+          ]
+        },
+        "Cornucopia_SmokedEgg": {
+          "Name": "Cornucopia_SmokedEgg",
+          "Category": -26,
+          "SpriteIndex": 148,
+          "DisplayName": "{{i18n:SmokedEgg_name}}",
+          "Description": "{{i18n:SmokedEgg_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_dark_brown"
+          ]
+        },
+        "Cornucopia_SmokedSalmon": {
+          "Name": "Cornucopia_SmokedSalmon",
+          "Category": -26,
+          "SpriteIndex": 145,
+          "DisplayName": "{{i18n:SmokedSalmon_name}}",
+          "Description": "{{i18n:SmokedSalmon_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": 30,
+          "ContextTags": [
+            "color_pink"
+          ]
+        },
+        "Cornucopia_SpicyMayonnaise": {
+          "Name": "Cornucopia_SpicyMayonnaise",
+          "Category": -26,
+          "SpriteIndex": 125,
+          "DisplayName": "{{i18n:SpicyMayonnaise_name}}",
+          "Description": "{{i18n:SpicyMayonnaise_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 240,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_orange",
+            "mayo_item"
+          ]
+        },
+        "Cornucopia_SunflowerButter": {
+          "Name": "Cornucopia_SunflowerButter",
+          "Category": -26,
+          "SpriteIndex": 25,
+          "DisplayName": "{{i18n:SunflowerButter_name}}",
+          "Description": "{{i18n:SunflowerButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 230,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow",
+            "butter_item"
+          ]
+        },
+        "Cornucopia_TapiocaPearls": {
+          "Name": "Cornucopia_TapiocaPearls",
+          "Category": -26,
+          "SpriteIndex": 70,
+          "DisplayName": "{{i18n:TapiocaPearls_name}}",
+          "Description": "{{i18n:TapiocaPearls_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 225,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_black"
+          ]
+        },
+        "Cornucopia_TaroFlour": {
+          "Name": "Cornucopia_TaroFlour",
+          "Category": 0,
+          "SpriteIndex": 128,
+          "DisplayName": "{{i18n:TaroFlour_name}}",
+          "Description": "{{i18n:TaroFlour_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_purple",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_TruffleMayonnaise": {
+          "Name": "Cornucopia_TruffleMayonnaise",
+          "Category": -26,
+          "SpriteIndex": 152,
+          "DisplayName": "{{i18n:TruffleMayonnaise_name}}",
+          "Description": "{{i18n:TruffleMayonnaise_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 850,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_orange",
+            "mayo_item"
+          ]
+        },
+        "Cornucopia_WheatPasta": {
+          "Name": "Cornucopia_WheatPasta",
+          "Category": -26,
+          "SpriteIndex": 65,
+          "DisplayName": "{{i18n:WheatPasta_name}}",
+          "Description": "{{i18n:WheatPasta_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow",
+            "noodle_item"
+          ]
+        },
+        "Cornucopia_Yogurt": {
+          "Name": "Cornucopia_Yogurt",
+          "Category": -26,
+          "SpriteIndex": 96,
+          "DisplayName": "{{i18n:Yogurt_name}}",
+          "Description": "{{i18n:Yogurt_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 175,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_white",
+            "yogurt_item"
+          ]
+        }
+      }
+    }
+  ]
 }
