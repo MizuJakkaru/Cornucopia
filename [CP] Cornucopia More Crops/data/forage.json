@@ -3,8 +3,8 @@
         // add forage (cindersap forest)
         {
         	"Action": "EditData",
-        	"Target": "Data/LocationsContexts",
-        	"TargetField": [ "LocationsContexts", "Forest", "Forage" ],
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Forest", "Forage" ],
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
@@ -19,8 +19,8 @@
 		// add forage (pelican town)
         {
         	"Action": "EditData",
-        	"Target": "Data/LocationsContexts",
-        	"TargetField": [ "LocationsContexts", "Town", "Forage" ],
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Town", "Forage" ],
         	"Entries": {
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -31,8 +31,8 @@
 		// add forage (mountain)
         {
         	"Action": "EditData",
-        	"Target": "Data/LocationsContexts",
-        	"TargetField": [ "LocationsContexts", "Mountain", "Forage" ],
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Mountain", "Forage" ],
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
@@ -43,8 +43,8 @@
 		// add forage (ginger island west)
         {
         	"Action": "EditData",
-        	"Target": "Data/LocationsContexts",
-        	"TargetField": [ "LocationsContexts", "IslandWest", "Forage" ],
+        	"Target": "Data/Locations",
+        	"TargetField": [ "IslandWest", "Forage" ],
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
@@ -54,8 +54,8 @@
 		// add forage (ginger island north)
         {
         	"Action": "EditData",
-        	"Target": "Data/LocationsContexts",
-        	"TargetField": [ "LocationsContexts", "IslandNorth", "Forage" ],
+        	"Target": "Data/Locations",
+        	"TargetField": [ "IslandNorth", "Forage" ],
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
@@ -65,8 +65,8 @@
 		// add forage (ginger island east)
         {
         	"Action": "EditData",
-        	"Target": "Data/LocationsContexts",
-        	"TargetField": [ "LocationsContexts", "IslandEast", "Forage" ],
+        	"Target": "Data/Locations",
+        	"TargetField": [ "IslandEast", "Forage" ],
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
