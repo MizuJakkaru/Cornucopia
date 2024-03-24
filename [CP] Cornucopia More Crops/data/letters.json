@@ -6,6 +6,7 @@
 			"Target": "Data/Mail",
 			"Entries": {
 				"Cornucopia_PierreY1WinterCrops": "{{i18n:Mail_PierreY1WinterCrops}}",
+				//"Cornucopia_JojaY1WinterCrops": "{{i18n:Mail_JojaY1WinterCrops}}",
 				"Cornucopia_MarnieY2Herbs": "{{i18n:Mail_MarnieY2Herbs}}"
 			}
 		},
@@ -27,6 +28,16 @@
 			"Entries": {
 				"Cornucopia_SendPierreY1WinterCrops/dayofmonth 28/season fall/year 1/sendmail Cornucopia_PierreY1WinterCrops": "null"
 			}
-		}
+		},
+		//{
+		//	"Action": "EditData",
+		//	"Target": "Data/Events/Farm",
+		//	"When": {
+		//		"Query: {{Enable Extended Crops Pack}} OR {{Enable Herbs Pack}}": true
+		//	},
+		//	"Entries": {
+		//		"Cornucopia_SendJojaY1WinterCrops/dayofmonth 28/season fall/year 1/sendmail Cornucopia_JojaY1WinterCrops": "null"
+		//	}
+		//}
 	]
 }
