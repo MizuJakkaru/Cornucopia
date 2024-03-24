@@ -13,6 +13,7 @@
 						[
 							{
 								"RequiredItemId": "(O)Cornucopia_CottonBoll",
+								"RequiredCount": 3,
 							}
 						],
 					"OutputItem":
