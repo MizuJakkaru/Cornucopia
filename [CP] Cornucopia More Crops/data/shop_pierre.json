@@ -94,7 +94,7 @@
 		"Cornucopia_WatermelonSeeds": {
 			"Id": "Cornucopia_WatermelonSeeds",
 			"ItemId": "Cornucopia_WatermelonSeeds",
-			"Condition": "SEASON fall, YEAR 3",
+			"Condition": "SEASON summer, YEAR 3",
 			"IgnoreShopPriceModifiers": true,//"Price": 300,
 			
 		},
