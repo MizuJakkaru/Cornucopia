@@ -1,0 +1,80 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)12", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_CoconutMilk": {
+					"Id": "Cornucopia_CoconutMilk",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)88",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_CoconutMilk",
+							}
+						],
+					"MinutesUntilReady": 2250,
+				},
+				"Cornucopia_SoyMilk": {
+					"Id": "Cornucopia_SoyMilk",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Soybeans",
+								"RequiredCount": 2,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SoyMilk",
+							}
+						],
+					"MinutesUntilReady": 2250,
+				},
+				"Cornucopia_NutMilk": {
+					"Id": "Cornucopia_NutMilk",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "nut_item" ],
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_NutMilk",
+								"ObjectInternalName": "{0} {{i18n:NutMilk_name}}",
+								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_NutMilk %PRESERVED_DISPLAY_NAME]",
+								"PreserveId": "DROP_IN",
+								"CopyPrice": true,
+								"PriceModifiers":
+									[
+										{
+											"Id": "NutMilk",
+											"Modification": "Multiply",
+											"Amount": 2.25,
+										}
+									],
+							}
+						],
+					"MinutesUntilReady": 2250,
+				}
+			},
+			"MoveEntries": 
+				[
+					{ "Id": "Cornucopia_CoconutMilk", "BeforeId": "Default_Wine" },
+					{ "Id": "Cornucopia_SoyMilk", "BeforeId": "Default_Juice" },
+					{ "Id": "Cornucopia_NutMilk", "BeforeId": "Default_Juice" }
+				]
+		}
+    ]
+}

@@ -11,7 +11,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/bigcraftablesinformation.json, data/craftingrecipes.json, data/objects.json, data/objectcontexttags.json, data/strings.json, machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/cheesepress.json, machines/dryingrack.json, machines/extruder.json, machines/compactmill.json, machines/juicer.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/delismoker.json, machines/vinegarkeg.json, machines/yogurtjar.json, data/forage.json"
+			"FromFile": "data/bigcraftablesinformation.json, data/craftingrecipes.json, data/objects.json, data/objectcontexttags.json, data/strings.json, machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/cheesepress.json, machines/dryingrack.json, machines/extruder.json, machines/compactmill.json, machines/juicer.json, machines/keg.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/delismoker.json, machines/vinegarkeg.json, machines/yogurtjar.json, data/forage.json"
 		},
     ]
 }

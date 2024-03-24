@@ -60,22 +60,6 @@
 										"MinutesUntilReady": 120,
 									},
 									{
-										"Id": "Cornucopia_CoconutMilk",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)88",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_CoconutMilk",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
 										"Id": "Cornucopia_Gelatin",
 										"Triggers": 
 											[
