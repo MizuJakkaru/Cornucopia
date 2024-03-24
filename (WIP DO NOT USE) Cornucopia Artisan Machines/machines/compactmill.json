@@ -305,7 +305,12 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "woodchipper",
+										"Sounds": 
+											[
+												{
+													"Id": "woodchipper"
+												},
+											],
 									}
 								],
 							"WobbleWhileWorking": true,

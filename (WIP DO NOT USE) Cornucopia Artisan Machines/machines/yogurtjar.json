@@ -125,8 +125,13 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "Ship",
-										"TemporarySprites": 
+										"Sounds": 
+											[
+												{
+													"Id": "Ship"
+												}
+											],
+										"TemporarySprites":  
 											[
 												{
 													"Texture": "TileSheets\\animations",

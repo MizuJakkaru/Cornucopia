@@ -40,12 +40,10 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "Ship",
-										"DelayedSounds": 
+										"Sounds": 
 											[
 												{
-													"Sound": "bubbles",
-													"Delay": 0
+													"Id": "bubbles"
 												}
 											],
 										"TemporarySprites": 

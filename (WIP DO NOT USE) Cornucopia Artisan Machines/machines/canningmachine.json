@@ -162,10 +162,16 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "trashcan",
+										"Sounds": 
+											[
+												{
+													"Id": "trashcan"
+												},
+											],
 									}
 								],
 							"WobbleWhileWorking": true,
+							"ShowNextIndexWhileWorking": true,
 						}
 				}
 			

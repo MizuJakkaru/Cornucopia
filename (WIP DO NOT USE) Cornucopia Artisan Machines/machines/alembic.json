@@ -112,7 +112,7 @@
 													"RequiredTags":[ "raw_spice_item" ],
 												},
 												{
-													"RequiredTags":[ "category_forage" ],
+													"RequiredTags":[ "forage_item" ],
 												}
 											],
 										"OutputItem":
@@ -139,12 +139,13 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "bubbles",
-										"DelayedSounds": 
+										"Sounds": 
 											[
 												{
-													"Sound": "sipTea",
-													"Delay": 0
+													"Id": "bubbles"
+												},
+												{
+													"Id": "sipTea"
 												}
 											],
 										"TemporarySprites": 

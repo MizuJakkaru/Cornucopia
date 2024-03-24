@@ -87,12 +87,10 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "openBox",
-										"DelayedSounds":
+										"Sounds": 
 											[
 												{
-													"Sound": "furnace",
-													"Delay": 0
+													"Id": "furnace"
 												}
 											],
 									}
