@@ -15,6 +15,8 @@
   "CannedTuna_description": "A tin can of tuna.",
   "CannedVegetables_name": "Canned Vegetables",
   "CannedVegetables_description": "A can of preserved vegetables.",
+  "CenturyEgg_name": "Century Egg",
+  "CenturyEgg_description": "Some say it takes a century to produce this egg...",
   "ChiliOil_name": "Chili Oil",
   "ChiliOil_description": "A spicy oil used to give a kick to food or as a topping.",
   "ChiliPowder_name": "Chili Powder",
@@ -199,6 +201,8 @@
   "GroundNutmeg_description": "A jar of ground nutmeg, used in baked goods.",
   "GroundTurmeric_name": "Ground Turmeric",
   "GroundTurmeric_description": "A jar of ground turmeric, used in traditional dishes.",
+  "SeaSalt_name": "Sea Salt",
+  "SeaSalt_description": "A clumb of salt gathered together as the tide drifted in and out.",
   
   //Artisan machines
   "Alembic_name": "Alembic",

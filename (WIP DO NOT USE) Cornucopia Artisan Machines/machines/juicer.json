@@ -23,7 +23,7 @@
 											[
 												{
 													"ItemId": "Cornucopia_FruitJuice",
-													"Name": "{0} Juice",
+													"ObjectInternalName": "{0} {{i18n:FruitJuice_name}}",
 													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FruitJuice %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,

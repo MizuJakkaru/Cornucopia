@@ -7,10 +7,26 @@
 			"Target": "Data/Machines",
 			"Entries": 
 				{
-					"(BC)Cornucopia_Grinder": 
+					"(BC)Cornucopia_CompactMill": 
 						{
 							"OutputRules":
 								[
+									{
+										"Id": "Cornucopia_AloeGel",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)(O)Cornucopia_Aloe",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_AloeGel",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
 									{
 										"Id": "Cornucopia_Applesauce",
 										"Triggers": 
@@ -75,13 +91,13 @@
 												}
 											],
 										"MinutesUntilReady": 200,
-									},,
+									},
 									{
 										"Id": "Cornucopia_GroundCumin",
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)Cornucopia_Cumin",
+													"RequiredItemId": "(O)Cornucopia_CuminSeeds",
 												}
 											],
 										"OutputItem":

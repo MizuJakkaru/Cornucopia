@@ -12,22 +12,6 @@
 							"OutputRules":
 								[
 									{
-										"Id": "Cornucopia_Beeswax",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)340",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_Beeswax",
-												}
-											],
-										"MinutesUntilReady": 300,
-									},
-									{
 										"Id": "Cornucopia_BuckwheatPasta",
 										"Triggers": 
 											[
