@@ -322,8 +322,12 @@
 							"LoadEffects":
 								[
 									{
-									
-									"Sound": "Ship",
+										"Sounds": 
+											[
+												{
+													"Id": "Ship"
+												},
+											],
 									}
 								],
 							"WobbleWhileWorking": true,

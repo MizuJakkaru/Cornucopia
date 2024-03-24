@@ -744,6 +744,20 @@
             "color_green"
           ]
         },
+        "Cornucopia_CenturyEgg": {
+          "Name": "Cornucopia_CenturyEgg",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:CenturyEgg_name}}",
+          "Description": "{{i18n:CenturyEgg_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 400,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_blue",
+			"pickle_item"
+          ]
+        },
         "Cornucopia_ChiliOil": {
           "Name": "Cornucopia_ChiliOil",
           "Category": -26,
@@ -1169,8 +1183,8 @@
           "DisplayName": "{{i18n:Prunes_name}}",
           "Description": "{{i18n:Prunes_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 160,
-          "Edibility": 10,
+          "Price": 350,
+          "Edibility": 0,
           "ContextTags": [
             "color_dark_purple",
             "dye_medium"
@@ -1313,19 +1327,6 @@
             "color_dark_brown"
           ]
         },
-        "Cornucopia_SmokedSalmon": {
-          "Name": "Cornucopia_SmokedSalmon",
-          "Category": -26,
-          "SpriteIndex": 145,
-          "DisplayName": "{{i18n:SmokedSalmon_name}}",
-          "Description": "{{i18n:SmokedSalmon_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 250,
-          "Edibility": 30,
-          "ContextTags": [
-            "color_pink"
-          ]
-        },
         "Cornucopia_SpicyMayonnaise": {
           "Name": "Cornucopia_SpicyMayonnaise",
           "Category": -26,
@@ -1420,6 +1421,20 @@
           "Edibility": 15,
           "ContextTags": [
             "color_white",
+            "yogurt_item"
+          ]
+        },
+        "Cornucopia_SeaSalt": {
+          "Name": "Cornucopia_SeaSalt",
+          "Category": -12,
+          "SpriteIndex": 2,
+          "DisplayName": "{{i18n:SeaSalt_name}}",
+          "Description": "{{i18n:SeaSalt_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 60,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_pink",
             "yogurt_item"
           ]
         }

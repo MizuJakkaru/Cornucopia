@@ -7,7 +7,7 @@
 			"Target": "Data/Machines",
 			"Entries": 
 				{
-					"(BC)Cornucopia_Smoker":
+					"(BC)Cornucopia_DeliSmoker":
 						{
 							"OutputRules":
 								[
@@ -81,42 +81,16 @@
 									{
 										"ItemId": "(O)388",
 										"RequiredCount": 5,
-										"InvalidCountMessage": "Requires 5 Wood"
+										"InvalidCountMessage": "{{i18n:DeliSmokerFuelNeededMessage}}"
 									}
 								],
 							"LoadEffects":
 								[
 									{
-										"Sound": "openBox",
-										"DelayedSounds":
+										"Sounds": 
 											[
 												{
-													"Sound": "fireball",
-													"Delay": 50
-												}
-											],
-										"TemporarySprites": 
-											[
-												{
-													"Texture": "TileSheets\\animations",
-													"SourceRect":
-														{
-														  "X": 0,
-														  "Y": 1728,
-														  "Width": 64,
-														  "Height": 64
-														},
-													"Interval": 50.0,
-													"Frames": 4,
-													"Loops": 10,
-													"PositionOffset": "-4, -30",
-													"SortOffset": 0.0,
-													"AlphaFade": 0.005,
-													"Scale": 0.25,
-													"ScaleChange": 0.0,
-													"Rotation": 0.0,
-													"RotationChange": 0.0,
-													"Color": null
+													"Id": "furnace"
 												}
 											],
 									}

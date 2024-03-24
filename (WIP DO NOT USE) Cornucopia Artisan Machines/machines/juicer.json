@@ -23,7 +23,7 @@
 											[
 												{
 													"ItemId": "Cornucopia_FruitJuice",
-													"Name": "{0} Juice",
+													"ObjectInternalName": "{0} {{i18n:FruitJuice_name}}",
 													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FruitJuice %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
@@ -38,16 +38,51 @@
 												}
 											],
 										"MinutesUntilReady": 6000,
+									},
+									{
+										"Id": "Cornucopia_Juice",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_vegetable" ],
+												},
+												{
+													"RequiredTags":[ "category_greens", "!edible_mushroom"],
+												},
+												{
+													"RequiredTags":[ "herb_item"],
+												},
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "FLAVORED_ITEM Juice DROP_IN_ID",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "VegetableJuice",
+																"Modification": "Multiply",
+																"Amount": 2.25,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 6000,
 									}
 								],
 							"LoadEffects":
 								[
 									{
-										"Sound": "Ship",
-										"DelayedSounds": 
+										"Sounds": 
 											[
 												{
-													"Sound": "bubbles",
+													"Id": "Ship",
+													"Delay": 0
+												},
+												{
+													"Id": "bubbles",
 													"Delay": 0
 												}
 											],

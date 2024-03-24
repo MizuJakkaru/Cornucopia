@@ -93,81 +93,40 @@
 										"MinutesUntilReady": 360,
 									},
 									{
-										"Id": "Cornucopia_EssentialOilFlowers",
+										"Id": "Cornucopia_ProduceEssentialOil",
 										"Triggers": 
 											[
 												{
 													"RequiredTags":[ "category_flowers", "!id_o_cornucopia_vanilla" ],
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_EssentialOil",
-													"Name": "{0} Essential Oil",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_EssentialOil %PRESERVED_DISPLAY_NAME]",
-													"PreserveId": "DROP_IN",
-													"CopyPrice": true,
-													"PriceModifiers":
-														[
-															{
-																"Id": "EssentialOil",
-																"Modification": "Multiply",
-																"Amount": 1.5,
-															}
-														],
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_EssentialOilFruits",
-										"Triggers": 
-											[
+												},
 												{
 													"RequiredTags":[ "category_fruits", "!id_o_cornucopia_habanero", "!id_o_cornucopia_jalapeno" ],
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_EssentialOil",
-													"Name": "{0} Essential Oil",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_EssentialOil %PRESERVED_DISPLAY_NAME]",
-													"PreserveId": "DROP_IN",
-													"CopyPrice": true,
-													"PriceModifiers":
-														[
-															{
-																"Id": "EssentialOil",
-																"Modification": "Multiply",
-																"Amount": 1.5,
-															}
-														],
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_EssentialOilVegetables",
-										"Triggers": 
-											[
+												},
 												{
 													"RequiredTags":[ "category_vegetable" ],
+												},
+												{
+													"RequiredTags":[ "herb_item" ],
+												},
+												{
+													"RequiredTags":[ "raw_spice_item" ],
+												},
+												{
+													"RequiredTags":[ "forage_item" ],
 												}
 											],
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_EssentialOil",
-													"Name": "{0} Essential Oil",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_EssentialOil %PRESERVED_DISPLAY_NAME]",
+													"ItemId": "(O)Cornucopia_ProduceEssentialOil",
+													"ObjectInternalName": "{0} {{i18n:ProduceEssentialOil_name}}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_ProduceEssentialOil %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
 															{
-																"Id": "EssentialOil",
+																"Id": "ProduceEssentialOil",
 																"Modification": "Multiply",
 																"Amount": 1.5,
 															}
@@ -180,12 +139,13 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "bubbles",
-										"DelayedSounds": 
+										"Sounds": 
 											[
 												{
-													"Sound": "sipTea",
-													"Delay": 0
+													"Id": "bubbles"
+												},
+												{
+													"Id": "sipTea"
 												}
 											],
 										"TemporarySprites": 

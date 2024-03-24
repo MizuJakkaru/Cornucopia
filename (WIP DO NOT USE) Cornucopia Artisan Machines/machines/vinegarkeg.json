@@ -23,6 +23,9 @@
 												},
 												{
 													"RequiredItemId": "(O)271"
+												},
+												{
+													"RequiredItemId": "(O)Cornucopia_WhiteGrape"
 												}
 											],
 										"OutputItem":
@@ -37,12 +40,10 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "Ship",
-										"DelayedSounds": 
+										"Sounds": 
 											[
 												{
-													"Sound": "bubbles",
-													"Delay": 0
+													"Id": "bubbles"
 												}
 											],
 										"TemporarySprites": 

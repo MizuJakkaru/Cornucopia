@@ -24,6 +24,22 @@
 						],
 					"MinutesUntilReady": 4000,
 				},
+				"Cornucopia_CenturyEgg": {
+					"Id": "Cornucopia_CenturyEgg",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)305",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_CenturyEgg",
+							}
+						],
+					"MinutesUntilReady": 4000,
+				},
 				"Cornucopia_FishSauce": {
 					"Id": "Cornucopia_FishSauce",
 					"Triggers": 
@@ -63,10 +79,10 @@
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)Cornucopia_Daikon",
+								"RequiredItemId": "(O)Cornucopia_Lettuce",
 							},
 							{
-								"RequiredItemId": "(O)Cornucopia_Lettuce",
+								"RequiredItemId": "(O)Cornucopia_Daikon",
 							}
 						],
 					"OutputItem":
@@ -93,18 +109,63 @@
 						],
 					"MinutesUntilReady": 4000,
 				},
-				"Cornucopia_PickledEggs": {
+				"Cornucopia_PickledEggsSM": {
 					"Id": "Cornucopia_PickledEggs",
 					"Triggers": 
 						[
 							{
-								"RequiredTags":[ "category_egg", "!id_o_289", "!id_o_305", "!id_o_928", "!id_o_107" ],
+								"RequiredTags":[ "id_o_176" ],			// regular eggs
+							},
+							{
+								"RequiredTags":[ "id_o_180" ],
+							},
+							{
+								"RequiredTags":[ "id_o_442" ],			// duck egg
 							}
 						],
 					"OutputItem":
 						[
 							{
 								"ItemId": "(O)Cornucopia_PickledEggs",
+							}
+						],
+					"MinutesUntilReady": 4000,
+				},
+				"Cornucopia_PickledEggsLG": {
+					"Id": "Cornucopia_PickledEggs",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "id_o_174" ],			// large eggs
+							},
+							{
+								"RequiredTags":[ "id_o_182" ],
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_PickledEggs",
+								"Quality": 2,
+							}
+						],
+					"MinutesUntilReady": 4000,
+				},
+				"Cornucopia_PickledEggsGold": {
+					"Id": "Cornucopia_PickledEggs",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "id_o_928" ],			// gold egg
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_PickledEggs",
+								"Quality": 2,
+								"MinStack": 3,
+								"MaxStack": 3,
 							}
 						],
 					"MinutesUntilReady": 4000,
@@ -121,6 +182,18 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_PickledFish",
+								"ObjectInternalName": "{0} {{i18n:PickledFish_name}}",
+								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_PickledFish %PRESERVED_DISPLAY_NAME]",
+								"PreserveId": "DROP_IN",
+								"CopyPrice": true,
+								"PriceModifiers":
+									[
+										{
+											"Id": "PickledFish",
+											"Modification": "Multiply",
+											"Amount": 1.5,
+										}
+									],
 							}
 						],
 					"MinutesUntilReady": 4000,
@@ -173,8 +246,8 @@
 						],
 					"MinutesUntilReady": 4000,
 				},
-				"Cornucopia_Soysauce": {
-					"Id": "Cornucopia_Soysauce",
+				"Cornucopia_SoySauce": {
+					"Id": "Cornucopia_SoySauce",
 					"Triggers": 
 						[
 							{
@@ -185,12 +258,23 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_Soysauce",
+								"ItemId": "(O)Cornucopia_SoySauce",
 							}
 						],
 					"MinutesUntilReady": 4320,
 				}
-			}
+			},
+			"MoveEntries": 
+				[
+					{ "Id": "Cornucopia_BrinedOlives", "BeforeId": "Default_Pickled" },
+					{ "Id": "Cornucopia_Kimchi", "BeforeId": "Default_Pickled" },
+					{ "Id": "Cornucopia_PickledCucumber", "BeforeId": "Default_Pickled" },
+					{ "Id": "Cornucopia_PickledUme", "BeforeId": "Default_Jelly" },
+					{ "Id": "Cornucopia_RedSauerkraut", "BeforeId": "Default_Pickled" },
+					{ "Id": "Cornucopia_Sauerkraut", "BeforeId": "Default_Pickled" },
+					{ "Id": "Cornucopia_SoySauce", "BeforeId": "Default_Pickled" }
+				]
+				
 		}
     ]
 }

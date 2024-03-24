@@ -12,6 +12,23 @@
 							"OutputRules":
 								[
 									{
+										"Id": "Cornucopia_CannedAnchovies",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)129",
+													"RequiredCount": 2,
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_CannedAnchovies",
+												}
+											],
+										"MinutesUntilReady": 150,
+									},
+									{
 										"Id": "Cornucopia_CannedTuna",
 										"Triggers": 
 											[
@@ -32,14 +49,14 @@
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "category_fish", "!id_o_130" ],
+													"RequiredTags":[ "category_fish", "!id_o_129", "!id_o_130", "!fish_crab_pot" ],
 												}
 											],
 										"OutputItem":
 											[
 												{
 													"ItemId": "(O)Cornucopia_CannedFish",
-													"Name": "Canned {0}",
+													"ObjectInternalName": "{0} {{i18n:CannedFish_name}}",
 													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_CannedFish %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
@@ -67,7 +84,7 @@
 											[
 												{
 													"ItemId": "(O)Cornucopia_CannedFruit",
-													"Name": "Canned {0}",
+													"ObjectInternalName": "{0} {{i18n:CannedFruit_name}}",
 													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_CannedFruit %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
@@ -96,7 +113,7 @@
 											[
 												{
 													"ItemId": "(O)Cornucopia_CannedShellfish",
-													"Name": "Canned {0}",
+													"ObjectInternalName": "{0} {{i18n:CannedShellfish_name}}",
 													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_CannedShellfish %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
@@ -125,7 +142,7 @@
 											[
 												{
 													"ItemId": "(O)Cornucopia_CannedVegetables",
-													"Name": "Canned {0}",
+													"ObjectInternalName": "{0} {{i18n:CannedVegetables_name}}",
 													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_CannedVegetables %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
@@ -145,10 +162,16 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "trashcan",
+										"Sounds": 
+											[
+												{
+													"Id": "trashcan"
+												},
+											],
 									}
 								],
 							"WobbleWhileWorking": true,
+							"ShowNextIndexWhileWorking": true,
 						}
 				}
 			

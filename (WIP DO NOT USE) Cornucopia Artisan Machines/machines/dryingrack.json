@@ -31,22 +31,6 @@
 										"MinutesUntilReady": 60,
 									},
 									{
-										"Id": "Cornucopia_MatchaPowder",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)815",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_MatchaPowder",
-												}
-											],
-										"MinutesUntilReady": 4320,
-									},
-									{
 										"Id": "Cornucopia_DriedFlower",
 										"Triggers": 
 											[
@@ -58,7 +42,7 @@
 											[
 												{
 													"ItemId": "(O)Cornucopia_DriedFlower",
-													"Name": "Dried {0}",
+													"ObjectInternalName": "{0} {{i18n:DriedFlower_name}}",
 													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedFlower %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
@@ -86,7 +70,7 @@
 											[
 												{
 													"ItemId": "(O)Cornucopia_DriedHerb",
-													"Name": "Dried {0}",
+													"ObjectInternalName": "{0} {{i18n:DriedHerb_name}}",
 													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedHerb %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
@@ -106,7 +90,12 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "Ship",
+										"Sounds": 
+											[
+												{
+													"Id": "Ship"
+												},
+											],
 									}
 								],
 							"WobbleWhileWorking": true,

@@ -92,16 +92,32 @@
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)Cornucopia_Habanero",
+								"RequiredItemId": "(O)260",
 							},
 							{
-								"RequiredItemId": "(O)260",
+								"RequiredItemId": "(O)Cornucopia_Habanero",
 							}
 						],
 					"OutputItem":
 						[
 							{
 								"ItemId": "(O)Cornucopia_SpicyMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 180,
+				},
+				"Cornucopia_TruffleMayonnaise": {
+					"Id": "Cornucopia_TruffleMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)430",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_TruffleMayonnaise",
 							}
 						],
 					"MinutesUntilReady": 180,

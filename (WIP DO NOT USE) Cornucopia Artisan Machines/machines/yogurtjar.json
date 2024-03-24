@@ -105,7 +105,7 @@
 											[
 												{
 													"ItemId": "(O)Cornucopia_FruitYogurt",
-													"Name": "{0} Yogurt",
+													"ObjectInternalName": "{0} {{i18n:FruitYogurt_name}}",
 													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FruitYogurt %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
@@ -125,8 +125,13 @@
 							"LoadEffects":
 								[
 									{
-										"Sound": "Ship",
-										"TemporarySprites": 
+										"Sounds": 
+											[
+												{
+													"Id": "Ship"
+												}
+											],
+										"TemporarySprites":  
 											[
 												{
 													"Texture": "TileSheets\\animations",

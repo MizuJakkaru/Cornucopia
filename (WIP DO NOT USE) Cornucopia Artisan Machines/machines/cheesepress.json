@@ -22,7 +22,7 @@
 								"ItemId": "(O)Cornucopia_Tofu",
 							}
 						],
-					"MinutesUntilReady": 10,
+					"MinutesUntilReady": 200,
 				}
 			}
 		}

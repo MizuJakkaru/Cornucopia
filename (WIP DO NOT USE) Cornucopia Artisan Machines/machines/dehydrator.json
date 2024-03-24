@@ -13,6 +13,7 @@
 						[
 							{
 								"RequiredItemId": "(O)406",
+								"RequiredCount": 3,
 							}
 						],
 					"OutputItem":
@@ -21,21 +22,22 @@
 								"ItemId": "(O)Cornucopia_Prunes",
 							}
 						],
-					"MinutesUntilReady": 2250,
+					"MinutesUntilReady": 1750,
 				},
 				"Cornucopia_DriedVegetable": {
 					"Id": "Cornucopia_DriedVegetable",
 					"Triggers": 
 						[
 							{
-								"RequiredTags":[ "category_vegetable" ],
+								"RequiredTags":[ "category_vegetable", "!herb_item", "!raw_spice_item" ],
+								"RequiredCount": 5,
 							}
 						],
 					"OutputItem":
 						[
 							{
 								"ItemId": "(O)Cornucopia_DriedVegetable",
-								"Name": "Dried {0}",
+								"ObjectInternalName": "{0} {{i18n:DriedVegetable_name}}",,
 								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedVegetable %PRESERVED_DISPLAY_NAME]",
 								"PreserveId": "DROP_IN",
 								"CopyPrice": true,
@@ -44,12 +46,12 @@
 										{
 											"Id": "DriedVegetable",
 											"Modification": "Multiply",
-											"Amount": 2.0,
+											"Amount": 7.5,
 										}
 									],
 							}
 						],
-					"MinutesUntilReady": 1440,
+					"MinutesUntilReady": 1750,
 				}
 			}
 		}
