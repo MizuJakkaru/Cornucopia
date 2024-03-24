@@ -81,7 +81,7 @@
 									{
 										"ItemId": "(O)388",
 										"RequiredCount": 5,
-										"InvalidCountMessage": "Requires 5 Wood"
+										"InvalidCountMessage": "{{i18n:DeliSmokerFuelNeededMessage}}"
 									}
 								],
 							"LoadEffects":
