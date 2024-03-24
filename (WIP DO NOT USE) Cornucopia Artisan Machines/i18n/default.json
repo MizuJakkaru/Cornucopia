@@ -225,7 +225,7 @@
   "VinegarKeg_description": "A smaller keg used to make tart vinegars.",
   "YogurtJar_name": "Yogurt Jar",
   "YogurtJar_description": "A jar to allow milk to ferment into yogurt.",
-  "DeliSmokerFuelNeededMessage": "Requires 5 Wood"
+  "DeliSmokerFuelNeededMessage": "Requires 5 Wood",
 
   //For flavored goods, use {0} to indicate where the flavor text for the input item will appear in the phrase.
   "canned-fish": "Canned {0}",

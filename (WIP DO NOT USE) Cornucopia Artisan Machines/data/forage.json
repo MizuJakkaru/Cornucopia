@@ -3,8 +3,8 @@
 		// add forage (beach)
         {
             "Action": "EditData",
-            "Target": "Data/LocationsContexts",
-            "TargetField": [ "LocationsContexts", "Beach", "Forage" ],
+            "Target": "Data/Locations",
+            "TargetField": [ "Beach", "Forage" ],
             "Entries": {
                 "(O)Cornucopia_SeaSalt": {
                     "ItemId": "(O)Cornucopia_SeaSalt"
@@ -14,8 +14,19 @@
 		// add forage (island south/docks)
         {
             "Action": "EditData",
-            "Target": "Data/LocationsContexts",
-            "TargetField": [ "LocationsContexts", "IslandSouth", "Forage" ],
+            "Target": "Data/Locations",
+            "TargetField": [ "IslandSouth", "Forage" ],
+            "Entries": {
+                "(O)Cornucopia_SeaSalt": {
+                    "ItemId": "(O)Cornucopia_SeaSalt"
+                }
+            }
+        },
+		// add forage (island south east/cove)
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "IslandSouthEast", "Forage" ],
             "Entries": {
                 "(O)Cornucopia_SeaSalt": {
                     "ItemId": "(O)Cornucopia_SeaSalt"
