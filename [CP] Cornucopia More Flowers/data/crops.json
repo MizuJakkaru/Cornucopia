@@ -235,7 +235,8 @@
                     "DaysInPhase": [ 1, 2, 2, 2 ],
                     "HarvestItemId": "Cornucopia_Lupine",
                     "Texture": "Cornucopia.MoreFlowers/Crops",
-                    "SpriteIndex": 29
+                    "SpriteIndex": 29,
+					"TintColors": [ "#ff7ccc", "#ff5f3f", "#fee101", "#817aff" ]
                 },
                 "Cornucopia_PeonySeeds": {
                     "Seasons": [ "spring" ],
