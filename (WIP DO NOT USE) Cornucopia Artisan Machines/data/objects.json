@@ -285,7 +285,11 @@
             "noodle_item"
           ]
         }
-      }
+      },
+	  "When": 
+				{
+					"HasMod": "Cornucopia.MoreCrops"
+	  }
     },
 	
 	// Extended crops config
@@ -419,7 +423,10 @@
             "color_green"
           ]
         }
-      }
+      },
+	  "When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+	  }
     },
 	
 	//Extended trees config
@@ -552,7 +559,10 @@
             "nut_butter_item"
           ]
         }
-      }
+      },
+	  "When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+	  }
     },
 	
 	//Herbs config
@@ -630,7 +640,10 @@
             "spice_item"
           ]
         }
-      }
+      },
+	  "When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedHerbsPackEnabled": true,
+	  }
     },
 	
 	//Vanilla
