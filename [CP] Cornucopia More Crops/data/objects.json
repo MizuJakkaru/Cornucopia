@@ -246,7 +246,8 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 150,
           "ContextTags": [
-            "spice_item",
+			"raw_spice_item",
+			"spice_item",
 			"color_white"
           ]
         },
@@ -261,7 +262,7 @@
           "Price": 40,
           "Edibility": -300,
           "ContextTags": [
-            "spice_item",
+            "raw_spice_item",
 			"color_poppyseed"
           ]
         },
@@ -588,7 +589,7 @@
           "Price": 2600,
           "Edibility": 10,
           "ContextTags": [
-            "spice_item",
+            "raw_spice_item",
             "color_sand"
           ]
         },
@@ -896,7 +897,7 @@
           "Price": 165,
           "Edibility": 5,
           "ContextTags": [
-            "spice_item",
+            "raw_spice_item",
 			"color_green"
           ]
         },
@@ -1025,7 +1026,7 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 40,
           "ContextTags": [
-            "spice_item",
+            "raw_spice_item",
             "seedmaker_banned",
             "color_poppyseed"
           ]
@@ -1101,7 +1102,7 @@
           "Price": 135,
           "Edibility": 5,
           "ContextTags": [
-            "spice_item",
+            "raw_spice_item",
             "color_brown"
           ]
         },
@@ -1254,7 +1255,7 @@
           "Price": 100,
           "Edibility": 10,
           "ContextTags": [
-            "spice_item",
+            "raw_spice_item",
             "color_orange"
           ]
         },
@@ -2582,7 +2583,8 @@
           "Price": 140,
           "Edibility": -300,
           "ContextTags": [
-            "spice_item",
+            "raw_spice_item",
+			"spice_item",
 			"nut_soap_item",
             "color_yellow"
           ]
@@ -2630,7 +2632,7 @@
           "Price": 90,
           "Edibility": -300,
           "ContextTags": [
-            "spice_item",
+            "raw_spice_item",
             "nut_soap_item",
             "color_brown"
           ]
