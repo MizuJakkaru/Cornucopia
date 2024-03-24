@@ -211,5 +211,29 @@
 				}
 			]
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
+			"When": {
+				"HasMod": "furyx639.CustomBush",
+				"Grapes Bush": true
+			},
+			"Fields": {
+				"(O)301": {
+					"Condition": "SEASON spring summer fall winter",
+					"ApplyProfitMargins": false,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "(O)301",
+					"BeforeId": "(O)245"
+				}
+			]
+		},
 	]
 }
