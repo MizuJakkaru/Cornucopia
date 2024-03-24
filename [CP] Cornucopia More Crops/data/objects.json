@@ -2574,7 +2574,7 @@
         "Cornucopia_CinnamonSticks": {
           "Name": "Cornucopia_CinnamonSticks",
           "Type": "Forage",
-          "Category": -27,
+          "Category": -81,
           "SpriteIndex": 398,
           "DisplayName": "{{i18n:CinnamonSticks_name}}",
           "Description": "{{i18n:CinnamonSticks_description}}",
@@ -2987,7 +2987,7 @@
         "Cornucopia_BuckwheatFlour": {
           "Name": "Cornucopia_BuckwheatFlour",
           "Type": "Basic",
-          "Category": -26,
+          "Category": 0,
           "SpriteIndex": 2,
           "DisplayName": "{{i18n:BuckwheatFlour_name}}",
           "Description": "{{i18n:BuckwheatFlour_description}}",
@@ -3041,7 +3041,7 @@
 		"Cornucopia_SemolinaFlour": {
           "Name": "Cornucopia_SemolinaFlour",
           "Type": "Basic",
-          "Category": -26,
+          "Category": 0,
           "SpriteIndex": 3,
           "DisplayName": "{{i18n:SemolinaFlour_name}}",
           "Description": "{{i18n:SemolinaFlour_description}}",
@@ -3095,7 +3095,7 @@
 		"Cornucopia_TapiocaFlour": {
           "Name": "Cornucopia_TapiocaFlour",
           "Type": "Basic",
-          "Category": -26,
+          "Category": 0,
           "SpriteIndex": 4,
           "DisplayName": "{{i18n:TapiocaFlour_name}}",
           "Description": "{{i18n:TapiocaFlour_description}}",

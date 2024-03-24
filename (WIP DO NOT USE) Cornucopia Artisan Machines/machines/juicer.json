@@ -12,59 +12,11 @@
 							"OutputRules":				
 								[
 									{
-										"Id": "Cornucopia_Lemonade",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Lemon",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_Lemonade",
-												}
-											],
-										"MinutesUntilReady": 6000,
-									},
-									{
-										"Id": "Cornucopia_Limeade",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Lime",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_Limeade",
-												}
-											],
-										"MinutesUntilReady": 6000,
-									},
-									{
-										"Id": "Cornucopia_OrangeJuice",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)635",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_OrangeJuice",
-												}
-											],
-										"MinutesUntilReady": 6000,
-									},
-									{
 										"Id": "Cornucopia_Juice",
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "category_fruits", "!id_o_cornucopia_lime", "!id_o_cornucopia_lemon", "!id_o_635" ],
+													"RequiredTags":[ "category_fruits" ],
 												}
 											],
 										"OutputItem":

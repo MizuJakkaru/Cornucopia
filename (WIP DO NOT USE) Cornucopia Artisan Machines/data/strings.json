@@ -4,22 +4,22 @@
             "Action": "EditData",
             "Target": "Strings/Objects",
             "Entries": {
-                "Cornucopia_Bitter": "{{i18n: bitter}}",
 				"Cornucopia_CannedFish": "{{i18n: canned-fish}}",
 				"Cornucopia_CannedFruit": "{{i18n: canned-fruit}}",
 				"Cornucopia_CannedShellfish": "{{i18n: canned-shellfish}}",
 				"Cornucopia_CannedVegetables": "{{i18n: canned-vegetables}}",
 				"Cornucopia_DriedFlower": "{{i18n: dried-flower}}",
-				"Cornucopia_DriedFruit": "{{i18n: dried-fruit}}",
 				"Cornucopia_DriedHerb": "{{i18n: dried-herb}}",
-				"Cornucopia_DriedMushrooms": "{{i18n: dried-mushrooms}}",
 				"Cornucopia_DriedVegetable": "{{i18n: dried-vegetable}}",
-				"Cornucopia_EssentialOil": "{{i18n: essential-oil}}",
+				"Cornucopia_ProduceEssentialOil": "{{i18n: produce-essential-oil}}",
 				"Cornucopia_FruitJuice": "{{i18n: fruit-juice}}",
-				"Cornucopia_GroundHerb": "{{i18n: ground-herb}}",
-				"Cornucopia_GroundVegetable": "{{i18n: ground-vegetable}}",
+				"Cornucopia_FruitYogurt": "{{i18n: fruit-yogurt}}",
+				"Cornucopia_PickledEggs": "{{i18n: pickled-eggs}}",
+				"Cornucopia_PickledFish": "{{i18n: pickled-fish}}",
+				"Cornucopia_NutMilk": "{{i18n: nut-milk}}",
+				
+				"Cornucopia_Bitter": "{{i18n: bitter}}",
 				"Cornucopia_Schnapps": "{{i18n: schnapps}}",
-				"Cornucopia_SmokedFish": "{{i18n: smoked-fish}}",
 				"Cornucopia_FloralSoap": "{{i18n: floral-soap}}",
 				"Cornucopia_FruitSoap": "{{i18n: fruit-soap}}",
 				"Cornucopia_HerbalSoap": "{{i18n: herbal-soap}}",
@@ -30,7 +30,6 @@
 				"Cornucopia_NuttySoapCinnamon": "{{i18n: nutty-soap-cinnamon}}",
 				"Cornucopia_NuttySoapCocoa": "{{i18n: nutty-soap-cocoa}}",
 				"Cornucopia_NuttySoapOat": "{{i18n: nutty-soap-oat}}",
-				"Cornucopia_FruitYogurt": "{{i18n: fruit-yogurt}}"
             }
         }
 	]
