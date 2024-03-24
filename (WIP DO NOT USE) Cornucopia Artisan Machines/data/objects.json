@@ -642,7 +642,7 @@
         }
       },
 	  "When": {
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedHerbsPackEnabled": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 	  }
     },
 	
