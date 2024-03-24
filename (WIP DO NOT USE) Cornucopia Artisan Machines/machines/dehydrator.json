@@ -5,7 +5,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)##", "OutputRules" ], 			//add BC value
+			"TargetField": [ "(BC)Dehydrator", "OutputRules" ],
 			"Entries": { 
 				"Cornucopia_Prunes": {
 					"Id": "Cornucopia_Prunes",
@@ -20,6 +20,23 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_Prunes",
+							}
+						],
+					"MinutesUntilReady": 1750,
+				},
+				"Cornucopia_Raisins": {
+					"Id": "Cornucopia_Raisins",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_WhiteGrape",
+								"RequiredCount": 5,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Raisins",
 							}
 						],
 					"MinutesUntilReady": 1750,
