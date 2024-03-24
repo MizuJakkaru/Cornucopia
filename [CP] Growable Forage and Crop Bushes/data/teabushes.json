@@ -284,7 +284,7 @@
 				"(O)302": {
 					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
-					"Seasons": ["spring","summer","fall","winter"],
+					"Seasons": ["summer"],
 					"ItemsProduced": [
 						{
 							"ItemId": "(O)304",

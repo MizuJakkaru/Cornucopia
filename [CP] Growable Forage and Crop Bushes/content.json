@@ -44,7 +44,7 @@
 		"Blackberry Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Adds a bush crop for salmonberries (if you have Custom Bush installed)."
+			"Description": "Adds a bush crop for blackberries (if you have Custom Bush installed)."
 		},
 		"Holly Bush": {
 			"AllowValues": "true, false",
