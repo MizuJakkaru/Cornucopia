@@ -317,7 +317,7 @@
 					"ExtraHarvestChance": "{{50Percent}}",
 				},
 					"Cornucopia_GroundcherriesSeeds": {
-					"Seasons": [ "summer" ],
+					"Seasons": [ "summer", "fall" ],
 					"DaysInPhase": [ 1, 2, 2, 2, 2 ],
 					"HarvestItemId": "Cornucopia_Groundcherries",
 					"Texture": "Cornucopia.MoreCrops/Crops",
