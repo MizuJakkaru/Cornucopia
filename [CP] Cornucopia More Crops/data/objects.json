@@ -102,7 +102,7 @@
           "Price": 100,
           "Edibility": 20,
           "ContextTags": [
-            "color_green",
+            "color_yellow_green",
             "color_brown"
           ]
         },
@@ -160,7 +160,7 @@
           "Edibility": 18,
           "ContextTags": [
             "nut_item",
-            "color_sand"
+            "color_yellow"
           ]
         },
         "Cornucopia_Raspberry": {
@@ -331,7 +331,7 @@
           "Price": 65,
           "Edibility": -300,
           "ContextTags": [
-            "color_sand"
+            "color_yellow_green"
           ]
         },
         "Cornucopia_Barley": {
@@ -346,7 +346,7 @@
           "Edibility": -300,
           "ContextTags": [
             "grain_item",
-            "color_sand"
+            "color_yellow"
           ]
         },
         "Cornucopia_BlackBeans": {
@@ -404,7 +404,7 @@
           "Edibility": -300,
           "ContextTags": [
             "grain_item",
-            "color_sand"
+            "color_copper"
           ]
         },
         "Cornucopia_ButternutSquash": {
@@ -474,7 +474,7 @@
           "Price": 180,
           "Edibility": 35,
           "ContextTags": [
-            "color_sand"
+            "color_yellow_green"
           ]
         },
         "Cornucopia_Cassava": {
@@ -488,7 +488,7 @@
           "Price": 80,
           "Edibility": -20,
           "ContextTags": [
-            "color_brown"
+            "color_dark_brown"
           ]
         },
         "Cornucopia_Celery": {
@@ -502,7 +502,7 @@
           "Price": 45,
           "Edibility": 8,
           "ContextTags": [
-            "color_green"
+            "color_yellow_green"
           ]
         },
         "Cornucopia_ChickenoftheWoods": {
@@ -560,7 +560,7 @@
           "Edibility": -300,
           "ContextTags": [
             "grain_item",
-            "color_brown"
+            "color_copper"
           ]
         },
         "Cornucopia_Elderberries": {
@@ -663,7 +663,7 @@
           "Price": 180,
           "Edibility": 35,
           "ContextTags": [
-            "color_sand"
+            "color_yellow"
           ]
         },
         "Cornucopia_Jalapeno": {
@@ -2329,7 +2329,7 @@
           "Price": 125,
           "Edibility": 40,
           "ContextTags": [
-            "color_yellow_green"
+            "color_dark_pink"
           ]
         },
         "Cornucopia_Durian": {
@@ -2343,7 +2343,7 @@
           "Price": 200,
           "Edibility": 40,
           "ContextTags": [
-            "color_purple"
+            "color_yellow_green"
           ]
         },
         "Cornucopia_Fig": {
@@ -2357,7 +2357,7 @@
           "Price": 100,
           "Edibility": 15,
           "ContextTags": [
-            "color_orange"
+            "color_purple"
           ]
         },
         "Cornucopia_Grapefruit": {
@@ -2602,7 +2602,7 @@
           "ContextTags": [
             "herb_item",
             "herb_soap_item",
-            "color_brown"
+            "color_green"
           ]
         },
         "Cornucopia_MelaleucaLeaves": {
