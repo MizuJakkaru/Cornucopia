@@ -3,7 +3,7 @@
 This is the hub for the Cornucopia mod suite for Stardew Valley 1.6.
 
 ## Spreadsheet
-[Informational Spreadsheet](https://docs.google.com/spreadsheets/d/1uI14bL1yzDceOXVzhetJ5IeDYcrU0YgvzFUF-yKrxoM/edit?usp=sharing) - Detailed info on all crops, goods, and recipes.
+[Informational Spreadsheet](https://docs.google.com/spreadsheets/d/1dPEZ6ygmV9J66Z9Ry2wR4kq4m39aElR26XR_ElknawA/edit?usp=sharing) - Detailed info on all crops, goods, and recipes.
 
 ## About
 This mod is intended to fully function in SDV 1.6 using Content Patcher. Various components of this mod utilize certain frameworks, but the majority of this mod runs natively in Content Patcher 2.0+ for the smoothest and most natural user experience. We prioritize configurability, balance, vanilla aesthetic, and variety.
