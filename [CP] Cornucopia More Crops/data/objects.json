@@ -912,8 +912,7 @@
           "Price": 80,
           "Edibility": 15,
           "ContextTags": [
-            "color_yellow_green",
-			"grape_item"
+            "color_yellow_green"
           ]
         },
         /*"Cornucopia_YellowSquash": {
