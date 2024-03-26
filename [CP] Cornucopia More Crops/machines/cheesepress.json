@@ -1,0 +1,30 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)16", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_Tofu": {
+					"Id": "Cornucopia_Tofu",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Soybeans",
+								"RequiredCount": 2,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Tofu",
+							}
+						],
+					"MinutesUntilReady": 200,
+				}
+			}
+		}
+    ]
+}
