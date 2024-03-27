@@ -1,0 +1,34 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)15", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_Kimchi": {
+					"Id": "Cornucopia_Kimchi",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Lettuce",
+							},
+							{
+								"RequiredItemId": "(O)Cornucopia_Daikon",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Kimchi",
+							}
+						],
+					"MinutesUntilReady": 2160,
+				}
+			},
+			"MoveEntries": [
+				{ "Id": "Cornucopia_Kimchi", "BeforeId": "Default_Pickled" }
+			]
+		}
+    ]
+}

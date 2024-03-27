@@ -1,0 +1,44 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_LemonPeel": {
+					"Id": "Cornucopia_LemonPeel",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Lemon",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_LemonPeel",
+							}
+						],
+					"MinutesUntilReady": 60,
+				},
+				"Cornucopia_LimePeel": {
+					"Id": "Cornucopia_LimePeel",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Lime",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_LimePeel",
+							}
+						],
+					"MinutesUntilReady": 60,
+				}
+			}
+		}
+    ]
+}

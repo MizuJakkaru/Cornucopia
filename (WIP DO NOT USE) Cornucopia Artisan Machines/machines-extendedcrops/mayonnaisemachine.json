@@ -1,0 +1,28 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)24", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_WasabiMayonnaise": {
+					"Id": "Cornucopia_WasabiMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_WasabiRoot",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_WasabiMayonnaise",
+							}
+						],
+					"MinutesUntilReady": 180,
+				}
+			}
+		}
+    ]
+}

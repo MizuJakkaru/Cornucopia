@@ -1,0 +1,134 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Cornucopia_AlmondButter": {
+          "Name": "Cornucopia_AlmondButter",
+          "Category": -26,
+          "SpriteIndex": 14,
+          "DisplayName": "{{i18n:AlmondButter_name}}",
+          "Description": "{{i18n:AlmondButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 230,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_AlmondExtract": {
+          "Name": "Cornucopia_AlmondExtract",
+          "Category": -26,
+          "SpriteIndex": 10,
+          "DisplayName": "{{i18n:AlmondExtract_name}}",
+          "Description": "{{i18n:AlmondExtract_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand"
+          ]
+        },
+        "Cornucopia_CashewButter": {
+          "Name": "Cornucopia_CashewButter",
+          "Category": -26,
+          "SpriteIndex": 15,
+          "DisplayName": "{{i18n:CashewButter_name}}",
+          "Description": "{{i18n:CashewButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_ChewingGum": {
+          "Name": "Cornucopia_ChewingGum",
+          "Category": -26,
+          "SpriteIndex": 64,
+          "DisplayName": "{{i18n:ChewingGum_name}}",
+          "Description": "{{i18n:ChewingGum_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": 40,
+          "ContextTags": [
+            "color_pink"
+          ]
+        },
+        "Cornucopia_LemonPeel": {
+          "Name": "Cornucopia_LemonPeel",
+          "Category": 0,
+          "SpriteIndex": 72,
+          "DisplayName": "{{i18n:LemonPeel_name}}",
+          "Description": "{{i18n:LemonPeel_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_LimePeel": {
+          "Name": "Cornucopia_LimePeel",
+          "Category": 0,
+          "SpriteIndex": 71,
+          "DisplayName": "{{i18n:LimePeel_name}}",
+          "Description": "{{i18n:LimePeel_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_lime",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_PecanButter": {
+          "Name": "Cornucopia_PecanButter",
+          "Category": -26,
+          "SpriteIndex": 21,
+          "DisplayName": "{{i18n:PecanButter_name}}",
+          "Description": "{{i18n:PecanButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_PickledUme": {
+          "Name": "Cornucopia_PickledUme",
+          "Category": -26,
+          "SpriteIndex": 143,
+          "DisplayName": "{{i18n:PickledUme_name}}",
+          "Description": "{{i18n:PickledUme_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_pale_red_violet",
+            "pickle_item"
+          ]
+        },
+        "Cornucopia_WalnutButter": {
+          "Name": "Cornucopia_WalnutButter",
+          "Category": -26,
+          "SpriteIndex": 26,
+          "DisplayName": "{{i18n:WalnutButter_name}}",
+          "Description": "{{i18n:WalnutButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 230,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "nut_butter_item"
+          ]
+        }
+      }
+    }
+  ]
+}

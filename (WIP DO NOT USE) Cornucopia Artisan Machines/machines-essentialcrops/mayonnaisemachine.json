@@ -1,56 +1,55 @@
 {
 	"Changes":
 	[
-		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)24", "OutputRules" ],
 			"Entries": {
-				"Cornucopia_GarlicMayonnaise": {
-					"Id": "Cornucopia_GarlicMayonnaise",
+				"Cornucopia_AvocadoMayonnaise": {
+					"Id": "Cornucopia_AvocadoMayonnaise",
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)248",
+								"RequiredItemId": "(O)Cornucopia_Avocado",
 							}
 						],
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_GarlicMayonnaise",
+								"ItemId": "(O)Cornucopia_AvocadoMayonnaise",
 							}
 						],
 					"MinutesUntilReady": 180,
 				},
-				"Cornucopia_SpicyMayonnaise": {
-					"Id": "Cornucopia_SpicyMayonnaise",
+				"Cornucopia_BlackPepperMayonnaise": {
+					"Id": "Cornucopia_BlackPepperMayonnaise",
 					"Triggers": 
 						[
 							{
-								"RequiredTags":[ "chili_item" ],
+								"RequiredItemId": "(O)Cornucopia_Peppercorn",
 							}
 						],
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_SpicyMayonnaise",
+								"ItemId": "(O)Cornucopia_BlackPepperMayonnaise",
 							}
 						],
 					"MinutesUntilReady": 180,
 				},
-				"Cornucopia_TruffleMayonnaise": {
-					"Id": "Cornucopia_TruffleMayonnaise",
+				"Cornucopia_OliveOilMayonnaise": {
+					"Id": "Cornucopia_OliveOilMayonnaise",
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)430",
+								"RequiredItemId": "(O)Cornucopia_OliveOil",
 							}
 						],
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_TruffleMayonnaise",
+								"ItemId": "(O)Cornucopia_OliveOilMayonnaise",
 							}
 						],
 					"MinutesUntilReady": 180,

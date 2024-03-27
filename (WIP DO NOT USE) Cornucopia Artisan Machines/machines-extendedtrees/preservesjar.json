@@ -1,0 +1,33 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)15", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_PickledUme": {
+					"Id": "Cornucopia_PickledUme",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Ume",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_PickledUme",
+							}
+						],
+					"MinutesUntilReady": 4000,
+				}
+			},
+			"MoveEntries": 
+				[
+					{ "Id": "Cornucopia_PickledUme", "BeforeId": "Default_Jelly" }
+				]
+				
+		}
+    ]
+}

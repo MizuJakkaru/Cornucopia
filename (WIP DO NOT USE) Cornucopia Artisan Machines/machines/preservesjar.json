@@ -7,23 +7,6 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)15", "OutputRules" ],
 			"Entries": {
-				"Cornucopia_BrinedOlives": {
-					"Id": "Cornucopia_BrinedOlives",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Olive",
-								"RequiredCount": 3,
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_BrinedOlives",
-							}
-						],
-					"MinutesUntilReady": 4000,
-				},
 				"Cornucopia_CenturyEgg": {
 					"Id": "Cornucopia_CenturyEgg",
 					"Triggers": 
@@ -73,41 +56,6 @@
 							}
 						],
 					"MinutesUntilReady": 4320,
-				},
-				"Cornucopia_Kimchi": {
-					"Id": "Cornucopia_Kimchi",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Lettuce",
-							},
-							{
-								"RequiredItemId": "(O)Cornucopia_Daikon",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_Kimchi",
-							}
-						],
-					"MinutesUntilReady": 2160,
-				},
-				"Cornucopia_PickledCucumber": {
-					"Id": "Cornucopia_PickledCucumber",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Cucumber",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_PickledCucumber",
-							}
-						],
-					"MinutesUntilReady": 4000,
 				},
 				"Cornucopia_PickledEggsSM": {
 					"Id": "Cornucopia_PickledEggs",
@@ -198,22 +146,6 @@
 						],
 					"MinutesUntilReady": 4000,
 				},
-				"Cornucopia_PickledUme": {
-					"Id": "Cornucopia_PickledUme",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Ume",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_PickledUme",
-							}
-						],
-					"MinutesUntilReady": 4000,
-				},
 				"Cornucopia_RedSauerkraut": {
 					"Id": "Cornucopia_RedSauerkraut",
 					"Triggers": 
@@ -229,50 +161,11 @@
 							}
 						],
 					"MinutesUntilReady": 4000,
-				},
-				"Cornucopia_Sauerkraut": {
-					"Id": "Cornucopia_Sauerkraut",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Cabbage",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_Sauerkraut",
-							}
-						],
-					"MinutesUntilReady": 4000,
-				},
-				"Cornucopia_SoySauce": {
-					"Id": "Cornucopia_SoySauce",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Soybeans",
-								"RequiredCount": 2,
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_SoySauce",
-							}
-						],
-					"MinutesUntilReady": 4320,
 				}
 			},
 			"MoveEntries": 
 				[
-					{ "Id": "Cornucopia_BrinedOlives", "BeforeId": "Default_Pickled" },
-					{ "Id": "Cornucopia_Kimchi", "BeforeId": "Default_Pickled" },
-					{ "Id": "Cornucopia_PickledCucumber", "BeforeId": "Default_Pickled" },
-					{ "Id": "Cornucopia_PickledUme", "BeforeId": "Default_Jelly" },
-					{ "Id": "Cornucopia_RedSauerkraut", "BeforeId": "Default_Pickled" },
-					{ "Id": "Cornucopia_Sauerkraut", "BeforeId": "Default_Pickled" },
-					{ "Id": "Cornucopia_SoySauce", "BeforeId": "Default_Pickled" }
+					{ "Id": "Cornucopia_RedSauerkraut", "BeforeId": "Default_Pickled" }
 				]
 				
 		}

@@ -7,22 +7,6 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)19", "OutputRules" ],
 			"Entries": {
-				"Cornucopia_AvocadoOil": {
-					"Id": "Cornucopia_AvocadoOil",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Avocado",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_AvocadoOil",
-							}
-						],
-					"MinutesUntilReady": 960,
-				},
 				"Cornucopia_ChiliOil": {
 					"Id": "Cornucopia_ChiliOil",
 					"Triggers": 
@@ -71,54 +55,6 @@
 							}
 						],
 					"MinutesUntilReady": 960,
-				},
-				"Cornucopia_OliveOil": {
-					"Id": "Cornucopia_OliveOil",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Olive",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_OliveOil",
-							}
-						],
-					"MinutesUntilReady": 960,
-				},
-				"Cornucopia_PeanutOil": {
-					"Id": "Cornucopia_PeanutOil",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Peanut",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_PeanutOil",
-							}
-						],
-					"MinutesUntilReady": 960,
-				},
-				"Cornucopia_SesameOil": {
-					"Id": "Cornucopia_SesameOil",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_SesameSeeds",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_SesameOil",
-							}
-						],
-					"MinutesUntilReady": 2880,
 				}
 			}
 		}

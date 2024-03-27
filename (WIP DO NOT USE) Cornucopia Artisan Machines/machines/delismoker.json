@@ -12,6 +12,22 @@
 							"OutputRules":
 								[
 									{
+										"Id": "Cornucopia_DriedSquid",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "squid_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_DriedSquid",
+												}
+											],
+										"MinutesUntilReady": 50,
+									},
+									{
 										"Id": "Cornucopia_RoastedGarlic",
 										"Triggers": 
 											[
@@ -74,6 +90,22 @@
 												}
 											],
 										"MinutesUntilReady": 720,
+									},
+									{
+										"Id": "Cornucopia_SmokedSalmon",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)139",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_SmokedSalmon",
+												}
+											],
+										"MinutesUntilReady": 50,
 									}
 								],
 							"AdditionalConsumedItems":

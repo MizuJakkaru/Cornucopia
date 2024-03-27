@@ -1,14 +1,13 @@
 {
 	"Changes":
 	[
-		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)16", "OutputRules" ],
+			"TargetField": [ "(BC)12", "OutputRules" ],
 			"Entries": {
-				"Cornucopia_Tofu": {
-					"Id": "Cornucopia_Tofu",
+				"Cornucopia_SoyMilk": {
+					"Id": "Cornucopia_SoyMilk",
 					"Triggers": 
 						[
 							{
@@ -19,12 +18,15 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_Tofu",
+								"ItemId": "(O)Cornucopia_SoyMilk",
 							}
 						],
-					"MinutesUntilReady": 200,
+					"MinutesUntilReady": 2250,
 				}
-			}
+			},
+			"MoveEntries": [
+					{ "Id": "Cornucopia_SoyMilk", "BeforeId": "Default_Juice" }
+			]
 		}
     ]
 }
