@@ -58,20 +58,6 @@
             "dye_medium"
           ]
         },
-        "Cornucopia_PecanButter": {
-          "Name": "Cornucopia_PecanButter",
-          "Category": -26,
-          "SpriteIndex": 21,
-          "DisplayName": "{{i18n:PecanButter_name}}",
-          "Description": "{{i18n:PecanButter_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 250,
-          "Edibility": -300,
-          "ContextTags": [
-            "color_brown",
-            "nut_butter_item"
-          ]
-        },
         "Cornucopia_Umeboshi": {
           "Name": "Cornucopia_Umeboshi",
           "Category": -26,

@@ -4,12 +4,12 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
-        "Cornucopia_BuckwheatPasta": {
-          "Name": "Cornucopia_BuckwheatPasta",
+        "Cornucopia_BuckwheatNoodles": {
+          "Name": "Cornucopia_BuckwheatNoodles",
           "Category": -26,
           "SpriteIndex": 66,
-          "DisplayName": "{{i18n:BuckwheatPasta_name}}",
-          "Description": "{{i18n:BuckwheatPasta_description}}",
+          "DisplayName": "{{i18n:BuckwheatNoodles_name}}",
+          "Description": "{{i18n:BuckwheatNoodles_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 200,
           "Edibility": -300,
@@ -60,26 +60,12 @@
             "pickle_item"
           ]
         },
-        "Cornucopia_Sauerkraut": {
-          "Name": "Cornucopia_Sauerkraut",
-          "Category": -26,
-          "SpriteIndex": 141,
-          "DisplayName": "{{i18n:Sauerkraut_name}}",
-          "Description": "{{i18n:Sauerkraut_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 450,
-          "Edibility": -300,
-          "ContextTags": [
-            "color_dark_yellow",
-            "pickle_item"
-          ]
-        },
-        "Cornucopia_SemolinaPasta": {
-          "Name": "Cornucopia_SemolinaPasta",
+        "Cornucopia_SemolinaNoodles": {
+          "Name": "Cornucopia_SemolinaNoodles",
           "Category": -26,
           "SpriteIndex": 68,
-          "DisplayName": "{{i18n:SemolinaPasta_name}}",
-          "Description": "{{i18n:SemolinaPasta_description}}",
+          "DisplayName": "{{i18n:SemolinaNoodles_name}}",
+          "Description": "{{i18n:SemolinaNoodles_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 250,
           "Edibility": -300,

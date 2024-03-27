@@ -567,17 +567,17 @@
             "dye_medium"
           ]
         },
-        "Cornucopia_RedSauerkraut": {
-          "Name": "Cornucopia_RedSauerkraut",
+        "Cornucopia_Sauerkraut": {
+          "Name": "Cornucopia_Sauerkraut",
           "Category": -26,
-          "SpriteIndex": 142,
-          "DisplayName": "{{i18n:RedSauerkraut_name}}",
-          "Description": "{{i18n:RedSauerkraut_description}}",
+          "SpriteIndex": 141,
+          "DisplayName": "{{i18n:Sauerkraut_name}}",
+          "Description": "{{i18n:Sauerkraut_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 570,
           "Edibility": -300,
           "ContextTags": [
-            "color_pale_red_violet",
+            "color_sand_violet",
             "pickle_item"
           ]
         },

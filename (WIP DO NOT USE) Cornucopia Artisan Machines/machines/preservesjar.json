@@ -146,8 +146,8 @@
 						],
 					"MinutesUntilReady": 4000,
 				},
-				"Cornucopia_RedSauerkraut": {
-					"Id": "Cornucopia_RedSauerkraut",
+				"Cornucopia_SauerkrautRedCabbage": {
+					"Id": "Cornucopia_Sauerkraut",
 					"Triggers": 
 						[
 							{
@@ -157,7 +157,7 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_RedSauerkraut",
+								"ItemId": "(O)Cornucopia_Sauerkraut",
 							}
 						],
 					"MinutesUntilReady": 4000,
@@ -165,7 +165,7 @@
 			},
 			"MoveEntries": 
 				[
-					{ "Id": "Cornucopia_RedSauerkraut", "BeforeId": "Default_Pickled" }
+					{ "Id": "Cornucopia_Sauerkraut", "BeforeId": "Default_Pickled" }
 				]
 				
 		}

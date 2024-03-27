@@ -175,20 +175,6 @@
             "pickle_item"
           ]
         },
-        "Cornucopia_PistachioButter": {
-          "Name": "Cornucopia_PistachioButter",
-          "Category": -26,
-          "SpriteIndex": 22,
-          "DisplayName": "{{i18n:PistachioButter_name}}",
-          "Description": "{{i18n:PistachioButter_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 230,
-          "Edibility": -300,
-          "ContextTags": [
-            "color_green",
-            "nut_butter_item"
-          ]
-        },
         "Cornucopia_SoyMilk": {
           "Name": "Cornucopia_SoyMilk",
           "Category": -26,
