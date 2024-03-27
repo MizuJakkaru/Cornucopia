@@ -6,8 +6,8 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
 			"Entries": {
-				"Cornucopia_LemonPeel": {
-					"Id": "Cornucopia_LemonPeel",
+				"Cornucopia_LemonZest": {
+					"Id": "Cornucopia_LemonZest",
 					"Triggers": 
 						[
 							{
@@ -17,13 +17,13 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_LemonPeel",
+								"ItemId": "(O)Cornucopia_LemonZest",
 							}
 						],
 					"MinutesUntilReady": 60,
 				},
-				"Cornucopia_LimePeel": {
-					"Id": "Cornucopia_LimePeel",
+				"Cornucopia_LimeZest": {
+					"Id": "Cornucopia_LimeZest",
 					"Triggers": 
 						[
 							{
@@ -33,7 +33,7 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_LimePeel",
+								"ItemId": "(O)Cornucopia_LimeZest",
 							}
 						],
 					"MinutesUntilReady": 60,

@@ -161,12 +161,12 @@
             "spice_item"
           ]
         },
-        "Cornucopia_PickledCucumber": {
-          "Name": "Cornucopia_PickledCucumber",
+        "Cornucopia_PickleSpears": {
+          "Name": "Cornucopia_PickleSpears",
           "Category": -26,
           "SpriteIndex": 0,
-          "DisplayName": "{{i18n:PickledCucumber_name}}",
-          "Description": "{{i18n:PickledCucumber_description}}",
+          "DisplayName": "{{i18n:PickleSpears_name}}",
+          "Description": "{{i18n:PickleSpears_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 100,
           "Edibility": -300,
@@ -219,12 +219,12 @@
             "dye_strong"
           ]
         },
-        "Cornucopia_SoynutButter": {
-          "Name": "Cornucopia_SoynutButter",
+        "Cornucopia_SoyButter": {
+          "Name": "Cornucopia_SoyButter",
           "Category": -26,
           "SpriteIndex": 24,
-          "DisplayName": "{{i18n:SoynutButter_name}}",
-          "Description": "{{i18n:SoynutButter_description}}",
+          "DisplayName": "{{i18n:SoyButter_name}}",
+          "Description": "{{i18n:SoyButter_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 230,
           "Edibility": -300,

@@ -6,8 +6,8 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)15", "OutputRules" ],
 			"Entries": {
-				"Cornucopia_PickledUme": {
-					"Id": "Cornucopia_PickledUme",
+				"Cornucopia_Umeboshi": {
+					"Id": "Cornucopia_Umeboshi",
 					"Triggers": 
 						[
 							{
@@ -17,7 +17,7 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_PickledUme",
+								"ItemId": "(O)Cornucopia_Umeboshi",
 							}
 						],
 					"MinutesUntilReady": 4000,
@@ -25,7 +25,7 @@
 			},
 			"MoveEntries": 
 				[
-					{ "Id": "Cornucopia_PickledUme", "BeforeId": "Default_Jelly" }
+					{ "Id": "Cornucopia_Umeboshi", "BeforeId": "Default_Jelly" }
 				]
 				
 		}

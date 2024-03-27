@@ -6,8 +6,8 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)Cornucopia_Extruder", "OutputRules" ],
 			"Entries": {
-				"Cornucopia_BuckwheatPasta": {
-					"Id": "Cornucopia_BuckwheatPasta",
+				"Cornucopia_BuckwheatNoodles": {
+					"Id": "Cornucopia_BuckwheatNoodles",
 					"Triggers": 
 						[
 							{
@@ -17,13 +17,13 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_BuckwheatPasta",
+								"ItemId": "(O)Cornucopia_BuckwheatNoodles",
 							}
 						],
 					"MinutesUntilReady": 360,
 				},
-				"Cornucopia_SemolinaPasta": {
-					"Id": "Cornucopia_SemolinaPasta",
+				"Cornucopia_SemolinaNoodles": {
+					"Id": "Cornucopia_SemolinaNoodles",
 					"Triggers": 
 						[
 							{
@@ -33,7 +33,7 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_SemolinaPasta",
+								"ItemId": "(O)Cornucopia_SemolinaNoodles",
 							}
 						],
 					"MinutesUntilReady": 360,

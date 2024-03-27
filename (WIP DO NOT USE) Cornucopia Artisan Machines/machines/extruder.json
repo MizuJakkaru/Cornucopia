@@ -12,7 +12,7 @@
 							"OutputRules":
 								[
 									{
-										"Id": "Cornucopia_RicePasta",
+										"Id": "Cornucopia_RiceNoodles",
 										"Triggers": 
 											[
 												{
@@ -22,7 +22,7 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_RicePasta",
+													"ItemId": "(O)Cornucopia_RiceNoodles",
 												}
 											],
 										"MinutesUntilReady": 360,
@@ -44,7 +44,7 @@
 										"MinutesUntilReady": 1750,
 									},
 									{
-										"Id": "Cornucopia_WheatPasta",
+										"Id": "Cornucopia_WheatNoodles",
 										"Triggers": 
 											[
 												{
@@ -54,7 +54,7 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_WheatPasta",
+													"ItemId": "(O)Cornucopia_WheatNoodles",
 												}
 											],
 										"MinutesUntilReady": 360,

@@ -23,8 +23,8 @@
 						],
 					"MinutesUntilReady": 4000,
 				},
-				"Cornucopia_PickledCucumber": {
-					"Id": "Cornucopia_PickledCucumber",
+				"Cornucopia_PickleSpears": {
+					"Id": "Cornucopia_PickleSpears",
 					"Triggers": 
 						[
 							{
@@ -34,7 +34,7 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_PickledCucumber",
+								"ItemId": "(O)Cornucopia_PickleSpears",
 							}
 						],
 					"MinutesUntilReady": 4000,
@@ -59,7 +59,7 @@
 			},
 			"MoveEntries": [
 				{ "Id": "Cornucopia_BrinedOlives", "BeforeId": "Default_Pickled" },
-				{ "Id": "Cornucopia_PickledCucumber", "BeforeId": "Default_Pickled" },
+				{ "Id": "Cornucopia_PickleSpears", "BeforeId": "Default_Pickled" },
 				{ "Id": "Cornucopia_SoySauce", "BeforeId": "Default_Pickled" }
 			]
 		}

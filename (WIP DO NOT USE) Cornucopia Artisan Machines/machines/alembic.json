@@ -28,7 +28,7 @@
 										"MinutesUntilReady": 1750,
 									},
 									{
-										"Id": "Cornucopia_ProduceEssentialOil",
+										"Id": "Cornucopia_EssentialOil",
 										"Triggers": 
 											[
 												{
@@ -53,15 +53,15 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_ProduceEssentialOil",
-													"ObjectInternalName": "{0} {{i18n:ProduceEssentialOil_name}}",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_ProduceEssentialOil %PRESERVED_DISPLAY_NAME]",
+													"ItemId": "(O)Cornucopia_EssentialOil",
+													"ObjectInternalName": "{0} {{i18n:EssentialOil_name}}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_EssentialOil %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
 															{
-																"Id": "ProduceEssentialOil",
+																"Id": "EssentialOil",
 																"Modification": "Multiply",
 																"Amount": 1.5,
 															}

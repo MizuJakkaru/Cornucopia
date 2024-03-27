@@ -64,7 +64,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)424",
+													"RequiredTags":[ "cheese_item" ],
 												}
 											],
 										"OutputItem":
@@ -80,7 +80,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "category_egg", "!id_o_289", "!id_o_305", "!id_o_928", "!id_o_107" ],
+													"RequiredTags":[ "category_egg" ],
 												}
 											],
 										"OutputItem":

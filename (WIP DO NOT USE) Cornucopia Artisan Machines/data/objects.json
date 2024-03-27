@@ -478,12 +478,12 @@
             "plant_milk_item"
           ]
         },
-        "Cornucopia_OrangePeel": {
-          "Name": "Cornucopia_OrangePeel",
+        "Cornucopia_OrangeZest": {
+          "Name": "Cornucopia_OrangeZest",
           "Category": 0,
           "SpriteIndex": 73,
-          "DisplayName": "{{i18n:OrangePeel_name}}",
-          "Description": "{{i18n:OrangePeel_description}}",
+          "DisplayName": "{{i18n:OrangeZest_name}}",
+          "Description": "{{i18n:OrangeZest_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 150,
           "Edibility": -300,
@@ -547,12 +547,12 @@
             "color_prismatic"
           ]
         },
-        "Cornucopia_ProduceEssentialOil": {
-          "Name": "Cornucopia_ProduceEssentialOil",
+        "Cornucopia_EssentialOil": {
+          "Name": "Cornucopia_EssentialOil",
           "Category": -26,
           "SpriteIndex": 3,
-          "DisplayName": "{{i18n:ProduceEssentialOil_name}}",
-          "Description": "{{i18n:ProduceEssentialOil_description}}",
+          "DisplayName": "{{i18n:EssentialOil_name}}",
+          "Description": "{{i18n:EssentialOil_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 100,
           "Edibility": -300,
@@ -602,12 +602,12 @@
             "flour_item"
           ]
         },
-        "Cornucopia_RicePasta": {
-          "Name": "Cornucopia_RicePasta",
+        "Cornucopia_RiceNoodles": {
+          "Name": "Cornucopia_RiceNoodles",
           "Category": -26,
           "SpriteIndex": 67,
-          "DisplayName": "{{i18n:RicePasta_name}}",
-          "Description": "{{i18n:RicePasta_description}}",
+          "DisplayName": "{{i18n:RiceNoodles_name}}",
+          "Description": "{{i18n:RiceNoodles_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 300,
           "Edibility": -300,
@@ -795,12 +795,12 @@
             "mayo_item"
           ]
         },
-        "Cornucopia_WheatPasta": {
-          "Name": "Cornucopia_WheatPasta",
+        "Cornucopia_WheatNoodles": {
+          "Name": "Cornucopia_WheatNoodles",
           "Category": -26,
           "SpriteIndex": 65,
-          "DisplayName": "{{i18n:WheatPasta_name}}",
-          "Description": "{{i18n:WheatPasta_description}}",
+          "DisplayName": "{{i18n:WheatNoodles_name}}",
+          "Description": "{{i18n:WheatNoodles_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 150,
           "Edibility": -300,

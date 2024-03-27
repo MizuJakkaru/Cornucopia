@@ -61,7 +61,7 @@
 										"MinutesUntilReady": 200,
 									},
 									{
-										"Id": "Cornucopia_OrangePeel",
+										"Id": "Cornucopia_OrangeZest",
 										"Triggers": 
 											[
 												{
@@ -71,7 +71,7 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_OrangePeel",
+													"ItemId": "(O)Cornucopia_OrangeZest",
 												}
 											],
 										"MinutesUntilReady": 60,

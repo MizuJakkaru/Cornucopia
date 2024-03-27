@@ -58,12 +58,12 @@
             "color_pink"
           ]
         },
-        "Cornucopia_LemonPeel": {
-          "Name": "Cornucopia_LemonPeel",
+        "Cornucopia_LemonZest": {
+          "Name": "Cornucopia_LemonZest",
           "Category": 0,
           "SpriteIndex": 72,
-          "DisplayName": "{{i18n:LemonPeel_name}}",
-          "Description": "{{i18n:LemonPeel_description}}",
+          "DisplayName": "{{i18n:LemonZest_name}}",
+          "Description": "{{i18n:LemonZest_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 100,
           "Edibility": -300,
@@ -72,12 +72,12 @@
             "dye_medium"
           ]
         },
-        "Cornucopia_LimePeel": {
-          "Name": "Cornucopia_LimePeel",
+        "Cornucopia_LimeZest": {
+          "Name": "Cornucopia_LimeZest",
           "Category": 0,
           "SpriteIndex": 71,
-          "DisplayName": "{{i18n:LimePeel_name}}",
-          "Description": "{{i18n:LimePeel_description}}",
+          "DisplayName": "{{i18n:LimeZest_name}}",
+          "Description": "{{i18n:LimeZest_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 100,
           "Edibility": -300,
@@ -100,12 +100,12 @@
             "nut_butter_item"
           ]
         },
-        "Cornucopia_PickledUme": {
-          "Name": "Cornucopia_PickledUme",
+        "Cornucopia_Umeboshi": {
+          "Name": "Cornucopia_Umeboshi",
           "Category": -26,
           "SpriteIndex": 143,
-          "DisplayName": "{{i18n:PickledUme_name}}",
-          "Description": "{{i18n:PickledUme_description}}",
+          "DisplayName": "{{i18n:Umeboshi_name}}",
+          "Description": "{{i18n:Umeboshi_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 250,
           "Edibility": -300,
