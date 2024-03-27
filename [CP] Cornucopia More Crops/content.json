@@ -142,7 +142,7 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "machines/keg.json, machines/loom.json, machines/mill.json, machines/oilmaker.json"
+			"FromFile": "machines/cheesepress.json, machines/keg.json, machines/loom.json, machines/mill.json, machines/oilmaker.json"
 		},
 		{
 			"Action": "Include",

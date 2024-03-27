@@ -1,0 +1,32 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)12", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_SoyMilk": {
+					"Id": "Cornucopia_SoyMilk",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Soybeans",
+								"RequiredCount": 2,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SoyMilk",
+							}
+						],
+					"MinutesUntilReady": 2250,
+				}
+			},
+			"MoveEntries": [
+					{ "Id": "Cornucopia_SoyMilk", "BeforeId": "Default_Juice" }
+			]
+		}
+    ]
+}

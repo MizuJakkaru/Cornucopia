@@ -12,55 +12,6 @@
 							"OutputRules":				
 								[
 									{
-										"Id": "Cornucopia_AlmondExtract",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Almond",
-													"RequiredCount": 2,
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_AlmondExtract",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_HabaneroExtract",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Habanero",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_HabaneroExtract",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_JalapenoExtract",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Jalapeno",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_JalapenoExtract",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
 										"Id": "Cornucopia_PrismaticExtract",
 										"Triggers": 
 											[
@@ -77,30 +28,14 @@
 										"MinutesUntilReady": 1750,
 									},
 									{
-										"Id": "Cornucopia_VanillaExtract",
+										"Id": "Cornucopia_EssentialOil",
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)Cornucopia_Vanilla",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_VanillaExtract",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_ProduceEssentialOil",
-										"Triggers": 
-											[
-												{
-													"RequiredTags":[ "category_flowers", "!id_o_cornucopia_vanilla" ],
+													"RequiredTags":[ "category_flowers" ],
 												},
 												{
-													"RequiredTags":[ "category_fruits", "!id_o_cornucopia_habanero", "!id_o_cornucopia_jalapeno" ],
+													"RequiredTags":[ "category_fruits" ],
 												},
 												{
 													"RequiredTags":[ "category_vegetable" ],
@@ -118,15 +53,15 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_ProduceEssentialOil",
-													"ObjectInternalName": "{0} {{i18n:ProduceEssentialOil_name}}",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_ProduceEssentialOil %PRESERVED_DISPLAY_NAME]",
+													"ItemId": "(O)Cornucopia_EssentialOil",
+													"ObjectInternalName": "{0} {{i18n:EssentialOil_name}}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_EssentialOil %PRESERVED_DISPLAY_NAME]",
 													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
 															{
-																"Id": "ProduceEssentialOil",
+																"Id": "EssentialOil",
 																"Modification": "Multiply",
 																"Amount": 1.5,
 															}

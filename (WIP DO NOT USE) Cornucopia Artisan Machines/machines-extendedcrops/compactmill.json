@@ -1,0 +1,28 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_WasabiPaste": {
+					"Id": "Cornucopia_WasabiPaste",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_WasabiRoot",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_WasabiPaste",
+							}
+						],
+					"MinutesUntilReady": 360,
+				}
+			}
+		}
+    ]
+}

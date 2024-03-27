@@ -113,7 +113,7 @@
 			
 		},
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_BasilSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_BellPepperSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_TurnipSeeds", "BeforeId": "(O)297" },
@@ -128,7 +128,7 @@
 			{ "Id": "Cornucopia_VanillaSeeds", "BeforeId": "(O)245" },
 			{ "Id": "Cornucopia_WatermelonSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_ZucchiniSeeds", "BeforeId": "(O)297" }
-		]
+		]*/
     },
    //Extended crops seeds
 	{
@@ -412,7 +412,7 @@
 			
 		}*/
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_AdzukiBeanSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_AsparagusSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_BambooSeeds", "BeforeId": "(O)297" },
@@ -451,7 +451,7 @@
 			{ "Id": "Cornucopia_SugarBeetSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_SweetPotatoSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_WasabiRootSeeds", "BeforeId": "(O)297" },
-		]
+		]*/
     },
 	//Extended crops seeds - white grapes (unique)
 	{
@@ -471,9 +471,9 @@
 			"ApplyProfitMargins": false,
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "(O)245" }
-		]
+		]*/
     },
 	{
       "Action": "EditData",
@@ -492,9 +492,9 @@
 			"ApplyProfitMargins": false,
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "(O)297" }
-		]
+		]*/
     },
    //Herb crop seeds
 	{
@@ -653,7 +653,7 @@
 			
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_AloeSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_BayLeavesSeeds", "BeforeId": "(O)245" },
 			{ "Id": "Cornucopia_ChivesSeeds", "BeforeId": "(O)297" },
@@ -675,7 +675,7 @@
 			{ "Id": "Cornucopia_ThymeSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_TurmericSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_WormwoodSeeds", "BeforeId": "(O)297" }
-		]
+		]*/
     }
   ]
 }
