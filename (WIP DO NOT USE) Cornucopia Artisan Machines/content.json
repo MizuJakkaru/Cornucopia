@@ -26,7 +26,7 @@
 			"When": {
 				"HasMod": "Cornucopia.MoreCrops"
 			},
-			"FromFile": "machines-essentialcrops/objects.json, machines-essentialcrops/alembic.json, machines-essentialcrops/butterchurn.json, machines-essentialcrops/compactmill.json, machines-essentialcrops/extruder.json, machines-essentialcrops/keg.json, machines-essentialcrops/mayonnaisemachine.json, machines-essentialcrops/oilmaker.json, machines-essentialcrops/preservesjar.json, machines-essentialcrops/yogurtjar.json"
+			"FromFile": "data/objects-essentialcrops.json, machines-essentialcrops/alembic.json, machines-essentialcrops/butterchurn.json, machines-essentialcrops/compactmill.json, machines-essentialcrops/extruder.json, machines-essentialcrops/keg.json, machines-essentialcrops/mayonnaisemachine.json, machines-essentialcrops/oilmaker.json, machines-essentialcrops/preservesjar.json, machines-essentialcrops/yogurtjar.json"
 		},
 		
 		// add subfiles - extended crops
@@ -35,7 +35,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 			},
-			"FromFile": "machines-extendedcrops/objects.json, machines-extendedcrops/alembic.json, machines-extendedcrops/compactmill.json, machines-extendedcrops/extruder.json, machines-extendedcrops/mayonnaisemachine.json, machines-extendedcrops/oilmaker.json, machines-extendedcrops/preservesjar.json"
+			"FromFile": "data/objects-extendedcrops.json, machines-extendedcrops/alembic.json, machines-extendedcrops/compactmill.json, machines-extendedcrops/extruder.json, machines-extendedcrops/mayonnaisemachine.json, machines-extendedcrops/oilmaker.json, machines-extendedcrops/preservesjar.json"
 		},
 		
 		// add subfiles - extended trees
@@ -44,7 +44,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 			},
-			"FromFile": "machines-extendedtrees/objects.json, machines-extendedtrees/alembic.json, machines-extendedtrees/butterchurn.json, machines-extendedtrees/compactmill.json, machines-extendedtrees/extruder.json, machines-extendedtrees/preservesjar.json"
+			"FromFile": "data/objects-extendedtrees.json, machines-extendedtrees/alembic.json, machines-extendedtrees/butterchurn.json, machines-extendedtrees/compactmill.json, machines-extendedtrees/extruder.json, machines-extendedtrees/preservesjar.json"
 		},
 		
 		// add subfiles - herbs
@@ -53,7 +53,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 			},
-			"FromFile": "machines-herbs/objects.json, machines-herbs/compactmill.json, machines-herbs/mayonnaisemachine.json"
+			"FromFile": "data/objects-herbs.json, machines-herbs/compactmill.json, machines-herbs/mayonnaisemachine.json"
 		},
     ]
 }
