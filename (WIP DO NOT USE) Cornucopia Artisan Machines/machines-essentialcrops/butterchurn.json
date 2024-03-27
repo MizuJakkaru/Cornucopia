@@ -38,24 +38,8 @@
 						],
 					"MinutesUntilReady": 180,
 				},
-				"Cornucopia_PistachioButter": {
-					"Id": "Cornucopia_PistachioButter",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Pistachio",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_PistachioButter",
-							}
-						],
-					"MinutesUntilReady": 180,
-				},
-				"Cornucopia_SoynutButter": {
-					"Id": "Cornucopia_SoynutButter",
+				"Cornucopia_SoyButter": {
+					"Id": "Cornucopia_SoyButter",
 					"Triggers": 
 						[
 							{
@@ -66,7 +50,7 @@
 					"OutputItem":
 						[
 							{
-								"ItemId": "(O)Cornucopia_SoynutButter",
+								"ItemId": "(O)Cornucopia_SoyButter",
 							}
 						],
 					"MinutesUntilReady": 180,

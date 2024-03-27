@@ -49,7 +49,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 			},
-			"FromFile": "data/objects-extendedtrees.json, machines-extendedtrees/alembic.json, machines-extendedtrees/butterchurn.json, machines-extendedtrees/compactmill.json, machines-extendedtrees/extruder.json, machines-extendedtrees/preservesjar.json"
+			"FromFile": "data/objects-extendedtrees.json, machines-extendedtrees/alembic.json, machines-extendedtrees/compactmill.json, machines-extendedtrees/extruder.json, machines-extendedtrees/preservesjar.json"
 		},
 		
 		// add subfiles - herbs
