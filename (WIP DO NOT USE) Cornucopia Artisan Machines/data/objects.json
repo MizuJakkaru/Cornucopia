@@ -1,6 +1,5 @@
 {
   "Changes": [
-    {
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
@@ -132,7 +131,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 160,
           "Edibility": 5,
-		  "IsDrink": true,
           "ContextTags": [
             "color_red",
             "oil_item",
@@ -177,7 +175,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 250,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_white",
             "milk_item",
@@ -193,7 +190,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 200,
           "Edibility": 5,
-		  "IsDrink": true,
           "ContextTags": [
             "color_white",
             "oil_item"
@@ -288,7 +284,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 250,
           "Edibility": 5,
-		  "IsDrink": true,
           "ContextTags": [
             "color_yellow",
             "oil_item"
@@ -345,7 +340,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 240,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_dark_yellow",
             "mayo_item"
@@ -471,7 +465,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 150,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_dark_pink",
             "milk_item",
@@ -733,7 +726,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 240,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_orange",
             "mayo_item"
@@ -789,7 +781,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 850,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_orange",
             "mayo_item"
