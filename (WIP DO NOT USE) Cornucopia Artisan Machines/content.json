@@ -1,5 +1,11 @@
 {
 	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Enable Vinegar Keg": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a smaller keg which can turn grapes, apples, and unmilled rice into vinegar."
+		},
 	"Changes": [
         // add item + machine images
         {
