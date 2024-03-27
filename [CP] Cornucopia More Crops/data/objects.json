@@ -2978,6 +2978,19 @@
           "ContextTags": [
             "color_yellow"
           ]
+        },
+        "Cornucopia_Tofu": {
+          "Name": "Cornucopia_Tofu",
+          "Category": -26,
+          "SpriteIndex": 10,
+          "DisplayName": "{{i18n:Tofu_name}}",
+          "Description": "{{i18n:Tofu_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+          "Price": 300,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_white"
+          ]
         }
       }
     },
