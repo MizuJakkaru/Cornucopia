@@ -1,0 +1,28 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)19", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_SesameOil": {
+					"Id": "Cornucopia_SesameOil",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_SesameSeeds",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SesameOil",
+							}
+						],
+					"MinutesUntilReady": 2880,
+				}
+			}
+		}
+    ]
+}

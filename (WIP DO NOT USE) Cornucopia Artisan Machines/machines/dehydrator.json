@@ -29,7 +29,7 @@
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)Cornucopia_WhiteGrape",
+								"RequiredTags":[ "grape_item" ],
 								"RequiredCount": 5,
 							}
 						],
@@ -70,7 +70,12 @@
 						],
 					"MinutesUntilReady": 1750,
 				}
-			}
+			,
+			"MoveEntries": 
+				[
+					{ "Id": "Cornucopia_Raisins", "BeforeId": "Dried_Fruit" }
+				]
+				
 		}
     ]
 }

@@ -1,0 +1,92 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Cornucopia_AlmondExtract": {
+          "Name": "Cornucopia_AlmondExtract",
+          "Category": -26,
+          "SpriteIndex": 10,
+          "DisplayName": "{{i18n:AlmondExtract_name}}",
+          "Description": "{{i18n:AlmondExtract_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand"
+          ]
+        },
+        "Cornucopia_ChewingGum": {
+          "Name": "Cornucopia_ChewingGum",
+          "Category": -26,
+          "SpriteIndex": 64,
+          "DisplayName": "{{i18n:ChewingGum_name}}",
+          "Description": "{{i18n:ChewingGum_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": 40,
+          "ContextTags": [
+            "color_pink"
+          ]
+        },
+        "Cornucopia_LemonZest": {
+          "Name": "Cornucopia_LemonZest",
+          "Category": 0,
+          "SpriteIndex": 72,
+          "DisplayName": "{{i18n:LemonZest_name}}",
+          "Description": "{{i18n:LemonZest_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_yellow",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_LimeZest": {
+          "Name": "Cornucopia_LimeZest",
+          "Category": 0,
+          "SpriteIndex": 71,
+          "DisplayName": "{{i18n:LimeZest_name}}",
+          "Description": "{{i18n:LimeZest_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_lime",
+            "dye_medium"
+          ]
+        },
+        "Cornucopia_PecanButter": {
+          "Name": "Cornucopia_PecanButter",
+          "Category": -26,
+          "SpriteIndex": 21,
+          "DisplayName": "{{i18n:PecanButter_name}}",
+          "Description": "{{i18n:PecanButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "nut_butter_item"
+          ]
+        },
+        "Cornucopia_Umeboshi": {
+          "Name": "Cornucopia_Umeboshi",
+          "Category": -26,
+          "SpriteIndex": 143,
+          "DisplayName": "{{i18n:Umeboshi_name}}",
+          "Description": "{{i18n:Umeboshi_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_pale_red_violet",
+            "pickle_item"
+          ]
+        }
+      }
+    }
+  ]
+}

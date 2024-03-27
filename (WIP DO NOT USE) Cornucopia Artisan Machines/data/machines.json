@@ -4,39 +4,11 @@
 		// add custom machines
 		{
 			"Action": "EditData",
-			"Target": "Data/Machines",
-			"When": {
-				"Enable Vinegar Keg": true
-			},
+			"Target": "Cornucopia.ArtisanMachines/Data/Machines",
 			"Entries": 
 				{
-					"(BC)Cornucopia_VinegarKeg":
+					"(BC)Cornucopia_Alembic":
 						{
-							"OutputRules":				
-								[
-									{
-										"Id": "Cornucopia_Vinegar",
-										"Triggers": 
-											[
-												{
-													"RequiredTags":[ "grape_item" ],
-												},
-												{
-													"RequiredItemId": "(O)613"
-												},
-												{
-													"RequiredItemId": "(O)271"
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)419",
-												}
-											],
-										"MinutesUntilReady": 360,
-									}
-								],
 							"LoadEffects":
 								[
 									{
@@ -44,6 +16,9 @@
 											[
 												{
 													"Id": "bubbles"
+												},
+												{
+													"Id": "sipTea"
 												}
 											],
 										"TemporarySprites": 
@@ -75,7 +50,6 @@
 							"WorkingEffects":
 								[
 									{
-										"Sound": "bubbles",
 										"TemporarySprites": 
 											[
 												{

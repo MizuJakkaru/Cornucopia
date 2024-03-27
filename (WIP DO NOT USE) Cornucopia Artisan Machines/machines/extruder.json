@@ -12,39 +12,7 @@
 							"OutputRules":
 								[
 									{
-										"Id": "Cornucopia_BuckwheatPasta",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_BuckwheatFlour",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_BuckwheatPasta",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_ChewingGum",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_ChicleRubber",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_ChewingGum",
-												}
-											],
-										"MinutesUntilReady": 1750,
-									},
-									{
-										"Id": "Cornucopia_RicePasta",
+										"Id": "Cornucopia_RiceNoodles",
 										"Triggers": 
 											[
 												{
@@ -54,23 +22,7 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_RicePasta",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_SemolinaPasta",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_SemolinaFlour",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_SemolinaPasta",
+													"ItemId": "(O)Cornucopia_RiceNoodles",
 												}
 											],
 										"MinutesUntilReady": 360,
@@ -92,7 +44,7 @@
 										"MinutesUntilReady": 1750,
 									},
 									{
-										"Id": "Cornucopia_WheatPasta",
+										"Id": "Cornucopia_WheatNoodles",
 										"Triggers": 
 											[
 												{
@@ -102,26 +54,10 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_WheatPasta",
+													"ItemId": "(O)Cornucopia_WheatNoodles",
 												}
 											],
 										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_Zoodles",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Zucchini",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_Zoodles",
-												}
-											],
-										"MinutesUntilReady": 240,
 									}
 								],
 							"LoadEffects":

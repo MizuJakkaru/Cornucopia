@@ -1,0 +1,28 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_YogurtJar", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_VanillaYogurt": {
+					"Id": "Cornucopia_VanillaYogurt",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Vanilla",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_VanillaYogurt",
+							}
+						],
+					"MinutesUntilReady": 360,
+				}
+			}
+		}
+    ]
+}

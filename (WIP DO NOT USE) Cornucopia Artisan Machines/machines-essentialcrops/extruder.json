@@ -1,0 +1,28 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_Extruder", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_Zoodles": {
+					"Id": "Cornucopia_Zoodles",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Zucchini",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Zoodles",
+							}
+						],
+					"MinutesUntilReady": 240,
+				}
+			}
+		}
+    ]
+}
