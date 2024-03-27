@@ -12,22 +12,6 @@
 							"OutputRules":
 								[
 									{
-									"Id": "Cornucopia_AlmondButter",
-									"Triggers": 
-										[
-											{
-												"RequiredItemId": "(O)Cornucopia_Almond",
-											}
-										],
-									"OutputItem":
-										[
-											{
-												"ItemId": "(O)Cornucopia_AlmondButter",
-											}
-										],
-									"MinutesUntilReady": 180,
-									},
-									{
 										"Id": "Cornucopia_Butter",
 										"Triggers": 
 											[
@@ -59,38 +43,6 @@
 												}
 											],
 										"MinutesUntilReady": 120,
-									},
-									{
-										"Id": "Cornucopia_CashewButter",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Cashew",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_CashewButter",
-												}
-											],
-										"MinutesUntilReady": 180,
-									},
-									{
-										"Id": "Cornucopia_CocoaButter",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_CocoaPod",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_CocoaButter",
-												}
-											],
-										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "Cornucopia_CoconutButter",
@@ -222,71 +174,6 @@
 										"MinutesUntilReady": 120,
 									},
 									{
-										"Id": "Cornucopia_PeanutButter",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Peanut",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_PeanutButter",
-												}
-											],
-										"MinutesUntilReady": 180,
-									},
-									{
-										"Id": "Cornucopia_PecanButter",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Pecan",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_PecanButter",
-												}
-											],
-										"MinutesUntilReady": 180,
-									},
-									{
-										"Id": "Cornucopia_PistachioButter",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Pistachio",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_PistachioButter",
-												}
-											],
-										"MinutesUntilReady": 180,
-									},
-									{
-										"Id": "Cornucopia_SoynutButter",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Soybeans",
-													"RequiredCount": 2,
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_SoynutButter",
-												}
-											],
-										"MinutesUntilReady": 180,
-									},
-									{
 										"Id": "Cornucopia_SunflowerButter",
 										"Triggers": 
 											[
@@ -298,22 +185,6 @@
 											[
 												{
 													"ItemId": "(O)Cornucopia_SunflowerButter",
-												}
-											],
-										"MinutesUntilReady": 180,
-									},
-									{
-										"Id": "Cornucopia_WalnutButter",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Walnut",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_WalnutButter",
 												}
 											],
 										"MinutesUntilReady": 180,

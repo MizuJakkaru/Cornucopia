@@ -1,0 +1,80 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Cornucopia_AloeGel": {
+          "Name": "Cornucopia_AloeGel",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:AloeGel_name}}",
+          "Description": "{{i18n:AloeGel_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "Cornucopia_DillMayonnaise": {
+          "Name": "Cornucopia_DillMayonnaise",
+          "Category": -26,
+          "SpriteIndex": 126,
+          "DisplayName": "{{i18n:DillMayonnaise_name}}",
+          "Description": "{{i18n:DillMayonnaise_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": 20,
+		  "IsDrink": true,
+          "ContextTags": [
+            "color_yellow_green",
+            "mayo_item"
+          ]
+        },
+        "Cornucopia_GroundCumin": {
+          "Name": "Cornucopia_GroundCumin",
+          "Category": -26,
+          "SpriteIndex": 78,
+          "DisplayName": "{{i18n:GroundCumin_name}}",
+          "Description": "{{i18n:GroundCumin_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "spice_item"
+          ]
+        },
+        "Cornucopia_GroundNutmeg": {
+          "Name": "Cornucopia_GroundNutmeg",
+          "Category": -26,
+          "SpriteIndex": 76,
+          "DisplayName": "{{i18n:GroundNutmeg_name}}",
+          "Description": "{{i18n:GroundNutmeg_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_brown",
+            "spice_item"
+          ]
+        },
+        "Cornucopia_GroundTurmeric": {
+          "Name": "Cornucopia_GroundTurmeric",
+          "Category": -26,
+          "SpriteIndex": 75,
+          "DisplayName": "{{i18n:GroundTurmeric_name}}",
+          "Description": "{{i18n:GroundTurmeric_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 200,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_orange",
+            "dye_strong",
+            "spice_item"
+          ]
+        }
+      }
+    }
+  ]
+}

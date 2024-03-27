@@ -1,0 +1,28 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_Extruder", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_ChewingGum": {
+					"Id": "Cornucopia_ChewingGum",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_ChicleRubber",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_ChewingGum",
+							}
+						],
+					"MinutesUntilReady": 1750,
+				}
+			}
+		}
+    ]
+}

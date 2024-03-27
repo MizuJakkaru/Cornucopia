@@ -12,6 +12,22 @@
 							"OutputRules":
 								[
 									{
+										"Id": "Cornucopia_DriedSquid",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "squid_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_DriedSquid",
+												}
+											],
+										"MinutesUntilReady": 50,
+									},
+									{
 										"Id": "Cornucopia_RoastedGarlic",
 										"Triggers": 
 											[
@@ -48,7 +64,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)424",
+													"RequiredTags":[ "cheese_item" ],
 												}
 											],
 										"OutputItem":
@@ -64,7 +80,7 @@
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "category_egg", "!id_o_289", "!id_o_305", "!id_o_928", "!id_o_107" ],
+													"RequiredTags":[ "category_egg" ],
 												}
 											],
 										"OutputItem":
@@ -74,6 +90,22 @@
 												}
 											],
 										"MinutesUntilReady": 720,
+									},
+									{
+										"Id": "Cornucopia_SmokedSalmon",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)139",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_SmokedSalmon",
+												}
+											],
+										"MinutesUntilReady": 50,
 									}
 								],
 							"AdditionalConsumedItems":

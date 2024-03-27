@@ -12,22 +12,6 @@
 							"OutputRules":
 								[
 									{
-										"Id": "Cornucopia_AloeGel",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)(O)Cornucopia_Aloe",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_AloeGel",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
 										"Id": "Cornucopia_Applesauce",
 										"Triggers": 
 											[
@@ -77,104 +61,7 @@
 										"MinutesUntilReady": 200,
 									},
 									{
-										"Id": "Cornucopia_GroundCumin",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_CuminSeeds",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_GroundCumin",
-												}
-											],
-										"MinutesUntilReady": 120,
-									},
-									{
-										"Id": "Cornucopia_GroundNutmeg",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Nutmeg",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_GroundNutmeg",
-												}
-											],
-										"MinutesUntilReady": 120,
-									},
-									{
-										"Id": "Cornucopia_GroundTurmeric",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Turmeric",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_GroundTurmeric",
-												}
-											],
-										"MinutesUntilReady": 120,
-									},
-									{
-										"Id": "Cornucopia_LemonPeel",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Lemon",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_LemonPeel",
-												}
-											],
-										"MinutesUntilReady": 60,
-									},
-									{
-										"Id": "Cornucopia_LimePeel",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Lime",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_LimePeel",
-												}
-											],
-										"MinutesUntilReady": 60,
-									},
-									{
-										"Id": "Cornucopia_MisoPaste",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Soybeans",
-													"RequiredCount": 2,
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_MisoPaste",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_OrangePeel",
+										"Id": "Cornucopia_OrangeZest",
 										"Triggers": 
 											[
 												{
@@ -184,42 +71,10 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_OrangePeel",
+													"ItemId": "(O)Cornucopia_OrangeZest",
 												}
 											],
 										"MinutesUntilReady": 60,
-									},
-									{
-										"Id": "Cornucopia_Paprika",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_BellPepper",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_Paprika",
-												}
-											],
-										"MinutesUntilReady": 120,
-									},
-									{
-										"Id": "Cornucopia_Pepper",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_Peppercorn",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_Pepper",
-												}
-											],
-										"MinutesUntilReady": 180,
 									},
 									{
 										"Id": "Cornucopia_Saffron",
@@ -265,22 +120,6 @@
 											[
 												{
 													"ItemId": "(O)Cornucopia_ShrimpPaste",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_WasabiPaste",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_WasabiRoot",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_WasabiPaste",
 												}
 											],
 										"MinutesUntilReady": 360,

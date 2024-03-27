@@ -1,5 +1,16 @@
 {
 	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Enable Vinegar Keg": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a smaller keg which can turn grapes, apples, and unmilled rice into vinegar."
+		},
+		"Move Vegetable Juice to Juicer": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Moves vegetable juices to the juicer, allowing vegetable wines to come from the keg."
+		}
 	"Changes": [
         // add item + machine images
         {
@@ -11,7 +22,43 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/bigcraftablesinformation.json, data/craftingrecipes.json, data/objects.json, data/objectcontexttags.json, data/strings.json, machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/cheesepress.json, machines/dryingrack.json, machines/extruder.json, machines/compactmill.json, machines/juicer.json, machines/keg.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/delismoker.json, machines/vinegarkeg.json, machines/yogurtjar.json, data/forage.json"
+			"FromFile": "data/bigcraftablesinformation.json, data/craftingrecipes.json, data/objects.json, data/objectcontexttags.json, data/strings.json, machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dryingrack.json, machines/extruder.json, machines/compactmill.json, machines/juicer.json, machines/keg.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/delismoker.json, machines/vinegarkeg.json, machines/yogurtjar.json, data/forage.json"
+		},
+		
+		// add subfiles - essential
+		{
+			"Action": "Include",
+			"When": {
+				"HasMod": "Cornucopia.MoreCrops"
+			},
+			"FromFile": "data/objects-essentialcrops.json, machines-essentialcrops/alembic.json, machines-essentialcrops/butterchurn.json, machines-essentialcrops/compactmill.json, machines-essentialcrops/extruder.json, machines-essentialcrops/keg.json, machines-essentialcrops/mayonnaisemachine.json, machines-essentialcrops/oilmaker.json, machines-essentialcrops/preservesjar.json, machines-essentialcrops/yogurtjar.json"
+		},
+		
+		// add subfiles - extended crops
+		{
+			"Action": "Include",
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+			},
+			"FromFile": "data/objects-extendedcrops.json, machines-extendedcrops/alembic.json, machines-extendedcrops/compactmill.json, machines-extendedcrops/extruder.json, machines-extendedcrops/mayonnaisemachine.json, machines-extendedcrops/oilmaker.json, machines-extendedcrops/preservesjar.json"
+		},
+		
+		// add subfiles - extended trees
+		{
+			"Action": "Include",
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+			},
+			"FromFile": "data/objects-extendedtrees.json, machines-extendedtrees/alembic.json, machines-extendedtrees/compactmill.json, machines-extendedtrees/extruder.json, machines-extendedtrees/preservesjar.json"
+		},
+		
+		// add subfiles - herbs
+		{
+			"Action": "Include",
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"FromFile": "data/objects-herbs.json, machines-herbs/compactmill.json, machines-herbs/mayonnaisemachine.json"
 		},
     ]
 }

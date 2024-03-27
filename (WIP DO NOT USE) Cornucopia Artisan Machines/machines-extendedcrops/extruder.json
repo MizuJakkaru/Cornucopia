@@ -1,0 +1,44 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_Extruder", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_BuckwheatNoodles": {
+					"Id": "Cornucopia_BuckwheatNoodles",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_BuckwheatFlour",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_BuckwheatNoodles",
+							}
+						],
+					"MinutesUntilReady": 360,
+				},
+				"Cornucopia_SemolinaNoodles": {
+					"Id": "Cornucopia_SemolinaNoodles",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_SemolinaFlour",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SemolinaNoodles",
+							}
+						],
+					"MinutesUntilReady": 360,
+				}
+			}
+		}
+    ]
+}

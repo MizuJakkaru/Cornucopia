@@ -8,6 +8,12 @@
 			"TextOperations": [
 				{
 					"Operation": "Append",
+					"Target": ["Entries", "Grape"],
+					"Value": "grape_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
 					"Target": ["Entries", "Blueberry"],
 					"Value": "berry_item",
 					"Delimiter": ", "
