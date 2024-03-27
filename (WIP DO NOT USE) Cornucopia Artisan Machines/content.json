@@ -6,6 +6,11 @@
 			"Default": "true",
 			"Description": "Adds a smaller keg which can turn grapes, apples, and unmilled rice into vinegar."
 		},
+		"Move Vegetable Juice to Juicer": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Moves vegetable juices to the juicer, allowing vegetable wines to come from the keg."
+		}
 	"Changes": [
         // add item + machine images
         {
