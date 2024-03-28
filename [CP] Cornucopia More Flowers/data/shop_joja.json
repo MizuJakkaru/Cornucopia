@@ -64,7 +64,7 @@
 			//"Price": 200,
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_BlueMistSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_ChrysanthemumSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_IrisSeeds", "BeforeId": "(O)297" },
@@ -73,7 +73,7 @@
 			{ "Id": "Cornucopia_OrchidSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_PansySeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_RoseSeeds", "BeforeId": "(O)297" }
-		]
+		]/*
     },
    //Extended flowers seeds & saplings
 	{
@@ -252,7 +252,7 @@
 			//"Price": 20,
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_BluebonnetSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_CamelliaSeeds", "BeforeId": "(O)245" },
 			{ "Id": "Cornucopia_CarnationSeeds", "BeforeId": "(O)297" },
@@ -277,7 +277,7 @@
 			{ "Id": "Cornucopia_RoseFallSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_RoseWinterSeeds", "BeforeId": "(O)297" },
 			{ "Id": "Cornucopia_VioletSeeds", "BeforeId": "(O)297" }
-		]
+		]*/
     },
   ]
 }
