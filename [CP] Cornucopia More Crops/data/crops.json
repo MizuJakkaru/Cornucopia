@@ -24,13 +24,6 @@
 					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{25Percent}}",
 				},
-				"Cornucopia_BroccoliSeeds": {
-					"Seasons": [ "fall" ],
-					"DaysInPhase": [ 2, 2, 3, 3, 3 ],
-					"HarvestItemId": "Cornucopia_Broccoli",
-					"Texture": "Cornucopia.MoreCrops/Crops",
-					"SpriteIndex": 20
-				},
 				"Cornucopia_TurnipSeeds": {
 					"Seasons": [ "fall" ],
 					"DaysInPhase": [ 1, 2, 1, 2 ],
@@ -467,17 +460,6 @@
 					"HarvestItemId": "Cornucopia_WasabiRoot",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 19,
-				},
-				"Cornucopia_YellowSquashSeeds": {
-					"Seasons": [ "summer" ],
-					"DaysInPhase": [ 2, 2, 3, 4, 3 ],
-					"HarvestItemId": "Cornucopia_YellowSquash",
-					"Texture": "Cornucopia.MoreCrops/Crops",
-					"SpriteIndex": 24,
-					"RegrowDays": 2,
-					"HarvestMinStack": 1,
-					"HarvestMaxStack": 1,
-					"ExtraHarvestChance": "{{10Percent}}",
 				},
 			}
 		},
