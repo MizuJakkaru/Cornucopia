@@ -328,6 +328,20 @@
             "juice_item"
           ]
         },
+        "Cornucopia_HoneyYogurt": {
+          "Name": "Cornucopia_HoneyYogurt",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:HoneyYogurt_name}}",
+          "Description": "{{i18n:HoneyYogurt_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_yellow",
+            "yogurt_item"
+          ]
+        },
         "Cornucopia_FruitYogurt": {
           "Name": "Cornucopia_FruitYogurt",
           "Category": -26,

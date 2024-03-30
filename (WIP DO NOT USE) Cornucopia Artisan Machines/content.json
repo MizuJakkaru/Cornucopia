@@ -49,7 +49,6 @@
                 },
             }
         },
-	"Changes": [
         // add item + machine images
         {
             "Action": "Load",

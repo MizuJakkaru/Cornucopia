@@ -147,7 +147,7 @@
 					"MinutesUntilReady": 4000,
 				},
 				"Cornucopia_SauerkrautRedCabbage": {
-					"Id": "Cornucopia_Sauerkraut",
+					"Id": "Cornucopia_SauerkrautRedCabbage",
 					"Triggers": 
 						[
 							{
@@ -165,7 +165,7 @@
 			},
 			"MoveEntries": 
 				[
-					{ "Id": "Cornucopia_Sauerkraut", "BeforeId": "Default_Pickled" }
+					{ "Id": "Cornucopia_SauerkrautRedCabbage", "BeforeId": "Default_Pickled" }
 				]
 				
 		}

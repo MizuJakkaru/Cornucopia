@@ -21,6 +21,22 @@
 							}
 						],
 					"MinutesUntilReady": 360,
+				},
+				"Cornucopia_ChocolateYogurt": {
+					"Id": "Cornucopia_ChocolateYogurt",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_CocoaPod",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_ChocolateYogurt",
+							}
+						],
+					"MinutesUntilReady": 360,
 				}
 			}
 		}

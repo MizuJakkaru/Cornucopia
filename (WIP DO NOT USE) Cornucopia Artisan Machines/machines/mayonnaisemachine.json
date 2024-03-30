@@ -28,6 +28,9 @@
 					"Triggers": 
 						[
 							{
+								"RequiredItemId": "(O)260",
+							},
+							{
 								"RequiredTags":[ "chili_item" ],
 							}
 						],

@@ -13,7 +13,9 @@
 						[
 							{
 								"RequiredItemId": "(O)260",
-								"RequiredCount": 2,
+							},
+							{
+								"RequiredTags":[ "chili_item" ],
 							}
 						],
 					"OutputItem":

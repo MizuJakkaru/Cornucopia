@@ -55,6 +55,22 @@
 							}
 						],
 					"MinutesUntilReady": 4320,
+				},
+				"Cornucopia_StinkyTofu": {
+					"Id": "Cornucopia_StinkyTofu",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Tofu",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_StinkyTofu",
+							}
+						],
+					"MinutesUntilReady": 4320,
 				}
 			},
 			"MoveEntries": [

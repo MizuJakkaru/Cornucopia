@@ -227,6 +227,20 @@
             "dye_strong"
           ]
         },
+        "Cornucopia_ChocolateYogurt": {
+          "Name": "Cornucopia_ChocolateYogurt",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:ChocolateYogurt_name}}",
+          "Description": "{{i18n:ChocolateYogurt_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 350,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_brown",
+            "yogurt_item"
+          ]
+        },
         "Cornucopia_VanillaYogurt": {
           "Name": "Cornucopia_VanillaYogurt",
           "Category": -26,

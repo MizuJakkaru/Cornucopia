@@ -26,9 +26,12 @@
 					"MinutesUntilReady": 2160,
 				},
 				"Cornucopia_SauerkrautCabbage": {
-					"Id": "Cornucopia_Sauerkraut",
+					"Id": "Cornucopia_SauerkrautCabbage",
 					"Triggers": 
 						[
+							{
+								"RequiredItemId": "(O)266",
+							},
 							{
 								"RequiredItemId": "(O)Cornucopia_Cabbage",
 							}
@@ -41,7 +44,11 @@
 						],
 					"MinutesUntilReady": 4000,
 				}
-			}
+			},
+			"MoveEntries": [
+				{ "Id": "Cornucopia_Kimchi", "BeforeId": "Default_Pickled" },
+				{ "Id": "Cornucopia_SauerkrautCabbage", "BeforeId": "Default_Pickled" }
+			]
 		}
     ]
 }
