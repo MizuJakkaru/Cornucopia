@@ -1,0 +1,24 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"Entries": {
+				"Cornucopia_CanolaFlowerSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"Drops": [
+								{
+									"Id": "Canola Flower seeds",
+									"ItemId": "(O)Cornucopia_CanolaFlowerSeeds",
+									//"MinStack": 1,
+									//"MaxStack": 2
+								},
+							]
+						}
+					}
+				}
+			}
+		}
+	]
+}

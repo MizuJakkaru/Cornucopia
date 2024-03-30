@@ -8,7 +8,7 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Season": "summer"
+                	"Condition": "SEASON spring summer fall"
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -36,7 +36,7 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Season": "summer"
+                	"Condition": "SEASON spring summer fall"
                 }
         	}
         },
