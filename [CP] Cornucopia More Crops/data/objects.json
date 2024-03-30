@@ -35,20 +35,6 @@
             "color_red"
           ]
         },
-        /*"Cornucopia_Broccoli": {
-          "Name": "Cornucopia_Broccoli",
-          "Type": "Vegetable",
-          "Category": -75,
-          "SpriteIndex": 20,
-          "DisplayName": "{{i18n:Broccoli_name}}",
-          "Description": "{{i18n:Broccoli_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 190,
-          "Edibility": 30,
-          "ContextTags": [
-            "color_dark_green"
-          ]
-        },*/
         "Cornucopia_Turnip": {
           "Name": "Cornucopia_Turnip",
           "Type": "Vegetable",
@@ -916,20 +902,6 @@
 			"grape_item"
           ]
         },
-        /*"Cornucopia_YellowSquash": {
-          "Name": "Cornucopia_YellowSquash",
-          "Type": "Vegetable",
-          "Category": -75,
-          "SpriteIndex": 138,
-          "DisplayName": "{{i18n:YellowSquash_name}}",
-          "Description": "{{i18n:YellowSquash_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 55,
-          "Edibility": 15,
-          "ContextTags": [
-            "color_yellow"
-          ]
-        },*/
       }
     },
 	//Herb crop produce
@@ -1304,16 +1276,6 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 65
         },
-        /*"Cornucopia_BroccoliSeeds": {
-          "Name": "Cornucopia_BroccoliSeeds",
-          "Type": "Seed",
-          "Category": -74,
-          "SpriteIndex": 21,
-          "DisplayName": "{{i18n:BroccoliSeeds_name}}",
-          "Description": "{{i18n:BroccoliSeeds_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 40
-        },*/
         "Cornucopia_TurnipSeeds": {
           "Name": "Cornucopia_TurnipSeeds",
           "Type": "Seed",
@@ -1894,16 +1856,6 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 50
         },
-        /*"Cornucopia_YellowSquashSeeds": {
-          "Name": "Cornucopia_YellowSquashSeeds",
-          "Type": "Seed",
-          "Category": -74,
-          "SpriteIndex": 139,
-          "DisplayName": "{{i18n:YellowSquashSeeds_name}}",
-          "Description": "{{i18n:YellowSquashSeeds_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 40
-        }*/
       }
     },
     //Extended crop seeds - white grapes (unique)
