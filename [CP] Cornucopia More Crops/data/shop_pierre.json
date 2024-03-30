@@ -68,7 +68,7 @@
 			"ItemId": "Cornucopia_OliveSeeds",
 			//"Condition": "SEASON fall",
 			"IgnoreShopPriceModifiers": true,//"Price": 2000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_OnionSeeds": {
 			"Id": "Cornucopia_OnionSeeds",
@@ -89,7 +89,7 @@
 			"ItemId": "Cornucopia_RaspberrySeeds",
 			"Condition": "YEAR 2",
 			"IgnoreShopPriceModifiers": true,//"Price": 950,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_WatermelonSeeds": {
 			"Id": "Cornucopia_WatermelonSeeds",
@@ -179,7 +179,7 @@
 			"ItemId": "Cornucopia_BlackCurrantsSeeds",
 			"Condition": "YEAR 2",
 			"IgnoreShopPriceModifiers": true,//"Price": 1100,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_BuckwheatSeeds": {
 			"Id": "Cornucopia_BuckwheatSeeds",
@@ -263,14 +263,14 @@
 			"ItemId": "Cornucopia_ElderberriesSeeds",
 			"Condition": "YEAR 2",
 			"IgnoreShopPriceModifiers": true,//"Price": 1100,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_GooseberrySeeds": {
 			"Id": "Cornucopia_GooseberrySeeds",
 			"ItemId": "Cornucopia_GooseberrySeeds",
 			"Condition": "YEAR 2",
 			"IgnoreShopPriceModifiers": true,//"Price": 1100,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_GreenPeasSeeds": {
 			"Id": "Cornucopia_GreenPeasSeeds",
@@ -311,7 +311,7 @@
 			"Id": "Cornucopia_JuniperBerriesSeeds",
 			"ItemId": "Cornucopia_JuniperBerriesSeeds",
 			"IgnoreShopPriceModifiers": true,//"Price": 1300,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_KidneyBeansSeeds": {
 			"Id": "Cornucopia_KidneyBeansSeeds",
@@ -468,7 +468,7 @@
 			"ItemId": "Cornucopia_WhiteGrapeSeeds",
 			"Condition": "YEAR 2",
 			"IgnoreShopPriceModifiers": true,//"Price": 600,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		}
       },
 	  "MoveEntries": [
@@ -489,7 +489,7 @@
 			"ItemId": "Cornucopia_WhiteGrapeSeeds",
 			"Condition": "SEASON fall, YEAR 2",
 			"IgnoreShopPriceModifiers": true,//"Price": 55,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		}
       },
 	  "MoveEntries": [
@@ -517,7 +517,7 @@
 			"ItemId": "Cornucopia_BayLeavesSeeds",
 			"Condition": "YEAR 2",
 			"IgnoreShopPriceModifiers": true,//"Price": 800,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_ChivesSeeds": {
 			"Id": "Cornucopia_ChivesSeeds",
@@ -689,28 +689,28 @@
 			"ItemId": "Cornucopia_AvocadoSapling",
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,//"Price": 8000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_CocoaPodSapling": {
 			"Id": "Cornucopia_CocoaPodSapling",
 			"ItemId": "Cornucopia_CocoaPodSapling",
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,//"Price": 5000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_PearSapling": {
 			"Id": "Cornucopia_PearSapling",
 			"ItemId": "Cornucopia_PearSapling",
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,//"Price": 5500,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_PistachioSapling": {
 			"Id": "Cornucopia_PistachioSapling",
 			"ItemId": "Cornucopia_PistachioSapling",
 			"Condition": "YEAR 3",
 			//"IgnoreShopPriceModifiers": true,//"Price": 3750,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		}
       },
 	  "MoveEntries": [
@@ -734,86 +734,86 @@
 			"ItemId": "Cornucopia_AlmondSapling",
 			"Condition": "YEAR 3",
 			//"IgnoreShopPriceModifiers": true,//"Price": 3750,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_CashewSapling": {
 			"Id": "Cornucopia_CashewSapling",
 			"ItemId": "Cornucopia_CashewSapling",
 			"Condition": "YEAR 3",
 			//"IgnoreShopPriceModifiers": true,//"Price": 4000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_FigSapling": {
 			"Id": "Cornucopia_FigSapling",
 			"ItemId": "Cornucopia_FigSapling",
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,//"Price": 4000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_GrapefruitSapling": {
 			"Id": "Cornucopia_GrapefruitSapling",
 			"ItemId": "Cornucopia_GrapefruitSapling",
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,//"Price": 6000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_LemonSapling": {
 			"Id": "Cornucopia_LemonSapling",
 			"ItemId": "Cornucopia_LemonSapling",
 			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_LimeSapling": {
 			"Id": "Cornucopia_LimeSapling",
 			"ItemId": "Cornucopia_LimeSapling",
 			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_NectarineSapling": {
 			"Id": "Cornucopia_NectarineSapling",
 			"ItemId": "Cornucopia_NectarineSapling",
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,//"Price": 6000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_PecanSapling": {
 			"Id": "Cornucopia_PecanSapling",
 			"ItemId": "Cornucopia_PecanSapling",
 			"Condition": "YEAR 3",
 			//"IgnoreShopPriceModifiers": true,//"Price": 5000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_PersimmonSapling": {
 			"Id": "Cornucopia_PersimmonSapling",
 			"ItemId": "Cornucopia_PersimmonSapling",
 			//"IgnoreShopPriceModifiers": true,//"Price": 7000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_PomeloSapling": {
 			"Id": "Cornucopia_PomeloSapling",
 			"ItemId": "Cornucopia_PomeloSapling",
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,//"Price": 3400,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_UmeSapling": {
 			"Id": "Cornucopia_UmeSapling",
 			"ItemId": "Cornucopia_UmeSapling",
 			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_WalnutSapling": {
 			"Id": "Cornucopia_WalnutSapling",
 			"ItemId": "Cornucopia_WalnutSapling",
 			"Condition": "YEAR 3",
 			//"IgnoreShopPriceModifiers": true,//"Price": 3750,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_YuzuSapling": {
 			"Id": "Cornucopia_YuzuSapling",
 			"ItemId": "Cornucopia_YuzuSapling",
 			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		}
       },
 	  "MoveEntries": [
@@ -846,27 +846,35 @@
 			"ItemId": "Cornucopia_CamphorLeavesSapling",
 			"Condition": "YEAR 3",
 			//"IgnoreShopPriceModifiers": true,//"Price": 4000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_CinnamonSticksSapling": {
 			"Id": "Cornucopia_CinnamonSticksSapling",
 			"ItemId": "Cornucopia_CinnamonSticksSapling",
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,//"Price": 6000,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
 		},
 		"Cornucopia_EucalyptusLeavesSapling": {
 			"Id": "Cornucopia_EucalyptusLeavesSapling",
 			"ItemId": "Cornucopia_EucalyptusLeavesSapling",
 			"Condition": "YEAR 2",
 			//"IgnoreShopPriceModifiers": true,//"Price": 5500,
-			"ApplyProfitMargins": false,
+			"ApplyProfitMargins": null,
+		},
+		"Cornucopia_NutmegSapling": {
+			"Id": "Cornucopia_NutmegSapling",
+			"ItemId": "Cornucopia_NutmegSapling",
+			"Condition": "YEAR 2",
+			//"IgnoreShopPriceModifiers": true,//"Price": 5500,
+			"ApplyProfitMargins": null,
 		}
       },
 	  "MoveEntries": [
 			{ "Id": "Cornucopia_CamphorLeavesSapling", "BeforeId": "(O)458" },
 			{ "Id": "Cornucopia_CinnamonSticksSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_EucalyptusLeavesSapling", "BeforeId": "(O)458" }
+			{ "Id": "Cornucopia_EucalyptusLeavesSapling", "BeforeId": "(O)458" },
+			{ "Id": "Cornucopia_NutmegSapling", "BeforeId": "(O)458" }
 		]
     },
   ]
