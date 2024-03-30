@@ -8,11 +8,53 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer fall"
+                	"Condition": "SEASON spring summer"
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
                 	"Season": "summer"
+                },
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Forest", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true},
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
+		// add forage (bus stop)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "BusStop", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Condition": "SEASON spring summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "BusStop", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true},
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
                 }
         	}
         },
@@ -36,7 +78,126 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer fall"
+                	"Condition": "SEASON spring summer"
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Mountain", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true},
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
+		// add forage (backwoods)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Backwoods", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Condition": "SEASON spring summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Backwoods", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true},
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
+		// add forage (railroad)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Railroad", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Condition": "SEASON spring summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Railroad", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true},
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
+		// add forage (railroad)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Summit", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Condition": "SEASON spring summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Summit", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true},
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
+		// add forage (secret woods)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Woods", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true},
+        	"Entries": {
+                "(O)Cornucopia_ChickenoftheWoods": {
+                	"ItemId": "(O)Cornucopia_ChickenoftheWoods",
+                	"Season": "fall",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                },
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
                 }
         	}
         },
@@ -72,6 +233,163 @@
                 	"ItemId": "(O)Cornucopia_Peppercorn",
                 }
         	}
-        }
+        },
+		//SVE locations
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Custom_ForestWest", "Forage" ],
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Condition": "SEASON spring summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Custom_ForestWest", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Custom_AdventurerSummit", "Forage" ],
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Condition": "SEASON spring summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Custom_AdventurerSummit", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
+		//East Scarp locations
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "EastScarp_DeepMountains", "Forage" ],
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Condition": "SEASON spring summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                },
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "EastScarp_DeepMountains", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "EastScarp_MeadowFarm", "Forage" ],
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Condition": "SEASON spring summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "EastScarp_MeadowFarm", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
+				{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "EastScarp_Village", "Forage" ],
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+                "(O)Cornucopia_Peppercorn": {
+                	"ItemId": "(O)Cornucopia_Peppercorn",
+                	"Condition": "SEASON spring summer"
+                },
+                "(O)Cornucopia_Raspberry": {
+                	"ItemId": "(O)Cornucopia_Raspberry",
+                	"Season": "summer"
+                }
+        	}
+        },
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "EastScarp_Village", "Forage" ],
+			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Priority": "Default + 4",
+        	"Entries": {
+				"(O)Cornucopia_JuniperBerries": {
+                	"ItemId": "(O)Cornucopia_JuniperBerries",
+                	"Season": "winter",
+					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
+                }
+        	}
+        },
     ]
 }
