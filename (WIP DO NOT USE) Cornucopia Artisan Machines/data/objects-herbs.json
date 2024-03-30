@@ -25,6 +25,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 200,
           "Edibility": 20,
+		  "IsDrink": true,
           "ContextTags": [
             "color_yellow_green",
             "mayo_item"

@@ -143,6 +143,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 160,
           "Edibility": 5,
+		  "IsDrink": true,
           "ContextTags": [
             "color_red",
             "oil_item",
@@ -187,6 +188,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 250,
           "Edibility": 20,
+		  "IsDrink": true,
           "ContextTags": [
             "color_white",
             "milk_item",
@@ -202,6 +204,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 200,
           "Edibility": 5,
+		  "IsDrink": true,
           "ContextTags": [
             "color_white",
             "oil_item"
@@ -295,6 +298,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 250,
           "Edibility": 5,
+		  "IsDrink": true,
           "ContextTags": [
             "color_yellow",
             "oil_item"
@@ -323,6 +327,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 150,
           "Edibility": 30,
+		  "IsDrink": true,
           "ContextTags": [
             "color_dark_pink",
             "juice_item"
@@ -337,6 +342,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 300,
           "Edibility": 15,
+		  "IsDrink": true,
           "ContextTags": [
             "color_yellow",
             "yogurt_item"
@@ -351,6 +357,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 100,
           "Edibility": 15,
+		  "IsDrink": true,
           "ContextTags": [
             "color_pink",
             "yogurt_item"
@@ -365,6 +372,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 240,
           "Edibility": 20,
+		  "IsDrink": true,
           "ContextTags": [
             "color_dark_yellow",
             "mayo_item"
@@ -420,6 +428,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 300,
           "Edibility": 25,
+		  "IsDrink": true,
           "ContextTags": [
             "color_blue",
             "yogurt_item"
@@ -490,6 +499,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 150,
           "Edibility": 20,
+		  "IsDrink": true,
           "ContextTags": [
             "color_dark_pink",
             "milk_item",
@@ -695,6 +705,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 240,
           "Edibility": 20,
+		  "IsDrink": true,
           "ContextTags": [
             "color_orange",
             "mayo_item"
@@ -750,6 +761,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 850,
           "Edibility": 20,
+		  "IsDrink": true,
           "ContextTags": [
             "color_orange",
             "mayo_item"
@@ -778,6 +790,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 175,
           "Edibility": 15,
+		  "IsDrink": true,
           "ContextTags": [
             "color_white",
             "yogurt_item"

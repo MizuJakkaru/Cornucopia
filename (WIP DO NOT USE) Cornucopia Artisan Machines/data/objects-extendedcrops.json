@@ -97,6 +97,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 120,
           "Edibility": 15,
+		  "IsDrink": true,
           "ContextTags": [
             "color_yellow",
             "oil_item"
@@ -111,6 +112,7 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 275,
           "Edibility": 20,
+		  "IsDrink": true,
           "ContextTags": [
             "color_green",
             "mayo_item"
