@@ -7,12 +7,13 @@
 				"Cornucopia_CanolaFlowerSeeds": {
 					"YieldOverrides": {
 						"5": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
 							"Drops": [
 								{
 									"Id": "Canola Flower seeds",
 									"ItemId": "(O)Cornucopia_CanolaFlowerSeeds",
-									//"MinStack": 1,
-									//"MaxStack": 2
+									"MinStack": 0,
+									"MaxStack": 2
 								},
 							]
 						}

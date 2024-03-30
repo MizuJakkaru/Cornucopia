@@ -237,8 +237,8 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 29,
 					"HarvestMethod": "Scythe",
-					"HarvestMinStack": 2,
-					"HarvestMaxStack": 3,
+					//"HarvestMinStack": 2,
+					//"HarvestMaxStack": 3,
 				},
 				"Cornucopia_CantaloupeSeeds": {
 					"Seasons": [ "spring" ],
