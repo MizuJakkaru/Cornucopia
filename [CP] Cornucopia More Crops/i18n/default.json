@@ -508,4 +508,5 @@
   //Furniture
   "Cornucopia_name": "Cornucopia",
   "Press_name": "Press",
+  "Press_description": "Turns milk into cheese and soybeans into tofu.",
 }
