@@ -22,8 +22,11 @@
 							}
 						],
 					"MinutesUntilReady": 360,
-				}
-			}
+				},
+			},
+			"MoveEntries": [
+				{ "Id": "Cornucopia_AlmondExtract", "BeforeId": "Cornucopia_EssentialOil" }
+			]
 		}
     ]
 }

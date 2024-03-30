@@ -13,7 +13,7 @@
 						[
 							{
 								"RequiredItemId": "(O)406",
-								"RequiredCount": 3,
+								"RequiredCount": 5,
 							}
 						],
 					"OutputItem":
@@ -54,7 +54,7 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_DriedVegetable",
-								"ObjectInternalName": "{0} {{i18n:DriedVegetable_name}}",,
+								"ObjectInternalName": "{0} {{i18n:DriedVegetable_name}}",
 								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedVegetable %PRESERVED_DISPLAY_NAME]",
 								"PreserveId": "DROP_IN",
 								"CopyPrice": true,
@@ -70,10 +70,11 @@
 						],
 					"MinutesUntilReady": 1750,
 				}
-			,
+			},
 			"MoveEntries": 
 				[
-					{ "Id": "Cornucopia_Raisins", "BeforeId": "Dried_Fruit" }
+					{ "Id": "Cornucopia_Prunes", "BeforeId": "DriedFruit" },
+					{ "Id": "Cornucopia_Raisins", "BeforeId": "DriedFruit" }
 				]
 				
 		}

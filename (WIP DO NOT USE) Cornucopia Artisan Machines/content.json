@@ -6,11 +6,49 @@
 			"Default": "true",
 			"Description": "Adds a smaller keg which can turn grapes, apples, and unmilled rice into vinegar."
 		},
-		"Move Vegetable Juice to Juicer": {
+		"Enable Vegetable Wine": {
 			"AllowValues": "true, false",
 			"Default": "false",
-			"Description": "Moves vegetable juices to the juicer, allowing vegetable wines to come from the keg."
-		}
+			"Description": "Allows vegetable wine to come from the keg. Vegetable juice will still come from the juicer."
+		},
+	},
+	"Changes": [	
+		//set mail flags
+		{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "Cornucopia.ArtisanMachines_RemoveConfigFlags": { 
+                    "Id": "Cornucopia.ArtisanMachines_RemoveConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia.ArtisanMachines_RepeatConfigFlags false",
+						"MarkActionApplied All Cornucopia.ArtisanMachines_SetVegetableWineFlags false",
+						"RemoveMail All Cornucopia.ArtisanMachines_VegetableWineEnabled all",
+                    ]
+                },
+				//Entries to set flags based on config
+				"Cornucopia.ArtisanMachines_SetVegetableWineFlags": {
+                    "Id": "Cornucopia.ArtisanMachines_SetEVegetableWineFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Enable Vegetable Wine}}",
+                    "HostOnly": true,
+                    "Action": "AddMail All Cornucopia.ArtisanMachines_VegetableWineEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia.ArtisanMachines_RepeatConfigFlags": { 
+                    "Id": "Cornucopia.ArtisanMachines_RepeatConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia.ArtisanMachines_RemoveConfigFlags false",
+                    ]
+                },
+            }
+        },
 	"Changes": [
         // add item + machine images
         {
@@ -22,7 +60,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/bigcraftablesinformation.json, data/craftingrecipes.json, data/objects.json, data/objectcontexttags.json, data/strings.json, machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dryingrack.json, machines/extruder.json, machines/compactmill.json, machines/juicer.json, machines/keg.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/delismoker.json, machines/vinegarkeg.json, machines/yogurtjar.json, data/forage.json"
+			"FromFile": "data/bigcraftablesinformation.json, data/craftingrecipes.json, data/objects.json, data/objectcontexttags.json, data/strings.json, machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/extruder.json, machines/fishsmoker.json, machines/compactmill.json, machines/juicer.json, machines/keg.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/delismoker.json, machines/vinegarkeg.json, machines/yogurtjar.json, data/forage.json"
 		},
 		
 		// add subfiles - essential

@@ -33,6 +33,9 @@
 											[
 												{
 													"RequiredItemId": "(O)260",
+												},
+												{
+													"RequiredTags":[ "chili_item" ],
 												}
 											],
 										"OutputItem":
@@ -72,6 +75,22 @@
 											[
 												{
 													"ItemId": "(O)Cornucopia_OrangeZest",
+												}
+											],
+										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "Cornucopia_PineNuts",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)311",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_PineNuts",
 												}
 											],
 										"MinutesUntilReady": 60,

@@ -1,0 +1,51 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)FishSmoker", "OutputRules" ],
+			"Entries": { 
+				"Cornucopia_DriedSquid": {
+					"Id": "Cornucopia_DriedSquid",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "squid_item" ]
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_DriedSquid",
+							}
+						],
+					"MinutesUntilReady": 1750,
+				},
+				"Cornucopia_SmokedSalmon": {
+					"Id": "Cornucopia_SmokedSalmon",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)139"
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SmokedSalmon",
+							}
+						],
+					"MinutesUntilReady": 1750,
+				}
+			},
+			"MoveEntries": 
+				[
+					{ "Id": "Cornucopia_DriedSquid", "BeforeId": "SmokedFish" },
+					{ "Id": "Cornucopia_SmokedSalmon", "BeforeId": "SmokedFish" }
+				]
+				
+		}
+    ]
+}

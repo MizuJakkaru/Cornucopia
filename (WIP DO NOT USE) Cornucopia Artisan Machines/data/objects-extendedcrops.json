@@ -56,7 +56,21 @@
           "Price": 300,
           "Edibility": -300,
           "ContextTags": [
-            "color_dark_green",
+            "color_orange",
+            "pickle_item"
+          ]
+        },
+        "Cornucopia_Sauerkraut": {
+          "Name": "Cornucopia_Sauerkraut",
+          "Category": -26,
+          "SpriteIndex": 141,
+          "DisplayName": "{{i18n:Sauerkraut_name}}",
+          "Description": "{{i18n:Sauerkraut_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 450,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_dark_yellow",
             "pickle_item"
           ]
         },
@@ -83,7 +97,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 120,
           "Edibility": 15,
-		  "IsDrink": true,
           "ContextTags": [
             "color_yellow",
             "oil_item"
@@ -98,7 +111,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 275,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_green",
             "mayo_item"

@@ -30,6 +30,20 @@
             "color_pink"
           ]
         },
+        "Cornucopia_Umeboshi": {
+          "Name": "Cornucopia_Umeboshi",
+          "Category": -26,
+          "SpriteIndex": 143,
+          "DisplayName": "{{i18n:Umeboshi_name}}",
+          "Description": "{{i18n:Umeboshi_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 250,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_pale_red_violet",
+            "pickle_item"
+          ]
+        },
         "Cornucopia_LemonZest": {
           "Name": "Cornucopia_LemonZest",
           "Category": 0,
@@ -56,20 +70,6 @@
           "ContextTags": [
             "color_lime",
             "dye_medium"
-          ]
-        },
-        "Cornucopia_Umeboshi": {
-          "Name": "Cornucopia_Umeboshi",
-          "Category": -26,
-          "SpriteIndex": 143,
-          "DisplayName": "{{i18n:Umeboshi_name}}",
-          "Description": "{{i18n:Umeboshi_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 250,
-          "Edibility": -300,
-          "ContextTags": [
-            "color_pale_red_violet",
-            "pickle_item"
           ]
         }
       }

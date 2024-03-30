@@ -11,7 +11,7 @@
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)(O)Cornucopia_Aloe",
+								"RequiredItemId": "(O)Cornucopia_Aloe",
 							}
 						],
 					"OutputItem":
@@ -54,7 +54,7 @@
 						],
 					"MinutesUntilReady": 120,
 				},
-				"Cornucopia_GroundNutmeg":{
+				"Cornucopia_GroundTurmeric":{
 					"Id": "Cornucopia_GroundTurmeric",
 					"Triggers": 
 						[

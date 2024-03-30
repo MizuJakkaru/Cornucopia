@@ -110,22 +110,6 @@
 										"MinutesUntilReady": 120,
 									},
 									{
-										"Id": "Cornucopia_HazelnutButter",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)408",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_HazelnutButter",
-												}
-											],
-										"MinutesUntilReady": 180,
-									},
-									{
 										"Id": "Cornucopia_HoneyButter",
 										"Triggers": 
 											[
@@ -188,6 +172,34 @@
 												}
 											],
 										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "Cornucopia_NutButter",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "nut_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_NutButter",
+													"ObjectInternalName": "{0} {{i18n:Cornucopia_NutButter}}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_NutButter %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "NutButter",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 360,
 									}
 								],
 							"LoadEffects":

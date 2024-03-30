@@ -44,6 +44,9 @@
 													"RequiredTags":[ "herb_item" ],
 												},
 												{
+													"RequiredTags":[ "nut_item" ],
+												},
+												{
 													"RequiredTags":[ "raw_spice_item" ],
 												},
 												{

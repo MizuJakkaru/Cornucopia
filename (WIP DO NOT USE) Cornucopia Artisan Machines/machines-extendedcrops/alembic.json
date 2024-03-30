@@ -22,7 +22,7 @@
 						],
 					"MinutesUntilReady": 360,
 				},
-				"Cornucopia_HabaneroExtract": {
+				"Cornucopia_JalapenoExtract": {
 					"Id": "Cornucopia_JalapenoExtract",
 					"Triggers": 
 						[
@@ -38,6 +38,7 @@
 						],
 					"MinutesUntilReady": 360,
 				},
+			},
 			"MoveEntries": [
 				{ "Id": "Cornucopia_HabaneroExtract", "BeforeId": "Cornucopia_EssentialOil" },
 				{ "Id": "Cornucopia_JalapenoExtract", "BeforeId": "Cornucopia_EssentialOil" }

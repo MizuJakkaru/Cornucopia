@@ -23,11 +23,9 @@
 					"MinutesUntilReady": 4000,
 				}
 			},
-			"MoveEntries": 
-				[
+			"MoveEntries": [
 					{ "Id": "Cornucopia_Umeboshi", "BeforeId": "Default_Jelly" }
-				]
-				
+			]
 		}
     ]
 }

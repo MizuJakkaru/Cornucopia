@@ -57,6 +57,46 @@
 					{ "Id": "Cornucopia_CoconutMilk", "BeforeId": "Default_Wine" },
 					{ "Id": "Cornucopia_NutMilk", "BeforeId": "Default_Juice" }
 				]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)12", "OutputRules" ],
+			"When": {
+				"Enable Vegetable Wine": true
+			},
+			"Entries": {
+				"Cornucopia_Wine": {
+					"Id": "Cornucopia_Wine",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "category_vegetable" ],
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "FLAVORED_ITEM Wine DROP_IN_ID",
+								"PreserveId": "DROP_IN",
+								"CopyPrice": true,
+								"PriceModifiers":
+									[
+										{
+											"Id": "VegetableJuice",
+											"Modification": "Multiply",
+											"Amount": 3,
+										}
+									],
+							}
+						],
+					"MinutesUntilReady": 10000,
+				}
+			},
+			"MoveEntries": 
+				[
+					{ "Id": "Cornucopia_Wine", "BeforeId": "Default_Juice" }
+				]
 		}
     ]
 }

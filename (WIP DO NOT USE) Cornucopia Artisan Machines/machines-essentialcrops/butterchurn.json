@@ -55,7 +55,10 @@
 						],
 					"MinutesUntilReady": 180,
 				}
-			}
+			},
+			"MoveEntries": [
+				{ "Id": "Cornucopia_PeanutButter", "BeforeId": "Cornucopia_NutButter" }
+			]
 		}
     ]
 }

@@ -78,7 +78,24 @@
 					{ "Id": "Cornucopia_Porter", "BeforeId": "Default_Juice" },
 					{ "Id": "Cornucopia_SparklingWine", "BeforeId": "Default_Wine" },
 					{ "Id": "Cornucopia_Stout", "BeforeId": "Default_Juice" }
-				]
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)12", "OutputRules" ],
+			"When": 
+				{
+					"HasMod": "Cornucopia.ArtisanMachines",
+					"HasReadLetter |contains=Cornucopia.ArtisanMachines_VegetableWineEnabled": true
+					
+				},
+			"MoveEntries": 
+				[
+					{ "Id": "Cornucopia_DarkAle", "BeforeId": "Cornucopia_Wine" },
+					{ "Id": "Cornucopia_Porter", "BeforeId": "Cornucopia_Wine" },
+					{ "Id": "Cornucopia_Stout", "BeforeId": "Cornucopia_Wine" }
+			]
 		}
     ]
 }

@@ -13,7 +13,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 300,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_green",
             "mayo_item"
@@ -28,7 +27,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 400,
           "Edibility": 5,
-		  "IsDrink": true,
           "ContextTags": [
             "color_green",
             "oil_item"
@@ -43,7 +41,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 220,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_white",
             "mayo_item"
@@ -98,7 +95,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 220,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_yellow_green",
             "mayo_item"
@@ -141,7 +137,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 120,
           "Edibility": 5,
-		  "IsDrink": true,
           "ContextTags": [
             "color_yellow",
             "oil_item"
@@ -175,6 +170,20 @@
             "pickle_item"
           ]
         },
+        "Cornucopia_SoyButter": {
+          "Name": "Cornucopia_SoyButter",
+          "Category": -26,
+          "SpriteIndex": 24,
+          "DisplayName": "{{i18n:SoyButter_name}}",
+          "Description": "{{i18n:SoyButter_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 230,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand",
+            "nut_butter_item"
+          ]
+        },
         "Cornucopia_SoyMilk": {
           "Name": "Cornucopia_SoyMilk",
           "Category": -26,
@@ -184,7 +193,6 @@
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 180,
           "Edibility": 20,
-		  "IsDrink": true,
           "ContextTags": [
             "color_white",
             "milk_item",
@@ -203,20 +211,6 @@
           "ContextTags": [
             "color_dark_brown",
             "dye_strong"
-          ]
-        },
-        "Cornucopia_SoyButter": {
-          "Name": "Cornucopia_SoyButter",
-          "Category": -26,
-          "SpriteIndex": 24,
-          "DisplayName": "{{i18n:SoyButter_name}}",
-          "Description": "{{i18n:SoyButter_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 230,
-          "Edibility": -300,
-          "ContextTags": [
-            "color_sand",
-            "nut_butter_item"
           ]
         },
         "Cornucopia_VanillaExtract": {
