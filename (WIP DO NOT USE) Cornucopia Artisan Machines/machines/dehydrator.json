@@ -1,7 +1,6 @@
 {
 	"Changes":
 	[
-		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -71,12 +70,10 @@
 					"MinutesUntilReady": 1750,
 				}
 			},
-			"MoveEntries": 
-				[
+			"MoveEntries": [
 					{ "Id": "Cornucopia_Prunes", "BeforeId": "DriedFruit" },
 					{ "Id": "Cornucopia_Raisins", "BeforeId": "DriedFruit" }
-				]
-				
+			]
 		}
     ]
 }

@@ -1,7 +1,6 @@
 {
 	"Changes":
 	[
-		// add custom mill recipes
 		{
 			"Action": "EditData",
 			"Target": "Data/Buildings",

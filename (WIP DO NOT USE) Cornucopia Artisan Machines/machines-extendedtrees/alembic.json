@@ -4,7 +4,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
+			"TargetField": [ "(BC)Cornucopia_Alembic", "OutputRules" ],
 			"Entries": {
 				"Cornucopia_AlmondExtract": {
 					"Id": "Cornucopia_AlmondExtract",
