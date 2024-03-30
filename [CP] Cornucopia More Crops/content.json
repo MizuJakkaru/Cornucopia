@@ -31,6 +31,11 @@
 			"Default": "false",
 			"Description": "Disables grapes and/or white grapes as bushes and reinstates them as standard trellis crops."
 		},
+		"Enhanced Mixed Seeds": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "With Item Extensions Framework, adds some Cornucopia crops to vanilla mixed seeds."
+		},
 	},
 	"DynamicTokens": [
 		//crop ExtraHarvestChance values for later testing
@@ -147,7 +152,12 @@
 		{
 			"Action": "Include",
 			"When": {"HasMod |contains=spacechase0.SpaceCore": true},
-			"FromFile": "data/objectcategories.json",
-		}
+			"FromFile": "data/objectcategories.json, data/multiyieldcrops.json",
+		},
+		/*{
+			"Action": "Include",
+			"When": {"HasMod |contains=mistyspring.ItemExtensions": true},
+			"FromFile": "data/mixedseeds.json",
+		}*/
     ]
 }

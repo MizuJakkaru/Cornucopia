@@ -321,7 +321,7 @@
 					"DaysInPhase": [ 1, 2, 2, 2, 2 ],
 					"HarvestItemId": "Cornucopia_Groundcherries",
 					"Texture": "Cornucopia.MoreCrops/Crops",
-					"SpriteIndex": 46,
+					"SpriteIndex": 40,
 					"RegrowDays": 3,
 					"HarvestMinStack": 2,
 				},

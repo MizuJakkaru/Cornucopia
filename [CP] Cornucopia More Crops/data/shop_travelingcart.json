@@ -10,7 +10,7 @@
 		"Cornucopia_Soybeans": {
 			"Id": "Cornucopia_Soybeans",
 			"ItemId": "Cornucopia_Soybeans",
-			"Condition": "SYNCED_RANDOM day cart_soy_bean 0.25",
+			"Condition": "SYNCED_RANDOM day cart_soy_bean 0.20",
 			"IgnoreShopPriceModifiers": true,
 			"Price": 2000,
 			"AvailableStock": 1,			
