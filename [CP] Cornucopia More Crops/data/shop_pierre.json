@@ -726,7 +726,7 @@
 	  "Target": "Data/Shops",
       "TargetField": [ "SeedShop", "Items" ],
       "When": {
-        "Enable Extended Crops Pack": true
+        "Enable Extended Trees Pack": true
       },
 	  "Entries": {
 		"Cornucopia_AlmondSapling": {
