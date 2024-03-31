@@ -36,6 +36,16 @@
 			"Default": "true",
 			"Description": "With Item Extensions Framework, adds some Cornucopia crops to vanilla mixed seeds."
 		},
+		"Rename Cheese Press": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Changes the name of the Cheese Press to 'Press', and the description to include tofu."
+		},
+		"Retexture Cheese Press": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Changes the image of the Cheese Press to remove the cheese icon."
+		},
 	},
 	"DynamicTokens": [
 		//crop ExtraHarvestChance values for later testing
@@ -154,10 +164,10 @@
 			"When": {"HasMod |contains=spacechase0.SpaceCore": true},
 			"FromFile": "data/objectcategories.json, data/multiyieldcrops.json",
 		},
-		/*{
+		{
 			"Action": "Include",
 			"When": {"HasMod |contains=mistyspring.ItemExtensions": true},
 			"FromFile": "data/mixedseeds.json",
-		}*/
+		}
     ]
 }

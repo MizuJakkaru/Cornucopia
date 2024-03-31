@@ -69,6 +69,18 @@
 					"0": "Cornucopia_CocoaPod 1 246 1 245 1 -5 1"
 				}
 			}
+		},
+		//rename and retexture cheese press
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"When": {"Rename Cheese Press": true},
+			"Fields": {
+				"16": {
+					"DisplayName": "{{i18n:Press_name}}",
+					"Description": "{{i18n:Press_description}}"
+				}
+			}
 		}
 	]
 }
