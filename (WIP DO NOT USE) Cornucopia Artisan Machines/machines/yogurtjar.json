@@ -60,6 +60,22 @@
 										"MinutesUntilReady": 200,
 									},
 									{
+										"Id": "Cornucopia_HoneyYogurt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)184",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_HoneyYogurt",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
 										"Id": "Cornucopia_Yogurt",
 										"Triggers": 
 											[
@@ -96,34 +112,6 @@
 														[
 															{
 																"Id": "FruitYogurt",
-																"Modification": "Multiply",
-																"Amount": 1.75,
-															}
-														],
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_HoneyYogurt",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)340",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_HoneyYogurt",
-													"ObjectInternalName": "{0} {{i18n:HoneyYogurt_name}}",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_HoneyYogurt %PRESERVED_DISPLAY_NAME]",
-													"PreserveId": "DROP_IN",
-													"CopyPrice": true,
-													"PriceModifiers":
-														[
-															{
-																"Id": "HoneyYogurt",
 																"Modification": "Multiply",
 																"Amount": 1.75,
 															}
