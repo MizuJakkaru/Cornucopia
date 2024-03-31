@@ -19,6 +19,19 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_BrinedOlives",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 4000,
@@ -35,6 +48,19 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_PickleSpears",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 4000,

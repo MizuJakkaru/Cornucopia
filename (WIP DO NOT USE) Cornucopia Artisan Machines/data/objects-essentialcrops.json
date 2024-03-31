@@ -132,21 +132,6 @@
             "nut_butter_item"
           ]
         },
-        "Cornucopia_PeanutOil": {
-          "Name": "Cornucopia_PeanutOil",
-          "Category": -26,
-          "SpriteIndex": 135,
-          "DisplayName": "{{i18n:PeanutOil_name}}",
-          "Description": "{{i18n:PeanutOil_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 120,
-          "Edibility": 5,
-		  "IsDrink": true,
-          "ContextTags": [
-            "color_yellow",
-            "oil_item"
-          ]
-        },
         "Cornucopia_Pepper": {
           "Name": "Cornucopia_Pepper",
           "Category": -26,

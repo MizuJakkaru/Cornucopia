@@ -18,6 +18,19 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_Umeboshi",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 4000,

@@ -21,22 +21,6 @@
 							}
 						],
 					"MinutesUntilReady": 960,
-				},
-				"Cornucopia_PeanutOil": {
-					"Id": "Cornucopia_PeanutOil",
-					"Triggers": 
-						[
-							{
-								"RequiredItemId": "(O)Cornucopia_Peanut",
-							}
-						],
-					"OutputItem":
-						[
-							{
-								"ItemId": "(O)Cornucopia_PeanutOil",
-							}
-						],
-					"MinutesUntilReady": 960,
 				}
 			}
 		}
