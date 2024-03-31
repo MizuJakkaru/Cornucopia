@@ -6,6 +6,11 @@
 			"Default": "true",
 			"Description": "(Recommended) Adds a large variety of 30+ flowers and flowering trees in addition to the essential pack."
 		},
+		"Rose Color Explosion": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Gives each of the seasonal roses four different colors that can be harvested. (Extra roses are excluded from perfection requirements.)"
+		},
 	},
 	"DynamicTokens": [
 		//crop ExtraHarvestChance values for later testing
