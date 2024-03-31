@@ -21,6 +21,20 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_Kimchi",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
+								
 							}
 						],
 					"MinutesUntilReady": 2160,
@@ -40,6 +54,19 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_Sauerkraut",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 4000,

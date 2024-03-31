@@ -133,14 +133,18 @@
 								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_PickledFish %PRESERVED_DISPLAY_NAME]",
 								"PreserveId": "DROP_IN",
 								"CopyPrice": true,
-								"PriceModifiers":
-									[
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
 										{
-											"Id": "PickledFish",
 											"Modification": "Multiply",
 											"Amount": 1.5,
-										}
-									],
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 4000,
