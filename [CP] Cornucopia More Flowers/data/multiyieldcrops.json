@@ -43,7 +43,7 @@
 								{
 									"Id": "RoseSpring4",
 									"ItemId": "(O)Cornucopia_RoseSpring4",
-									"PerItemCondition": "RANDOM 0.1",
+									"PerItemCondition": "RANDOM 0.05",
 								},
 							]
 						}
@@ -73,7 +73,7 @@
 								{
 									"Id": "RoseSummer4",
 									"ItemId": "(O)Cornucopia_RoseSummer4",
-									"PerItemCondition": "RANDOM 0.1",
+									"PerItemCondition": "RANDOM 0.05",
 								},
 							]
 						}
@@ -103,7 +103,7 @@
 								{
 									"Id": "RoseFall4",
 									"ItemId": "(O)Cornucopia_RoseFall4",
-									"PerItemCondition": "RANDOM 0.1",
+									"PerItemCondition": "RANDOM 0.05",
 								},
 							]
 						}
@@ -133,7 +133,7 @@
 								{
 									"Id": "RoseWinter4",
 									"ItemId": "(O)Cornucopia_RoseWinter4",
-									"PerItemCondition": "RANDOM 0.1",
+									"PerItemCondition": "RANDOM 0.05",
 								},
 							]
 						}
