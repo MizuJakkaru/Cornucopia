@@ -10,11 +10,46 @@
 		"Cornucopia_Soybeans": {
 			"Id": "Cornucopia_Soybeans",
 			"ItemId": "Cornucopia_Soybeans",
-			"Condition": "SYNCED_RANDOM day cart_soy_bean 0.20",
+			"Condition": "SYNCED_RANDOM day cornucopia_cart_soy_bean 0.20",
 			"IgnoreShopPriceModifiers": true,
 			"Price": 2000,
 			"AvailableStock": 1,			
-		}
+		},
+		"Cornucopia_CommonSeeds": {
+          "Price": -1,
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "Id": "Lumisteria.MtVapius_LottiShop.StockCommon",
+          "RandomItemId": [
+            "Lumisteria.MtVapius_WhiteGrape",
+            "Lumisteria.MtVapius_Basil",
+            "Lumisteria.MtVapius_Olive",
+            "Lumisteria.MtVapius_OrangeBlossom",
+            "Lumisteria.MtVapius_LambLettuce",
+            "Lumisteria.MtVapius_Sunroot",
+            "Lumisteria.MtVapius_BlackChanterelle",
+            "Lumisteria.MtVapius_Porchini",
+            "Lumisteria.MtVapius_PurpleCupFlower",
+            "Lumisteria.MtVapius_WoodSilkFlower",
+            "Lumisteria.MtVapius_LaceFlower",
+            "Lumisteria.MtVapius_BirchSap",
+            "Lumisteria.MtVapius_WoodgoatMushroom",
+            "Lumisteria.MtVapius_Reed",
+            "Lumisteria.MtVapius_Nevaril",
+          ],
+          "Condition": "SYNCED_RANDOM day cornucopia_cart_common_seeds 0.2",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                0.7,
+                1.1,
+                2.2,
+                3
+              ]
+            }
+          ]
+        },
       }
     },
   ]
