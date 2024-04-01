@@ -102,7 +102,7 @@
                     "Target": ["Fields", "Krobus", 1],
                     "Value": "Cornucopia_Turnip", 
                     "Delimiter": " "
-                }
+                },
 			//Villagers
 				{
                     "Operation": "Append",
@@ -112,9 +112,8 @@
                 }
             ]
         },
-    ],
+
 	// add gift tastes - extended crops
-	"Changes": [
         {
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
@@ -154,7 +153,7 @@
 			//Spouses/Krobus
 				{
                     "Operation": "Append",
-                    "Target": ["Fields", "Elliot", 1],
+                    "Target": ["Fields", "Elliott", 1],
                     "Value": "Cornucopia_SparklingWine", 
                     "Delimiter": " "
                 },
@@ -251,9 +250,8 @@
                 }
             ]
         },
-    ],
+
 	// add gift tastes - extended trees
-	"Changes": [
         {
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
@@ -319,9 +317,8 @@
 				
             ]
         },
-    ],
+
 	// add gift tastes - herbs
-	"Changes": [
         // add gift tastes
         {
             "Action": "EditData",
@@ -362,7 +359,7 @@
 			//Spouses/Krobus
 				{
                     "Operation": "Append",
-                    "Target": ["Fields", "Elliot", 1],
+                    "Target": ["Fields", "Elliott", 1],
                     "Value": "Cornucopia_LicoriceRoot", 
                     "Delimiter": " "
                 },

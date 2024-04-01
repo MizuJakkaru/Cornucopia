@@ -58,9 +58,8 @@
                 }
             ]
         },
-    ],
+		
 	// add gift tastes - extended flowers
-	"Changes": [
         {
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",

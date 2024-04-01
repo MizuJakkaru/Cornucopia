@@ -153,7 +153,7 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/letters.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json"
+			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json"
 		},
 		{
 			"Action": "Include",
