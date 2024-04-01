@@ -23,6 +23,31 @@
 						}
 					}
 				},
+				"Cornucopia_BellPepperSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"NewPhase": 4,
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "Bell Pepper yellow",
+									"ItemId": "(O)Cornucopia_BellPepperYellow",
+									"PerItemCondition": "RANDOM 0.1",
+								},
+								{
+									"Id": "Bell Pepper orange",
+									"ItemId": "(O)Cornucopia_BellPepperOrange",
+									"PerItemCondition": "RANDOM 0.1",
+								},
+								{
+									"Id": "Bell Pepper green",
+									"ItemId": "(O)Cornucopia_BellPepperGreen",
+									"PerItemCondition": "RANDOM 0.1",
+								},
+							]
+						}
+					}
+				},
 				"Cornucopia_BambooSeeds": {
 					"YieldOverrides": {
 						"6": { //number of phase which you harvest to get this (0=seed)

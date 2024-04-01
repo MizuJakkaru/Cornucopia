@@ -268,6 +268,54 @@
 			"color_poppyseed"
           ]
         },
+		 "Cornucopia_BellPepperYellow": {
+          "Name": "Cornucopia_BellPepperYellow",
+          "Type": "Fruit",
+          "Category": -79,
+          "SpriteIndex": 40,
+          "DisplayName": "{{i18n:BellPepper_name}}",
+          "Description": "{{i18n:BellPepper_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 70,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_yellow",
+			"cornucopia_crop_produce"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		 "Cornucopia_BellPepperOrange": {
+          "Name": "Cornucopia_BellPepperOrange",
+          "Type": "Fruit",
+          "Category": -79,
+          "SpriteIndex": 41,
+          "DisplayName": "{{i18n:BellPepper_name}}",
+          "Description": "{{i18n:BellPepper_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 70,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_orange",
+			"cornucopia_crop_produce"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		 "Cornucopia_BellPepperGreen": {
+          "Name": "Cornucopia_BellPepperGreen",
+          "Type": "Fruit",
+          "Category": -79,
+          "SpriteIndex": 42,
+          "DisplayName": "{{i18n:BellPepper_name}}",
+          "Description": "{{i18n:BellPepper_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 70,
+          "Edibility": 15,
+          "ContextTags": [
+            "color_green",
+			"cornucopia_crop_produce"
+          ],
+		  "ExcludeFromShippingCollection": true
+        }
       }
     },
     //Extended crops produce

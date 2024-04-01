@@ -115,7 +115,8 @@
                     "Target": ["Fields", "Gus", 1],
                     "Value": "Cornucopia_Basil", 
                     "Delimiter": " "
-                }{
+                },
+				{
                     "Operation": "Append",
                     "Target": ["Fields", "Leo", 1],
                     "Value": "Cornucopia_Sugarcane", 
