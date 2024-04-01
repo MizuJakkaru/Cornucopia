@@ -14,11 +14,14 @@
           "DisplayName": "{{i18n:Basil_name}}",
           "Description": "{{i18n:Basil_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 35,
+          "Price": 30,
           "Edibility": 8,
           "ContextTags": [
             "herb_item",
-            "color_dark_green"
+            "color_dark_green",
+			"cornucopia_seed",
+			"cornucopia_seed_essential",
+			"cornucopia_seed_common"
           ]
         },
         "Cornucopia_BellPepper": {
@@ -178,6 +181,20 @@
             "bean_item",
             "seedmaker_banned",
             "color_yellow"
+          ]
+        },
+        "Cornucopia_Spinach": {
+          "Name": "Cornucopia_Spinach",
+          "Type": "Vegetable",
+          "Category": -75,
+          "SpriteIndex": 82,
+          "DisplayName": "{{i18n:Spinach_name}}",
+          "Description": "{{i18n:Spinach_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 35,
+          "Edibility": 20,
+          "ContextTags": [
+            "color_dark_green"
           ]
         },
         "Cornucopia_Sugarcane": {
@@ -443,7 +460,7 @@
           "DisplayName": "{{i18n:CanolaFlower_name}}",
           "Description": "{{i18n:CanolaFlower_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 50,
+          "Price": 40,
           "Edibility": 18,
           "ContextTags": [
             "color_yellow"
@@ -828,20 +845,6 @@
           "ContextTags": [
             "mushroom_item",
             "color_brown"
-          ]
-        },
-        "Cornucopia_Spinach": {
-          "Name": "Cornucopia_Spinach",
-          "Type": "Vegetable",
-          "Category": -75,
-          "SpriteIndex": 82,
-          "DisplayName": "{{i18n:Spinach_name}}",
-          "Description": "{{i18n:Spinach_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 35,
-          "Edibility": 20,
-          "ContextTags": [
-            "color_dark_green"
           ]
         },
         "Cornucopia_SugarBeet": {
@@ -1364,7 +1367,17 @@
           "DisplayName": "{{i18n:RaspberrySeeds_name}}",
           "Description": "{{i18n:RaspberrySeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 475
+          "Price": 250
+        },
+        "Cornucopia_SpinachSeeds": {
+          "Name": "Cornucopia_SpinachSeeds",
+          "Type": "Seed",
+          "Category": -74,
+          "SpriteIndex": 83,
+          "DisplayName": "{{i18n:SpinachSeeds_name}}",
+          "Description": "{{i18n:SpinachSeeds_description}}",
+          "Texture": "Cornucopia.MoreCrops/Objects",
+          "Price": 5
         },
         "Cornucopia_SugarcaneSeeds": {
           "Name": "Cornucopia_SugarcaneSeeds",
@@ -1494,7 +1507,7 @@
           "DisplayName": "{{i18n:BlackCurrantsSeeds_name}}",
           "Description": "{{i18n:BlackCurrantsSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 550
+          "Price": 425
         },
         "Cornucopia_BlueAgaveSeeds": {
           "Name": "Cornucopia_BlueAgaveSeeds",
@@ -1634,7 +1647,7 @@
           "DisplayName": "{{i18n:ElderberriesSeeds_name}}",
           "Description": "{{i18n:ElderberriesSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 550
+          "Price": 350
         },
         "Cornucopia_GinsengSeeds": {
           "Name": "Cornucopia_GinsengSeeds",
@@ -1654,7 +1667,7 @@
           "DisplayName": "{{i18n:GooseberrySeeds_name}}",
           "Description": "{{i18n:GooseberrySeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 550
+          "Price": 500
         },
         "Cornucopia_GreenPeasSeeds": {
           "Name": "Cornucopia_GreenPeasSeeds",
@@ -1714,7 +1727,7 @@
           "DisplayName": "{{i18n:JuniperBerriesSeeds_name}}",
           "Description": "{{i18n:JuniperBerriesSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 650
+          "Price": 200
         },
         "Cornucopia_KidneyBeansSeeds": {
           "Name": "Cornucopia_KidneyBeansSeeds",
@@ -1816,16 +1829,6 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 500
         },
-        "Cornucopia_SpinachSeeds": {
-          "Name": "Cornucopia_SpinachSeeds",
-          "Type": "Seed",
-          "Category": -74,
-          "SpriteIndex": 83,
-          "DisplayName": "{{i18n:SpinachSeeds_name}}",
-          "Description": "{{i18n:SpinachSeeds_description}}",
-          "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 5
-        },
         "Cornucopia_SugarBeetSeeds": {
           "Name": "Cornucopia_SugarBeetSeeds",
           "Type": "Seed",
@@ -1925,7 +1928,7 @@
           "DisplayName": "{{i18n:BayLeavesSeeds_name}}",
           "Description": "{{i18n:BayLeavesSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 400
+          "Price": 325
         },
         "Cornucopia_CatnipSeeds": {
           "Name": "Cornucopia_CatnipSeeds",

@@ -91,6 +91,13 @@
 			"IgnoreShopPriceModifiers": true,//"Price": 950,
 			"ApplyProfitMargins": null,
 		},
+		"Cornucopia_SpinachSeeds": {
+			"Id": "Cornucopia_SpinachSeeds",
+			"ItemId": "Cornucopia_SpinachSeeds",
+			"Condition": "SEASON spring fall",
+			"IgnoreShopPriceModifiers": true,//"Price": 15,
+			
+		},
 		"Cornucopia_WatermelonSeeds": {
 			"Id": "Cornucopia_WatermelonSeeds",
 			"ItemId": "Cornucopia_WatermelonSeeds",
@@ -125,6 +132,7 @@
 			{ "Id": "Cornucopia_OnionSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_PeanutSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_RaspberrySeeds", "BeforeId": "(O)628" },
+			{ "Id": "Cornucopia_SpinachSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_VanillaSeeds", "BeforeId": "(O)628" },
 			{ "Id": "Cornucopia_WatermelonSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_ZucchiniSeeds", "BeforeId": "GrassStarter" }
@@ -376,13 +384,6 @@
 			"IgnoreShopPriceModifiers": true,//"Price": 80,
 			
 		},
-		"Cornucopia_SpinachSeeds": {
-			"Id": "Cornucopia_SpinachSeeds",
-			"ItemId": "Cornucopia_SpinachSeeds",
-			"Condition": "SEASON spring fall",
-			"IgnoreShopPriceModifiers": true,//"Price": 15,
-			
-		},
 		"Cornucopia_SugarBeetSeeds": {
 			"Id": "Cornucopia_SugarBeetSeeds",
 			"ItemId": "Cornucopia_SugarBeetSeeds",
@@ -447,7 +448,6 @@
 			{ "Id": "Cornucopia_QuinoaSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_RedOnionSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_ShallotSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_SpinachSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_SugarBeetSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_SweetPotatoSeeds", "BeforeId": "GrassStarter" },
 			{ "Id": "Cornucopia_WasabiRootSeeds", "BeforeId": "GrassStarter" },
