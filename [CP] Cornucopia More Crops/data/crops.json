@@ -165,7 +165,7 @@
 					"SpriteIndex": 23
 				},
 				"Cornucopia_AsparagusSeeds": {
-					"Seasons": [ "summer" ],
+					"Seasons": [ "spring" ],
 					"DaysInPhase": [ 1, 1, 2, 1 ],
 					"HarvestItemId": "Cornucopia_Asparagus",
 					"Texture": "Cornucopia.MoreCrops/Crops",
