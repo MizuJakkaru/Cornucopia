@@ -63,11 +63,11 @@
 		},
 		{
 			"Name": "75Percent",
-			"Value": "0.42"
+			"Value": "0.33"
 		},
 		{
 			"Name": "90Percent",
-			"Value": "0.45"
+			"Value": "0.36"
 		},
 	],
     "Changes": [	

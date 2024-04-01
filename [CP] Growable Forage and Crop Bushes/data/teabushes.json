@@ -12,11 +12,12 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_CommonMushroomSeeds": {
-					"AgeToProduce": 30,
+					"AgeToProduce": 20,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring","fall"],
 					"ItemsProduced": [
 						{
+							"Condition": "DAY_OF_MONTH even",
 							"ItemId": "(O)404",
 							"Chance": 1.0,
 							"MinStack": 1,
@@ -41,7 +42,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_MorelSeeds": {
-					"AgeToProduce": 30,
+					"AgeToProduce": 22,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring"],
 					"ItemsProduced": [
@@ -71,7 +72,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_ChanterelleSeeds": {
-					"AgeToProduce": 30,
+					"AgeToProduce": 22,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
 					"ItemsProduced": [
@@ -101,7 +102,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_SalmonberrySeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 10,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring"],
 					"ItemsProduced": [
@@ -131,7 +132,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_BlackberrySeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 14,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
 					"ItemsProduced": [
@@ -161,7 +162,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_HollySeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 12,
 					"DayToBeginProducing": 0,
 					"Seasons": ["winter"],
 					"ItemsProduced": [
@@ -192,7 +193,7 @@
 				},
 			"Entries": {
 				"(O)433": {
-					"AgeToProduce": 16,
+					"AgeToProduce": 14,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring, summer"],
 					"ItemsProduced": [
@@ -222,7 +223,7 @@
 				},
 			"Entries": {
 				"(O)481": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 12,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],
 					"ItemsProduced": [
@@ -230,7 +231,7 @@
 							"Condition": "DAY_OF_MONTH 4 8 12 16 20 24 28",
 							"ItemId": "(O)258",
 							"Chance": 1.0,
-							"MinStack": 3,
+							"MinStack": 2,
 							"MaxStack": 4,
 							"QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
 						}
@@ -252,7 +253,7 @@
 				},
 			"Entries": {
 				"(O)802": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],
 					"ItemsProduced": [

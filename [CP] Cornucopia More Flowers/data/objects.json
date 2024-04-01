@@ -613,7 +613,7 @@
           "DisplayName": "{{i18n:RosePrismatic_name}}",
           "Description": "{{i18n:RosePrismatic_description}}",
           "Texture": "Cornucopia.MoreFlowers/Objects",
-          "Price": 5000,
+          "Price": 1500,
           "Edibility": 18,
           "ContextTags": [
             "color_prismatic",

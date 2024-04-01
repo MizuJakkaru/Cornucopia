@@ -92,7 +92,7 @@
 			"Displayname": "{{i18n:CommonMushroomSeeds_name}}",
 			"Description": "{{i18n:CommonMushroomSeeds_description}}",
 			"Texture": "Cornucopia.GrowableForage/objects",
-			"Price": 375,
+			"Price": 150,
 		},
       }
     },
@@ -112,7 +112,7 @@
 			"Displayname": "{{i18n:MorelSeeds_name}}",
 			"Description": "{{i18n:MorelSeeds_description}}",
 			"Texture": "Cornucopia.GrowableForage/objects",
-			"Price": 500,
+			"Price": 225,
 		},
       }
     },
@@ -132,7 +132,7 @@
 			"Displayname": "{{i18n:ChanterelleSeeds_name}}",
 			"Description": "{{i18n:ChanterelleSeeds_description}}",
 			"Texture": "Cornucopia.GrowableForage/objects",
-			"Price": 500,
+			"Price": 400,
 		},
       }
     },
@@ -152,7 +152,7 @@
 			"Displayname": "{{i18n:SalmonberrySeeds_name}}",
 			"Description": "{{i18n:SalmonberrySeeds_description}}",
 			"Texture": "Cornucopia.GrowableForage/objects",
-			"Price": 450,
+			"Price": 150,
 		},
       }
     },
@@ -172,7 +172,7 @@
 			"Displayname": "{{i18n:BlackberrySeeds_name}}",
 			"Description": "{{i18n:BlackberrySeeds_description}}",
 			"Texture": "Cornucopia.GrowableForage/objects",
-			"Price": 475,
+			"Price": 250,
 		},
       }
     },

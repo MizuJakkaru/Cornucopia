@@ -47,7 +47,7 @@
 					"TextureSpriteRow": 6,
 				},
 				"(O)Cornucopia_LilacSeeds": {
-					"AgeToProduce": 18,
+					"AgeToProduce": 12,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring", "summer"],
 					"ItemsProduced": [

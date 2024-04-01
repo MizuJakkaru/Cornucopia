@@ -8,7 +8,7 @@
 			//"When": {"Enable Essential Pack": true},
 			"Entries": {
 				"(O)Cornucopia_OliveSeeds": {
-					"AgeToProduce": 40,
+					"AgeToProduce": 30,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
 					"ItemsProduced": [
@@ -25,7 +25,7 @@
 					"TextureSpriteRow": 18,
 				},
 				"(O)Cornucopia_RaspberrySeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 14,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],
 					"ItemsProduced": [
@@ -43,7 +43,7 @@
 					"TextureSpriteRow": 8,
 				},
 				"(O)Cornucopia_PeppercornSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring","summer","fall"],
 					"ItemsProduced": [
@@ -60,7 +60,7 @@
 					"TextureSpriteRow": 24,
 				},
 				"(O)Cornucopia_VanillaSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring"],
 					"ItemsProduced": [
@@ -121,7 +121,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_BlackCurrantsSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],
 					"ItemsProduced": [
@@ -139,7 +139,7 @@
 					"TextureSpriteRow": 12,
 				},
 				"(O)Cornucopia_ChickenoftheWoodsSeeds": {
-					"AgeToProduce": 30,
+					"AgeToProduce": 22,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer", "fall"],
 					"ItemsProduced": [
@@ -157,7 +157,7 @@
 					"TextureSpriteRow": 6,
 				},
 				"(O)Cornucopia_ElderberriesSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 14,
 					"DayToBeginProducing": 0,
 					"Seasons": ["winter"],
 					"ItemsProduced": [
@@ -175,7 +175,7 @@
 					"TextureSpriteRow": 16,
 				},
 				"(O)Cornucopia_GooseberrySeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],
 					"ItemsProduced": [
@@ -193,7 +193,7 @@
 					"TextureSpriteRow": 22,
 				},
 				"(O)Cornucopia_JuniperBerriesSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 14,
 					"DayToBeginProducing": 0,
 					"Seasons": ["winter"],
 					"ItemsProduced": [
@@ -211,7 +211,7 @@
 					"TextureSpriteRow": 14,
 				},
 				"(O)Cornucopia_ShiitakeSeeds": {
-					"AgeToProduce": 30,
+					"AgeToProduce": 22,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring", "fall"],
 					"ItemsProduced": [
@@ -272,7 +272,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_BayLeavesSeeds": {
-					"AgeToProduce": 20,
+					"AgeToProduce": 12,
 					"DayToBeginProducing": 0,
 					"Seasons": ["winter"],
 					"ItemsProduced": [
