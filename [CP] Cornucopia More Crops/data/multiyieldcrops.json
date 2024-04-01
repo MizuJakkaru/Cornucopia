@@ -12,13 +12,45 @@
 								{
 									"Id": "Canola Flower seeds",
 									"ItemId": "(O)Cornucopia_CanolaFlowerSeeds",
-									"MinStack": 0,
-									"MaxStack": 2
+									"PerItemCondition": "RANDOM 0.5",
+								},
+								{
+									"Id": "Canola Flower seeds",
+									"ItemId": "(O)Cornucopia_CanolaFlowerSeeds",
+									"PerItemCondition": "RANDOM 0.5",
 								},
 							]
 						}
 					}
-				}
+				},
+				"Cornucopia_BambooSeeds": {
+					"YieldOverrides": {
+						"6": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "Bamboo seeds",
+									"ItemId": "(O)Cornucopia_BambooSeeds",
+									"PerItemCondition": "RANDOM 0.5",
+								},
+							]
+						}
+					}
+				},
+				"Cornucopia_CilantroSeeds": {
+					"YieldOverrides": {
+						"4": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "Cilantro seeds",
+									"ItemId": "(O)Cornucopia_CilantroSeeds",
+									"PerItemCondition": "RANDOM 0.7",
+								},
+							]
+						}
+					}
+				},
 			}
 		}
 	]

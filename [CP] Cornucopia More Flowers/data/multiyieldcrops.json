@@ -1,0 +1,24 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CropExtensionData",
+			"Entries": {
+				"Cornucopia_LotusSeeds": {
+					"YieldOverrides": {
+						"5": { //number of phase which you harvest to get this (0=seed)
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "Lotus seeds",
+									"ItemId": "(O)Cornucopia_LotusSeeds",
+									"PerItemCondition": "RANDOM 0.5",
+								},
+							]
+						}
+					}
+				},
+			}
+		}
+	]
+}
