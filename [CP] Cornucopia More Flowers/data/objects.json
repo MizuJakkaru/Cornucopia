@@ -1510,7 +1510,8 @@
           "Price": 75,
           "Edibility": 18,
           "ContextTags": [
-            "color_red"
+            "color_red",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Jasmine": {
@@ -1537,7 +1538,8 @@
           "Price": 60,
           "Edibility": 18,
           "ContextTags": [
-            "color_white"
+            "color_white",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Wisteria": {
@@ -1551,7 +1553,8 @@
           "Price": 60,
           "Edibility": -20,
           "ContextTags": [
-            "color_purple"
+            "color_purple",
+			"poisonous_item"
           ]
         },
         "Cornucopia_YlangYlang": {
