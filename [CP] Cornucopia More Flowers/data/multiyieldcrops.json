@@ -28,22 +28,22 @@
 								{
 									"Id": "RoseSpring1",
 									"ItemId": "(O)Cornucopia_RoseSpring1",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseSpring2",
 									"ItemId": "(O)Cornucopia_RoseSpring2",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseSpring3",
 									"ItemId": "(O)Cornucopia_RoseSpring3",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseSpring4",
 									"ItemId": "(O)Cornucopia_RoseSpring4",
-									"PerItemCondition": "RANDOM 0.3",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 							]
 						}
@@ -58,22 +58,22 @@
 								{
 									"Id": "RoseSummer1",
 									"ItemId": "(O)Cornucopia_RoseSummer1",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseSummer2",
 									"ItemId": "(O)Cornucopia_RoseSummer2",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseSummer3",
 									"ItemId": "(O)Cornucopia_RoseSummer3",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseSummer4",
 									"ItemId": "(O)Cornucopia_RoseSummer4",
-									"PerItemCondition": "RANDOM 0.3",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 							]
 						}
@@ -88,22 +88,22 @@
 								{
 									"Id": "RoseFall1",
 									"ItemId": "(O)Cornucopia_RoseFall1",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseFall2",
 									"ItemId": "(O)Cornucopia_RoseFall2",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseFall3",
 									"ItemId": "(O)Cornucopia_RoseFall3",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseFall4",
 									"ItemId": "(O)Cornucopia_RoseFall4",
-									"PerItemCondition": "RANDOM 0.3",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 							]
 						}
@@ -118,22 +118,22 @@
 								{
 									"Id": "RoseWinter1",
 									"ItemId": "(O)Cornucopia_RoseWinter1",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseWinter2",
 									"ItemId": "(O)Cornucopia_RoseWinter2",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseWinter3",
 									"ItemId": "(O)Cornucopia_RoseWinter3",
-									"PerItemCondition": "RANDOM 0.5",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 								{
 									"Id": "RoseWinter4",
 									"ItemId": "(O)Cornucopia_RoseWinter4",
-									"PerItemCondition": "RANDOM 0.3",
+									"PerItemCondition": "RANDOM 0.1",
 								},
 							]
 						}
