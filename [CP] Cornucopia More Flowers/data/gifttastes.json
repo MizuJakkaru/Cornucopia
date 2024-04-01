@@ -55,6 +55,12 @@
                     "Target": ["Fields", "Jas", 1],
                     "Value": "Cornucopia_PinkCat", 
                     "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 1],
+                    "Value": "Cornucopia_Lotus", 
+                    "Delimiter": " "
                 }
             ]
         },

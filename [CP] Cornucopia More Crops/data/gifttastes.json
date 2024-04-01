@@ -106,8 +106,25 @@
 			//Villagers
 				{
                     "Operation": "Append",
+                    "Target": ["Fields", "Demetrius", 1],
+                    "Value": "Cornucopia_Kiwifruit", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
                     "Target": ["Fields", "Gus", 1],
                     "Value": "Cornucopia_Basil", 
+                    "Delimiter": " "
+                }{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 1],
+                    "Value": "Cornucopia_Sugarcane", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lewis", 1],
+                    "Value": "Cornucopia_Olive", 
                     "Delimiter": " "
                 }
             ]
@@ -238,12 +255,6 @@
                 },
 				{
                     "Operation": "Append",
-                    "Target": ["Fields", "Lewis", 1],
-                    "Value": "Cornucopia_Olive", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
                     "Target": ["Fields", "Marnie", 1],
                     "Value": "Cornucopia_Turnip", 
                     "Delimiter": " "
@@ -311,7 +322,13 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Leo", 1],
-                    "Value": "Cornucopia_Durian", 
+                    "Value": "Cornucopia_Durian Cornucopia_Pomelo", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Linus", 1],
+                    "Value": "Cornucopia_Lychee", 
                     "Delimiter": " "
                 }
 				
@@ -372,7 +389,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Penny", 7],				//hate
-                    "Value": "Cornucopia_Rosemary", 
+                    "Value": "Cornucopia_Fennel", 
                     "Delimiter": " "
                 },
 			//Villagers
@@ -384,8 +401,20 @@
                 },
 				{
                     "Operation": "Append",
+                    "Target": ["Fields", "Evelyn", 1],
+                    "Value": "Cornucopia_Rosemary", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
                     "Target": ["Fields", "Gus", 3],
                     "Value": "herb_item", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 1],
+                    "Value": "Cornucopia_Sage", 
                     "Delimiter": " "
                 }
             ]
