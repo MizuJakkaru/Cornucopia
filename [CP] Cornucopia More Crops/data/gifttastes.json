@@ -1,6 +1,6 @@
 {
+	// add gift tastes
     "Changes": [
-        // add gift tastes
         {
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
@@ -9,7 +9,330 @@
                 {
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Love"],
-                    "Value": "Cornucopia_PrismaticRose", 
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Dislike"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Hate"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+			//Spouses/Krobus
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 1],
+                    "Value": "Cornucopia_OliveOil Cornucopia_Pistachio", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 1],
+                    "Value": "Cornucopia_Avocado Cornucopia_Peanut", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 7],					//hate
+                    "Value": "Cornucopia_Olive", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 1],
+                    "Value": "Cornucopia_Zucchini", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 3],
+                    "Value": "Cornucopia_Pistachio", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 1],
+                    "Value": "Cornucopia_Pear", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 1],
+                    "Value": "Cornucopia_CottonBoll", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 5],				//dislike
+                    "Value": "Cornucopia_Spinach", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 1],
+                    "Value": "Cornucopia_Raspberry Cornucopia_Watermelon", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 7],				//hate
+                    "Value": "Cornucopia_Olive", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 1],
+                    "Value": "Cornucopia_Turnip", 
+                    "Delimiter": " "
+                }
+			//Villagers
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 1],
+                    "Value": "Cornucopia_Basil", 
+                    "Delimiter": " "
+                }
+            ]
+        },
+    ],
+	// add gift tastes - extended crops
+	"Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {"Enable Extended Crops Pack": true},
+			"TextOperations": [
+			//Universals
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Dislike"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Hate"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+			//Spouses/Krobus
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliot", 1],
+                    "Value": "Cornucopia_SparklingWine", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 7],				//hate
+                    "Value": "Cornucopia_Gooseberry", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 7],					//hate
+                    "Value": "Cornucopia_Asparagus", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 1],
+                    "Value": "Cornucopia_BlackCurrants", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 1],
+                    "Value": "Cornucopia_Habanero Cornucopia_Jalapeno Cornucopia_WasabiRoot Cornucopia_DarkAle", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 7],				//hate
+                    "Value": "Cornucopia_SugarBeet", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 1],
+                    "Value": "Cornucopia_Ginseng", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 1],
+                    "Value": "Cornucopia_PassionFruit", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 7],				//hate
+                    "Value": "Cornucopia_WasabiRoot", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 1],
+                    "Value": "Cornucopia_Bamboo Cornucopia_ChickenoftheWoods", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 1],
+                    "Value": "Cornucopia_Habanero Cornucopia_Jalapeno", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 7],				//hate
+                    "Value": "Cornucopia_ButternutSquash", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 1],
+                    "Value": "Cornucopia_CanaryMelon", 
+                    "Delimiter": " "
+                },
+			//Villagers
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Caroline", 1],
+                    "Value": "Cornucopia_Ginseng", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lewis", 1],
+                    "Value": "Cornucopia_Olive", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Marnie", 1],
+                    "Value": "Cornucopia_Turnip", 
+                    "Delimiter": " "
+                }
+            ]
+        },
+    ],
+	// add gift tastes - extended trees
+	"Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {"Enable Extended Trees Pack": true},
+			"TextOperations": [
+			//Universals
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Dislike"],
+                    "Value": "Cornucopia_Durian", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Hate"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+			//Spouses/Krobus
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 5],					//dislike
+                    "Value": "Cornucopia_Persimmon", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 1],
+                    "Value": "Cornucopia_DragonFruit", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 1],
+                    "Value": "Cornucopia_Walnut", 
+                    "Delimiter": " "
+                },
+			//Villagers
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 1],
+                    "Value": "Cornucopia_Durian", 
+                    "Delimiter": " "
+                }
+				
+            ]
+        },
+    ],
+	// add gift tastes - herbs
+	"Changes": [
+        // add gift tastes
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {"Enable Herbs Pack": true},
+            "TextOperations": [
+			//Universals
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": " ", 
                     "Delimiter": " "
                 },
 				{
@@ -27,7 +350,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Dislike"],
-                    "Value": "Cornucopia_Durian", 
+                    "Value": " ", 
                     "Delimiter": " "
                 },
 				{
@@ -39,20 +362,8 @@
 			//Spouses/Krobus
 				{
                     "Operation": "Append",
-                    "Target": ["Fields", "Alex", 1],
-                    "Value": "Cornucopia_Avocado", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
                     "Target": ["Fields", "Elliot", 1],
                     "Value": "Cornucopia_LicoriceRoot", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Elliot", 7],				//hate
-                    "Value": "Cornucopia_JuniperBerries", 
                     "Delimiter": " "
                 },
 				{
@@ -63,132 +374,23 @@
                 },
 				{
                     "Operation": "Append",
-                    "Target": ["Fields", "Sam", 1],
-                    "Value": "Cornucopia_Peanut", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Sam", 5],					//dislike
-                    "Value": "Cornucopia_Persimmon", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Sebastian", 1],
-                    "Value": "Cornucopia_BlackCurrants Cornucopia_Zucchini", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Shane", 1],
-                    "Value": "Cornucopia_Habanero Cornucopia_Jalapeno Cornucopia_WasabiRoot", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Shane", 3],
-                    "Value": "Cornucopia_Pistachio", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Abigail", 1],
-                    "Value": "Cornucopia_DragonFruit", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Abigail", 3],
-                    "Value": "Cornucopia_Pear", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Abigail", 7],				//hate
-                    "Value": "Cornucopia_SugarBeet", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Emily", 1],
-                    "Value": "Cornucopia_CottonBoll Cornucopia_Ginseng", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Haley", 1],
-                    "Value": "Cornucopia_PassionFruit", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Haley", 5],				//dislike
-                    "Value": "Cornucopia_Spinach", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Haley", 7],				//hate
-                    "Value": "Cornucopia_PrismaticRose", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Leah", 1],
-                    "Value": "Cornucopia_Bamboo Cornucopia_ChickenoftheWoods", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Maru", 1],
-                    "Value": "Cornucopia_Habanero Cornucopia_Jalapeno", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Maru", 3],
-                    "Value": "Cornucopia_Watermelon", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Maru", 7],				//hate
-                    "Value": "Cornucopia_ButternutSquash", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Penny", 1],
-                    "Value": "Cornucopia_Cantaloupe Cornucopia_Watermelon", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
                     "Target": ["Fields", "Penny", 7],				//hate
                     "Value": "Cornucopia_Rosemary", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Krobus", 1],
-                    "Value": "Cornucopia_Turnip", 
                     "Delimiter": " "
                 },
 			//Villagers
 				{
                     "Operation": "Append",
-                    "Target": ["Fields", "Gus", 3],
-                    "Value": "herb_item", 
+                    "Target": ["Fields", "Caroline", 1],
+                    "Value": "Cornucopia_Chamomile Cornucopia_Mint", 
                     "Delimiter": " "
                 },
 				{
                     "Operation": "Append",
-                    "Target": ["Fields", "Leo", 1],
-                    "Value": "Cornucopia_Durian", 
+                    "Target": ["Fields", "Gus", 3],
+                    "Value": "herb_item", 
                     "Delimiter": " "
                 }
-				
             ]
         },
     ]
