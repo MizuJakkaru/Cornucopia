@@ -1542,7 +1542,7 @@
           "DisplayName": "{{i18n:VanillaSeeds_name}}",
           "Description": "{{i18n:VanillaSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 500,,
+          "Price": 500,
 		  "ContextTags": [
 		    "cornucopia_bush_seed",
 			"cornucopia_bush_seed_essential",
