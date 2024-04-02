@@ -21,7 +21,7 @@
 					"Id": "Cornucopia.MoreCrops_CommonEssentialSeeds",
 					"ItemId": "RANDOM_ITEMS (O)",
 					"Condition": "!{{Enable Extended Crops Pack}}, SYNCED_RANDOM day cornucopia_common_seeds 0.6",
-					"PerItemCondition": "ITEM_CONTEXT_TAG cornucopia_crop_seed_essential, ITEM_CONTEXT_TAG cornucopia_crop_seed_common",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_essential, ITEM_CONTEXT_TAG Target cornucopia_crop_seed_common",
 					"AvailableStock": "{{Random: 3, 4, 5, 6, 7, 8}}",
 					"AvailableStockLimit": "Player",
 					"PriceModifiers": [
@@ -39,10 +39,11 @@
 				"Cornucopia.MoreCrops_CommonExtendedSeeds": {
 					"Id": "Cornucopia.MoreCrops_CommonExtendedSeeds",
 					"ItemId": "RANDOM_ITEMS (O)",
-					"Condition": "{{Enable Extended Crops Pack}}, SYNCED_RANDOM day cornucopia_common_seeds 0.6",
-					"PerItemCondition": "ITEM_CONTEXT_TAG cornucopia_crop_seed, ITEM_CONTEXT_TAG cornucopia_crop_seed_common",
+					"Condition": "{{Enable Extended Crops Pack}}, SYNCED_RANDOM day cornucopia_common_seeds 1.0",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_common, !ITEM_CONTEXT_TAG Target cornucopia_crop_seed_herbs",
 					"AvailableStock": "{{Random: 3, 4, 5, 6, 7, 8}}",
 					"AvailableStockLimit": "Player",
+					"MaxItems": 1,
 					"PriceModifiers": [
 						{
 							"Modification": "Multiply",
@@ -56,7 +57,7 @@
 					]
 				},
 				//examples from lumina, thank you lumina, i will delete them later
-				"sdjbkafjas": {
+				/*"sdjbkafjas": {
 					"Id": "Lumisteria.MtVapius_AsterShop.RandomFlowerAndCrops_FlowerSeeds_Tier1",
 					"ItemId": "RANDOM_ITEMS (O)",
 					"Condition": "{{HasMod |contains=Lumisteria.SereneMeadow}}, SYNCED_RANDOM day lumisteria.astershop_flowersandcropseeds 0.6",
@@ -112,7 +113,7 @@
 							]
 						}
 					]
-				}
+				}*/
 			}
 		}
 	]
