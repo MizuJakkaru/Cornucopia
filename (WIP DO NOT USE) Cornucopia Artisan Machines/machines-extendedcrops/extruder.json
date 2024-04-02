@@ -37,6 +37,22 @@
 							}
 						],
 					"MinutesUntilReady": 360,
+				},
+				{
+					"Id": "Cornucopia_TapiocaPearls",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Cassava",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_TapiocaPearls",
+							}
+						],
+					"MinutesUntilReady": 1750,
 				}
 			}
 		}
