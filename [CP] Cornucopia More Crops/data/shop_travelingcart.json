@@ -1,56 +1,119 @@
 {
-  "Changes": [
-	//Essential seeds & saplings
-    {
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "Traveler", "Items" ],
-      //"When": {"Enable Essential Pack": true},
-      "Entries": {
-		"Cornucopia_Soybeans": {
-			"Id": "Cornucopia_Soybeans",
-			"ItemId": "Cornucopia_Soybeans",
-			"Condition": "SYNCED_RANDOM day cornucopia_cart_soy_bean 0.20",
-			"IgnoreShopPriceModifiers": true,
-			"Price": 2000,
-			"AvailableStock": 1,			
-		},
-		"Cornucopia_CommonSeeds": {
-          "Price": -1,
-          "AvailableStock": 1,
-          "AvailableStockLimit": "Player",
-          "Id": "Lumisteria.MtVapius_LottiShop.StockCommon",
-          "RandomItemId": [
-            "Lumisteria.MtVapius_WhiteGrape",
-            "Lumisteria.MtVapius_Basil",
-            "Lumisteria.MtVapius_Olive",
-            "Lumisteria.MtVapius_OrangeBlossom",
-            "Lumisteria.MtVapius_LambLettuce",
-            "Lumisteria.MtVapius_Sunroot",
-            "Lumisteria.MtVapius_BlackChanterelle",
-            "Lumisteria.MtVapius_Porchini",
-            "Lumisteria.MtVapius_PurpleCupFlower",
-            "Lumisteria.MtVapius_WoodSilkFlower",
-            "Lumisteria.MtVapius_LaceFlower",
-            "Lumisteria.MtVapius_BirchSap",
-            "Lumisteria.MtVapius_WoodgoatMushroom",
-            "Lumisteria.MtVapius_Reed",
-            "Lumisteria.MtVapius_Nevaril",
-          ],
-          "Condition": "SYNCED_RANDOM day cornucopia_cart_common_seeds 0.2",
-          "PriceModifiers": [
-            {
-              "Modification": "Multiply",
-              "RandomAmount": [
-                0.7,
-                1.1,
-                2.2,
-                3
-              ]
-            }
-          ]
-        },
-      }
-    },
-  ]
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Traveler",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_Soybeans": {
+					"Id": "Cornucopia.MoreCrops_Soybeans",
+					"ItemId": "Cornucopia_Soybeans",
+					"Condition": "SYNCED_RANDOM day cornucopia_cart_soy_bean 0.20",
+					"IgnoreShopPriceModifiers": true,
+					"Price": 2000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+				},
+				"Cornucopia.MoreCrops_CommonEssentialSeeds": {
+					"Id": "Cornucopia.MoreCrops_CommonEssentialSeeds",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "!{{Enable Extended Crops Pack}}, SYNCED_RANDOM day cornucopia_common_seeds 0.6",
+					"PerItemCondition": "ITEM_CONTEXT_TAG cornucopia_crop_seed_essential, ITEM_CONTEXT_TAG cornucopia_crop_seed_common",
+					"AvailableStock": "{{Random: 3, 4, 5, 6, 7, 8}}",
+					"AvailableStockLimit": "Player",
+					"PriceModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								0.7,
+								1.1,
+								2.2,
+								3
+							]
+						}
+					]
+				},
+				"Cornucopia.MoreCrops_CommonExtendedSeeds": {
+					"Id": "Cornucopia.MoreCrops_CommonExtendedSeeds",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "{{Enable Extended Crops Pack}}, SYNCED_RANDOM day cornucopia_common_seeds 0.6",
+					"PerItemCondition": "ITEM_CONTEXT_TAG cornucopia_crop_seed, ITEM_CONTEXT_TAG cornucopia_crop_seed_common",
+					"AvailableStock": "{{Random: 3, 4, 5, 6, 7, 8}}",
+					"AvailableStockLimit": "Player",
+					"PriceModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								0.7,
+								1.1,
+								2.2,
+								3
+							]
+						}
+					]
+				},
+				//examples from lumina, thank you lumina, i will delete them later
+				"sdjbkafjas": {
+					"Id": "Lumisteria.MtVapius_AsterShop.RandomFlowerAndCrops_FlowerSeeds_Tier1",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "{{HasMod |contains=Lumisteria.SereneMeadow}}, SYNCED_RANDOM day lumisteria.astershop_flowersandcropseeds 0.6",
+					"PerItemCondition": "ITEM_CATEGORY Target -74, ITEM_ID_PREFIX Target Lumisteria.SereneMeadow_, !ITEM_ID Target Lumisteria.SereneMeadow_RomanescoCabbageSeeds, !ITEM_ID Target Lumisteria.SereneMeadow_BabyBooSquashSeeds, !ITEM_CONTEXT_TAG Target lumisteria.crop_tier_2, !ITEM_CONTEXT_TAG Target lumisteria.crop_tier_3",
+					"AvailableStock": "{{Round: {{Query:{{StockBasic}}/9}}}}",
+					"AvailableStockLimit": "Player",
+					"MaxItems": "{{Round: {{Query:{{StockBasic}}/9}}}}",
+					"TradeItemID": "Lumisteria.MtVapius_WeirdCoins",
+					"TradeItemAmount": 1
+				},
+				"sbkdjskdsbf": {
+					"Id": "Lumisteria.MtVapius_AsterShop.RandomFlowerAndCrops_FlowerSeeds_Tier2",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "{{HasMod |contains=Lumisteria.SereneMeadow}}, !SYNCED_RANDOM day lumisteria.astershop_flowersandcropseeds 0.6",
+					"PerItemCondition": "ITEM_CATEGORY Target -74, ITEM_ID_PREFIX Target Lumisteria.SereneMeadow_, !ITEM_ID Target Lumisteria.SereneMeadow_RomanescoCabbageSeeds, !ITEM_ID Target Lumisteria.SereneMeadow_BabyBooSquashSeeds, ITEM_CONTEXT_TAG Target lumisteria.crop_tier_2",
+					"AvailableStock": "{{Round: {{Query:{{StockBasic}}/9}}}}",
+					"AvailableStockLimit": "Player",
+					"MaxItems": "{{Round: {{Query:{{StockBasic}}/9}}}}",
+					"TradeItemID": "Lumisteria.MtVapius_WeirdCoins",
+					"TradeItemAmount": 3
+				},
+				"Cornucopia_CommonSeeds": {
+					"Price": -1,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Id": "Lumisteria.MtVapius_LottiShop.StockCommon",
+					"RandomItemId": [
+						"Lumisteria.MtVapius_WhiteGrape",
+						"Lumisteria.MtVapius_Basil",
+						"Lumisteria.MtVapius_Olive",
+						"Lumisteria.MtVapius_OrangeBlossom",
+						"Lumisteria.MtVapius_LambLettuce",
+						"Lumisteria.MtVapius_Sunroot",
+						"Lumisteria.MtVapius_BlackChanterelle",
+						"Lumisteria.MtVapius_Porchini",
+						"Lumisteria.MtVapius_PurpleCupFlower",
+						"Lumisteria.MtVapius_WoodSilkFlower",
+						"Lumisteria.MtVapius_LaceFlower",
+						"Lumisteria.MtVapius_BirchSap",
+						"Lumisteria.MtVapius_WoodgoatMushroom",
+						"Lumisteria.MtVapius_Reed",
+						"Lumisteria.MtVapius_Nevaril"
+					],
+					"Condition": "SYNCED_RANDOM day cornucopia_cart_common_seeds 0.2",
+					"PriceModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								0.7,
+								1.1,
+								2.2,
+								3
+							]
+						}
+					]
+				}
+			}
+		}
+	]
 }
