@@ -1,0 +1,133 @@
+{
+	// add gift tastes
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+			//Universals
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Dislike"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Hate"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+			//Spouses/Krobus
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 1],
+                    "Value": "Cornucopia_Lily", 
+                    "Delimiter": " "
+                },
+			//Villagers
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Evelyn", 1],
+                    "Value": "Cornucopia_Rose", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 1],
+                    "Value": "Cornucopia_PinkCat", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 1],
+                    "Value": "Cornucopia_Lotus", 
+                    "Delimiter": " "
+                }
+            ]
+        },
+		
+	// add gift tastes - extended flowers
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {"Enable Extended Flowers Pack": true},
+			"TextOperations": [
+			//Universals
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": "Cornucopia_PrismaticRose", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Dislike"],
+                    "Value": " ", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Hate"],
+                    "Value": "Cornucopia_Rafflesia", 
+                    "Delimiter": " "
+                },
+			//Spouses/Krobus
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 1],
+                    "Value": "Cornucopia_CalicoRose", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 7],				//hate
+                    "Value": "Cornucopia_PrismaticRose", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 1],
+                    "Value": "Cornucopia_Daisy", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 1],
+                    "Value": "Cornucopia_Rafflesia", 
+                    "Delimiter": " "
+                },	
+            ]
+        },
+    ]
+}

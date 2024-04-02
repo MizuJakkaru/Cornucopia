@@ -19,7 +19,8 @@
           "ContextTags": [
             "color_blue",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Chrysanthemum": {
@@ -35,7 +36,8 @@
           "ContextTags": [
             "color_yellow",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Iris": {
@@ -51,7 +53,8 @@
           "ContextTags": [
             "color_dark_purple",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"poisonous_item"
           ]
         },
         "Cornucopia_Lily": {
@@ -67,7 +70,8 @@
           "ContextTags": [
             "color_white",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Lotus": {
@@ -83,7 +87,8 @@
           "ContextTags": [
             "color_pink",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_MorningGlory": {
@@ -98,7 +103,8 @@
           "ContextTags": [
             "color_blue",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Orchid": {
@@ -115,7 +121,8 @@
             "color_dark_pink",
             "season_summer",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Pansy": {
@@ -131,7 +138,8 @@
           "ContextTags": [
             "color_yellow",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_PinkCat": {
@@ -147,7 +155,8 @@
           "ContextTags": [
             "color_pink",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Rose": {
@@ -165,7 +174,8 @@
             "season_spring",
             "season_summer",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         }
       }
@@ -189,7 +199,8 @@
           "Price": 30,
           "Edibility": 18,
           "ContextTags": [
-            "color_dark_pink"
+            "color_dark_pink",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Bluebonnet": {
@@ -235,7 +246,8 @@
           "Edibility": 18,
           "ContextTags": [
             "color_pink",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Camellia": {
@@ -251,7 +263,8 @@
           "ContextTags": [
             "color_white",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Carnation": {
@@ -268,7 +281,8 @@
             "color_red",
             "season_spring",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Chamomile": {
@@ -284,7 +298,8 @@
           "ContextTags": [
             "color_white",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_ClarySage": {
@@ -300,7 +315,8 @@
           "ContextTags": [
             "color_purple",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Clematis": {
@@ -316,7 +332,8 @@
           "ContextTags": [
             "color_dark_purple",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"poisonous_item"
           ]
         },
         "Cornucopia_Dahlia": {
@@ -331,7 +348,8 @@
           "ContextTags": [
             "color_orange",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Daisy": {
@@ -347,7 +365,8 @@
           "ContextTags": [
             "color_white",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_FairyDuster": {
@@ -362,7 +381,8 @@
           "ContextTags": [
             "color_pink",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Freesia": {
@@ -378,7 +398,8 @@
           "ContextTags": [
             "color_dark_pink",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Geranium": {
@@ -394,7 +415,8 @@
           "ContextTags": [
             "color_red",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Honeysuckle": {
@@ -410,7 +432,8 @@
             "color_yellow",
             "season_spring",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Hyacinth": {
@@ -425,7 +448,8 @@
           "ContextTags": [
             "color_dark_purple",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Hydrangea": {
@@ -441,7 +465,8 @@
           "ContextTags": [
             "color_light_cyan",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"poisonous_item"
           ]
         },
         "Cornucopia_Larkspur": {
@@ -457,7 +482,8 @@
           "ContextTags": [
             "color_cyan",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"poisonous_item"
           ]
         },
         "Cornucopia_Lavender": {
@@ -472,7 +498,8 @@
           "ContextTags": [
             "color_purple",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Lilac": {
@@ -489,7 +516,8 @@
             "color_purple",
             "season_spring",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Lupine": {
@@ -505,7 +533,8 @@
           "ContextTags": [
             "color_pale_violet_red",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"poisonous_item"
           ]
         },
         "Cornucopia_Peony": {
@@ -521,7 +550,8 @@
           "ContextTags": [
             "color_pink",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Petunia": {
@@ -537,7 +567,8 @@
           "ContextTags": [
             "color_pink",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"poisonous_item"
           ]
         },
         "Cornucopia_PitcherPlant": {
@@ -569,7 +600,8 @@
           "ContextTags": [
             "color_purple",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Rafflesia": {
@@ -602,7 +634,8 @@
           "ContextTags": [
             "color_dark_pink",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_RosePrismatic": {
@@ -620,7 +653,8 @@
             "season_spring",
             "season_summer",
             "season_fall",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_RoseSpring": {
@@ -636,7 +670,8 @@
           "ContextTags": [
             "color_white",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_RoseSummer": {
@@ -652,7 +687,8 @@
           "ContextTags": [
             "color_yellow",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_RoseWinter": {
@@ -668,7 +704,8 @@
           "ContextTags": [
             "color_blue",
             "season_winter",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Violet": {
@@ -684,7 +721,8 @@
           "ContextTags": [
             "color_dark_purple",
             "season_spring",
-            "dye_medium"
+            "dye_medium",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Wolfsbane": {
@@ -700,8 +738,308 @@
           "ContextTags": [
             "color_purple",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"poisonous_item"
           ]
+        }
+      }
+    },
+	//Seasonal roses multiyield variants
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Enable Extended Flowers Pack": true,
+		"Rose Color Explosion": true
+      },
+      "Entries": {
+        "Cornucopia_RoseSpring1": {
+          "Name": "Cornucopia_RoseSpring1",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 181,
+          "DisplayName": "{{i18n:RoseSpring_name}}",
+          "Description": "{{i18n:RoseSpring_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_purple",
+            "season_spring",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseSpring2": {
+          "Name": "Cornucopia_RoseSpring2",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 182,
+          "DisplayName": "{{i18n:RoseSpring_name}}",
+          "Description": "{{i18n:RoseSpring_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_pink",
+            "season_spring",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseSpring3": {
+          "Name": "Cornucopia_RoseSpring3",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 183,
+          "DisplayName": "{{i18n:RoseSpring_name}}",
+          "Description": "{{i18n:RoseSpring_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_green",
+            "season_spring",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseSpring4": {
+          "Name": "Cornucopia_RoseSpring4",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 184,
+          "DisplayName": "{{i18n:RoseSpring_name}}",
+          "Description": "{{i18n:RoseSpring_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_pink",
+            "season_spring",
+            "dye_strong",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+        "Cornucopia_RoseSummer1": {
+          "Name": "Cornucopia_RoseSummer1",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 186,
+          "DisplayName": "{{i18n:RoseSummer_name}}",
+          "Description": "{{i18n:RoseSummer_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_orange",
+            "season_summer",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseSummer2": {
+          "Name": "Cornucopia_RoseSummer2",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 187,
+          "DisplayName": "{{i18n:RoseSummer_name}}",
+          "Description": "{{i18n:RoseSummer_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_pink",
+            "season_summer",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseSummer3": {
+          "Name": "Cornucopia_RoseSummer3",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 188,
+          "DisplayName": "{{i18n:RoseSummer_name}}",
+          "Description": "{{i18n:RoseSummer_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_yellow",
+            "season_summer",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseSummer4": {
+          "Name": "Cornucopia_RoseSummer4",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 189,
+          "DisplayName": "{{i18n:RoseSummer_name}}",
+          "Description": "{{i18n:RoseSummer_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_orange",
+            "season_summer",
+            "dye_strong",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseFall1": {
+          "Name": "Cornucopia_RoseFall1",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 191,
+          "DisplayName": "{{i18n:RoseFall_name}}",
+          "Description": "{{i18n:RoseFall_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_red",
+            "season_fall",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseFall2": {
+          "Name": "Cornucopia_RoseFall2",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 192,
+          "DisplayName": "{{i18n:RoseFall_name}}",
+          "Description": "{{i18n:RoseFall_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_pink",
+            "season_fall",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseFall3": {
+          "Name": "Cornucopia_RoseFall3",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 193,
+          "DisplayName": "{{i18n:RoseFall_name}}",
+          "Description": "{{i18n:RoseFall_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_sand",
+            "season_fall",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseFall4": {
+          "Name": "Cornucopia_RoseFall4",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 194,
+          "DisplayName": "{{i18n:RoseFall_name}}",
+          "Description": "{{i18n:RoseFall_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_dark_pink",
+            "season_fall",
+            "dye_strong",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+        "Cornucopia_RoseWinter1": {
+          "Name": "Cornucopia_RoseWinter1",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 196,
+          "DisplayName": "{{i18n:RoseWinter_name}}",
+          "Description": "{{i18n:RoseWinter_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_blue",
+            "season_winter",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseWinter2": {
+          "Name": "Cornucopia_RoseWinter2",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 197,
+          "DisplayName": "{{i18n:RoseWinter_name}}",
+          "Description": "{{i18n:RoseWinter_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_purple",
+            "season_winter",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseWinter3": {
+          "Name": "Cornucopia_RoseWinter3",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 198,
+          "DisplayName": "{{i18n:RoseWinter_name}}",
+          "Description": "{{i18n:RoseWinter_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_black",
+            "season_winter",
+            "dye_medium",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
+        },
+		"Cornucopia_RoseWinter4": {
+          "Name": "Cornucopia_RoseWinter4",
+          "Type": "Flower",
+          "Category": -80,
+          "SpriteIndex": 199,
+          "DisplayName": "{{i18n:RoseWinter_name}}",
+          "Description": "{{i18n:RoseWinter_description}}",
+          "Texture": "Cornucopia.MoreFlowers/Objects",
+          "Price": 290,
+          "Edibility": 18,
+          "ContextTags": [
+            "color_blue",
+            "season_winter",
+            "dye_strong",
+			"edible_flower_item"
+          ],
+		  "ExcludeFromShippingCollection": true
         }
       }
     },
@@ -1172,7 +1510,8 @@
           "Price": 75,
           "Edibility": 18,
           "ContextTags": [
-            "color_red"
+            "color_red",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Jasmine": {
@@ -1199,7 +1538,8 @@
           "Price": 60,
           "Edibility": 18,
           "ContextTags": [
-            "color_white"
+            "color_white",
+			"edible_flower_item"
           ]
         },
         "Cornucopia_Wisteria": {
@@ -1213,7 +1553,8 @@
           "Price": 60,
           "Edibility": -20,
           "ContextTags": [
-            "color_purple"
+            "color_purple",
+			"poisonous_item"
           ]
         },
         "Cornucopia_YlangYlang": {

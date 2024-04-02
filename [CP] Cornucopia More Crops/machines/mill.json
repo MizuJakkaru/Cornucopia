@@ -75,23 +75,6 @@
 									}
 								],
 							"MaxDailyConversions": -1
-						},
-					"Cornucopia_TapiocaFlour": 
-						{
-							"Id": "Cornucopia_TapiocaFlour",
-							"SourceChest": "Input",
-							"DestinationChest": "Output",
-							"RequiredTags": 
-								[
-									"id_o_cornucopia_cassava"
-								],
-							"ProducedItems":
-								[
-									{
-										"ItemId": "(O)Cornucopia_TapiocaFlour"
-									}
-								],
-							"MaxDailyConversions": -1
 						}
 				}
 		}

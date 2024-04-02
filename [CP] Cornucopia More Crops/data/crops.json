@@ -20,9 +20,6 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 30,
 					"RegrowDays": 4,
-					"HarvestMinStack": 1,
-					"HarvestMaxStack": 1,
-					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_TurnipSeeds": {
 					"Seasons": [ "fall" ],
