@@ -43,22 +43,6 @@
 										"MinutesUntilReady": 360,
 									},
 									{
-										"Id": "Cornucopia_TapiocaPearls",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_TapiocaFlour",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_TapiocaPearls",
-												}
-											],
-										"MinutesUntilReady": 1750,
-									},
-									{
 										"Id": "Cornucopia_WheatNoodles",
 										"Triggers": 
 											[
