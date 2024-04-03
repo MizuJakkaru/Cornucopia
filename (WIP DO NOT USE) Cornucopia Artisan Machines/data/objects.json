@@ -838,20 +838,6 @@
             "flour_item"
           ]
         },
-        "Cornucopia_TaroFlour": {
-          "Name": "Cornucopia_TaroFlour",
-          "Category": 0,
-          "SpriteIndex": 128,
-          "DisplayName": "{{i18n:TaroFlour_name}}",
-          "Description": "{{i18n:TaroFlour_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 150,
-          "Edibility": 5,
-          "ContextTags": [
-            "color_purple",
-            "dye_medium"
-          ]
-        },
         "Cornucopia_SeaSalt": {
           "Name": "Cornucopia_SeaSalt",
           "Category": -12,
