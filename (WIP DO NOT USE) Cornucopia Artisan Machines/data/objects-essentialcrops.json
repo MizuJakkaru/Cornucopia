@@ -160,6 +160,20 @@
             "pickle_item"
           ]
         },
+        "Cornucopia_StinkyTofu": {
+          "Name": "Cornucopia_StinkyTofu",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:StinkyTofu_name}}",
+          "Description": "{{i18n:StinkyTofu_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 400,
+          "Edibility": 5,
+          "ContextTags": [
+            "color_white",
+            "pickle_item"
+          ]
+        },
         "Cornucopia_SoyButter": {
           "Name": "Cornucopia_SoyButter",
           "Category": -26,
@@ -177,7 +191,7 @@
         "Cornucopia_SoyMilk": {
           "Name": "Cornucopia_SoyMilk",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 158,
           "DisplayName": "{{i18n:SoyMilk_name}}",
           "Description": "{{i18n:SoyMilk_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
@@ -221,7 +235,7 @@
         "Cornucopia_ChocolateYogurt": {
           "Name": "Cornucopia_ChocolateYogurt",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 155,
           "DisplayName": "{{i18n:ChocolateYogurt_name}}",
           "Description": "{{i18n:ChocolateYogurt_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",

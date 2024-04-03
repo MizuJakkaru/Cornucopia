@@ -7,7 +7,7 @@
         "Cornucopia_AloeGel": {
           "Name": "Cornucopia_AloeGel",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 63,
           "DisplayName": "{{i18n:AloeGel_name}}",
           "Description": "{{i18n:AloeGel_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",

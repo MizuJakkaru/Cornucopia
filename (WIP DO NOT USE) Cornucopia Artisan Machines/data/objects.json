@@ -124,7 +124,7 @@
         "Cornucopia_CenturyEgg": {
           "Name": "Cornucopia_CenturyEgg",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 153,
           "DisplayName": "{{i18n:CenturyEgg_name}}",
           "Description": "{{i18n:CenturyEgg_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
@@ -182,7 +182,7 @@
         "Cornucopia_CoconutMilk": {
           "Name": "Cornucopia_CoconutMilk",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 157,
           "DisplayName": "{{i18n:CoconutMilk_name}}",
           "Description": "{{i18n:CoconutMilk_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
@@ -336,7 +336,7 @@
         "Cornucopia_HoneyYogurt": {
           "Name": "Cornucopia_HoneyYogurt",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 154,
           "DisplayName": "{{i18n:HoneyYogurt_name}}",
           "Description": "{{i18n:HoneyYogurt_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
@@ -507,7 +507,7 @@
         "Cornucopia_NutMilk": {
           "Name": "Cornucopia_NutMilk",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 156,
           "DisplayName": "{{i18n:NutMilk_name}}",
           "Description": "{{i18n:NutMilk_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
@@ -551,7 +551,7 @@
         "Cornucopia_PineNuts": {
           "Name": "Cornucopia_PineNuts",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 90,
           "DisplayName": "{{i18n:PineNuts_name}}",
           "Description": "{{i18n:PineNuts_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
@@ -723,20 +723,6 @@
           "ContextTags": [
             "color_orange",
             "mayo_item"
-          ]
-        },
-        "Cornucopia_StinkyTofu": {
-          "Name": "Cornucopia_StinkyTofu",
-          "Category": -26,
-          "SpriteIndex": 0,
-          "DisplayName": "{{i18n:StinkyTofu_name}}",
-          "Description": "{{i18n:StinkyTofu_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 400,
-          "Edibility": 5,
-          "ContextTags": [
-            "color_white",
-            "pickle_item"
           ]
         },
         "Cornucopia_SunflowerButter": {
