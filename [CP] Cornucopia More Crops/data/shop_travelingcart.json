@@ -17,13 +17,14 @@
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 				},
-				"Cornucopia.MoreCrops_CommonEssentialSeeds": {
-					"Id": "Cornucopia.MoreCrops_CommonEssentialSeeds",
+				"Cornucopia.MoreCrops_CommonSeeds": {
+					"Id": "Cornucopia.MoreCrops_CommonSeeds",
 					"ItemId": "RANDOM_ITEMS (O)",
-					"Condition": "!{{Enable Extended Crops Pack}}, SYNCED_RANDOM day cornucopia_common_seeds 0.6",
-					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_essential, ITEM_CONTEXT_TAG Target cornucopia_crop_seed_common",
+					"Condition": "SYNCED_RANDOM day cornucopia_common_seeds 0.8",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_common",
 					"AvailableStock": "{{Random: 3, 4, 5, 6, 7, 8}}",
 					"AvailableStockLimit": "Player",
+					"MaxItems": 1,
 					"PriceModifiers": [
 						{
 							"Modification": "Multiply",
@@ -36,12 +37,32 @@
 						}
 					]
 				},
-				"Cornucopia.MoreCrops_CommonExtendedSeeds": {
-					"Id": "Cornucopia.MoreCrops_CommonExtendedSeeds",
+				"Cornucopia.MoreCrops_RareSeeds": {
+					"Id": "Cornucopia.MoreCrops_RareSeeds",
 					"ItemId": "RANDOM_ITEMS (O)",
-					"Condition": "{{Enable Extended Crops Pack}}, SYNCED_RANDOM day cornucopia_common_seeds 1.0",
-					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_common, !ITEM_CONTEXT_TAG Target cornucopia_crop_seed_herbs",
-					"AvailableStock": "{{Random: 3, 4, 5, 6, 7, 8}}",
+					"Condition": "SYNCED_RANDOM day cornucopia_rare_seeds 0.4",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_rare",
+					"AvailableStock": "{{Random: 1, 2, 3, 4}}",
+					"AvailableStockLimit": "Player",
+					"MaxItems": 1,
+					"PriceModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.1,
+								2.2,
+								3,
+								4
+							]
+						}
+					]
+				},
+				"Cornucopia.MoreCrops_HerbSeeds": {
+					"Id": "Cornucopia.MoreCrops_HerbSeeds",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "SYNCED_RANDOM day cornucopia_herb_seeds 0.4",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_herbs",
+					"AvailableStock": "{{Random: 3, 4, 5, 6}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
 					"PriceModifiers": [
@@ -52,6 +73,26 @@
 								1.1,
 								2.2,
 								3
+							]
+						}
+					]
+				},
+				"Cornucopia.MoreCrops_BushSeeds": {
+					"Id": "Cornucopia.MoreCrops_BushSeeds",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "SYNCED_RANDOM day cornucopia_bush_seeds 0.4",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_herbs",
+					"AvailableStock": "{{Random: 1, 2, 3}}",
+					"AvailableStockLimit": "Player",
+					"MaxItems": 1,
+					"PriceModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								0.7,
+								0.9
+								1.1,
+								2.2,
 							]
 						}
 					]

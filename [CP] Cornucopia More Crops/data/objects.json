@@ -179,7 +179,9 @@
           "ContextTags": [
             "bean_item",
             "seedmaker_banned",
-            "color_yellow"
+            "color_yellow",
+			"cornucopia_crop_seed",
+			"cornucopia_crop_seed_exclusive"
           ]
         },
         "Cornucopia_Spinach": {
@@ -1901,7 +1903,7 @@
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
 			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_very_rare"
+			"cornucopia_crop_seed_exclusive"
 			]
         },
         "Cornucopia_GooseberrySeeds": {
