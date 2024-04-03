@@ -16,9 +16,9 @@
 			"IgnoreShopPriceModifiers": true
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_SpringOnionSeeds", "BeforeId": "(O)297" }
-		]
+		]*/
     },
 	{
       "Action": "EditData",
@@ -37,9 +37,9 @@
 			"ApplyProfitMargins": false,
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_SalmonberrySeeds", "BeforeId": "(O)245" }
-		]
+		]*/
     },
 	{
       "Action": "EditData",
@@ -58,9 +58,9 @@
 			"ApplyProfitMargins": false,
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_BlackberrySeeds", "BeforeId": "(O)245" }
-		]
+		]*/
     },
 	{
       "Action": "EditData",
@@ -78,9 +78,9 @@
 			"IgnoreShopPriceModifiers": true
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_SweetPeaSeeds", "BeforeId": "(O)297" }
-		]
+		]*/
     },
 	{
       "Action": "EditData",
@@ -98,9 +98,9 @@
 			"IgnoreShopPriceModifiers": true
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_CrocusSeeds", "BeforeId": "(O)297" }
-		]
+		]*/
     },
 	{
       "Action": "EditData",
@@ -119,9 +119,9 @@
 			"ApplyProfitMargins": false,
 		}
       },
-	  "MoveEntries": [
+	  /*"MoveEntries": [
 			{ "Id": "Cornucopia_HollySeeds", "BeforeId": "(O)245" }
-		]
+		]*/
     }
   ]
 }
