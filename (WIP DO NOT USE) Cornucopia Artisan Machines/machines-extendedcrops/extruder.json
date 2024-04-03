@@ -38,7 +38,7 @@
 						],
 					"MinutesUntilReady": 360,
 				},
-				{
+				"Cornucopia_TapiocaPearls": {
 					"Id": "Cornucopia_TapiocaPearls",
 					"Triggers": 
 						[
