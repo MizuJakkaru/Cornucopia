@@ -1,0 +1,84 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)163", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_AgedDarkAle": {
+					"Id": "Cornucopia_AgedDarkAle",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_DarkAle",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "1.66"
+								}
+							}
+						],
+				},
+				"Cornucopia_AgedPorter": {
+					"Id": "Cornucopia_AgedPorter",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Porter",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "2"
+								}
+							}
+						],
+				},
+				"Cornucopia_AgedSparklingWine": {
+					"Id": "Cornucopia_AgedSparklingWine",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_SparklingWine",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "1"
+								}
+							}
+						],
+				},
+				"Cornucopia_AgedStout": {
+					"Id": "Cornucopia_AgedStout",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Stout",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "2"
+								}
+							}
+						],
+				},
+			}
+		}
+    ]
+}

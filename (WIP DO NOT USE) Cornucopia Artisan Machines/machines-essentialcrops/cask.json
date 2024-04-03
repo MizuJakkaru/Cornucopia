@@ -1,0 +1,48 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)163", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_AgedSoySauce": {
+					"Id": "Cornucopia_AgedSoySauce",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_SoySauce",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "4"
+								}
+							}
+						],
+				},
+				"Cornucopia_AgedStinkyTofu": {
+					"Id": "Cornucopia_AgedStinkyTofu",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_StinkyTofu",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "4"
+								}
+							}
+						],
+				}
+			}
+		}
+    ]
+}
