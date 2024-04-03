@@ -231,7 +231,8 @@
           "ContextTags": [
             "color_yellow",
             "season_summer",
-            "dye_medium"
+            "dye_medium",
+			"poisonous_item"
           ]
         },
         "Cornucopia_CalicoRose": {

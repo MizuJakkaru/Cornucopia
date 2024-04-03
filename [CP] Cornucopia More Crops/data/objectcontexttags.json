@@ -1,114 +1,167 @@
 {
-	"Changes":
-	[		
+	"Changes": [		
 		// add custom context tags
 		{
-			"Action": "EditData",
-			"Target": "Data/ObjectContextTags",
-			"TextOperations": [
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Grape"],
-					"Value": "grape_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Blueberry"],
-					"Value": "berry_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Ginger"],
-					"Value": "spice_item, herb_soap_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Hazelnut"],
-					"Value": "nut_item, nut_soap_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Hot Pepper"],
-					"Value": "chili_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Chanterelle"],
-					"Value": "mushroom_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Common Mushroom"],
-					"Value": "mushroom_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Green Bean"],
-					"Value": "bean_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Magma Cap"],
-					"Value": "mushroom_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Morel"],
-					"Value": "mushroom_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Purple Mushroom"],
-					"Value": "mushroom_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Red Mushroom"],
-					"Value": "mushroom_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Salmonberry"],
-					"Value": "berry_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Spice Berry"],
-					"Value": "berry_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Strawberry"],
-					"Value": "berry_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Sweet Gem Berry"],
-					"Value": "berry_item",
-					"Delimiter": ", "
-				},
-				{
-					"Operation": "Append",
-					"Target": ["Entries", "Wheat"],
-					"Value": "grain_item",
-					"Delimiter": ", "
-				}
-			]
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["258", "ContextTags"],			//blueberry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["281", "ContextTags"],			//chanterelle
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["404", "ContextTags"],			//common mushroom
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["282", "ContextTags"],			//cranberries
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["829", "ContextTags"],			//ginger
+		   "Entries": {
+				  "#-1": "raw_spice_item",
+				  "#-2": "herb_soap_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["398", "ContextTags"],			//grape
+		   "Entries": {
+				  "#-1": "grape_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["188", "ContextTags"],			//green bean
+		   "Entries": {
+				  "#-1": "bean_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["408", "ContextTags"],			//hazelnut
+		   "Entries": {
+				  "#-1": "nut_item",
+				  "#-2": "nut_soap_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["209", "ContextTags"],			//hot pepper
+		   "Entries": {
+				  "#-1": "chili_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["851", "ContextTags"],			//magma cap
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["257", "ContextTags"],			//morel
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["635", "ContextTags"],			//orange
+		   "Entries": {
+				  "#-1": "citrus_fruit_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["422", "ContextTags"],			//purple mushroom
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["420", "ContextTags"],			//red mushroom
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["296", "ContextTags"],			//salmonberry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["396", "ContextTags"],			//spice berry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["400", "ContextTags"],			//strawberry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["417", "ContextTags"],			//sweet gem berry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["262", "ContextTags"],			//wheat
+		   "Entries": {
+				  "#-1": "grain_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["16", "ContextTags"],			//wild horseradish
+		   "Entries": {
+				  "#-1": "raw_spice_item"
+		   }
 		}
 	]
 }

@@ -1,0 +1,77 @@
+{
+	"Changes": [		
+		// add custom context tags
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["418", "ContextTags"],			//crocus
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["18", "ContextTags"],			//daffodil
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["22", "ContextTags"],			//dandelion
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["595", "ContextTags"],			//fairy rose
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["376", "ContextTags"],			//poppy
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["593", "ContextTags"],			//summer spangle
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["421", "ContextTags"],			//sunflower
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["402", "ContextTags"],			//sweet pea
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["591", "ContextTags"],			//tulip
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		}
+	]
+}
