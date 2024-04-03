@@ -1,0 +1,41 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)16", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_NutCheese": {
+					"Id": "Cornucopia_NutCheese",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_NutMilk",
+							},
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_NutCheese",
+								"ObjectInternalName": "{0} {{i18n:NutCheese_name}}",
+								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_NutCheese %PRESERVED_DISPLAY_NAME]",
+								"PreserveId": "DROP_IN",
+								"CopyPrice": true,
+								"PriceModifiers":
+									[
+										{
+											"Id": "NutCheese",
+											"Modification": "Multiply",
+											"Amount": 1.25,
+										}
+									],
+							}
+						],
+					"MinutesUntilReady": 200,
+				}
+			}
+		}
+    ]
+}

@@ -101,6 +101,8 @@
   "MisoPaste_description": "A paste made from soybeans. Used to make soup.",
   "NutButter_name": "Nut Butter",
   "NutButter_description": "A creamy butter made from nuts.",
+  "NutCheese_name": "Nut Cheese",
+  "NutCheese_description": "A smooth, animal-friendly cheese.",
   "NutMilk_name": "Nut Milk",
   "NutMilk_description": "Milk made from pulverized nuts.",
   "Paprika_name": "Paprika",
@@ -231,6 +233,7 @@
   "pickled-eggs": "Pickled {0}s",
   "pickled-fish": "Pickled {0}",
   "nut-butter": "{0} Butter",
+  "nut-cheese": "{0} Cheese",
   "nut-milk": "{0} Milk",
   
   "bitter": "{0} Bitter",

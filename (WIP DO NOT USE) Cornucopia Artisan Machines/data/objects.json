@@ -490,6 +490,20 @@
             "nut_butter_item"
           ]
         },
+        "Cornucopia_NutCheese": {
+          "Name": "Cornucopia_NutCheese",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:NutCheese_name}}",
+          "Description": "{{i18n:NutCheese_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 150,
+          "Edibility": 125,
+          "ContextTags": [
+            "color_white",
+			"nut_cheese_item"
+          ]
+        },
         "Cornucopia_NutMilk": {
           "Name": "Cornucopia_NutMilk",
           "Category": -26,
