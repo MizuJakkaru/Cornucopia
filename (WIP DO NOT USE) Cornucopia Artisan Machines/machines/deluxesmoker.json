@@ -6,7 +6,7 @@
 			"Target": "Data/Machines",
 			"Entries": 
 				{
-					"(BC)Cornucopia_DeliSmoker":
+					"(BC)Cornucopia_DeluxeSmoker":
 						{
 							"OutputRules":
 								[
@@ -111,14 +111,40 @@
 												}
 											],
 										"MinutesUntilReady": 50,
+									},
+									{
+										"Id": "Cornucopia_SmokedFish",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_fish" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "FLAVORED_ITEM SmokedFish DROP_IN_ID",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "SmokedFish",
+																"Modification": "Multiply",
+																"Amount": 2,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 50,
 									}
 								],
 							"AdditionalConsumedItems":
 								[
 									{
-										"ItemId": "(O)388",
-										"RequiredCount": 5,
-										"InvalidCountMessage": "{{i18n:DeliSmokerFuelNeededMessage}}"
+										"ItemId": "(O)382",
+										"RequiredCount": 1,
+										"InvalidCountMessage": "{{i18n:DeluxeSmokerFuelNeededMessage}}"
 									}
 								],
 							"LoadEffects":
