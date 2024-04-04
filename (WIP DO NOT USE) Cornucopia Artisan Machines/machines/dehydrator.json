@@ -164,11 +164,44 @@
 							}
 						],
 					"MinutesUntilReady": 1750,
-				}
+				},
+				"Cornucopia_DriedFruitFix": {										//fixes naming on pluralized Cornucopia fruit items
+					"Id": "Cornucopia_DriedFruitFix",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "dehydrator_fruit_fix" ],
+								"RequiredCount": 5,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "FLAVORED_ITEM DriedFruitFix DROP_IN_ID",
+								"ObjectInternalName": "{0} {{i18n:DriedFruitFix_name}}",
+								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedFruitFix %PRESERVED_DISPLAY_NAME]",
+								"PreserveId": "DROP_IN",
+								"CopyPrice": true,
+								"PriceModifiers":
+									[
+										{
+											"Modification": "Multiply",
+											"Amount": 7.5,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 25,
+										},
+									],
+							}
+						],
+					"MinutesUntilReady": 1750,
+				},
 			},
 			"MoveEntries": [
 					{ "Id": "Cornucopia_Prunes", "BeforeId": "DriedFruit" },
-					{ "Id": "Cornucopia_Raisins", "BeforeId": "DriedFruit" }
+					{ "Id": "Cornucopia_Raisins", "BeforeId": "DriedFruit" },
+					{ "Id": "Cornucopia_DriedFruitFix", "BeforeId": "DriedFruit" }
 			]
 		}
     ]
