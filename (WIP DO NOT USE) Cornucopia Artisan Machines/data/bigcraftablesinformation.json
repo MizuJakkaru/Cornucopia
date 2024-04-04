@@ -22,14 +22,6 @@
 					"SpriteIndex": 1
 				},
 				
-				"Cornucopia_CanningMachine": {
-					"Name": "Cornucopia_CanningMachine",
-					"DisplayName": "{{i18n:CanningMachine_name}}",
-					"Description": "{{i18n:CanningMachine_description}}",
-					"Texture": "Cornucopia.ArtisanMachines/Craftables",
-					"SpriteIndex": 2
-				},
-				
 				"Cornucopia_DryingRack": {
 					"Name": "Cornucopia_DryingRack",
 					"DisplayName": "{{i18n:DryingRack_name}}",
@@ -62,10 +54,10 @@
 					"SpriteIndex": 9
 				},
 				
-				"Cornucopia_DeliSmoker": {
-					"Name": "Cornucopia_DeliSmoker",
-					"DisplayName": "{{i18n:DeliSmoker_name}}",
-					"Description": "{{i18n:DeliSmoker_description}}",
+				"Cornucopia_DeluxeSmoker": {
+					"Name": "Cornucopia_DeluxeSmoker",
+					"DisplayName": "{{i18n:DeluxeSmoker_name}}",
+					"Description": "{{i18n:DeluxeSmoker_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Craftables",
 					"SpriteIndex": 4
 				},
@@ -76,6 +68,14 @@
 					"Description": "{{i18n:VinegarKeg_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Craftables",
 					"SpriteIndex": 10
+				},
+				
+				"Cornucopia_WaxBarrel": {
+					"Name": "Cornucopia_WaxBarrel",
+					"DisplayName": "{{i18n:WaxBarrel_name}}",
+					"Description": "{{i18n:WaxBarrel_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
+					"SpriteIndex": 11
 				},
 				
 				"Cornucopia_YogurtJar": {
