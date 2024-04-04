@@ -20,7 +20,7 @@
 		"Cornucopia_Beeswax": {
           "Name": "Cornucopia_Beeswax",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 4,
           "DisplayName": "{{i18n:Beeswax_name}}",
           "Description": "{{i18n:Beeswax_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
@@ -46,7 +46,7 @@
 		"Cornucopia_Candles": {
           "Name": "Cornucopia_Candles",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 5,
           "DisplayName": "{{i18n:Candles_name}}",
           "Description": "{{i18n:Candles_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
@@ -648,7 +648,7 @@
 		"Cornucopia_SnackCheese": {
           "Name": "Cornucopia_SnackCheese",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 139,
           "DisplayName": "{{i18n:SnackCheese_name}}",
           "Description": "{{i18n:SnackCheese_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
@@ -718,7 +718,7 @@
 		"Cornucopia_WaxMelts": {
           "Name": "Cornucopia_WaxMelts",
           "Category": -26,
-          "SpriteIndex": 0,
+          "SpriteIndex": 135,
           "DisplayName": "{{i18n:WaxMelts_name}}",
           "Description": "{{i18n:WaxMelts_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
