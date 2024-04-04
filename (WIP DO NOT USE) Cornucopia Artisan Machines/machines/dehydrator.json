@@ -6,6 +6,25 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)Dehydrator", "OutputRules" ],
 			"Entries": { 
+				"Cornucopia_Hay": {
+					"Id": "Cornucopia_Hay",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)771",
+								"RequiredCount": 10,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)178",
+								"MinStack": 3,
+								"MaxStack": 8,
+							}
+						],
+					"MinutesUntilReady": 60,
+				},
 				"Cornucopia_Prunes": {
 					"Id": "Cornucopia_Prunes",
 					"Triggers": 
