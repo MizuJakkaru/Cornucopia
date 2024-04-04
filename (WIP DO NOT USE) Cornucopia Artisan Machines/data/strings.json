@@ -4,10 +4,7 @@
             "Action": "EditData",
             "Target": "Strings/Objects",
             "Entries": {
-				"Cornucopia_CannedFish": "{{i18n: canned-fish}}",
-				"Cornucopia_CannedFruit": "{{i18n: canned-fruit}}",
-				"Cornucopia_CannedShellfish": "{{i18n: canned-shellfish}}",
-				"Cornucopia_CannedVegetables": "{{i18n: canned-vegetables}}",
+				"Cornucopia_Candles": "{{i18n: candles}}",
 				"Cornucopia_DriedFlower": "{{i18n: dried-flower}}",
 				"Cornucopia_DriedFruitFix": "{{i18n: dried-fruit-fix}}",
 				"Cornucopia_DriedHerb": "{{i18n: dried-herb}}",
@@ -20,19 +17,6 @@
 				"Cornucopia_NutButter": "{{i18n: nut-butter}}",
 				"Cornucopia_NutCheese": "{{i18n: nut-cheese}}",
 				"Cornucopia_NutMilk": "{{i18n: nut-milk}}",
-				
-				"Cornucopia_Bitter": "{{i18n: bitter}}",
-				"Cornucopia_Schnapps": "{{i18n: schnapps}}",
-				"Cornucopia_FloralSoap": "{{i18n: floral-soap}}",
-				"Cornucopia_FruitSoap": "{{i18n: fruit-soap}}",
-				"Cornucopia_HerbalSoap": "{{i18n: herbal-soap}}",
-				"Cornucopia_HerbalSoapCamphor": "{{i18n: herbal-soap-camphor}}",
-				"Cornucopia_HerbalSoapEucalyptus": "{{i18n: herbal-soap-eucalyptus}}",
-				"Cornucopia_HerbalSoapMelaleuca": "{{i18n: herbal-soap-melaleuca}}",
-				"Cornucopia_NuttySoap": "{{i18n: nutty-soap}}",
-				"Cornucopia_NuttySoapCinnamon": "{{i18n: nutty-soap-cinnamon}}",
-				"Cornucopia_NuttySoapCocoa": "{{i18n: nutty-soap-cocoa}}",
-				"Cornucopia_NuttySoapOat": "{{i18n: nutty-soap-oat}}",
             }
         }
 	]

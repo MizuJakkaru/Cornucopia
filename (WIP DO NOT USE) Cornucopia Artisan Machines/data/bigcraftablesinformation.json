@@ -75,7 +75,7 @@
 					"DisplayName": "{{i18n:WaxBarrel_name}}",
 					"Description": "{{i18n:WaxBarrel_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Craftables",
-					"SpriteIndex": 11
+					"SpriteIndex": 12
 				},
 				
 				"Cornucopia_YogurtJar": {

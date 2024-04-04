@@ -1,0 +1,112 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)Cornucopia_WaxBarrel": 
+						{
+							"OutputRules":
+								[
+									{
+										"Id": "Cornucopia_SnackCheeses",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)424",
+												},
+												{
+													"RequiredItemId": "(O)426",
+												},
+												{
+													"RequiredTags":[ "cheese_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_SnackCheeses",	
+												}
+											],
+										"MinutesUntilReady": 300,
+									},
+									{
+										"Id": "Cornucopia_WaxMelts",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)Cornucopia_EssentialOil",
+												},
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_WaxMelts",	
+												}
+											],
+										"MinutesUntilReady": 300,
+									},
+									{
+										"Id": "Cornucopia_Candles",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_flowers" ],
+												},
+												{
+													"RequiredTags":[ "category_fruits" ],
+												},
+												{
+													"RequiredTags":[ "herb_item" ],
+												},
+												{
+													"RequiredTags":[ "nut_item" ],
+												},
+												{
+													"RequiredTags":[ "raw_spice_item" ],
+												},
+												{
+													"RequiredTags":[ "forage_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Candles",
+													"ObjectInternalName": "{0} {{i18n:Cornucopia_Candles}}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_Candles %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "Candles",
+																"Modification": "Multiply",
+																"Amount": 1.75,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 300,
+									}
+								],
+							"LoadEffects":
+								[
+									{
+										"Sounds": 
+											[
+												{
+													"Id": "Ship"
+												},
+											],
+									}
+								],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

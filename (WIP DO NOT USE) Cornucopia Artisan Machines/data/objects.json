@@ -43,6 +43,19 @@
             "butter_item"
           ]
         },
+		"Cornucopia_Candles": {
+          "Name": "Cornucopia_Candles",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:Candles_name}}",
+          "Description": "{{i18n:Candles_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 100,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand"
+          ]
+        },
         "Cornucopia_CenturyEgg": {
           "Name": "Cornucopia_CenturyEgg",
           "Category": -26,
@@ -632,6 +645,19 @@
             "color_brown"
           ]
         },
+		"Cornucopia_SnackCheese": {
+          "Name": "Cornucopia_SnackCheese",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:SnackCheese_name}}",
+          "Description": "{{i18n:SnackCheese_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 300,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_red"
+          ]
+        },
         "Cornucopia_SpicyMayonnaise": {
           "Name": "Cornucopia_SpicyMayonnaise",
           "Category": -26,
@@ -687,6 +713,19 @@
           "ContextTags": [
             "color_orange",
             "mayo_item"
+          ]
+        },
+		"Cornucopia_WaxMelts": {
+          "Name": "Cornucopia_WaxMelts",
+          "Category": -26,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:WaxMelts_name}}",
+          "Description": "{{i18n:WaxMelts_description}}",
+          "Texture": "Cornucopia.ArtisanMachines/Objects",
+          "Price": 450,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_sand"
           ]
         },
         "Cornucopia_WheatNoodles": {
