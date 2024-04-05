@@ -2442,8 +2442,10 @@
           "Price": 90,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_NavyBeansSeeds": {
@@ -2457,8 +2459,10 @@
           "Price": 40,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_summer",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_OatsSeeds": {
@@ -2472,8 +2476,10 @@
           "Price": 5,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_OkraSeeds": {
@@ -2487,8 +2493,11 @@
           "Price": 80,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_summer",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_PassionFruitSeeds": {
@@ -2502,8 +2511,8 @@
           "Price": 65,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_exclusive",
+			"cornucopia_pack_extendedcrops"
 			]
         },
         "Cornucopia_PintoBeansSeeds": {
@@ -2517,8 +2526,10 @@
           "Price": 40,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_spring",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_QuinoaSeeds": {
@@ -2532,8 +2543,10 @@
           "Price": 10,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_summer",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_RedOnionSeeds": {
@@ -2547,8 +2560,10 @@
           "Price": 40,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_spring",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_ShallotSeeds": {
@@ -2562,8 +2577,10 @@
           "Price": 40,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_spring",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_ShiitakeSeeds": {
@@ -2577,8 +2594,8 @@
           "Price": 500,
 		  "ContextTags": [
 		    "cornucopia_bush_seed",
-			"cornucopia_bush_seed_extended",
-			"cornucopia_bush_seed_common"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedcrops"
 			]
         },
         "Cornucopia_SugarBeetSeeds": {
@@ -2592,8 +2609,10 @@
           "Price": 50,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_spring",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_SweetPotatoSeeds": {
@@ -2607,8 +2626,10 @@
           "Price": 35,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_WasabiRootSeeds": {
@@ -2622,8 +2643,10 @@
           "Price": 50,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_summer",
+			"cornucopia_shop_pierre"
 			]
         },
       }
@@ -2648,8 +2671,9 @@
           "Price": 300,
 		  "ContextTags": [
 		    "cornucopia_bush_seed",
-			"cornucopia_bush_seed_extended",
-			"cornucopia_bush_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_shop_pierre"
 			]
         }
       }
@@ -2673,8 +2697,10 @@
           "Price": 27,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_extended",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         }
       }
@@ -2698,8 +2724,8 @@
           "Price": 50,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
 			]
         },
         "Cornucopia_BayLeavesSeeds": {
@@ -2713,8 +2739,9 @@
           "Price": 325,
 		  "ContextTags": [
 		    "cornucopia_bush_seed",
-			"cornucopia_bush_seed_herbs",
-			"cornucopia_bush_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_CatnipSeeds": {
@@ -2728,8 +2755,8 @@
           "Price": 30,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
 			]
         },
         "Cornucopia_ChivesSeeds": {
@@ -2743,8 +2770,10 @@
           "Price": 10,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_summer",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_CilantroSeeds": {
@@ -2757,10 +2786,12 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 10,
 		  "ContextTags": [
-            "spice_item",
+            "raw_spice_item",
 			"cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
           ]
         },
         "Cornucopia_DillSeeds": {
@@ -2774,8 +2805,10 @@
           "Price": 25,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_spring",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_FennelSeeds": {
@@ -2789,8 +2822,10 @@
           "Price": 10,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_FenugreekSeeds": {
@@ -2804,8 +2839,10 @@
           "Price": 10,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_spring",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_LemongrassSeeds": {
@@ -2819,8 +2856,8 @@
           "Price": 10,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
 			]
         },
         "Cornucopia_LicoriceRootSeeds": {
@@ -2834,8 +2871,8 @@
           "Price": 50,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs"
 			]
         },
         "Cornucopia_MarjoramSeeds": {
@@ -2849,8 +2886,10 @@
           "Price": 15,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_spring",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_MintSeeds": {
@@ -2864,8 +2903,10 @@
           "Price": 15,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_winter",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_OreganoSeeds": {
@@ -2879,8 +2920,10 @@
           "Price": 15,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_summer",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_ParsleySeeds": {
@@ -2894,8 +2937,10 @@
           "Price": 10,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_spring",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_PerillaLeavesSeeds": {
@@ -2909,8 +2954,10 @@
           "Price": 15,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_summer",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_RosemarySeeds": {
@@ -2924,8 +2971,10 @@
           "Price": 15,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_SageSeeds": {
@@ -2939,8 +2988,10 @@
           "Price": 20,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_TarragonSeeds": {
@@ -2954,8 +3005,10 @@
           "Price": 15,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_ThymeSeeds": {
@@ -2969,8 +3022,10 @@
           "Price": 15,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"cornucopia_season_fall",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_TurmericSeeds": {
@@ -2984,8 +3039,8 @@
           "Price": 40,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_exclusive",
+			"cornucopia_pack_herbs"
 			]
         },
         "Cornucopia_WormwoodSeeds": {
@@ -2999,8 +3054,8 @@
           "Price": 50,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
-			"cornucopia_crop_seed_herbs",
-			"cornucopia_crop_seed_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs"
 			]
         }
       }
@@ -3022,7 +3077,11 @@
           "Price": 200,
           "Edibility": 20,
           "ContextTags": [
-            "color_green"
+            "color_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_essential",
+			"season_summer",
           ]
         },
         "Cornucopia_CocoaPod": {
@@ -3037,7 +3096,11 @@
           "Edibility": -300,
           "ContextTags": [
             "nut_soap_item",
-            "color_brown"
+            "color_brown",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_essential",
+			"season_spring",
           ]
         },
         "Cornucopia_Pear": {
@@ -3051,7 +3114,11 @@
           "Price": 135,
           "Edibility": 15,
           "ContextTags": [
-            "color_yellow_green"
+            "color_yellow_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_essential",
+			"season_winter",
           ]
         },
         "Cornucopia_Pistachio": {
@@ -3067,7 +3134,11 @@
           "ContextTags": [
             "nut_item",
             "nut_soap_item",
-            "color_sand"
+            "color_sand",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_essential",
+			"season_fall",
           ]
         }
       }
@@ -3093,7 +3164,11 @@
           "ContextTags": [
             "nut_item",
             "nut_soap_item",
-            "color_sand"
+            "color_sand",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_fall",
           ]
         },
         "Cornucopia_Breadfruit": {
@@ -3107,7 +3182,11 @@
           "Price": 200,
           "Edibility": 15,
           "ContextTags": [
-            "color_yellow_green"
+            "color_yellow_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees",
+			"season_spring",
           ]
         },
         "Cornucopia_Cashew": {
@@ -3123,7 +3202,11 @@
           "ContextTags": [
             "nut_item",
             "nut_soap_item",
-            "color_sand"
+            "color_sand",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_fall",
           ]
         },
         "Cornucopia_ChicleRubber": {
@@ -3137,7 +3220,10 @@
           "Price": 100,
           "Edibility": -300,
           "ContextTags": [
-            "color_yellow"
+            "color_yellow",
+			"cornucopia_wildtree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees"
           ]
         },
 		  "Cornucopia_Sapodilla": {
@@ -3151,7 +3237,11 @@
           "Price": 110,
           "Edibility": 18,
           "ContextTags": [
-            "color_yellow"
+            "color_yellow",
+			"cornucopia_wildtree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_summer",
           ]
         },
         "Cornucopia_DragonFruit": {
@@ -3165,7 +3255,11 @@
           "Price": 125,
           "Edibility": 40,
           "ContextTags": [
-            "color_dark_pink"
+            "color_dark_pink",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees",
+			"season_summer",
           ]
         },
         "Cornucopia_Durian": {
@@ -3179,7 +3273,11 @@
           "Price": 200,
           "Edibility": 40,
           "ContextTags": [
-            "color_yellow_green"
+            "color_yellow_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees",
+			"season_summer",
           ]
         },
         "Cornucopia_Fig": {
@@ -3193,7 +3291,11 @@
           "Price": 100,
           "Edibility": 15,
           "ContextTags": [
-            "color_purple"
+            "color_purple",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_winter",
           ]
         },
         "Cornucopia_Grapefruit": {
@@ -3207,7 +3309,11 @@
           "Price": 140,
           "Edibility": 15,
           "ContextTags": [
-            "color_orange"
+            "color_orange",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_fall",
           ]
         },
         "Cornucopia_Lemon": {
@@ -3221,7 +3327,11 @@
           "Price": 50,
           "Edibility": 15,
           "ContextTags": [
-            "color_yellow"
+            "color_yellow",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_spring",
           ]
         },
         "Cornucopia_Lime": {
@@ -3235,7 +3345,11 @@
           "Price": 50,
           "Edibility": 15,
           "ContextTags": [
-            "color_lime"
+            "color_lime",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_spring",
           ]
         },
         "Cornucopia_Lychee": {
@@ -3249,7 +3363,11 @@
           "Price": 110,
           "Edibility": 15,
           "ContextTags": [
-            "color_pink"
+            "color_pink",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees",
+			"season_summer",
           ]
         },
         "Cornucopia_Nectarine": {
@@ -3263,7 +3381,11 @@
           "Price": 140,
           "Edibility": 15,
           "ContextTags": [
-            "color_orange"
+            "color_orange",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_summer",
           ]
         },
         "Cornucopia_Papaya": {
@@ -3277,7 +3399,11 @@
           "Price": 135,
           "Edibility": 15,
           "ContextTags": [
-            "color_yellow"
+            "color_yellow",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees",
+			"season_summer",
           ]
         },
         "Cornucopia_Pecan": {
@@ -3293,7 +3419,11 @@
           "ContextTags": [
             "nut_item",
             "nut_soap_item",
-            "color_brown"
+            "color_brown",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_fall",
           ]
         },
         "Cornucopia_Persimmon": {
@@ -3307,7 +3437,11 @@
           "Price": 155,
           "Edibility": 15,
           "ContextTags": [
-            "color_orange"
+            "color_orange",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_winter",
           ]
         },
         "Cornucopia_Plantain": {
@@ -3321,7 +3455,11 @@
           "Price": 175,
           "Edibility": 30,
           "ContextTags": [
-            "color_yellow_green"
+            "color_yellow_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees",
+			"season_summer",
           ]
         },
         "Cornucopia_Pomelo": {
@@ -3335,7 +3473,11 @@
           "Price": 80,
           "Edibility": 40,
           "ContextTags": [
-            "color_yellow_green"
+            "color_yellow_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_winter",
           ]
         },
         "Cornucopia_Ume": {
@@ -3349,7 +3491,11 @@
           "Price": 50,
           "Edibility": 15,
           "ContextTags": [
-            "color_green"
+            "color_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_summer",
           ]
         },
         "Cornucopia_Walnut": {
@@ -3365,7 +3511,11 @@
           "ContextTags": [
             "nut_item",
             "nut_soap_item",
-            "color_brown"
+            "color_brown",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"season_fall",
           ]
         },
         "Cornucopia_Yuzu": {
@@ -3379,7 +3529,11 @@
           "Price": 40,
           "Edibility": 15,
           "ContextTags": [
-            "color_yellow"
+            "color_yellow",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees",
+			"season_winter",
           ]
         }
       }
@@ -3405,7 +3559,11 @@
           "ContextTags": [
             "herb_item",
             "herb_soap_item",
-            "color_green"
+            "color_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"season_winter",
           ]
         },
         "Cornucopia_CinnamonSticks": {
@@ -3420,9 +3578,12 @@
           "Edibility": -300,
           "ContextTags": [
             "raw_spice_item",
-			"spice_item",
 			"nut_soap_item",
-            "color_yellow"
+            "color_yellow",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_herbs",
+			"season_winter",
           ]
         },
         "Cornucopia_EucalyptusLeaves": {
@@ -3438,7 +3599,11 @@
           "ContextTags": [
             "herb_item",
             "herb_soap_item",
-            "color_green"
+            "color_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"season_spring",
           ]
         },
         "Cornucopia_MelaleucaLeaves": {
@@ -3454,7 +3619,11 @@
           "ContextTags": [
             "herb_item",
             "herb_soap_item",
-            "color_green"
+            "color_green",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"season_spring",
           ]
         },
         "Cornucopia_Nutmeg": {
@@ -3470,7 +3639,11 @@
           "ContextTags": [
             "raw_spice_item",
             "nut_soap_item",
-            "color_brown"
+            "color_brown",
+			"cornucopia_fruittree_produce",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"season_summer",
           ]
         }
       }
@@ -3492,8 +3665,9 @@
           "Price": 2000,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_essential",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_essential",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_CocoaPodSapling": {
@@ -3507,8 +3681,9 @@
           "Price": 1250,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_essential",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_essential",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_PearSapling": {
@@ -3522,8 +3697,9 @@
           "Price": 1375,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_essential",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_essential",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_PistachioSapling": {
@@ -3537,8 +3713,9 @@
           "Price": 937,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_essential",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_essential",
+			"cornucopia_shop_pierre"
 			]
         }
       }
@@ -3562,8 +3739,9 @@
           "Price": 937,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_BreadfruitSapling": {
@@ -3577,8 +3755,8 @@
           "Price": 2000,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees"
 			]
         },
         "Cornucopia_CashewSapling": {
@@ -3592,8 +3770,9 @@
           "Price": 1000,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_SapodillaSeed": {
@@ -3606,8 +3785,9 @@
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 50,
 		  "ContextTags": [
-		    "cornucopia_wild_tree_seed",
-			"cornucopia_wild_tree_seed_extended",
+		    "cornucopia_wildtree_seed",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees"
 			]
         },
         "Cornucopia_DragonFruitSapling": {
@@ -3621,8 +3801,8 @@
           "Price": 1250,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees"
 			]
         },
         "Cornucopia_DurianSapling": {
@@ -3636,8 +3816,8 @@
           "Price": 2000,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_rare"
+			"cornucopia_rarity_exclusive",
+			"cornucopia_pack_extendedtrees"
 			]
         },
         "Cornucopia_FigSapling": {
@@ -3651,8 +3831,9 @@
           "Price": 1000,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_GrapefruitSapling": {
@@ -3666,8 +3847,9 @@
           "Price": 1500,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_LemonSapling": {
@@ -3681,8 +3863,9 @@
           "Price": 500,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_LimeSapling": {
@@ -3696,8 +3879,9 @@
           "Price": 500,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_LycheeSapling": {
@@ -3711,8 +3895,8 @@
           "Price": 1250,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_rare"
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_extendedtrees"
 			]
         },
         "Cornucopia_NectarineSapling": {
@@ -3726,8 +3910,9 @@
           "Price": 1500,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_PapayaSapling": {
@@ -3741,8 +3926,8 @@
           "Price": 150,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_rare"
+			"cornucopia_rarity_exclusive",
+			"cornucopia_pack_extendedtrees"
 			]
         },
         "Cornucopia_PecanSapling": {
@@ -3756,8 +3941,9 @@
           "Price": 1250,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_PersimmonSapling": {
@@ -3771,8 +3957,9 @@
           "Price": 1750,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_PlantainSapling": {
@@ -3786,8 +3973,8 @@
           "Price": 450,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_rare"
+			"cornucopia_rarity_exclusive",
+			"cornucopia_pack_extendedtrees"
 			]
         },
         "Cornucopia_PomeloSapling": {
@@ -3801,8 +3988,9 @@
           "Price": 850,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_UmeSapling": {
@@ -3816,8 +4004,9 @@
           "Price": 500,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_WalnutSapling": {
@@ -3831,8 +4020,9 @@
           "Price": 937,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_YuzuSapling": {
@@ -3846,8 +4036,9 @@
           "Price": 500,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_extended",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedtrees",
+			"cornucopia_shop_pierre"
 			]
         }
       }
@@ -3871,8 +4062,9 @@
           "Price": 1000,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_herbs",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_CinnamonSticksSapling": {
@@ -3886,8 +4078,9 @@
           "Price": 1500,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_herbs",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_EucalyptusLeavesSapling": {
@@ -3901,8 +4094,9 @@
           "Price": 1375,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_herbs",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_shop_pierre"
 			]
         },
         "Cornucopia_MelaleucaLeavesSapling": {
@@ -3916,8 +4110,8 @@
           "Price": 1000,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_herbs",
-			"cornucopia_tree_sapling_rare"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs"
 			]
         },
         "Cornucopia_NutmegSapling": {
@@ -3931,8 +4125,9 @@
           "Price": 1000,
 		  "ContextTags": [
 		    "cornucopia_tree_sapling",
-			"cornucopia_tree_sapling_herbs",
-			"cornucopia_tree_sapling_common"
+			"cornucopia_rarity_common",
+			"cornucopia_pack_herbs",
+			"cornucopia_shop_pierre"
 			]
         }
       }
@@ -3956,7 +4151,10 @@
 		  "IsDrink": true,
           "ContextTags": [
             "color_yellow",
-			"cooking_oil_item"
+			"cooking_oil_item",
+			"cornucopia_artisangood",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_essential"
           ]
         },
         "Cornucopia_Tofu": {
@@ -3970,7 +4168,10 @@
           "Edibility": 15,
           "ContextTags": [
             "color_white",
-			"meat_item"
+			"meat_item",
+			"cornucopia_artisangood",
+			"cornucopia_rarity_rare",
+			"cornucopia_pack_essential"
           ]
         }
       }
@@ -3992,7 +4193,10 @@
           "Price": 50,
           "Edibility": 5,
           "ContextTags": [
-            "color_brown"
+            "color_brown",
+			"cornucopia_artisangood",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops"
           ]
         },
 		"Cornucopia_DarkAle": {
@@ -4012,7 +4216,10 @@
 		  },
           "ContextTags": [
             "color_brown",
-			"alcohol_item"
+			"alcohol_item",
+			"cornucopia_artisangood",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops"
           ]
         },
 		"Cornucopia_Porter": {
@@ -4032,7 +4239,10 @@
 		  },
           "ContextTags": [
             "color_brown",
-			"alcohol_item"
+			"alcohol_item",
+			"cornucopia_artisangood",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops"
           ]
         },
 		"Cornucopia_SemolinaFlour": {
@@ -4046,7 +4256,10 @@
           "Price": 50,
           "Edibility": 5,
           "ContextTags": [
-            "color_brown"
+            "color_brown",
+			"cornucopia_artisangood",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops"
           ]
         },
 		"Cornucopia_SparklingWine": {
@@ -4066,7 +4279,10 @@
 		  },
           "ContextTags": [
             "color_cyan",
-			"alcohol_item"
+			"alcohol_item",
+			"cornucopia_artisangood",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops"
           ]
         },
 		"Cornucopia_Stout": {
@@ -4086,10 +4302,13 @@
 		  },
           "ContextTags": [
             "color_brown",
-			"alcohol_item"
+			"alcohol_item",
+			"cornucopia_artisangood",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops"
           ]
         },
-		"Cornucopia_TapiocaFlour": {
+		/*"Cornucopia_TapiocaFlour": {
           "Name": "Cornucopia_TapiocaFlour",
           "Type": "Basic",
           "Category": 0,
@@ -4100,9 +4319,12 @@
           "Price": 125,
           "Edibility": 5,
           "ContextTags": [
-            "color_white"
+            "color_white",
+			"cornucopia_artisangood",
+			"cornucopia_rarity_common",
+			"cornucopia_pack_extendedcrops"
           ]
-        }
+        }*/
       }
     },
   ]
