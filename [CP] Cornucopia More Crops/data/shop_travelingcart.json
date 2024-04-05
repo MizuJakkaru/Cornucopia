@@ -8,20 +8,19 @@
 				"Items"
 			],
 			"Entries": {
-				"Cornucopia.MoreCrops_Soybeans": {
-					"Id": "Cornucopia.MoreCrops_Soybeans",
-					"ItemId": "Cornucopia_Soybeans",
-					"Condition": "SYNCED_RANDOM day cornucopia_cart_soy_bean 0.20",
-					"IgnoreShopPriceModifiers": true,
-					"Price": 2000,
+				"Cornucopia.MoreCrops_ExclusiveExtended": {
+					"Id": "Cornucopia.MoreCrops_ExclusiveExtended",
+					"ItemId": "{{Random: Cornucopia_Soybeans, Cornucopia_PeppercornSeeds, Cornucopia_VanillaSeeds, Cornucopia_GinsengSeeds}}",
+					"Condition": "{{Enable Extended Crops}}, SYNCED_RANDOM day cornucopia_exclusive_seeds 0.8",
+					"Price": "{{Random: 1200, 1500, 1900, 2000, 2100, 2200, 2400, 3500}}",
 					"AvailableStock": 1,
-					"AvailableStockLimit": "Player",
+					"AvailableStockLimit": "Player"
 				},
 				"Cornucopia.MoreCrops_CommonSeeds": {
 					"Id": "Cornucopia.MoreCrops_CommonSeeds",
 					"ItemId": "RANDOM_ITEMS (O)",
 					"Condition": "SYNCED_RANDOM day cornucopia_common_seeds 0.8",
-					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_common",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, !ITEM_CONTEXT_TAG Target cornucopia_pack_herbs",
 					"AvailableStock": "{{Random: 3, 4, 5, 6, 7, 8}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
@@ -30,6 +29,7 @@
 							"Modification": "Multiply",
 							"RandomAmount": [
 								0.7,
+								0.9,
 								1.1,
 								2.2,
 								3
@@ -41,8 +41,8 @@
 					"Id": "Cornucopia.MoreCrops_RareSeeds",
 					"ItemId": "RANDOM_ITEMS (O)",
 					"Condition": "SYNCED_RANDOM day cornucopia_rare_seeds 0.4",
-					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_rare",
-					"AvailableStock": "{{Random: 1, 2, 3, 4}}",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target cornucopia_rarity_rare",
+					"AvailableStock": "{{Random: 1, 2, 3}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
 					"PriceModifiers": [
@@ -57,10 +57,31 @@
 						}
 					]
 				},
+				"Cornucopia.MoreCrops_Produce": {
+					"Id": "Cornucopia.MoreCrops_Produce",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "SYNCED_RANDOM day cornucopia_produce 0.8",
+					"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target cornucopia_crop_produce\" \"ITEM_CONTEXT_TAG Target cornucopia_bush_produce\" \"ITEM_CONTEXT_TAG Target cornucopia_fruittree_produce\", !ITEM_CONTEXT_TAG Target cornucopia_rarity_exclusive",
+					"AvailableStock": "{{Random: 1, 2, 3, 4, 5, 6}}",
+					"AvailableStockLimit": "Player",
+					"MaxItems": "{{Random: 1, 2, 3}}",
+					"PriceModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								0.9,
+								1.1,
+								2.2,
+								3,
+								4
+							]
+						}
+					]
+				},
 				"Cornucopia.MoreCrops_HerbSeeds": {
 					"Id": "Cornucopia.MoreCrops_HerbSeeds",
 					"ItemId": "RANDOM_ITEMS (O)",
-					"Condition": "SYNCED_RANDOM day cornucopia_herb_seeds 0.4",
+					"Condition": "{{Enable Herbs Pack}}, SYNCED_RANDOM day cornucopia_herb_seeds 0.4",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_herbs",
 					"AvailableStock": "{{Random: 3, 4, 5, 6}}",
 					"AvailableStockLimit": "Player",
@@ -81,7 +102,7 @@
 					"Id": "Cornucopia.MoreCrops_BushSeeds",
 					"ItemId": "RANDOM_ITEMS (O)",
 					"Condition": "SYNCED_RANDOM day cornucopia_bush_seeds 0.4",
-					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed_herbs",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_bush_seed, !ITEM_CONTEXT_TAG Target cornucopia_rarity_exclusive",
 					"AvailableStock": "{{Random: 1, 2, 3}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
@@ -93,9 +114,38 @@
 								0.9,
 								1.1,
 								2.2,
+								3
 							]
 						}
 					]
+				},
+				"Cornucopia.MoreCrops_FruitTreeSapling": {
+					"Id": "Cornucopia.MoreCrops_FruitTreeSapling",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "SYNCED_RANDOM day cornucopia_tree_sapling 0.4",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_fruittree_sapling, !ITEM_CONTEXT_TAG Target cornucopia_rarity_exclusive",
+					"AvailableStock": "{{Random: 1, 2}}",
+					"AvailableStockLimit": "Player",
+					"MaxItems": 1,
+					"PriceModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								0.9,
+								1.1,
+								2.2,
+								3
+							]
+						}
+					]
+				},
+				"Cornucopia.MoreCrops_ExclusiveEssential": {
+					"Id": "Cornucopia.MoreCrops_ExclusiveEssential",
+					"ItemId": "{{Random: Cornucopia_Soybeans, Cornucopia_PeppercornSeeds, Cornucopia_VanillaSeeds}}",
+					"Condition": "!{{Enable Extended Crops}}, SYNCED_RANDOM day cornucopia_exclusive_seeds 0.6",
+					"Price": "{{Random: 1200, 1500, 1900, 2000, 2100, 2200, 2400, 3500}}",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player"
 				},
 			}
 		}
