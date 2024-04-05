@@ -19,15 +19,15 @@
 						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
 					},
 					{
-						"ItemId": "Cornucopia_CabbageSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
-					},
-					{
 						"ItemId": "Cornucopia_SpinachSeeds",
 						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
 					},
 					{
 						"ItemId": "Cornucopia_CanolaFlowerSeeds",
+						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_AsparagusSeeds",
 						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
 					},
 					//summer crops
@@ -36,8 +36,8 @@
 						"Condition": "!LOCATION_NAME Here IslandWest"
 					},
 					{
-						"ItemId": "Cornucopia_AsparagusSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"ItemId": "Cornucopia_WatermelonSeeds",
+						"Condition": "!LOCATION_NAME Here IslandWest"
 					},
 					{
 						"ItemId": "Cornucopia_LettuceSeeds",
