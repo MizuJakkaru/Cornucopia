@@ -1,7 +1,196 @@
 {
-  "Changes": [
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_CropSeedsSpringCommon": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsSpringCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsSpringCommon", "BeforeId": "GrassStarter" },
+		]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_CropSeedsSummerCommon": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsSummerCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsSummerCommon", "BeforeId": "GrassStarter" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_CropSeedsFallCommon": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsFallCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsFallCommon", "BeforeId": "GrassStarter" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_CropSeedsWinterCommon": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsWinterCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsWinterCommon", "BeforeId": "GrassStarter" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_CropSeedsSpringCommon": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsSpringCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsSpringCommon", "BeforeId": "GrassStarter" },
+		]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_CropSeedsSummerCommon": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsSummerCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsSummerCommon", "BeforeId": "GrassStarter" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_CropSeedsFallCommon": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsFallCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsFallCommon", "BeforeId": "GrassStarter" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_CropSeedsWinterCommon": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsWinterCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsWinterCommon", "BeforeId": "GrassStarter" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_BushSeeds": {
+					"Id": "Cornucopia.MoreCrops_BushSeeds",
+					"ItemId": "ALL_ITEMS (O)",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_bush_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_BushSeeds", "BeforeId": "(O)628" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreCrops_FruitTreeSaplings": {
+					"Id": "Cornucopia.MoreCrops_FruitTreeSaplings",
+					"ItemId": "ALL_ITEMS (O)",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_fruittree_sapling, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreCrops_FruitTreeSaplings", "AfterId": "(O)633" },]
+		},
 	//Essential crop seeds
-    {
+    /*{
       "Action": "EditData",
 	  "Target": "Data/Shops",
       "TargetField": [ "SeedShop", "Items" ],
@@ -21,13 +210,6 @@
 			"IgnoreShopPriceModifiers": true,//"Price": 130,
 			
 		},
-		/*"Cornucopia_BroccoliSeeds": {
-			"Id": "Cornucopia_BroccoliSeeds",
-			"ItemId": "Cornucopia_BroccoliSeeds",
-			"Condition": "SEASON fall, YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 80,
-			
-		},*/
 		"Cornucopia_TurnipSeeds": {
 			"Id": "Cornucopia_TurnipSeeds",
 			"ItemId": "Cornucopia_TurnipSeeds",
@@ -405,13 +587,6 @@
 			"IgnoreShopPriceModifiers": true,//"Price": 100,
 			
 		},
-		/*"Cornucopia_YellowSquashSeeds": {
-			"Id": "Cornucopia_YellowSquashSeeds",
-			"ItemId": "Cornucopia_YellowSquashSeeds",
-			"Condition": "SEASON summer, YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 80,
-			
-		}*/
       },
 	  "MoveEntries": [
 			{ "Id": "Cornucopia_AdzukiBeanSeeds", "BeforeId": "GrassStarter" },
@@ -876,6 +1051,6 @@
 			{ "Id": "Cornucopia_EucalyptusLeavesSapling", "BeforeId": "(O)458" },
 			{ "Id": "Cornucopia_NutmegSapling", "BeforeId": "(O)458" }
 		]
-    },
+    },*/
   ]
 }
