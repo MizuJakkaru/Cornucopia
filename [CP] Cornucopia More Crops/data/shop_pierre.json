@@ -85,8 +85,8 @@
 				"Items"
 			],
 			"Entries": {
-				"Cornucopia.MoreCrops_CropSeedsSpringCommon": {
-					"Id": "Cornucopia.MoreCrops_CropSeedsSpringCommon",
+				"Cornucopia.MoreCrops_CropSeedsSpringRare": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsSpringRare",
 					"ItemId": "ALL_ITEMS (O)",
 					"Condition": "SEASON spring, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
@@ -94,7 +94,7 @@
 				},
 			},
 			"MoveEntries": [
-			{ "Id": "Cornucopia.MoreCrops_CropSeedsSpringCommon", "BeforeId": "GrassStarter" },
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsSpringRare", "BeforeId": "GrassStarter" },
 		]
 		},
 		{
@@ -105,8 +105,8 @@
 				"Items"
 			],
 			"Entries": {
-				"Cornucopia.MoreCrops_CropSeedsSummerCommon": {
-					"Id": "Cornucopia.MoreCrops_CropSeedsSummerCommon",
+				"Cornucopia.MoreCrops_CropSeedsSummerRare": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsSummerRare",
 					"ItemId": "ALL_ITEMS (O)",
 					"Condition": "SEASON summer, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
@@ -114,7 +114,7 @@
 				},
 			},
 			"MoveEntries": [
-			{ "Id": "Cornucopia.MoreCrops_CropSeedsSummerCommon", "BeforeId": "GrassStarter" },]
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsSummerRare", "BeforeId": "GrassStarter" },]
 		},
 		{
 			"Action": "EditData",
@@ -124,8 +124,8 @@
 				"Items"
 			],
 			"Entries": {
-				"Cornucopia.MoreCrops_CropSeedsFallCommon": {
-					"Id": "Cornucopia.MoreCrops_CropSeedsFallCommon",
+				"Cornucopia.MoreCrops_CropSeedsFallRare": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsFallRare",
 					"ItemId": "ALL_ITEMS (O)",
 					"Condition": "SEASON fall, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
@@ -133,7 +133,7 @@
 				},
 			},
 			"MoveEntries": [
-			{ "Id": "Cornucopia.MoreCrops_CropSeedsFallCommon", "BeforeId": "GrassStarter" },]
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsFallRare", "BeforeId": "GrassStarter" },]
 		},
 		{
 			"Action": "EditData",
@@ -143,8 +143,8 @@
 				"Items"
 			],
 			"Entries": {
-				"Cornucopia.MoreCrops_CropSeedsWinterCommon": {
-					"Id": "Cornucopia.MoreCrops_CropSeedsWinterCommon",
+				"Cornucopia.MoreCrops_CropSeedsWinterRare": {
+					"Id": "Cornucopia.MoreCrops_CropSeedsWinterRare",
 					"ItemId": "ALL_ITEMS (O)",
 					"Condition": "SEASON winter, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops",
@@ -152,7 +152,7 @@
 				},
 			},
 			"MoveEntries": [
-			{ "Id": "Cornucopia.MoreCrops_CropSeedsWinterCommon", "BeforeId": "GrassStarter" },]
+			{ "Id": "Cornucopia.MoreCrops_CropSeedsWinterRare", "BeforeId": "GrassStarter" },]
 		},
 		{
 			"Action": "EditData",
