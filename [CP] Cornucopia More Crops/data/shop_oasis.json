@@ -39,6 +39,12 @@
 			//"Price": 180,
 			"IgnoreShopPriceModifiers": true
 		},
+		"Cornucopia_BambooSeeds": {
+			"Id": "Cornucopia_BambooSeeds",
+			"ItemId": "Cornucopia_BambooSeeds",
+			//"Price": 180,
+			"IgnoreShopPriceModifiers": true
+		},
 		"Cornucopia_BreadfruitSapling": {
 			"Id": "Cornucopia_BreadfruitSapling",
 			"ItemId": "Cornucopia_BreadfruitSapling",
@@ -91,10 +97,43 @@
 	  "MoveEntries": [
 			{ "Id": "Cornucopia_BlueAgaveSeeds", "AfterId": "(O)494" },
 			{ "Id": "Cornucopia_AgaveSeeds", "AfterId": "(O)494" },
+			{ "Id": "Cornucopia_BambooSeeds", "AfterId": "(O)494" },
 			{ "Id": "Cornucopia_BreadfruitSapling", "BeforeId": "(BC)196" },
 			{ "Id": "Cornucopia_DragonFruitSapling", "BeforeId": "(BC)196" },
 			{ "Id": "Cornucopia_DurianSapling", "BeforeId": "(BC)196" },
 			{ "Id": "Cornucopia_LycheeSapling", "BeforeId": "(BC)196" }
+		]
+    },
+	//Herb seeds
+    {
+      "Action": "EditData",
+	  "Target": "Data/Shops",
+      "TargetField": [ "Sandy", "Items" ],
+      "When": {"Enable Herbs Pack": true},
+      "Entries": {
+		"Cornucopia_AloeSeeds": {
+			"Id": "Cornucopia_AloeSeeds",
+			"ItemId": "Cornucopia_AloeSeeds",
+			//"Price": 30,
+			"IgnoreShopPriceModifiers": true
+		},
+		"Cornucopia_CuminSeeds": {
+			"Id": "Cornucopia_CuminSeeds",
+			"ItemId": "Cornucopia_CuminSeeds",
+			//"Price": 30,
+			"IgnoreShopPriceModifiers": true
+		},
+		"Cornucopia_LemongrassSeeds": {
+			"Id": "Cornucopia_LemongrassSeeds",
+			"ItemId": "Cornucopia_LemongrassSeeds",
+			//"Price": 30,
+			"IgnoreShopPriceModifiers": true
+		},
+      },
+	  "MoveEntries": [
+			{ "Id": "Cornucopia_AloeSeeds", "AfterId": "(O)494" },
+			{ "Id": "Cornucopia_CuminSeeds", "AfterId": "(O)494" },
+			{ "Id": "Cornucopia_LemongrassSeeds", "AfterId": "(O)494" }
 		]
     },
   ]
