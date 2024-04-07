@@ -38,6 +38,17 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {
+				"Enable Extended Crops Pack": true,
+				"Disable Grape Bushes": false
+			},
+			"Entries": { 
+				"301": null,
+			}
+		},
+		{
+			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
 				"SeedShop",
@@ -49,14 +60,13 @@
 			},
 			"Fields": {
 				"(O)301": {
-					"Condition": "SEASON spring summer fall winter",
-					"ApplyProfitMargins": false,
+					"Condition": null,
 				},
 			},
 			"MoveEntries": [
 				{
 					"Id": "(O)301",
-					"BeforeId": "Cornucopia_WhiteGrapeSeeds"
+					"BeforeId": "(O)628"
 				}
 			]
 		},

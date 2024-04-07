@@ -162,6 +162,15 @@
 		   "Entries": {
 				  "#-1": "raw_spice_item"
 		   }
-		}
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["301", "ContextTags"],			
+		   "When": {"Disable Grape Bushes": true},
+		   "Entries": {
+				  "#-2": "seedmaker_banned"
+		   }
+		},
 	]
 }

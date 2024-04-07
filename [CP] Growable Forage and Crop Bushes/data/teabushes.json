@@ -195,7 +195,7 @@
 				"(O)433": {
 					"AgeToProduce": 14,
 					"DayToBeginProducing": 0,
-					"Seasons": ["spring, summer"],
+					"Seasons": ["spring", "summer"],
 					"ItemsProduced": [
 						{
 							"Condition": "DAY_OF_MONTH even",
