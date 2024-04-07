@@ -54,27 +54,27 @@
 		"Coffee Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Turns coffee beans from a crop into a bush (if you have Custom Bush installed)."
+			"Description": "Turns coffee beans from a crop into a bush (if you have Custom Bush installed). Requires restarting the game to change."
 		},
 		"Blueberry Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Turns blueberries from a crop into a bush (if you have Custom Bush installed)."
+			"Description": "Turns blueberries from a crop into a bush (if you have Custom Bush installed). Requires restarting the game to change."
 		},
 		"Cactus Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Turns cactus fruit from a crop into a bush (if you have Custom Bush installed)."
+			"Description": "Turns cactus fruit from a crop into a bush (if you have Custom Bush installed). Requires restarting the game to change."
 		},
 		"Hops Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Turns hops from a crop into a bush (if you have Custom Bush installed). Visually still looks like a trellis."
+			"Description": "Turns hops from a crop into a bush (if you have Custom Bush installed). Visually still looks like a trellis. Requires restarting the game to change."
 		},
 		"Grapes Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Turns grapes from a crop into a bush (if you have Custom Bush installed). Visually still looks like a trellis."
+			"Description": "Turns grapes from a crop into a bush (if you have Custom Bush installed). Visually still looks like a trellis. Requires restarting the game to change."
 		},
 		"Hazelnut Tree": {
 			"AllowValues": "true, false",
