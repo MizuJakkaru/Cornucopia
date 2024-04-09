@@ -497,12 +497,12 @@
             "nut_item"
           ]
         },
-        "Cornucopia_PrismaticExtract": {
-          "Name": "Cornucopia_PrismaticExtract",
+        "Cornucopia_PrismaticEssence": {
+          "Name": "Cornucopia_PrismaticEssence",
           "Category": -26,
           "SpriteIndex": 9,
-          "DisplayName": "{{i18n:PrismaticExtract_name}}",
-          "Description": "{{i18n:PrismaticExtract_description}}",
+          "DisplayName": "{{i18n:PrismaticEssence_name}}",
+          "Description": "{{i18n:PrismaticEssence_description}}",
           "Texture": "Cornucopia.ArtisanMachines/Objects",
           "Price": 3500,
           "Edibility": -300,

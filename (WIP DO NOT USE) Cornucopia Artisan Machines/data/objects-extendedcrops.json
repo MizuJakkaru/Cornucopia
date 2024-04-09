@@ -18,34 +18,6 @@
             "noodle_item"
           ]
         },
-        "Cornucopia_HabaneroExtract": {
-          "Name": "Cornucopia_HabaneroExtract",
-          "Category": -26,
-          "SpriteIndex": 7,
-          "DisplayName": "{{i18n:HabaneroExtract_name}}",
-          "Description": "{{i18n:HabaneroExtract_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 240,
-          "Edibility": -300,
-          "ContextTags": [
-            "color_orange",
-            "dye_medium"
-          ]
-        },
-        "Cornucopia_JalapenoExtract": {
-          "Name": "Cornucopia_JalapenoExtract",
-          "Category": -26,
-          "SpriteIndex": 8,
-          "DisplayName": "{{i18n:JalapenoExtract_name}}",
-          "Description": "{{i18n:JalapenoExtract_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 100,
-          "Edibility": -300,
-          "ContextTags": [
-            "color_green",
-            "dye_medium"
-          ]
-        },
         "Cornucopia_Kimchi": {
           "Name": "Cornucopia_Kimchi",
           "Category": -26,

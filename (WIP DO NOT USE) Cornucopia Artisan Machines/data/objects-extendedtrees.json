@@ -4,19 +4,6 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
-        "Cornucopia_AlmondExtract": {
-          "Name": "Cornucopia_AlmondExtract",
-          "Category": -26,
-          "SpriteIndex": 10,
-          "DisplayName": "{{i18n:AlmondExtract_name}}",
-          "Description": "{{i18n:AlmondExtract_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 200,
-          "Edibility": -300,
-          "ContextTags": [
-            "color_sand"
-          ]
-        },
         "Cornucopia_ChewingGum": {
           "Name": "Cornucopia_ChewingGum",
           "Category": -26,

@@ -11,7 +11,7 @@
 							"OutputRules":				
 								[
 									{
-										"Id": "Cornucopia_PrismaticExtract",
+										"Id": "Cornucopia_PrismaticEssence",
 										"Triggers": 
 											[
 												{
@@ -21,7 +21,7 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_PrismaticExtract",
+													"ItemId": "(O)Cornucopia_PrismaticEssence",
 												}
 											],
 										"MinutesUntilReady": 1750,

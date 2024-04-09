@@ -218,20 +218,6 @@
             "dye_strong"
           ]
         },
-        "Cornucopia_VanillaExtract": {
-          "Name": "Cornucopia_VanillaExtract",
-          "Category": -26,
-          "SpriteIndex": 6,
-          "DisplayName": "{{i18n:VanillaExtract_name}}",
-          "Description": "{{i18n:VanillaExtract_description}}",
-          "Texture": "Cornucopia.ArtisanMachines/Objects",
-          "Price": 300,
-          "Edibility": -300,
-          "ContextTags": [
-            "color_brown",
-            "dye_strong"
-          ]
-        },
         "Cornucopia_ChocolateYogurt": {
           "Name": "Cornucopia_ChocolateYogurt",
           "Category": -26,
