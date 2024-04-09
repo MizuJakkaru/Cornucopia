@@ -1,5 +1,16 @@
 {
     "Changes": [
+		{
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Desert", "Forage" ],
+        	"Entries": {
+                "(O)Cornucopia_Sugarcane": {
+					"Chance": 0.5,
+                	"ItemId": "(O)Cornucopia_Sugarcane"
+                }
+        	}
+        },
         // add forage (cindersap forest)
         {
         	"Action": "EditData",

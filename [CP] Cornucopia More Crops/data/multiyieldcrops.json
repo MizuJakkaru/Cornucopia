@@ -26,7 +26,8 @@
 				"Cornucopia_BellPepperSeeds": {
 					"YieldOverrides": {
 						"5": { //number of phase which you harvest to get this (0=seed)
-							"NewPhase": 4,
+							//"NewPhase": 4,
+							"RegrowDays": 4,
 							"IgnoreDefaultDrops": false,
 							"Drops": [
 								{

@@ -88,7 +88,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Maru", 1],
-                    "Value": "Cornucopia_Raspberry Cornucopia_Watermelon", 
+                    "Value": "Cornucopia_Raspberry", 
                     "Delimiter": " "
                 },
 				{
@@ -196,7 +196,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Shane", 1],
-                    "Value": "Cornucopia_Habanero Cornucopia_Jalapeno Cornucopia_WasabiRoot Cornucopia_DarkAle", 
+                    "Value": "Cornucopia_Habanero Cornucopia_Jalapeno Cornucopia_WasabiRoot", 
                     "Delimiter": " "
                 },
 				{
