@@ -1,0 +1,21 @@
+{
+	"Changes": [
+		// Add Letter
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"Cornucopia_PierreDehydratorAlternate": "{{i18n:Mail_PierreDehydratorAlternate}}",
+			}
+		},
+		// Add Letter Event
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"When": {"Enable Herbs Pack": true},
+			"Entries": {
+				"Cornucopia_SendPierreDehydratorAlternate/[precondition here] PLAYER_HAS_CRAFTING_RECIPE Current (BC)Dehydrator/sendmail Cornucopia_PierreDehydratorAlternate": "null"
+			}
+		}
+	]
+}
