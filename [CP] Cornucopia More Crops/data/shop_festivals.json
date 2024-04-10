@@ -1,0 +1,110 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_StardewValleyFair_StarTokens",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_Cornucopia": {
+					"Id": "Cornucopia_Cornucopia",
+					"ItemId": "Cornucopia_Cornucopia",
+					"Price": 500,
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 1,
+					"AvailableStockLimit": 1
+				},
+				"Cornucopia_CottonBollSeeds": {
+					"Id": "Cornucopia_CottonBollSeeds",
+					"ItemId": "Cornucopia_CottonBollSeeds",
+					"Price": 250,
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 16,
+					"AvailableStockLimit": 1
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_Cornucopia",
+					"AfterId": "(F)1307"
+				},
+				{
+					"Id": "Cornucopia_CottonBollSeeds",
+					"AfterId": "(F)1307"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_Luau_Pierre",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_KiwiSeeds": {
+					"Id": "Cornucopia_KiwiSeeds",
+					"ItemId": "Cornucopia_KiwiSeeds",
+					//"Price": 300,
+				},
+				"Cornucopia_WatermelonSeeds": {
+					"Id": "Cornucopia_WatermelonSeeds",
+					"ItemId": "Cornucopia_WatermelonSeeds",
+					//"Price": 300,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_EggFestival_Pierre",
+				"Items"
+			],
+			"When": {"Enable Extended Crops Pack": true},
+			"Entries": {
+				"Cornucopia_WasabiRootSeeds": {
+					"Id": "Cornucopia_WasabiRootSeeds",
+					"ItemId": "Cornucopia_WasabiRootSeeds",
+					//"Price": 300,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_EggFestival_Pierre",
+				"Items"
+			],
+			"When": {"Enable Extended Crops Pack": true},
+			"Entries": {
+				"Cornucopia_WasabiRootSeeds": {
+					"Id": "Cornucopia_WasabiRootSeeds",
+					"ItemId": "Cornucopia_WasabiRootSeeds",
+					//"Price": 300,
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FestivalOfIce_TravelingMerchant",
+				"Items"
+			],
+			"When": {"Enable Extended Crops Pack": true},
+			"Entries": {
+				"Cornucopia_JuniperBerriesSeeds": {
+					"Id": "Cornucopia_JuniperBerriesSeeds",
+					"ItemId": "Cornucopia_JuniperBerriesSeeds",
+					"AvailableStock": 10,
+					"AvailableStockLimit": 1,
+					"Price": 200,
+				}
+			},
+		}
+	]
+}

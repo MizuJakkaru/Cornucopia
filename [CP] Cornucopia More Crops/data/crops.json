@@ -101,9 +101,9 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 26,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 1,
+					"HarvestMaxStack": 2,
 					"RegrowDays": 3,
-					"ExtraHarvestChance": "{{75Percent}}"
+					"ExtraHarvestChance": "{{10Percent}}"
 				},
 				"Cornucopia_SugarcaneSeeds": {
 					"Seasons": [ "summer" ],
@@ -277,8 +277,7 @@
 					"SpriteIndex": 34,
 					"RegrowDays": 5,
 					"HarvestMinStack": 2,
-					"HarvestMaxStack": 2,
-					"ExtraHarvestChance": "{{50Percent}}",
+					"HarvestMaxStack": 3
 				},
 				"Cornucopia_DaikonSeeds": {
 					"Seasons": [ "fall" ],
@@ -311,8 +310,7 @@
 					"RegrowDays": 3,
 					"IsRaised": true,
 					"HarvestMinStack": 2,
-					"HarvestMaxStack": 2,
-					"ExtraHarvestChance": "{{50Percent}}",
+					"HarvestMaxStack": 3
 				},
 					"Cornucopia_GroundcherriesSeeds": {
 					"Seasons": [ "summer", "fall" ],
@@ -388,8 +386,8 @@
 					"SpriteIndex": 21,
 					"RegrowDays": 4,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 1,
-					"ExtraHarvestChance": "{{90Percent}}",
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": "{{25Percent}}",
 				},
 				"Cornucopia_PassionFruitSeeds": {
 					"Seasons": [ "spring" ],

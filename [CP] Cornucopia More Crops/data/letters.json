@@ -23,7 +23,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Farm",
 			"When": {
-				"Query: {{Enable Extended Crops Pack}} OR {{Enable Herbs Pack}}": true
+				"Enable Herbs Pack": true
 			},
 			"Entries": {
 				"Cornucopia_SendPierreY1WinterCrops/dayofmonth 28/season fall/year 1/sendmail Cornucopia_PierreY1WinterCrops": "null"
