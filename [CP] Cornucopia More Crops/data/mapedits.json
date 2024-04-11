@@ -1,0 +1,370 @@
+{
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_W",
+			"When": {
+				"Enable Extended Trees Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": false
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 45,
+						"Y": 43
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 55,
+						"Y": 53
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 37,
+						"Y": 42
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 39,
+						"Y": 45
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 31,
+						"Y": 47
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 53,
+						"Y": 58
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 44,
+						"Y": 64
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_N",
+			"When": {
+				"Enable Extended Trees Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": false
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 59,
+						"Y": 77
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 31,
+						"Y": 78
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 56,
+						"Y": 30
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 51,
+						"Y": 32
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_W",
+			"When": {
+				"Enable Extended Trees Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": true
+			},
+			"Priority": "Default + 10",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 38,
+						"Y": 42
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 44,
+						"Y": 41
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 50,
+						"Y": 44
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 30,
+						"Y": 50
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 66,
+						"Y": 58
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 51,
+						"Y": 65
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_N",
+			"When": {
+				"Enable Extended Trees Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": true
+			},
+			"Priority": "Default + 10",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 56,
+						"Y": 30
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 51,
+						"Y": 32
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 52,
+						"Y": 55
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 49,
+						"Y": 54
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 58,
+						"Y": 57
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 58,
+						"Y": 75
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 27,
+						"Y": 78
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 34,
+						"Y": 81
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Island_NW",
+			"When": {
+				"Enable Extended Trees Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": true
+			},
+			"Priority": "Default + 10",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 6,
+						"Y": 31
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 13,
+						"Y": 29
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 16,
+						"Y": 31
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_SapodillaSeed"
+					}
+				},
+			]
+		}
+	]
+}

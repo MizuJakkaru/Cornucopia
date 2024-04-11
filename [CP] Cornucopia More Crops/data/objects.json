@@ -811,14 +811,15 @@
           "Description": "{{i18n:Elderberries_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
           "Price": 60,
-          "Edibility": 10,
+          "Edibility": -20,
           "ContextTags": [
             "berry_item",
             "color_dark_purple",
 			"season_winter",
 			"cornucopia_bush_produce",
 			"cornucopia_rarity_common",
-			"cornucopia_pack_extendedcrops"
+			"cornucopia_pack_extendedcrops",
+			"poisonous_item"
           ]
         },
         "Cornucopia_Ginseng": {
@@ -1058,7 +1059,7 @@
           "DisplayName": "{{i18n:PassionFruit_name}}",
           "Description": "{{i18n:PassionFruit_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 180,
+          "Price": 220,
           "Edibility": 20,
           "ContextTags": [
             "color_pink",
