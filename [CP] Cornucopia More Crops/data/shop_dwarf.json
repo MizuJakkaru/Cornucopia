@@ -12,7 +12,7 @@
 		"Cornucopia_GinsengSeeds": {
 			"Id": "Cornucopia_GinsengSeeds",
 			"ItemId": "Cornucopia_GinsengSeeds",
-			"TradeItemId": "Carrot",
+			"TradeItemId": "Cornucopia_Turnip",
 			"TradeItemAmount": 4,
 			"IgnoreShopPriceModifiers": true
 		},
