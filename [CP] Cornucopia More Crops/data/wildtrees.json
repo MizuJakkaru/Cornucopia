@@ -1,52 +1,52 @@
 {
 	"Changes": [
-		//Extended trees
 		{
 			"Action": "EditData",
 			"Target": "Data/WildTrees",
 			"When": {
-			"Enable Extended Trees Pack": true
+				"Enable Extended Trees Pack": true
 			},
 			"Entries": {
 				"Cornucopia_SapodillaSeed": {
 					"Textures": [
-					  {
-						"Texture": "Cornucopia.MoreCrops/treesapodilla_spring",
-						"Season": "spring",
-					  },
-					  {
-						"Texture": "Cornucopia.MoreCrops/treesapodilla_summer",
-						"Season": "summer",
-					  },
-					  {
-						"Texture": "Cornucopia.MoreCrops/treesapodilla_fall",
-						"Season": "fall",
-					  },
-					  {
-						"Texture": "Cornucopia.MoreCrops/treesapodilla_winter",
-						"Season": "winter",
-					  },
+						{
+							"Texture": "Cornucopia.MoreCrops/treesapodilla_spring",
+							"Season": "spring"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treesapodilla_summer",
+							"Season": "summer"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treesapodilla_fall",
+							"Season": "fall"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treesapodilla_winter",
+							"Season": "winter"
+						}
 					],
 					"SeedItemId": "(O)Cornucopia_SapodillaSeed",
 					"DebrisColor": 100004,
 					"IsLeafyInWinter": true,
+					"UseAlternateSpriteWhenNotShaken": true,
 					"ShakeItems": [
-					  {
-						"ItemId": "(O)Cornucopia_Sapodilla",
-						"MinStack": 1,
-						"MaxStack": 1,
-						"Season": "summer",
-						"Chance": 0.35,
-					  }
+						{
+							"ItemId": "(O)Cornucopia_Sapodilla",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Season": "summer",
+							"Chance": 1
+						}
 					],
 					"TapItems": [
-					  {
-						"ItemId": "(O)Cornucopia_ChicleRubber",
-						"DaysUntilReady": 5,
-					  }
-					],
-				},
+						{
+							"ItemId": "(O)Cornucopia_ChicleRubber",
+							"DaysUntilReady": 5
+						}
+					]
+				}
 			}
-		},
+		}
 	]
 }

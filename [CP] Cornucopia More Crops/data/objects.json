@@ -3346,7 +3346,7 @@
           "DisplayName": "{{i18n:Sapodilla_name}}",
           "Description": "{{i18n:Sapodilla_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 110,
+          "Price": 40,
           "Edibility": 18,
           "ContextTags": [
             "color_yellow",
