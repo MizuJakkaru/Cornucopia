@@ -25,55 +25,13 @@
 	  "Target": "Data/Shops",
       "TargetField": [ "Joja", "Items" ],
       "When": {
-        "Salmonberry Bush": true
-      },
-      "Entries": {
-		"Cornucopia_SalmonberrySeeds": {
-			"Id": "Cornucopia_SalmonberrySeeds",
-			"ItemId": "Cornucopia_SalmonberrySeeds",
-			"Condition": "SEASON spring, YEAR 2",
-			//"Price": 900,
-			"IgnoreShopPriceModifiers": true,
-			"ApplyProfitMargins": false,
-		}
-      },
-	  /*"MoveEntries": [
-			{ "Id": "Cornucopia_SalmonberrySeeds", "BeforeId": "(O)245" }
-		]*/
-    },
-	{
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "Joja", "Items" ],
-      "When": {
-        "Blackberry Bush": true
-      },
-      "Entries": {
-		"Cornucopia_BlackberrySeeds": {
-			"Id": "Cornucopia_BlackberrySeeds",
-			"ItemId": "Cornucopia_BlackberrySeeds",
-			"Condition": "SEASON fall, YEAR 2",
-			//"Price": 950,
-			"IgnoreShopPriceModifiers": true,
-			"ApplyProfitMargins": false,
-		}
-      },
-	  /*"MoveEntries": [
-			{ "Id": "Cornucopia_BlackberrySeeds", "BeforeId": "(O)245" }
-		]*/
-    },
-	{
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "Joja", "Items" ],
-      "When": {
         "Sweet Pea Crop": true
       },
       "Entries": {
 		"Cornucopia_SweetPeaSeeds": {
 			"Id": "Cornucopia_SweetPeaSeeds",
 			"ItemId": "Cornucopia_SweetPeaSeeds",
-			"Condition": "SEASON spring, YEAR 3",
+			"Condition": "SEASON spring",
 			//"Price": 30,
 			"IgnoreShopPriceModifiers": true
 		}
@@ -93,7 +51,7 @@
 		"Cornucopia_CrocusSeeds": {
 			"Id": "Cornucopia_CrocusSeeds",
 			"ItemId": "Cornucopia_CrocusSeeds",
-			"Condition": "SEASON winter, YEAR 3",
+			"Condition": "SEASON winter",
 			//"Price": 35,
 			"IgnoreShopPriceModifiers": true
 		}
@@ -102,26 +60,5 @@
 			{ "Id": "Cornucopia_CrocusSeeds", "BeforeId": "(O)297" }
 		]*/
     },
-	{
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "Joja", "Items" ],
-      "When": {
-        "Holly Bush": true
-      },
-      "Entries": {
-		"Cornucopia_HollySeeds": {
-			"Id": "Cornucopia_HollySeeds",
-			"ItemId": "Cornucopia_HollySeeds",
-			"Condition": "SEASON winter, YEAR 3",
-			//"Price": 1000,
-			"IgnoreShopPriceModifiers": true,
-			"ApplyProfitMargins": false,
-		}
-      },
-	  /*"MoveEntries": [
-			{ "Id": "Cornucopia_HollySeeds", "BeforeId": "(O)245" }
-		]*/
-    }
   ]
 }
