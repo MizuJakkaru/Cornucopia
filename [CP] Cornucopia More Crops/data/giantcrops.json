@@ -29,6 +29,13 @@
 							"Quality": 2,
 							"MinStack": 5,
 							"MaxStack": 7,
+						},
+						{
+							"Chance": 0.5,
+							"ItemId": "Cornucopia_Watermelon",
+							"Quality": 4,
+							"MinStack": 1,
+							"MaxStack": 2,
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/GiantCrops",
@@ -65,6 +72,13 @@
 							"Quality": 2,
 							"MinStack": 1,
 							"MaxStack": 3,
+						},
+						{
+							"Chance": 0.25,
+							"ItemId": "Cornucopia_Watermelon",
+							"Quality": 4,
+							"MinStack": 1,
+							"MaxStack": 1,
 						}
 					],
 					"Texture": "Cornucopia.MoreCrops/GiantCrops",
