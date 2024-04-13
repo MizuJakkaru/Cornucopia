@@ -1,46 +1,105 @@
 {
-  "Changes": [
-	//Extended seeds & saplings
-    {
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "Dwarf", "Items" ],
-      "When": {
-        "Enable Extended Crops Pack": true
-      },
-      "Entries": {
-		"Cornucopia_GinsengSeeds": {
-			"Id": "Cornucopia_GinsengSeeds",
-			"ItemId": "Cornucopia_GinsengSeeds",
-			"TradeItemId": "Cornucopia_Turnip",
-			"TradeItemAmount": 4,
-			"IgnoreShopPriceModifiers": true
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
+			"When": {
+				"Enable Extended Crops Pack": true
+			},
+			"Entries": {
+				"Cornucopia_GinsengSeeds": {
+					"Id": "Cornucopia_GinsengSeeds",
+					"ItemId": "Cornucopia_GinsengSeeds",
+					"TradeItemId": "Cornucopia_Turnip",
+					"TradeItemAmount": 4,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_ChickenoftheWoodsSeeds": {
+					"Id": "Cornucopia_ChickenoftheWoodsSeeds",
+					"ItemId": "Cornucopia_ChickenoftheWoodsSeeds",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_ShiitakeSeeds": {
+					"Id": "Cornucopia_ShiitakeSeeds",
+					"ItemId": "Cornucopia_ShiitakeSeeds",
+					"IgnoreShopPriceModifiers": true
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_GinsengSeeds",
+					"BeforeId": "(O)773"
+				},
+				{
+					"Id": "Cornucopia_ChickenoftheWoodsSeeds",
+					"BeforeId": "(O)773"
+				},
+				{
+					"Id": "Cornucopia_ShiitakeSeeds",
+					"BeforeId": "(O)773"
+				},
+			]
 		},
-		"Cornucopia_ChickenoftheWoodsSeeds": {
-			"Id": "Cornucopia_ChickenoftheWoodsSeeds",
-			"ItemId": "Cornucopia_ChickenoftheWoodsSeeds",
-			//"Price": 1200,
-			"IgnoreShopPriceModifiers": true
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
+			"When": {
+				"Enable Extended Trees Pack": true
+			},
+			"Entries": {
+				"Cornucopia_SapodillaSeed": {
+					"Id": "Cornucopia_SapodillaSeed",
+					"ItemId": "Cornucopia_SapodillaSeed",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_SapodillaSeed",
+					"BeforeId": "(O)286"
+				}
+			]
 		},
-		"Cornucopia_ShiitakeSeeds": {
-			"Id": "Cornucopia_ShiitakeSeeds",
-			"ItemId": "Cornucopia_ShiitakeSeeds",
-			//"Price": 1000,
-			"IgnoreShopPriceModifiers": true
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
+			"When": {
+				"Enable Herbs Pack": true
+			},
+			"Entries": {
+				"Cornucopia_LicoriceRootSeeds": {
+					"Id": "Cornucopia_LicoriceRootSeeds",
+					"ItemId": "Cornucopia_LicoriceRootSeeds",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_WormwoodSeeds": {
+					"Id": "Cornucopia_WormwoodSeeds",
+					"ItemId": "Cornucopia_WormwoodSeeds",
+					"IgnoreShopPriceModifiers": true
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LicoriceRootSeeds",
+					"BeforeId": "(O)773"
+				},
+				{
+					"Id": "Cornucopia_WormwoodSeeds",
+					"BeforeId": "(O)773"
+				},
+			]
 		},
-		"Cornucopia_SapodillaSeed": {
-			"Id": "Cornucopia_SapodillaSeed",
-			"ItemId": "Cornucopia_SapodillaSeed",
-			//"Price": 100,
-			"IgnoreShopPriceModifiers": true
-		}
-      },
-	  "MoveEntries": [
-			{ "Id": "Cornucopia_GinsengSeeds", "BeforeId": "(O)773" },
-			{ "Id": "Cornucopia_ChickenoftheWoodsSeeds", "BeforeId": "(O)773" },
-			{ "Id": "Cornucopia_ShiitakeSeeds", "BeforeId": "(O)773" },
-			{ "Id": "Cornucopia_SapodillaSeed", "BeforeId": "(O)286" }
-		]
-    },
-  ]
+	]
 }

@@ -1,48 +1,149 @@
 {
-  "Changes": [
-	//Extended seeds & saplings
-    {
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "IslandTrade", "Items" ],
-      "Entries": {
-		"Cornucopia_PeppercornSeeds": {
-			"Id": "Cornucopia_PeppercornSeeds",
-			"ItemId": "Cornucopia_PeppercornSeeds",
-			"TradeItemId": "(O)881", //Bone Fragment
-			"TradeItemAmount": 10,
-			"IgnoreShopPriceModifiers": true
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_PeppercornSeeds": {
+					"Id": "Cornucopia_PeppercornSeeds",
+					"ItemId": "Cornucopia_PeppercornSeeds",
+					"TradeItemId": "(O)881",//bone fragment
+					"TradeItemAmount": 10,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_VanillaSeeds": {
+					"Id": "Cornucopia_VanillaSeeds",
+					"ItemId": "Cornucopia_VanillaSeeds",
+					"TradeItemId": "(O)394",//rainbow shell
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_KiwiSeeds": {
+					"Id": "Cornucopia_KiwiSeeds",
+					"ItemId": "Cornucopia_KiwiSeeds",
+					"TradeItemId": "(O)130",//tuna
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_PeppercornSeeds",
+					"AfterId": "(O)833"
+				},
+				{
+					"Id": "Cornucopia_VanillaSeeds",
+					"AfterId": "(O)833"
+				},
+				{
+					"Id": "Cornucopia_KiwiSeeds",
+					"AfterId": "(O)833"
+				}
+			]
 		},
-	  },
-	},
-	{
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "IslandTrade", "Items" ],
-      "When": {
-        "Enable Extended Crops Pack": true
-      },
-      "Entries": {
-		"Cornucopia_PapayaSapling": {
-			"Id": "Cornucopia_PapayaSapling",
-			"ItemId": "Cornucopia_PapayaSapling",
-			"TradeItemId": "(O)719", //Mussel
-			"TradeItemAmount": 5,
-			"IgnoreShopPriceModifiers": true
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+			"When": {
+				"Enable Extended Crops Pack": true
+			},
+			"Entries": {
+				"Cornucopia_PassionFruitSeeds": {
+					"Id": "Cornucopia_PassionFruitSeeds",
+					"ItemId": "Cornucopia_PassionFruitSeeds",
+					"TradeItemId": "(O)393",//coral
+					"TradeItemAmount": 3,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_PassionFruitSeeds",
+					"AfterId": "(O)833"
+				}
+			]
 		},
-		"Cornucopia_PlantainSapling": {
-			"Id": "Cornucopia_PlantainSapling",
-			"ItemId": "Cornucopia_PlantainSapling",
-			"TradeItemId": "(O)91", //Banana
-			"TradeItemAmount": 5,
-			"IgnoreShopPriceModifiers": true
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+			"When": {
+				"Enable Herbs Pack": true
+			},
+			"Entries": {
+				"Cornucopia_TurmericSeeds": {
+					"Id": "Cornucopia_TurmericSeeds",
+					"ItemId": "Cornucopia_TurmericSeeds",
+					"TradeItemId": "(O)829",//ginger
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_TurmericSeeds",
+					"AfterId": "(O)833"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+			"When": {
+				"Enable Extended Trees Pack": true
+			},
+			"Entries": {
+				"Cornucopia_PapayaSapling": {
+					"Id": "Cornucopia_PapayaSapling",
+					"ItemId": "Cornucopia_PapayaSapling",
+					"TradeItemId": "(O)837",//lionfish
+					"TradeItemAmount": 5,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_PlantainSapling": {
+					"Id": "Cornucopia_PlantainSapling",
+					"ItemId": "Cornucopia_PlantainSapling",
+					"TradeItemId": "(O)91",//banana
+					"TradeItemAmount": 5,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_DurianSapling": {
+					"Id": "Cornucopia_DurianSapling",
+					"ItemId": "Cornucopia_DurianSapling",
+					"TradeItemId": "(O)397",//sea urchin
+					"TradeItemAmount": 20,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DurianSapling",
+					"AfterId": "(O)835"
+				},
+				{
+					"Id": "Cornucopia_PapayaSapling",
+					"AfterId": "(O)835"
+				},
+				{
+					"Id": "Cornucopia_PlantainSapling",
+					"AfterId": "(O)835"
+				}
+			]
 		}
-      },
-	  "MoveEntries": [
-			{ "Id": "Cornucopia_PeppercornSeeds", "AfterId": "(O)833" },
-			{ "Id": "Cornucopia_PapayaSapling", "AfterId": "(O)835" },
-			{ "Id": "Cornucopia_PlantainSapling", "AfterId": "(O)835" }
-		]
-    },
-  ]
+	]
 }

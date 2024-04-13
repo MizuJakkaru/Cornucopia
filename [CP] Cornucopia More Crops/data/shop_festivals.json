@@ -21,6 +21,7 @@
 					"ItemId": "Cornucopia_CottonBollSeeds",
 					"Price": 250,
 					"IgnoreShopPriceModifiers": true,
+					"ApplyProfitMargins": false,
 					"AvailableStock": 16,
 					"AvailableStockLimit": 1
 				}
@@ -47,7 +48,7 @@
 				"Cornucopia_KiwiSeeds": {
 					"Id": "Cornucopia_KiwiSeeds",
 					"ItemId": "Cornucopia_KiwiSeeds",
-					//"Price": 300,
+					"Price": 100,
 				},
 				"Cornucopia_WatermelonSeeds": {
 					"Id": "Cornucopia_WatermelonSeeds",
