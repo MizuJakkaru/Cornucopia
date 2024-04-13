@@ -7,16 +7,26 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)19", "OutputRules" ],
 			"Entries": {
-				"Cornucopia_ProduceOil": {
-					"Id": "Cornucopia_ProduceOil",
+				"Cornucopia_CanolaFlowerOil": {
+					"Id": "Cornucopia_CanolaFlowerOil",
 					"Triggers": 
 						[
 							{
 								"RequiredItemId": "(O)Cornucopia_CanolaFlower",
 							},
+						],
+					"OutputItem":
+						[
 							{
-								"RequiredItemId": "(O)Cornucopia_CottonBoll",
-							},
+								"ItemId": "(O)247",
+							}
+						],
+					"MinutesUntilReady": 60,
+				},
+				"Cornucopia_PeanutOil": {
+					"Id": "Cornucopia_PeanutOil",
+					"Triggers": 
+						[
 							{
 								"RequiredItemId": "(O)Cornucopia_Peanut",
 							}
@@ -27,7 +37,7 @@
 								"ItemId": "(O)247",
 							}
 						],
-					"MinutesUntilReady": 60,
+					"MinutesUntilReady": 360,
 				},
 				"Cornucopia_SeedsOil": {
 					"Id": "Cornucopia_SeedsOil",
@@ -36,9 +46,6 @@
 							{
 								"RequiredItemId": "(O)Cornucopia_CanolaFlowerSeeds",
 							},
-							{
-								"RequiredItemId": "(O)Cornucopia_CottonBollSeeds",
-							}
 						],
 					"OutputItem":
 						[
