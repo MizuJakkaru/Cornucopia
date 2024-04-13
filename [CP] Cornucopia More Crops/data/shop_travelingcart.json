@@ -137,14 +137,100 @@
 					],
 					"PriceModifierMode": 2
 				},
-				"Cornucopia.MoreCrops_Produce": {
-					"Id": "Cornucopia.MoreCrops_Produce",
+				"Cornucopia.MoreCrops_Produce1": {
+					"Id": "Cornucopia.MoreCrops_Produce1",
 					"ItemId": "RANDOM_ITEMS (O)",
-					"Condition": "SYNCED_RANDOM day cornucopia_produce 0.8",
+					"Condition": "SYNCED_RANDOM day cornucopia_produce1 0.7",
 					"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target cornucopia_crop_produce\" \"ITEM_CONTEXT_TAG Target cornucopia_bush_produce\" \"ITEM_CONTEXT_TAG Target cornucopia_fruittree_produce\", !ITEM_CONTEXT_TAG Target cornucopia_rarity_exclusive",
 					"AvailableStock": "{{Random: 1, 1, 1, 1, 5}}",
 					"AvailableStockLimit": "Player",
-					"MaxItems": "{{Random: 1, 2, 3}}",
+					"MaxItems": "1",
+					"UseObjectDataPrice": true,
+					"IgnoreShopPriceModifiers": false,
+					"PriceModifiers": [
+						{
+							"Id": "RandomPrice",
+							"Condition": null,
+							"Modification": 4,
+							"Amount": 0.0,
+							"RandomAmount": [
+								100.0,
+								200.0,
+								300.0,
+								400.0,
+								500.0,
+								600.0,
+								700.0,
+								800.0,
+								900.0,
+								1000.0
+							]
+						},
+						{
+							"Id": "RandomMultipleOfBasePrice",
+							"Condition": null,
+							"Modification": 2,
+							"Amount": 0.0,
+							"RandomAmount": [
+								3.0,
+								4.0,
+								5.0
+							]
+						}
+					],
+					"PriceModifierMode": 2
+				},
+				"Cornucopia.MoreCrops_Produce2": {
+					"Id": "Cornucopia.MoreCrops_Produce2",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "SYNCED_RANDOM day cornucopia_produce2 0.3",
+					"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target cornucopia_crop_produce\" \"ITEM_CONTEXT_TAG Target cornucopia_bush_produce\" \"ITEM_CONTEXT_TAG Target cornucopia_fruittree_produce\", !ITEM_CONTEXT_TAG Target cornucopia_rarity_exclusive",
+					"AvailableStock": "{{Random: 1, 1, 1, 1, 5}}",
+					"AvailableStockLimit": "Player",
+					"MaxItems": "1",
+					"UseObjectDataPrice": true,
+					"IgnoreShopPriceModifiers": false,
+					"PriceModifiers": [
+						{
+							"Id": "RandomPrice",
+							"Condition": null,
+							"Modification": 4,
+							"Amount": 0.0,
+							"RandomAmount": [
+								100.0,
+								200.0,
+								300.0,
+								400.0,
+								500.0,
+								600.0,
+								700.0,
+								800.0,
+								900.0,
+								1000.0
+							]
+						},
+						{
+							"Id": "RandomMultipleOfBasePrice",
+							"Condition": null,
+							"Modification": 2,
+							"Amount": 0.0,
+							"RandomAmount": [
+								3.0,
+								4.0,
+								5.0
+							]
+						}
+					],
+					"PriceModifierMode": 2
+				},
+				"Cornucopia.MoreCrops_Produce3": {
+					"Id": "Cornucopia.MoreCrops_Produce3",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "SYNCED_RANDOM day cornucopia_produce3 0.2",
+					"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target cornucopia_crop_produce\" \"ITEM_CONTEXT_TAG Target cornucopia_bush_produce\" \"ITEM_CONTEXT_TAG Target cornucopia_fruittree_produce\", !ITEM_CONTEXT_TAG Target cornucopia_rarity_exclusive",
+					"AvailableStock": "{{Random: 1, 1, 1, 1, 5}}",
+					"AvailableStockLimit": "Player",
+					"MaxItems": "1",
 					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
