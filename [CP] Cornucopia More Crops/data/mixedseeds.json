@@ -16,19 +16,19 @@
 					},
 					{
 						"ItemId": "Cornucopia_SugarBeetSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					{
 						"ItemId": "Cornucopia_SpinachSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					{
 						"ItemId": "Cornucopia_CanolaFlowerSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					{
 						"ItemId": "Cornucopia_AsparagusSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					//summer crops
 					{
@@ -41,15 +41,15 @@
 					},
 					{
 						"ItemId": "Cornucopia_LettuceSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					{
 						"ItemId": "Cornucopia_GroundcherriesSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					{
 						"ItemId": "Cornucopia_ChickpeaSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					//fall seeds
 					{
@@ -62,15 +62,15 @@
 					},
 					{
 						"ItemId": "Cornucopia_OatsSeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					{
 						"ItemId": "Cornucopia_BarleySeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					{
 						"ItemId": "Cornucopia_CelerySeeds",
-						"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
 					},
 					//Ginger Island Seeds
 					{
@@ -79,27 +79,27 @@
 					},
 					{
 						"ItemId": "Cornucopia_LemongrassSeeds",
-						"Condition": "LOCATION_NAME Here IslandWest, PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_HerbsPackEnabled"
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Herbs Pack}}"
 					},
 					{
 						"ItemId": "Cornucopia_CassavaSeeds",
-						"Condition": "LOCATION_NAME Here IslandWest, PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
 					},
 					{
 						"ItemId": "Cornucopia_WasabiRootSeeds",
-						"Condition": "LOCATION_NAME Here IslandWest, PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
 					},
 					{
 						"ItemId": "Cornucopia_BambooSeeds",
-						"Condition": "LOCATION_NAME Here IslandWest, PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
 					},
 					{
 						"ItemId": "Cornucopia_ShallotSeeds",
-						"Condition": "LOCATION_NAME Here IslandWest, PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
 					},
 					{
 						"ItemId": "Cornucopia_SweetPotatoSeeds",
-						"Condition": "LOCATION_NAME Here IslandWest, PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
 					},
 				]
 			}
