@@ -1903,7 +1903,7 @@
           "DisplayName": "{{i18n:SugarcaneSeeds_name}}",
           "Description": "{{i18n:SugarcaneSeeds_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 15,
+          "Price": 10,
 		  "ContextTags": [
 		    "cornucopia_crop_seed",
 			"cornucopia_rarity_common",

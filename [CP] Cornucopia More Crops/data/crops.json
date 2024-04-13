@@ -114,7 +114,7 @@
 					"IsPaddyCrop": true,
 					"HarvestMethod": "Scythe",
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 1,
+					"HarvestMaxStack": 2,
 					"ExtraHarvestChance": "{{10Percent}}"
 				},
 				"Cornucopia_WatermelonSeeds": {

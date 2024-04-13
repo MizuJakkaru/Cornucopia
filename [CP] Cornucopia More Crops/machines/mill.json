@@ -45,7 +45,8 @@
 					],
 					"ProducedItems": [
 						{
-							"ItemId": "(O)245"
+							"ItemId": "(O)245",
+							"MinStack": 5
 						}
 					],
 					"MaxDailyConversions": -1
@@ -59,7 +60,8 @@
 					],
 					"ProducedItems": [
 						{
-							"ItemId": "(O)245"
+							"ItemId": "(O)245",
+							"MinStack": 2
 						}
 					],
 					"MaxDailyConversions": -1
