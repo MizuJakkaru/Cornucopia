@@ -91,6 +91,13 @@
 					"Description": "{{i18n:Press_description}}"
 				}
 			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"When": {"Retexture Cheese Press": true},
+			"ToArea": {"X": 0, "Y": 64, "Width": 16, "Height": 32},
+			"FromFile": "assets/press.png",
 		}
 	]
 }
