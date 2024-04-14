@@ -3288,8 +3288,8 @@
           "DisplayName": "{{i18n:Breadfruit_name}}",
           "Description": "{{i18n:Breadfruit_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 200,
-          "Edibility": 15,
+          "Price": 240,
+          "Edibility": 60,
           "ContextTags": [
             "color_yellow_green",
 			"cornucopia_fruittree_produce",
@@ -3384,8 +3384,8 @@
           "DisplayName": "{{i18n:Durian_name}}",
           "Description": "{{i18n:Durian_description}}",
           "Texture": "Cornucopia.MoreCrops/Objects",
-          "Price": 200,
-          "Edibility": 40,
+          "Price": 350,
+          "Edibility": 80,
           "ContextTags": [
             "color_yellow_green",
 			"cornucopia_fruittree_produce",
