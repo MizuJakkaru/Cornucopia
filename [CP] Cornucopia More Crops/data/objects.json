@@ -4441,7 +4441,9 @@
 						"cornucopia_artisangood",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_essential",
-						"modid_cornucopia.morecrops"
+						"modid_cornucopia.morecrops",
+						"olive_oil_item",
+						"oil_item"
 					]
 				},
 				"Cornucopia_Tofu": {
@@ -4459,7 +4461,8 @@
 						"cornucopia_artisangood",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_essential",
-						"modid_cornucopia.morecrops"
+						"modid_cornucopia.morecrops",
+						"tofu_item"
 					]
 				}
 			}
@@ -4486,7 +4489,8 @@
 						"cornucopia_artisangood",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
-						"modid_cornucopia.morecrops"
+						"modid_cornucopia.morecrops",
+						"flour_item"
 					]
 				},
 				"Cornucopia_DarkAle": {
@@ -4552,7 +4556,8 @@
 						"cornucopia_artisangood",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
-						"modid_cornucopia.morecrops"
+						"modid_cornucopia.morecrops",
+						"flour_item"
 					]
 				},
 				"Cornucopia_SparklingWine": {
@@ -4576,7 +4581,8 @@
 						"cornucopia_artisangood",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
-						"modid_cornucopia.morecrops"
+						"modid_cornucopia.morecrops",
+						"wine_item"
 					]
 				},
 				"Cornucopia_Stout": {
