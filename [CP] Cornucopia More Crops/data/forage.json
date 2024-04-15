@@ -330,7 +330,7 @@
         	"Action": "EditData",
         	"Target": "Data/Locations",
         	"TargetField": [ "EastScarp_DeepMountains", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=LemurKat.EastScarpe.CP": true},
 			"Priority": "Default + 4",
         	"Entries": {
 				"(O)Cornucopia_JuniperBerries": {
@@ -361,7 +361,7 @@
         	"Action": "EditData",
         	"Target": "Data/Locations",
         	"TargetField": [ "EastScarp_MeadowFarm", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=LemurKat.EastScarpe.CP": true},
 			"Priority": "Default + 4",
         	"Entries": {
 				"(O)Cornucopia_JuniperBerries": {
@@ -392,7 +392,7 @@
         	"Action": "EditData",
         	"Target": "Data/Locations",
         	"TargetField": [ "EastScarp_Village", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=LemurKat.EastScarpe.CP": true},
 			"Priority": "Default + 4",
         	"Entries": {
 				"(O)Cornucopia_JuniperBerries": {
