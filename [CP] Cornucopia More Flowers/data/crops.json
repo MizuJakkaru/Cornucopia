@@ -259,7 +259,6 @@
                     "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 23,
 					"RegrowDays": 5,
-					"IsRaised": true,
 					"IsPaddyCrop": true
                 },
                 "Cornucopia_PurpleConeflowerSeeds": {
