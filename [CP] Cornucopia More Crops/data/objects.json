@@ -449,6 +449,7 @@
 				}
 			}
 		},
+		//Extended crop produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -1321,6 +1322,7 @@
 				}
 			}
 		},
+		//Herbs pack produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -1776,6 +1778,7 @@
 				}
 			}
 		},
+		//Essential crop seeds
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -2080,6 +2083,7 @@
 				}
 			}
 		},
+		//Extended crop seeds
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -2830,6 +2834,7 @@
 				}
 			}
 		},
+		//Special white grape stuff
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -2885,6 +2890,7 @@
 				}
 			}
 		},
+		//Herbs pack seeds
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -3260,6 +3266,7 @@
 				}
 			}
 		},
+		//Essential trees produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -3349,6 +3356,7 @@
 				}
 			}
 		},
+		//Extended trees produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -3791,6 +3799,7 @@
 				}
 			}
 		},
+		//Herbs tree produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -3911,6 +3920,7 @@
 				}
 			}
 		},
+		//Essential trees saplings
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -3985,6 +3995,7 @@
 				}
 			}
 		},
+		//Extended trees saplings
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -4327,6 +4338,7 @@
 				}
 			}
 		},
+		//Herbs tree saplings
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -4420,6 +4432,7 @@
 				}
 			}
 		},
+		//Essential artisan goods
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -4467,6 +4480,7 @@
 				}
 			}
 		},
+		//Extended artisan goods
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
