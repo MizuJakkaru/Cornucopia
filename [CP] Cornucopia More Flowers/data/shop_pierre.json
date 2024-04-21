@@ -1,309 +1,193 @@
 {
-  "Changes": [
-  //Essential flowers seeds
-  {
-	  "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
-      //"When": {"Enable Essential Pack": true},
-	  "Entries": {
-	    "Cornucopia_BlueMistSeeds": {
-			"Id": "Cornucopia_BlueMistSeeds",
-			"ItemId": "Cornucopia_BlueMistSeeds",
-			"Condition": "SEASON summer",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 20,
-		},
-		"Cornucopia_ChrysanthemumSeeds": {
-			"Id": "Cornucopia_ChrysanthemumSeeds",
-			"ItemId": "Cornucopia_ChrysanthemumSeeds",
-			"Condition": "SEASON fall, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 40,
-		},
-		"Cornucopia_IrisSeeds": {
-			"Id": "Cornucopia_IrisSeeds",
-			"ItemId": "Cornucopia_IrisSeeds",
-			"Condition": "SEASON fall",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 50,
-		},
-		"Cornucopia_LilySeeds": {
-			"Id": "Cornucopia_LilySeeds",
-			"ItemId": "Cornucopia_LilySeeds",
-			"Condition": "SEASON summer, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 50,
-		},
-		"Cornucopia_MorningGlorySeeds": {
-			"Id": "Cornucopia_MorningGlorySeeds",
-			"ItemId": "Cornucopia_MorningGlorySeeds",
-			"Condition": "SEASON spring",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 240,
-		},
-		"Cornucopia_OrchidSeeds": {
-			"Id": "Cornucopia_OrchidSeeds",
-			"ItemId": "Cornucopia_OrchidSeeds",
-			"Condition": "SEASON summer fall, YEAR 3",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 200,
-		},
-		"Cornucopia_PansySeeds": {
-			"Id": "Cornucopia_PansySeeds",
-			"ItemId": "Cornucopia_PansySeeds",
-			"Condition": "SEASON spring",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 30,
-		},
-		"Cornucopia_RoseSeeds": {
-			"IgnoreShopPriceModifiers": true,
-			"Condition": "SEASON spring summer fall",
-			"Id": "Cornucopia_RoseSeeds",
-			"ItemId": "Cornucopia_RoseSeeds",
-			//"Price": 200,
-		}
-      },
-	  "MoveEntries": [
-			{ "Id": "Cornucopia_BlueMistSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ChrysanthemumSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_IrisSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_LilySeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_MorningGlorySeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_OrchidSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_PansySeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_RoseSeeds", "BeforeId": "GrassStarter" }
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsSpringCommon": {
+					"Id": "Cornucopia.MoreFlowers_CropSeedsSpringCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_CropSeedsSpringCommon", "BeforeId": "GrassStarter" },
 		]
-    },
-   //Extended flowers seeds & saplings
-	{
-	  "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
-      "When": {"Enable Extended Flowers Pack": true},
-	  "Entries": {
-	    "Cornucopia_BluebonnetSeeds": {
-			"Id": "Cornucopia_BluebonnetSeeds",
-			"ItemId": "Cornucopia_BluebonnetSeeds",
-			"Condition": "SEASON spring",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 20,
 		},
-		"Cornucopia_CamelliaSeeds": {
-			"Id": "Cornucopia_CamelliaSeeds",
-			"ItemId": "Cornucopia_CamelliaSeeds",
-			"Condition": "YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 1100,
-			"ApplyProfitMargins": false,
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsSummerCommon": {
+					"Id": "Cornucopia.MoreFlowers_CropSeedsSummerCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_CropSeedsSummerCommon", "BeforeId": "GrassStarter" },]
 		},
-		"Cornucopia_CarnationSeeds": {
-			"Id": "Cornucopia_CarnationSeeds",
-			"ItemId": "Cornucopia_CarnationSeeds",
-			"Condition": "SEASON spring summer, YEAR 2",
-			"IgnoreShopPriceModifiers": true,//"Price": 40,
-			
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsFallCommon": {
+					"Id": "Cornucopia.MoreFlowers_CropSeedsFallCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_CropSeedsFallCommon", "BeforeId": "GrassStarter" },]
 		},
-		"Cornucopia_ChamomileSeeds": {
-			"Id": "Cornucopia_ChamomileSeeds",
-			"ItemId": "Cornucopia_ChamomileSeeds",
-			"Condition": "SEASON spring",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 25,
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsWinterCommon": {
+					"Id": "Cornucopia.MoreFlowers_CropSeedsWinterCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_CropSeedsWinterCommon", "BeforeId": "GrassStarter" },]
 		},
-		"Cornucopia_ClarySageSeeds": {
-			"Id": "Cornucopia_ClarySageSeeds",
-			"ItemId": "Cornucopia_ClarySageSeeds",
-			"Condition": "SEASON summer, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 20,
-		},
-		"Cornucopia_ClematisSeeds": {
-			"Id": "Cornucopia_ClematisSeeds",
-			"ItemId": "Cornucopia_ClematisSeeds",
-			"Condition": "SEASON fall, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 90,
-		},
-		"Cornucopia_DahliaSeeds": {
-			"Id": "Cornucopia_DahliaSeeds",
-			"ItemId": "Cornucopia_DahliaSeeds",
-			"Condition": "SEASON fall",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 30,
-		},
-		"Cornucopia_DaisySeeds": {
-			"Id": "Cornucopia_DaisySeeds",
-			"ItemId": "Cornucopia_DaisySeeds",
-			"Condition": "SEASON summer",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 15,
-		},
-		"Cornucopia_FreesiaSeeds": {
-			"Id": "Cornucopia_FreesiaSeeds",
-			"ItemId": "Cornucopia_FreesiaSeeds",
-			"Condition": "SEASON fall, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 40,
-		},
-		"Cornucopia_GeraniumSeeds": {
-			"Id": "Cornucopia_GeraniumSeeds",
-			"ItemId": "Cornucopia_GeraniumSeeds",
-			"Condition": "SEASON fall, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 40,
-		},
-		"Cornucopia_HyacinthSeeds": {
-			"Id": "Cornucopia_HyacinthSeeds",
-			"ItemId": "Cornucopia_HyacinthSeeds",
-			"Condition": "SEASON spring, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 40,
-		},
-		"Cornucopia_HydrangeaSeeds": {
-			"Id": "Cornucopia_HydrangeaSeeds",
-			"ItemId": "Cornucopia_HydrangeaSeeds",
-			"Condition": "SEASON summer",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 40,
-		},
-		"Cornucopia_LarkspurSeeds": {
-			"Id": "Cornucopia_LarkspurSeeds",
-			"ItemId": "Cornucopia_LarkspurSeeds",
-			"Condition": "SEASON spring, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 50,
-		},
-		"Cornucopia_LavenderSeeds": {
-			"Id": "Cornucopia_LavenderSeeds",
-			"ItemId": "Cornucopia_LavenderSeeds",
-			"Condition": "SEASON summer",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 20,
-		},
-		"Cornucopia_LilacSeeds": {
-			"Id": "Cornucopia_LilacSeeds",
-			"ItemId": "Cornucopia_LilacSeeds",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 800,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_LupineSeeds": {
-			"Id": "Cornucopia_LupineSeeds",
-			"ItemId": "Cornucopia_LupineSeeds",
-			"Condition": "SEASON summer",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 30,
-		},
-		"Cornucopia_PeonySeeds": {
-			"Id": "Cornucopia_PeonySeeds",
-			"ItemId": "Cornucopia_PeonySeeds",
-			"Condition": "SEASON spring",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 50,
-		},
-		"Cornucopia_PetuniaSeeds": {
-			"Id": "Cornucopia_PetuniaSeeds",
-			"ItemId": "Cornucopia_PetuniaSeeds",
-			"Condition": "SEASON summer",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 30,
-		},
-		"Cornucopia_PurpleConeflowerSeeds": {
-			"Id": "Cornucopia_PurpleConeflowerSeeds",
-			"ItemId": "Cornucopia_PurpleConeflowerSeeds",
-			"Condition": "SEASON fall, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 35,
-		},
-		"Cornucopia_RoseSpringSeeds": {
-			"Id": "Cornucopia_RoseSpringSeeds",
-			"ItemId": "Cornucopia_RoseSpringSeeds",
-			"Condition": "SEASON spring, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 200,
-		},
-		"Cornucopia_RoseSummerSeeds": {
-			"Id": "Cornucopia_RoseSummerSeeds",
-			"ItemId": "Cornucopia_RoseSummerSeeds",
-			"Condition": "SEASON summer, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 200,
-		},
-		"Cornucopia_RoseFallSeeds": {
-			"Id": "Cornucopia_RoseFallSeeds",
-			"ItemId": "Cornucopia_RoseFallSeeds",
-			"Condition": "SEASON fall, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 200,
-		},
-		"Cornucopia_RoseWinterSeeds": {
-			"Id": "Cornucopia_RoseWinterSeeds",
-			"ItemId": "Cornucopia_RoseWinterSeeds",
-			"Condition": "SEASON winter, YEAR 2",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 200,
-		},
-		"Cornucopia_VioletSeeds": {
-			"Id": "Cornucopia_VioletSeeds",
-			"ItemId": "Cornucopia_VioletSeeds",
-			"Condition": "SEASON spring",
-			"IgnoreShopPriceModifiers": true,
-			//"Price": 20,
-		},
-		"Cornucopia_JasmineSapling": {
-			"Id": "Cornucopia_JasmineSapling",
-			"ItemId": "Cornucopia_JasmineSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,
-			//"Price": 3000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_MagnoliaSapling": {
-			"Id": "Cornucopia_MagnoliaSapling",
-			"ItemId": "Cornucopia_MagnoliaSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,
-			//"Price": 2500,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_WisteriaSapling": {
-			"Id": "Cornucopia_WisteriaSapling",
-			"ItemId": "Cornucopia_WisteriaSapling",
-			//"IgnoreShopPriceModifiers": true,
-			//"Price": 2500,
-			"ApplyProfitMargins": false,
-		}
-      },
-	  "MoveEntries": [
-			{ "Id": "Cornucopia_BluebonnetSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CamelliaSeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_CarnationSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ChamomileSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ClarySageSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ClematisSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_DahliaSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_DaisySeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_FreesiaSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_GeraniumSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_HyacinthSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_HydrangeaSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_LarkspurSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_LavenderSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_LilacSeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_LupineSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_PeonySeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_PetuniaSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_PurpleConeflowerSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_RoseSpringSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_RoseSummerSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_RoseFallSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_RoseWinterSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_VioletSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_JasmineSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_MagnoliaSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_WisteriaSapling", "BeforeId": "(O)458" }
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsSpringRare": {
+					"Id": "Cornucopia.MoreFlowers_CropSeedsSpringRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_CropSeedsSpringRare", "BeforeId": "GrassStarter" },
 		]
-    },
-  ]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsSummerRare": {
+					"Id": "Cornucopia.MoreFlowers_CropSeedsSummerRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_CropSeedsSummerRare", "BeforeId": "GrassStarter" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsFallRare": {
+					"Id": "Cornucopia.MoreFlowers_CropSeedsFallRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_CropSeedsFallRare", "BeforeId": "GrassStarter" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsWinterRare": {
+					"Id": "Cornucopia.MoreFlowers_CropSeedsWinterRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_CropSeedsWinterRare", "BeforeId": "GrassStarter" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_BushSeeds": {
+					"Id": "Cornucopia.MoreFlowers_BushSeeds",
+					"ItemId": "ALL_ITEMS (O)",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_bush_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+					"IgnoreShopPriceModifiers": true,
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_BushSeeds", "BeforeId": "(O)628" },]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_FruitTreeSaplings": {
+					"Id": "Cornucopia.MoreFlowers_FruitTreeSaplings",
+					"ItemId": "ALL_ITEMS (O)",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_fruittree_sapling, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers",
+				},
+			},
+			"MoveEntries": [
+			{ "Id": "Cornucopia.MoreFlowers_FruitTreeSaplings", "AfterId": "(O)633" },]
+		},
+	]
 }
