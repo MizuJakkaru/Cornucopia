@@ -8,7 +8,7 @@
 				"Category Overrides": true
 			},
 			"Entries": {
-				"(O)408": {
+				"408": {
 					"CategoryTextOverride": "{{i18n:Nut}}",
 					"CategoryColorOverride": {
 						"R": 197,
@@ -17,7 +17,7 @@
 						"A": 255
 					},
 				},
-				"(O)257": {
+				"257": {
 					"CategoryTextOverride": "{{i18n:Mushroom}}",
 					"CategoryColorOverride": {
 						"R": 120,
@@ -26,7 +26,7 @@
 						"A": 255
 					},
 				},
-				"(O)404": {
+				"404": {
 					"CategoryTextOverride": "{{i18n:Mushroom}}",
 					"CategoryColorOverride": {
 						"R": 120,
@@ -35,7 +35,7 @@
 						"A": 255
 					},
 				},
-				"(O)281": {
+				"281": {
 					"CategoryTextOverride": "{{i18n:Mushroom}}",
 					"CategoryColorOverride": {
 						"R": 120,
@@ -44,7 +44,7 @@
 						"A": 255
 					},
 				},
-				"(O)420": {
+				"420": {
 					"CategoryTextOverride": "{{i18n:Mushroom}}",
 					"CategoryColorOverride": {
 						"R": 120,
@@ -53,7 +53,7 @@
 						"A": 255
 					},
 				},
-				"(O)422": {
+				"422": {
 					"CategoryTextOverride": "{{i18n:Mushroom}}",
 					"CategoryColorOverride": {
 						"R": 120,
@@ -62,7 +62,7 @@
 						"A": 255
 					},
 				},
-				"(O)851": {
+				"851": {
 					"CategoryTextOverride": "{{i18n:Mushroom}}",
 					"CategoryColorOverride": {
 						"R": 120,
@@ -71,7 +71,7 @@
 						"A": 255
 					},
 				},
-				"(O)829": {
+				"829": {
 					"CategoryTextOverride": "{{i18n:Spice}}",
 					"CategoryColorOverride": {
 						"R": 136,
@@ -80,7 +80,7 @@
 						"A": 255
 					},
 				},
-				"(O)16": {
+				"16": {
 					"CategoryTextOverride": "{{i18n:Spice}}",
 					"CategoryColorOverride": {
 						"R": 136,

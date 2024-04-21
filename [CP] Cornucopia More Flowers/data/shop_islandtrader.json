@@ -1,41 +1,52 @@
 {
-  "Changes": [
-	//Extended seeds & saplings
-    {
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "IslandTrade", "Items" ],
-      "When": {
-        "Enable Extended Flowers Pack": true
-      },
-      "Entries": {
-		"Cornucopia_PitcherPlantSeeds": {
-			"Id": "Cornucopia_PitcherPlantSeeds",
-			"ItemId": "Cornucopia_PitcherPlantSeeds",
-			"TradeItemId": "(O)851", // Magma Cap
-			"TradeItemAmount": 1,
-			"IgnoreShopPriceModifiers": true
-		},
-		"Cornucopia_RafflesiaSeeds": {
-			"Id": "Cornucopia_RafflesiaSeeds",
-			"ItemId": "Cornucopia_RafflesiaSeeds",
-			"TradeItemId": "(O)848", // Cinder Shard
-			"TradeItemAmount": 10,
-			"IgnoreShopPriceModifiers": true
-		},
-		"Cornucopia_RosePrismaticSeeds": {
-			"Id": "Cornucopia_RosePrismaticSeeds",
-			"ItemId": "Cornucopia_RosePrismaticSeeds",
-			"TradeItemId": "(O)74", // Prismatic Shard
-			"TradeItemAmount": 1,
-			"IgnoreShopPriceModifiers": true
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+			"When": {
+				"Enable Extended Flowers Pack": true
+			},
+			"Entries": {
+				"Cornucopia_PitcherPlantSeeds": {
+					"Id": "Cornucopia_PitcherPlantSeeds",
+					"ItemId": "Cornucopia_PitcherPlantSeeds",
+					"TradeItemId": "(O)851", //magma cap
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_RafflesiaSeeds": {
+					"Id": "Cornucopia_RafflesiaSeeds",
+					"ItemId": "Cornucopia_RafflesiaSeeds",
+					"TradeItemId": "(O)848", //cinder shard
+					"TradeItemAmount": 8,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_RosePrismaticSeeds": {
+					"Id": "Cornucopia_RosePrismaticSeeds",
+					"ItemId": "Cornucopia_RosePrismaticSeeds",
+					"TradeItemId": "(O)74", //prismatic shard
+					"TradeItemAmount": 1,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_PitcherPlantSeeds",
+					"AfterId": "(O)833"
+				},
+				{
+					"Id": "Cornucopia_RafflesiaSeeds",
+					"AfterId": "(O)833"
+				},
+				{
+					"Id": "Cornucopia_RosePrismaticSeeds",
+					"AfterId": "(O)833"
+				}
+			]
 		}
-      },
-	  "MoveEntries": [
-			{ "Id": "Cornucopia_PitcherPlantSeeds", "AfterId": "(O)833" },
-			{ "Id": "Cornucopia_RafflesiaSeeds", "AfterId": "(O)833" },
-			{ "Id": "Cornucopia_RosePrismaticSeeds", "AfterId": "(O)833" }
-		]
-    },
-  ]
+	]
 }

@@ -1,22 +1,28 @@
 {
-    "Name": "Cornucopia - More Crops",
-    "Author": "Cornucopia",
-    "Description": "An additional Fruits and Veggies mod for Stardew Valley 1.6 Content Patcher",
-    "Version": "1.4.2",
-    "MinimumApiVersion": "4.0.0",
-    "UniqueID": "Cornucopia.MoreCrops",
-    "UpdateKeys": ["Nexus: 19508"],
-	"ContentPackFor": {
-        "UniqueID": "Pathoschild.ContentPatcher"
-    },
-	"Dependencies": [
-   	{
-      "UniqueID": "furyx639.CustomBush",
-      "IsRequired": true
-   	},
-	{
-      "UniqueID": "spacechase0.SpaceCore",
-      "IsRequired": true
-   	}
+	"Name": "Cornucopia - More Crops",
+	"Author": "Cornucopia",
+	"Description": "An additional Fruits and Veggies mod for Stardew Valley 1.6 Content Patcher",
+	"Version": "1.5.0",
+	"MinimumApiVersion": "4.0.0",
+	"UniqueID": "Cornucopia.MoreCrops",
+	"UpdateKeys": [
+		"Nexus: 19508"
 	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "furyx639.CustomBush",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "mistyspring.ItemExtensions",
+			"IsRequired": false
+		}
+	]
 }

@@ -1,0 +1,57 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Traveler",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_Seeds": {
+					"Id": "Cornucopia.MoreFlowers_Seeds",
+					"ItemId": "RANDOM_ITEMS (O)",
+					"Condition": "SYNCED_RANDOM day cornucopia_flowers_seeds 0.6",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_rarity_exclusive",
+					"AvailableStock": "{{Random: 1, 1, 5}}",
+					"AvailableStockLimit": "Player",
+					"MaxItems": 1,
+					"UseObjectDataPrice": true,
+					"IgnoreShopPriceModifiers": false,
+					"PriceModifiers": [
+						{
+							"Id": "RandomPrice",
+							"Condition": null,
+							"Modification": 4,
+							"Amount": 0.0,
+							"RandomAmount": [
+								100.0,
+								200.0,
+								300.0,
+								400.0,
+								500.0,
+								600.0,
+								700.0,
+								800.0,
+								900.0,
+								1000.0
+							]
+						},
+						{
+							"Id": "RandomMultipleOfBasePrice",
+							"Condition": null,
+							"Modification": 2,
+							"Amount": 0.0,
+							"RandomAmount": [
+								3.0,
+								4.0,
+								5.0
+							]
+						}
+					],
+					"PriceModifierMode": 2
+				}
+			}
+		}
+	]
+}

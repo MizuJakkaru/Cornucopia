@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FlowerDance_Pierre",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_SpringFlowers": {
+					"Id": "Cornucopia_SpringFlowers",
+					"ItemId": "ALL_ITEMS (O)",
+					"PerItemCondition": "ANY \"ITEM_ID Target Cornucopia_Pansy\" \"ITEM_ID Target Cornucopia_Violet\" \"ITEM_ID Target Cornucopia_Camellia\"",
+					"AvailableStock": 10,
+					"AvailableStockLimit": 1
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_SpringFlowers",
+					"AfterId": "(O)22"
+				}
+			]
+		}
+	]
+}
