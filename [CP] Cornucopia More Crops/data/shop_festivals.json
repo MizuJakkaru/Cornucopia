@@ -77,22 +77,6 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"Festival_EggFestival_Pierre",
-				"Items"
-			],
-			"When": {"Enable Extended Crops Pack": true},
-			"Entries": {
-				"Cornucopia_WasabiRootSeeds": {
-					"Id": "Cornucopia_WasabiRootSeeds",
-					"ItemId": "Cornucopia_WasabiRootSeeds",
-					//"Price": 300,
-				}
-			},
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
 				"Festival_FestivalOfIce_TravelingMerchant",
 				"Items"
 			],
