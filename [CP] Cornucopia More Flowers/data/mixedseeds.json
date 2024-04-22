@@ -1,0 +1,108 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Mods/mistyspring.ItemExtensions/MixedSeeds",
+			"Entries": {
+				"770": [
+					//spring crops
+					{
+						"ItemId": "Cornucopia_BasilSeeds",
+						"Condition": "!LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_OnionSeeds",
+						"Condition": "!LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_SugarBeetSeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_SpinachSeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_CanolaFlowerSeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_AsparagusSeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					//summer crops
+					{
+						"ItemId": "Cornucopia_BellPepperSeeds",
+						"Condition": "!LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_WatermelonSeeds",
+						"Condition": "!LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_LettuceSeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_GroundcherriesSeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_ChickpeaSeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					//fall seeds
+					{
+						"ItemId": "Cornucopia_TurnipSeeds",
+						"Condition": "!LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_ZucchiniSeeds",
+						"Condition": "!LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_OatsSeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_BarleySeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_CelerySeeds",
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+					},
+					//Ginger Island Seeds
+					{
+						"ItemId": "Cornucopia_SugarcaneSeeds",
+						"Condition": "LOCATION_NAME Here IslandWest"
+					},
+					{
+						"ItemId": "Cornucopia_LemongrassSeeds",
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Herbs Pack}}"
+					},
+					{
+						"ItemId": "Cornucopia_CassavaSeeds",
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
+					},
+					{
+						"ItemId": "Cornucopia_WasabiRootSeeds",
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
+					},
+					{
+						"ItemId": "Cornucopia_BambooSeeds",
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
+					},
+					{
+						"ItemId": "Cornucopia_ShallotSeeds",
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
+					},
+					{
+						"ItemId": "Cornucopia_SweetPotatoSeeds",
+						"Condition": "LOCATION_NAME Here IslandWest, {{Enable Extended Crops Pack}}"
+					},
+				]
+			}
+		}
+	]
+}
