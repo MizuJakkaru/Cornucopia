@@ -1,0 +1,49 @@
+{
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_W",
+			"When": {"Enable Extended Flowers Pack": true, "Enable Giant Crops on Ginger Island": true},
+			"Priority": "Late",
+			"MapProperties": {
+				"AllowGiantCrops": "T"
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"When": {"Enable Extended Flowers Pack": true},
+			"Entries": {
+				"Cornucopia_GiantRafflesia": {
+					"FromItemId": "Cornucopia_Rafflesia",
+					"HarvestItems": [
+						{
+							"Chance": 1.0,
+							"ItemId": "Cornucopia_Rafflesia",
+							"Quality": 0,
+							"MinStack": 12,
+							"MaxStack": 17,
+						},
+						{
+							"Chance": 1.0,
+							"ItemId": "Cornucopia_RafflesiaPurple",
+							"Quality": 0,
+							"MinStack": 1,
+							"MaxStack": 3
+						}
+					],
+					"Texture": "Cornucopia.MoreFlowers/GiantCrops",
+					"TexturePosition": {
+							"X": 0,
+							"Y": 0
+						},
+					"TileSize": {
+							"X": 3,
+							"Y": 3
+						},
+					"Chance": 0.1,
+				},
+			}
+		}
+	]
+}
