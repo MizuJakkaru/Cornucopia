@@ -1,0 +1,51 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandEast",
+				"Forage"
+			],
+			"Entries": {
+				"(O)Cornucopia_Rafflesia": {
+					"Chance": 0.005,
+					"ItemId": "(O)Cornucopia_Rafflesia"
+				}
+			}
+		},
+		/*{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Target": "IslandEast",
+			"Priority": "Late",
+			"Entries": {
+				"MinDailyForageSpawn": 20,
+				"MaxDailyForageSpawn": 40,
+				"MaxSpawnedForageAtOnce": 60
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_E",
+			"MapProperties": {
+				"skipWeedGrowth": null,
+				"ForceSpawnForageables": "T",
+			},
+		},*/
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"IslandShrine",
+				"Forage"
+			],
+			"Entries": {
+				"(O)Cornucopia_Rafflesia": {
+					"Chance": 0.005,
+					"ItemId": "(O)Cornucopia_Rafflesia"
+				}
+			}
+		}
+	]
+}
