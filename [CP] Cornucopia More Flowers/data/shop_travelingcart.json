@@ -12,7 +12,7 @@
 					"Id": "Cornucopia.MoreFlowers_Seeds",
 					"ItemId": "RANDOM_ITEMS (O)",
 					"Condition": "SYNCED_RANDOM day cornucopia_flowers_seeds 0.6",
-					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_rarity_exclusive",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_crop_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_rarity_exclusive, !ITEM_CONTEXT_TAG Target traveling_cart_banned",
 					"AvailableStock": "{{Random: 1, 1, 5}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
