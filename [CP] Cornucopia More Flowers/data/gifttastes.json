@@ -93,13 +93,13 @@
 				{
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Dislike"],
-                    "Value": " ", 
+                    "Value": "Cornucopia_PitcherPlant", 
                     "Delimiter": " "
                 },
 				{
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Hate"],
-                    "Value": "Cornucopia_Rafflesia", 
+                    "Value": "Cornucopia_Rafflesia Cornucopia_RafflesiaPurple", 
                     "Delimiter": " "
                 },
 			//Spouses/Krobus
@@ -124,7 +124,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Krobus", 1],
-                    "Value": "Cornucopia_Rafflesia", 
+                    "Value": "Cornucopia_Rafflesia Cornucopia_RafflesiaPurple", 
                     "Delimiter": " "
                 },	
             ]

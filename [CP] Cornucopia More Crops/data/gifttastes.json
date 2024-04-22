@@ -21,13 +21,13 @@
 				{
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Neutral"],
-                    "Value": " ", 
+                    "Value": "Cornucopia_Basil Cornucopia_Peppercorn Cornucopia_Barley Cornucopia_Buckwheat Cornucopia_CanolaFlower Cornucopia_Durum Cornucopia_Oats Cornucopia_Quinoa Cornucopia_WasabiRoot Cornucopia_BayLeaves Cornucopia_Catnip Cornucopia_Chives Cornucopia_Cilantro Cornucopia_CuminSeeds Cornucopia_Dill Cornucopia_Fennel Cornucopia_Fenugreek Cornucopia_Lemongrass Cornucopia_LicoriceRoot Cornucopia_Marjoram Cornucopia_Mint Cornucopia_Oregano Cornucopia_Parsley Cornucopia_PerillaLeaves Cornucopia_Rosemary Cornucopia_Sage Cornucopia_Tarragon Cornucopia_Thyme Cornucopia_Turmeric Cornucopia_Wormwood Cornucopia_CamphorLeaves Cornucopia_CinnamonSticks Cornucopia_EucalyptusLeaves Cornucopia_MelaleucaLeaves Cornucopia_Nutmeg", 
                     "Delimiter": " "
                 },
 				{
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Dislike"],
-                    "Value": " ", 
+                    "Value": "Cornucopia_ChicleRubber", 
                     "Delimiter": " "
                 },
 				{
@@ -114,6 +114,12 @@
                     "Operation": "Append",
                     "Target": ["Fields", "Gus", 1],
                     "Value": "Cornucopia_Basil", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 3],
+                    "Value": "herb_item raw_spice_item spice_item", 
                     "Delimiter": " "
                 },
 				{
@@ -404,12 +410,6 @@
                     "Operation": "Append",
                     "Target": ["Fields", "Evelyn", 1],
                     "Value": "Cornucopia_Rosemary", 
-                    "Delimiter": " "
-                },
-				{
-                    "Operation": "Append",
-                    "Target": ["Fields", "Gus", 3],
-                    "Value": "herb_item", 
                     "Delimiter": " "
                 },
 				{
