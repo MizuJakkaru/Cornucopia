@@ -1,0 +1,35 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": {
+					"DisplayName": "{{i18n:SVERafflesiaPatch_name}}"
+				},
+				"Cornucopia_Rafflesia": {
+					"DisplayName": "{{i18n:CornucopiaRafflesiaPatch_name}}"
+				},
+				"Cornucopia_RafflesiaPurple": {
+					"DisplayName": "{{i18n:CornucopiaRafflesiaPatch_name}}"
+				}
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Smelly Rafflesia",
+			"FromFile": "assets/objects.png",
+			"FromArea": {"X": 32, "Y": 64, "Width": 16, "Height": 16},
+			"ToArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
+		}
+	]
+}
