@@ -401,7 +401,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
-						"bell_pepper_item"
+						"bell_pepper_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -422,7 +423,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
-						"bell_pepper_item"
+						"bell_pepper_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -443,7 +445,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
-						"bell_pepper_item"
+						"bell_pepper_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				}

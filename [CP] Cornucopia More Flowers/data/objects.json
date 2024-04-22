@@ -23,7 +23,9 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essentialflowers",
 						"modid_cornucopia.moreflowers",
-						"blue_mist_item"
+						"blue_mist_item",
+						"borage_item",
+						"starflower_item"
 					]
 				},
 				"Cornucopia_Chrysanthemum": {
@@ -84,7 +86,6 @@
 						"color_white",
 						"season_summer",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essentialflowers",
@@ -106,7 +107,6 @@
 						"color_pink",
 						"season_summer",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_essentialflowers",
@@ -127,7 +127,6 @@
 						"color_blue",
 						"season_spring",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essentialflowers",
@@ -150,7 +149,6 @@
 						"season_summer",
 						"season_fall",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_essentialflowers",
@@ -194,7 +192,6 @@
 						"color_pink",
 						"season_spring",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essentialflowers",
@@ -247,7 +244,6 @@
 					"Edibility": 18,
 					"ContextTags": [
 						"color_dark_pink",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedflowers",
@@ -312,7 +308,6 @@
 					"ContextTags": [
 						"color_pink",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_bush_produce",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
@@ -401,7 +396,6 @@
 						"color_purple",
 						"season_summer",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
@@ -444,7 +438,6 @@
 						"color_orange",
 						"season_fall",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedflowers",
@@ -466,7 +459,6 @@
 						"color_white",
 						"season_summer",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedflowers",
@@ -487,7 +479,6 @@
 						"color_pink",
 						"season_fall",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
@@ -509,7 +500,6 @@
 						"color_dark_pink",
 						"season_fall",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedflowers",
@@ -531,7 +521,6 @@
 						"color_red",
 						"season_fall",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
@@ -574,7 +563,6 @@
 						"color_dark_purple",
 						"season_spring",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
@@ -706,7 +694,6 @@
 						"color_pink",
 						"season_spring",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedflowers",
@@ -738,8 +725,8 @@
 				},
 				"Cornucopia_PitcherPlant": {
 					"Name": "Cornucopia_PitcherPlant",
-					"Type": "Flower",
-					"Category": -80,
+					"Type": "Forage",
+					"Category": -81,
 					"SpriteIndex": 62,
 					"DisplayName": "{{i18n:PitcherPlant_name}}",
 					"Description": "{{i18n:PitcherPlant_description}}",
@@ -771,7 +758,6 @@
 						"color_purple",
 						"season_fall",
 						"dye_medium",
-						"edible_flower_item",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
@@ -781,17 +767,16 @@
 				},
 				"Cornucopia_Rafflesia": {
 					"Name": "Cornucopia_Rafflesia",
-					"Type": "Flower",
-					"Category": -80,
+					"Type": "Forage",
+					"Category": -81,
 					"SpriteIndex": 60,
 					"DisplayName": "{{i18n:Rafflesia_name}}",
 					"Description": "{{i18n:Rafflesia_description}}",
 					"Texture": "Cornucopia.MoreFlowers/Objects",
-					"Price": 12000,
+					"Price": 2400,
 					"Edibility": -300,
 					"ContextTags": [
-						"color_dark_orange",
-						"season_spring",
+						"color_red",
 						"season_summer",
 						"dye_medium",
 						"cornucopia_crop_produce",
@@ -800,6 +785,28 @@
 						"modid_cornucopia.moreflowers",
 						"rafflesia_item"
 					]
+				},
+				"Cornucopia_RafflesiaPurple": {
+					"Name": "Cornucopia_RafflesiaPurple",
+					"Type": "Forage",
+					"Category": -81,
+					"SpriteIndex": 83,
+					"DisplayName": "{{i18n:Rafflesia_name}}",
+					"Description": "{{i18n:Rafflesia_description}}",
+					"Texture": "Cornucopia.MoreFlowers/Objects",
+					"Price": 3000,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_pruple",
+						"season_summer",
+						"dye_medium",
+						"cornucopia_crop_produce",
+						"cornucopia_rarity_exclusive",
+						"cornucopia_pack_extendedflowers",
+						"modid_cornucopia.moreflowers",
+						"rafflesia_item"
+					],
+					"ExcludeFromShippingCollection": true
 				},
 				"Cornucopia_RoseFall": {
 					"Name": "Cornucopia_RoseFall",
@@ -987,7 +994,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1010,7 +1018,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1033,7 +1042,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1056,7 +1066,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1079,7 +1090,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1102,7 +1114,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1125,7 +1138,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1148,7 +1162,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1171,7 +1186,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1194,7 +1210,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1217,7 +1234,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1240,7 +1258,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1263,7 +1282,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1286,7 +1306,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1309,7 +1330,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				},
@@ -1332,7 +1354,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"rose_item"
+						"rose_item",
+						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
 				}
