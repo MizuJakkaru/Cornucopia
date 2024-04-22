@@ -53,8 +53,7 @@
 					"RegrowDays": 4,
 					"IsRaised": true,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 1,
-					"ExtraHarvestChance": "{{50Percent}}"
+					"HarvestMaxStack": 2,
                 },
                 "Cornucopia_OrchidSeeds": {
                     "Seasons": [ "summer", "fall" ],
@@ -196,8 +195,8 @@
 					"RegrowDays": 3,
 					"IsRaised": true,
 					"HarvestMinStack": 1,
-					"HarvestMaxStack": 1,
-					"ExtraHarvestChance": "{{75Percent}}"
+					"HarvestMaxStack": 2,
+					"ExtraHarvestChance": "{{25Percent}}"
                 },
                 "Cornucopia_HyacinthSeeds": {
                     "Seasons": [ "spring" ],
@@ -270,7 +269,7 @@
                 },
                 "Cornucopia_RafflesiaSeeds": {
                     "Seasons": [ "spring", "summer", "fall", "winter" ],
-					"DaysInPhase": [ 5, 8, 10, 15, 12 ],
+					"DaysInPhase": [ 4, 6, 6, 10, 8 ],
                     "HarvestItemId": "Cornucopia_Rafflesia",
                     "Texture": "Cornucopia.MoreFlowers/Crops",
                     "SpriteIndex": 36,
