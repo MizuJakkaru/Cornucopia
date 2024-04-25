@@ -10,9 +10,17 @@
         "UniqueID": "Pathoschild.ContentPatcher"
     },
 	"Dependencies": [
-   	{
-      "UniqueID": "furyx639.CustomBush",
-      "IsRequired": true
-   	}
-	],
+		{
+			"UniqueID": "furyx639.CustomBush",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "mistyspring.ItemExtensions",
+			"IsRequired": false
+		}
+	]
 }

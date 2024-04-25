@@ -8,69 +8,69 @@
 					//spring crops
 					{
 						"ItemId": "Cornucopia_BasilSeeds",
-						"Condition": "!LOCATION_NAME Here IslandWest"
+						"Condition": "!LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here spring\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_OnionSeeds",
-						"Condition": "!LOCATION_NAME Here IslandWest"
+						"Condition": "!LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here spring\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_SugarBeetSeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here spring\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_SpinachSeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here spring\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_CanolaFlowerSeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here spring summer\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_AsparagusSeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here spring\" \"LOCATION_IS_INDOORS Here\""
 					},
 					//summer crops
 					{
 						"ItemId": "Cornucopia_BellPepperSeeds",
-						"Condition": "!LOCATION_NAME Here IslandWest"
+						"Condition": "!LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here summer\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_WatermelonSeeds",
-						"Condition": "!LOCATION_NAME Here IslandWest"
+						"Condition": "!LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here summer\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_LettuceSeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here summer\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_GroundcherriesSeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here summer fall\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_ChickpeaSeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here summer\" \"LOCATION_IS_INDOORS Here\""
 					},
 					//fall seeds
 					{
 						"ItemId": "Cornucopia_TurnipSeeds",
-						"Condition": "!LOCATION_NAME Here IslandWest"
+						"Condition": "!LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here fall\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_ZucchiniSeeds",
-						"Condition": "!LOCATION_NAME Here IslandWest"
+						"Condition": "!LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here fall\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_OatsSeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here fall\" \"LOCATION_IS_INDOORS Here\""
 					},
 					{
 						"ItemId": "Cornucopia_BarleySeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here fall\" \"LOCATION_IS_INDOORS Here"
 					},
 					{
 						"ItemId": "Cornucopia_CelerySeeds",
-						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest"
+						"Condition": "{{Enable Extended Crops Pack}}, !LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here fall\" \"LOCATION_IS_INDOORS Here\""
 					},
 					//Ginger Island Seeds
 					{

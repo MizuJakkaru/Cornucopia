@@ -11,6 +11,11 @@
 			"Default": "false",
 			"Description": "Gives each of the seasonal roses four different colors that can be harvested. (Extra roses are excluded from perfection requirements.)"
 		},
+		"Enhanced Mixed Flower Seeds": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "With Item Extensions Framework, adds some Cornucopia flowers to vanilla mixed flower seeds."
+		},
 		"Enable Giant Crops on Ginger Island": {
 			"AllowValues": "true, false",
 			"Default": "true",
@@ -99,7 +104,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/fruittrees.json, data/furniture.json, data/gifttastes.json, data/multiyieldcrops.json, data/objects.json, data/objectcontexttags.json, data/shop_carpenter.json, data/shop_joja.json, data/shop_pierre.json, data/shop_islandtrader.json, data/shop_marnie.json, data/shop_oasis.json, data/teabushes.json, data/shop_festivals.json, data/shop_travelingcart.json, data/giantcrops.json, data/forage.json, data/compat.json"
+			"FromFile": "data/crops.json, data/fruittrees.json, data/furniture.json, data/gifttastes.json, data/multiyieldcrops.json, data/objects.json, data/objectcontexttags.json, data/shop_carpenter.json, data/shop_joja.json, data/shop_pierre.json, data/shop_islandtrader.json, data/shop_marnie.json, data/shop_oasis.json, data/teabushes.json, data/shop_festivals.json, data/shop_travelingcart.json, data/giantcrops.json, data/forage.json, data/compat.json, data/mixedseeds.json"
 		},
     ]
 }
