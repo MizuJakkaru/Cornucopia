@@ -56,7 +56,7 @@
 				"Cornucopia_YlangYlangSapling": {
 					"Id": "Cornucopia_YlangYlangSapling",
 					"ItemId": "Cornucopia_YlangYlangSapling",
-					"Condition": "YEAR 3",
+					//"Condition": "YEAR 3",
 					"IgnoreShopPriceModifiers": true,
 					"PriceModifiers": [
 						{
