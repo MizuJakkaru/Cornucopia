@@ -5,7 +5,7 @@
 			"Target": "Data/Objects",
 			"Priority": "Late",
 			"When": {
-				"SVE Compat Patch": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				"SVE Compat Patch": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "Enable Extended Flowers Pack": true
 			},
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": {
@@ -24,7 +24,7 @@
 			"Target": "Data/Objects",
 			"Priority": "Late",
 			"When": {
-				"SVE Compat Patch": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				"SVE Compat Patch": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, "Enable Extended Flowers Pack": true
 			},
 			"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Smelly Rafflesia",
 			"FromFile": "assets/objects.png",
