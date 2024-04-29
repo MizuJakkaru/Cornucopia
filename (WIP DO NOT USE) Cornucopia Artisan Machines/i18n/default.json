@@ -223,4 +223,7 @@
   "nut-milk-soybeans": "Soy Milk",
   "smoked-cheese": "Smoked {0}",
   "smoked-egg": "Smoked {0}",
+  
+  //Letters
+  "Mail_PierreDehydratorAlternate": "Hi @,^I wanted to give this alternative crafting method for dehydrators, just incase you wanted to upgrade your drying racks instead. Thanks for your patronage!^-Pierre %item craftingRecipe Cornucopia_Dehydrator %%[#]Alternative Dehydrator Recipe",
 }
