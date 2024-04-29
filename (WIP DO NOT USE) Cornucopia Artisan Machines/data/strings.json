@@ -17,6 +17,10 @@
 				"Cornucopia_NutButter": "{{i18n: nut-butter}}",
 				"Cornucopia_NutCheese": "{{i18n: nut-cheese}}",
 				"Cornucopia_NutMilk": "{{i18n: nut-milk}}",
+				"Cornucopia_NutMilkOats": "{{i18n: nut-milk-oats}}",
+				"Cornucopia_NutMilkSoybeans": "{{i18n: nut-milk-soybeans}}",
+				"Cornucopia_SmokedCheese": "{{i18n: smoked-cheese}}",
+				"Cornucopia_SmokedEgg": "{{i18n: smoked-egg}}",
             }
         }
 	]
