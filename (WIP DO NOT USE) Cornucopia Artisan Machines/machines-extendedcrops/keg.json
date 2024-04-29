@@ -6,12 +6,12 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)12", "OutputRules" ],
 			"Entries": {
-				"Cornucopia_NutMilkSoybeans": {
-					"Id": "Cornucopia_NutMilkSoybeans",
+				"Cornucopia_NutMilkOats": {
+					"Id": "Cornucopia_NutMilkOats",
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)Cornucopia_Soybeans",
+								"RequiredItemId": "(O)Cornucopia_Oats",
 								"RequiredCount": 2,
 							}
 						],
@@ -19,8 +19,8 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_NutMilk",
-								"ObjectInternalName": "{0} {{i18n:NutMilkSoybeans_name}}",
-								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_NutMilkSoybeans %PRESERVED_DISPLAY_NAME]",
+								"ObjectInternalName": "{0} {{i18n:NutMilkOats_name}}",
+								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_NutMilkOats %PRESERVED_DISPLAY_NAME]",
 								"PreserveId": "DROP_IN",
 								"CopyPrice": true,
 								"PriceModifiers":
@@ -37,7 +37,7 @@
 				}
 			},
 			"MoveEntries": [
-					{ "Id": "Cornucopia_NutMilkSoy", "BeforeId": "Default_Juice" }
+					{ "Id": "Cornucopia_NutMilkOats", "BeforeId": "Default_Juice" }
 			]
 		}
     ]
