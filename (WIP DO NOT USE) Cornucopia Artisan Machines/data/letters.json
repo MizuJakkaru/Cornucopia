@@ -8,13 +8,16 @@
 				"Cornucopia_PierreDehydratorAlternate": "{{i18n:Mail_PierreDehydratorAlternate}}",
 			}
 		},
-		// Add Letter Event
 		{
 			"Action": "EditData",
-			"Target": "Data/Events/Farm",
-			"When": {"Enable Herbs Pack": true},
-			"Entries": {
-				"Cornucopia_SendPierreDehydratorAlternate/[precondition here] PLAYER_HAS_CRAFTING_RECIPE Current (BC)Dehydrator/sendmail Cornucopia_PierreDehydratorAlternate": "null"
+            "Target": "Data/TriggerActions",
+            "Entries": {
+				"Cornucopia_SendPierreDehydratorAlternate": {
+					"Id": "Cornucopia_SendPierreDehydratorAlternate",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CRAFTING_RECIPE Current (BC)Dehydrator",
+					"Action": "AddMail Current Cornucopia_PierreDehydratorAlternate tomorrow"
+				}
 			}
 		}
 	]

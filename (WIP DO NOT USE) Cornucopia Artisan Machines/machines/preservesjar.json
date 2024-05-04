@@ -11,7 +11,7 @@
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)305",
+								"RequiredItemId": "(O)305",			// void egg
 							}
 						],
 					"OutputItem":
@@ -56,18 +56,15 @@
 						],
 					"MinutesUntilReady": 4320,
 				},
-				"Cornucopia_PickledEggsSM": {
+				"Cornucopia_PickledEggsChicken": {
 					"Id": "Cornucopia_PickledEggs",
 					"Triggers": 
 						[
 							{
-								"RequiredTags":[ "id_o_176" ],			// regular eggs
+								"RequiredItemId": "(O)176",			// regular eggs
 							},
 							{
-								"RequiredTags":[ "id_o_180" ],
-							},
-							{
-								"RequiredTags":[ "id_o_442" ],			// duck egg
+								"RequiredItemId": "(O)180",
 							}
 						],
 					"OutputItem":
@@ -78,15 +75,15 @@
 						],
 					"MinutesUntilReady": 4000,
 				},
-				"Cornucopia_PickledEggsLG": {
+				"Cornucopia_PickledEggsChickenLarge": {
 					"Id": "Cornucopia_PickledEggs",
 					"Triggers": 
 						[
 							{
-								"RequiredTags":[ "id_o_174" ],			// large eggs
+								"RequiredItemId": "(O)174",			// large eggs = gold quality
 							},
 							{
-								"RequiredTags":[ "id_o_182" ],
+								"RequiredItemId": "(O)182",
 							}
 						],
 					"OutputItem":
@@ -103,7 +100,7 @@
 					"Triggers": 
 						[
 							{
-								"RequiredTags":[ "id_o_928" ],			// gold egg
+								"RequiredItemId": "(O)928",			// gold egg = gold quality x 3
 							}
 						],
 					"OutputItem":
@@ -113,6 +110,57 @@
 								"Quality": 2,
 								"MinStack": 3,
 								"MaxStack": 3,
+							}
+						],
+					"MinutesUntilReady": 4000,
+				},
+				"Cornucopia_PickledEggsOstrich": {
+					"Id": "Cornucopia_PickledEggs",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)289",			// ostrich egg = inherited quality x 10
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_PickledEggs",
+								"Quality": -1,
+								"MinStack": 10,
+								"MaxStack": 10,
+							}
+						],
+					"MinutesUntilReady": 4000,
+				},
+				"Cornucopia_PickledEggs": {
+					"Id": "Cornucopia_PickledEggs",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "egg_item" ]		// other eggs (duck, dinosaur, modded)
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_PickledEggs",
+								"ObjectInternalName": "{0} {{i18n:PickledEggs_name}}",
+								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_PickledEggs %PRESERVED_DISPLAY_NAME]",
+								"PreserveId": "DROP_IN",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 1.5,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 4000,

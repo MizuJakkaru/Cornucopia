@@ -75,7 +75,96 @@
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_SmokedCheese",	
+													"ItemId": "(O)Cornucopia_SmokedCheese",
+													"ObjectInternalName": "{0} {{i18n:SmokedCheese_name}}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_SmokedCheese %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifierMode": "Stack",
+													"PriceModifiers": [
+															{
+																"Modification": "Multiply",
+																"Amount": 2,
+															},
+
+													],
+												}
+											],
+										"MinutesUntilReady": 720,
+									},
+									{
+										"Id": "Cornucopia_SmokedEggChickenSmall",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)176",						// regular eggs
+												},
+												{
+													"RequiredItemId": "(O)180",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_SmokedEgg",	
+												}
+											],
+										"MinutesUntilReady": 720,
+									},
+									{
+										"Id": "Cornucopia_SmokedEggChickenLarge",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)174",						// large eggs = gold quality
+												},
+												{
+													"RequiredItemId": "(O)182",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_SmokedEgg",
+													"Quality": 2,	
+												}
+											],
+										"MinutesUntilReady": 720,
+									},
+									{
+										"Id": "Cornucopia_SmokedEggGold",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)928",						// gold egg = gold quality x 3
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_SmokedEgg",
+													"Quality": 2,
+													"MinStack": 3,
+													"MaxStack": 3,
+												}
+											],
+										"MinutesUntilReady": 720,
+									},
+									{
+										"Id": "Cornucopia_SmokedEggOstrich",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)289",						// ostrich egg = inherited quality x 10
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_SmokedEgg",
+													"Quality": -1,
+													"MinStack": 10,
+													"MaxStack": 10,													
 												}
 											],
 										"MinutesUntilReady": 720,
@@ -85,13 +174,25 @@
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "category_egg" ],
+													"RequiredTags":[ "egg_item" ],					// other eggs (duck, dinosaur, modded)
 												}
 											],
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)Cornucopia_SmokedEgg",	
+													"ItemId": "(O)Cornucopia_SmokedEgg",
+													"ObjectInternalName": "{0} {{i18n:SmokedEgg_name}}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_SmokedEgg %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
+													"CopyPrice": true,
+													"PriceModifierMode": "Stack",
+													"PriceModifiers": [
+															{
+																"Modification": "Multiply",
+																"Amount": 2,
+															},
+
+													],
 												}
 											],
 										"MinutesUntilReady": 720,

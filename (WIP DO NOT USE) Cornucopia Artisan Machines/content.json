@@ -77,7 +77,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 			},
-			"FromFile": "data/objects-extendedcrops.json, machines-extendedcrops/alembic.json, machines-extendedcrops/compactmill.json, machines-extendedcrops/extruder.json, machines-extendedcrops/mayonnaisemachine.json, machines-extendedcrops/oilmaker.json, machines-extendedcrops/preservesjar.json"
+			"FromFile": "data/objects-extendedcrops.json, machines-extendedcrops/alembic.json, machines-extendedcrops/compactmill.json, machines-extendedcrops/extruder.json, machines-extendedcrops/keg.json, machines-extendedcrops/mayonnaisemachine.json, machines-extendedcrops/oilmaker.json, machines-extendedcrops/preservesjar.json"
 		},
 		
 		// add subfiles - extended trees
