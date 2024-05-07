@@ -1885,7 +1885,7 @@
 					"DisplayName": "{{i18n:KiwiSeeds_name}}",
 					"Description": "{{i18n:KiwiSeeds_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
-					"Price": 150,
+					"Price": 50,
 					"ContextTags": [
 						"cornucopia_crop_seed",
 						"cornucopia_rarity_exclusive",
