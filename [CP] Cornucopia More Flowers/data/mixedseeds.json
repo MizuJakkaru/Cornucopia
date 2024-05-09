@@ -3,7 +3,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Mods/mistyspring.ItemExtensions/MixedSeeds",
-			"When": {"HasMod|contains=mistyspring.ItemExtensions": true, "Mixed Flower Seeds": true},
+			"When": {"HasMod|contains=mistyspring.ItemExtensions": true, "Enhanced Mixed Flower Seeds": true},
 			"Entries": {
 				"MixedFlowerSeeds": [
 					//spring crops
