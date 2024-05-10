@@ -349,7 +349,7 @@
 					"Texture": "Cornucopia.MoreCrops/Objects",
 					"Price": 150,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_white",
 						"season_spring",
 						"cornucopia_bush_produce",
@@ -371,7 +371,7 @@
 					"Price": 40,
 					"Edibility": -300,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_poppyseed",
 						"season_spring",
 						"season_summer",
@@ -889,7 +889,7 @@
 					"Price": 2600,
 					"Edibility": 10,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_sand",
 						"season_winter",
 						"season_spring",
@@ -1293,7 +1293,7 @@
 					"Price": 165,
 					"Edibility": 5,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_green",
 						"season_summer",
 						"cornucopia_crop_produce",
@@ -1445,7 +1445,7 @@
 					"Texture": "Cornucopia.MoreCrops/Objects",
 					"Price": 40,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"seedmaker_banned",
 						"color_poppyseed",
 						"cornucopia_crop_seed",
@@ -1546,7 +1546,7 @@
 					"Price": 135,
 					"Edibility": 5,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_brown",
 						"season_spring",
 						"cornucopia_crop_produce",
@@ -1749,7 +1749,7 @@
 					"Price": 100,
 					"Edibility": 10,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_orange",
 						"season_fall",
 						"cornucopia_crop_produce",
@@ -2978,7 +2978,7 @@
 					"Texture": "Cornucopia.MoreCrops/Objects",
 					"Price": 10,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"cornucopia_crop_seed",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_herbs",
@@ -3843,7 +3843,7 @@
 					"Price": 140,
 					"Edibility": -300,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"nut_soap_item",
 						"color_yellow",
 						"cornucopia_fruittree_produce",
@@ -3910,7 +3910,7 @@
 					"Price": 90,
 					"Edibility": -300,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"nut_soap_item",
 						"color_brown",
 						"cornucopia_fruittree_produce",
