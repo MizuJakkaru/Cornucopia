@@ -875,7 +875,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"poisonous_item",
-						"elderberry_item"
+						"elderberry_item",
+						"dehydrator_fruit_fix"
 					]
 				},
 				"Cornucopia_Ginseng": {
