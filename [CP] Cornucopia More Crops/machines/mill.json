@@ -62,6 +62,10 @@
 						{
 							"ItemId": "(O)245",
 							"MinStack": 2
+						},
+						{
+							"ItemId": "(O)Cornucopia_Molasses",
+							"MinStack": 2
 						}
 					],
 					"MaxDailyConversions": -1

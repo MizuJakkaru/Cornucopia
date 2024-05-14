@@ -876,7 +876,8 @@
 						"cornucopia_pack_extendedcrops",
 						"poisonous_item",
 						"elderberry_item",
-						"dehydrator_fruit_fix"
+						"dehydrator_fruit_fix",
+						"modid_cornucopia.morecrops"
 					]
 				},
 				"Cornucopia_Ginseng": {
@@ -4481,6 +4482,24 @@
 						"modid_cornucopia.morecrops",
 						"tofu_item"
 					]
+				},
+				"Cornucopia_Molasses": {
+					"Name": "Cornucopia_Molasses",
+					"Category": -26,
+					"SpriteIndex": 0,
+					"DisplayName": "Molasses",
+					"Description": "Molasses",
+					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+					"Price": 300,
+					"Edibility": 15,
+					"ContextTags": [
+						"cornucopia_artisangood",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_essential",
+						"modid_cornucopia.morecrops",
+						"molasses_item",
+						"color_brown_"
+					]
 				}
 			}
 		},
@@ -4626,7 +4645,26 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops"
 					]
-				}
+				},
+				"Cornucopia_WholeGrainFlour": {
+					"Name": "Cornucopia_WholeGrainFlour",
+					"Type": "Basic",
+					"Category": 0,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:WholeGrainFlour_name}}",
+					"Description": "{{i18n:WholeGrainFlour_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+					"Price": 50,
+					"Edibility": 5,
+					"ContextTags": [
+						"color_brown",
+						"cornucopia_artisangood",
+						"cornucopia_rarity_common",
+						"cornucopia_pack_extendedcrops",
+						"modid_cornucopia.morecrops",
+						"flour_item"
+					]
+				},
 			}
 		}
 	]
