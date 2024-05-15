@@ -14,7 +14,16 @@ The mod could not be a reality without the following people having shared in mak
 
 ## Translators
 
-* Placeholder.
+* Brazilian Portuguese 🇧🇷 - bagibagriela
+* Simplified Chinese 🇨🇳 - EtaJones & tangsuanz
+* German 🇩🇪 - Tobi01
+* Spanish 🇪🇸 - Missramu﻿ & TellMeNacht
+* French 🇫🇷  - Mazoout
+* Italian 🇮🇹 - Damadelfalco
+* Japanese 🇯🇵 - rushlight1 & nokochaoli
+* Korean 🇰🇷 - MingSoogaroon
+* Russian ﻿🇷🇺 - 6squad translation team
+* Thai 🇹🇭 - Seamania
 
 ## Artists
 We hope that people also find enjoyment in the updated sprites of Cornucopia. Everything is being done with a strong drive to capture the game's original spirit. Anything not done by MizuJakkaru or 6480 has been edited from licensed/paid assets from the info below. You may not redistribute assets credited to these artists (Check the Informational Spreadsheet for credit info). Currently, only **Cornucopia - More Recipes** includes outsourced assets.
