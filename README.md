@@ -51,10 +51,18 @@ Some config options allow you to enable or disable sets of items in the game. Th
 * "Enable Herbs Pack": See image in previous section for included items.
 * "Category Overrides": Turns some Cornucopia items into the following custom categories: Nut, Mushroom, Herb, Spice. This has no mechanical effect and is purely for visuals. However, it does help identify what items can be used to make what artisan goods (when Artisan Machines mod is released).
 * "Vanilla Category Overrides": Turns some vanilla items into the following custom categories: Nut, Mushroom, Herb, Spice. This has no mechanical effect and is purely for visuals.
+* "Enhanced Mixed Seeds": With Item Extensions Framework, adds some Cornucopia crops to vanilla mixed seeds.
+* "Rename Cheese Press": Changes the name of the Cheese Press to 'Press' and the description to include tofu. This has no mechanical effect and is purely for visuals and immersion.
+* "Retexture Cheese Press": Changes the image of the Cheese Press to remove the cheese icon. This has no mechanical effect and is purely for visuals.
+* "Map Edits": Enable small map edits. Currently this just adds sapodilla trees to Ginger Island areas.
 * "Disable Grape Bushes": When this option is **false**, both White Grape and Grape (vanilla) will act like teabushes (don't need watering, live all year, produce only in fall). If you prefer the crop behavior, set this to **true** and both plants will act like typical crops.
 
 [**Cornucopia - More Flowers**](https://www.nexusmods.com/stardewvalley/mods/20290)
 * "Enable Extended Flower Pack": See image in previous section for included items.
+* "Rose Color Explosion": Gives each of the seasonal roses four different colors that can be harvested. Extra roses are excluded from perfection requirements.
+* "Enhanced Mixed Flower Seeds": With Item Extensions Framework, adds some Cornucopia flowers to vanilla mixed flower seeds.
+* "Enable Giant Crops on Ginger Island": Allows giant crops to grow on Ginger Island farm, which allows you to get giant rafflesias.
+* "SVE Compat Patch": "Retextures and renames both rafflesias from Cornucopia and Stardew Valley Expanded to be more different from each other.
 
 [**Growable Forage and Crop Bushes**](https://www.nexusmods.com/stardewvalley/mods/20340)
 All options can be set to **true** or **false** to turn them on or off. "Teabush-like" plants act like vanilla teabushes--they don't need watering, should be planted on untilled soil, and survive year-round. Each one has a certain harvest time.
