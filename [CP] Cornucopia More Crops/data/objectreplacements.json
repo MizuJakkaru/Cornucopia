@@ -1,6 +1,16 @@
 {
 	"Changes": [
-		// Cloth vanilla description changes
+		//Add cocoa pod to chocolate cake recipe
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+				"Chocolate Cake": {
+					"0": "Cornucopia_CocoaPod 1 246 1 245 1 -5 1"
+				}
+			}
+		},
+		// Cloth description changes
 		{
 			"Action": "EditData",
 			"Target": "Strings/Objects",
@@ -9,7 +19,7 @@
 				"Cloth_Description": "{{i18n:Cloth_description}}"
 			}
 		},
-		// Grape Starter changes
+		// Grape Starter description/name changes
 		{
 			"Action": "EditImage",
 			"Target": "maps/springobjects",
@@ -70,17 +80,7 @@
 				}
 			]
 		},
-		{
-			//Add cocoa pod to chocolate cake recipe
-			"Action": "EditData",
-			"Target": "Data/CookingRecipes",
-			"Fields": {
-				"Chocolate Cake": {
-					"0": "Cornucopia_CocoaPod 1 246 1 245 1 -5 1"
-				}
-			}
-		},
-		//rename and retexture cheese press
+		//Rename and retexture cheese press
 		{
 			"Action": "EditData",
 			"Target": "Data/BigCraftables",
@@ -98,6 +98,17 @@
 			"When": {"Retexture Cheese Press": true},
 			"ToArea": {"X": 0, "Y": 64, "Width": 16, "Height": 32},
 			"FromFile": "assets/press.png",
+		},
+		// Japanese description/name changes
+		{
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"When": {"Language": "ja"},
+			"Entries": {
+				"Yam_name": "{{i18n:Yam_name}}",
+				"YamSeeds_name": "{{i18n:YamSeeds_name}}",
+				"GlazedYams_name": "{{i18n:GlazedYam_name}}"
+			}
 		}
 	]
 }
