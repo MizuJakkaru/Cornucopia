@@ -1,6 +1,5 @@
 {
 	"Changes": [
-		//Essential crop produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -453,7 +452,6 @@
 				}
 			}
 		},
-		//Extended crop produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -1023,8 +1021,8 @@
 						"season_summer",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_rare",
-						"cornucopia_pack_extendedcrops,
-						"modid_cornucopia.morecrops"",
+						"cornucopia_pack_extendedcrops",
+						"modid_cornucopia.morecrops",
 						"honeydew_item",
 						"melon_item"
 					]
@@ -1238,7 +1236,7 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"red_onion_item",
-						"onion_item",
+						"onion_item"
 					]
 				},
 				"Cornucopia_Shallot": {
@@ -1371,7 +1369,6 @@
 				}
 			}
 		},
-		//Herbs pack produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -1850,7 +1847,6 @@
 				}
 			}
 		},
-		//Essential crop seeds
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -2155,7 +2151,6 @@
 				}
 			}
 		},
-		//Extended crop seeds
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -2906,7 +2901,6 @@
 				}
 			}
 		},
-		//Special white grape stuff
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -2962,7 +2956,6 @@
 				}
 			}
 		},
-		//Herbs pack seeds
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -3338,7 +3331,6 @@
 				}
 			}
 		},
-		//Essential trees produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -3428,7 +3420,6 @@
 				}
 			}
 		},
-		//Extended trees produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -3872,7 +3863,6 @@
 				}
 			}
 		},
-		//Herbs tree produce
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -3993,7 +3983,6 @@
 				}
 			}
 		},
-		//Essential trees saplings
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -4068,7 +4057,6 @@
 				}
 			}
 		},
-		//Extended trees saplings
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -4411,7 +4399,6 @@
 				}
 			}
 		},
-		//Herbs tree saplings
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -4505,7 +4492,6 @@
 				}
 			}
 		},
-		//Essential artisan goods
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -4571,7 +4557,6 @@
 				}
 			}
 		},
-		//Extended artisan goods
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -4732,7 +4717,7 @@
 						"modid_cornucopia.morecrops",
 						"flour_item"
 					]
-				},
+				}
 			}
 		}
 	]
