@@ -316,6 +316,7 @@
 	"DillSeeds_description": "春季种植。需要7天成熟。",
 	"DurumSeeds_description": "秋季种植。需要4天成熟。用镰刀收割。",
 	"ElderberriesSeeds_description": "14天后长成灌木。冬季每4天结一次接骨木莓。",
+	"EnokiSeeds_description": "30天后长成蘑菇树桩。 秋季没3天结一次金针菇。",
 	"FennelSeeds_description": "秋季种植。需要5天成熟。",
 	"FenugreekSeeds_description": "春季种植。需要5天成熟。",
 	"GinsengSeeds_description": "春季或冬季种植。需要30天成熟。",
@@ -497,5 +498,14 @@
 	"Spice": "香料",
 	"Mail_PierreY1WinterCrops": "嗨 @，^我只是想告诉你，即使是冬天，你仍然可以种植一些作物。快来看看我们有什么存货，或者种下一株幼苗，为即将到来的新年做准备吧！^-Pierre[#]冬季作物现已有货",
 	"Mail_MarnieY2Herbs": "嗨 @，^新年伊始，我想告诉你，我有一种新品种的树木现货。它有一种非常愉悦的气味，我发现我的动物们被它平静了下来。有机会请过来看看我们的存货吧！^-Marnie[#]新幼苗现已有货",
-	"Cornucopia_name": "丰收之角"
+	"Mail_JojaY1WinterCrops": "致我们尊贵的 JojaMart 顾客： 我们现在有新的冬季作物库存。快来看看我们为您准备了什么！^^-Morris^Joja 顾客满意度代表[#]Joja 冬季作物上市",
+	"Cornucopia_name": "丰收之角",
+	"Press_name": "压榨机",
+	"Press_description": "把牛奶变成奶酪，把大豆变成豆腐。",
+	"SesameSeeds_name": "芝麻籽",
+	"SesameSeeds_description": "种子带有烟熏味。夏季种植，可培育芝麻植株。",
+	"SesameOil_name": "芝麻油",
+	"SesameOil_description": "一瓶用芝麻制成的油。",
+	"Tofu_name": "豆腐",
+	"Tofu_description": "由豆浆制成。可作为多种食谱中的蛋白质来源。"
 }

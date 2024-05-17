@@ -1,6 +1,6 @@
 {
-	//农产品
-  "BlueMist_name": "蓝绣线菊",
+	//Crop produce
+	"BlueMist_name": "蓝绣线菊",
   "BlueMist_description": "这是一种深受年轻女士喜爱的花卉，原产于矿物质丰富的山谷。",
   "Chrysanthemum_name": "野菊",
   "Chrysanthemum_description": "饱满的康乃馨般的花朵，散发着令人陶醉的香味，让人联想到泥土和草本植物。",
@@ -20,7 +20,7 @@
   "PinkCat_description": "这种花有薄荷的香味。",
   "Rose_name": "玫瑰",
   "Rose_description": "玫瑰换个名字也一样香甜。",
-  
+
   "BeeBalm_name": "蜜蜂香脂",
   "BeeBalm_description": "可食用的小花，吸引蜜蜂、蝴蝶和蜂鸟！",
   "Bluebonnet_name": "蓝花楹",
@@ -30,7 +30,7 @@
   "CalicoRose_name": "卡里科玫瑰",
   "CalicoRose_description": "仙人掌植物可食用的花朵。",
   "Camellia_name": "山茶花",
-  "Camellia_description": "生长在茶树上。山茶花通常是感情的象征。",
+  "Camellia_description": "与茶树有关。山茶花通常是感情的象征。",
   "Carnation_name": "康乃馨",
   "Carnation_description": "一种常用于正式场合并佩戴在西装上的花。",
   "Chamomile_name": "洋甘菊",
@@ -73,7 +73,7 @@
   "PurpleConeflower_description": "一种可爱的紫色锥花，甜美宜人。它也被称为紫锥菊。",
   "Rafflesia_name": "大王花",
   "Rafflesia_description": "一种恶臭的花，长得很大。它是世界上最大的花。",
-  "RosePrismatic_name": "彩色玫瑰",
+  "RosePrismatic_name": "五彩玫瑰",
   "RosePrismatic_description": "玫瑰换个名字也一样香甜。",
   "RoseSpring_name": "春日玫瑰",
   "RoseSpring_description": "玫瑰换个名字也一样香甜。",
@@ -87,12 +87,12 @@
   "Violet_description": "一种喜欢阴凉处的紫色小花。",
   "Wolfsbane_name": "狼毒乌头",
   "Wolfsbane_description": "一种深紫色的有毒钟形花。",
-  
+
   //Crop seeds
   "BlueMistSeeds_name": "蓝绣线菊种子",
   "BlueMistSeeds_description": "夏季种植。7天后开出蓝色星形花朵。",
   "ChrysanthemumSeeds_name": "野菊种子",
-  "ChrysanthemumSeeds_description": "秋季种植。9天后开出圆形花朵。",
+  "ChrysanthemumSeeds_description": "秋季种植。9天后开出菊花。",
   "IrisSeeds_name": "鸢尾球茎",
   "IrisSeeds_description": "秋季种植。需要10天才能开出真正独特的花朵。",
   "LilySeeds_name": "百合球茎",
@@ -109,7 +109,7 @@
   "PinkCatSeeds_description": "春季种植。5天后可开出薄荷粉色的花朵。",
   "RoseSeeds_name": "玫瑰种子",
   "RoseSeeds_description": "春季、夏季或秋季种植。12天后开出著名的美丽花朵。",
-  
+
   "BeeBalmSeeds_name": "蜜蜂香脂种子",
   "BeeBalmSeeds_description": "秋季种植。8天后开出诱人的花朵。",
   "BluebonnetSeeds_name": "蓝花楹种子",
@@ -117,7 +117,7 @@
   "ButtercupSeeds_name": "毛茛种子",
   "ButtercupSeeds_description": "夏季种植。6天后开花，花蜜含露。",
   "CalicoRoseSeeds_name": "卡里科玫瑰花盆",
-  "CalicoRoseSeeds_description": "室内或室外均可种植。20天后成熟，夏季每5天开一次仙人掌花。",
+  "CalicoRoseSeeds_description": "室内或室外种植。20天后成熟，夏季每5天开一次仙人掌花。",
   "CamelliaSeeds_name": "山茶花树苗",
   "CamelliaSeeds_description": "12天后长成灌木。春季每3天开一次山茶花。",
   "CarnationSeeds_name": "康乃馨种子",
@@ -148,7 +148,7 @@
   "LarkspurSeeds_description": "春季种植。9天后长出开满小花的高茎。",
   "LavenderSeeds_name": "薰衣草种子",
   "LavenderSeeds_description": "夏季种植。6天后会开出紫色的花朵。",
-  "LilacSeeds_name": "紫丁香树苗",
+  "LilacSeeds_name": "丁香树苗",
   "LilacSeeds_description": "12天后长成灌木。春夏两季每3天开一次丁香花。",
   "LupineSeeds_name": "羽扇豆种子",
   "LupineSeeds_description": "夏季种植。7天后可开出高大、艳丽的花朵。",
@@ -157,12 +157,12 @@
   "PetuniaSeeds_name": "矮牵牛种子",
   "PetuniaSeeds_description": "夏季种植。6天后会开出淡紫色的花朵。",
   "PitcherPlantSeeds_name": "猪笼草花架",
-  "PitcherPlantSeeds_description": "秋季种植。15天后会开出钟形沼泽花，但之后会继续开花。",
+  "PitcherPlantSeeds_description": "秋季种植。15天后会开出钟形沼泽花，但之后会继续开花。在水边长得更快。",
   "PurpleConeflowerSeeds_name": "紫锥花种子",
   "PurpleConeflowerSeeds_description": "秋季种植。9天后开出紫色花朵。",
   "RafflesiaSeeds_name": "大王花切花",
-  "RafflesiaSeeds_description": "只能在室内种植。需要34天才能开出艳丽的花朵。",
-  "RosePrismaticSeeds_name": "彩色玫瑰种子",
+  "RafflesiaSeeds_description": "需要潮湿的气候才能生长。需要34天才能开出艳丽的花朵，极有可能长成巨大的花朵。",
+  "RosePrismaticSeeds_name": "棱镜玫瑰花架",
   "RosePrismaticSeeds_description": "春季、夏季或秋季种植。20天后开出著名的美丽花朵。",
   "RoseSpringSeeds_name": "春日玫瑰花架",
   "RoseSpringSeeds_description": "春季种植。12天后开出著名的美丽花朵，收获后还能继续开花。在棚架上生长。",
@@ -202,8 +202,8 @@
   "YlangYlangSapling_description": "28 天后长成依兰树。夏季开花。只有在周围8块\"地块\"为空时才会生长。",
   
   //Furniture
-  "HousePlant_name": "家具植物",
+  "HousePlant_name": "家居植物",
   
   "SVERafflesiaPatch_name": "芬吉尔大王花",
-  "CornucopiaRafflesiaPatch_name": "宝石大王花",
+  "CornucopiaRafflesiaPatch_name": "宝石大王花"
 }
