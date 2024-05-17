@@ -3,6 +3,7 @@ The mod could not be a reality without the following people having shared in mak
 
 * Pathoschild, who offered endless support during 1.6 developement.
 * LeFauxMatt for developing Custom Bush and Spritepatcher.
+* Selph for developing EMC and adding several features we were looking for!
 * ItsBenter for helping set up Cornucopia's mailflag code.
 * PPJA Contributors: ParadigmNomad, who developed and spearheaded PPJA originally. SpringsSong, Eemie, and those listed on the PPJA [wiki page](https://github.com/paradigmnomad/PPJA/wiki/Artist-Credits).
 * MCM Contributors: Killerbotto and those listed on the MCM [forum page](https://community.playstarbound.com/threads/more-crops-mod-even-more-crops-mod-updated-20-04.111944/).
@@ -19,6 +20,7 @@ The mod could not be a reality without the following people having shared in mak
 * German 🇩🇪 - Tobi01
 * Spanish 🇪🇸 - Missramu﻿ & TellMeNacht
 * French 🇫🇷  - Mazoout
+* Indonesian 🇮🇩 - WisnuNug
 * Italian 🇮🇹 - Damadelfalco
 * Japanese 🇯🇵 - rushlight1 & nokochaoli
 * Korean 🇰🇷 - MingSoogaroon
