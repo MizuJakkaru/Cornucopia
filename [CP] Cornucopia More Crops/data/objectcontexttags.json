@@ -38,7 +38,7 @@
 		   "Target": "Data/Objects",
 		   "TargetField": ["829", "ContextTags"],			//ginger
 		   "Entries": {
-				  "#-1": "raw_spice_item",
+				  "#-1": "spice_item",
 				  "#-2": "herb_soap_item"
 		   }
 		},
@@ -160,7 +160,7 @@
 		   "Target": "Data/Objects",
 		   "TargetField": ["16", "ContextTags"],			//wild horseradish
 		   "Entries": {
-				  "#-1": "raw_spice_item"
+				  "#-1": "spice_item"
 		   }
 		},
 		{

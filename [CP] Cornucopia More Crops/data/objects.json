@@ -350,7 +350,7 @@
 					"Texture": "Cornucopia.MoreCrops/Objects",
 					"Price": 150,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_white",
 						"season_spring",
 						"cornucopia_bush_produce",
@@ -372,7 +372,7 @@
 					"Price": 40,
 					"Edibility": -300,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_poppyseed",
 						"season_spring",
 						"season_summer",
@@ -897,7 +897,9 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"poisonous_item",
-						"elderberry_item"
+						"elderberry_item",
+						"dehydrator_fruit_fix",
+						"modid_cornucopia.morecrops"
 					]
 				},
 				"Cornucopia_Ginseng": {
@@ -911,7 +913,7 @@
 					"Price": 2600,
 					"Edibility": 10,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_sand",
 						"season_winter",
 						"season_spring",
@@ -1335,7 +1337,7 @@
 					"Price": 165,
 					"Edibility": 5,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_green",
 						"season_summer",
 						"cornucopia_crop_produce",
@@ -1494,7 +1496,7 @@
 					"Texture": "Cornucopia.MoreCrops/Objects",
 					"Price": 40,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"seedmaker_banned",
 						"color_poppyseed",
 						"cornucopia_crop_seed",
@@ -1601,7 +1603,7 @@
 					"Price": 135,
 					"Edibility": 5,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_brown",
 						"season_spring",
 						"cornucopia_crop_produce",
@@ -1814,7 +1816,7 @@
 					"Price": 100,
 					"Edibility": 10,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"color_orange",
 						"season_fall",
 						"cornucopia_crop_produce",
@@ -1952,7 +1954,7 @@
 					"DisplayName": "{{i18n:KiwiSeeds_name}}",
 					"Description": "{{i18n:KiwiSeeds_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
-					"Price": 150,
+					"Price": 50,
 					"ContextTags": [
 						"cornucopia_crop_seed",
 						"cornucopia_rarity_exclusive",
@@ -3045,7 +3047,7 @@
 					"Texture": "Cornucopia.MoreCrops/Objects",
 					"Price": 10,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"cornucopia_crop_seed",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_herbs",
@@ -3911,7 +3913,7 @@
 					"Price": 140,
 					"Edibility": -300,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"nut_soap_item",
 						"color_yellow",
 						"cornucopia_fruittree_produce",
@@ -3978,7 +3980,7 @@
 					"Price": 90,
 					"Edibility": -300,
 					"ContextTags": [
-						"raw_spice_item",
+						"spice_item",
 						"nut_soap_item",
 						"color_brown",
 						"cornucopia_fruittree_produce",
@@ -4548,6 +4550,24 @@
 						"modid_cornucopia.morecrops",
 						"tofu_item"
 					]
+				},
+				"Cornucopia_Molasses": {
+					"Name": "Cornucopia_Molasses",
+					"Category": -26,
+					"SpriteIndex": 0,
+					"DisplayName": "Molasses",
+					"Description": "Molasses",
+					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+					"Price": 300,
+					"Edibility": 15,
+					"ContextTags": [
+						"cornucopia_artisangood",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_essential",
+						"modid_cornucopia.morecrops",
+						"molasses_item",
+						"color_brown_"
+					]
 				}
 			}
 		},
@@ -4693,7 +4713,26 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops"
 					]
-				}
+				},
+				"Cornucopia_WholeGrainFlour": {
+					"Name": "Cornucopia_WholeGrainFlour",
+					"Type": "Basic",
+					"Category": 0,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:WholeGrainFlour_name}}",
+					"Description": "{{i18n:WholeGrainFlour_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+					"Price": 50,
+					"Edibility": 5,
+					"ContextTags": [
+						"color_brown",
+						"cornucopia_artisangood",
+						"cornucopia_rarity_common",
+						"cornucopia_pack_extendedcrops",
+						"modid_cornucopia.morecrops",
+						"flour_item"
+					]
+				},
 			}
 		}
 	]
