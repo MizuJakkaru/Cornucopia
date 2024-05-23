@@ -1,0 +1,107 @@
+{//Mod authors: Please feel free to duplicate the code in this file to your own mod if you need to add a string fix for dehydrator products. Simply add the context tag to any fruit or mushroom and it will un-pluralize the name, so you dont end up with "Dried Elderberrieses".
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_DriedFruitFix": {
+					"Id": "Cornucopia_DriedFruitFix",
+					"Triggers": [
+						{
+							"RequiredTags": [
+								"dehydrator_fruit_fix",
+								"category_fruits"
+							],
+							"RequiredCount": 5
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+							"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"PriceModifiers": [
+								{
+									"Modification": "Multiply",
+									"Amount": 7.5
+								},
+								{
+									"Modification": "Add",
+									"Amount": 25
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 1750,
+					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+				},
+				"Cornucopia_DriedMushroomFix": {
+					"Id": "Cornucopia_DriedMushroomFix",
+					"Triggers": [
+						{
+							"RequiredTags": [
+								"dehydrator_fruit_fix",
+								"edible_mushroom"
+							],
+							"RequiredCount": 5
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "FLAVORED_ITEM DriedMushroom DROP_IN_ID",
+							"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"PriceModifiers": [
+								{
+									"Modification": "Multiply",
+									"Amount": 7.5
+								},
+								{
+									"Modification": "Add",
+									"Amount": 25
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 1750,
+					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DriedFruitFix",
+					"BeforeId": "DriedFruit"
+				},
+				{
+					"Id": "Cornucopia_DriedMushroomFix",
+					"BeforeId": "DriedMushrooms"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"Raisins",
+				"Triggers"
+			],
+			"Entries": {
+				"Cornucopia_GrapeItem": {
+					"RequiredTags": [
+						"grape_item",
+						"!cornucopia_dehydrator_raisins_banned"
+					],
+					"RequiredCount": 5
+				}
+			}
+		}
+	]
+}

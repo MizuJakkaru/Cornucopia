@@ -602,7 +602,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"black_currant_item",
-						"currant_item"
+						"currant_item",
+						"dehydrator_fruit_fix"
 					]
 				},
 				"Cornucopia_BlueAgave": {
@@ -811,7 +812,8 @@
 						"modid_cornucopia.morecrops",
 						"cornucopia_forage",
 						"chicken_of_the_woods_item",
-						"sulphur_shelf_item"
+						"sulphur_shelf_item",
+						"dehydrator_fruit_fix"
 					]
 				},
 				"Cornucopia_Chickpea": {
@@ -982,7 +984,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"groundcherry_item",
-						"cape_gooseberry_item"
+						"cape_gooseberry_item",
+						"dehydrator_fruit_fix"
 					]
 				},
 				"Cornucopia_Habanero": {
@@ -1067,7 +1070,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"cornucopia_forage",
-						"juniper_berry_item"
+						"juniper_berry_item",
+						"dehydrator_fruit_fix"
 					]
 				},
 				"Cornucopia_KidneyBeans": {
