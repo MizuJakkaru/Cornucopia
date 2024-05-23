@@ -3,6 +3,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Mods/mistyspring.ItemExtensions/MixedSeeds",
+			"When": {"Enhanced Mixed Seeds":true},
 			"Entries": {
 				"770": [
 					//spring crops
