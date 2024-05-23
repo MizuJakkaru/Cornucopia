@@ -12,6 +12,8 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_CommonMushroomSeeds": {
+					"DisplayName": "[LocalizedText Strings\\Objects:CommonMushroom_Name]",
+					"Description": "{{i18n:CommonMushroomSeeds_description}}",
 					"AgeToProduce": 20,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring","fall"],
@@ -42,6 +44,8 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_MorelSeeds": {
+					"DisplayName": "[LocalizedText Strings\\Objects:Morel_Name]",
+					"Description": "{{i18n:MorelSeeds_description}}",
 					"AgeToProduce": 22,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring"],
@@ -72,6 +76,8 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_ChanterelleSeeds": {
+					"DisplayName": "[LocalizedText Strings\\Objects:Chanterelle_Name]",
+					"Description": "{{i18n:ChanterelleSeeds_description}}",
 					"AgeToProduce": 22,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
@@ -102,6 +108,8 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_SalmonberrySeeds": {
+					"DisplayName": "[LocalizedText Strings\\Objects:Salmonberry_Name]",
+					"Description": "{{i18n:SalmonberrySeeds_description}}",
 					"AgeToProduce": 10,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring"],
@@ -132,6 +140,8 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_BlackberrySeeds": {
+					"DisplayName": "[LocalizedText Strings\\Objects:BlackberryName]",
+					"Description": "{{i18n:BlackberrySeeds_description}}",
 					"AgeToProduce": 14,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
@@ -162,6 +172,8 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_HollySeeds": {
+					"DisplayName": "[LocalizedText Strings\\Objects:Holly_Name]",
+					"Description": "{{i18n:HollySeeds_description}}",
 					"AgeToProduce": 12,
 					"DayToBeginProducing": 0,
 					"Seasons": ["winter"],
@@ -193,6 +205,8 @@
 				},
 			"Entries": {
 				"(O)433": {
+					"DisplayName": "[LocalizedText Strings\\Objects:CoffeeBean_Name]",
+					"Description": "{{i18n:CoffeeBean_description}}",
 					"AgeToProduce": 14,
 					"DayToBeginProducing": 0,
 					"Seasons": ["spring", "summer"],
@@ -223,6 +237,8 @@
 				},
 			"Entries": {
 				"(O)481": {
+					"DisplayName": "[LocalizedText Strings\\Objects:Blueberry_Name]",
+					"Description": "{{i18n:BlueberruSeeds_description}}",
 					"AgeToProduce": 12,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],
@@ -253,6 +269,8 @@
 				},
 			"Entries": {
 				"(O)802": {
+					"DisplayName": "[LocalizedText Strings\\Objects:CactusFruit_Name]",
+					"Description": "{{i18n:CactusFruitSeeds_description}}",
 					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],
@@ -283,6 +301,8 @@
 				},
 			"Entries": {
 				"(O)302": {
+					"DisplayName": "[LocalizedText Strings\\Objects:Hops_Name]",
+					"Description": "{{i18n:HopsSeeds_description}}",
 					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],
@@ -310,6 +330,8 @@
 				},
 			"Entries": {
 				"(O)301": {
+					"DisplayName": "[LocalizedText Strings\\Objects:Grapes_Name]",
+					"Description": "{{i18n:GrapesSeeds_description}}",
 					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
 					"Seasons": ["fall"],
