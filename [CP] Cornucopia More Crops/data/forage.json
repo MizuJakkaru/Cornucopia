@@ -19,7 +19,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer"
+                	"Condition": "SEASON spring summer",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -48,7 +49,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer"
+                	"Condition": "SEASON spring summer",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -89,7 +91,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring"
+                	"Condition": "SEASON spring",
+					"Chance": 0.4,
                 }
         	}
         },
@@ -114,7 +117,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer"
+                	"Condition": "SEASON spring summer",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -143,7 +147,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring"
+                	"Condition": "SEASON spring",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -172,7 +177,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring"
+                	"Condition": "SEASON spring",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -220,6 +226,7 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
+					"Chance": 0.4,
                 }
         	}
         },
@@ -231,6 +238,7 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
+					"Chance": 0.4,
                 }
         	}
         },
@@ -242,6 +250,7 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
+					"Chance": 0.4,
                 }
         	}
         },
@@ -255,7 +264,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring"
+                	"Condition": "SEASON spring",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -286,7 +296,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring"
+                	"Condition": "SEASON spring",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -318,7 +329,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring"
+                	"Condition": "SEASON spring",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -349,7 +361,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring"
+                	"Condition": "SEASON spring",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
@@ -380,7 +393,8 @@
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
                 	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer"
+                	"Condition": "SEASON spring summer",
+					"Chance": 0.4,
                 },
                 "(O)Cornucopia_Raspberry": {
                 	"ItemId": "(O)Cornucopia_Raspberry",
