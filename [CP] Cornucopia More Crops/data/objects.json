@@ -4508,7 +4508,7 @@
 					"DisplayName": "{{i18n:OliveOil_name}}",
 					"Description": "{{i18n:OliveOil_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
-					"Price": 150,
+					"Price": 450,
 					"Edibility": 5,
 					"IsDrink": true,
 					"ContextTags": [

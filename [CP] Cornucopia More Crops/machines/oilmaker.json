@@ -61,7 +61,8 @@
 						[
 							{
 								"RequiredItemId": "(O)Cornucopia_Olive",
-							}
+							},
+							"RequiredCount": 4
 						],
 					"OutputItem":
 						[
