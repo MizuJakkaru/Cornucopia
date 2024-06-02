@@ -457,6 +457,15 @@
 						"B": 4,
 						"A": 255
 					},
+				},
+				"Cornucopia_Wormwood": {
+					"CategoryTextOverride": "{{i18n:Herb}}",
+					"CategoryColorOverride": {
+						"R": 129,
+						"G": 125,
+						"B": 4,
+						"A": 255
+					},
 				}
 			}
 		}
