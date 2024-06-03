@@ -9,6 +9,15 @@
 				  "#-1": "berry_item"
 		   }
 		},
+		
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["410", "ContextTags"],			//blackberry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
 		{
 		   "Action": "EditData",
 		   "Target": "Data/Objects",
