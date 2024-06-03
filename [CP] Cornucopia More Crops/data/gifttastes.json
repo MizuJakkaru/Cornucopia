@@ -27,7 +27,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Dislike"],
-                    "Value": "Cornucopia_ChicleRubber", 
+                    "Value": "Cornucopia_ChicleRubber Cornucopia_BuckwheatFlour Cornucopia_SemolinaFlour Cornucopia_Whole-GrainFlour", 
                     "Delimiter": " "
                 },
 				{
@@ -52,7 +52,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Sam", 7],					//hate
-                    "Value": "Cornucopia_Olive", 
+                    "Value": "Cornucopia_Olive Cornucopia_OliveOil", 
                     "Delimiter": " "
                 },
 				{
@@ -94,7 +94,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Maru", 7],				//hate
-                    "Value": "Cornucopia_Olive", 
+                    "Value": "Cornucopia_Olive Cornucopia_OliveOil", 
                     "Delimiter": " "
                 },
 				{
