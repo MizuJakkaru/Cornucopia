@@ -11,17 +11,17 @@
 	
 	//Bush saplings
 	"BlackberrySeeds_name": "Blackberry Sapling",
-	"BlackberrySeeds_description": "Takes 20 days to mature into a bush. Produces blackberries throughout blackberry season and a bit longer (Fall 8-14).",
+	"BlackberrySeeds_description": "Takes 14 days to mature into a bush. Produces blackberries throughout blackberry season and a bit longer (Fall 8-14).",
 	"ChanterelleSeeds_name": "Chanterelle Planter",
-	"ChanterelleSeeds_description": "Takes 30 days to mature into a mushroom stump. Produces a bounty of chanterelle during late fall (days 18-24).",
+	"ChanterelleSeeds_description": "Takes 22 days to mature into a mushroom stump. Produces a bounty of chanterelle during late fall (days 18-24).",
 	"CommonMushroomSeeds_name": "Common Mushroom Planter",
-	"CommonMushroomSeeds_description": "Takes 25 days to mature into a mushroom stump. Produces common mushrooms throughout spring and fall.",
+	"CommonMushroomSeeds_description": "Takes 20 days to mature into a mushroom stump. Produces common mushrooms throughout spring and fall.",
 	"HollySeeds_name": "Holly Sapling",
-    "HollySeeds_description": "Takes 20 days to mature into a bush. Produces holly every 4 days in winter.",
+    "HollySeeds_description": "Takes 12 days to mature into a bush. Produces holly every 4 days in winter.",
 	"MorelSeeds_name": "Morel Planter",
-	"MorelSeeds_description": "Takes 30 days to mature into a mushroom stump. Produces a bounty of morel during late spring (days 22-28).",
+	"MorelSeeds_description": "Takes 22 days to mature into a mushroom stump. Produces a bounty of morel during late spring (days 22-28).",
 	"SalmonberrySeeds_name": "Salmonberry Sapling",
-	"SalmonberrySeeds_description": "Takes 20 days to mature into a bush. Produces salmonberries throughout salmonberry season and a little longer (Spring 15-21).",
+	"SalmonberrySeeds_description": "Takes 10 days to mature into a bush. Produces salmonberries throughout salmonberry season and a little longer (Spring 15-21).",
 	
 	//Tree saplings
 	"Hazelnut_name": "Hazelnut",
@@ -33,7 +33,7 @@
 	
 	//Vanilla seeds to bush saplings changes
 	"BlueberrySeeds_name": "Blueberry Sapling",
-	"BlueberrySeeds_description": "Takes 20 days to mature into a bush. Produces blueberries every 4 days in summer.",
+	"BlueberrySeeds_description": "Takes 14 days to mature into a bush. Produces blueberries every 4 days in summer.",
 	"CactusFruitSeeds_name": "Cactus Planter",
 	"CactusFruitSeeds_description": "Plant indoors or outdoors. Takes 20 days to mature, and then produces cactus fruit every 3 days in summer.",
 	"CoffeeBean_description": "Plant to grow a coffee bush that produces coffee beans in spring and summer. Place five beans in a keg to make coffee.",

@@ -5,6 +5,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
+			"When": {"Enable Extended Crops Pack": true},
 			"TargetField": [ "(BC)12", "OutputRules" ],
 			"Entries": {
 				"Cornucopia_DarkAle": {
