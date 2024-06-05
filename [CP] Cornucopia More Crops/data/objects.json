@@ -4538,7 +4538,7 @@
 				"Cornucopia_Molasses": {
 					"Name": "Cornucopia_Molasses",
 					"Category": -26,
-					"SpriteIndex": 0,
+					"SpriteIndex": 1,
 					"DisplayName": "Molasses",
 					"Description": "Molasses",
 					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
@@ -4701,7 +4701,7 @@
 					"Name": "Cornucopia_WholeGrainFlour",
 					"Type": "Basic",
 					"Category": 0,
-					"SpriteIndex": 0,
+					"SpriteIndex": 4,
 					"DisplayName": "{{i18n:WholeGrainFlour_name}}",
 					"Description": "{{i18n:WholeGrainFlour_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
