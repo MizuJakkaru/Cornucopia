@@ -10,8 +10,9 @@ The mod could not be a reality without the following people having shared in mak
 * Other Thanks: Amburr, xangria, and mystictempest, old friends from the ancient times of SDV modding. Also Dr.Drub, dollbae, gamerfluid, Igorius, Platonymous, TenkoKuugen. And also tallasse for troubleshooting, coding help, and making sure I stay on scope despite my best efforts.
 
 ## Playtesters
+We couldn't do this without people willing to diligently sniff out bugs before release. You can find people who helped us so far below!
 
-* Placeholder.
+* BeazNees, TiredTypist
 
 ## Translators
 
