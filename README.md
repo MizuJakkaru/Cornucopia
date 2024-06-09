@@ -18,6 +18,7 @@ We have put a lot of effort into revitalizing the content from the original spre
 * MizuJakkaru ([Nexus](https://www.nexusmods.com/stardewvalley/users/2821799), [Kofi](https://ko-fi.com/mizujakkaru))
 * DraconisLeonidas ([Nexus](https://www.nexusmods.com/stardewvalley/users/158706123))
 * 6480 ([Nexus](https://www.nexusmods.com/users/55537262), [Kofi](https://ko-fi.com/6480k), [Twitter](https://twitter.com/6480n), Discord **@6480**)
+* EnderTedi ([Nexus](https://next.nexusmods.com/profile/EnderTedi))
 
 ## Credit & Thanks
 The mod could not be a reality without the following people having shared in making their own mods or contributations along the way. To see a full list of all the people who helped inspire or troubleshoot this mod, go to our [Credits](https://github.com/MizuJakkaru/Cornucopia/blob/main/CREDITS.md) page.
