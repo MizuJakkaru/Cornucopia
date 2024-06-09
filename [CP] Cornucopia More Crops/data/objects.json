@@ -4539,10 +4539,10 @@
 					"Name": "Cornucopia_Molasses",
 					"Category": -26,
 					"SpriteIndex": 1,
-					"DisplayName": "Molasses",
-					"Description": "Molasses",
+					"DisplayName": "{{i18n:Molasses_name}}",
+					"Description": "{{i18n:Molasses_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
-					"Price": 300,
+					"Price": 150,
 					"Edibility": 15,
 					"ContextTags": [
 						"cornucopia_artisangood",
