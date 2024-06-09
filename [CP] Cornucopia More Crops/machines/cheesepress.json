@@ -23,6 +23,7 @@
 							}
 						],
 					"MinutesUntilReady": 200,
+					"InvalidCountMessage": "CheesePressInvalidCount_Soybeans"
 				}
 			}
 		}

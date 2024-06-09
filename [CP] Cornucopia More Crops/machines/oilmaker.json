@@ -8,20 +8,6 @@
 				"OutputRules"
 			],
 			"Entries": {
-				"Cornucopia_CanolaFlowerOil": {
-					"Id": "Cornucopia_CanolaFlowerOil",
-					"Triggers": [
-						{
-							"RequiredItemId": "(O)Cornucopia_CanolaFlower"
-						}
-					],
-					"OutputItem": [
-						{
-							"ItemId": "(O)247"
-						}
-					],
-					"MinutesUntilReady": 60
-				},
 				"Cornucopia_PeanutOil": {
 					"Id": "Cornucopia_PeanutOil",
 					"Triggers": [
@@ -36,20 +22,6 @@
 					],
 					"MinutesUntilReady": 360
 				},
-				"Cornucopia_SeedsOil": {
-					"Id": "Cornucopia_SeedsOil",
-					"Triggers": [
-						{
-							"RequiredItemId": "(O)Cornucopia_CanolaFlowerSeeds"
-						}
-					],
-					"OutputItem": [
-						{
-							"ItemId": "(O)247"
-						}
-					],
-					"MinutesUntilReady": 3200
-				},
 				"Cornucopia_OliveOil": {
 					"Id": "Cornucopia_OliveOil",
 					"Triggers": [
@@ -63,7 +35,49 @@
 							"ItemId": "(O)Cornucopia_OliveOil"
 						}
 					],
-					"MinutesUntilReady": 960
+					"MinutesUntilReady": 960,
+					"InvalidCountMessage": "{{i18n: OilmakerInvalidCount_Olives}}"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {
+				"Enable Extended Crops Pack": true
+			},
+			"TargetField": [
+				"(BC)19",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_CanolaFlowerOil": {
+					"Id": "Cornucopia_CanolaFlowerOil",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_CanolaFlower"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)247"
+						}
+					],
+					"MinutesUntilReady": 60
+				},
+				"Cornucopia_SeedsOil": {
+					"Id": "Cornucopia_SeedsOil",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_CanolaFlowerSeeds"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)247"
+						}
+					],
+					"MinutesUntilReady": 3200
 				}
 			}
 		}

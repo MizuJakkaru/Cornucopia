@@ -87,6 +87,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
+			"When": {"Enable Extended Crops Pack": true},
 			"TargetField": [
 				"(BC)Dehydrator",
 				"OutputRules",

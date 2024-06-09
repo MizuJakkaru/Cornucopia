@@ -30,7 +30,8 @@
 							]
 						}
 					],
-					"MinutesUntilReady": 240
+					"MinutesUntilReady": 240,
+					"InvalidCountMessage": "{{i18n: LoomInvalidCount_CottonBoll}}"
 				}
 			}
 		}

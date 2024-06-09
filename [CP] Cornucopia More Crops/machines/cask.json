@@ -5,6 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)163", "OutputRules" ],
+			"When": {"Enable Extended Crops Pack": true},
 			"Entries": {
 				"Cornucopia_AgedDarkAle": {
 					"Id": "Cornucopia_AgedDarkAle",
