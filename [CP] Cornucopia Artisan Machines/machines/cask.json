@@ -1,0 +1,66 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)163", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_AgedCenturyEgg": {
+					"Id": "Cornucopia_AgedCenturyEgg",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_CenturyEgg",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "4"
+								}
+							}
+						],
+				},
+				"Cornucopia_AgedNutCheese": {
+					"Id": "Cornucopia_AgedNutCheese",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_NutCheese",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "4"
+								}
+							}
+						],
+				},
+				"Cornucopia_AgedSmokedCheese": {
+					"Id": "Cornucopia_AgedSmokedCheese",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_SmokedCheese",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "4"
+								}
+							}
+						],
+				}
+			}
+		}
+    ]
+}

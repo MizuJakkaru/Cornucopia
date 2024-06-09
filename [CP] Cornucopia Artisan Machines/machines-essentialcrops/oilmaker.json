@@ -1,0 +1,28 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)19", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_AvocadoOil": {
+					"Id": "Cornucopia_AvocadoOil",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Avocado",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_AvocadoOil",
+							}
+						],
+					"MinutesUntilReady": 960,
+				}
+			}
+		}
+    ]
+}

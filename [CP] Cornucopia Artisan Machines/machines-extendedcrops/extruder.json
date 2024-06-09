@@ -1,0 +1,77 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_GlassNoodles",
+				"Triggers"
+			],
+			"Entries": {
+				"(O)Cornucopia_Cassava": {
+					"RequiredItemId": "(O)Cornucopia_Cassava"
+				},
+				"(O)Cornucopia_SweetPotato": {
+					"RequiredItemId": "(O)Cornucopia_SweetPotato"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_BuckwheatNoodles": {
+					"Id": "Cornucopia_BuckwheatNoodles",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_BuckwheatFlour"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_BuckwheatNoodles",
+							"IncrementMachineParentSheetIndex": 1
+						}
+					],
+					"MinutesUntilReady": 460
+				},
+				"Cornucopia_SemolinaNoodles": {
+					"Id": "Cornucopia_SemolinaNoodles",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_SemolinaFlour"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_SemolinaNoodles",
+							"IncrementMachineParentSheetIndex": 1
+						}
+					],
+					"MinutesUntilReady": 460
+				},
+				"Cornucopia_WholeGrainNoodles": {
+					"Id": "Cornucopia_WholeGrainNoodles",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_WholeGrainFlour"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_WholeGrainNoodles",
+							"IncrementMachineParentSheetIndex": 1
+						}
+					],
+					"MinutesUntilReady": 460
+				}
+			}
+		}
+	]
+}

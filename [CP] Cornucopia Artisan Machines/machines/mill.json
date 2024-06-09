@@ -1,0 +1,29 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"Mill",
+				"ItemConversions"
+			],
+			"Entries": {
+				"Cornucopia_CornFlour": {
+					"Id": "Cornucopia_CornFlour",
+					"SourceChest": "Input",
+					"DestinationChest": "Output",
+					"RequiredTags": [
+						"id_o_270"
+					],
+					"ProducedItems": [
+						{
+							"ItemId": "(O)Cornucopia_CornFlour",
+							"MinStack": 2
+						}
+					],
+					"MaxDailyConversions": -1
+				}
+			}
+		}
+	]
+}

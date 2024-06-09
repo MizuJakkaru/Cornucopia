@@ -1,0 +1,40 @@
+{
+    "Changes": [
+		// add forage (beach)
+        {
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {"Season":"spring",},
+			"Entries": {
+				"Cornucopia_SeaSalt": "Cornucopia_SeaSalt/trap/.1/682 .45/ocean/1/3"
+			},
+		},
+		{
+			"Action": "EditData",
+			"LogName": "Crabpot Summer",
+			"Target": "Data/Fish",
+			"When": {"Season":"summer",},
+			"Entries": {
+				"Cornucopia_SeaSalt": "Cornucopia_SeaSalt/trap/.1/682 .45/ocean/1/3", 
+			},
+		},
+		{
+			"Action": "EditData",
+			"LogName": "Crabpot Fall",
+			"Target": "Data/Fish",
+			"When": {"Season":"fall",},
+			"Entries": {
+				"Cornucopia_SeaSalt": "Cornucopia_SeaSalt/trap/.1/682 .45/ocean/1/3",
+			},
+		},
+		{
+	      "Action": "EditData",
+		  "LogName": "Crabpot Winter",
+          "Target": "Data/Fish",
+		  "When": {"Season":"winter",},
+          "Entries": {
+				"Cornucopia_SeaSalt": "Cornucopia_SeaSalt/trap/.1/682 .45/ocean/1/3",
+		    },
+		}
+	]
+}

@@ -1,0 +1,157 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": {
+				"(BC)Cornucopia_Alembic": {
+					"OutputRules": [
+						{
+							"Id": "Cornucopia_PrismaticEssence",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)74"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_PrismaticEssence"
+								}
+							],
+							"MinutesUntilReady": 1750
+						},
+						{
+							"Id": "Cornucopia_EssentialOil",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"category_flowers"
+									],
+									"RequiredCount": 5
+								},
+								{
+									"RequiredTags": [
+										"category_fruits"
+									],
+									"RequiredCount": 5
+								},
+								{
+									"RequiredTags": [
+										"category_vegetable"
+									],
+									"RequiredCount": 5
+								},
+								{
+									"RequiredTags": [
+										"herb_item"
+									],
+									"RequiredCount": 5
+								},
+								{
+									"RequiredTags": [
+										"nut_item"
+									],
+									"RequiredCount": 5
+								},
+								{
+									"RequiredTags": [
+										"spice_item"
+									],
+									"RequiredCount": 5
+								},
+								{
+									"RequiredTags": [
+										"forage_item"
+									],
+									"RequiredCount": 5
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "Cornucopia_EssentialOil",
+									"ObjectInternalName": "{0} Cornucopia_EssentialOil",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_EssentialOil %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "EssentialOil",
+											"Modification": "Multiply",
+											"Amount": 7.5
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 2400,
+					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+						}
+					],
+					"LoadEffects": [
+						{
+							"Sounds": [
+								{
+									"Id": "bubbles"
+								},
+								{
+									"Id": "sipTea"
+								}
+							],
+							"TemporarySprites": [
+								{
+									"Texture": "TileSheets\\animations",
+									"SourceRect": {
+										"X": 256,
+										"Y": 1856,
+										"Width": 64,
+										"Height": 128
+									},
+									"Interval": 80.0,
+									"Frames": 6,
+									"Loops": 999999,
+									"PositionOffset": "0, -32",
+									"SortOffset": 0.0,
+									"AlphaFade": 0.005,
+									"Scale": 0.25,
+									"ScaleChange": 0.0,
+									"Rotation": 0.0,
+									"RotationChange": 0.0,
+									"Color": "White"
+								}
+							]
+						}
+					],
+					"WorkingEffects": [
+						{
+							"TemporarySprites": [
+								{
+									"Texture": "TileSheets\\animations",
+									"SourceRect": {
+										"X": 256,
+										"Y": 1856,
+										"Width": 64,
+										"Height": 128
+									},
+									"Interval": 80.0,
+									"Frames": 6,
+									"Loops": 999999,
+									"PositionOffset": "0, -32",
+									"SortOffset": 0.0,
+									"AlphaFade": 0.005,
+									"Scale": 0.25,
+									"ScaleChange": 0.0,
+									"Rotation": 0.0,
+									"RotationChange": 0.0,
+									"Color": "White"
+								}
+							]
+						}
+					],
+					"WobbleWhileWorking": true
+				}
+			}
+		}
+	]
+}

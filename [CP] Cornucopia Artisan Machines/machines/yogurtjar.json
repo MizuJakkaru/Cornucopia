@@ -1,0 +1,423 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": {
+				"(BC)Cornucopia_YogurtJar": {
+					"OutputRules": [
+						{
+							"Id": "Cornucopia_PlainYogurtGold",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)186"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_PlainYogurt",
+									"Quality": 2
+								}
+							],
+							"MinutesUntilReady": 400
+						},
+						{
+							"Id": "Cornucopia_PlainYogurtGoat",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)436"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_PlainYogurt",
+									"MinStack": 2
+								}
+							],
+							"MinutesUntilReady": 400
+						},
+						{
+							"Id": "Cornucopia_PlainYogurtGoatGold",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)438"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_PlainYogurt",
+									"Quality": 2,
+									"MinStack": 2
+								}
+							],
+							"MinutesUntilReady": 400
+						},
+						{
+							"Id": "Cornucopia_PlainYogurt",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)184"
+								},
+								{
+									"RequiredTags": [
+										"category_milk",
+										"!plant_milk_item"
+										]
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_PlainYogurt"
+								}
+							],
+							"MinutesUntilReady": 400
+						},
+						{
+							"Id": "Cornucopia_WildHoneyYogurt",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"id_o_340", "preserve_sheet_index_-1"
+									]
+								}
+							],
+							"UseFirstValidOutput": true,
+							"OutputItem": [
+								{
+									"Id": "Cornucopia_FlavoredYogurtIridium",
+									"ItemId": "Cornucopia_FlavoredYogurt",
+									"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
+									"ObjectDisplayName": "{{i18n:FlavoredYogurt_WildHoney}}",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"Quality": 2,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt, quality_iridium",
+										//"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredYogurt",
+											"Modification": "Multiply",
+											"Amount": 2
+										},
+										{
+											"Id": "YogurtBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								},
+								{
+									"Id": "Cornucopia_FlavoredYogurtGold",
+									"ItemId": "Cornucopia_FlavoredYogurt",
+									"ObjectInternalName": "{0} Cornucopia_FlavoredHoneyYogurt",
+									"ObjectDisplayName": "{{i18n:FlavoredYogurt_WildHoney}}",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"Quality": 2,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt, quality_gold",
+										//"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredYogurt",
+											"Modification": "Multiply",
+											"Amount": 2
+										},
+										{
+											"Id": "YogurtBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								},
+								{
+									"ItemId": "Cornucopia_FlavoredYogurt",
+									"ObjectInternalName": "{0} Cornucopia_FlavoredHoneyYogurt",
+									"ObjectDisplayName": "{{i18n:FlavoredYogurt_WildHoney}}",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt",
+										//"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredYogurt",
+											"Modification": "Multiply",
+											"Amount": 2
+										},
+										{
+											"Id": "YogurtBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 960
+						},
+						{
+							"Id": "Cornucopia_FlavoredHoneyYogurt",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"id_o_340", "!preserve_sheet_index_-1"
+									]
+								}
+							],
+							"UseFirstValidOutput": true,
+							"OutputItem": [
+								{
+									"Id": "Cornucopia_FlavoredYogurtIridium",
+									"ItemId": "Cornucopia_FlavoredYogurt",
+									"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FlavoredHoneyYogurt %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"Quality": 2,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt, quality_iridium",
+										"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredYogurt",
+											"Modification": "Multiply",
+											"Amount": 2
+										},
+										{
+											"Id": "YogurtBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								},
+								{
+									"Id": "Cornucopia_FlavoredYogurtGold",
+									"ItemId": "Cornucopia_FlavoredYogurt",
+									"ObjectInternalName": "{0} Cornucopia_FlavoredHoneyYogurt",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FlavoredHoneyYogurt %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"Quality": 2,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt, quality_gold",
+										"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredYogurt",
+											"Modification": "Multiply",
+											"Amount": 2
+										},
+										{
+											"Id": "YogurtBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								},
+								{
+									"ItemId": "Cornucopia_FlavoredYogurt",
+									"ObjectInternalName": "{0} Cornucopia_FlavoredHoneyYogurt",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FlavoredHoneyYogurt %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt",
+										"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredYogurt",
+											"Modification": "Multiply",
+											"Amount": 2
+										},
+										{
+											"Id": "YogurtBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 960
+						},
+						{
+							"Id": "Cornucopia_FlavoredYogurt",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"category_fruits"
+									]
+								},
+								{
+									"RequiredItemId": "(O)395"
+								},
+								{
+									"RequiredTags": [
+										"cornucopia_yogurtjar_flavoredyogurt"
+										]
+								}
+							],
+							"UseFirstValidOutput": true,
+							"OutputItem": [
+								{
+									"Id": "Cornucopia_FlavoredYogurtIridium",
+									"ItemId": "Cornucopia_FlavoredYogurt",
+									"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FlavoredYogurt %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"Quality": 2,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt, quality_iridium",
+										//"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredYogurt",
+											"Modification": "Multiply",
+											"Amount": 2
+										},
+										{
+											"Id": "YogurtBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								},
+								{
+									"Id": "Cornucopia_FlavoredYogurtGold",
+									"ItemId": "Cornucopia_FlavoredYogurt",
+									"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FlavoredYogurt %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"Quality": 2,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt, quality_gold",
+										//"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredYogurt",
+											"Modification": "Multiply",
+											"Amount": 2
+										},
+										{
+											"Id": "YogurtBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								},
+								{
+									"ItemId": "Cornucopia_FlavoredYogurt",
+									"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FlavoredYogurt %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt",
+										//"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredYogurt",
+											"Modification": "Multiply",
+											"Amount": 2
+										},
+										{
+											"Id": "YogurtBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 960
+						}
+					],
+					"LoadEffects": [
+						{
+							"Sounds": [
+								{
+									"Id": "Ship"
+								}
+							],
+							"TemporarySprites": [
+								{
+									"Texture": "Cornucopia.ArtisanMachines/Animations",
+									"SourceRect": {
+										"X": 0,
+										"Y": 0,
+										"Width": 64,
+										"Height": 128
+									},
+									"Interval": 80.0,
+									"Frames": 6,
+									"Loops": 999999,
+									"PositionOffset": "0, -32",
+									"SortOffset": 0.0,
+									"AlphaFade": 0.005,
+									"Scale": 0.25,
+									"ScaleChange": 0.0,
+									"Rotation": 0.0,
+									"RotationChange": 0.0
+								}
+							]
+						}
+					],
+					"WorkingEffects": [
+						{
+							"TemporarySprites": [
+								{
+									"Texture": "Cornucopia.ArtisanMachines/Animations",
+									"SourceRect": {
+										"X": 0,
+										"Y": 0,
+										"Width": 64,
+										"Height": 128
+									},
+									"Interval": 80.0,
+									"Frames": 6,
+									"Loops": 999999,
+									"PositionOffset": "0, -32",
+									"SortOffset": 0.0,
+									"AlphaFade": 0.005,
+									"Scale": 0.25,
+									"ScaleChange": 0.0,
+									"Rotation": 0.0,
+									"RotationChange": 0.0
+								}
+							]
+						}
+					],
+					"WobbleWhileWorking": true
+				}
+			}
+		}
+	]
+}

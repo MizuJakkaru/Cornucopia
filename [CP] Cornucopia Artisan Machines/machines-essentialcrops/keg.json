@@ -1,0 +1,55 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_SoyMilk": {
+					"Id": "Cornucopia_SoyMilk",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_Soybeans",
+							"RequiredCount": 2
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_NutMilk",
+							"ObjectInternalName": "{0} Cornucopia_NutMilk",
+							"ObjectDisplayName": "{{i18n:NutMilk_Soybeans}}",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.CopyColor": "true"
+							},
+							"PriceModifiers": [
+								{
+									"Id": "NutMilk",
+									"Modification": "Multiply",
+									"Amount": 2.25
+								},
+								{
+									"Id": "InputCount",
+									"Modification": "Multiply",
+									"Amount": 2
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 2250,
+					"InvalidCountMessage": "{{i18n:KegInvalidCount_Soybeans}}"
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_SoyMilk",
+					"BeforeId": "Default_Juice"
+				}
+			]
+		}
+	]
+}

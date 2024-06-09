@@ -1,0 +1,31 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)15", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_Umeboshi": {
+					"Id": "Cornucopia_Umeboshi",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Ume",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Umeboshi"
+							}
+						],
+					"MinutesUntilReady": 4000,
+				}
+			},
+			"MoveEntries": [
+					{ "Id": "Cornucopia_Umeboshi", "BeforeId": "Default_Jelly" }
+			]
+		}
+    ]
+}

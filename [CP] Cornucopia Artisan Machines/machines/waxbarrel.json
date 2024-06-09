@@ -1,0 +1,160 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": {
+				"(BC)Cornucopia_WaxBarrel": {
+					"OutputRules": [
+						{
+							"Id": "Cornucopia_SnackCheese",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)424"
+								},
+								{
+									"RequiredItemId": "(O)426"
+								},
+								{
+									"RequiredTags": [
+										"cheese_item"
+									]
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_SnackCheese",
+									"MinStack": 3
+								}
+							],
+							"MinutesUntilReady": 3000
+						},
+						{
+							"Id": "Cornucopia_WaxMelts",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)Cornucopia_EssentialOil"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "Cornucopia_WaxMelts",
+									"ObjectInternalName": "{0} Cornucopia_WaxMelts",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_WaxMelts %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.InheritPreserveId": true,
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)Cornucopia_Beeswax",
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WaxBarrelMissingFuel}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "WaxMelts",
+											"Modification": "Multiply",
+											"Amount": 2.5
+										},
+										{
+											"Id": "BeeswaxBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 3000
+						},
+						{
+							"Id": "Cornucopia_Candles",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"category_flowers"
+									]
+								},
+								{
+									"RequiredTags": [
+										"category_fruits"
+									]
+								},
+								{
+									"RequiredTags": [
+										"herb_item"
+									]
+								},
+								{
+									"RequiredTags": [
+										"nut_item"
+									]
+								},
+								{
+									"RequiredTags": [
+										"spice_item"
+									]
+								},
+								{
+									"RequiredTags": [
+										"berry_item"
+									]
+								},
+								{
+									"RequiredItemId": "(O)395"
+								},
+								{
+									"RequiredItemId": "(O)614"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "Cornucopia_Candles",
+									"ObjectInternalName": "{0} Cornucopia_Candles",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_Candles %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)Cornucopia_Beeswax",
+										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WaxBarrelMissingFuel}}"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "Candles",
+											"Modification": "Multiply",
+											"Amount": 3
+										},
+										{
+											"Id": "BeeswaxBase",
+											"Modification": "Add",
+											"Amount": 250
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 3000
+						}
+					],
+					"AdditionalConsumedItems": [
+						{
+							"ItemId": "(O)Cornucopia_Beeswax",
+							"RequiredCount": 1,
+							"InvalidCountMessage": "{{i18n:WaxBarrelFuelNeededMessage}}"
+						}
+					],
+					"LoadEffects": [
+						{
+							"Sounds": [
+								{
+									"Id": "Ship"
+								}
+							]
+						}
+					],
+					"WobbleWhileWorking": true,
+					"ShowNextIndexWhileWorking": true,
+					"ShowNextIndexWhenReady": true
+				}
+			}
+		}
+	]
+}

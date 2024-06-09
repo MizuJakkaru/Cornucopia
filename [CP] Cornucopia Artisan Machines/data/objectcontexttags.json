@@ -1,0 +1,307 @@
+{
+	"Changes": [	
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["928", "ContextTags"],			//golden egg
+		   "Entries": {
+				  "#-1": "color_gold"
+		   }
+		},	
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["798", "ContextTags"],			//midnight squid
+		   "Entries": {
+				  "#-1": "squid_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["151", "ContextTags"],			//squid
+		   "Entries": {
+				  "#-1": "squid_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["595", "ContextTags"],			//rose
+		   "Entries": {
+				  "#-1": "rose_item"
+		   }
+		},
+		
+		// add custom context tags - duplicate from more crops
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["258", "ContextTags"],			//blueberry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["410", "ContextTags"],			//blackberry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["281", "ContextTags"],			//chanterelle
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["404", "ContextTags"],			//common mushroom
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["282", "ContextTags"],			//cranberries
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["829", "ContextTags"],			//ginger
+		   "Entries": {
+				  "#-1": "spice_item",
+				  "#-2": "herb_soap_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["398", "ContextTags"],			//grape
+		   "Entries": {
+				  "#-1": "grape_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["188", "ContextTags"],			//green bean
+		   "Entries": {
+				  "#-1": "bean_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["408", "ContextTags"],			//hazelnut
+		   "Entries": {
+				  "#-1": "nut_item",
+				  "#-2": "nut_soap_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["209", "ContextTags"],			//hot pepper
+		   "Entries": {
+				  "#-1": "chili_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["851", "ContextTags"],			//magma cap
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["257", "ContextTags"],			//morel
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["635", "ContextTags"],			//orange
+		   "Entries": {
+				  "#-1": "citrus_fruit_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["422", "ContextTags"],			//purple mushroom
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["420", "ContextTags"],			//red mushroom
+		   "Entries": {
+				  "#-1": "mushroom_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["296", "ContextTags"],			//salmonberry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["396", "ContextTags"],			//spice berry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["400", "ContextTags"],			//strawberry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["417", "ContextTags"],			//sweet gem berry
+		   "Entries": {
+				  "#-1": "berry_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["262", "ContextTags"],			//wheat
+		   "Entries": {
+				  "#-1": "grain_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["16", "ContextTags"],			//wild horseradish
+		   "Entries": {
+				  "#-1": "spice_item"
+		   }
+		},
+	
+		// add custom context tags - duplicate from more flowers
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["418", "ContextTags"],			//crocus
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["18", "ContextTags"],			//daffodil
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["22", "ContextTags"],			//dandelion
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["595", "ContextTags"],			//fairy rose
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["376", "ContextTags"],			//poppy
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["593", "ContextTags"],			//summer spangle
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["421", "ContextTags"],			//sunflower
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["402", "ContextTags"],			//sweet pea
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["591", "ContextTags"],			//tulip
+		   "Entries": {
+				  "#-1": "edible_flower_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["874", "ContextTags"],			//bug steak
+		   "Entries": {
+				  "#-1": "meat_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["424", "ContextTags"],
+		   "Entries": {
+				  "#-1": "cheese_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["424", "ContextTags"],
+		   "Entries": {
+				  "#-1": "cheese_item",
+				  "#-2": "soft_cheese_item",
+		   }
+		}
+	]
+}

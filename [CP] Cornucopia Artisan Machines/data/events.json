@@ -1,0 +1,452 @@
+{
+    "Changes": [
+        {
+			"LogName": "Cultured Yogurt - Event",
+			"Action": "EditData",
+			"Target": "Data/Events/AnimalShop",
+			"Entries": {
+				"{{ModId}}_CulturedYogurt/LocalMail Cornucopia.ArtisanMachines_YogurtJar": "jaunty/-999 -999/farmer 999 999 0 Marnie 16 17 1 Jas 17 15 3 Shane 27 15 1
+				/action AddMail Current Cornucopia.ArtisanMachines_YogurtJarRecipe tomorrow
+				/skippable
+				/showFrame Jas 22
+				/advancedMove Shane false 3 0 4 100 0 -1 4 1
+				/advancedMove Marnie false 0 1 4 0 0 -2 5 0 0 -1 3 0 4 1
+				/viewport 14 12 true
+				/viewport move 1 0 6000
+				/pause 2000
+				/playSound doorOpen
+				/pause 100
+				/warp Shane 999 999
+				/pause 400
+				/playSound doorClose
+				/pause 2150
+				/emote Jas 40
+				/waitForAllStationary
+				/emote Marnie 40
+				/showFrame Marnie 11
+				/playSound Ship
+				/pause 1200
+				/showFrame Marnie 8
+				/pause 300
+				/emote Marnie 16
+				/speak Marnie \"{{i18n: CulturedYogurt_Marnie.1}}\"
+				/pause 100
+				/emote Marnie 32
+				/showFrame Marnie 11
+				/playSound Ship 
+				/emote Jas 40
+				/showFrame Marnie 8
+				/pause 200
+				/advancedMove Marnie false -1 0 3 1000 2 0 1 500 2 500
+				/pause 500
+				/emote Marnie 40
+				/pause 500
+				/emote Marnie 8
+				/waitForAllStationary
+				/speak Marnie \"{{i18n: CulturedYogurt_Marnie.2}}\"
+				/pause 200
+				/faceDirection Marnie 3
+				/pause 200
+				/faceDirection Marnie 1
+				/pause 200
+				/advancedMove Marnie false -4 0
+				/globalFade
+				/viewport -999 -999
+				/stopAdvancedMoves
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Craftables 48 0 16 32 100 1 1 22 14 false false 0 0 1 0 0 0 hold_last_frame
+				/warp Marnie 23 15
+				/warp Jas 19 18
+				/faceDirection Jas 1
+				/playSound crafting
+				/pause 700
+				/playSound woodyStep
+				/pause 400
+				/playSound woodyStep
+				/pause 200
+				/playSound woodyStep
+				/pause 200
+				/playSound crafting
+				/pause 1500
+				/showFrame Marnie 13
+				/positionOffset Marnie -16 0
+				/advancedMove Jas false 1 0 0 -1 1 0 0 -2 1 1
+				/viewport 18 12
+				/globalFadeToClear
+				/pause 500
+				/showFrame Marnie 12
+				/pause 1500
+				/emote Jas 8
+				/pause 100
+				/speak Jas \"{{i18n: CulturedYogurt_Jas.1}}$3\"
+				/playSound doorOpen
+				/pause 50
+				/warp farmer 13 18
+				/faceDirection farmer 0
+				/advancedMove farmer false 7 0 0 -2 2 0 4 1
+				/speak Marnie \"{{i18n: CulturedYogurt_Marnie.3}}$1#$b#{{i18n: CulturedYogurt_Marnie.4}}\"
+				/emote Jas 20
+				/speak Jas \"{{i18n: CulturedYogurt_Jas.2}}$1\"
+				/showFrame Marnie 13
+				/playSound Ship
+				/pause 1300
+				/showFrame Marnie 12
+				/pause 300
+				/faceDirection Marnie 2
+				/speak Marnie \"{{i18n: CulturedYogurt_Marnie.5}}$1\"
+				/faceDirection farmer 1
+				/showFrame farmer 9
+				/emote farmer 32
+				/speak Marnie \"{{i18n: CulturedYogurt_Marnie.6}}\"
+				/faceDirection Marnie 3
+				/faceDirection farmer 0
+				/speak Marnie \"{{i18n: CulturedYogurt_Marnie.7}}\"
+				/playSound doorOpen
+				/pause 50
+				/warp Shane 30 14
+				/faceDirection Shane 2
+				/advancedMove Shane false 0 1 -2 0 4 500
+				/emote Shane 40
+				/pause 1500
+				/advancedMove Shane false -3 0 3 1
+				/emote Shane 8
+				/speak Shane \"{{i18n: CulturedYogurt_Shane.1}}$1\"
+				/faceDirection Marnie 1
+				/emote Marnie 32
+				/speak Jas \"{{i18n: CulturedYogurt_Jas.3}}$3\"
+				/faceDirection Marnie 3
+				/speak Marnie \"{{i18n: CulturedYogurt_Marnie.8}}$1#$b#$2{{i18n: CulturedYogurt_Marnie.9}}\"
+				/pause 100
+				/textAboveHead Shane \"{{i18n: CulturedYogurt_Shane.2}}\"
+				/faceDirection Shane 0
+				/pause 500
+				/faceDirection Shane 3
+				/showFrame Shane 13
+				/pause 200
+				/playSound woodyStep
+				/addObject 24 15 613
+				/pause 200
+				/showFrame Shane 12
+				/pause 500
+				/faceDirection Marnie 1
+				/emote Marnie 8
+				/speak Shane \"{{i18n: CulturedYogurt_Shane.3}}\"
+				/speak Marnie \"{{i18n: CulturedYogurt_Marnie.10}}\"
+				/showFrame Marnie 7
+				/pause 100
+				/playSound woodyStep
+				/removeObject 24 15
+				/pause 400
+				/showFrame Marnie 4
+				/emote Jas 20
+				/faceDirection Marnie 3
+				/speak Marnie \"{{i18n: CulturedYogurt_Marnie.11}}#$b#$1{{i18n: CulturedYogurt_Marnie.12}}\"
+				/showFrame Marnie 13
+				/playSound Ship
+				/emote farmer 20
+				/viewport move 0 -1 6000
+				/textAboveHead Marnie \"{{i18n: CulturedYogurt_Marnie.13}}\"
+				/globalFade 0.005
+				/viewport -999 -999
+				/end
+				"
+			}
+		},
+		{
+			"LogName": "Oils Essential - Event",
+			"Action": "EditData",
+			"Target": "Data/Events/HaleyHouse",
+			"Entries": {
+				"{{ModId}}_OilsEssential/LocalMail Cornucopia.ArtisanMachines_Alembic": "jaunty/-999 -999/farmer 999 999 0 Emily 16 16 0 Haley 6 7 1
+				/action AddMail Current Cornucopia.ArtisanMachines_AlembicRecipe tomorrow
+				/skippable
+				/viewport 15 5 clamp
+				/advancedMove Haley false 2 0 1 1
+				/advancedMove Emily false 0 -7 4 1
+				/emote Emily 32 true
+				/pause 200
+				/emote Haley 40
+				/advancedMove Haley false 1 300 0 -2
+				/doAction 16 12
+				/pause 200
+				/emote Haley 8 true
+				/pause 100
+				/textAboveHead Emily \"{{i18n: OilsEssential_Emily.1}}\"
+				/pause 500
+				/globalFade 0.014
+				/viewport -999 -999
+				/warp Emily 16 5
+				/warp Haley 6 5
+				/faceDirection Emily 2
+				/positionOffset Emily 0 24
+				/animate Emily false true 500 50 51
+				/faceDirection Haley 3
+				/advancedMove Haley false -2 0 2 500 0 3 2 500 3 700 1 500 2 0 1 500 -1 0 3 1 
+				/viewport 15 5 clamp true
+				/globalFadeToClear
+				/textAboveHead Emily \"{{i18n: OilsEssential_Emily.2}}\"
+				/emote Haley 8
+				/pause 1000
+				/textAboveHead Emily \"{{i18n: OilsEssential_Emily.3}}\"
+				/emote Haley 40
+				/globalFade
+				/viewport -999 -999
+				/removeTile 15 5 Front/removeTile 16 5 Front/removeTile 17 5 Front/removeTile 15 6 Front/removeTile 16 6 Front
+				/removeTile 15 6 Buildings/removeTile 16 6 Buildings/removeTile 17 6 Buildings
+				/removeTile 15 7 Buildings/removeTile 16 7 Buildings/removeTile 17 7 Buildings
+				/removeTile 17 6 Front
+				/waitForAllStationary
+				/warp Haley 5 12
+				/faceDirection Haley 2
+				/warp Emily 16 14
+				/speed Emily 1
+				/advancedMove Emily false 0 -6 4 1
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Craftables 0 0 16 32 100 1 1 16 12 false false 0 0 1 0 0 0 motion 0 -1 hold_last_frame
+				/viewport 15 5 clamp true
+				/doAction 5 13
+				/advancedMove Haley false 0 3 1 0 0 2 2 0 0 3 1 0 1 1
+				/textAboveHead Emily \"{{i18n: OilsEssential_Emily.4}}\"
+				/globalFadeToClear
+				/pause 200
+				/globalFade
+				/viewport -999 -999
+				/waitForAllStationary
+				/warp Haley 16 15
+				/faceDirection Haley 0
+				/advancedMove Haley false 0 -6 4 1
+				/warp Emily 15 6
+				/faceDirection Emily 1
+				/removeTemporarySprites
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Craftables 0 0 16 32 100 1 1 16 5 false false 0 0 1 0 0 0 hold_last_frame
+				/viewport 15 5 clamp true
+				/globalFadeToClear
+				/textAboveHead Emily \"{{i18n: OilsEssential_Emily.5}}\"
+				/showFrame Emily 7 true
+				/shake Emily 500
+				/pause 300
+				/playSound bubbles
+				/playSound sipTea
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\AnimationsDownscale 0 0 16 32 80 6 999999 16 4 false false 1 0 1 0 0 0
+				/pause 200
+				/showFrame Emily 4
+				/speak Haley \"{{i18n: OilsEssential_Haley.1}}\"
+				/faceDirection Emily 2 true
+				/jump Haley 8
+				/playSound thudStep
+				/emote Emily 8 true
+				/emote Haley 16
+				/pause 500
+				/speak Haley \"{{i18n: OilsEssential_Haley.2}}$3\"
+				/speak Emily \"{{i18n: OilsEssential_Emily.6}}$1\"
+				/emote Haley 8 true
+				/pause 500
+				/speak Haley \"{{i18n: OilsEssential_Haley.3}}\"
+				/faceDirection Emily 1
+				/speak Emily \"{{i18n: OilsEssential_Emily.7}}\"
+				/advancedMove Haley false 0 -1 1 0 0 -2 3 1
+				/pause 500
+				/emote Haley 8
+				/pause 500
+				/speak Haley \"{{i18n: OilsEssential_Haley.4}}\"
+				/speak Emily \"{{i18n: OilsEssential_Emily.8}}$1#$b#{{i18n: OilsEssential_Emily.9}}\"
+				/emote Emily 32 true
+				/pause 500
+				/emote Haley 40 true
+				/pause 750
+				/speak Emily \"{{i18n: OilsEssential_Emily.10}}\"
+				/speed Emily 3
+				/advancedMove Emily false 0 1 1 1
+				/pause 500
+				/advancedMove Haley false 0 1 3 1 
+				/showFrame Emily 7 true
+				/shake Emily 200 true
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Objects 128 144 16 16 100 1 1 16 7 false false 0 0 1 0 0 0 hold_last_frame
+				/pause 200
+				/showFrame Emily 4 true
+				/pause 700
+				/showFrame Haley 13 true
+				/shake Haley 200 true
+				/pause 100
+				/playSound pickUpItem
+				/removeTemporarySprites
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Craftables 0 0 16 32 100 1 1 16 5 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\AnimationsDownscale 0 0 16 32 80 6 999999 16 4 false false 1 0 1 0 0 0
+				/pause 100
+				/showFrame Haley 12
+				/pause 100
+				/speak Haley \"{{i18n: OilsEssential_Haley.5}}$3\"
+				/shake Haley 200 true
+				/pause 200
+				/textAboveHead Haley \"{{i18n: OilsEssential_Haley.6}}\"
+				/pause 500
+				/speak Haley \"{{i18n: OilsEssential_Haley.7}}$1\"
+				/speak Emily \"{{i18n: OilsEssential_Emily.11}}#$b#{{i18n: OilsEssential_Emily.12}}$1\"
+				/pause 200
+				/emote Emily 20 true
+				/emote Haley 20
+				/speak Haley \"{{i18n: OilsEssential_Haley.8}}$1\"
+				/speak Emily \"{{i18n: OilsEssential_Emily.13}}\"
+				/emote Haley 32 true
+				/viewport move 0 1 5000
+				/pause 200
+				/emote Emily 40 true
+				/pause 500
+				/emote Haley 40 true
+				/pause 300
+				/globalFade
+				/viewport -999 -999
+				/end
+				"
+			}
+		},	
+		{
+			"LogName": "Gifts for Evelyn - Event",
+			"Action": "EditData",
+			"Target": "Data/Events/JoshHouse",
+			"Entries": {
+				"{{ModID}}_GiftsForEvelyn/LocalMail Cornucopia.ArtisanMachines_WaxBarrel": "jaunty/-999 -999/Evelyn 999 999 0 George 14 20 1 farmer 999 999 0/skippable
+				/action AddMail Current Cornucopia.ArtisanMachines_WaxBarrelRecipe tomorrow
+				/addLantern 934 15 17 3/addLantern 934 20 16 3
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 32 16 16 16 100 1 1 15 17 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 32 16 16 16 100 1 1 20 16 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 16 16 16 16 100 1 1 19 21 false false 0 0 1 0 0 0 hold_last_frame
+				/addLantern 934 21 16 3/addLantern 934 18 18 3/addLantern 934 13 21 3
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 32 0 16 16 100 1 1 21 16 false true 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 32 0 16 16 100 1 1 18 18 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 32 0 16 16 100 1 1 13 21 false true 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 16 0 16 16 100 1 1 16 23 false true 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 0 0 16 16 100 1 1 19 17 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 0 0 16 16 100 1 1 13 18 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 0 0 16 16 100 1 1 15 22 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 0 0 16 16 100 1 1 20 18 false true 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 0 0 16 16 100 1 1 17 21 false true 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 48 0 16 16 100 1 1 16 16 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 48 0 16 16 100 1 1 19 19 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 48 0 16 16 100 1 1 14 21 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 48 0 16 16 100 1 1 19 23 false false 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 48 0 16 16 100 1 1 14 17 false true 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 48 0 16 16 100 1 1 21 17 false true 0 0 1 0 0 0 hold_last_frame
+				/temporaryAnimatedSprite Cornucopia.ArtisanMachines\\Furniture 48 0 16 16 100 1 1 18 22 false true 0 0 1 0 0 0 hold_last_frame
+				/viewport 10 19 clamp true
+				/pause 1000
+				/faceDirection George 0
+				/pause 1000
+				/faceDirection George 2
+				/emote George 32
+				/faceDirection George 1
+				/pause 1000
+				/speak George \"{{i18n: GiftsForEvelyn_George.1}}\"
+				/pause 100
+				/playSound doorOpen
+				/pause 50
+				/warp farmer 9 24
+				/pause 300
+				/advancedMove farmer false 0 -4 4 0 1 10
+				/advancedMove George false 0 -1 4 1000 0 1 2 1000
+				/pause 500
+				/emote George 40
+				/waitForAllStationary
+				/faceDirection George 3
+				/pause 100
+				/speak George \"{{i18n: GiftsForEvelyn_George.2}}$3#$b#{{i18n: GiftsForEvelyn_George.3}}\"
+				/faceDirection George 0
+				/pause 1000
+				/faceDirection George 2
+				/pause 1000
+				/faceDirection George 1
+				/pause 1000
+				/faceDirection George 3
+				/pause 200
+				/emote George 40
+				/pause 200
+				/speak George \"{{i18n: GiftsForEvelyn_George.4}}$2\"
+				/pause 500
+				/playSound doorOpen
+				/pause 50
+				/warp Evelyn 9 24
+				/pause 250
+				/move Evelyn 0 -1 0
+				/speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.1}}\"
+				/emote George 16
+				/positionOffset George -3 0
+				/pause 10
+				/positionOffset George -3 0
+				/pause 10
+				/positionOffset George -3 0
+				/pause 10
+				/positionOffset George -3 0
+				/pause 100
+				/advancedMove farmer false 4 10 0 -1 2 1000 0 1 3 1
+				/pause 100
+				/speed George 4
+				/advancedMove George false -9 0 0 -3 1 1
+				/advancedMove Evelyn false 0 -2 4 2000 0 -1 3 1000 1 500
+				/emote George 40
+				/emote Evelyn 8
+				/pause 2000
+				/positionOffset George 3 0
+				/pause 10
+				/positionOffset George 3 0
+				/pause 10
+				/positionOffset George 3 0
+				/pause 10
+				/positionOffset George 3 0
+				/faceDirection George 2
+				/emote Evelyn 16
+				/waitForAllStationary
+				/pause 500
+				/speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.2}}$1\"
+				/advancedMove Evelyn false 3 0 1 1
+				/pause 100
+				/emote farmer 32
+				/waitForAllStationary
+				/pause 500
+				/faceDirection Evelyn 3
+				/emote Evelyn 40
+				/faceDirection Evelyn 1
+				/speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.3}}$2\"
+				/pause 100
+				/advancedMove Evelyn false 0 -1 2 0 4 1000 2 1000 0 -1 1 0 3 1000 2 1000 2 0 2 1
+				/pause 1000
+				/faceDirection farmer 0
+				/pause 1500
+				/beginSimultaneousCommand
+				/emote Evelyn 8
+				/pause 500
+				/endSimultaneousCommand
+				/faceDirection farmer 1
+				/waitForAllStationary
+				/advancedMove farmer false 1 0 0 -2 1 0 1 1
+				/pause 500
+				/speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.4}}$2\"
+				/quickQuestion {{i18n: GiftsForEvelyn_Evelyn.4}}#{{i18n: GiftsForEvelyn_Answer.1}}#{{i18n: GiftsForEvelyn_Answer.2}}#{{i18n: GiftsForEvelyn_Answer.3}}(break)speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.6}}$2\"(break)speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.6}}$2\"(break)speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.5}}$2#$b#{{i18n: GiftsForEvelyn_Evelyn.6}}$2\"
+				/faceDirection Evelyn 3
+				/emote Evelyn 40
+				/speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.7}}$2\"
+				/advancedMove Evelyn false 0 1 1 0 1 1000 -4 0 4 1000 2 1000 3 1
+				/pause 500
+				/faceDirection farmer 2
+				/pause 1000
+				/emote Evelyn 40
+				/pause 1500
+				/emote Evelyn 20
+				/waitForAllStationary
+				/speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.8}}#$b#{{i18n: GiftsForEvelyn_Evelyn.9}}\"
+				/advancedMove Evelyn false -9 0 4 1
+				/pause 200
+				/advancedMove farmer false 0 1 -2 0 3 1
+				/emote farmer 20
+				/pause 500
+				/speak Evelyn \"{{i18n: GiftsForEvelyn_Evelyn.10}}$1\"
+				/pause 500
+				/emote George 20
+				/speak George \"{{i18n: GiftsForEvelyn_George.5}}$1\"
+				/emote Evelyn 20 true
+				/viewport move 0 -1 6000
+				/pause 500
+				/globalFade
+				/viewport -999 -999
+				/end"
+			}
+		},
+    ]
+}

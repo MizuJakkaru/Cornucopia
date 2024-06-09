@@ -1,0 +1,239 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_CenturyEgg": {
+					"Id": "Cornucopia_CenturyEgg",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)305"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_CenturyEgg"
+						}
+					],
+					"MinutesUntilReady": 4000
+				},
+				"Cornucopia_FishSauce": {
+					"Id": "Cornucopia_FishSauce",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)129",
+							"RequiredCount": 2
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_FishSauce"
+						}
+					],
+					"MinutesUntilReady": 4320,
+					"InvalidCountMessage": "{{i18n: PreservesJarInvalidCount_Anchovies}}"
+				},
+				"Cornucopia_Garum": {
+					"Id": "Cornucopia_Garum",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)131",
+							"RequiredCount": 2
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_Garum"
+						}
+					],
+					"MinutesUntilReady": 4320,
+					"InvalidCountMessage": "{{i18n: PreservesJarInvalidCount_Sardines}}"
+				},
+				"Cornucopia_PickledEggsChicken": {
+					"Id": "Cornucopia_PickledEggs",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)176"
+						},
+						{
+							"RequiredItemId": "(O)180"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_PickledEggs"
+						}
+					],
+					"MinutesUntilReady": 4000
+				},
+				"Cornucopia_PickledEggsChickenLarge": {
+					"Id": "Cornucopia_PickledEggs",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)174"
+						},
+						{
+							"RequiredItemId": "(O)182"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_PickledEggs",
+							"Quality": 2
+						}
+					],
+					"MinutesUntilReady": 4000
+				},
+				"Cornucopia_PickledEggsGold": {
+					"Id": "Cornucopia_PickledEggs",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)928"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_PickledEggs",
+							"Quality": 2,
+							"MinStack": 3,
+							"MaxStack": 3
+						}
+					],
+					"MinutesUntilReady": 4000
+				},
+				"Cornucopia_PickledEggsOstrich": {
+					"Id": "Cornucopia_PickledEggs",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)289"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_PickledEggs",
+							"Quality": -1,
+							"MinStack": 10,
+							"MaxStack": 10
+						}
+					],
+					"MinutesUntilReady": 4000
+				},
+				"Cornucopia_PickledEggs": {
+					"Id": "Cornucopia_PickledEggs",
+					"Triggers": [
+						{
+							"RequiredTags": [
+								"egg_item"
+							]
+						},
+						{
+							"RequiredTags": [
+								"category_egg"
+							]
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_PickledEggs",
+							"ObjectInternalName": "{0} Cornucopia_PickledEggs",
+							"ObjectDisplayName": "[LocalizedText Strings/StringsFromCSFiles:Object.cs.12735 %PRESERVED_DISPLAY_NAME]",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"PriceModifierMode": "Stack",
+							"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+									},
+							"PriceModifiers": [
+								{
+									"Modification": "Multiply",
+									"Amount": 3
+								},
+								{
+									"Modification": "Add",
+									"Amount": 50
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 4000
+				},
+				"Cornucopia_PickledFish": {
+					"Id": "Cornucopia_PickledFish",
+					"Triggers": [
+						{
+							"RequiredTags": [
+								"category_fish",
+								"!fish_crab_pot",
+								"!id_o_129",
+								"!id_o_131"
+							]
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_PickledFish",
+							"ObjectInternalName": "{0} Cornucopia_PickledFish",
+							"ObjectDisplayName": "[LocalizedText Strings/StringsFromCSFiles:Object.cs.12735 %PRESERVED_DISPLAY_NAME]",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"PriceModifierMode": "Stack",
+							"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true",
+									},
+							"PriceModifiers": [
+								{
+									"Modification": "Multiply",
+									"Amount": 3
+								},
+								{
+									"Modification": "Add",
+									"Amount": 50
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 4000
+				},
+				"Cornucopia_Sauerkraut": {
+					"Id": "Cornucopia_Sauerkraut",
+					"Triggers": [
+						{
+							"Id": "Red Cabbage",
+							"RequiredItemId": "(O)266"
+						},
+						{
+							"Id": "Default Cabbage",
+							"RequiredTags": [
+								"cabbage_item"
+							]
+						}
+					],
+					"OutputItem": [
+						{
+							"Id": "Double Sauerkraut",
+							"ItemId": "(O)Cornucopia_Sauerkraut",
+							"Condition": "ITEM_CONTEXT_TAG Input id_o_266",
+							"MinStack": 2
+						},
+						{
+							"ItemId": "(O)Cornucopia_Sauerkraut"
+						}
+					],
+					"MinutesUntilReady": 4000,
+					"UseFirstValidOutput": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_Sauerkraut",
+					"BeforeId": "Default_Pickled"
+				}
+			]
+		}
+	]
+}

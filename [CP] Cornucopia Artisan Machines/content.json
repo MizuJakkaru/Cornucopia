@@ -1,0 +1,175 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Enable Vinegar Keg": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a smaller keg which can turn grapes, apples, and unmilled rice into vinegar."
+		},
+		"Enable Vegetable Wine": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Allows vegetable wine to come from the keg. Vegetable juice will still come from the juicer."
+		},
+		"Enable Vanilla Recipe Changes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Replaces a few vanilla recipe ingredients to use versions from Cornucopia (such as using Coconut Milk instead of Coconut)."
+		},
+		"Enable Flexible Recipes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Requires Spacecore) Allows using alternative cheese, including goat cheese and plant-based cheese, in vanilla recipes that use cheese. Also allows using plant-based milks in vanilla recipes that use milk."
+		},
+	},
+	"DynamicTokens": [
+		{
+			"Name": "EmilySpecialOrder_spring",
+			"Value": "PICK_ITEM Tulip, Blue Jazz"
+		},
+		{
+			"Name": "EmilySpecialOrder_spring",
+			"Value": "PICK_ITEM Tulip, Blue Jazz, Cornucopia_Pansy, Cornucopia_PinkCat",
+			"When": {"HasMod|contains=Cornucopia.MoreFlowers": true}
+		},
+		{
+			"Name": "EmilySpecialOrder_summer",
+			"Value": "PICK_ITEM Summer Spangle, Poppy"
+		},
+		{
+			"Name": "EmilySpecialOrder_summer",
+			"Value": "PICK_ITEM Summer Spangle, Poppy, Cornucopia_BlueMist, Cornucopia_Lily",
+			"When": {"HasMod|contains=Cornucopia.MoreFlowers": true}
+		},
+		{
+			"Name": "EmilySpecialOrder_fall",
+			"Value": "PICK_ITEM Sunflower, Fairy Rose"
+		},
+		{
+			"Name": "EmilySpecialOrder_fall",
+			"Value": "PICK_ITEM Sunflower, Fairy Rose, Cornucopia_Chrysanthemum, Cornucopia_Iris",
+			"When": {"HasMod|contains=Cornucopia.MoreFlowers": true}
+		},
+		{
+			"Name": "GeorgeSpecialOrder_floweroption",
+			"Value": "Fairy Rose"
+		},
+		{
+			"Name": "GeorgeSpecialOrder_floweroption",
+			"Value": "Cornucopia_Rose",
+			"When": {"HasMod|contains=Cornucopia.MoreFlowers": true}
+		},
+		{
+			"Name": "Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping",
+			"Value": "true",
+		},
+		{
+			"Name": "Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping",
+			"Value": "false",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+			},
+		},
+		{
+			"Name": "Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping",
+			"Value": "true",
+		},
+		{
+			"Name": "Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping",
+			"Value": "false",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreTrees": true,
+				"HasReadLetter |contains=Cornucopia.MoreTrees_ExtendedTreesPackEnabled": true
+			},
+		},
+		{
+			"Name": "Cornucopia.MoreCrops_HerbsPackExcludeFromShipping",
+			"Value": "true",
+		},
+		{
+			"Name": "Cornucopia.MoreCrops_HerbsPackExcludeFromShipping",
+			"Value": "false",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
+			},
+		},
+		{
+			"Name": "GeorgeSpecialOrderRoses",
+			"Value": "{{i18n:GeorgeSpecialOrder_objective0_fairyrose}}",
+		},
+		{
+			"Name": "GeorgeSpecialOrderRoses",
+			"Value": "{{i18n:GeorgeSpecialOrder_objective0_rose}}",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreFlowers": true
+			},
+		},
+		{
+			"Name": "Cornucopia.MoreCrops_DriedHerbExcludeFromShipping",
+			"Value": "true",
+		},
+		{
+			"Name": "Cornucopia.MoreCrops_DriedHerbExcludeFromShipping",
+			"Value": "false",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			},
+		},
+	],
+	"Changes": [
+        // add item + machine images
+        {
+            "Action": "Load",
+            "Target": "Cornucopia.ArtisanMachines/Animations, Cornucopia.ArtisanMachines/AnimationsDownscale, Cornucopia.ArtisanMachines/Furniture, Cornucopia.ArtisanMachines/Objects, Cornucopia.ArtisanMachines/Craftables",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Objects.png
+        },
+		
+		// add subfiles
+		{
+			"Action": "Include",
+			"FromFile": "data/bigcraftables.json, data/crabpot.json, data/craftingrecipes.json, data/gifttastes.json, data/letters.json, data/objects.json, data/objectcontexttags.json, data/strings.json, data/specialorders.json, machines/alembic.json, machines/butterchurn.json, machines/cask.json, machines/cheesepress.json, machines/dehydrator.json, machines/deluxesmoker.json, machines/dryingrack.json, machines/extruder.json, machines/fishsmoker.json, machines/compactmill.json, machines/juicer.json, machines/keg.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json, data/forage.json, data/objectreplacements.json, data/events.json"
+		},
+		
+		// add subfiles - essential
+		{
+			"Action": "Include",
+			"When": {
+				"HasMod": "Cornucopia.MoreCrops"
+			},
+			"FromFile": "machines-essentialcrops/butterchurn.json, machines-essentialcrops/cask.json, machines-essentialcrops/compactmill.json, machines-essentialcrops/extruder.json, machines-essentialcrops/keg.json, machines-essentialcrops/mayonnaisemachine.json, machines-essentialcrops/oilmaker.json, machines-essentialcrops/preservesjar.json, machines-essentialcrops/yogurtjar.json"
+		},
+		
+		// add subfiles - extended crops
+		{
+			"Action": "Include",
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+			},
+			"FromFile": "machines-extendedcrops/butterchurn.json, machines-extendedcrops/extruder.json, machines-extendedcrops/keg.json, machines-extendedcrops/mayonnaisemachine.json,  machines-extendedcrops/preservesjar.json"
+		},
+		
+		// add subfiles - extended trees
+		{
+			"Action": "Include",
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+			},
+			"FromFile": "machines-extendedtrees/compactmill.json, machines-extendedtrees/extruder.json, machines-extendedtrees/preservesjar.json"
+		},
+		
+		// add subfiles - herbs
+		{
+			"Action": "Include",
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"FromFile": "machines-herbs/compactmill.json, machines-herbs/mayonnaisemachine.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/compat.json"
+		},
+    ]
+}

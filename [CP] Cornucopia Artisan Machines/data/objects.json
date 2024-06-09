@@ -1,0 +1,1374 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"Cornucopia_Applesauce": {
+					"Name": "Cornucopia_Applesauce",
+					"Category": -26,
+					"SpriteIndex": 28,
+					"DisplayName": "{{i18n:Applesauce_name}}",
+					"Description": "{{i18n:Applesauce_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_yellow",
+						"applesauce_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood"
+					]
+				},
+				"Cornucopia_Beeswax": {
+					"Name": "Cornucopia_Beeswax",
+					"Category": -26,
+					"SpriteIndex": 92,
+					"DisplayName": "{{i18n:Beeswax_name}}",
+					"Description": "{{i18n:Beeswax_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 200,
+					"ContextTags": [
+						"color_yellow",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"beeswax_item",
+						"wax_item"
+					]
+				},
+				"Cornucopia_Butter": {
+					"Name": "Cornucopia_Butter",
+					"Category": -26,
+					"SpriteIndex": 3,
+					"DisplayName": "{{i18n:Butter_name}}",
+					"Description": "{{i18n:Butter_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 200,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_yellow",
+						"butter_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_dairy",
+						"food_nonvegan"
+					]
+				},
+				"Cornucopia_Candles": {
+					"Name": "Cornucopia_Candles",
+					"Category": -26,
+					"SpriteIndex": 124,
+					"DisplayName": "{{i18n:Candles_name}}",
+					"Description": "{{i18n:Candles_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_sand",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"candle_item"
+					]
+				},
+				"Cornucopia_CenturyEgg": {
+					"Name": "Cornucopia_CenturyEgg",
+					"Category": -26,
+					"SpriteIndex": 82,
+					"DisplayName": "{{i18n:CenturyEgg_name}}",
+					"Description": "{{i18n:CenturyEgg_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 400,
+					"Edibility": 5,
+					"ContextTags": [
+						"color_brown",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_egg",
+						"food_nonvegan"
+					]
+				},
+				"Cornucopia_ChiliOil": {
+					"Name": "Cornucopia_ChiliOil",
+					"Category": -26,
+					"SpriteIndex": 15,
+					"DisplayName": "{{i18n:ChiliOil_name}}",
+					"Description": "{{i18n:ChiliOil_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 120,
+					"Edibility": 5,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_red",
+						"oil_item",
+						"dye_strong",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"food_spicy"
+					]
+				},
+				"Cornucopia_ChiliPowder": {
+					"Name": "Cornucopia_ChiliPowder",
+					"Category": -26,
+					"SpriteIndex": 29,
+					"DisplayName": "{{i18n:ChiliPowder_name}}",
+					"Description": "{{i18n:ChiliPowder_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_orange",
+						"dye_medium",
+						"spice_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"food_spicy",
+						"cornucopia_alembic_essentialoil_banned",
+						"cornucopia_waxbarrel_candles_banned"
+					]
+				},
+				"Cornucopia_CoconutButter": {
+					"Name": "Cornucopia_CoconutButter",
+					"Category": -26,
+					"SpriteIndex": 6,
+					"DisplayName": "{{i18n:CoconutButter_name}}",
+					"Description": "{{i18n:CoconutButter_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"butter_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood"
+					]
+				},
+				"Cornucopia_CoconutMilk": {
+					"Name": "Cornucopia_CoconutMilk",
+					"Category": -26,
+					"SpriteIndex": 80,
+					"DisplayName": "{{i18n:CoconutMilk_name}}",
+					"Description": "{{i18n:CoconutMilk_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_white",
+						"milk_item",
+						"plant_milk_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"coconut_milk_item"
+					]
+				},
+				"Cornucopia_CoconutOil": {
+					"Name": "Cornucopia_CoconutOil",
+					"Category": -26,
+					"SpriteIndex": 12,
+					"DisplayName": "{{i18n:CoconutOil_name}}",
+					"Description": "{{i18n:CoconutOil_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 200,
+					"Edibility": 5,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_white",
+						"oil_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood"
+					]
+				},
+				"Cornucopia_CookieButter": {
+					"Name": "Cornucopia_CookieButter",
+					"Category": -26,
+					"SpriteIndex": 7,
+					"DisplayName": "{{i18n:CookieButter_name}}",
+					"Description": "{{i18n:CookieButter_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_brown",
+						"butter_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood"
+					]
+				},
+				"Cornucopia_DriedFlower": {
+					"Name": "Cornucopia_DriedFlower",
+					"Category": -26,
+					"SpriteIndex": 120,
+					"DisplayName": "{{i18n:DriedFlower_name}}",
+					"Description": "{{i18n:DriedFlower_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 100,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_green",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"dried_flower_item",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_DriedHerb": {
+					"Name": "Cornucopia_DriedHerb",
+					"Category": -26,
+					"SpriteIndex": 122,
+					"DisplayName": "{{i18n:DriedHerb_name}}",
+					"Description": "{{i18n:DriedHerb_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 100,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_DriedHerbExcludeFromShipping}}",
+					"ContextTags": [
+						"color_dark_green",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"dried_herb_item",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_DriedSquid": {
+					"Name": "Cornucopia_DriedSquid",
+					"Category": -26,
+					"SpriteIndex": 93,
+					"DisplayName": "{{i18n:DriedSquid_name}}",
+					"Description": "{{i18n:DriedSquid_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 200,
+					"Edibility": 15,
+					"ContextTags": [
+						"color_brown",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"dried_squid_item",
+						"allergen_shellfish",
+						"food_nonvegetarian",
+						"food_tref"
+					]
+				},
+				"Cornucopia_DriedVegetable": {
+					"Name": "Cornucopia_DriedVegetable",
+					"Category": -26,
+					"SpriteIndex": 140,
+					"DisplayName": "{{i18n:DriedVegetable_name}}",
+					"Description": "{{i18n:DriedVegetable_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 120,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_green",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"dried_vegetable_item",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_EssentialOil": {
+					"Name": "Cornucopia_EssentialOil",
+					"Category": -26,
+					"SpriteIndex": 142,
+					"DisplayName": "{{i18n:EssentialOil_name}}",
+					"Description": "{{i18n:EssentialOil_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 100,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_brown",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"essential_oil_item",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_FishOil": {
+					"Name": "Cornucopia_FishOil",
+					"Category": -26,
+					"SpriteIndex": 13,
+					"DisplayName": "{{i18n:FishOil_name}}",
+					"Description": "{{i18n:FishOil_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 140,
+					"Edibility": 5,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_yellow",
+						"oil_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_fish",
+						"food_nonvegetarian"
+					]
+				},
+				"Cornucopia_FishSauce": {
+					"Name": "Cornucopia_FishSauce",
+					"Category": -26,
+					"SpriteIndex": 16,
+					"DisplayName": "{{i18n:FishSauce_name}}",
+					"Description": "{{i18n:FishSauce_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 200,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_brown",
+						"dye_medium",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_fish",
+						"food_nonvegetarian"
+					]
+				},
+				"Cornucopia_FlavoredYogurt": {
+					"Name": "Cornucopia_FlavoredYogurt",
+					"Category": -26,
+					"SpriteIndex": 150,
+					"DisplayName": "{{i18n:FlavoredYogurt_name}}",
+					"Description": "{{i18n:FlavoredYogurt_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": 15,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_pink",
+						"yogurt_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_dairy",
+						"food_nonvegan",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_GarlicMayonnaise": {
+					"Name": "Cornucopia_GarlicMayonnaise",
+					"Category": -26,
+					"SpriteIndex": 22,
+					"DisplayName": "{{i18n:GarlicMayonnaise_name}}",
+					"Description": "{{i18n:GarlicMayonnaise_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 310,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_dark_yellow",
+						"mayo_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"food_nonvegan",
+						"allergen_egg"
+					]
+				},
+				"Cornucopia_Garum": {
+					"Name": "Cornucopia_Garum",
+					"Category": -26,
+					"SpriteIndex": 17,
+					"DisplayName": "{{i18n:Garum_name}}",
+					"Description": "{{i18n:Garum_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 300,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_brown",
+						"dye_medium",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"food_nonvegetarian",
+						"allergen_fish"
+					]
+				},
+				"Cornucopia_GellingPowder": {
+					"Name": "Cornucopia_GellingPowder",
+					"Category": -26,
+					"SpriteIndex": 60,
+					"DisplayName": "{{i18n:GellingPowder_name}}",
+					"Description": "{{i18n:GellingPowder_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"gelatin_item",
+						"agar_item"
+					]
+				},
+				"Cornucopia_GlassNoodles": {
+					"Name": "Cornucopia_GlassNoodles",
+					"Category": -26,
+					"SpriteIndex": 67,
+					"DisplayName": "{{i18n:GlassNoodles_name}}",
+					"Description": "{{i18n:GlassNoodles_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 200,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"noodle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"glass_noodle_item"
+					]
+				},
+				"Cornucopia_HoneyButter": {
+					"Name": "Cornucopia_HoneyButter",
+					"Category": -26,
+					"SpriteIndex": 9,
+					"DisplayName": "{{i18n:HoneyButter_name}}",
+					"Description": "{{i18n:HoneyButter_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_yellow",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"butter_item"
+					]
+				},
+				"Cornucopia_MapleButter": {
+					"Name": "Cornucopia_MapleButter",
+					"Category": -26,
+					"SpriteIndex": 8,
+					"DisplayName": "{{i18n:MapleButter_name}}",
+					"Description": "{{i18n:MapleButter_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 325,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_sand",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"butter_item"
+					]
+				},
+				"Cornucopia_Margarine": {
+					"Name": "Cornucopia_Margarine",
+					"Category": -26,
+					"SpriteIndex": 4,
+					"DisplayName": "{{i18n:Margarine_name}}",
+					"Description": "{{i18n:Margarine_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_yellow",
+						"butter_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"margarine_item"
+					]
+				},
+				"Cornucopia_NutButter": {
+					"Name": "Cornucopia_NutButter",
+					"Category": -26,
+					"SpriteIndex": 130,
+					"DisplayName": "{{i18n:NutButter_name}}",
+					"Description": "{{i18n:NutButter_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 230,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_brown",
+						"nut_butter_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_nut",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_NutCheese": {
+					"Name": "Cornucopia_NutCheese",
+					"Category": -26,
+					"SpriteIndex": 148,
+					"DisplayName": "{{i18n:NutCheese_name}}",
+					"Description": "{{i18n:NutCheese_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": 125,
+					"ContextTags": [
+						"color_white",
+						"nut_cheese_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_nut",
+						"plant_cheese_item",
+						"cheese_item",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_NutMilk": {
+					"Name": "Cornucopia_NutMilk",
+					"Category": -26,
+					"SpriteIndex": 128,
+					"DisplayName": "{{i18n:NutMilk_name}}",
+					"Description": "{{i18n:NutMilk_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_dark_pink",
+						"milk_item",
+						"plant_milk_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"nut_milk_item",
+						"allergen_nut",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_PickledEggs": {
+					"Name": "Cornucopia_PickledEggs",
+					"Category": -26,
+					"SpriteIndex": 126,
+					"DisplayName": "{{i18n:PickledEggs_name}}",
+					"Description": "{{i18n:PickledEggs_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 300,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"pickle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_egg",
+						"pickled_egg_item",
+						"food_nonvegan",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_PickledFish": {
+					"Name": "Cornucopia_PickledFish",
+					"Category": -26,
+					"SpriteIndex": 146,
+					"DisplayName": "{{i18n:PickledFish_name}}",
+					"Description": "{{i18n:PickledFish_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 100,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"pickle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_fish",
+						"food_nonvegetarian",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_PineNuts": {
+					"Name": "Cornucopia_PineNuts",
+					"Category": -26,
+					"SpriteIndex": 34,
+					"DisplayName": "{{i18n:PineNuts_name}}",
+					"Description": "{{i18n:PineNuts_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 80,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"nut_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood"
+					]
+				},
+				"Cornucopia_PrismaticEssence": {
+					"Name": "Cornucopia_PrismaticEssence",
+					"Category": -26,
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:PrismaticEssence_name}}",
+					"Description": "{{i18n:PrismaticEssence_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 3500,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_prismatic",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"prismatic_item",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_Prunes": {
+					"Name": "Cornucopia_Prunes",
+					"Category": -26,
+					"SpriteIndex": 84,
+					"DisplayName": "{{i18n:Prunes_name}}",
+					"Description": "{{i18n:Prunes_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 350,
+					"ContextTags": [
+						"color_dark_purple",
+						"dye_medium",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"prune_item"
+					]
+				},
+				"Cornucopia_RiceNoodles": {
+					"Name": "Cornucopia_RiceNoodles",
+					"Category": -26,
+					"SpriteIndex": 64,
+					"DisplayName": "{{i18n:RiceNoodles_name}}",
+					"Description": "{{i18n:RiceNoodles_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"noodle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"rice_noodle_item"
+					]
+				},
+				"Cornucopia_RoastedGarlic": {
+					"Name": "Cornucopia_RoastedGarlic",
+					"Category": -26,
+					"SpriteIndex": 71,
+					"DisplayName": "{{i18n:RoastedGarlic_name}}",
+					"Description": "{{i18n:RoastedGarlic_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": 15,
+					"ContextTags": [
+						"color_brown",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood"
+					]
+				},
+				"Cornucopia_RoastedSunflowerSeeds": {
+					"Name": "Cornucopia_RoastedSunflowerSeeds",
+					"Category": -26,
+					"SpriteIndex": 69,
+					"DisplayName": "{{i18n:RoastedSunflowerSeeds_name}}",
+					"Description": "{{i18n:RoastedSunflowerSeeds_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 75,
+					"Edibility": 20,
+					"ContextTags": [
+						"color_yellow",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood"
+					]
+				},
+				"Cornucopia_RoastedPumpkinSeeds": {
+					"Name": "Cornucopia_RoastedPumpkinSeeds",
+					"Category": -26,
+					"SpriteIndex": 70,
+					"DisplayName": "{{i18n:RoastedPumpkinSeeds_name}}",
+					"Description": "{{i18n:RoastedPumpkinSeeds_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 75,
+					"Edibility": 20,
+					"ContextTags": [
+						"color_orange",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood"
+					]
+				},
+				"Cornucopia_Saffron": {
+					"Name": "Cornucopia_Saffron",
+					"Category": -26,
+					"SpriteIndex": 33,
+					"DisplayName": "{{i18n:Saffron_name}}",
+					"Description": "{{i18n:Saffron_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 400,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_red",
+						"dye_medium",
+						"spice_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"saffron_item"
+					]
+				},
+				"Cornucopia_Salt": {
+					"Name": "Cornucopia_Salt",
+					"Category": -26,
+					"SpriteIndex": 36,
+					"DisplayName": "{{i18n:Salt_name}}",
+					"Description": "{{i18n:Salt_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 140,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"spice_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"salt_item",
+						"cornucopia_alembic_essentialoil_banned",
+						"cornucopia_waxbarrel_candles_banned"
+					]
+				},
+				"Cornucopia_ShrimpPaste": {
+					"Name": "Cornucopia_ShrimpPaste",
+					"Category": -26,
+					"SpriteIndex": 32,
+					"DisplayName": "{{i18n:ShrimpPaste_name}}",
+					"Description": "{{i18n:ShrimpPaste_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_red",
+						"dye_strong",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"shrimp_paste_item",
+						"allergen_shellfish",
+						"food_tref",
+						"food_nonvegetarian"
+					]
+				},
+				"Cornucopia_SmokedCheese": {
+					"Name": "Cornucopia_SmokedCheese",
+					"Category": -26,
+					"SpriteIndex": 73,
+					"DisplayName": "{{i18n:SmokedCheese_name}}",
+					"Description": "{{i18n:SmokedCheese_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 400,
+					"Edibility": 36,
+					"ContextTags": [
+						"color_red",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_dairy",
+						"food_nonvegan",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_SmokedEgg": {
+					"Name": "Cornucopia_SmokedEgg",
+					"Category": -26,
+					"SpriteIndex": 74,
+					"DisplayName": "{{i18n:SmokedEgg_name}}",
+					"Description": "{{i18n:SmokedEgg_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": 18,
+					"ContextTags": [
+						"color_dark_brown",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_egg",
+						"food_nonvegan",
+						"draw_preserve_sprite",
+						"smoked_item"
+					]
+				},
+				"Cornucopia_SmokedMeat": {
+					"Name": "Cornucopia_SmokedMeat",
+					"Category": -26,
+					"SpriteIndex": 75,
+					"DisplayName": "{{i18n:SmokedMeat_name}}",
+					"Description": "{{i18n:SmokedMeat_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": 36,
+					"ContextTags": [
+						"color_dark_brown",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_meat",
+						"food_nonvegetarian",
+						"draw_preserve_sprite",
+						"smoked_item",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_SmokedSalmon": {
+					"Name": "Cornucopia_SmokedSalmon",
+					"Category": -26,
+					"SpriteIndex": 94,
+					"DisplayName": "{{i18n:SmokedSalmon_name}}",
+					"Description": "{{i18n:SmokedSalmon_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": 20,
+					"ContextTags": [
+						"color_orange",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"smoked_salmon_item",
+						"allergen_fish",
+						"food_nonvegetarian"
+					]
+				},
+				"Cornucopia_SnackCheese": {
+					"Name": "Cornucopia_SnackCheese",
+					"Category": -26,
+					"SpriteIndex": 72,
+					"DisplayName": "{{i18n:SnackCheese_name}}",
+					"Description": "{{i18n:SnackCheese_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 240,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_red",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_dairy",
+						"food_nonvegan"
+					]
+				},
+				"Cornucopia_SpicyMayonnaise": {
+					"Name": "Cornucopia_SpicyMayonnaise",
+					"Category": -26,
+					"SpriteIndex": 25,
+					"DisplayName": "{{i18n:SpicyMayonnaise_name}}",
+					"Description": "{{i18n:SpicyMayonnaise_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 270,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_orange",
+						"mayo_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"allergen_egg",
+						"food_nonvegan",
+						"food_spicy"
+					]
+				},
+				"Cornucopia_TruffleMayonnaise": {
+					"Name": "Cornucopia_TruffleMayonnaise",
+					"Category": -26,
+					"SpriteIndex": 27,
+					"DisplayName": "{{i18n:TruffleMayonnaise_name}}",
+					"Description": "{{i18n:TruffleMayonnaise_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 1200,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_orange",
+						"mayo_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"food_nonvegan",
+						"allergen_egg"
+					]
+				},
+				"Cornucopia_WaxMelts": {
+					"Name": "Cornucopia_WaxMelts",
+					"Category": -26,
+					"SpriteIndex": 144,
+					"DisplayName": "{{i18n:WaxMelts_name}}",
+					"Description": "{{i18n:WaxMelts_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_sand",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"traveling_cart_banned"
+					]
+				},
+				"Cornucopia_WheatNoodles": {
+					"Name": "Cornucopia_WheatNoodles",
+					"Category": -26,
+					"SpriteIndex": 62,
+					"DisplayName": "{{i18n:WheatNoodles_name}}",
+					"Description": "{{i18n:WheatNoodles_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_yellow",
+						"noodle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"wheat_noodle_item",
+						"pasta_item",
+						"allergen_gluten"
+					]
+				},
+				"Cornucopia_PlainYogurt": {
+					"Name": "Cornucopia_PlainYogurt",
+					"Category": -26,
+					"SpriteIndex": 85,
+					"DisplayName": "{{i18n:PlainYogurt_name}}",
+					"Description": "{{i18n:PlainYogurt_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 200,
+					"Edibility": 15,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_white",
+						"yogurt_item"
+					]
+				},
+				"Cornucopia_CornFlour": {
+					"Name": "Cornucopia_CornFlour",
+					"Category": 0,
+					"SpriteIndex": 61,
+					"DisplayName": "{{i18n:CornFlour_name}}",
+					"Description": "{{i18n:CornFlour_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 50,
+					"Edibility": 5,
+					"ContextTags": [
+						"color_green",
+						"flour_item"
+					]
+				},
+				"Cornucopia_OrangeZest": {
+					"Name": "Cornucopia_OrangeZest",
+					"Category": 0,
+					"SpriteIndex": 79,
+					"DisplayName": "{{i18n:OrangeZest_name}}",
+					"Description": "{{i18n:OrangeZest_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_orange",
+						"dye_medium"
+					]
+				},
+				"Cornucopia_SeaSalt": {
+					"Name": "Cornucopia_SeaSalt",
+					"SpriteIndex": 1,
+					"DisplayName": "{{i18n:SeaSalt_name}}",
+					"Description": "{{i18n:SeaSalt_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 60,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_pink",
+						"forage_item",
+						"forage_item_beach"
+					],
+					"Type": "Basic",
+					"Category": -23
+				},
+				"Cornucopia_Sauerkraut": {
+					"Name": "Cornucopia_Sauerkraut",
+					"Category": -26,
+					"SpriteIndex": 38,
+					"DisplayName": "{{i18n:Sauerkraut_name}}",
+					"Description": "{{i18n:Sauerkraut_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 450,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_yellow",
+						"pickle_item"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			},
+			"Entries": {
+				"Cornucopia_AvocadoMayonnaise": {
+					"Name": "Cornucopia_AvocadoMayonnaise",
+					"Category": -26,
+					"SpriteIndex": 24,
+					"DisplayName": "{{i18n:AvocadoMayonnaise_name}}",
+					"Description": "{{i18n:AvocadoMayonnaise_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 590,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_green",
+						"mayo_item"
+					]
+				},
+				"Cornucopia_AvocadoOil": {
+					"Name": "Cornucopia_AvocadoOil",
+					"Category": -26,
+					"SpriteIndex": 11,
+					"DisplayName": "{{i18n:AvocadoOil_name}}",
+					"Description": "{{i18n:AvocadoOil_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 400,
+					"Edibility": 5,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_green",
+						"oil_item"
+					]
+				},
+				"Cornucopia_BlackPepperMayonnaise": {
+					"Name": "Cornucopia_BlackPepperMayonnaise",
+					"Category": -26,
+					"SpriteIndex": 23,
+					"DisplayName": "{{i18n:BlackPepperMayonnaise_name}}",
+					"Description": "{{i18n:BlackPepperMayonnaise_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 270,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_white",
+						"mayo_item"
+					]
+				},
+				"Cornucopia_BrinedOlives": {
+					"Name": "Cornucopia_BrinedOlives",
+					"Category": -26,
+					"SpriteIndex": 95,
+					"DisplayName": "{{i18n:BrinedOlives_name}}",
+					"Description": "{{i18n:BrinedOlives_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 100,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_green"
+					]
+				},
+				"Cornucopia_CocoaButter": {
+					"Name": "Cornucopia_CocoaButter",
+					"Category": -26,
+					"SpriteIndex": 5,
+					"DisplayName": "{{i18n:CocoaButter_name}}",
+					"Description": "{{i18n:CocoaButter_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_sand",
+						"butter_item"
+					]
+				},
+				"Cornucopia_MisoPaste": {
+					"Name": "Cornucopia_MisoPaste",
+					"Category": -26,
+					"SpriteIndex": 31,
+					"DisplayName": "{{i18n:MisoPaste_name}}",
+					"Description": "{{i18n:MisoPaste_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 300,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_yellow"
+					]
+				},
+				"Cornucopia_OliveOilMayonnaise": {
+					"Name": "Cornucopia_OliveOilMayonnaise",
+					"Category": -26,
+					"SpriteIndex": 21,
+					"DisplayName": "{{i18n:OliveOilMayonnaise_name}}",
+					"Description": "{{i18n:OliveOilMayonnaise_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 950,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_yellow_green",
+						"mayo_item"
+					]
+				},
+				"Cornucopia_Paprika": {
+					"Name": "Cornucopia_Paprika",
+					"Category": -26,
+					"SpriteIndex": 30,
+					"DisplayName": "{{i18n:Paprika_name}}",
+					"Description": "{{i18n:Paprika_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 140,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_red",
+						"spice_item",
+						"cornucopia_artisangood",
+						"cornucopia_alembic_essentialoil_banned",
+						"cornucopia_waxbarrel_candles_banned"
+					]
+				},
+				"Cornucopia_PeanutButter": {
+					"Name": "Cornucopia_PeanutButter",
+					"Category": -26,
+					"SpriteIndex": 10,
+					"DisplayName": "{{i18n:PeanutButter_name}}",
+					"Description": "{{i18n:PeanutButter_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 200,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_brown",
+						"nut_butter_item"
+					]
+				},
+				"Cornucopia_Pepper": {
+					"Name": "Cornucopia_Pepper",
+					"Category": -26,
+					"SpriteIndex": 35,
+					"DisplayName": "{{i18n:Pepper_name}}",
+					"Description": "{{i18n:Pepper_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 140,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_black",
+						"spice_item",
+						"cornucopia_artisangood",
+						"cornucopia_alembic_essentialoil_banned",
+						"cornucopia_waxbarrel_candles_banned"
+					]
+				},
+				"Cornucopia_PickleSpears": {
+					"Name": "Cornucopia_PickleSpears",
+					"Category": -26,
+					"SpriteIndex": 96,
+					"DisplayName": "{{i18n:PickleSpears_name}}",
+					"Description": "{{i18n:PickleSpears_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 100,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_green",
+						"pickle_item"
+					]
+				},
+				"Cornucopia_StinkyTofu": {
+					"Name": "Cornucopia_StinkyTofu",
+					"Category": -26,
+					"SpriteIndex": 81,
+					"DisplayName": "{{i18n:StinkyTofu_name}}",
+					"Description": "{{i18n:StinkyTofu_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 400,
+					"Edibility": 5,
+					"ContextTags": [
+						"color_white",
+						"pickle_item"
+					]
+				},
+				"Cornucopia_SoySauce": {
+					"Name": "Cornucopia_SoySauce",
+					"Category": -26,
+					"SpriteIndex": 18,
+					"DisplayName": "{{i18n:SoySauce_name}}",
+					"Description": "{{i18n:SoySauce_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 300,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_dark_brown",
+						"dye_strong"
+					]
+				},
+				"Cornucopia_Zoodles": {
+					"Name": "Cornucopia_Zoodles",
+					"Category": -26,
+					"SpriteIndex": 68,
+					"DisplayName": "{{i18n:Zoodles_name}}",
+					"Description": "{{i18n:Zoodles_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 275,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_green",
+						"noodle_item"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			},
+			"Entries": {
+				"Cornucopia_BuckwheatNoodles": {
+					"Name": "Cornucopia_BuckwheatNoodles",
+					"Category": -26,
+					"SpriteIndex": 65,
+					"DisplayName": "{{i18n:BuckwheatNoodles_name}}",
+					"Description": "{{i18n:BuckwheatNoodles_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 200,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_brown",
+						"noodle_item"
+					]
+				},
+				"Cornucopia_Kimchi": {
+					"Name": "Cornucopia_Kimchi",
+					"Category": -26,
+					"SpriteIndex": 37,
+					"DisplayName": "{{i18n:Kimchi_name}}",
+					"Description": "{{i18n:Kimchi_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 300,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_orange",
+						"pickle_item"
+					]
+				},
+				"Cornucopia_SemolinaNoodles": {
+					"Name": "Cornucopia_SemolinaNoodles",
+					"Category": -26,
+					"SpriteIndex": 63,
+					"DisplayName": "{{i18n:SemolinaNoodles_name}}",
+					"Description": "{{i18n:SemolinaNoodles_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_brown",
+						"noodle_item"
+					]
+				},
+				"Cornucopia_WasabiMayonnaise": {
+					"Name": "Cornucopia_WasabiMayonnaise",
+					"Category": -26,
+					"SpriteIndex": 20,
+					"DisplayName": "{{i18n:WasabiMayonnaise_name}}",
+					"Description": "{{i18n:WasabiMayonnaise_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 520,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_green",
+						"mayo_item"
+					]
+				},
+				"Cornucopia_WholeGrainNoodles": {
+					"Name": "Cornucopia_WholeGrainNoodles",
+					"Category": -26,
+					"SpriteIndex": 66,
+					"DisplayName": "{{i18n:WholeGrainNoodles_name}}",
+					"Description": "{{i18n:WholeGrainNoodles_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_brown",
+						"noodle_item"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			},
+			"Entries": {
+				"Cornucopia_ChewingGum": {
+					"Name": "Cornucopia_ChewingGum",
+					"Category": -26,
+					"SpriteIndex": 76,
+					"DisplayName": "{{i18n:ChewingGum_name}}",
+					"Description": "{{i18n:ChewingGum_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 320,
+					"Edibility": 40,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_pink"
+					]
+				},
+				"Cornucopia_Umeboshi": {
+					"Name": "Cornucopia_Umeboshi",
+					"Category": -26,
+					"SpriteIndex": 39,
+					"DisplayName": "{{i18n:Umeboshi_name}}",
+					"Description": "{{i18n:Umeboshi_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 250,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_pale_red_violet",
+						"pickle_item"
+					]
+				},
+				"Cornucopia_LemonZest": {
+					"Name": "Cornucopia_LemonZest",
+					"Category": 0,
+					"SpriteIndex": 78,
+					"DisplayName": "{{i18n:LemonZest_name}}",
+					"Description": "{{i18n:LemonZest_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 100,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_yellow",
+						"dye_medium"
+					]
+				},
+				"Cornucopia_LimeZest": {
+					"Name": "Cornucopia_LimeZest",
+					"Category": 0,
+					"SpriteIndex": 77,
+					"DisplayName": "{{i18n:LimeZest_name}}",
+					"Description": "{{i18n:LimeZest_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 100,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_lime",
+						"dye_medium"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			},
+			"Entries": {
+				"Cornucopia_AloeGel": {
+					"Name": "Cornucopia_AloeGel",
+					"Category": -26,
+					"SpriteIndex": 19,
+					"DisplayName": "{{i18n:AloeGel_name}}",
+					"Description": "{{i18n:AloeGel_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 150,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_HerbsPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_green"
+					]
+				},
+				"Cornucopia_DillMayonnaise": {
+					"Name": "Cornucopia_DillMayonnaise",
+					"Category": -26,
+					"SpriteIndex": 26,
+					"DisplayName": "{{i18n:DillMayonnaise_name}}",
+					"Description": "{{i18n:DillMayonnaise_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 320,
+					"Edibility": 20,
+					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_HerbsPackExcludeFromShipping}}",
+					"ContextTags": [
+						"color_yellow_green",
+						"mayo_item"
+					]
+				}
+			}
+		}
+	]
+}

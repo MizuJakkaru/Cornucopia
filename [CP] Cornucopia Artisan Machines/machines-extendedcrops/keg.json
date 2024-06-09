@@ -1,0 +1,88 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_OatMilk": {
+					"Id": "Cornucopia_OatMilk",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_Oats",
+							"RequiredCount": 2
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_NutMilk",
+							"ObjectInternalName": "{0} Cornucopia_NutMilk",
+							"ObjectDisplayName": "{{i18n:NutMilk_Oats}}",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.CopyColor": "true"
+							},
+							"PriceModifiers": [
+								{
+									"Id": "NutMilk",
+									"Modification": "Multiply",
+									"Amount": 2.25
+								},
+								{
+									"Id": "InputCount",
+									"Modification": "Multiply",
+									"Amount": 2
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 2250,
+					"InvalidCountMessage": "{{i18n:KegInvalidCount_Oats}}"
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_OatMilk",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Wine",
+				"Triggers",
+				"Cornucopia_ItemPlacedInMachine_Vegetable",
+				"RequiredTags"
+			],
+			"When": {
+				"Enable Vegetable Wine": true
+			},
+			"Entries": {
+				"#-1": "!id_o_cornucopia_oats"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Juice",
+				"Triggers",
+				"ItemPlacedInMachine_Vegetable",
+				"RequiredTags"
+			],
+			"Entries": {
+				"#-1": "!id_o_cornucopia_oats"
+			}
+		}
+	]
+}

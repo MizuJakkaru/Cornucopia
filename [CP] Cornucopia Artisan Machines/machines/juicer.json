@@ -1,0 +1,120 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": {
+				"(BC)Cornucopia_Juicer": {
+					"OutputRules": [
+						{
+							"Id": "Cornucopia_Juice",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"category_fruits"
+									]
+								},
+								{
+									"RequiredTags": [
+										"category_vegetable"
+									]
+								},
+								{
+									"RequiredTags": [
+										"category_greens",
+										"!edible_mushroom"
+									],
+									"Condition": "ITEM_EDIBILITY Input 1"
+								},
+								{
+									"RequiredTags": [
+										"keg_juice"
+									]
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "FLAVORED_ITEM Juice DROP_IN_ID",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"PriceModifiers": [
+										{
+											"Id": "Juice",
+											"Modification": "Multiply",
+											"Amount": 2.25
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 6000
+						}
+					],
+					"LoadEffects": [
+						{
+							"Sounds": [
+								{
+									"Id": "Ship",
+									"Delay": 0
+								},
+								{
+									"Id": "bubbles",
+									"Delay": 0
+								}
+							],
+							"TemporarySprites": [
+								{
+									"Texture": "TileSheets\\animations",
+									"SourceRect": {
+										"X": 256,
+										"Y": 1856,
+										"Width": 64,
+										"Height": 128
+									},
+									"Interval": 80.0,
+									"Frames": 6,
+									"Loops": 999999,
+									"PositionOffset": "0, -32",
+									"SortOffset": 0.0,
+									"AlphaFade": 0.005,
+									"Scale": 0.25,
+									"ScaleChange": 0.0,
+									"Rotation": 0.0,
+									"RotationChange": 0.0,
+									"Color": "White"
+								}
+							]
+						}
+					],
+					"WorkingEffects": [
+						{
+							"Sound": "bubbles",
+							"TemporarySprites": [
+								{
+									"Texture": "TileSheets\\animations",
+									"SourceRect": {
+										"X": 256,
+										"Y": 1856,
+										"Width": 64,
+										"Height": 128
+									},
+									"Interval": 80.0,
+									"Frames": 6,
+									"Loops": 999999,
+									"PositionOffset": "0, -32",
+									"SortOffset": 0.0,
+									"AlphaFade": 0.005,
+									"Scale": 0.25,
+									"ScaleChange": 0.0,
+									"Rotation": 0.0,
+									"RotationChange": 0.0,
+									"Color": "White"
+								}
+							]
+						}
+					],
+					"WobbleWhileWorking": true
+				}
+			}
+		}
+	]
+}

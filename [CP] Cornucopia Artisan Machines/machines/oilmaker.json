@@ -1,0 +1,64 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)19",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_ChiliOil": {
+					"Id": "Cornucopia_ChiliOil",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)260"
+						},
+						{
+							"RequiredTags": [
+								"chili_item"
+							]
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_ChiliOil"
+						}
+					],
+					"MinutesUntilReady": 960
+				},
+				"Cornucopia_CoconutOil": {
+					"Id": "Cornucopia_CoconutOil",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)88"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_CoconutOil"
+						}
+					],
+					"MinutesUntilReady": 960
+				},
+				"Cornucopia_FishOil": {
+					"Id": "Cornucopia_FishOil",
+					"Triggers": [
+						{
+							"RequiredTags": [
+								"category_fish",
+								"!fish_crab_pot"
+							]
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_FishOil"
+						}
+					],
+					"MinutesUntilReady": 960
+				}
+			}
+		}
+	]
+}

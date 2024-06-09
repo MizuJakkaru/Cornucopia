@@ -1,0 +1,139 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_CoconutMilk": {
+					"Id": "Cornucopia_CoconutMilk",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)88"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_CoconutMilk"
+						}
+					],
+					"MinutesUntilReady": 2250
+				},
+				"Cornucopia_NutMilk": {
+					"Id": "Cornucopia_NutMilk",
+					"Triggers": [
+						{
+							"RequiredTags": [
+								"nut_item"
+							]
+						}
+					],
+					"OutputItem": [
+						{
+							"Id": "NutMilkPineNuts",
+							"ItemId": "Cornucopia_NutMilk",
+							"ObjectInternalName": "{0} Cornucopia_NutMilk",
+							"ObjectDisplayName": "{{i18n:NutMilk_PineNuts}}",
+							"Condition": "ITEM_ID Input Cornucopia_PineNuts",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.CopyColor": "true"
+							},
+							"PriceModifiers": [
+								{
+									"Id": "NutMilk",
+									"Modification": "Multiply",
+									"Amount": 2.25
+								}
+							]
+						},
+						{
+							"Id": "Default",
+							"ItemId": "Cornucopia_NutMilk",
+							"ObjectInternalName": "{0} Cornucopia_NutMilk",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_NutMilk %PRESERVED_DISPLAY_NAME]",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.CopyColor": "true"
+							},
+							"PriceModifiers": [
+								{
+									"Id": "NutMilk",
+									"Modification": "Multiply",
+									"Amount": 2.25
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 2250
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_CoconutMilk",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_NutMilk",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Wine",
+				"Triggers"
+			],
+			"When": {
+				"Enable Vegetable Wine": true
+			},
+			"Entries": {
+				"Cornucopia_ItemPlacedInMachine_Vegetable": {
+					"Id": "Cornucopia_ItemPlacedInMachine_Vegetable",
+					"RequiredTags": [
+						"category_vegetable"
+					]
+				},
+				"Cornucopia_ItemPlacedInMachine_Forage": {
+					"Id": "Cornucopia_ItemPlacedInMachine_Forage",
+					"RequiredTags": [
+						"category_greens"
+					],
+					"Condition": "!ITEM_CONTEXT_TAG Input edible_mushroom, ITEM_EDIBILITY Input 1"
+				},
+				"Cornucopia_ItemPlacedInMachine_Juice": {
+					"Id": "Cornucopia_ItemPlacedInMachine_Juice",
+					"RequiredTags": [
+						"keg_juice"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules"
+			],
+			"When": {
+				"Enable Vegetable Wine": true
+			},
+			"MoveEntries": [
+				{
+					"Id": "Default_Wine",
+					"BeforeId": "Default_Juice"
+				}
+			]
+		}
+	]
+}

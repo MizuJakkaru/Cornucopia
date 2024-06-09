@@ -1,0 +1,171 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": {
+				"(BC)Cornucopia_CompactMill": {
+					"OutputRules": [
+						{
+							"Id": "Cornucopia_Applesauce",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)613"
+								},
+								{
+									"RequiredTags": [
+										"apple_item"
+										]
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Applesauce"
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "Cornucopia_ChiliPowder",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)260"
+								},
+								{
+									"RequiredTags": [
+										"chili_item"
+									]
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_ChiliPowder"
+								}
+							],
+							"MinutesUntilReady": 120
+						},
+						{
+							"Id": "Cornucopia_GellingPowder",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)881",
+									"RequiredCount": 3
+								},
+								{
+									"RequiredItemId": "(O)153",
+									"RequiredCount": 3
+								},
+								{
+									"RequiredItemId": "(O)157",
+									"RequiredCount": 3
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_GellingPowder"
+								}
+							],
+							"MinutesUntilReady": 200,
+							"InvalidCountMessage": "{{i18n:CompactMillInvalidCount_Input}}"
+						},
+						{
+							"Id": "Cornucopia_OrangeZest",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)635"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_OrangeZest"
+								}
+							],
+							"MinutesUntilReady": 60
+						},
+						{
+							"Id": "Cornucopia_PineNuts",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)311"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_PineNuts"
+								}
+							],
+							"MinutesUntilReady": 2250
+						},
+						{
+							"Id": "Cornucopia_Saffron",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)418"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Saffron"
+								}
+							],
+							"MinutesUntilReady": 600
+						},
+						{
+							"Id": "Cornucopia_Salt",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)Cornucopia_SeaSalt"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Salt"
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "Cornucopia_ShrimpPaste",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)720"
+								},
+								{
+									"RequiredTags": [
+										"shrimp_item"
+										]
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_ShrimpPaste",
+								}
+							],
+							"MinutesUntilReady": 360
+						}
+					],
+					"LoadEffects": [
+						{
+							"Sounds": [
+								{
+									"Id": "woodchipper"
+								}
+							],
+							"Frames": [ 2,3,4,5 ],
+							"Interval": 80,
+						}
+					],
+					"WorkingEffects": [
+						{
+							"Frames": [ 2,3,4,5 ],
+							"Interval": 80,
+						}
+					],
+					"WorkingEffectChance": 1,
+					"ShowNextIndexWhenReady": true,
+					"WobbleWhileWorking": false
+				}
+			}
+		}
+	]
+}

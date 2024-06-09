@@ -1,0 +1,348 @@
+{
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/AnimalShop",
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 28,
+						"Y": 14
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "DropBox MarnieFridge"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/HaleyHouse",
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 17,
+						"Y": 23
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "DropBox EmilyWorkshop"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": {
+				"Cornucopia.ArtisanMachines_YogurtJar": {
+					"Name": "{{i18n:MarnieSpecialOrder_name}}",
+					"Requester": "Marnie",
+					"Duration": "Week",
+					"Repeatable": false,
+					"RequiredTags": "",
+					"Condition": "",
+					"OrderType": "",
+					"SpecialRule": "",
+					"Text": "{{i18n:MarnieSpecialOrder_text}}",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": null,
+					"Objectives": [
+						{
+							"Type": "Collect",
+							"Text": "{{i18n:MarnieSpecialOrder_objective0}}",
+							"RequiredCount": "50",
+							"Data": {
+								"AcceptedContextTags": "category_milk"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:MarnieSpecialOrder_objective1}}",
+							"RequiredCount": "50",
+							"Data": {
+								"DropBox": "MarnieFridge",
+								"DropBoxGameLocation": "AnimalShop",
+								"DropBoxIndicatorLocation": "28 13",
+								"AcceptedContextTags": "category_milk"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Money",
+							"Data": {
+								"Amount": "3000"
+							}
+						},
+						{
+							"Type": "Mail",
+							"Data": {
+								"MailReceived": "Cornucopia.ArtisanMachines_YogurtJar",
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": {
+				"Cornucopia.ArtisanMachines_Alembic": {
+					"Name": "{{i18n:EmilySpecialOrder_name}}",
+					"Requester": "Emily",
+					"Duration": "TwoWeeks",
+					"Repeatable": false,
+					"RequiredTags": "",
+					"Condition": "",
+					"OrderType": "",
+					"SpecialRule": "",
+					"Text": "{{i18n:EmilySpecialOrder_text}}",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": [
+						{
+							"Name": "Crop",
+							"Values": [
+								{
+									"RequiredTags": "season_spring",
+									"Value": "{{EmilySpecialOrder_spring}}"
+								},
+								{
+									"RequiredTags": "season_summer",
+									"Value": "{{EmilySpecialOrder_summer}}"
+								},
+								{
+									"RequiredTags": "season_fall",
+									"Value": "{{EmilySpecialOrder_fall}}"
+								}
+							]
+						}
+					],
+					"Objectives": [
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:EmilySpecialOrder_objective}}",
+							"RequiredCount": "15",
+							"Data": {
+								"DropBox": "EmilyWorkshop",
+								"DropBoxGameLocation": "HaleyHouse",
+								"DropBoxIndicatorLocation": "17 22",
+								"AcceptedContextTags": "{Crop:Tags}"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Money",
+							"Data": {
+								"Amount": "3000"
+							}
+						},
+						{
+							"Type": "Mail",
+							"Data": {
+								"MailReceived": "Cornucopia.ArtisanMachines_Alembic"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": {
+				"Cornucopia.ArtisanMachines_DeluxeSmoker": {
+					"Name": "{{i18n:GusSpecialOrder_name}}",
+					"Requester": "Gus",
+					"Duration": "Week",
+					"Repeatable": false,
+					"RequiredTags": "",
+					"Condition": "",
+					"OrderType": "",
+					"SpecialRule": "",
+					"Text": "{{i18n:GusSpecialOrder_text}}",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": null,
+					"Objectives": [
+						{
+							"Type": "Ship",
+							"Text": "{{i18n:GusSpecialOrder_objective}}",
+							"RequiredCount": "25",
+							"Data": {
+								"AcceptedContextTags": "id_o_smokedfish"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Money",
+							"Data": {
+								"Amount": "3000"
+							}
+						},
+						{
+							"Type": "Mail",
+							"Data": {
+								"MailReceived": "Cornucopia.ArtisanMachines_DeluxeSmokerRecipe",
+								"NoLetter": false
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": {
+				"Cornucopia.ArtisanMachines_WaxBarrel": {
+					"Name": "{{i18n:GeorgeSpecialOrder_name}}",
+					"Requester": "George",
+					"Duration": "Month",
+					"Repeatable": true,
+					"RequiredTags": "event_5837189",
+					"Condition": "",
+					"OrderType": "",
+					"SpecialRule": "",
+					"Text": "{{i18n:GeorgeSpecialOrder_text}}",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": null,
+					"Objectives": [
+						{
+							"Type": "Collect",
+							"Text": "{{GeorgeSpecialOrderRoses}}",
+							"RequiredCount": "10",
+							"Data": {
+								"AcceptedContextTags": "rose_item"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective1}}",
+							"RequiredCount": "10",
+							"Data": {
+								"DropBox": "EvelynKitchen",
+								"DropBoxGameLocation": "JoshHouse",
+								"DropBoxIndicatorLocation": "3 15",
+								"AcceptedContextTags": "rose_item"
+							}
+						},
+						{
+							"Type": "Collect",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective4}}",
+							"RequiredCount": "20",
+							"Data": {
+								"AcceptedContextTags": "berry_item"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective5}}",
+							"RequiredCount": "20",
+							"Data": {
+								"DropBox": "EvelynKitchen",
+								"DropBoxGameLocation": "JoshHouse",
+								"DropBoxIndicatorLocation": "3 15",
+								"AcceptedContextTags": "berry_item"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Money",
+							"Data": {
+								"Amount": "3000"
+							}
+						},
+						{
+							"Type": "Mail",
+							"Data": {
+								"MailReceived": "Cornucopia.ArtisanMachines_WaxBarrel"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
+			},
+			"Fields": {
+				"Cornucopia.ArtisanMachines_WaxBarrel": {
+					"Objectives": [
+						{
+							"Type": "Collect",
+							"Text": "{{GeorgeSpecialOrderRoses}}",
+							"RequiredCount": "10",
+							"Data": {
+								"AcceptedContextTags": "rose_item"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective1}}",
+							"RequiredCount": "10",
+							"Data": {
+								"DropBox": "EvelynKitchen",
+								"DropBoxGameLocation": "JoshHouse",
+								"DropBoxIndicatorLocation": "3 15",
+								"AcceptedContextTags": "rose_item"
+							}
+						},
+						{
+							"Type": "Collect",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective2}}",
+							"RequiredCount": "10",
+							"Data": {
+								"AcceptedContextTags": "rosemary_item"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective3}}",
+							"RequiredCount": "10",
+							"Data": {
+								"DropBox": "EvelynKitchen",
+								"DropBoxGameLocation": "JoshHouse",
+								"DropBoxIndicatorLocation": "3 15",
+								"AcceptedContextTags": "rosemary_item"
+							}
+						},
+						{
+							"Type": "Collect",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective4}}",
+							"RequiredCount": "20",
+							"Data": {
+								"AcceptedContextTags": "berry_item"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective5}}",
+							"RequiredCount": "20",
+							"Data": {
+								"DropBox": "EvelynKitchen",
+								"DropBoxGameLocation": "JoshHouse",
+								"DropBoxIndicatorLocation": "3 15",
+								"AcceptedContextTags": "berry_item"
+							}
+						}
+					],
+				}
+			}
+		},
+	]
+}

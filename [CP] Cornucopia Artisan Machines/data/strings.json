@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+				"Cornucopia_Candles": "{{i18n: Candles_flavored}}",
+				"Cornucopia_WaxMelts": "{{i18n: WaxMelts_flavored}}",
+				"Cornucopia_EssentialOil": "{{i18n: EssentialOil_flavored}}",
+				"Cornucopia_FlavoredYogurt": "{{i18n: FlavoredYogurt_flavored}}",
+				"Cornucopia_FlavoredHoneyYogurt": "{{i18n: FlavoredYogurt_Honeyflavored}}",
+				"Cornucopia_NutButter": "{{i18n: NutButter_flavored}}",
+				"Cornucopia_NutCheese": "{{i18n: NutCheese_flavored}}",
+				"Cornucopia_NutMilk": "{{i18n: NutMilk_flavored}}",
+            }
+        }
+	]
+}

@@ -1,0 +1,26 @@
+{
+    "Name": "Cornucopia - Artisan Machines",
+    "Author": "Cornucopia",
+    "Description": "An additional Artisan Goods and Machines mod for Stardew Valley 1.6 Content Patcher",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "4.0.0",
+    "UniqueID": "Cornucopia.ArtisanMachines",
+    "UpdateKeys": ["Nexus: 24842"],
+	"ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+		{
+			"UniqueID": "selph.ExtraMachineConfig",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Cornucopia.MoreCrops",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Cornucopia.MoreFlowers",
+			"IsRequired": false
+		}
+	]
+}

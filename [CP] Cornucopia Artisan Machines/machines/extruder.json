@@ -1,0 +1,94 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": {
+				"(BC)Cornucopia_Extruder": {
+					"OutputRules": [
+						{
+							"Id": "Cornucopia_Beeswax",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)340"
+								},
+								{
+									"RequiredItemId": "(O)Cornucopia_Soybeans",
+									"RequiredCount": 2
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Beeswax",
+									"IncrementMachineParentSheetIndex": 1
+								}
+							],
+							"MinutesUntilReady": 800,
+							"InvalidCountMessage": "{{i18n:ExtruderInvalidCount_Soybeans}}"
+						},
+						{
+							"Id": "Cornucopia_GlassNoodles",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)192"
+								},
+								{
+									"RequiredItemId": "(O)280"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_GlassNoodles",
+									"IncrementMachineParentSheetIndex": 1
+								}
+							]
+						},
+						{
+							"Id": "Cornucopia_RiceNoodles",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)423"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_RiceNoodles",
+									"IncrementMachineParentSheetIndex": 1
+								}
+							],
+							"MinutesUntilReady": 460
+						},
+						{
+							"Id": "Cornucopia_WheatNoodles",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)246"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_WheatNoodles",
+									"IncrementMachineParentSheetIndex": 1
+								}
+							],
+							"MinutesUntilReady": 460
+						}
+					],
+					"LoadEffects": [
+						{
+							"Sounds": [
+								{
+									"Id": "woodchipper"
+								}
+							]
+						}
+					],
+					"WorkingEffectChance": 1,
+					"ShowNextIndexWhileWorking": false,
+					"ShowNextIndexWhenReady": true,
+					"WobbleWhileWorking": true
+				}
+			}
+		}
+	]
+}

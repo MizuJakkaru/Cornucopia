@@ -1,0 +1,129 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": {
+				"(BC)Cornucopia_DryingRack": {
+					"OutputRules": [
+						{
+							"Id": "Cornucopia_Hay",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)771",
+									"RequiredCount": 10
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)178",
+									"MinStack": 3,
+									"MaxStack": 8
+								}
+							],
+							"MinutesUntilReady": 60,
+							"InvalidCountMessage": "{{i18n:DehydratorInvalidCount_Fiber}}"
+						},
+						{
+							"Id": "Cornucopia_DriedFlower",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"category_flowers"
+									],
+									"RequiredCount": 5
+								},
+								{
+									"RequiredTags": [
+										"flower_item"
+									],
+									"RequiredCount": 5
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "Cornucopia_DriedFlower",
+									"ObjectInternalName": "{0} Cornucopia_DriedFlower",
+									"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true"
+									},
+									"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 10
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 2000,
+							"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+						},
+						{
+							"Id": "Cornucopia_DriedHerb",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"herb_item"
+									],
+									"RequiredCount": 5
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "Cornucopia_DriedHerb",
+									"ObjectInternalName": "{0} {{i18n:DriedHerb_name}}",
+									"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true"
+									},
+									"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 10
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 2000,
+							"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+						}
+					],
+					"LoadEffects": [
+						{
+							"Sounds": [
+								{
+									"Id": "Ship"
+								}
+							]
+						}
+					],
+					"WobbleWhileWorking": true,
+					"ReadyTimeModifiers": [
+						{
+							"Id": "Indoors",
+							"Condition": "LOCATION_IS_INDOORS Here",
+							"Modification": "Multiply",
+							"Amount": 2
+						}
+					],
+					"PreventTimePass": [
+						"Rain"
+					]
+				}
+			}
+		}
+	]
+}

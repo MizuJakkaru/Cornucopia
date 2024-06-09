@@ -1,0 +1,49 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_GranolaButter": {
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_Oats",
+							"RequiredCount": 2
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "Cornucopia_NutButter",
+							"ObjectInternalName": "Oats Cornucopia_NutButter",
+							"ObjectDisplayName": "{{i18n:NutButter_Oats}}",
+							"PreserveId": "DROP_IN",
+							"CustomData": {
+								"selph.ExtraMachineConfig.CopyColor": "true"
+							},
+							"CopyPrice": true,
+							"PriceModifiers": [
+								{
+									"Id": "NutButter",
+									"Modification": "Multiply",
+									"Amount": 1.5
+								},
+								{
+									"Id": "InputCount",
+									"Modification": "Multiply",
+									"Amount": 2
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 180,
+					"InvalidCountMessage": "{{i18n:ButterChurnInvalidCount_Oats}}"
+				}
+			},
+		}
+    ]
+}

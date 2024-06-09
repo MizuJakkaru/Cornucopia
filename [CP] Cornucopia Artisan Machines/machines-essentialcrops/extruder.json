@@ -1,0 +1,34 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_Extruder", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_Zoodles": {
+					"Id": "Cornucopia_Zoodles",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Zucchini",
+							},
+							{
+								"RequiredTags": [
+									"cornucopia_extruder_zoodles"
+									]
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Zoodles",
+									"IncrementMachineParentSheetIndex": 1,
+							}
+						],
+					"MinutesUntilReady": 240,
+				}
+			}
+		}
+    ]
+}

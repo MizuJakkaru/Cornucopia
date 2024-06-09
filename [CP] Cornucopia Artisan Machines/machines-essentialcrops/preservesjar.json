@@ -1,0 +1,102 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Default_Pickled",
+				"Triggers",
+				"ItemPlacedInMachine_Vegetable",
+				"RequiredTags"
+			],
+			"Entries": {
+				"#-1": "!id_o_cornucopia_olive"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)15", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_BrinedOlives": {
+					"Id": "Cornucopia_BrinedOlives",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Olive",
+								"RequiredCount": 3,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_BrinedOlives"
+									
+							}
+						],
+					"MinutesUntilReady": 4000,
+					"InvalidCountMessage": "{{i18n: PreservesJarInvalidCount_Olives}}"
+				},
+				"Cornucopia_PickleSpears": {
+					"Id": "Cornucopia_PickleSpears",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Cucumber",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_PickleSpears",
+							}
+						],
+					"MinutesUntilReady": 4000,
+					"InvalidCountMessage": "{{i18n: PreservesJarInvalidCount_Pickles}}"
+				},
+				"Cornucopia_SoySauce": {
+					"Id": "Cornucopia_SoySauce",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Soybeans",
+								"RequiredCount": 2,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_SoySauce",
+							}
+						],
+					"MinutesUntilReady": 4320,
+					"InvalidCountMessage": "{{i18n: PreservesJarInvalidCount_Soybeans}}"
+				},
+				"Cornucopia_StinkyTofu": {
+					"Id": "Cornucopia_StinkyTofu",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Tofu",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_StinkyTofu",
+							}
+						],
+					"MinutesUntilReady": 4320,
+				}
+			},
+			"MoveEntries": [
+				{ "Id": "Cornucopia_BrinedOlives", "BeforeId": "Default_Pickled" },
+				{ "Id": "Cornucopia_PickleSpears", "BeforeId": "Default_Pickled" },
+				{ "Id": "Cornucopia_SoySauce", "BeforeId": "Default_Pickled" }
+			]
+		}
+    ]
+}

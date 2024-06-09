@@ -1,0 +1,29 @@
+{
+	"Changes": [
+		// Add Letter
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"Cornucopia.ArtisanMachines_PierreDehydratorAlternate": "{{i18n:Mail_PierreDehydratorAlternate}}",
+				"Cornucopia.ArtisanMachines_YogurtJarRecipe": "{{i18n:MarnieSpecialOrder_letter}}",
+				"Cornucopia.ArtisanMachines_AlembicRecipe": "{{i18n:EmilySpecialOrder_letter}}",
+				"Cornucopia.ArtisanMachines_DeluxeSmokerRecipe": "{{i18n:GusSpecialOrder_letter}}",
+				"Cornucopia.ArtisanMachines_WaxBarrelRecipe": "{{i18n:GeorgeSpecialOrder_letter}}",
+			}
+
+		},
+		{
+			"Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+				"Cornucopia.ArtisanMachines_SendPierreDehydratorAlternate": {
+					"Id": "Cornucopia.ArtisanMachines_SendPierreDehydratorAlternate",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CRAFTING_RECIPE Current (BC)Dehydrator",
+					"Action": "AddMail Current Cornucopia.ArtisanMachines_PierreDehydratorAlternate tomorrow"
+				}
+			}
+		}
+	]
+}

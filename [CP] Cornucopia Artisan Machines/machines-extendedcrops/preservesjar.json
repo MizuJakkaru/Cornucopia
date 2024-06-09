@@ -1,0 +1,58 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Sauerkraut",
+				"Triggers"
+			],
+			"Entries": {
+				"(O)Cornucopia_Cabbage": {
+					"RequiredItemId": "(O)Cornucopia_Cabbage"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_Kimchi": {
+					"Id": "Cornucopia_Kimchi",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_Lettuce"
+						},
+						{
+							"RequiredItemId": "(O)Cornucopia_Daikon"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_Kimchi",
+							"Condition": "ITEM_CONTEXT_TAG Input id_o_cornucopia_daikon",
+							"MinStack": 3
+						},
+						{
+							"ItemId": "(O)Cornucopia_Kimchi"
+						}
+					],
+					"MinutesUntilReady": 2160,
+					"UseFirstValidOutput": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_Kimchi",
+					"BeforeId": "Default_Pickled"
+				}
+			]
+		}
+	]
+}

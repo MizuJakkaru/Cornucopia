@@ -1,0 +1,60 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_WasabiMayonnaise": {
+					"Id": "Cornucopia_WasabiMayonnaise",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_WasabiRoot"
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"Id": "Cornucopia_WasabiMayonnaiseLargeBrownEgg",
+							"ItemId": "(O)Cornucopia_WasabiMayonnaise",
+							"Quality": 2,
+							"CustomData": {
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)182",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
+							}
+						},
+						{
+							"Id": "Cornucopia_WasabiMayonnaiseSmallBrownEgg",
+							"ItemId": "(O)Cornucopia_WasabiMayonnaise",
+							"CustomData": {
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)180",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
+							}
+						},
+						{
+							"Id": "Cornucopia_WasabiMayonnaiseLargeWhiteEgg",
+							"ItemId": "(O)Cornucopia_WasabiMayonnaise",
+							"Quality": 2,
+							"CustomData": {
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)174",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
+							}
+						},
+						{
+							"Id": "Cornucopia_WasabiMayonnaiseSmallWhiteEgg",
+							"ItemId": "(O)Cornucopia_WasabiMayonnaise",
+							"CustomData": {
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)176",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
+							}
+						}
+					],
+					"MinutesUntilReady": 180
+				}
+			}
+		}
+	]
+}

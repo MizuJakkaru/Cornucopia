@@ -1,0 +1,28 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_AloeGel": {
+					"Id": "Cornucopia_AloeGel",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Aloe",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_AloeGel",
+							}
+						],
+					"MinutesUntilReady": 360,
+				},
+			}
+		}
+    ]
+}

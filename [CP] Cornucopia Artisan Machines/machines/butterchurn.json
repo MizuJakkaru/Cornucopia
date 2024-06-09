@@ -1,0 +1,229 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": {
+				"(BC)Cornucopia_ButterChurn": {
+					"OutputRules": [
+						{
+							"Id": "Cornucopia_ButterMilk",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)184"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Butter"
+								}
+							],
+							"MinutesUntilReady": 120
+						},
+						{
+							"Id": "Cornucopia_ButterLargeMilk",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)186"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Butter",
+									"Quality": 2
+								}
+							],
+							"MinutesUntilReady": 120
+						},
+						{
+							"Id": "Cornucopia_ButterGoatMilk",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)436"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Butter",
+									"MinStack": 2,
+								}
+							],
+							"MinutesUntilReady": 120
+						},
+						{
+							"Id": "Cornucopia_ButterLargeGoatMilk",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)438"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Butter",
+									"MinStack": 2,
+									"Quality": 2
+								}
+							],
+							"MinutesUntilReady": 120
+						},
+						{
+							"Id": "Cornucopia_CoconutButter",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)88"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_CoconutButter"
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "Cornucopia_CookieButter",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)223"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_CookieButter"
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "Cornucopia_HoneyButter",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)340"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_HoneyButter"
+								}
+							],
+							"MinutesUntilReady": 120
+						},
+						{
+							"Id": "Cornucopia_MapleButter",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)724"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_MapleButter"
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "Cornucopia_Margarine",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)247"
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Margarine"
+								}
+							],
+							"MinutesUntilReady": 120
+						},
+						{
+							"Id": "Cornucopia_SunButter",
+							"Triggers": [
+								{
+									"RequiredItemId": "(O)421"
+								},
+							],
+							"OutputItem": [
+								{
+									"ItemId": "Cornucopia_NutButter",
+									"ObjectInternalName": "{0} Cornucopia_NutButter",
+									"ObjectDisplayName": "{{i18n:NutButter_Sunflower}}",
+									"PreserveId": "DROP_IN",
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true"
+									},
+									"CopyPrice": true,
+									"PriceModifiers": [
+										{
+											"Id": "NutButter",
+											"Modification": "Multiply",
+											"Amount": 1.5
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "Cornucopia_NutButter",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"nut_item"
+									]
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "Cornucopia_NutButter",
+									"ObjectInternalName": "{0} Cornucopia_NutButter",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_NutButter %PRESERVED_DISPLAY_NAME]",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": "true"
+									},
+									"PriceModifiers": [
+										{
+											"Id": "NutButter",
+											"Modification": "Multiply",
+											"Amount": 1.5
+										}
+									]
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "Cornucopia_ButterDefault",
+							"Triggers": [
+								{
+									"RequiredTags": [
+										"category_milk",
+										"!plant_milk_item"
+										]
+								}
+							],
+							"OutputItem": [
+								{
+									"ItemId": "(O)Cornucopia_Butter"
+								}
+							],
+							"MinutesUntilReady": 120
+						},
+					],
+					"LoadEffects": [
+						{
+							"Sounds": [
+								{
+									"Id": "Ship"
+								}
+							]
+						}
+					],
+					"WobbleWhileWorking": true
+				}
+			}
+		}
+	]
+}

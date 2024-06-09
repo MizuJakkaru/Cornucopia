@@ -1,0 +1,144 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_NutCheese_NutMilk": {
+					"Id": "Cornucopia_NutCheese_NutMilk",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_NutMilk"
+						},
+					],
+					"OutputItem": [
+						{
+							"Id": "CornucopiaPineNutMilk",
+							"ItemId": "(O)Cornucopia_NutCheese",
+							"Condition": "ITEM_CONTEXT_TAG Input id_o_cornucopia_nutmilk preserve_sheet_index_cornucopia_pinenuts",
+							"ObjectInternalName": "{0} Cornucopia_NutCheese",
+							"ObjectDisplayName": "{{i18n:NutCheese_PineNutMilk}}",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CopyColor": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.InheritPreserveId": true
+							},
+							"PriceModifiers": [
+								{
+									"Id": "NutCheese",
+									"Modification": "Multiply",
+									"Amount": 1.25
+								}
+							]
+						},
+						{
+							"Id": "CornucopiaSoyMilk",
+							"ItemId": "(O)Cornucopia_NutCheese",
+							"Condition": "ITEM_CONTEXT_TAG Input id_o_cornucopia_nutmilk preserve_sheet_index_cornucopia_soybeans",
+							"ObjectInternalName": "{0} Cornucopia_NutCheese",
+							"ObjectDisplayName": "{{i18n:NutCheese_SoyMilk}}",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CopyColor": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.InheritPreserveId": true
+							},
+							"PriceModifiers": [
+								{
+									"Id": "NutCheese",
+									"Modification": "Multiply",
+									"Amount": 1.25
+								}
+							]
+						},
+						{
+							"Id": "CornucopiaOatMilk",
+							"ItemId": "(O)Cornucopia_NutCheese",
+							"Condition": "ITEM_CONTEXT_TAG Input id_o_cornucopia_nutmilk preserve_sheet_index_cornucopia_oats",
+							"ObjectInternalName": "{0} Cornucopia_NutCheese",
+							"ObjectDisplayName": "{{i18n:NutCheese_OatMilk}}",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CopyColor": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.InheritPreserveId": true
+							},
+							"PriceModifiers": [
+								{
+									"Id": "NutCheese",
+									"Modification": "Multiply",
+									"Amount": 1.25
+								}
+							]
+						},
+						{
+							"Id": "Default",
+							"ItemId": "(O)Cornucopia_NutCheese",
+							"ObjectInternalName": "{0} Cornucopia_NutCheese",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_NutCheese %PRESERVED_DISPLAY_NAME]",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CopyColor": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.InheritPreserveId": true
+							},
+							"PriceModifiers": [
+								{
+									"Id": "NutCheese",
+									"Modification": "Multiply",
+									"Amount": 1.25
+								}
+							]
+						},
+					],
+					"MinutesUntilReady": 200,
+					"UseFirstValidOutput": true,
+				},
+				"Cornucopia_NutCheeseDefault": {
+					"Id": "Cornucopia_NutCheeseDefault",
+					"Triggers": [
+						{
+							"RequiredTags": [
+								"plant_milk_item"
+								]
+						},
+						{
+							"RequiredTags": [
+								"wildflour_pantry",
+								"milk_item"
+								]
+						}
+					],
+					"OutputItem": [
+						{
+							"Id": "Default",
+							"ItemId": "(O)Cornucopia_NutCheese",
+							"ObjectInternalName": "{0} Cornucopia_NutCheese",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_NutCheese %PRESERVED_DISPLAY_NAME]",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CopyColor": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.CopyColor": true,
+							},
+							"PriceModifiers": [
+								{
+									"Id": "NutCheese",
+									"Modification": "Multiply",
+									"Amount": 1.25
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 200,
+					"UseFirstValidOutput": true,
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
+			"Entries": {
+				"Cornucopia_MisoPaste": {
+					"Id": "Cornucopia_MisoPaste",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Soybeans",
+								"RequiredCount": 4,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_MisoPaste",
+							}
+						],
+					"MinutesUntilReady": 360,
+					"InvalidCountMessage": "{{i18n:CompactMillInvalidCount_Soybeans}}"
+				},
+				"Cornucopia_Paprika": {
+					"Id": "Cornucopia_Paprika",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_BellPepper",
+							},
+							{
+								"RequiredTags": [
+									"bell_pepper_item"
+									]
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Paprika",
+							}
+						],
+					"MinutesUntilReady": 120,
+				},
+				"Cornucopia_Pepper": {
+					"Id": "Cornucopia_Pepper",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Cornucopia_Peppercorn",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_Pepper",
+							}
+						],
+					"MinutesUntilReady": 180,
+				}
+			}
+		}
+    ]
+}
