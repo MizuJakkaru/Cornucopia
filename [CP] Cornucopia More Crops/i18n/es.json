@@ -343,6 +343,7 @@
 	"BasilSeeds_description": "Plántalas en primavera. Tarda 3 días en madurar.",
 	"BayLeavesSeeds_description": "Tarda 12 días en madurar. Produce hojas de laurel cada día en invierno.",
 	"BellPepperSeeds_description": "Plántalas en verano. Tarda 10 días en madurar, pero sigue produciendo tras la primera cosecha.",
+
 	"BlackBeansSeeds_description": "Plántalas en otoño. Tarda 10 días en madurar, pero sigue produciendo tras la primera cosecha. Crece en una espaldera.",
 	"BlueAgaveSeeds_description": "Plántalas en verano. Tarda 12 días en madurar.",
 	"VanillaSeeds_description": "Tarda 16 días en madurar. Produce vainas de vainilla cada 3 días en primavera. ¡No es necesario regarlo!",
@@ -526,5 +527,13 @@
 	"config.Rename Cheese Press.name": "Renombrar la prensa de queso",
 	"config.Rename Cheese Press.description": "Cambia el nombre de la prensa de queso a 'prensa' a secas, y añade en la descripción la capacidad de hacer tofu.",
 	"config.Retexture Cheese Press.name": "Retexturizar la prensa de queso",
-	"config.Retexture Cheese Press.description": "Cambia el aspecto de la prensa de queso, quitándole el icono del queso."
+	"config.Retexture Cheese Press.description": "Cambia el aspecto de la prensa de queso, quitándole el icono del queso.",
+	"config.Map Edits.name": "Cambios de mapa",
+	"config.Map Edits.description": "Habilita pequeñas ediciones del mapa (actualmente, sólo incluye los árboles de chicozapote en Isla Jengibre).",
+	"Molasses_name": "Melaza",
+	"Molasses_description": "El subproducto residual de la cristalización final del azúcar. También conocida como miel de caña.",
+	"WholeGrainFlour_name": "Harina integral",
+	"WholeGrainFlour_description": "Un ingrediente culinario hecho con granos enteros, sin separar sus componentes.",
+	"OilmakerInvalidCount_Olives": "Requiere 4 aceitunas.",
+	
 }

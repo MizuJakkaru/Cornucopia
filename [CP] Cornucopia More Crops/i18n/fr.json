@@ -265,7 +265,7 @@
 	"TurnipSeeds_description": "À planter en automne. Il faut 6 jours pour arriver à maturité.",
 	"ThymeSeeds_description": "À planter en automne. Il faut 5 jours pour arriver à maturité.",
 	"TurmericSeeds_description": "À planter en automne. Il faut 7 jours pour arriver à maturité.",
-	"WasabiRootSeeds_description": "À planter en été. Il faut 8 jours pour arriver à maturité et pousse plus vite près de l'eau.",
+	"WasabiRootSeeds_description": "À planter en été. Il faut 8 jours pour arriver à maturité. Pousse plus vite près de l'eau.",
 	"WatermelonSeeds_description": "À planter en été. Il faut 12 jours pour arriver à maturité. Culture géante possible !",
 	"WhiteGrapeSeeds_description": "Il faut 16 jours pour que la vigne arrive à maturité. Produit tous les 2 jours en automne.",
 	"WormwoodSeeds_description": "À planter en hiver. Il faut 8 jours pour arriver à maturité.",
@@ -408,7 +408,7 @@
 	"Vanilla_description": "Le fruit d’une orchidée. Extrêmement chère, c’est pourtant sûrement l’épice la plus connue du monde.",
 	"Walnut_description": "Vous ne trouvez pas que le cerneau ressemble à un petit cerveau ?",
 	"Yuzu_description": "Un gros agrume qui sublime le poisson et les champignons.",
-	"Sapodilla_description": "Un fruit succulet au goût rappelant le caramel.",
+	"Sapodilla_description": "Un fruit succulent au goût rappelant le caramel.",
 	"AlmondSapling_name": "Jeune amandier",
 	"AvocadoSapling_name": "Jeune avocatier",
 	"BreadfruitSapling_name": "Jeune arbre à pain",
@@ -528,5 +528,11 @@
 	"config.Retexture Cheese Press.name": "Changement de l'apparence de la presse à fromage",
 	"config.Retexture Cheese Press.description": "Enlève l'image du fromage sur le visuel de la presse à fromage.",
 	"config.Map Edits.name": "Changement des lieux",
-	"config.Map Edits.description": "Permet de légers changements des lieux du jeu (pour l'instant, ajout de sapodillers sur l'Île Gingembre)."
+	"config.Map Edits.description": "Permet de légers changements des lieux du jeu (pour l'instant, ajout de sapodillers sur l'Île Gingembre).",
+	"Molasses_name": "Mélasse",
+	"Molasses_description": "Le résidu visqueux du processus de cristallisation du sucre.",
+	"WholeGrainFlour_name": "Farine de blé complet",
+	"WholeGrainFlour_description": "Un ingrédient de base fait de grains de blé entiers moulus.",
+	"OilmakerInvalidCount_Olives": "Nécessite 4 olives",
+	"CheesePressInvalidCount_Soybeans": "Nécessite 2 graines de soja"
 }

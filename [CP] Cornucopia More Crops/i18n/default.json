@@ -509,6 +509,9 @@
 	"Tofu_description": "Made from soybean milk. Can be used as a source of protein in many recipes.",
 	"Molasses_name": "Molasses",
 	"Molasses_description": "The sticky by-product of milling sugar.",
-	"Whole-GrainFlour_name": "Whole-Grain Flour",
-	"Whole-GrainFlour_descritpion": "A cooking ingredient made from whole kernels of grain.",
+	"WholeGrainFlour_name": "Whole-Grain Flour",
+	"WholeGrainFlour_description": "A cooking ingredient made from whole kernels of grain.",
+	"OilmakerInvalidCount_Olives": "Requires 4 Olives",
+	"CheesePressInvalidCount_Soybeans": "Requires 2 Soybeans",
+	"LoomInvalidCount_CottonBoll": "Requires 3 Cotton Bolls"
 }
