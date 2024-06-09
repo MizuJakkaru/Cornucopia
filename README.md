@@ -27,11 +27,11 @@ Cornucopia is a **collection of mods**, all of which can be used together, or on
 
 [**Cornucopia - More Crops**](https://www.nexusmods.com/stardewvalley/mods/19508) The main mod for crops and fruit trees. Here you'll find **fruits, vegetables, berry bushes, plantable mushrooms,** as well as **a couple wild trees and forage items**.
 
-![A list of items included in More Crops](https://raw.githubusercontent.com/MizuJakkaru/Cornucopia/main/%5BCP%5D%20Cornucopia%20More%20Crops/config%20options.png)
+![A list of items included in More Crops](https://raw.githubusercontent.com/MizuJakkaru/CornucopiaImages/main/More%20Crops/config%20options.png)
 
 [**Cornucopia - More Flowers**](https://www.nexusmods.com/stardewvalley/mods/20290) A large crop and fruit tree expansion mod based primarily around **decorative flowers**. You'll find some beautiful blooms for honey, not to mention gorgeous hedges and trees to decorate with!
 
-![A list of items included in More Crops](https://raw.githubusercontent.com/MizuJakkaru/Cornucopia/main/%5BCP%5D%20Cornucopia%20More%20Flowers/config%20options.png)
+![A list of items included in More Crops](https://raw.githubusercontent.com/MizuJakkaru/CornucopiaImages/main/More%20Flowers/config%20options.png)
 
 **Cornucopia - Artisan Machines** \(Not published yet\) An expansion for the types of artisan goods you can make. Long gone are the days of min-maxing with ancient fruit wine! Now you can create butters and nut milks, dried herbs or flowers, smoke your fishing haul, and make many more unique goods!
 *Some sets of artisan goods, such as alcohols, coffee/teas, soap-making, and ice cream are being separated out into their own mods, to allow for players who are looking for a specific aesthetic. Those will be coming at a later date!*
