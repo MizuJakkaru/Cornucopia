@@ -590,22 +590,6 @@
 						"traveling_cart_banned"
 					]
 				},
-				"Cornucopia_Prunes": {
-					"Name": "Cornucopia_Prunes",
-					"Category": -26,
-					"SpriteIndex": 84,
-					"DisplayName": "{{i18n:Prunes_name}}",
-					"Description": "{{i18n:Prunes_description}}",
-					"Texture": "Cornucopia.ArtisanMachines/Objects",
-					"Price": 350,
-					"ContextTags": [
-						"color_dark_purple",
-						"dye_medium",
-						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood",
-						"prune_item"
-					]
-				},
 				"Cornucopia_RiceNoodles": {
 					"Name": "Cornucopia_RiceNoodles",
 					"Category": -26,

@@ -14,7 +14,7 @@
 						{
 							"RequiredItemId": "(O)771",
 							"RequiredCount": 10
-						},
+						}
 					],
 					"OutputItem": [
 						{
@@ -25,40 +25,6 @@
 					],
 					"MinutesUntilReady": 60,
 					"InvalidCountMessage": "{{i18n:DehydratorInvalidCount_Fiber}}"
-				},
-				"Cornucopia_Prunes": {
-					"Id": "Cornucopia_Prunes",
-					"Triggers": [
-						{
-							"RequiredItemId": "(O)406",
-							"RequiredCount": 5
-						},
-						{
-							"RequiredTags": [
-								"plum_item"
-							],
-							"RequiredCount": 5
-						}
-					],
-					"OutputItem": [
-						{
-							"ItemId": "(O)Cornucopia_Prunes",
-							"CopyPrice": true,
-							"PriceModifierMode": "Stack",
-							"PriceModifiers": [
-								{
-									"Modification": "Multiply",
-									"Amount": 7.5
-								},
-								{
-									"Modification": "Add",
-									"Amount": 25
-								}
-							]
-						}
-					],
-					"MinutesUntilReady": 1750,
-					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
 				},
 				"Cornucopia_DriedHerb": {
 					"Id": "Cornucopia_DriedHerb",
