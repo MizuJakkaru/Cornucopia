@@ -39,13 +39,6 @@
 					"Texture": "Cornucopia.ArtisanMachines/Craftables",
 					"SpriteIndex": 16
 				},
-				"Cornucopia_Juicer": {
-					"Name": "Cornucopia_Juicer",
-					"DisplayName": "{{i18n:Juicer_name}}",
-					"Description": "{{i18n:Juicer_description}}",
-					"Texture": "Cornucopia.ArtisanMachines/Craftables",
-					"SpriteIndex": 7
-				},
 				"Cornucopia_DeluxeSmoker": {
 					"Name": "Cornucopia_DeluxeSmoker",
 					"DisplayName": "{{i18n:DeluxeSmoker_name}}",
@@ -82,6 +75,22 @@
 					"Description": "{{i18n:VinegarKeg_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Craftables",
 					"SpriteIndex": 5
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"When": {
+				"Enable Juicer": true
+			},
+			"Entries": {
+				"Cornucopia_Juicer": {
+					"Name": "Cornucopia_Juicer",
+					"DisplayName": "{{i18n:Juicer_name}}",
+					"Description": "{{i18n:Juicer_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Craftables",
+					"SpriteIndex": 7
 				}
 			}
 		}

@@ -6,10 +6,15 @@
 			"Default": "true",
 			"Description": "Adds a smaller keg which can turn grapes, apples, and unmilled rice into vinegar."
 		},
+		"Enable Juicer": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds a new machine to make fruit and vegetable juice."
+		},
 		"Enable Vegetable Wine": {
 			"AllowValues": "true, false",
 			"Default": "false",
-			"Description": "Allows vegetable wine to come from the keg. Vegetable juice will still come from the juicer."
+			"Description": "(Only when Juicer is enabled) Allows vegetable wine to come from the keg. Vegetable juice will still come from the juicer."
 		},
 		"Enable Vanilla Recipe Changes": {
 			"AllowValues": "true, false",

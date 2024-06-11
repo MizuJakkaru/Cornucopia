@@ -3,6 +3,9 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
+			"When": {
+				"Enable Juicer": true
+			},
 			"Entries": {
 				"(BC)Cornucopia_Juicer": {
 					"OutputRules": [

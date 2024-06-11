@@ -94,7 +94,8 @@
 				"Triggers"
 			],
 			"When": {
-				"Enable Vegetable Wine": true
+				"Enable Vegetable Wine": true,
+				"Enable Juicer": true
 			},
 			"Entries": {
 				"Cornucopia_ItemPlacedInMachine_Vegetable": {
@@ -126,7 +127,8 @@
 				"OutputRules"
 			],
 			"When": {
-				"Enable Vegetable Wine": true
+				"Enable Vegetable Wine": true,
+				"Enable Juicer": true
 			},
 			"MoveEntries": [
 				{
