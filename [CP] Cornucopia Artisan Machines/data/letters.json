@@ -20,7 +20,7 @@
 				"Cornucopia.ArtisanMachines_SendPierreDehydratorAlternate": {
 					"Id": "Cornucopia.ArtisanMachines_SendPierreDehydratorAlternate",
 					"Trigger": "DayEnding",
-					"Condition": "PLAYER_HAS_CRAFTING_RECIPE Current (BC)Dehydrator",
+					"Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Dehydrator",
 					"Action": "AddMail Current Cornucopia.ArtisanMachines_PierreDehydratorAlternate tomorrow"
 				}
 			}
