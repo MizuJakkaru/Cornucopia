@@ -161,7 +161,7 @@
 							"OutputItem": [
 								{
 									"ItemId": "(O)Cornucopia_SmokedEgg",
-									"Quality": -1,
+									"CopyQuality": true,
 									"MinStack": 10,
 									"MaxStack": 10
 								}

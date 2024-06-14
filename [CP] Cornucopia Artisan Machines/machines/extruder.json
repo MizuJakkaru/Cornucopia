@@ -41,7 +41,8 @@
 									"ItemId": "(O)Cornucopia_GlassNoodles",
 									"IncrementMachineParentSheetIndex": 1
 								}
-							]
+							],
+							"MinutesUntilReady": 460
 						},
 						{
 							"Id": "Cornucopia_RiceNoodles",

@@ -145,13 +145,7 @@
 					"MinutesUntilReady": 1750,
 					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
 				}
-			},
-			"MoveEntries": [
-				{
-					"Id": "Cornucopia_Prunes",
-					"BeforeId": "DriedFruit"
-				}
-			]
+			}
 		}
 	]
 }
