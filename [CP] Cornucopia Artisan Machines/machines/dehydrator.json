@@ -7,7 +7,6 @@
 				"(BC)Dehydrator",
 				"OutputRules"
 			],
-			"Priority": "Late",
 			"Entries": {
 				"Cornucopia_Hay": {
 					"Id": "Cornucopia_Hay",
