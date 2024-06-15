@@ -1,0 +1,44 @@
+{
+	//Crops seeds
+	"CrocusSeeds_name": "Çiğdem Soğanı",
+	"CrocusSeeds_description": "Kışın ekilir. İçinde safran bulunan mor bir çiçeğin oluşması 9 gün sürer.",
+	"GingerSeeds_name": "Zencefil Tohumları",
+        "GingerSeeds_description": "Yazın ekilir. Olgunlaşması 8 gün sürer.",
+	"SpringOnionSeeds_name": "Yeşil Soğan Tohumları",
+	"SpringOnionSeeds_description": "Baharda ekilir. Olgunlaşması sadece 3 gün sürer.",
+	"SweetPeaSeeds_name": "Itırşahi Tohumları",
+	"SweetPeaSeeds_description": "Yazın ekilir. Küçük tatlı bir çiçek açması 8 gün sürer.",
+	
+	//Bush saplings
+	"BlackberrySeeds_name": "Böğürtlen Fidanı",
+	"BlackberrySeeds_description": "Çalı haline gelmesi 14 gün sürer. Böğürtlen mevsimi boyunca ve biraz daha uzun süre böğürtlen verir (Sonbahar 8-14).",
+	"ChanterelleSeeds_name": "Horozmantarı Büyütücü",
+	"ChanterelleSeeds_description": "Mantar kütüğüne dönüşmesi 22 gün sürer. Sonbaharın sonlarında (18-24. günler) bol miktarda Horozmantarı üretir.",
+	"CommonMushroomSeeds_name": "Mantar Büyütücü",
+	"CommonMushroomSeeds_description": "Mantar kütüğüne dönüşmesi 20 gün sürer. İlkbahar ve sonbahar boyunca mantar üretir.",
+	"HollySeeds_name": "Çobanpüskülü Fidanı",
+        "HollySeeds_description": "Çalı haline gelmesi 12 gün sürer. Kışın her 4 günde bir çobanpüskülü verir.",
+	"MorelSeeds_name": "Kuzmantarı Büyütücü",
+	"MorelSeeds_description": "Mantar kütüğüne dönüşmesi 22 gün sürer. İlkbaharın sonlarında (22-28. günler) bol miktarda kuzugöbeği mantarı verir.",
+	"SalmonberrySeeds_name": "Ahududu Fidanı",
+	"SalmonberrySeeds_description": "Çalı haline gelmesi 10 gün sürer. Ahududu mevsimi boyunca ve biraz daha uzun süre ahududu üretir (İlkbahar 15-21).",
+	
+	//Tree saplings
+	"Hazelnut_name": "Fındık",
+	"HazelnutSapling_name": "Fındık Fidanı",
+	"HazelnutSapling_description": "Olgun bir Fındık ağacının oluşması 28 gün sürer. Sonbaharda hasat edilmeye hazırdır. Yalnızca çevresindeki 8 "kare" boşsa büyür.",
+	"Coconut_name": "Hindistan Cevizi",
+	"CoconutSapling_name": "Hindistan Cevizi Fidanı",
+	"CoconutSapling_description": "Olgun bir Hindistan Cevizi ağacının oluşması 28 gün sürer. Yaz aylarında veya Zencefil Adası'na dikildiğinde tüm yıl boyunca meyve verir. Yalnızca çevresindeki 8 "kare" boşsa büyür.",
+	
+	//Vanilla seeds to bush saplings changes
+	"BlueberrySeeds_name": "Yabanmersini Fidanı",
+	"BlueberrySeeds_description": "Çalı haline gelmesi 12 gün sürer. Yaz aylarında her 4 günde bir yaban mersini verir.",
+	"CactusFruitSeeds_name": "Kaktüs Yetiştirici",
+	"CactusFruitSeeds_description": "İç ya da dış mekanda ekilebilir. Olgunlaşması 16 gün sürer ve ardından yazın her 3 günde bir kaktüs meyvesi verir.",
+	"CoffeeBean_description": "Bahar ve yaz aylarında kahve çekirdekleri üreten bir kahve fidanı yetiştirmek için dikin. Kahve yapmak için bir fıçıya beş çekirdek yerleştir.",
+	"HopsSeeds_name": "Şerbetçiotu Yetiştirici",
+	"HopsSeeds_description": "Çalı haline gelmesi 16 gün sürer. Yaz boyunca her gün şerbetçiotu verir.",	
+	"GrapeSeeds_name": "Üzüm Yetiştirici",
+	"GrapeSeeds_description": "Çalı haline gelmesi 16 gün sürer. Sonbaharda gün aşırı üzüm üretir.",	
+}

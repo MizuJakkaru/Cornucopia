@@ -143,7 +143,7 @@
 			"When": {
 				"HasMod": "Cornucopia.MoreCrops"
 			},
-			"FromFile": "machines-essentialcrops/butterchurn.json, machines-essentialcrops/cask.json, machines-essentialcrops/compactmill.json, machines-essentialcrops/extruder.json, machines-essentialcrops/keg.json, machines-essentialcrops/mayonnaisemachine.json, machines-essentialcrops/oilmaker.json, machines-essentialcrops/preservesjar.json, machines-essentialcrops/yogurtjar.json"
+			"FromFile": "machines-essentialcrops/butterchurn.json, machines-essentialcrops/cask.json, machines-essentialcrops/compactmill.json, machines-essentialcrops/extruder.json, machines-essentialcrops/keg.json, machines-essentialcrops/mayonnaisemachine.json, machines-essentialcrops/oilmaker.json, machines-essentialcrops/preservesjar.json, machines-essentialcrops/yogurtjar.json, machines-essentialcrops/deluxesmoker.json, machines-essentialcrops/vinegarkeg.json"
 		},
 		
 		// add subfiles - extended crops

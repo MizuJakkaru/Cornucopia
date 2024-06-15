@@ -11,8 +11,6 @@
 				"Cornucopia_Dehydrator": "(BC)Cornucopia_DryingRack 1 330 2 82 1/Home/Dehydrator/true/",
 				"Cornucopia_DryingRack": "388 20 771 15/Home/Cornucopia_DryingRack/true/Farming 2",
 				"Cornucopia_Extruder": "709 5 335 2/Home/Cornucopia_Extruder/true/Farming 4",
-				"Cornucopia_Juicer": "335 1 390 20/Home/Cornucopia_Juicer/true/Farming 7",
-				"Cornucopia_VinegarKeg": "388 20 335 1 725 1/Home/Cornucopia_VinegarKeg/true/Farming 6",
 				"Cornucopia_WaxBarrel": "709 5 771 20 (O)Cornucopia_Beeswax 5/Home/Cornucopia_WaxBarrel/true/",
 				"Cornucopia_YogurtJar": "390 40 550 1/Home/Cornucopia_YogurtJar/true/"
 			}

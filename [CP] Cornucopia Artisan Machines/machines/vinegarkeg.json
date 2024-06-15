@@ -22,8 +22,16 @@
 									"RequiredItemId": "(O)423"
 								},
 								{
+									"RequiredItemId": "(O)88"
+								},
+								{
 									"RequiredTags": [
 										"grape_item"
+									]
+								},
+								{
+									"RequiredTags": [
+										"grain_item"
 									]
 								}
 							],

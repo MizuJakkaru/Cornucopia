@@ -7,6 +7,7 @@
 				"(BC)Dehydrator",
 				"OutputRules"
 			],
+			"Priority": "Late",
 			"Entries": {
 				"Cornucopia_Hay": {
 					"Id": "Cornucopia_Hay",
@@ -114,7 +115,8 @@
 								"!spice_item",
 								"!nut_item",
 								"!edible_mushroom_item",
-								"!grain_item"
+								"!grain_item",
+								"!id_o_815"
 							],
 							"RequiredCount": 5
 						}
@@ -145,13 +147,7 @@
 					"MinutesUntilReady": 1750,
 					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
 				}
-			},
-			"MoveEntries": [
-				{
-					"Id": "Cornucopia_Prunes",
-					"BeforeId": "DriedFruit"
-				}
-			]
+			}
 		}
 	]
 }

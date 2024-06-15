@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_VinegarKeg",
+				"OutputRules",
+				"Cornucopia_Vinegar",
+				"Triggers"
+			],
+			"Entries": {
+				"(O)Cornucopia_Sugarcane": {
+					"RequiredItemId": "(O)Cornucopia_Sugarcane"
+				}
+			}
+		},
+	]
+}
