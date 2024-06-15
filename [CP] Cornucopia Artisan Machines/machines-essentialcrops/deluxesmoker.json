@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules",
+				"Cornucopia_SmokedMeat",
+				"Triggers"
+			],
+			"Entries": {
+				"(O)Cornucopia_Tofu": {
+					"RequiredItemId": "(O)Cornucopia_Tofu"
+				}
+			}
+		}
+	]
+}

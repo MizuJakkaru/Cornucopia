@@ -2,20 +2,6 @@
 	"Changes": [
 		{
 			"Action": "EditData",
-			"Target": "Data/Machines",
-			"When": {
-				"HasMod|contains=wildflour.atelierfloral": true
-			},
-			"TargetField": [
-				"(BC)Dehydrator",
-				"OutputRules"
-			],
-			"Entries": {
-				"Cornucopia_DriedFlower": null
-			}
-		},
-		{
-			"Action": "EditData",
 			"Target": "Data/Objects",
 			"When": {
 				"HasMod|contains=wildflour.atelierfloral": true
