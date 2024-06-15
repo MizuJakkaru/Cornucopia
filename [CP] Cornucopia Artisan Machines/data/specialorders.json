@@ -208,7 +208,7 @@
 					"Requester": "George",
 					"Duration": "Month",
 					"Repeatable": true,
-					"RequiredTags": "event_5837189",
+					"RequiredTags": "event_5837189, season_fall",
 					"Condition": "",
 					"OrderType": "",
 					"SpecialRule": "",
