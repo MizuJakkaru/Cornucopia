@@ -84,8 +84,8 @@
 			"Name": "Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping",
 			"Value": "false",
 			"When": {
-				"HasMod|contains=Cornucopia.MoreTrees": true,
-				"HasReadLetter |contains=Cornucopia.MoreTrees_ExtendedTreesPackEnabled": true
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			},
 		},
 		{
