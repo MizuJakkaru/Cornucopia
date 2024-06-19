@@ -134,7 +134,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/bigcraftables.json, data/crabpot.json, data/craftingrecipes.json, data/gifttastes.json, data/letters.json, data/objects.json, data/objectcontexttags.json, data/strings.json, data/specialorders.json, machines/alembic.json, machines/butterchurn.json, machines/cask.json, machines/cheesepress.json, machines/dehydrator.json, machines/deluxesmoker.json, machines/dryingrack.json, machines/extruder.json, machines/fishsmoker.json, machines/compactmill.json, machines/juicer.json, machines/keg.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json, data/forage.json, data/objectreplacements.json, data/events.json"
+			"FromFile": "data/bigcraftables.json, data/crabpot.json, data/craftingrecipes.json, data/gifttastes.json, data/letters.json, data/objects.json, data/objectcontexttags.json, data/strings.json, data/specialorders.json, machines/alembic.json, machines/butterchurn.json, machines/cask.json, machines/cheesepress.json, machines/dehydrator.json, machines/deluxesmoker.json, machines/dryingrack.json, machines/extruder.json, machines/compactmill.json, machines/juicer.json, machines/keg.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/preservesjar.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json, data/forage.json, data/objectreplacements.json, data/events.json"
 		},
 		
 		// add subfiles - essential
