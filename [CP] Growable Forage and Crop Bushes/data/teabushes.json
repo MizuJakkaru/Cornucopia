@@ -238,7 +238,7 @@
 			"Entries": {
 				"(O)481": {
 					"DisplayName": "[LocalizedText Strings\\Objects:Blueberry_Name]",
-					"Description": "{{i18n:BlueberruSeeds_description}}",
+					"Description": "{{i18n:BlueberrySeeds_description}}",
 					"AgeToProduce": 12,
 					"DayToBeginProducing": 0,
 					"Seasons": ["summer"],

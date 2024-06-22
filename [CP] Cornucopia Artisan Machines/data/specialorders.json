@@ -98,7 +98,7 @@
 					"Requester": "Emily",
 					"Duration": "TwoWeeks",
 					"Repeatable": false,
-					"RequiredTags": "",
+					"RequiredTags": "season_spring, season_summer, season_fall",
 					"Condition": "",
 					"OrderType": "",
 					"SpecialRule": "",
