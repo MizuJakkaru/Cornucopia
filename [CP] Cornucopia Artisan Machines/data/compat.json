@@ -6,6 +6,7 @@
 			"When": {
 				"HasMod|contains=wildflour.atelierfloral": true
 			},
+			"Priority": "Late",
 			"TargetField": [
 				"(BC)Dehydrator",
 				"OutputRules"

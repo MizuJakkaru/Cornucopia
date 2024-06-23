@@ -55,7 +55,7 @@
 					"InvalidCountMessage": "{{i18n: PreservesJarInvalidCount_Sardines}}"
 				},
 				"Cornucopia_PickledEggsChicken": {
-					"Id": "Cornucopia_PickledEggs",
+					"Id": "Cornucopia_PickledEggsChicken",
 					"Triggers": [
 						{
 							"RequiredItemId": "(O)176"
@@ -72,7 +72,7 @@
 					"MinutesUntilReady": 4000
 				},
 				"Cornucopia_PickledEggsChickenLarge": {
-					"Id": "Cornucopia_PickledEggs",
+					"Id": "Cornucopia_PickledEggsChickenLarge",
 					"Triggers": [
 						{
 							"RequiredItemId": "(O)174"
@@ -90,7 +90,7 @@
 					"MinutesUntilReady": 4000
 				},
 				"Cornucopia_PickledEggsGold": {
-					"Id": "Cornucopia_PickledEggs",
+					"Id": "Cornucopia_PickledEggsGold",
 					"Triggers": [
 						{
 							"RequiredItemId": "(O)928"
@@ -107,7 +107,7 @@
 					"MinutesUntilReady": 4000
 				},
 				"Cornucopia_PickledEggsOstrich": {
-					"Id": "Cornucopia_PickledEggs",
+					"Id": "Cornucopia_PickledEggsOstrich",
 					"Triggers": [
 						{
 							"RequiredItemId": "(O)289"
@@ -116,7 +116,7 @@
 					"OutputItem": [
 						{
 							"ItemId": "(O)Cornucopia_PickledEggs",
-							"Quality": -1,
+							"CopyQuality": true,
 							"MinStack": 10,
 							"MaxStack": 10
 						}

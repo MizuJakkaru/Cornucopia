@@ -10,6 +10,7 @@
 			],
 			"Entries": {
 				"Cornucopia_GranolaButter": {
+					"Id": "Cornucopia_GranolaButter",
 					"Triggers": [
 						{
 							"RequiredItemId": "(O)Cornucopia_Oats",

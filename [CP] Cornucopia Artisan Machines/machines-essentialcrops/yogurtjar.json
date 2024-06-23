@@ -24,6 +24,7 @@
 			],
 			"Entries": {
 				"Cornucopia_ChocolateYogurt": {
+					"Id": "Cornucopia_ChocolateYogurt",
 					"Triggers": [
 						{
 							"RequiredItemId": "(O)Cornucopia_CocoaPod"

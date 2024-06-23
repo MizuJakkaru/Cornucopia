@@ -124,6 +124,52 @@
 		},
 	],
 	"Changes": [
+		//set mail flags
+		{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "Cornucopia.ArtisanMachines_RemoveConfigFlags": { 
+                    "Id": "Cornucopia.ArtisanMachines_RemoveConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia.ArtisanMachines_RepeatConfigFlags false",
+						"MarkActionApplied All Cornucopia.ArtisanMachines_SetVinegarKegFlags false",
+						"MarkActionApplied All Cornucopia.ArtisanMachines_SetJuicerFlags false",
+                        "RemoveMail All Cornucopia.ArtisanMachines_VinegarKegEnabled all",
+						"RemoveMail All Cornucopia.ArtisanMachines_JuicerEnabled all",
+                    ]
+                },
+				//Entries to set flags based on config
+				"Cornucopia.ArtisanMachines_SetVinegarKegFlags": {
+                    "Id": "Cornucopia.ArtisanMachines_SetVinegarKegFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Enable Vinegar Keg}}",
+                    "HostOnly": true,
+                    "Action": "AddMail All Cornucopia.ArtisanMachines_VinegarKegEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia.ArtisanMachines_SetJuicerFlags": {
+                    "Id": "Cornucopia.ArtisanMachines_SetJuicerFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Enable Juicer}}",
+                    "HostOnly": true,
+                    "Action": "AddMail All Cornucopia.ArtisanMachines_JuicerEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia.ArtisanMachines_RepeatConfigFlags": { 
+                    "Id": "Cornucopia.ArtisanMachines_RepeatConfigFlags",
+                    "Trigger": "DayStarted DayEnding", 
+                    "HostOnly": true,
+                    "Action": null,
+                    "Actions": [
+						"MarkActionApplied All Cornucopia.ArtisanMachines_RemoveConfigFlags false",
+                    ]
+                },
+            }
+        },
         // add item + machine images
         {
             "Action": "Load",

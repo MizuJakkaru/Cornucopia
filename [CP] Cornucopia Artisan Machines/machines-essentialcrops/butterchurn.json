@@ -37,6 +37,7 @@
 					"MinutesUntilReady": 180
 				},
 				"Cornucopia_SoyButter": {
+					"Id": "Cornucopia_SoyButter",
 					"Triggers": [
 						{
 							"RequiredItemId": "(O)Cornucopia_Soybeans",
