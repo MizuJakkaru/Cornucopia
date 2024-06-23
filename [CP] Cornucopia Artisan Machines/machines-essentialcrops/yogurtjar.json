@@ -85,6 +85,30 @@
 							]
 						},
 						{
+							"ItemId": "Cornucopia_FlavoredYogurtSilver",
+							"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
+							"ObjectDisplayName": "{{i18n:FlavoredYogurt_CocoaPod}}",
+							"PreserveId": "DROP_IN",
+							"CopyPrice": true,
+							"CustomData": {
+								"selph.ExtraMachineConfig.CopyColor": "true",
+								"selph.ExtraMachineConfig.RequirementTags.1": "id_o_cornucopia_plainyogurt, quality_silver",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:YogurtJarFuelNeededMessage}}"
+							},
+							"PriceModifiers": [
+								{
+									"Id": "FlavoredYogurt",
+									"Modification": "Multiply",
+									"Amount": 2
+								},
+								{
+									"Id": "YogurtBase",
+									"Modification": "Add",
+									"Amount": 250
+								}
+							]
+						},
+						{
 							"ItemId": "Cornucopia_FlavoredYogurt",
 							"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
 							"ObjectDisplayName": "{{i18n:FlavoredYogurt_CocoaPod}}",

@@ -386,7 +386,7 @@
 									]
 								},
 								{
-									"Id": "Cornucopia_FlavoredHoneyYogurtSilver",
+									"Id": "Cornucopia_FlavoredYogurtSilver",
 									"ItemId": "Cornucopia_FlavoredYogurt",
 									"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
 									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FlavoredYogurt %PRESERVED_DISPLAY_NAME]",
@@ -412,7 +412,7 @@
 									]
 								},
 								{
-									"Id": "Cornucopia_FlavoredHoneyYogurt",
+									"Id": "Cornucopia_FlavoredYogurt",
 									"ItemId": "Cornucopia_FlavoredYogurt",
 									"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
 									"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_FlavoredYogurt %PRESERVED_DISPLAY_NAME]",

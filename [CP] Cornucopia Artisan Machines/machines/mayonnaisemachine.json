@@ -18,36 +18,19 @@
 					"UseFirstValidOutput": true,
 					"OutputItem": [
 						{
-							"Id": "Cornucopia_GarlicMayonnaiseLargeBrownEgg",
+							"Id": "Cornucopia_GarlicMayonnaiseLargeEgg",
 							"ItemId": "(O)Cornucopia_GarlicMayonnaise",
 							"Quality": 2,
 							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)182",
+								"selph.ExtraMachineConfig.RequirementTags.1": "item_large_egg",
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
 						},
 						{
-							"Id": "Cornucopia_GarlicMayonnaiseSmallBrownEgg",
+							"Id": "Cornucopia_GarlicMayonnaiseSmallEgg",
 							"ItemId": "(O)Cornucopia_GarlicMayonnaise",
 							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)180",
-								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
-							}
-						},
-						{
-							"Id": "Cornucopia_GarlicMayonnaiseLargeWhiteEgg",
-							"ItemId": "(O)Cornucopia_GarlicMayonnaise",
-							"Quality": 2,
-							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)174",
-								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
-							}
-						},
-						{
-							"Id": "Cornucopia_GarlicMayonnaiseSmallWhiteEgg",
-							"ItemId": "(O)Cornucopia_GarlicMayonnaise",
-							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)176",
+								"selph.ExtraMachineConfig.RequirementTags.1": "item_egg",
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
 						}
@@ -69,36 +52,19 @@
 					"UseFirstValidOutput": true,
 					"OutputItem": [
 						{
-							"Id": "Cornucopia_SpicyMayonnaiseLargeBrownEgg",
+							"Id": "Cornucopia_SpicyMayonnaiseLargeEgg",
 							"ItemId": "(O)Cornucopia_SpicyMayonnaise",
 							"Quality": 2,
 							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)182",
+								"selph.ExtraMachineConfig.RequirementTags.1": "item_large_egg",
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
 						},
 						{
-							"Id": "Cornucopia_SpicyMayonnaiseSmallBrownEgg",
+							"Id": "Cornucopia_SpicyMayonnaiseSmallEgg",
 							"ItemId": "(O)Cornucopia_SpicyMayonnaise",
 							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)180",
-								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
-							}
-						},
-						{
-							"Id": "Cornucopia_SpicyMayonnaiseLargeWhiteEgg",
-							"ItemId": "(O)Cornucopia_SpicyMayonnaise",
-							"Quality": 2,
-							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)174",
-								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
-							}
-						},
-						{
-							"Id": "Cornucopia_SpicyMayonnaiseSmallWhiteEgg",
-							"ItemId": "(O)Cornucopia_SpicyMayonnaise",
-							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)176",
+								"selph.ExtraMachineConfig.RequirementTags.1": "item_egg",
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
 						}
@@ -115,36 +81,19 @@
 					"UseFirstValidOutput": true,
 					"OutputItem": [
 						{
-							"Id": "Cornucopia_TruffleMayonnaiseLargeBrownEgg",
+							"Id": "Cornucopia_TruffleMayonnaiseLargeEgg",
 							"ItemId": "(O)Cornucopia_TruffleMayonnaise",
 							"Quality": 2,
 							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)182",
+								"selph.ExtraMachineConfig.RequirementTags.1": "item_large_egg",
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
 						},
 						{
-							"Id": "Cornucopia_TruffleMayonnaiseSmallBrownEgg",
+							"Id": "Cornucopia_TruffleMayonnaiseSmallEgg",
 							"ItemId": "(O)Cornucopia_TruffleMayonnaise",
 							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)180",
-								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
-							}
-						},
-						{
-							"Id": "Cornucopia_TruffleMayonnaiseLargeWhiteEgg",
-							"ItemId": "(O)Cornucopia_TruffleMayonnaise",
-							"Quality": 2,
-							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)174",
-								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
-							}
-						},
-						{
-							"Id": "Cornucopia_TruffleMayonnaiseSmallWhiteEgg",
-							"ItemId": "(O)Cornucopia_TruffleMayonnaise",
-							"CustomData": {
-								"selph.ExtraMachineConfig.RequirementId.1": "(O)176",
+								"selph.ExtraMachineConfig.RequirementTags.1": "item_egg",
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
 						}

@@ -35,6 +35,7 @@
 					],
 					"OutputItem": [
 						{
+							"Id": "Triple Output",
 							"ItemId": "(O)Cornucopia_Kimchi",
 							"Condition": "ITEM_CONTEXT_TAG Input id_o_cornucopia_daikon",
 							"MinStack": 3
