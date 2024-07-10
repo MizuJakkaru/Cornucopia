@@ -567,7 +567,7 @@
 					"Price": 80,
 					"Edibility": -300,
 					"ContextTags": [
-						"color_white",
+						"color_sand",
 						"nut_item",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood"
