@@ -232,7 +232,7 @@
 	"GusSpecialOrder_name": "Rauch-Schmaus",
 	"GusSpecialOrder_text": "Ich möchte ein oder zwei neue Rezepte mit geräuchertem Fisch ausprobieren. Wenn jemand einige geräucherte Fische versenden könnte, wäre ich in der Lage, vom Markt die benötigten Zutaten zu holen und mich von der Muse küssen zu lassen.",
 	"GusSpecialOrder_objective": "Versende 25 geräucherte Fische.",
-	"GusSpecialOrder_letter": "${Lieber¦Liebe}@, ^ dank dir konnte ich einige neue Rezepte mit geräucherten Fischen ausprobieren! Ich habe hier ein paar Kniffe, wie du deinen Fischräucherer verbessern und auch andere Lebensmittel räuchern kannst.^-Gus %item craftingRecipe Cornucopia_DeluxeSmoker %%[#]Premium-Räucherer-Rezept",
+	"GusSpecialOrder_letter": "Lieber @, ^ dank dir konnte ich einige neue Rezepte mit geräucherten Fischen ausprobieren! Ich habe hier ein paar Kniffe, wie du deinen Fischräucherer verbessern und auch andere Lebensmittel räuchern kannst.^-Gus %item craftingRecipe Cornucopia_DeluxeSmoker %%[#]Premium-Räucherer-Rezept¦Liebe @, ^ dank dir konnte ich einige neue Rezepte mit geräucherten Fischen ausprobieren! Ich habe hier ein paar Kniffe, wie du deinen Fischräucherer verbessern und auch andere Lebensmittel räuchern kannst.^-Gus %item craftingRecipe Cornucopia_DeluxeSmoker %%[#]Premium-Räucherer-Rezept",
 	"GeorgeSpecialOrder_text": "Pass auf und hör' zu: Ich denke, es ist an der Zeit, dass ich mich bei Evelyn für ihr Geschenk revanchiere und ihr zeige, dass ich auch ein Herz habe. Bring mir doch ein paar ihrer Lieblingssachen...oder eben anderes romantisches Zeug.",
 	"GeorgeSpecialOrder_objective0_fairyrose": "Sammle 10 Feenrosen.",
 	"GeorgeSpecialOrder_objective0_rose": "Sammle 10 Rosen.",
