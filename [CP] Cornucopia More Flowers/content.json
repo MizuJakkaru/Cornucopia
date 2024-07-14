@@ -21,6 +21,11 @@
 			"Default": "true",
 			"Description": "Allows giant crops to grow on Ginger Island farm, which allows you to get giant rafflesias."
 		},
+		"Enable Multicolored Flowers": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Allow some flowers to create multiple color varieties, similar to most vanilla flowers. If you change this config option, it will only affect newly planted flowers."
+		},
 		"SVE Compat Patch": {
 			"AllowValues": "true, false",
 			"Default": "true",
@@ -93,7 +98,12 @@
             "Target": "Cornucopia.MoreFlowers/Crops, Cornucopia.MoreFlowers/Objects, Cornucopia.MoreFlowers/FruitTrees, Cornucopia.MoreFlowers/Furniture, Cornucopia.MoreFlowers/teabushes_indoors, Cornucopia.MoreFlowers/GiantCrops",
             "FromFile": "assets/{{TargetWithoutPath}}.png"
         },
-		
+		{
+            "Action": "EditImage",
+            "Target": "Cornucopia.MoreFlowers/Crops",
+            "FromFile": "assets/crops_uncolored.png",
+			"When": {"Enable Multicolored Flowers": false}
+        },
 		// add teabushes images
         {
             "Action": "Load",
@@ -105,6 +115,11 @@
 		{
 			"Action": "Include",
 			"FromFile": "data/crops.json, data/fruittrees.json, data/furniture.json, data/gifttastes.json, data/multiyieldcrops.json, data/objects.json, data/objectcontexttags.json, data/shop_carpenter.json, data/shop_joja.json, data/shop_pierre.json, data/shop_islandtrader.json, data/shop_marnie.json, data/shop_oasis.json, data/teabushes.json, data/shop_festivals.json, data/shop_travelingcart.json, data/giantcrops.json, data/forage.json, data/compat.json, data/mixedseeds.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/crops_uncolored.json",
+			"When": {"Enable Multicolored Flowers": false}
 		},
     ]
 }

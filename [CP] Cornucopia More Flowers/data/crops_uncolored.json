@@ -1,0 +1,54 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"Cornucopia_ChrysanthemumSeeds": {
+					"TintColors": null
+                },
+				"Cornucopia_LilySeeds": {
+					"TintColors": null
+                },
+                "Cornucopia_OrchidSeeds": {
+					"TintColors": null
+                },
+                "Cornucopia_PansySeeds": {
+					"TintColors": null
+                },
+				"Cornucopia_RoseSeeds": {
+					"TintColors": null
+                }
+			}
+		},
+		// Extended flowers crops
+		{
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"When": {"Enable Extended Flowers Pack": true},
+			"Fields": {
+                "Cornucopia_CarnationSeeds": {
+					"TintColors": null
+                },
+                "Cornucopia_DahliaSeeds": {
+					"TintColors": null
+                },
+                "Cornucopia_FreesiaSeeds": {
+					"TintColors": null
+                },
+                "Cornucopia_HyacinthSeeds": {
+					"TintColors": null
+                },
+                "Cornucopia_HydrangeaSeeds": {
+					"TintColors": null
+                },
+                "Cornucopia_LarkspurSeeds": {
+					"TintColors": null
+                },
+                "Cornucopia_LupineSeeds": {
+					"TintColors": null
+                },
+			}
+        },
+	]
+}
