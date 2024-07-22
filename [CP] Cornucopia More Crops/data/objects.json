@@ -4518,6 +4518,7 @@
 				},
 				"Cornucopia_Tofu": {
 					"Name": "Cornucopia_Tofu",
+					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 10,
 					"DisplayName": "{{i18n:Tofu_name}}",
@@ -4537,6 +4538,7 @@
 				},
 				"Cornucopia_Molasses": {
 					"Name": "Cornucopia_Molasses",
+					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 1,
 					"DisplayName": "{{i18n:Molasses_name}}",
