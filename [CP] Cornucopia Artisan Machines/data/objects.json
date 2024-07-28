@@ -189,7 +189,6 @@
 					"Edibility": -300,
 					"ContextTags": [
 						"color_brown",
-						"butter_item",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood"
 					]
@@ -423,7 +422,6 @@
 						"color_yellow",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"butter_item"
 					]
 				},
 				"Cornucopia_MapleButter": {
@@ -439,7 +437,6 @@
 						"color_sand",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"butter_item"
 					]
 				},
 				"Cornucopia_Margarine": {
@@ -1026,7 +1023,6 @@
 					"Edibility": -300,
 					"ContextTags": [
 						"color_sand",
-						"butter_item"
 					]
 				},
 				"Cornucopia_MisoPaste": {

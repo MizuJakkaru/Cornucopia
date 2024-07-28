@@ -68,6 +68,7 @@
 								"DropBox": "MarnieFridge",
 								"DropBoxGameLocation": "AnimalShop",
 								"DropBoxIndicatorLocation": "28 13",
+								"MinimumCapacity": "24",
 								"AcceptedContextTags": "category_milk"
 							}
 						}
