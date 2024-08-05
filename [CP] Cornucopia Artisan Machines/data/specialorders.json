@@ -41,7 +41,7 @@
 				"Cornucopia.ArtisanMachines_YogurtJar": {
 					"Name": "{{i18n:MarnieSpecialOrder_name}}",
 					"Requester": "Marnie",
-					"Duration": "Week",
+					"Duration": "TwoWeeks",
 					"Repeatable": false,
 					"RequiredTags": "",
 					"Condition": "",
@@ -99,7 +99,7 @@
 					"Requester": "Emily",
 					"Duration": "TwoWeeks",
 					"Repeatable": false,
-					"RequiredTags": "season_spring, season_summer, season_fall",
+					"RequiredTags": "!season_winter",
 					"Condition": "",
 					"OrderType": "",
 					"SpecialRule": "",

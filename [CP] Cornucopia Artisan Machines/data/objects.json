@@ -12,7 +12,8 @@
 					"Description": "{{i18n:Applesauce_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 250,
-					"Edibility": -300,
+					"Edibility": 15,
+					"IsDrink": true,
 					"ContextTags": [
 						"color_dark_yellow",
 						"applesauce_item",
