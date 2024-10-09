@@ -18,12 +18,116 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
+			"Priority": "Late",
 			"When": {
 				"HasMod|contains=wildflour.atelierfloral": true
 			},
 			"Fields": {
 				"Cornucopia_DriedFlower": {
-					"ExcludeFromShippingCollection": true,
+					"ExcludeFromShippingCollection": true
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Butter": {
+					"ExcludeFromShippingCollection": true
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Entries": {
+				"FlashShifter.StardewValleyExpandedCP_Butter_Churner": null
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Fields": {
+				"Baked Potato": {
+					"0": "192 1 Cornucopia_Butter 1"
+				},
+				"Grilled Cheese Sandwich": {
+					"0": "197 1 216 1 Cornucopia_Butter 1"
+				},
+				"Pineapple Custard Crepe": {
+					"0": "832 1 245 1 246 1 Cornucopia_Butter 1"
+				},
+				"Glazed Pear": {
+					"0": "FlashShifter.StardewValleyExpandedCP_Pear 1 245 1 246 1 Cornucopia_Butter 1"
+				},
+				"Stuffed Persimmon": {
+					"0": "FlashShifter.StardewValleyExpandedCP_Persimmon 1 239 1 216 1 Cornucopia_Butter"
+				},
+				"Cheese Charcuterie": {
+					"0": "424 1 426 1 246 1 Cornucopia_Butter 1"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Entries": {
+				"Butter Churner": null
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {
+					"ProducedItems": [
+						{
+							"RequiredPopulation": 10,
+							"Chance": 0.1,
+							"ItemID": "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish",
+							"MinQuantity": 1,
+							"MaxQuantity": 2
+						},
+						{
+							"RequiredPopulation": 7,
+							"Chance": 0.33,
+							"ItemID": "Cornucopia_Butter",
+							"MinQuantity": 1,
+							"MaxQuantity": 6
+						},
+						{
+							"RequiredPopulation": 0,
+							"Chance": 1.0,
+							"ItemID": 812,
+							"MinQuantity": 1,
+							"MaxQuantity": 1
+						}
+					]
 				}
 			}
 		}

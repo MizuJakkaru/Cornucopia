@@ -46,8 +46,6 @@
 									"CustomData": {
 										"selph.ExtraMachineConfig.CopyColor": "true",
 										"selph.ExtraMachineConfig.InheritPreserveId": true,
-										"selph.ExtraMachineConfig.RequirementId.1": "(O)Cornucopia_Beeswax",
-										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WaxBarrelMissingFuel}}"
 									},
 									"PriceModifiers": [
 										{
@@ -114,8 +112,6 @@
 									"CopyPrice": true,
 									"CustomData": {
 										"selph.ExtraMachineConfig.CopyColor": "true",
-										"selph.ExtraMachineConfig.RequirementId.1": "(O)Cornucopia_Beeswax",
-										"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WaxBarrelMissingFuel}}"
 									},
 									"PriceModifiers": [
 										{

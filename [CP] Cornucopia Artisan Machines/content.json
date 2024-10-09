@@ -26,6 +26,11 @@
 			"Default": "true",
 			"Description": "(Requires Spacecore) Allows using alternative cheese, including goat cheese and plant-based cheese, in vanilla recipes that use cheese. Also allows using plant-based milks in vanilla recipes that use milk."
 		},
+		"SVE Compat Patch": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Removes SVE butter churn and butter and replaces it with Cornucopia butter."
+		},
 	},
 	"DynamicTokens": [
 		{
