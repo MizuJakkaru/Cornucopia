@@ -73,7 +73,7 @@
 		"Cornucopia_SweetPeaSeeds": {
 			"Id": "Cornucopia_SweetPeaSeeds",
 			"ItemId": "Cornucopia_SweetPeaSeeds",
-			"Condition": "SEASON spring",
+			"Condition": "SEASON summer",
 			//"Price": 30,
 			"IgnoreShopPriceModifiers": true
 		}
