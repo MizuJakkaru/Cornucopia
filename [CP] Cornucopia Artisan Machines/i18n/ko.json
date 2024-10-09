@@ -232,7 +232,7 @@
 	"GusSpecialOrder_name": "지평선 위의 스모키한 맛",
 	"GusSpecialOrder_text": "나는 훈제 생선을 이용한 새로운 요리 한두 가지를 시도해 보려고 해. 누군가 훈제 생선을 배송해 줄 수 있다면, 아마도 나는 시장에서 필요한 것을 더 사서 내 창의적인 열정을 요리로 바꾸어 낼수 있을거 같아.",
 	"GusSpecialOrder_objective": "훈제 생선 25마리 배송.",
-	"GusSpecialOrder_letter": "@,^ 너 때문에 새로운 훈제 생선 요리법을 몇 가지 시도해 볼 수 있었어. 다른 농산물도 훈제할 수 있도록 생선 훈제기를 더욱 좋게 만드는 방법이 적힌 노트를 줄께.^-Gus ",
+	"GusSpecialOrder_letter": "@,^ 너 때문에 새로운 훈제 생선 요리법을 몇 가지 시도해 볼 수 있었어. 다른 농산물도 훈제할 수 있도록 생선 훈제기를 더욱 좋게 만드는 방법이 적힌 노트를 줄께.^-Gus %item craftingRecipe Cornucopia_DeluxeSmoker %%[#]Deluxe Smoker Recipe",
 	"GeorgeSpecialOrder_name": "에블린을 위한 선물",
 	"GeorgeSpecialOrder_text": "잘 들어봐! 이제는 에블린이 내게 배푼 은혜를 갚아야 할 때가 된 것 같아. 에블린이 좋아하는 선물이나 너가 가지고 있는 다른 감상적인 수단을 가져와줘.",
 	"GeorgeSpecialOrder_objective0_fairyrose": "요정 장미 10송이 모으기.",

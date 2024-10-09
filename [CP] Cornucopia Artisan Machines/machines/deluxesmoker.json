@@ -189,6 +189,9 @@
 									"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:SmokedFish_DisplayName %PRESERVED_DISPLAY_NAME]",
 									"PreserveId": "DROP_IN",
 									"CopyPrice": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": true
+									},
 									"PriceModifierMode": "Stack",
 									"PriceModifiers": [
 										{
@@ -226,6 +229,9 @@
 									"CopyPrice": true,
 									"PriceModifierMode": "Stack",
 									"CopyQuality": true,
+									"CustomData": {
+										"selph.ExtraMachineConfig.CopyColor": true
+									},
 									"PriceModifiers": [
 										{
 											"Modification": "Multiply",

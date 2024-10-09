@@ -63,10 +63,10 @@
 								{
 									"Id": "Ship"
 								},
-          {
-            "Id": "bubbles",
-            "Delay": 0
-          }
+								{
+									"Id": "bubbles",
+									"Delay": 0
+								}
 							],
 							"TemporarySprites": [
 								{

@@ -3,6 +3,9 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
+			"When": {
+				"Enable Vinegar Keg": true
+			},
 			"TargetField": [
 				"(BC)Cornucopia_VinegarKeg",
 				"OutputRules",

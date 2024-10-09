@@ -7,6 +7,7 @@
 				"Cornucopia_Applesauce": {
 					"Name": "Cornucopia_Applesauce",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 28,
 					"DisplayName": "{{i18n:Applesauce_name}}",
 					"Description": "{{i18n:Applesauce_description}}",
@@ -24,6 +25,7 @@
 				"Cornucopia_Beeswax": {
 					"Name": "Cornucopia_Beeswax",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 92,
 					"DisplayName": "{{i18n:Beeswax_name}}",
 					"Description": "{{i18n:Beeswax_description}}",
@@ -40,6 +42,7 @@
 				"Cornucopia_Butter": {
 					"Name": "Cornucopia_Butter",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 3,
 					"DisplayName": "{{i18n:Butter_name}}",
 					"Description": "{{i18n:Butter_description}}",
@@ -58,6 +61,7 @@
 				"Cornucopia_Candles": {
 					"Name": "Cornucopia_Candles",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 124,
 					"DisplayName": "{{i18n:Candles_name}}",
 					"Description": "{{i18n:Candles_description}}",
@@ -74,6 +78,7 @@
 				"Cornucopia_CenturyEgg": {
 					"Name": "Cornucopia_CenturyEgg",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 82,
 					"DisplayName": "{{i18n:CenturyEgg_name}}",
 					"Description": "{{i18n:CenturyEgg_description}}",
@@ -91,6 +96,7 @@
 				"Cornucopia_ChiliOil": {
 					"Name": "Cornucopia_ChiliOil",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 15,
 					"DisplayName": "{{i18n:ChiliOil_name}}",
 					"Description": "{{i18n:ChiliOil_description}}",
@@ -110,6 +116,7 @@
 				"Cornucopia_ChiliPowder": {
 					"Name": "Cornucopia_ChiliPowder",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 29,
 					"DisplayName": "{{i18n:ChiliPowder_name}}",
 					"Description": "{{i18n:ChiliPowder_description}}",
@@ -130,6 +137,7 @@
 				"Cornucopia_CoconutButter": {
 					"Name": "Cornucopia_CoconutButter",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 6,
 					"DisplayName": "{{i18n:CoconutButter_name}}",
 					"Description": "{{i18n:CoconutButter_description}}",
@@ -146,6 +154,7 @@
 				"Cornucopia_CoconutMilk": {
 					"Name": "Cornucopia_CoconutMilk",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 80,
 					"DisplayName": "{{i18n:CoconutMilk_name}}",
 					"Description": "{{i18n:CoconutMilk_description}}",
@@ -165,6 +174,7 @@
 				"Cornucopia_CoconutOil": {
 					"Name": "Cornucopia_CoconutOil",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 12,
 					"DisplayName": "{{i18n:CoconutOil_name}}",
 					"Description": "{{i18n:CoconutOil_description}}",
@@ -182,6 +192,7 @@
 				"Cornucopia_CookieButter": {
 					"Name": "Cornucopia_CookieButter",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 7,
 					"DisplayName": "{{i18n:CookieButter_name}}",
 					"Description": "{{i18n:CookieButter_description}}",
@@ -197,6 +208,7 @@
 				"Cornucopia_DriedFlower": {
 					"Name": "Cornucopia_DriedFlower",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 120,
 					"DisplayName": "{{i18n:DriedFlower_name}}",
 					"Description": "{{i18n:DriedFlower_description}}",
@@ -214,6 +226,7 @@
 				"Cornucopia_DriedHerb": {
 					"Name": "Cornucopia_DriedHerb",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 122,
 					"DisplayName": "{{i18n:DriedHerb_name}}",
 					"Description": "{{i18n:DriedHerb_description}}",
@@ -232,6 +245,7 @@
 				"Cornucopia_DriedSquid": {
 					"Name": "Cornucopia_DriedSquid",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 93,
 					"DisplayName": "{{i18n:DriedSquid_name}}",
 					"Description": "{{i18n:DriedSquid_description}}",
@@ -251,6 +265,7 @@
 				"Cornucopia_DriedVegetable": {
 					"Name": "Cornucopia_DriedVegetable",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 140,
 					"DisplayName": "{{i18n:DriedVegetable_name}}",
 					"Description": "{{i18n:DriedVegetable_description}}",
@@ -268,6 +283,7 @@
 				"Cornucopia_EssentialOil": {
 					"Name": "Cornucopia_EssentialOil",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 142,
 					"DisplayName": "{{i18n:EssentialOil_name}}",
 					"Description": "{{i18n:EssentialOil_description}}",
@@ -285,6 +301,7 @@
 				"Cornucopia_FishOil": {
 					"Name": "Cornucopia_FishOil",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 13,
 					"DisplayName": "{{i18n:FishOil_name}}",
 					"Description": "{{i18n:FishOil_description}}",
@@ -304,6 +321,7 @@
 				"Cornucopia_FishSauce": {
 					"Name": "Cornucopia_FishSauce",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 16,
 					"DisplayName": "{{i18n:FishSauce_name}}",
 					"Description": "{{i18n:FishSauce_description}}",
@@ -322,6 +340,7 @@
 				"Cornucopia_FlavoredYogurt": {
 					"Name": "Cornucopia_FlavoredYogurt",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 150,
 					"DisplayName": "{{i18n:FlavoredYogurt_name}}",
 					"Description": "{{i18n:FlavoredYogurt_description}}",
@@ -342,6 +361,7 @@
 				"Cornucopia_GarlicMayonnaise": {
 					"Name": "Cornucopia_GarlicMayonnaise",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 22,
 					"DisplayName": "{{i18n:GarlicMayonnaise_name}}",
 					"Description": "{{i18n:GarlicMayonnaise_description}}",
@@ -361,6 +381,7 @@
 				"Cornucopia_Garum": {
 					"Name": "Cornucopia_Garum",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 17,
 					"DisplayName": "{{i18n:Garum_name}}",
 					"Description": "{{i18n:Garum_description}}",
@@ -379,6 +400,7 @@
 				"Cornucopia_GellingPowder": {
 					"Name": "Cornucopia_GellingPowder",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 60,
 					"DisplayName": "{{i18n:GellingPowder_name}}",
 					"Description": "{{i18n:GellingPowder_description}}",
@@ -396,6 +418,7 @@
 				"Cornucopia_GlassNoodles": {
 					"Name": "Cornucopia_GlassNoodles",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 67,
 					"DisplayName": "{{i18n:GlassNoodles_name}}",
 					"Description": "{{i18n:GlassNoodles_description}}",
@@ -413,6 +436,7 @@
 				"Cornucopia_HoneyButter": {
 					"Name": "Cornucopia_HoneyButter",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 9,
 					"DisplayName": "{{i18n:HoneyButter_name}}",
 					"Description": "{{i18n:HoneyButter_description}}",
@@ -422,12 +446,13 @@
 					"ContextTags": [
 						"color_yellow",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood",
+						"cornucopia_artisangood"
 					]
 				},
 				"Cornucopia_MapleButter": {
 					"Name": "Cornucopia_MapleButter",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 8,
 					"DisplayName": "{{i18n:MapleButter_name}}",
 					"Description": "{{i18n:MapleButter_description}}",
@@ -437,12 +462,13 @@
 					"ContextTags": [
 						"color_sand",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood",
+						"cornucopia_artisangood"
 					]
 				},
 				"Cornucopia_Margarine": {
 					"Name": "Cornucopia_Margarine",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 4,
 					"DisplayName": "{{i18n:Margarine_name}}",
 					"Description": "{{i18n:Margarine_description}}",
@@ -460,6 +486,7 @@
 				"Cornucopia_NutButter": {
 					"Name": "Cornucopia_NutButter",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 130,
 					"DisplayName": "{{i18n:NutButter_name}}",
 					"Description": "{{i18n:NutButter_description}}",
@@ -478,12 +505,13 @@
 				"Cornucopia_NutCheese": {
 					"Name": "Cornucopia_NutCheese",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 148,
 					"DisplayName": "{{i18n:NutCheese_name}}",
 					"Description": "{{i18n:NutCheese_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
-					"Edibility": 125,
+					"Edibility": 50,
 					"ContextTags": [
 						"color_white",
 						"nut_cheese_item",
@@ -498,6 +526,7 @@
 				"Cornucopia_NutMilk": {
 					"Name": "Cornucopia_NutMilk",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 128,
 					"DisplayName": "{{i18n:NutMilk_name}}",
 					"Description": "{{i18n:NutMilk_description}}",
@@ -519,6 +548,7 @@
 				"Cornucopia_PickledEggs": {
 					"Name": "Cornucopia_PickledEggs",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 126,
 					"DisplayName": "{{i18n:PickledEggs_name}}",
 					"Description": "{{i18n:PickledEggs_description}}",
@@ -539,6 +569,7 @@
 				"Cornucopia_PickledFish": {
 					"Name": "Cornucopia_PickledFish",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 146,
 					"DisplayName": "{{i18n:PickledFish_name}}",
 					"Description": "{{i18n:PickledFish_description}}",
@@ -558,6 +589,7 @@
 				"Cornucopia_PineNuts": {
 					"Name": "Cornucopia_PineNuts",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 34,
 					"DisplayName": "{{i18n:PineNuts_name}}",
 					"Description": "{{i18n:PineNuts_description}}",
@@ -574,6 +606,7 @@
 				"Cornucopia_PrismaticEssence": {
 					"Name": "Cornucopia_PrismaticEssence",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 2,
 					"DisplayName": "{{i18n:PrismaticEssence_name}}",
 					"Description": "{{i18n:PrismaticEssence_description}}",
@@ -591,6 +624,7 @@
 				"Cornucopia_RiceNoodles": {
 					"Name": "Cornucopia_RiceNoodles",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 64,
 					"DisplayName": "{{i18n:RiceNoodles_name}}",
 					"Description": "{{i18n:RiceNoodles_description}}",
@@ -608,6 +642,7 @@
 				"Cornucopia_RoastedGarlic": {
 					"Name": "Cornucopia_RoastedGarlic",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 71,
 					"DisplayName": "{{i18n:RoastedGarlic_name}}",
 					"Description": "{{i18n:RoastedGarlic_description}}",
@@ -623,6 +658,7 @@
 				"Cornucopia_RoastedSunflowerSeeds": {
 					"Name": "Cornucopia_RoastedSunflowerSeeds",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 69,
 					"DisplayName": "{{i18n:RoastedSunflowerSeeds_name}}",
 					"Description": "{{i18n:RoastedSunflowerSeeds_description}}",
@@ -638,6 +674,7 @@
 				"Cornucopia_RoastedPumpkinSeeds": {
 					"Name": "Cornucopia_RoastedPumpkinSeeds",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 70,
 					"DisplayName": "{{i18n:RoastedPumpkinSeeds_name}}",
 					"Description": "{{i18n:RoastedPumpkinSeeds_description}}",
@@ -653,6 +690,7 @@
 				"Cornucopia_Saffron": {
 					"Name": "Cornucopia_Saffron",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 33,
 					"DisplayName": "{{i18n:Saffron_name}}",
 					"Description": "{{i18n:Saffron_description}}",
@@ -671,6 +709,7 @@
 				"Cornucopia_Salt": {
 					"Name": "Cornucopia_Salt",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 36,
 					"DisplayName": "{{i18n:Salt_name}}",
 					"Description": "{{i18n:Salt_description}}",
@@ -690,6 +729,7 @@
 				"Cornucopia_ShrimpPaste": {
 					"Name": "Cornucopia_ShrimpPaste",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 32,
 					"DisplayName": "{{i18n:ShrimpPaste_name}}",
 					"Description": "{{i18n:ShrimpPaste_description}}",
@@ -710,6 +750,7 @@
 				"Cornucopia_SmokedCheese": {
 					"Name": "Cornucopia_SmokedCheese",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 73,
 					"DisplayName": "{{i18n:SmokedCheese_name}}",
 					"Description": "{{i18n:SmokedCheese_description}}",
@@ -728,6 +769,7 @@
 				"Cornucopia_SmokedEgg": {
 					"Name": "Cornucopia_SmokedEgg",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 74,
 					"DisplayName": "{{i18n:SmokedEgg_name}}",
 					"Description": "{{i18n:SmokedEgg_description}}",
@@ -747,6 +789,7 @@
 				"Cornucopia_SmokedMeat": {
 					"Name": "Cornucopia_SmokedMeat",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 75,
 					"DisplayName": "{{i18n:SmokedMeat_name}}",
 					"Description": "{{i18n:SmokedMeat_description}}",
@@ -767,6 +810,7 @@
 				"Cornucopia_SmokedSalmon": {
 					"Name": "Cornucopia_SmokedSalmon",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 94,
 					"DisplayName": "{{i18n:SmokedSalmon_name}}",
 					"Description": "{{i18n:SmokedSalmon_description}}",
@@ -785,12 +829,13 @@
 				"Cornucopia_SnackCheese": {
 					"Name": "Cornucopia_SnackCheese",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 72,
 					"DisplayName": "{{i18n:SnackCheese_name}}",
 					"Description": "{{i18n:SnackCheese_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 240,
-					"Edibility": -300,
+					"Edibility": 36,
 					"ContextTags": [
 						"color_red",
 						"modid_cornucopia.artisanmachines",
@@ -802,6 +847,7 @@
 				"Cornucopia_SpicyMayonnaise": {
 					"Name": "Cornucopia_SpicyMayonnaise",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 25,
 					"DisplayName": "{{i18n:SpicyMayonnaise_name}}",
 					"Description": "{{i18n:SpicyMayonnaise_description}}",
@@ -822,6 +868,7 @@
 				"Cornucopia_TruffleMayonnaise": {
 					"Name": "Cornucopia_TruffleMayonnaise",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 27,
 					"DisplayName": "{{i18n:TruffleMayonnaise_name}}",
 					"Description": "{{i18n:TruffleMayonnaise_description}}",
@@ -841,6 +888,7 @@
 				"Cornucopia_WaxMelts": {
 					"Name": "Cornucopia_WaxMelts",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 144,
 					"DisplayName": "{{i18n:WaxMelts_name}}",
 					"Description": "{{i18n:WaxMelts_description}}",
@@ -857,6 +905,7 @@
 				"Cornucopia_WheatNoodles": {
 					"Name": "Cornucopia_WheatNoodles",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 62,
 					"DisplayName": "{{i18n:WheatNoodles_name}}",
 					"Description": "{{i18n:WheatNoodles_description}}",
@@ -876,6 +925,7 @@
 				"Cornucopia_PlainYogurt": {
 					"Name": "Cornucopia_PlainYogurt",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 85,
 					"DisplayName": "{{i18n:PlainYogurt_name}}",
 					"Description": "{{i18n:PlainYogurt_description}}",
@@ -891,6 +941,7 @@
 				"Cornucopia_CornFlour": {
 					"Name": "Cornucopia_CornFlour",
 					"Category": 0,
+					"Type": "Basic",
 					"SpriteIndex": 61,
 					"DisplayName": "{{i18n:CornFlour_name}}",
 					"Description": "{{i18n:CornFlour_description}}",
@@ -905,6 +956,7 @@
 				"Cornucopia_OrangeZest": {
 					"Name": "Cornucopia_OrangeZest",
 					"Category": 0,
+					"Type": "Basic",
 					"SpriteIndex": 79,
 					"DisplayName": "{{i18n:OrangeZest_name}}",
 					"Description": "{{i18n:OrangeZest_description}}",
@@ -934,6 +986,7 @@
 				},
 				"Cornucopia_Sauerkraut": {
 					"Name": "Cornucopia_Sauerkraut",
+					"Type": "Basic",
 					"Category": -26,
 					"SpriteIndex": 38,
 					"DisplayName": "{{i18n:Sauerkraut_name}}",
@@ -958,6 +1011,7 @@
 				"Cornucopia_AvocadoMayonnaise": {
 					"Name": "Cornucopia_AvocadoMayonnaise",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 24,
 					"DisplayName": "{{i18n:AvocadoMayonnaise_name}}",
 					"Description": "{{i18n:AvocadoMayonnaise_description}}",
@@ -973,6 +1027,7 @@
 				"Cornucopia_AvocadoOil": {
 					"Name": "Cornucopia_AvocadoOil",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 11,
 					"DisplayName": "{{i18n:AvocadoOil_name}}",
 					"Description": "{{i18n:AvocadoOil_description}}",
@@ -988,6 +1043,7 @@
 				"Cornucopia_BlackPepperMayonnaise": {
 					"Name": "Cornucopia_BlackPepperMayonnaise",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 23,
 					"DisplayName": "{{i18n:BlackPepperMayonnaise_name}}",
 					"Description": "{{i18n:BlackPepperMayonnaise_description}}",
@@ -1003,6 +1059,7 @@
 				"Cornucopia_BrinedOlives": {
 					"Name": "Cornucopia_BrinedOlives",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 95,
 					"DisplayName": "{{i18n:BrinedOlives_name}}",
 					"Description": "{{i18n:BrinedOlives_description}}",
@@ -1016,6 +1073,7 @@
 				"Cornucopia_CocoaButter": {
 					"Name": "Cornucopia_CocoaButter",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 5,
 					"DisplayName": "{{i18n:CocoaButter_name}}",
 					"Description": "{{i18n:CocoaButter_description}}",
@@ -1023,12 +1081,13 @@
 					"Price": 250,
 					"Edibility": -300,
 					"ContextTags": [
-						"color_sand",
+						"color_sand"
 					]
 				},
 				"Cornucopia_MisoPaste": {
 					"Name": "Cornucopia_MisoPaste",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 31,
 					"DisplayName": "{{i18n:MisoPaste_name}}",
 					"Description": "{{i18n:MisoPaste_description}}",
@@ -1042,6 +1101,7 @@
 				"Cornucopia_OliveOilMayonnaise": {
 					"Name": "Cornucopia_OliveOilMayonnaise",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 21,
 					"DisplayName": "{{i18n:OliveOilMayonnaise_name}}",
 					"Description": "{{i18n:OliveOilMayonnaise_description}}",
@@ -1057,6 +1117,7 @@
 				"Cornucopia_Paprika": {
 					"Name": "Cornucopia_Paprika",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 30,
 					"DisplayName": "{{i18n:Paprika_name}}",
 					"Description": "{{i18n:Paprika_description}}",
@@ -1074,6 +1135,7 @@
 				"Cornucopia_PeanutButter": {
 					"Name": "Cornucopia_PeanutButter",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 10,
 					"DisplayName": "{{i18n:PeanutButter_name}}",
 					"Description": "{{i18n:PeanutButter_description}}",
@@ -1088,6 +1150,7 @@
 				"Cornucopia_Pepper": {
 					"Name": "Cornucopia_Pepper",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 35,
 					"DisplayName": "{{i18n:Pepper_name}}",
 					"Description": "{{i18n:Pepper_description}}",
@@ -1105,6 +1168,7 @@
 				"Cornucopia_PickleSpears": {
 					"Name": "Cornucopia_PickleSpears",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 96,
 					"DisplayName": "{{i18n:PickleSpears_name}}",
 					"Description": "{{i18n:PickleSpears_description}}",
@@ -1119,6 +1183,7 @@
 				"Cornucopia_StinkyTofu": {
 					"Name": "Cornucopia_StinkyTofu",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 81,
 					"DisplayName": "{{i18n:StinkyTofu_name}}",
 					"Description": "{{i18n:StinkyTofu_description}}",
@@ -1133,6 +1198,7 @@
 				"Cornucopia_SoySauce": {
 					"Name": "Cornucopia_SoySauce",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 18,
 					"DisplayName": "{{i18n:SoySauce_name}}",
 					"Description": "{{i18n:SoySauce_description}}",
@@ -1147,6 +1213,7 @@
 				"Cornucopia_Zoodles": {
 					"Name": "Cornucopia_Zoodles",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 68,
 					"DisplayName": "{{i18n:Zoodles_name}}",
 					"Description": "{{i18n:Zoodles_description}}",
@@ -1170,6 +1237,7 @@
 				"Cornucopia_BuckwheatNoodles": {
 					"Name": "Cornucopia_BuckwheatNoodles",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 65,
 					"DisplayName": "{{i18n:BuckwheatNoodles_name}}",
 					"Description": "{{i18n:BuckwheatNoodles_description}}",
@@ -1185,6 +1253,7 @@
 				"Cornucopia_Kimchi": {
 					"Name": "Cornucopia_Kimchi",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 37,
 					"DisplayName": "{{i18n:Kimchi_name}}",
 					"Description": "{{i18n:Kimchi_description}}",
@@ -1200,6 +1269,7 @@
 				"Cornucopia_SemolinaNoodles": {
 					"Name": "Cornucopia_SemolinaNoodles",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 63,
 					"DisplayName": "{{i18n:SemolinaNoodles_name}}",
 					"Description": "{{i18n:SemolinaNoodles_description}}",
@@ -1215,6 +1285,7 @@
 				"Cornucopia_WasabiMayonnaise": {
 					"Name": "Cornucopia_WasabiMayonnaise",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 20,
 					"DisplayName": "{{i18n:WasabiMayonnaise_name}}",
 					"Description": "{{i18n:WasabiMayonnaise_description}}",
@@ -1231,6 +1302,7 @@
 				"Cornucopia_WholeGrainNoodles": {
 					"Name": "Cornucopia_WholeGrainNoodles",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 66,
 					"DisplayName": "{{i18n:WholeGrainNoodles_name}}",
 					"Description": "{{i18n:WholeGrainNoodles_description}}",
@@ -1255,6 +1327,7 @@
 				"Cornucopia_ChewingGum": {
 					"Name": "Cornucopia_ChewingGum",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 76,
 					"DisplayName": "{{i18n:ChewingGum_name}}",
 					"Description": "{{i18n:ChewingGum_description}}",
@@ -1269,6 +1342,7 @@
 				"Cornucopia_Umeboshi": {
 					"Name": "Cornucopia_Umeboshi",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 39,
 					"DisplayName": "{{i18n:Umeboshi_name}}",
 					"Description": "{{i18n:Umeboshi_description}}",
@@ -1284,6 +1358,7 @@
 				"Cornucopia_LemonZest": {
 					"Name": "Cornucopia_LemonZest",
 					"Category": 0,
+					"Type": "Basic",
 					"SpriteIndex": 78,
 					"DisplayName": "{{i18n:LemonZest_name}}",
 					"Description": "{{i18n:LemonZest_description}}",
@@ -1299,6 +1374,7 @@
 				"Cornucopia_LimeZest": {
 					"Name": "Cornucopia_LimeZest",
 					"Category": 0,
+					"Type": "Basic",
 					"SpriteIndex": 77,
 					"DisplayName": "{{i18n:LimeZest_name}}",
 					"Description": "{{i18n:LimeZest_description}}",
@@ -1323,6 +1399,7 @@
 				"Cornucopia_AloeGel": {
 					"Name": "Cornucopia_AloeGel",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 19,
 					"DisplayName": "{{i18n:AloeGel_name}}",
 					"Description": "{{i18n:AloeGel_description}}",
@@ -1336,6 +1413,7 @@
 				"Cornucopia_DillMayonnaise": {
 					"Name": "Cornucopia_DillMayonnaise",
 					"Category": -26,
+					"Type": "Basic",
 					"SpriteIndex": 26,
 					"DisplayName": "{{i18n:DillMayonnaise_name}}",
 					"Description": "{{i18n:DillMayonnaise_description}}",
