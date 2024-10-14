@@ -240,7 +240,7 @@
 	"GeorgeSpecialOrder_objective1": "把玫瑰送到乔治和艾芙琳的厨房。",
 	"GeorgeSpecialOrder_objective2": "收集 10 棵迷迭香。",
 	"GeorgeSpecialOrder_objective3": "将迷迭香送到乔治和艾芙琳的厨房。",
-	"GeorgeSpecialOrder_objective4": "收集 20 个香味浆果。",
+	"GeorgeSpecialOrder_objective4": "收集 20 个任意浆果。",
 	"GeorgeSpecialOrder_objective5": "把香味浆果带到乔治和伊夫林的厨房。",
 	"GeorgeSpecialOrder_letter": "致 @,^感谢你帮我照顾艾芙琳。这是一些如何制作你自己的蜡桶的细节。用它来制作蜡烛和其他类似的东西。-乔治 %item craftingRecipe Cornucopia_WaxBarrel %%[#]蜡桶配方",
 	"config.Enable Vinegar Keg.name": "启用醋桶",
