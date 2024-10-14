@@ -1,0 +1,182 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Fields": {
+				"Cornucopia_Cucumber": {
+					"ExcludeFromShippingCollection": true
+				},
+				"Cornucopia_Pear": {
+					"ExcludeFromShippingCollection": true
+				}
+			}
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+		   "TargetField": ["Cornucopia_CucumberSeeds", "ContextTags"],
+		   "Entries": {
+				  "cornucopia_shop_pierre": null
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+		   "TargetField": ["Cornucopia_PearSapling", "ContextTags"],
+		   "Entries": {
+				  "cornucopia_shop_pierre": null
+		   }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Crops Pack": true
+			},
+			"Fields": {
+				"Cornucopia_ButternutSquash": {
+					"ExcludeFromShippingCollection": true
+				},
+				"Cornucopia_SweetPotato": {
+					"ExcludeFromShippingCollection": true
+				}
+			}
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Crops Pack": true
+			},
+		   "TargetField": ["Cornucopia_ButternutSquashSeeds", "ContextTags"],
+		   "Entries": {
+				  "cornucopia_shop_pierre": null
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Crops Pack": true
+			},
+		   "TargetField": ["Cornucopia_SweetPotatoSeeds", "ContextTags"],
+		   "Entries": {
+				  "cornucopia_shop_pierre": null
+		   }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Trees Pack": true
+			},
+			"Fields": {
+				"Cornucopia_Persimmon": {
+					"ExcludeFromShippingCollection": true
+				},
+				"Cornucopia_Nectarine": {
+					"ExcludeFromShippingCollection": true
+				}
+			}
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Trees Pack": true
+			},
+		   "TargetField": ["Cornucopia_PersimmonSapling", "ContextTags"],
+		   "Entries": {
+				  "cornucopia_shop_pierre": null
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Trees Pack": true
+			},
+		   "TargetField": ["Cornucopia_NectarineSapling", "ContextTags"],
+		   "Entries": {
+				  "cornucopia_shop_pierre": null
+		   }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			},
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickleSpears",
+				"Triggers",
+			],
+			"Entries": {
+				"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": {
+					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"Enable Extended Crops Pack": true
+			},
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_GlassNoodles",
+				"Triggers"
+			],
+			"Entries": {
+				"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": {
+					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato"
+				},
+			}
+		},
+	]
+}

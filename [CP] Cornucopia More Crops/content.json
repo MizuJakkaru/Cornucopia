@@ -51,6 +51,11 @@
 			"Default": "true",
 			"Description": "Enable small map edits (currently just adds sapodilla trees to Ginger Island)."
 		},
+		"SVE Compat Patch": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Removes some Cornucopia duplicates of SVE crops and fruit trees. Balance is not guaranteed."
+		}
 	},
 	"DynamicTokens": [
 		//crop ExtraHarvestChance values for later testing
@@ -158,7 +163,7 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/multiyieldcrops.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json, data/mapedits.json"
+			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/multiyieldcrops.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json, data/mapedits.json, data/compat.json"
 		},
 		{
 			"Action": "Include",
