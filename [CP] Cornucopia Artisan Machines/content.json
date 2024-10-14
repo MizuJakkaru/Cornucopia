@@ -29,7 +29,7 @@
 		"SVE Compat Patch": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Removes SVE butter churn and butter and replaces it with Cornucopia butter."
+			"Description": "Removes SVE butter churn and butter and replaces it with Cornucopia butter. DO NOT USE WITH SVE BUNDLE OPTIONS (Use CCCB instead)."
 		},
 	},
 	"DynamicTokens": [
