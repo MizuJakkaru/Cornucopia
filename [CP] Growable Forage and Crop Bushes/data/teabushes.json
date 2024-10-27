@@ -140,7 +140,7 @@
 				},
 			"Entries": {
 				"(O)Cornucopia_BlackberrySeeds": {
-					"DisplayName": "[LocalizedText Strings\\Objects:BlackberryName]",
+					"DisplayName": "[LocalizedText Strings\\Objects:Blackberry_Name]",
 					"Description": "{{i18n:BlackberrySeeds_description}}",
 					"AgeToProduce": 14,
 					"DayToBeginProducing": 0,
@@ -330,7 +330,7 @@
 				},
 			"Entries": {
 				"(O)301": {
-					"DisplayName": "[LocalizedText Strings\\Objects:Grapes_Name]",
+					"DisplayName": "[LocalizedText Strings\\Objects:Grape_Name]",
 					"Description": "{{i18n:GrapesSeeds_description}}",
 					"AgeToProduce": 16,
 					"DayToBeginProducing": 0,
