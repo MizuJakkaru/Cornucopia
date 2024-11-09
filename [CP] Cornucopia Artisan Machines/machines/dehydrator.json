@@ -40,7 +40,7 @@
 						{
 							"ItemId": "(O)Cornucopia_DriedHerb",
 							"ObjectInternalName": "{0} Cornucopia_DriedHerb",
-							"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME]",
 							"PreserveId": "DROP_IN",
 							"CopyPrice": true,
 							"PriceModifierMode": "Stack",
@@ -60,7 +60,7 @@
 						}
 					],
 					"MinutesUntilReady": 1750,
-					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 				},
 				"Cornucopia_DriedFlower": {
 					"Id": "Cornucopia_DriedFlower",
@@ -82,7 +82,7 @@
 						{
 							"ItemId": "(O)Cornucopia_DriedFlower",
 							"ObjectInternalName": "{0} Cornucopia_DriedFlower",
-							"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME]",
 							"PreserveId": "DROP_IN",
 							"CopyPrice": true,
 							"PriceModifierMode": "Stack",
@@ -102,7 +102,7 @@
 						}
 					],
 					"MinutesUntilReady": 1750,
-					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 				},
 				"Cornucopia_DriedVegetable": {
 					"Id": "Cornucopia_DriedVegetable",
@@ -124,7 +124,7 @@
 						{
 							"ItemId": "(O)Cornucopia_DriedVegetable",
 							"ObjectInternalName": "{0} Cornucopia_DriedVegetable",
-							"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME]",
 							"PreserveId": "DROP_IN",
 							"CopyPrice": true,
 							"PriceModifierMode": "Stack",
@@ -144,7 +144,7 @@
 						}
 					],
 					"MinutesUntilReady": 1750,
-					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 				}
 			}
 		}

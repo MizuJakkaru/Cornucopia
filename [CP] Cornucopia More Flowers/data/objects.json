@@ -14,6 +14,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 30,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_blue",
 						"season_summer",
@@ -38,6 +39,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 80,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_yellow",
 						"season_fall",
@@ -60,6 +62,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 90,
 					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_dark_purple",
 						"season_fall",
@@ -82,6 +85,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 90,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_white",
 						"season_summer",
@@ -103,6 +107,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 150,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_pink",
 						"season_summer",
@@ -123,6 +128,7 @@
 					"Description": "{{i18n:MorningGlory_description}}",
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 110,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_blue",
 						"season_spring",
@@ -144,6 +150,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 300,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_dark_pink",
 						"season_summer",
@@ -166,6 +173,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 50,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_yellow",
 						"season_spring",
@@ -188,6 +196,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 30,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_pink",
 						"season_spring",
@@ -209,6 +218,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 290,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_red",
 						"season_spring",
@@ -242,6 +252,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 30,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_dark_pink",
 						"cornucopia_crop_produce",
@@ -261,6 +272,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 30,
 					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_blue",
 						"season_spring",
@@ -283,6 +295,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 25,
 					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_yellow",
 						"season_summer",
@@ -305,6 +318,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 400,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_pink",
 						"dye_medium",
@@ -325,6 +339,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 90,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_white",
 						"season_spring",
@@ -347,6 +362,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 80,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_red",
 						"season_spring",
@@ -370,6 +386,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 35,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_white",
 						"season_spring",
@@ -392,6 +409,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 30,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_purple",
 						"season_summer",
@@ -413,6 +431,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 110,
 					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_dark_purple",
 						"season_fall",
@@ -434,6 +453,7 @@
 					"Description": "{{i18n:Dahlia_description}}",
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 50,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_orange",
 						"season_fall",
@@ -455,6 +475,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 15,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_white",
 						"season_summer",
@@ -475,6 +496,7 @@
 					"Description": "{{i18n:FairyDuster_description}}",
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 40,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_pink",
 						"season_fall",
@@ -496,6 +518,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 80,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_dark_pink",
 						"season_fall",
@@ -517,6 +540,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 80,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_red",
 						"season_fall",
@@ -537,6 +561,7 @@
 					"Description": "{{i18n:Honeysuckle_description}}",
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 110,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_yellow",
 						"season_spring",
@@ -559,6 +584,7 @@
 					"Description": "{{i18n:Hyacinth_description}}",
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 80,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_dark_purple",
 						"season_spring",
@@ -580,6 +606,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 80,
 					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_light_cyan",
 						"season_summer",
@@ -602,6 +629,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 90,
 					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_cyan",
 						"season_spring",
@@ -623,6 +651,7 @@
 					"Description": "{{i18n:Lavender_description}}",
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 30,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_purple",
 						"season_summer",
@@ -645,6 +674,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 80,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_purple",
 						"season_spring",
@@ -668,6 +698,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 50,
 					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_pale_violet_red",
 						"season_summer",
@@ -690,6 +721,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 110,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_pink",
 						"season_spring",
@@ -711,6 +743,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 50,
 					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_pink",
 						"season_summer",
@@ -733,6 +766,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 150,
 					"Edibility": -300,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_lime",
 						"season_fall",
@@ -754,6 +788,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 60,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_purple",
 						"season_fall",
@@ -775,6 +810,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 2400,
 					"Edibility": -300,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_red",
 						"season_summer",
@@ -796,6 +832,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 3000,
 					"Edibility": -300,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_purple",
 						"season_summer",
@@ -818,6 +855,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 290,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_dark_pink",
 						"season_fall",
@@ -840,6 +878,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 1500,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_prismatic",
 						"season_spring",
@@ -865,6 +904,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 290,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_white",
 						"season_spring",
@@ -887,6 +927,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 290,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_yellow",
 						"season_summer",
@@ -909,6 +950,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 290,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_blue",
 						"season_winter",
@@ -931,6 +973,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 30,
 					"Edibility": 18,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_dark_purple",
 						"season_spring",
@@ -953,6 +996,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 140,
 					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
 					"ContextTags": [
 						"color_purple",
 						"season_summer",

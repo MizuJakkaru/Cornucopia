@@ -4,7 +4,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"When": {
-				"HasMod|contains=wildflour.atelierfloral": true
+				"HasMod|contains=wildflour.atelierfloral, Wildflour.AtelierGoods": true
 			},
 			"Priority": "Late",
 			"TargetField": [
@@ -20,7 +20,7 @@
 			"Target": "Data/Objects",
 			"Priority": "Late",
 			"When": {
-				"HasMod|contains=wildflour.atelierfloral": true
+				"HasMod|contains=wildflour.atelierfloral, Wildflour.AtelierGoods": true
 			},
 			"Fields": {
 				"Cornucopia_DriedFlower": {

@@ -85,7 +85,8 @@
 							]
 						},
 						{
-							"ItemId": "Cornucopia_FlavoredYogurtSilver",
+							"Id": "Cornucopia_FlavoredYogurtSilver",
+							"ItemId": "Cornucopia_FlavoredYogurt",
 							"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
 							"ObjectDisplayName": "{{i18n:FlavoredYogurt_CocoaPod}}",
 							"PreserveId": "DROP_IN",
@@ -109,6 +110,7 @@
 							]
 						},
 						{
+							"Id": "Cornucopia_FlavoredYogurtDefault",
 							"ItemId": "Cornucopia_FlavoredYogurt",
 							"ObjectInternalName": "{0} Cornucopia_FlavoredYogurt",
 							"ObjectDisplayName": "{{i18n:FlavoredYogurt_CocoaPod}}",

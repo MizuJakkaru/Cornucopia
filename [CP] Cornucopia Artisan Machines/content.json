@@ -129,6 +129,12 @@
 		},
 	],
 	"Changes": [
+		//Fixes existing objects with missing Types post 1.6.9 update
+		{
+			"Action": "Include",
+			"When": {"HasMod|contains=Spiderbuttons.BETAS":true},
+			"FromFile": "data/hotfix.json"
+		},
 		//set mail flags
 		{
             "Action": "EditData",

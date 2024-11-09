@@ -18,30 +18,70 @@
 			}
 		},
 		{
-		   "Action": "EditData",
-		   "Target": "Data/Objects",
-		   "Priority": "Late",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
 			"When": {
 				"SVE Compat Patch": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			},
-		   "TargetField": ["Cornucopia_CucumberSeeds", "ContextTags"],
-		   "Entries": {
-				  "cornucopia_shop_pierre": null
-		   }
+			"TargetField": [
+				"Cornucopia_CucumberSeeds",
+				"ContextTags"
+			],
+			"Entries": {
+				"cornucopia_shop_pierre": null,
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
 		},
 		{
-		   "Action": "EditData",
-		   "Target": "Data/Objects",
-		   "Priority": "Late",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
 			"When": {
 				"SVE Compat Patch": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			},
-		   "TargetField": ["Cornucopia_PearSapling", "ContextTags"],
-		   "Entries": {
-				  "cornucopia_shop_pierre": null
-		   }
+			"TargetField": [
+				"Cornucopia_PearSapling",
+				"ContextTags"
+			],
+			"Entries": {
+				"cornucopia_shop_pierre": null,
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"TargetField": [
+				"Cornucopia_Cucumber",
+				"ContextTags"
+			],
+			"Entries": {
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"TargetField": [
+				"Cornucopia_Pear",
+				"ContextTags"
+			],
+			"Entries": {
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
 		},
 		{
 			"Action": "EditData",
@@ -62,32 +102,74 @@
 			}
 		},
 		{
-		   "Action": "EditData",
-		   "Target": "Data/Objects",
-		   "Priority": "Late",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
 			"When": {
 				"SVE Compat Patch": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"Enable Extended Crops Pack": true
 			},
-		   "TargetField": ["Cornucopia_ButternutSquashSeeds", "ContextTags"],
-		   "Entries": {
-				  "cornucopia_shop_pierre": null
-		   }
+			"TargetField": [
+				"Cornucopia_ButternutSquashSeeds",
+				"ContextTags"
+			],
+			"Entries": {
+				"cornucopia_shop_pierre": null,
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
 		},
 		{
-		   "Action": "EditData",
-		   "Target": "Data/Objects",
-		   "Priority": "Late",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
 			"When": {
 				"SVE Compat Patch": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"Enable Extended Crops Pack": true
 			},
-		   "TargetField": ["Cornucopia_SweetPotatoSeeds", "ContextTags"],
-		   "Entries": {
-				  "cornucopia_shop_pierre": null
-		   }
+			"TargetField": [
+				"Cornucopia_SweetPotatoSeeds",
+				"ContextTags"
+			],
+			"Entries": {
+				"cornucopia_shop_pierre": null,
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Crops Pack": true
+			},
+			"TargetField": [
+				"Cornucopia_ButternutSquash",
+				"ContextTags"
+			],
+			"Entries": {
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Crops Pack": true
+			},
+			"TargetField": [
+				"Cornucopia_SweetPotato",
+				"ContextTags"
+			],
+			"Entries": {
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
 		},
 		{
 			"Action": "EditData",
@@ -108,32 +190,74 @@
 			}
 		},
 		{
-		   "Action": "EditData",
-		   "Target": "Data/Objects",
-		   "Priority": "Late",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
 			"When": {
 				"SVE Compat Patch": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"Enable Extended Trees Pack": true
 			},
-		   "TargetField": ["Cornucopia_PersimmonSapling", "ContextTags"],
-		   "Entries": {
-				  "cornucopia_shop_pierre": null
-		   }
+			"TargetField": [
+				"Cornucopia_PersimmonSapling",
+				"ContextTags"
+			],
+			"Entries": {
+				"cornucopia_shop_pierre": null,
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
 		},
 		{
-		   "Action": "EditData",
-		   "Target": "Data/Objects",
-		   "Priority": "Late",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
 			"When": {
 				"SVE Compat Patch": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"Enable Extended Trees Pack": true
 			},
-		   "TargetField": ["Cornucopia_NectarineSapling", "ContextTags"],
-		   "Entries": {
-				  "cornucopia_shop_pierre": null
-		   }
+			"TargetField": [
+				"Cornucopia_NectarineSapling",
+				"ContextTags"
+			],
+			"Entries": {
+				"cornucopia_shop_pierre": null,
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Trees Pack": true
+			},
+			"TargetField": [
+				"Cornucopia_Persimmon",
+				"ContextTags"
+			],
+			"Entries": {
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"SVE Compat Patch": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Enable Extended Trees Pack": true
+			},
+			"TargetField": [
+				"Cornucopia_Nectarine",
+				"ContextTags"
+			],
+			"Entries": {
+				"traveling_cart_banned": "traveling_cart_banned"
+			}
 		},
 		{
 			"Action": "EditData",
@@ -148,12 +272,12 @@
 				"(BC)15",
 				"OutputRules",
 				"Cornucopia_PickleSpears",
-				"Triggers",
+				"Triggers"
 			],
 			"Entries": {
 				"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": {
 					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber"
-				},
+				}
 			}
 		},
 		{
@@ -175,8 +299,8 @@
 			"Entries": {
 				"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": {
 					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato"
-				},
+				}
 			}
-		},
+		}
 	]
 }

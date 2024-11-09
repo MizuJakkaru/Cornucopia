@@ -141,7 +141,7 @@
 						{
 							"ItemId": "(O)Cornucopia_PickledEggs",
 							"ObjectInternalName": "{0} Cornucopia_PickledEggs",
-							"ObjectDisplayName": "[LocalizedText Strings/StringsFromCSFiles:Object.cs.12735 %PRESERVED_DISPLAY_NAME]",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:Pickles_Flavored_Name %PRESERVED_DISPLAY_NAME]",
 							"PreserveId": "DROP_IN",
 							"CopyPrice": true,
 							"PriceModifierMode": "Stack",
@@ -178,7 +178,7 @@
 						{
 							"ItemId": "(O)Cornucopia_PickledFish",
 							"ObjectInternalName": "{0} Cornucopia_PickledFish",
-							"ObjectDisplayName": "[LocalizedText Strings/StringsFromCSFiles:Object.cs.12735 %PRESERVED_DISPLAY_NAME]",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:Pickles_Flavored_Name %PRESERVED_DISPLAY_NAME]",
 							"PreserveId": "DROP_IN",
 							"CopyPrice": true,
 							"PriceModifierMode": "Stack",

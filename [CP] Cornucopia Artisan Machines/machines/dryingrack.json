@@ -44,7 +44,7 @@
 								{
 									"ItemId": "Cornucopia_DriedFlower",
 									"ObjectInternalName": "{0} Cornucopia_DriedFlower",
-									"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME]",
 									"PreserveId": "DROP_IN",
 									"CopyPrice": true,
 									"CustomData": {
@@ -63,7 +63,7 @@
 								}
 							],
 							"MinutesUntilReady": 2000,
-							"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+							"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 						},
 						{
 							"Id": "Cornucopia_DriedHerb",
@@ -79,7 +79,7 @@
 								{
 									"ItemId": "Cornucopia_DriedHerb",
 									"ObjectInternalName": "{0} {{i18n:DriedHerb_name}}",
-									"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME]",
 									"PreserveId": "DROP_IN",
 									"CopyPrice": true,
 									"CustomData": {
@@ -98,7 +98,7 @@
 								}
 							],
 							"MinutesUntilReady": 2000,
-							"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+							"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 						}
 					],
 					"LoadEffects": [
