@@ -130,6 +130,41 @@
 					]
 				}
 			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {
+				"HasMod|contains=Strobe.largevoidegg": true
+			},
+			"TargetField": [
+				"(BC)15",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_CenturyEgg": {
+					"Id": "Cornucopia_CenturyEgg_Strobe.largevoidegg",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Strobe.largevoidegg_VoidEgg"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_CenturyEgg",
+							"MinStack": 2,
+							"MaxStack": 2
+						}
+					],
+					"MinutesUntilReady": 4000
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_CenturyEgg_Strobe.largevoidegg",
+					"BeforeId": "Cornucopia_CenturyEgg"
+				}
+			]
 		}
 	]
 }

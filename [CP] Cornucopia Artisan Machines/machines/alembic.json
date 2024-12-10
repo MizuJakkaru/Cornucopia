@@ -86,7 +86,7 @@
 								}
 							],
 							"MinutesUntilReady": 2400,
-					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 						}
 					],
 					"LoadEffects": [

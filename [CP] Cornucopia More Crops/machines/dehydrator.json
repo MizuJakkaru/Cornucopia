@@ -22,7 +22,7 @@
 					"OutputItem": [
 						{
 							"ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
-							"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME]",
 							"PreserveId": "DROP_IN",
 							"CopyPrice": true,
 							"PriceModifiers": [
@@ -38,7 +38,7 @@
 						}
 					],
 					"MinutesUntilReady": 1750,
-					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 				},
 				"Cornucopia_DriedMushroomFix": {
 					"Id": "Cornucopia_DriedMushroomFix",
@@ -54,7 +54,7 @@
 					"OutputItem": [
 						{
 							"ItemId": "FLAVORED_ITEM DriedMushroom DROP_IN_ID",
-							"ObjectDisplayName": "[LocalizedText Strings/1_6_Strings:DriedFruit_DisplayName %PRESERVED_DISPLAY_NAME]",
+							"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME]",
 							"PreserveId": "DROP_IN",
 							"CopyPrice": true,
 							"PriceModifiers": [
@@ -70,7 +70,7 @@
 						}
 					],
 					"MinutesUntilReady": 1750,
-					"InvalidCountMessage": "[LocalizedText Strings\\1_6_Strings:HeavyFurnace_pieces]"
+					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 				}
 			},
 			"MoveEntries": [
