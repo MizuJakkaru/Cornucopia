@@ -4507,7 +4507,6 @@
 					"IsDrink": true,
 					"ContextTags": [
 						"color_yellow",
-						"cooking_oil_item",
 						"cornucopia_artisangood",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_essential",
