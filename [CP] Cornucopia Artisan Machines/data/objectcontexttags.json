@@ -297,7 +297,7 @@
 		{
 		   "Action": "EditData",
 		   "Target": "Data/Objects",
-		   "TargetField": ["424", "ContextTags"],
+		   "TargetField": ["426", "ContextTags"],
 		   "Entries": {
 				  "#-1": "cheese_item",
 				  "#-2": "soft_cheese_item",
