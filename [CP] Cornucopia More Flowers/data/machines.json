@@ -1,0 +1,54 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraOutputs",
+			"Entries": {
+				"Cornucopia_RoyalJelly": {
+					"Id": "Cornucopia_RoyalJelly",
+					"ItemId": "Cornucopia_RoyalJelly"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)10",
+				"OutputRules",
+				"Default"
+			],
+			"Entries": {
+				"UseFirstValidOutput": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)10",
+				"OutputRules",
+				"Default",
+				"OutputItem"
+			],
+			"Entries": {
+				"Cornucopia.MoreFlowers_RoyalJelly": {
+					"Id": "Cornucopia.MoreFlowers_RoyalJelly",
+					"ItemId": "FLAVORED_ITEM Honey NEARBY_FLOWER_ID",
+					"Condition": "ITEM_ID Input Cornucopia_Rose",
+					//"PerItemCondition": "ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rose",
+					"CustomData": {
+						"selph.ExtraMachineConfig.OverrideInputItemId": "NEARBY_FLOWER_QUALIFIED_ID",
+						"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_RoyalJelly"
+					}
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia.MoreFlowers_RoyalJelly",
+					"ToPosition": "Top"
+				}
+			]
+		}
+	]
+}
