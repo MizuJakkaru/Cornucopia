@@ -232,7 +232,23 @@
 						"modid_cornucopia.moreflowers",
 						"rose_item"
 					]
-				}
+				},
+				"Cornucopia_RoyalJelly": {
+					"Name": "Cornucopia_RoyalJelly",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 87,
+					"DisplayName": "{{i18n:RoyalJelly_name}}",
+					"Description": "{{i18n:RoyalJelly_description}}",
+					"Texture": "Cornucopia.MoreFlowers/Objects",
+					"Price": 1400,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"modid_cornucopia.moreflowers",
+						"cornucopia_artisangood",
+					]
+				},
 			}
 		},
 		{
