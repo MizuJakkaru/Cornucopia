@@ -1,12 +1,45 @@
 {
 	"Changes": [
-	{
+		{
 			"Action": "EditData",
 			"Target": "selph.ExtraMachineConfig/ExtraOutputs",
 			"Entries": {
 				"Cornucopia_Starmite": {
 					"Id": "Cornucopia_Starmite",
-					"ItemId": "Cornucopia_Starmite"
+					"ItemId": "Cornucopia_Starmite",
+					"Condition": "RANDOM 0.02"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Wheat",
+				"OutputItem",
+				"(O)346"
+			],
+			"Entries": {
+				"CustomData": {
+					"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_Starmite"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Hops",
+				"OutputItem",
+				"(O)303"
+			],
+			"Entries": {
+				"CustomData": {
+					"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_Starmite"
 				}
 			}
 		},
@@ -144,54 +177,6 @@
 				{
 					"Id": "Default_Wine",
 					"BeforeId": "Default_Juice"
-				}
-			]
-		},
-		{
-			"Action": "EditData",
-			"Target": "selph.ExtraMachineConfig/ExtraOutputs",
-			"Entries": {
-				"Cornucopia_Starmite": {
-					"Id": "Cornucopia_Starmite",
-					"ItemId": "Cornucopia_Starmite"
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)12",
-				"OutputRules",
-				"Default_Wheat"
-			],
-			"Entries": {
-				"UseFirstValidOutput": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)12",
-				"OutputRules",
-				"Default_Wheat",
-				"OutputItem"
-			],
-			"Entries": {
-				"Cornucopia.ArtisanMachines_Starmite": {
-					"Id": "Cornucopia.ArtisanMachines_Starmite",
-					"ItemId": "(O)346",
-					"Condition": "RANDOM 0.02",
-					"CustomData": {
-						"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_Starmite"
-					}
-				}
-			},
-			"MoveEntries": [
-				{
-					"Id": "Cornucopia.ArtisanMachines_Starmite",
-					"ToPosition": "Top"
 				}
 			]
 		}

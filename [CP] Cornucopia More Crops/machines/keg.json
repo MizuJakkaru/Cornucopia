@@ -10,7 +10,6 @@
 			"Entries": {
 				"Cornucopia_DarkAle": {
 					"Id": "Cornucopia_DarkAle",
-				"UseFirstValidOutput": true,
 					"Triggers": 
 						[
 							{
@@ -27,7 +26,6 @@
 				},
 				"Cornucopia_Porter": {
 					"Id": "Cornucopia_Porter",
-				"UseFirstValidOutput": true,
 					"Triggers": 
 						[
 							{
@@ -60,7 +58,6 @@
 				},
 				"Cornucopia_Stout": {
 					"Id": "Cornucopia_Stout",
-				"UseFirstValidOutput": true,
 					"Triggers": 
 						[
 							{

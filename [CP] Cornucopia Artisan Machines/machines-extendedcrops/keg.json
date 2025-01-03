@@ -5,6 +5,54 @@
 			"Target": "Data/Machines",
 			"TargetField": [
 				"(BC)12",
+				"OutputRules",
+				"Cornucopia_DarkAle",
+				"OutputItem",
+				"(O)Cornucopia_DarkAle"
+			],
+			"Entries": {
+				"CustomData": {
+					"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_Starmite"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_Porter",
+				"OutputItem",
+				"(O)Cornucopia_Porter"
+			],
+			"Entries": {
+				"CustomData": {
+					"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_Starmite"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_Stout",
+				"OutputItem",
+				"(O)Cornucopia_Stout"
+			],
+			"Entries": {
+				"CustomData": {
+					"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_Starmite"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
 				"OutputRules"
 			],
 			"Entries": {
@@ -83,84 +131,6 @@
 			"Entries": {
 				"#-1": "!id_o_cornucopia_oats"
 			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)12",
-				"OutputRules",
-				"Cornucopia_DarkAle",
-				"OutputItem"
-			],
-			"Entries": {
-				"Cornucopia.ArtisanMachines_Starmite": {
-					"Id": "Cornucopia.ArtisanMachines_Starmite",
-					"ItemId": "(O)Cornucopia_DarkAle",
-					"Condition": "RANDOM 0.02",
-					"CustomData": {
-						"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_Starmite"
-					}
-				}
-			},
-			"MoveEntries": [
-				{
-					"Id": "Cornucopia.ArtisanMachines_Starmite",
-					"ToPosition": "Top"
-				}
-			]
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)12",
-				"OutputRules",
-				"Cornucopia_Porter",
-				"OutputItem"
-			],
-			"Entries": {
-				"Cornucopia.ArtisanMachines_Starmite": {
-					"Id": "Cornucopia.ArtisanMachines_Starmite",
-					"ItemId": "(O)Cornucopia_Porter",
-					"Condition": "RANDOM 0.02",
-					"CustomData": {
-						"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_Starmite"
-					}
-				}
-			},
-			"MoveEntries": [
-				{
-					"Id": "Cornucopia.ArtisanMachines_Starmite",
-					"ToPosition": "Top"
-				}
-			]
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)12",
-				"OutputRules",
-				"Cornucopia_Stout",
-				"OutputItem"
-			],
-			"Entries": {
-				"Cornucopia.ArtisanMachines_Starmite": {
-					"Id": "Cornucopia.ArtisanMachines_Starmite",
-					"ItemId": "(O)Cornucopia_Stout",
-					"Condition": "RANDOM 0.02",
-					"CustomData": {
-						"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_Starmite"
-					}
-				}
-			},
-			"MoveEntries": [
-				{
-					"Id": "Cornucopia.ArtisanMachines_Starmite",
-					"ToPosition": "Top"
-				}
-			]
-		},
+		}
 	]
 }
