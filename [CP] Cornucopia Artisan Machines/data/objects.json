@@ -947,7 +947,9 @@
 					"IsDrink": true,
 					"ContextTags": [
 						"color_white",
-						"yogurt_item"
+						"yogurt_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_CornFlour": {
@@ -962,6 +964,8 @@
 					"Edibility": 5,
 					"ContextTags": [
 						"color_green",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 						"flour_item"
 					]
 				},
@@ -977,6 +981,8 @@
 					"Edibility": -300,
 					"ContextTags": [
 						"color_orange",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 						"dye_medium"
 					]
 				},
@@ -1009,9 +1015,27 @@
 					"ContextTags": [
 						"color_dark_yellow",
 						"pickle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 						"preserve_sheet_index_266"
 					]
-				}
+				},
+				"Cornucopia_Starmite": {
+					"Name": "Cornucopia_Starmite",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 87,
+					"DisplayName": "{{i18n:Starmite_name}}",
+					"Description": "{{i18n:Starmite_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 400,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_purple",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+					]
+				},
 			}
 		},
 		{
@@ -1034,6 +1058,8 @@
 					"IsDrink": true,
 					"ContextTags": [
 						"color_green",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 						"mayo_item"
 					]
 				},
@@ -1050,6 +1076,8 @@
 					"IsDrink": true,
 					"ContextTags": [
 						"color_green",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 						"oil_item"
 					]
 				},
@@ -1066,6 +1094,8 @@
 					"IsDrink": true,
 					"ContextTags": [
 						"color_white",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 						"mayo_item"
 					]
 				},
@@ -1080,7 +1110,9 @@
 					"Price": 100,
 					"Edibility": -300,
 					"ContextTags": [
-						"color_dark_green"
+						"color_dark_green",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_CocoaButter": {
@@ -1094,7 +1126,9 @@
 					"Price": 250,
 					"Edibility": -300,
 					"ContextTags": [
-						"color_sand"
+						"color_sand",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_MisoPaste": {
@@ -1108,7 +1142,9 @@
 					"Price": 300,
 					"Edibility": -300,
 					"ContextTags": [
-						"color_dark_yellow"
+						"color_dark_yellow",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_OliveOilMayonnaise": {
@@ -1124,7 +1160,9 @@
 					"IsDrink": true,
 					"ContextTags": [
 						"color_yellow_green",
-						"mayo_item"
+						"mayo_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_Paprika": {
@@ -1140,9 +1178,10 @@
 					"ContextTags": [
 						"color_red",
 						"spice_item",
-						"cornucopia_artisangood",
 						"cornucopia_alembic_essentialoil_banned",
-						"cornucopia_waxbarrel_candles_banned"
+						"cornucopia_waxbarrel_candles_banned",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_PeanutButter": {
@@ -1157,7 +1196,9 @@
 					"Edibility": -300,
 					"ContextTags": [
 						"color_brown",
-						"nut_butter_item"
+						"nut_butter_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_Pepper": {
@@ -1173,6 +1214,7 @@
 					"ContextTags": [
 						"color_black",
 						"spice_item",
+						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
 						"cornucopia_alembic_essentialoil_banned",
 						"cornucopia_waxbarrel_candles_banned"
@@ -1190,7 +1232,9 @@
 					"Edibility": -300,
 					"ContextTags": [
 						"color_dark_green",
-						"pickle_item"
+						"pickle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_StinkyTofu": {
@@ -1205,7 +1249,9 @@
 					"Edibility": 5,
 					"ContextTags": [
 						"color_white",
-						"pickle_item"
+						"pickle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_SoySauce": {
@@ -1220,7 +1266,9 @@
 					"Edibility": -300,
 					"ContextTags": [
 						"color_dark_brown",
-						"dye_strong"
+						"dye_strong",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_Zoodles": {
@@ -1235,7 +1283,9 @@
 					"Edibility": -300,
 					"ContextTags": [
 						"color_green",
-						"noodle_item"
+						"noodle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				}
 			}
@@ -1260,7 +1310,9 @@
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
-						"noodle_item"
+						"noodle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_Kimchi": {
@@ -1276,7 +1328,9 @@
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_orange",
-						"pickle_item"
+						"pickle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_SemolinaNoodles": {
@@ -1292,7 +1346,9 @@
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
-						"noodle_item"
+						"noodle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_WasabiMayonnaise": {
@@ -1309,7 +1365,9 @@
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_green",
-						"mayo_item"
+						"mayo_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_WholeGrainNoodles": {
@@ -1325,7 +1383,9 @@
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
-						"noodle_item"
+						"noodle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				}
 			}
@@ -1349,7 +1409,9 @@
 					"Edibility": 40,
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping}}",
 					"ContextTags": [
-						"color_pink"
+						"color_pink",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_Umeboshi": {
@@ -1365,7 +1427,9 @@
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_pale_red_violet",
-						"pickle_item"
+						"pickle_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_LemonZest": {
@@ -1381,7 +1445,9 @@
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
-						"dye_medium"
+						"dye_medium",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_LimeZest": {
@@ -1397,7 +1463,9 @@
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedTreesPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_lime",
-						"dye_medium"
+						"dye_medium",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				}
 			}
@@ -1420,7 +1488,9 @@
 					"Price": 150,
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_HerbsPackExcludeFromShipping}}",
 					"ContextTags": [
-						"color_green"
+						"color_green",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				},
 				"Cornucopia_DillMayonnaise": {
@@ -1437,7 +1507,9 @@
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_HerbsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow_green",
-						"mayo_item"
+						"mayo_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
 					]
 				}
 			}
