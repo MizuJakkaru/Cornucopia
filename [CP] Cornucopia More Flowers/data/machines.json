@@ -1,0 +1,30 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraOutputs",
+			"Entries": {
+				"Cornucopia_RoyalJelly": {
+					"Id": "Cornucopia_RoyalJelly",
+					"ItemId": "Cornucopia_RoyalJelly",
+					"Condition": "RANDOM 0.01, ANY \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rose\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_595\""
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)10",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"Default",
+				"CustomData"
+			],
+			"Entries": {
+				"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_RoyalJelly"
+			}
+		}
+	]
+}

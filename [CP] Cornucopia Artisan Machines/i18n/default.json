@@ -167,6 +167,8 @@
   "WholeGrainNoodles_description": "A bundle of whole-grain noodles with lots of texture.",
   "GlassNoodles_name": "Glass Noodles",
   "GlassNoodles_description": "A bundle of clear noodles made from starch.",
+  "Starmite_name": "Starmite",
+  "Starmite_description": "A super salty by-product of grain fermentation. You either hate it or love it.",
   
   //Artisan machines
   "Alembic_name": "Alembic",
