@@ -237,7 +237,7 @@
 					"Name": "Cornucopia_RoyalJelly",
 					"Type": "Basic",
 					"Category": -26,
-					"SpriteIndex": 87,
+					"SpriteIndex": 138,
 					"DisplayName": "{{i18n:RoyalJelly_name}}",
 					"Description": "{{i18n:RoyalJelly_description}}",
 					"Texture": "Cornucopia.MoreFlowers/Objects",

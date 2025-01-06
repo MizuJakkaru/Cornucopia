@@ -4,10 +4,15 @@
 			"Action": "EditData",
 			"Target": "selph.ExtraMachineConfig/ExtraOutputs",
 			"Entries": {
+				"Cornucopia_RoyalJellySunflower": {
+					"Id": "Cornucopia_RoyalJellySunflower",
+					"ItemId": "Cornucopia_RoyalJelly",
+					"Condition": "RANDOM 0.03, ITEM_CONTEXT_TAG Target preserve_sheet_index_421"
+				},
 				"Cornucopia_RoyalJelly": {
 					"Id": "Cornucopia_RoyalJelly",
 					"ItemId": "Cornucopia_RoyalJelly",
-					"Condition": "RANDOM 0.01, ANY \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rose\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_595\""
+					"Condition": "RANDOM 0.01, ANY \"ITEM_CONTEXT_TAG Target preserve_sheet_index_595\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rose\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_lily\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_orchid\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_lotus\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_chrysanthemum\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosefall\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_roseprismatic\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosespring\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosesummer\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosewinter\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosespring1\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosespring2\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosespring3\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosespring4\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosesummer1\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosesummer2\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosesummer3\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosesummer4\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosefall1\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosefall2\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosefall3\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosefall4\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosewinter1\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosewinter2\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosewinter3\" \"ITEM_CONTEXT_TAG Target preserve_sheet_index_cornucopia_rosewinter4\""
 				}
 			}
 		},
@@ -23,7 +28,7 @@
 				"CustomData"
 			],
 			"Entries": {
-				"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_RoyalJelly"
+				"selph.ExtraMachineConfig.ExtraOutputIds": "Cornucopia_RoyalJelly, Cornucopia_RoyalJellySunflower"
 			}
 		}
 	]
