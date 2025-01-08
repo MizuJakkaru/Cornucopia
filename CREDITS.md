@@ -34,7 +34,7 @@ We hope that people also find enjoyment in the updated sprites of Cornucopia. Ev
 Paid Assets Artists: [anarchisedlute](https://anarchisedlute.itch.io/), [artoftic](https://artoftic.itch.io/), [cyangmou](https://cyangmou.itch.io/), [pixeltier](https://pixeltier.itch.io/)
 
 ## Permissions
-The following permissions apply to original Cornucopia assets, as in, any art created by MizuJakkaru or 6480. This includes all art for More Crops, More Flowers, Growable Forage, More Artisan Goods, and some art from More Recipes (Check the Informational Spreadsheet for credit info).
+The following permissions apply to original Cornucopia assets, as in, any art created by MizuJakkaru or 6480. This includes all art for More Crops, More Flowers, Growable Forage, Artisan Machines, and Cooking Recipes (Check the Informational Spreadsheet for specific credit info).
 
 * You may edit and use original Cornucopia assets for any Stardew Valley mod, with credit and a link given to Cornucopia or the artist themselves (MizuJakkaru or 6480).
 * You do not need to obtain permission to edit or use original Cornucopia assets.
