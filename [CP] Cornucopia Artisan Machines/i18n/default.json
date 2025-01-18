@@ -242,17 +242,17 @@
   "MarnieSpecialOrder_text": "I used to keep up a culture for yogurt going in the past and I'm thinking about picking up the hobby again, but I need milk from all sorts of animals to get started. Can anyone lend a hand?",
   "MarnieSpecialOrder_objective0": "Gather 50 bottles of milk.",
   "MarnieSpecialOrder_objective1": "Place the milk in Marnie's kitchen.",
-  "MarnieSpecialOrder_letter": "Dear @,^ I can't begin to express how grateful I am to you for the other day. Making yogurt with Jas and Shane really helped us create a wonderful memory and I couldn't have done it without you. I attached the crafting recipe for you to make yogurt jars of your very own!^-Marnie %item craftingRecipe Cornucopia_YogurtJar %%[#]Yogurt Jar Recipe",
+  "MarnieSpecialOrder_letter": "Dear @,^ I can't begin to express how grateful I am to you for the other day. Making yogurt with Jas and Shane really helped us create a wonderful memory and I couldn't have done it without you. I attached the crafting recipe for you to make yogurt jars of your very own!^   -Marnie %item craftingRecipe Cornucopia_YogurtJar %%[#]Yogurt Jar Recipe",
   
   "EmilySpecialOrder_name": "Oils Essential",
   "EmilySpecialOrder_text": "Hey everyone! I've been experimenting with some new channeling techniques using essential oils and essences of different flowers and such. I could really use help collecting some new exciting ingredients. Wanna help me out?",
   "EmilySpecialOrder_objective": "Deliver 15 {Crop:Text} to Emily's studio.",
-  "EmilySpecialOrder_letter": "@!^ Thank you @, you really helped me connect with my deepest energies (and unexpectantly with my sister!). I wanted to give you a thank you present so you can make essential oils of your every own. If you need any suggestions feel free to ask!^-Emily %item craftingRecipe Cornucopia_Alembic %%[#]Alembic Recipe",
+  "EmilySpecialOrder_letter": "@!^ Thank you @, you really helped me connect with my deepest energies (and unexpectantly with my sister!). I wanted to give you a thank you present so you can make essential oils of your every own. If you need any suggestions feel free to ask!^   -Emily %item craftingRecipe Cornucopia_Alembic %%[#]Alembic Recipe",
   
   "GusSpecialOrder_name": "Smoky Flavors on the Horizon",
   "GusSpecialOrder_text": "I'm looking to try out a new dish or two using smoked fish. If someone could ship some smoked fish, maybe I could pick up what I need from the markets and scratch my creative itch.",
   "GusSpecialOrder_objective": "Ship 25 smoked fish.",
-  "GusSpecialOrder_letter": "Dear @,^ Thanks to you, I've been able to try out several new smoked fish recipes. Here's some notes on how to make your fish smoker even better so you can experiment with smoking other produce.^-Gus %item craftingRecipe Cornucopia_DeluxeSmoker %%[#]Deluxe Smoker Recipe",
+  "GusSpecialOrder_letter": "Dear @,^ Thanks to you, I've been able to try out several new smoked fish recipes. Here's some notes on how to make your fish smoker even better so you can experiment with smoking other produce.^   -Gus %item craftingRecipe Cornucopia_DeluxeSmoker %%[#]Deluxe Smoker Recipe",
   
   "GeorgeSpecialOrder_name": "Gifts for Evelyn",
   "GeorgeSpecialOrder_text": "Listen up, you lot! I reckon it's high time I return the favor Evelyn paid me and remind her I've got a heart or some such nonsense. Bring me some of her favorites... or whatever other sentimental claptrap you've got.",
@@ -263,7 +263,7 @@
   "GeorgeSpecialOrder_objective3": "Bring the rosemary to George and Evelyn's kitchen.",
   "GeorgeSpecialOrder_objective4": "Gather 20 berries.",
   "GeorgeSpecialOrder_objective5": "Bring the berries to George and Evelyn's kitchen.",
-  "GeorgeSpecialOrder_letter": "To @:^ I guess I owe you for one for helping me out with Evelyn. Here's some details on how to make a wax barrel of your own. Use it to make candles and other such stuff.-George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wax Barrel Recipe",
+  "GeorgeSpecialOrder_letter": "To @:^ I guess I owe you for one for helping me out with Evelyn. Here's some details on how to make a wax barrel of your own. Use it to make candles and other such stuff.^   -George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wax Barrel Recipe",
 
   //Events
   "CulturedYogurt_Marnie.1": "Oh! This must be the milk I requested.",
