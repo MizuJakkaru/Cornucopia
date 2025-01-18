@@ -21,7 +21,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Neutral"],
-                    "Value": "Cornucopia_Beeswax Cornucopia_Margarine Cornucopia_EssentialOil Cornucopia_NutMilk Cornucopia_CoconutMilk Cornucopia_RiceNoodle Cornucopia_WheatNoodle Cornucopia_SemolinaNoodle Cornucopia_Whole-GrainNoodle Cornucopia_GlassNoodles Cornucopia_Zoodles Cornucopia_FishSauce Cornucopia_Garum", 
+                    "Value": "Cornucopia_Beeswax Cornucopia_Margarine Cornucopia_EssentialOil Cornucopia_NutMilk Cornucopia_CoconutMilk Cornucopia_RiceNoodles Cornucopia_WheatNoodles Cornucopia_BuckwheatNoodles Cornucopia_SemolinaNoodles Cornucopia_WholeGrainNoodles Cornucopia_GlassNoodles Cornucopia_Zoodles Cornucopia_FishSauce Cornucopia_Garum", 
                     "Delimiter": " "
                 },
 				{

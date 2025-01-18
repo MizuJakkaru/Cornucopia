@@ -229,7 +229,7 @@
 				},
 				"Cornucopia_CanaryMelonSeeds": {
 					"Seasons": [ "spring" ],
-					"DaysInPhase": [ 1, 2, 3, 3, 2 ],
+					"DaysInPhase": [ 2, 2, 3, 3, 2 ],
 					"HarvestItemId": "Cornucopia_CanaryMelon",
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 37,
