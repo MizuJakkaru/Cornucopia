@@ -44,7 +44,7 @@
 					"YieldOverrides": {
 						"5": { //number of phase which you harvest to get this (0=seed)
 							//"NewPhase": 4,
-							"RegrowDays": 4,
+							"RegrowDays": 5,
 							"IgnoreDefaultDrops": false,
 							"Drops": [
 								{
@@ -75,7 +75,7 @@
 					"YieldOverrides": {
 						"5": { //number of phase which you harvest to get this (0=seed)
 							//"NewPhase": 4,
-							"RegrowDays": 4,
+							"RegrowDays": 5,
 							"IgnoreDefaultDrops": false,
 							"Drops": [
 								{
@@ -106,7 +106,7 @@
 					"YieldOverrides": {
 						"5": { //number of phase which you harvest to get this (0=seed)
 							//"NewPhase": 4,
-							"RegrowDays": 4,
+							"RegrowDays": 5,
 							"IgnoreDefaultDrops": false,
 							"Drops": [
 								{
@@ -136,7 +136,7 @@
 				"Cornucopia_RoseWinterSeeds": {
 					"YieldOverrides": {
 						"5": { //number of phase which you harvest to get this (0=seed)
-							"RegrowDays": 4,
+							"RegrowDays": 5,
 							"IgnoreDefaultDrops": false,
 							"Drops": [
 								{
