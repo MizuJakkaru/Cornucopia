@@ -1,11 +1,11 @@
 {
 	"Changes": [
-		// Add Letter from Pierre notifying of Flower Catalogue
+		// Add Letter
 		{
 			"Action": "EditData",
 			"Target": "Data/Mail",
 			"Entries": {
-				"Cornucopia_FlowerCatalogue": "Hey @,^I wanted to let you know that I've set up a catalogue for ordering flower seeds! I heard from a friend in the city that demand for floral items has been increasing, so I wanted to get ahead of the curve and ahead of JojaMart. I can't say I know much about flowers, so I'll just let you browse the catalogue yourself.^-Pierre[#]Flower Catalogue Available"
+				"Cornucopia_HaleyRoyalJelly": "{{i18n:Mail_HaleyRoyalJelly}}",
 			}
 		},
 		// Add Letter Event
@@ -13,7 +13,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Farm",
 			"Entries": {
-				"Cornucopia_SendFlowerCatalogue/dayofweek monday/season spring/year 1/sendmail Cornucopia_FlowerCatalogue": "null"
+				"Cornucopia_SendHaleyRoyalJelly/dayofmonth 3/season summer/year 1/friendship haley 4/sendmail Cornucopia_HaleyRoyalJelly": "null"
 			}
 		}
 	]
