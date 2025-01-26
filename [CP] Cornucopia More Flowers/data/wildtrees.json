@@ -1,0 +1,50 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Enable Extended Flowers Pack": true
+			},
+			"Entries": {
+				"Cornucopia_CorpseFlowerSeed": {
+					"Name": "Cornucopia_CorpseFlowerSeed",
+					"Type": "Basic",
+					"Category": -74,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:CorpseFlowerSeed_name}}",
+					"Description": "{{i18n:CorpseFlowerSeed_description}}",
+					"Texture": "Cornucopia.MoreFlowers/Objects",
+					"Price": 50,
+					"ContextTags": [
+						"cornucopia_wildtree_seed",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_extendedtrees",
+						"modid_cornucopia.morecrops"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"When": {
+				"Enable Extended Flowers Pack": true
+			},
+			"Entries": {
+				"Cornucopia_CorpseFlowerSeed": {
+					"Textures": [
+						{
+							"Texture": "Cornucopia.MoreFlowers/treecorpseflower"
+						}
+					],
+					"SeedItemId": "(O)Cornucopia_CorpseFlowerSeed",
+					"DebrisColor": 100004,
+					"IsLeafy": false,
+					"IsLeafyInWinter": false,
+					"UseAlternateSpriteWhenNotShaken": false
+				}
+			}
+		}
+	]
+}
