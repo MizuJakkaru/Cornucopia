@@ -13,6 +13,10 @@
 					"Triggers": [
 						{
 							"RequiredItemId": "(O)Cornucopia_WasabiRoot"
+						},
+						{
+							"RequiredItemId": "(O)16",
+							"RequiredCount": 3
 						}
 					],
 					"UseFirstValidOutput": true,
@@ -35,7 +39,8 @@
 							}
 						},
 					],
-					"MinutesUntilReady": 180
+					"MinutesUntilReady": 180,
+					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]"
 				}
 			}
 		}
