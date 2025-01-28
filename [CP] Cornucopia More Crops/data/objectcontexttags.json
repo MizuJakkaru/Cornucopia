@@ -79,7 +79,7 @@
 		{
 		   "Action": "EditData",
 		   "Target": "Data/Objects",
-		   "TargetField": ["209", "ContextTags"],			//hot pepper
+		   "TargetField": ["260", "ContextTags"],			//hot pepper
 		   "Entries": {
 				  "#-1": "chili_item"
 		   }
