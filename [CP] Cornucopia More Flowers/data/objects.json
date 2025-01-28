@@ -1024,6 +1024,28 @@
 						"modid_cornucopia.moreflowers",
 						"wolfsbane_item"
 					]
+				},
+				"Cornucopia_CorpseFlowerPetal": {
+					"Name": "Cornucopia_CorpseFlowerPetal",
+					"Type": "Flower",
+					"Category": -80,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:CorpseFlowerPetal_name}}",
+					"Description": "{{i18n:CorpseFlowerPetal_description}}",
+					"Texture": "Cornucopia.MoreFlowers/Objects",
+					"Price": 140,
+					"Edibility": -20,
+					"ColorOverlayFromNextIndex": true,
+					"ContextTags": [
+						"color_red",
+						"season_summer",
+						"poisonous_item",
+						"cornucopia_wildtree_produce",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_extendedflowers",
+						"modid_cornucopia.moreflowers",
+						"corpse_flower_item"
+					]
 				}
 			}
 		},
@@ -2196,6 +2218,23 @@
 					"ContextTags": [
 						"cornucopia_crop_seed",
 						"cornucopia_rarity_common",
+						"cornucopia_pack_extendedflowers",
+						"cornucopia_season_summer",
+						"modid_cornucopia.moreflowers"
+					]
+				},
+				"Cornucopia_CorpseFlowerSeed": {
+					"Name": "Cornucopia_CorpseFlowerSeed",
+					"Type": "Basic",
+					"Category": -74,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:CorpseFlowerSeed_name}}",
+					"Description": "{{i18n:CorpseFlowerSeed_description}}",
+					"Texture": "Cornucopia.MoreFlowers/Objects",
+					"Price": 60,
+					"ContextTags": [
+						"cornucopia_wildtree_seed",
+						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"cornucopia_season_summer",
 						"modid_cornucopia.moreflowers"

@@ -1,0 +1,119 @@
+{
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_E",
+			"When": {
+				"Enable Extended Flowers Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": false,
+				"Query: {{Random: {{Range:1,101}} }} <= 1": true
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 11,
+						"Y": 13
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_CorpseFlowerSeed"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_E",
+			"When": {
+				"Enable Extended Flowers Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": false,
+				"Query: {{Random: {{Range:1,101}} }} <= 1": true
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 17,
+						"Y": 34
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_CorpseFlowerSeed"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_E",
+			"When": {
+				"Enable Extended Flowers Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": false,
+				"Query: {{Random: {{Range:1,101}} }} <= 1": true
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 29,
+						"Y": 40
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_CorpseFlowerSeed"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_E",
+			"When": {
+				"Enable Extended Flowers Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": false,
+				"Query: {{Random: {{Range:1,101}} }} <= 1": true
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 24,
+						"Y": 48
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_CorpseFlowerSeed"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Island_E",
+			"When": {
+				"Enable Extended Flowers Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=Lnh.IslandOverhaul": true
+			},
+			"Priority": "Default + 10",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 38,
+						"Y": 42
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_CorpseFlowerSeed"
+					}
+				},
+			]
+		}
+	]
+}
