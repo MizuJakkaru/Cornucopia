@@ -209,5 +209,9 @@
   
   "RoyalJelly_name": "Royal Jelly",
   "RoyalJelly_description": "Sparkling jelly made by queen bees.",
-  "Mail_HaleyRoyalJelly": "Hey @,^Gosh, can you believe it's summer already? By the way, I read something in a magazine that I wanted to tell you. Did you know that bees can sometimes make a special product called Royal Jelly?^Apparently it's really sweet, buttery, and great for your skin. You just need to plant special flowers around them! Sunflowers are the best of course, but this article says you can use roses, or experiment with other \"royal\" flowers. Why don't you give it a try and tell me if it works?^   -Haley",
+  "Mail_HaleyRoyalJelly": "Hey @,^Gosh, can you believe it's summer already? By the way, I read something in a magazine that I wanted to tell you. Did you know that bees can sometimes make a special product called Royal Jelly? Apparently it's really sweet, buttery, and great for your skin. You just need to plant special flowers around them!^^Sunflowers are the best of course, but this article says you can use roses, or experiment with other \"royal\" flowers. Why don't you give it a try and tell me if it works?^   -Haley",
+  "CorpseFlowerSeed_name": "Corpse Flower Seed",
+  "CorpseFlowerSeed_description": "The seed of a stinking flower as large as a tree.",
+  "CorpseFlowerPetal_name": "Corpse Flower Petal",
+  "CorpseFlowerPetal_description": "A petal so large that it could be used as a blanket, if it didn't smell so horrible."
 }

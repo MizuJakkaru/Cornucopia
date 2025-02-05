@@ -134,6 +134,7 @@
 								"DropBox": "EmilyWorkshop",
 								"DropBoxGameLocation": "HaleyHouse",
 								"DropBoxIndicatorLocation": "17 22",
+								"MinimumCapacity": "24",
 								"AcceptedContextTags": "{Crop:Tags}"
 							}
 						}
@@ -234,6 +235,7 @@
 								"DropBox": "EvelynKitchen",
 								"DropBoxGameLocation": "JoshHouse",
 								"DropBoxIndicatorLocation": "3 15",
+								"MinimumCapacity": "24",
 								"AcceptedContextTags": "rose_item"
 							}
 						},
@@ -253,6 +255,7 @@
 								"DropBox": "EvelynKitchen",
 								"DropBoxGameLocation": "JoshHouse",
 								"DropBoxIndicatorLocation": "3 15",
+								"MinimumCapacity": "24",
 								"AcceptedContextTags": "berry_item"
 							}
 						}
@@ -300,6 +303,7 @@
 								"DropBox": "EvelynKitchen",
 								"DropBoxGameLocation": "JoshHouse",
 								"DropBoxIndicatorLocation": "3 15",
+								"MinimumCapacity": "24",
 								"AcceptedContextTags": "rose_item"
 							}
 						},
@@ -319,6 +323,7 @@
 								"DropBox": "EvelynKitchen",
 								"DropBoxGameLocation": "JoshHouse",
 								"DropBoxIndicatorLocation": "3 15",
+								"MinimumCapacity": "24",
 								"AcceptedContextTags": "rosemary_item"
 							}
 						},
@@ -338,6 +343,7 @@
 								"DropBox": "EvelynKitchen",
 								"DropBoxGameLocation": "JoshHouse",
 								"DropBoxIndicatorLocation": "3 15",
+								"MinimumCapacity": "24",
 								"AcceptedContextTags": "berry_item"
 							}
 						}

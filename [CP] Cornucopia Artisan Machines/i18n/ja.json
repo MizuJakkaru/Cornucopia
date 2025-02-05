@@ -242,7 +242,7 @@
 	"GeorgeSpecialOrder_objective3": "ローズマリーをジョージの家の台所に納品する。",
 	"GeorgeSpecialOrder_objective4": "ベリーを20個集める。",
 	"GeorgeSpecialOrder_objective5": "ベリーをジョージの家の台所に納品する。",
-	"GeorgeSpecialOrder_letter": "@様:^ エブリンの件では世話になった。手紙にロウソク用のタルの作り方を同封しておくので、良ければ使ってみてくれ。-ジョージ %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wax Barrel Recipe",
+	"GeorgeSpecialOrder_letter": "@様:^ エブリンの件では世話になった。手紙にロウソク用のタルの作り方を同封しておくので、良ければ使ってみてくれ。^-ジョージ %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wax Barrel Recipe",
 	"config.Enable Vinegar Keg.name": "製酢タルを有効にする",
 	"config.Enable Vinegar Keg.description": "ブドウやりんご、お米から酢を作れるタルをゲームに追加します。",
 	"config.Enable Vegetable Wine.name": "野菜のワインを有効にする",

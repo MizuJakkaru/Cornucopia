@@ -241,7 +241,7 @@
 	"GeorgeSpecialOrder_objective3": "Deponiere den Rosmarin in der Küche von George und Evelyn.",
 	"GeorgeSpecialOrder_objective4": "Sammle 20 Beeren (jeder Art).",
 	"GeorgeSpecialOrder_objective5": "Deponiere die Beeren in der Küche von George und Evelyn.",
-	"GeorgeSpecialOrder_letter": "An @:^ Ich schulde dir etwas für deine Hilfe bei dem Geschenk für Evelyn. Hier ist eine Anleitung, mit der du selbst ein Wachsfass bauen kannst, um Kerzen und mehr zu machen.-George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wachsfass-Rezept",
+	"GeorgeSpecialOrder_letter": "An @:^ Ich schulde dir etwas für deine Hilfe bei dem Geschenk für Evelyn. Hier ist eine Anleitung, mit der du selbst ein Wachsfass bauen kannst, um Kerzen und mehr zu machen.^-George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wachsfass-Rezept",
 	"config.Enable Vinegar Keg.name": "Erlaube Essigfässer im Spiel",
 	"config.Enable Vinegar Keg.description": "Fügt ein kleineres Fass hinzu, dass Trauben, Äpfeln und ungemahlenen Reis zu Essig macht. ",
 	"config.Enable Vegetable Wine.name": "Erlaube Gemüsewein im Spiel",

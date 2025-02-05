@@ -11,19 +11,19 @@
 					"Textures": [
 						{
 							"Texture": "Cornucopia.MoreCrops/treesapodilla_spring",
-							"Season": "spring"
+							"Condition": "LOCATION_SEASON Here spring, !LOCATION_IS_INDOORS Here"
 						},
 						{
 							"Texture": "Cornucopia.MoreCrops/treesapodilla_summer",
-							"Season": "summer"
+							"Condition": "ANY \"LOCATION_SEASON Here summer\" \"LOCATION_IS_INDOORS Here\""
 						},
 						{
 							"Texture": "Cornucopia.MoreCrops/treesapodilla_fall",
-							"Season": "fall"
+							"Condition": "LOCATION_SEASON Here fall, !LOCATION_IS_INDOORS Here"
 						},
 						{
 							"Texture": "Cornucopia.MoreCrops/treesapodilla_winter",
-							"Season": "winter"
+							"Condition": "LOCATION_SEASON Here winter, !LOCATION_IS_INDOORS Here"
 						}
 					],
 					"SeedItemId": "(O)Cornucopia_SapodillaSeed",
@@ -35,7 +35,7 @@
 							"ItemId": "(O)Cornucopia_Sapodilla",
 							"MinStack": 1,
 							"MaxStack": 1,
-							"Season": "summer",
+							"Condition": "ANY \"LOCATION_SEASON Here summer\" \"LOCATION_IS_INDOORS Here\"",
 							"Chance": 1
 						}
 					],

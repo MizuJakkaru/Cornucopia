@@ -44,7 +44,7 @@
 								{
 									"ItemId": "Cornucopia_DriedFlower",
 									"ObjectInternalName": "{0} Cornucopia_DriedFlower",
-									"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME]",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME %PRESERVED_DISPLAY_NAME]",
 									"PreserveId": "DROP_IN",
 									"CopyPrice": true,
 									"CustomData": {
@@ -79,7 +79,7 @@
 								{
 									"ItemId": "Cornucopia_DriedHerb",
 									"ObjectInternalName": "{0} {{i18n:DriedHerb_name}}",
-									"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME]",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:DriedFruit_Flavored_Name %PRESERVED_DISPLAY_NAME %PRESERVED_DISPLAY_NAME]",
 									"PreserveId": "DROP_IN",
 									"CopyPrice": true,
 									"CustomData": {

@@ -242,7 +242,7 @@
 	"GeorgeSpecialOrder_objective3": "Porta il rosmarino nella cucina di George ed Evelyn.",
 	"GeorgeSpecialOrder_objective4": "Raccogliere 20 frutti di bosco (more, fragole, mirtilli, ecc.).",
 	"GeorgeSpecialOrder_objective5": "Porta i frutti di bosco nella cucina di George ed Evelyn.",
-	"GeorgeSpecialOrder_letter": "A @:^ penso di essere in debito con te per avermi aiutato con Evelyn. Ecco alcuni dettagli su come creare un barile di cera tutto tuo. Usalo per fare candele e altre cose del genere.-George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Ricetta Barilotto per la cera",
+	"GeorgeSpecialOrder_letter": "A @:^ penso di essere in debito con te per avermi aiutato con Evelyn. Ecco alcuni dettagli su come creare un barile di cera tutto tuo. Usalo per fare candele e altre cose del genere.^-George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Ricetta Barilotto per la cera",
 	"config.Enable Vinegar Keg.name": "Abilita il barilotto di aceto",
 	"config.Enable Vinegar Keg.description": "Aggiunge un barilotto più piccolo che può trasformare uva, mele e riso non macinato in aceto.",
 	"config.Enable Juicer.name": "Abilita l'estrattore di succo",

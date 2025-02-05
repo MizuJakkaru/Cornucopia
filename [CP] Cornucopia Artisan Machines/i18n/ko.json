@@ -242,7 +242,7 @@
 	"GeorgeSpecialOrder_objective3": "조지와 에블린의 부엌으로 로즈마리를 가져오세요.",
 	"GeorgeSpecialOrder_objective4": "베리 10개 모으기.",
 	"GeorgeSpecialOrder_objective5": "조지와 에블린의 부엌으로 베리를 가져오세요.",
-	"GeorgeSpecialOrder_letter": "@:^에게 도와줘서 고마워.. 너에게 빛을 졌군. 여기 밀랍 통을 만드는 방법에 대한 몇 가지 참고 사항이 있어. 양초와 다른 것들을 만드는 데 사용할수 있지. - 조지 %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wax Barrel Recipe",
+	"GeorgeSpecialOrder_letter": "@:^에게 도와줘서 고마워.. 너에게 빛을 졌군. 여기 밀랍 통을 만드는 방법에 대한 몇 가지 참고 사항이 있어. 양초와 다른 것들을 만드는 데 사용할수 있지. ^- 조지 %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wax Barrel Recipe",
 	"config.Enable Vinegar Keg.name": "식초 통 활성화",
 	"config.Enable Vinegar Keg.description": "포도, 사과, 갈리지 않은 쌀을 식초로 만들 수 있는 더 작은 술통을 추가합니다.",
 	"config.Enable Vegetable Wine.name": "야채 와인 활성화",

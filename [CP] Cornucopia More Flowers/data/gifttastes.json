@@ -93,7 +93,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Dislike"],
-                    "Value": "Cornucopia_PitcherPlant", 
+                    "Value": "Cornucopia_PitcherPlant Cornucopia_CorpseFlowerPetal", 
                     "Delimiter": " "
                 },
 				{
@@ -106,7 +106,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Haley", 1],
-                    "Value": "Cornucopia_CalicoRose", 
+                    "Value": "Cornucopia_CalicoRose Cornucopia_RoyalJelly", 
                     "Delimiter": " "
                 },
 				{

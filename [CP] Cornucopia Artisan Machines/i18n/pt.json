@@ -242,7 +242,7 @@
 	"GeorgeSpecialOrder_objective3": "Levar o alecrim para a cozinha do George e da Evelyn.",
 	"GeorgeSpecialOrder_objective4": "Juntar 20 frutinhas.",
 	"GeorgeSpecialOrder_objective5": "Levar as frutinhas para a cozinha do George e da Evelyn.",
-	"GeorgeSpecialOrder_letter": "Para @:^Acho que te devo uma por me ajudar com a Evelyn. Aqui estão algumas intruções para fazer um barril de cera. Você pode usar para fazer velas e outras coisas do tipo.- George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Barril de Cera",
+	"GeorgeSpecialOrder_letter": "Para @:^Acho que te devo uma por me ajudar com a Evelyn. Aqui estão algumas intruções para fazer um barril de cera. Você pode usar para fazer velas e outras coisas do tipo.^- George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Barril de Cera",
 	"config.Enable Vinegar Keg.name": "Habilitar Barril de Vinagre",
 	"config.Enable Vinegar Keg.description": "Adiciona um barril menor que pode transformar uvas, maçã e grãos de arroz em vinagre.",
 	"config.Enable Juicer.name": "Habilitar Espremedor",

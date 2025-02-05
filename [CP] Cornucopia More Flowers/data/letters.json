@@ -1,19 +1,24 @@
 {
 	"Changes": [
-		// Add Letter
 		{
 			"Action": "EditData",
 			"Target": "Data/Mail",
 			"Entries": {
-				"Cornucopia_HaleyRoyalJelly": "{{i18n:Mail_HaleyRoyalJelly}}",
+				"Cornucopia.MoreFlowers_HaleyRoyalJelly": "{{i18n:Mail_HaleyRoyalJelly}}"
 			}
 		},
-		// Add Letter Event
 		{
 			"Action": "EditData",
-			"Target": "Data/Events/Farm",
+			"Target": "Data/TriggerActions",
 			"Entries": {
-				"Cornucopia_SendHaleyRoyalJelly/dayofmonth 3/season summer/year 1/friendship haley 4/sendmail Cornucopia_HaleyRoyalJelly": "null"
+				"Cornucopia.MoreFlowers_HaleyRoyalJelly_SendMail": {
+					"Id": "Cornucopia.MoreFlowers_HaleyRoyalJelly_SendMail",
+					"Trigger": "DayStarted",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "DATE_RANGE summer 3 1 summer 28",
+					"Action": "AddMail All Cornucopia.MoreFlowers_HaleyRoyalJelly all"
+				}
 			}
 		}
 	]

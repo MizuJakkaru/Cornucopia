@@ -33,7 +33,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Entries", "Universal_Hate"],
-                    "Value": "Cornucopia_Pepper Cornucopia_Salt Cornucopia_Paprika Cornucopia_ChiliPowder Cornucopia_PineNuts  Cornucopia_LemonZest Cornucopia_LimeZest Cornucopia_OrangeZest Cornucopia_FishOil Cornucopia_PickledFish Cornucopia_StinkyTofu Cornucopia_GellingPowder", 
+                    "Value": "Cornucopia_Pepper Cornucopia_Salt Cornucopia_Paprika Cornucopia_ChiliPowder Cornucopia_PineNuts  Cornucopia_LemonZest Cornucopia_LimeZest Cornucopia_OrangeZest Cornucopia_FishOil Cornucopia_PickledFish Cornucopia_StinkyTofu Cornucopia_GellingPowder Cornucopia_Starmite", 
                     "Delimiter": " "
                 },
 			//Spouses/Krobus
@@ -227,7 +227,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Lewis", 1],
-                    "Value": "Cornucopia_BrinedOlives", 
+                    "Value": "Cornucopia_BrinedOlives Cornucopia_Starmite", 
                     "Delimiter": " "
                 },
 				{
@@ -275,7 +275,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Wizard", 1],
-                    "Value": "Cornucopia_CenturyEgg", 
+                    "Value": "Cornucopia_CenturyEgg Cornucopia_Starmite", 
                     "Delimiter": " "
                 }
             ]

@@ -261,7 +261,7 @@
   "GeorgeSpecialOrder_objective3": "Biberiyeleri George ve Evelyn'in mutfağına getir.",
   "GeorgeSpecialOrder_objective4": "20 tane meyve topla.",
   "GeorgeSpecialOrder_objective5": "Meyveleri George ve Evelyn'in mutfağına bırak.",
-  "GeorgeSpecialOrder_letter": "@'a:^ Sanırım Evelyn konusunda bana yardım ettiğin için sana bir borcum var. İşte kendi balmumu fıçınızı nasıl yapacağınıza dair bazı ayrıntılar. Mum ve benzeri şeyler yapmak için kullanın.-George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wax Barrel Recipe",
+  "GeorgeSpecialOrder_letter": "@'a:^ Sanırım Evelyn konusunda bana yardım ettiğin için sana bir borcum var. İşte kendi balmumu fıçınızı nasıl yapacağınıza dair bazı ayrıntılar. Mum ve benzeri şeyler yapmak için kullanın.^-George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Wax Barrel Recipe",
 
   //Events
   "CulturedYogurt_Marnie.1": "Ah! İstediğim süt bu olsa gerek.",

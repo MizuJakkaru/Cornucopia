@@ -242,7 +242,7 @@
 	"GeorgeSpecialOrder_objective3": "Lleva el romero a la cocina de George y Evelyn.",
 	"GeorgeSpecialOrder_objective4": "Recolecta 20 bayas.",
 	"GeorgeSpecialOrder_objective5": "Lleva las bayas a la cocina de George y Evelyn.",
-	"GeorgeSpecialOrder_letter": "Para @:^ Supongo que te debo un agradecimiento por ayudarme con lo de Evelyn. Aquí tienes cómo fabricar tu propio barril de cera. Lo puedes usar para hacer velas u otras cosas del estilo.-George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Receta del barril de cera",
+	"GeorgeSpecialOrder_letter": "Para @:^ Supongo que te debo un agradecimiento por ayudarme con lo de Evelyn. Aquí tienes cómo fabricar tu propio barril de cera. Lo puedes usar para hacer velas u otras cosas del estilo.^-George %item craftingRecipe Cornucopia_WaxBarrel %%[#]Receta del barril de cera",
 	"config.Enable Vinegar Keg.name": "Habilitar barril de vinagre",
 	"config.Enable Vinegar Keg.description": "Añade un barril pequeño que convierte las uvas, manzanas y arroz sin moler en vinagre.",
 	"config.Enable Vegetable Wine.name": "Habilitar vino vegetal",

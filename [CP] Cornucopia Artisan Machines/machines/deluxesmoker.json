@@ -84,7 +84,7 @@
 								{
 									"ItemId": "(O)Cornucopia_SmokedCheese",
 									"ObjectInternalName": "{0} Cornucopia_SmokedCheese",
-									"ObjectDisplayName": "[LocalizedText Strings/Objects:SmokedFish_Flavored_Name %PRESERVED_DISPLAY_NAME]",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:SmokedFish_Flavored_Name %PRESERVED_DISPLAY_NAME %PRESERVED_DISPLAY_NAME]",
 									"PreserveId": "DROP_IN",
 									"CopyPrice": true,
 									"PriceModifierMode": "Stack",
@@ -186,7 +186,7 @@
 								{
 									"ItemId": "(O)Cornucopia_SmokedEgg",
 									"ObjectInternalName": "{0} Cornucopia_SmokedEgg",
-									"ObjectDisplayName": "[LocalizedText Strings/Objects:SmokedFish_Flavored_Name %PRESERVED_DISPLAY_NAME]",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:SmokedFish_Flavored_Name %PRESERVED_DISPLAY_NAME %PRESERVED_DISPLAY_NAME]",
 									"PreserveId": "DROP_IN",
 									"CopyPrice": true,
 									"CustomData": {
@@ -224,7 +224,7 @@
 								{
 									"ItemId": "(O)Cornucopia_SmokedMeat",
 									"ObjectInternalName": "{0} Cornucopia_SmokedMeat",
-									"ObjectDisplayName": "[LocalizedText Strings/Objects:SmokedFish_Flavored_Name %PRESERVED_DISPLAY_NAME]",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:SmokedFish_Flavored_Name %PRESERVED_DISPLAY_NAME %PRESERVED_DISPLAY_NAME]",
 									"PreserveId": "DROP_IN",
 									"CopyPrice": true,
 									"PriceModifierMode": "Stack",

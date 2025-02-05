@@ -2,31 +2,6 @@
 	"Changes": [
 		{
 			"Action": "EditData",
-			"Target": "Data/Objects",
-			"When": {
-				"Enable Extended Flowers Pack": true
-			},
-			"Entries": {
-				"Cornucopia_CorpseFlowerSeed": {
-					"Name": "Cornucopia_CorpseFlowerSeed",
-					"Type": "Basic",
-					"Category": -74,
-					"SpriteIndex": 0,
-					"DisplayName": "{{i18n:CorpseFlowerSeed_name}}",
-					"Description": "{{i18n:CorpseFlowerSeed_description}}",
-					"Texture": "Cornucopia.MoreFlowers/Objects",
-					"Price": 50,
-					"ContextTags": [
-						"cornucopia_wildtree_seed",
-						"cornucopia_rarity_rare",
-						"cornucopia_pack_extendedtrees",
-						"modid_cornucopia.morecrops"
-					]
-				}
-			}
-		},
-		{
-			"Action": "EditData",
 			"Target": "Data/WildTrees",
 			"When": {
 				"Enable Extended Flowers Pack": true
@@ -39,10 +14,47 @@
 						}
 					],
 					"SeedItemId": "(O)Cornucopia_CorpseFlowerSeed",
-					"DebrisColor": 100004,
-					"IsLeafy": false,
-					"IsLeafyInWinter": false,
-					"UseAlternateSpriteWhenNotShaken": false
+					"FertilizedGrowthChance": 0.5,
+					"SeedSpreadChance": 0.0,
+					"SeedOnShakeChance": 0.0,
+					"SeedOnChopChance": 0.0,
+					"DropWoodOnChop": false,
+					"DropHardwoodOnLumberChop": false,
+					"IsLeafy": true,
+					"IsLeafyInWinter": true,
+					"IsStumpDuringWinter": true,
+					"AllowWoodpeckers": false,
+					"UseAlternateSpriteWhenNotShaken": false,
+					"DebrisColor": "SeaGreen",
+					"ChopItems": [
+						{
+							"ID": "Petal",
+							"ItemId": "Cornucopia_CorpseFlowerPetal",
+							"MinStack": 1,
+							"MaxStack": 3,
+							"Condition": "ANY \"!LOCATION_SEASON Here winter\" \"LOCATION_IS_INDOORS Here\"",
+							"MinSize": "Tree",
+							"ForStump": false
+						},
+						{
+							"ID": "Seed",
+							"ItemId": "Cornucopia_CorpseFlowerSeed",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"ForStump": true,
+						}
+					],
+					"PlantableLocationRules": [
+						{
+							"ID": "IsIndoorsOrIsland",
+							"Result": "Default",
+							"Condition": "ANY \"LOCATION_CONTEXT Here Island\" \"LOCATION_IS_INDOORS Here\""
+						},
+						{
+							"ID": "Default",
+							"Result": "Deny",
+						}
+					]
 				}
 			}
 		}
