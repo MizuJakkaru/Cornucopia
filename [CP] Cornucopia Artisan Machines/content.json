@@ -207,7 +207,7 @@
 		{
 			"Action": "Include",
 			"When": {
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 			},
 			"FromFile": "machines-extendedcrops/butterchurn.json, machines-extendedcrops/extruder.json, machines-extendedcrops/keg.json, machines-extendedcrops/mayonnaisemachine.json,  machines-extendedcrops/preservesjar.json"
 		},
@@ -216,7 +216,7 @@
 		{
 			"Action": "Include",
 			"When": {
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 			},
 			"FromFile": "machines-extendedtrees/compactmill.json, machines-extendedtrees/extruder.json, machines-extendedtrees/preservesjar.json"
 		},
@@ -225,7 +225,7 @@
 		{
 			"Action": "Include",
 			"When": {
-				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 			},
 			"FromFile": "machines-herbs/compactmill.json, machines-herbs/mayonnaisemachine.json"
 		},
