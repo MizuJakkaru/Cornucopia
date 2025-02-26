@@ -144,6 +144,12 @@
             "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
         },
 		
+		{
+            "Action": "Load",
+            "Target": "Cornucopia.MoreCrops/i18n",
+            "FromFile": "i18n/default.json"
+        },
+		
 		// add teabushes and wild trees images
         {
             "Action": "Load",
