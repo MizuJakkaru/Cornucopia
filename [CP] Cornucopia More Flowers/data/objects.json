@@ -243,6 +243,7 @@
 					"Texture": "Cornucopia.MoreFlowers/Objects",
 					"Price": 1400,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": true,
 					"ContextTags": [
 						"color_white",
 						"modid_cornucopia.moreflowers",
