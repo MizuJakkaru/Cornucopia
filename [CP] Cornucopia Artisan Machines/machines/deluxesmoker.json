@@ -100,75 +100,6 @@
 							"MinutesUntilReady": 720
 						},
 						{
-							"Id": "Cornucopia_SmokedEggChickenSmall",
-							"Triggers": [
-								{
-									"RequiredItemId": "(O)176"
-								},
-								{
-									"RequiredItemId": "(O)180"
-								}
-							],
-							"OutputItem": [
-								{
-									"ItemId": "(O)Cornucopia_SmokedEgg"
-								}
-							],
-							"MinutesUntilReady": 720
-						},
-						{
-							"Id": "Cornucopia_SmokedEggChickenLarge",
-							"Triggers": [
-								{
-									"RequiredItemId": "(O)174"
-								},
-								{
-									"RequiredItemId": "(O)182"
-								}
-							],
-							"OutputItem": [
-								{
-									"ItemId": "(O)Cornucopia_SmokedEgg",
-									"Quality": 2
-								}
-							],
-							"MinutesUntilReady": 720
-						},
-						{
-							"Id": "Cornucopia_SmokedEggGold",
-							"Triggers": [
-								{
-									"RequiredItemId": "(O)928"
-								}
-							],
-							"OutputItem": [
-								{
-									"ItemId": "(O)Cornucopia_SmokedEgg",
-									"Quality": 2,
-									"MinStack": 3,
-									"MaxStack": 3
-								}
-							],
-							"MinutesUntilReady": 720
-						},
-						{
-							"Id": "Cornucopia_SmokedEggOstrich",
-							"Triggers": [
-								{
-									"RequiredItemId": "(O)289"
-								}
-							],
-							"OutputItem": [
-								{
-									"ItemId": "(O)Cornucopia_SmokedEgg",
-									"CopyQuality": true,
-									"MinStack": 10,
-									"MaxStack": 10
-								}
-							],
-							"MinutesUntilReady": 720
-						},
-						{
 							"Id": "Cornucopia_SmokedEgg",
 							"Triggers": [
 								{
@@ -188,6 +119,7 @@
 									"ObjectInternalName": "{0} Cornucopia_SmokedEgg",
 									"ObjectDisplayName": "[LocalizedText Strings/Objects:SmokedFish_Flavored_Name %PRESERVED_DISPLAY_NAME %PRESERVED_DISPLAY_NAME]",
 									"PreserveId": "DROP_IN",
+									"CopyQuality": true,
 									"CopyPrice": true,
 									"CustomData": {
 										"selph.ExtraMachineConfig.CopyColor": true
