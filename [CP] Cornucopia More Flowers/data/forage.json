@@ -13,15 +13,15 @@
 				},
 				"Cornucopia_Rafflesia": {
 					"Type": "Forageable",
-					 "ForageableItemData": [
-                        {
-                            "Weight": 1.0,
-                            "Value": {
-                                "ItemId": "(O)Cornucopia_Rafflesia",
-                            }
-                        }
-                    ],
-                    "ForageableExperienceGranted": 35,
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_Rafflesia"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 35
 				}
 			}
 		},
@@ -59,7 +59,7 @@
 							"Maximum": 1
 						}
 					]
-				},
+				}
 			}
 		},
 		{
@@ -73,42 +73,47 @@
 					"Id": "Cornucopia.MoreFlowers_CorpseFlowerTree_IslandEast",
 					"Trigger": "DayStarted",
 					"HostOnly": true,
-					"MarkActionApplied": false,
+					"MarkActionApplied": true,
 					"Condition": "PLAYER_VISITED_LOCATION Host IslandEast, RANDOM 0.008",
-					"Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.MoreFlowers_CorpseFlowerTree IslandEast 10,29,23,20"
-					]
+					"Action": "spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.MoreFlowers_CorpseFlowerTree IslandEast 10,29,23,20"
 				},
 				"Cornucopia.MoreFlowers_Rafflesia_IslandEast": {
 					"Id": "Cornucopia.MoreFlowers_Rafflesia_IslandEast",
 					"Trigger": "DayStarted",
 					"HostOnly": true,
-					"MarkActionApplied": false,
+					"MarkActionApplied": true,
 					"Condition": "RANDOM 0.02",
-					"Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.MoreFlowers_Rafflesia IslandEast 10,29,23,20"
-					]
+					"Action": "spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.MoreFlowers_Rafflesia IslandEast 10,29,23,20"
 				},
 				"Cornucopia.MoreFlowers_CorpseFlowerTree_IslandShrine": {
 					"Id": "Cornucopia.MoreFlowers_CorpseFlowerTree_IslandShrine",
 					"Trigger": "DayStarted",
 					"HostOnly": true,
-					"MarkActionApplied": false,
+					"MarkActionApplied": true,
 					"Condition": "PLAYER_VISITED_LOCATION Host IslandEast, RANDOM 0.005",
-					"Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.MoreFlowers_CorpseFlowerTree IslandShrine"
-					]
+					"Action": "spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.MoreFlowers_CorpseFlowerTree IslandShrine 19,24,28,31"
 				},
 				"Cornucopia.MoreFlowers_Rafflesia_IslandShrine": {
 					"Id": "Cornucopia.MoreFlowers_Rafflesia_IslandShrine",
 					"Trigger": "DayStarted",
 					"HostOnly": true,
-					"MarkActionApplied": false,
+					"MarkActionApplied": true,
 					"Condition": "RANDOM 0.04",
-					"Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.MoreFlowers_Rafflesia IslandShrine"
-					]
+					"Action": "spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.MoreFlowers_Rafflesia IslandShrine 19,24,28,31"
 				},
+				"Cornucopia.MoreFlowers_IslandSpawn_RepeatConfigFlags": {
+					"Id": "Cornucopia.MoreFlowers_IslandSpawn_RepeatConfigFlags",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"Action": null,
+					"Actions": [
+						"MarkActionApplied All Cornucopia.MoreFlowers_CorpseFlowerTree_IslandEast false",
+						"MarkActionApplied All Cornucopia.MoreFlowers_Rafflesia_IslandEast false",
+						"MarkActionApplied All Cornucopia.MoreFlowers_CorpseFlowerTree_IslandEast false",
+						"MarkActionApplied All Cornucopia.MoreFlowers_CorpseFlowerTree_IslandShrine false",
+						"MarkActionApplied All Cornucopia.MoreFlowers_Rafflesia_IslandShrine false"
+					]
+				}
 			}
 		}
 	]
