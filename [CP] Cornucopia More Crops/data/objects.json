@@ -23,7 +23,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"basil_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_BellPepper": {
 					"Name": "Cornucopia_BellPepper",
@@ -43,7 +44,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"bell_pepper_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Turnip": {
 					"Name": "Cornucopia_Turnip",
@@ -65,7 +67,8 @@
 						"modid_cornucopia.morecrops",
 						"turnip_item",
 						"root_vegetable_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_CottonBoll": {
 					"Name": "Cornucopia_CottonBoll",
@@ -86,7 +89,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"cotton_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Cucumber": {
 					"Name": "Cornucopia_Cucumber",
@@ -106,7 +110,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"cucumber_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Kiwi": {
 					"Name": "Cornucopia_Kiwi",
@@ -126,7 +131,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"kiwi_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Lettuce": {
 					"Name": "Cornucopia_Lettuce",
@@ -147,7 +153,8 @@
 						"modid_cornucopia.morecrops",
 						"lettuce_item",
 						"leafy_vegetable_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Olive": {
 					"Name": "Cornucopia_Olive",
@@ -167,7 +174,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"olive_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Onion": {
 					"Name": "Cornucopia_Onion",
@@ -187,7 +195,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"onion_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Peanut": {
 					"Name": "Cornucopia_Peanut",
@@ -208,7 +217,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"peanut_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Raspberry": {
 					"Name": "Cornucopia_Raspberry",
@@ -230,7 +240,8 @@
 						"cornucopia_forage",
 						"modid_cornucopia.morecrops",
 						"raspberry_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Soybeans": {
 					"Name": "Cornucopia_Soybeans",
@@ -252,7 +263,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"soybean_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Spinach": {
 					"Name": "Cornucopia_Spinach",
@@ -274,7 +286,8 @@
 						"modid_cornucopia.morecrops",
 						"spinach_item",
 						"leafy_vegetable_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Sugarcane": {
 					"Name": "Cornucopia_Sugarcane",
@@ -295,7 +308,8 @@
 						"cornucopia_forage",
 						"modid_cornucopia.morecrops",
 						"sugarcane_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Watermelon": {
 					"Name": "Cornucopia_Watermelon",
@@ -316,7 +330,8 @@
 						"modid_cornucopia.morecrops",
 						"watermelon_item",
 						"melon_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Zucchini": {
 					"Name": "Cornucopia_Zucchini",
@@ -336,7 +351,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"zucchini_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Vanilla": {
 					"Name": "Cornucopia_Vanilla",
@@ -357,7 +373,8 @@
 						"modid_cornucopia.morecrops",
 						"vanilla_item",
 						"vanilla_bean_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Peppercorn": {
 					"Name": "Cornucopia_Peppercorn",
@@ -381,7 +398,8 @@
 						"cornucopia_forage",
 						"modid_cornucopia.morecrops",
 						"peppercorn_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_BellPepperYellow": {
 					"Name": "Cornucopia_BellPepperYellow",
@@ -477,7 +495,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"adzuki_bean_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Agave": {
 					"Name": "Cornucopia_Agave",
@@ -496,7 +515,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"agave_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Asparagus": {
 					"Name": "Cornucopia_Asparagus",
@@ -516,7 +536,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"asparagus_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Bamboo": {
 					"Name": "Cornucopia_Bamboo",
@@ -537,7 +558,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"bamboo_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Barley": {
 					"Name": "Cornucopia_Barley",
@@ -558,7 +580,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"barley_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_BlackBeans": {
 					"Name": "Cornucopia_BlackBeans",
@@ -579,7 +602,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"black_bean_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_BlackCurrants": {
 					"Name": "Cornucopia_BlackCurrants",
@@ -602,7 +626,8 @@
 						"black_currant_item",
 						"currant_item",
 						"dehydrator_fruit_fix"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_BlueAgave": {
 					"Name": "Cornucopia_BlueAgave",
@@ -622,7 +647,8 @@
 						"modid_cornucopia.morecrops",
 						"blue_agave_item",
 						"agave_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Buckwheat": {
 					"Name": "Cornucopia_Buckwheat",
@@ -643,7 +669,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"buckwheat_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_ButternutSquash": {
 					"Name": "Cornucopia_ButternutSquash",
@@ -663,7 +690,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"butternut_squash_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Cabbage": {
 					"Name": "Cornucopia_Cabbage",
@@ -684,7 +712,8 @@
 						"modid_cornucopia.morecrops",
 						"cabbage_item",
 						"leafy_vegetable_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_CanaryMelon": {
 					"Name": "Cornucopia_CanaryMelon",
@@ -705,7 +734,8 @@
 						"modid_cornucopia.morecrops",
 						"canary_melon_item",
 						"melon_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_CanolaFlower": {
 					"Name": "Cornucopia_CanolaFlower",
@@ -726,7 +756,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"canola_flower_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Cantaloupe": {
 					"Name": "Cornucopia_Cantaloupe",
@@ -747,7 +778,8 @@
 						"modid_cornucopia.morecrops",
 						"cantaloupe_item",
 						"melon_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Cassava": {
 					"Name": "Cornucopia_Cassava",
@@ -767,7 +799,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"cassava_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Celery": {
 					"Name": "Cornucopia_Celery",
@@ -787,7 +820,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"celery_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_ChickenoftheWoods": {
 					"Name": "Cornucopia_ChickenoftheWoods",
@@ -812,7 +846,8 @@
 						"chicken_of_the_woods_item",
 						"sulphur_shelf_item",
 						"dehydrator_fruit_fix"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Chickpea": {
 					"Name": "Cornucopia_Chickpea",
@@ -832,7 +867,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"chickpea_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Daikon": {
 					"Name": "Cornucopia_Daikon",
@@ -853,7 +889,8 @@
 						"modid_cornucopia.morecrops",
 						"daikon_item",
 						"root_vegetable_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Durum": {
 					"Name": "Cornucopia_Durum",
@@ -874,7 +911,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"durum_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Elderberries": {
 					"Name": "Cornucopia_Elderberries",
@@ -898,7 +936,8 @@
 						"elderberry_item",
 						"dehydrator_fruit_fix",
 						"modid_cornucopia.morecrops"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Ginseng": {
 					"Name": "Cornucopia_Ginseng",
@@ -920,7 +959,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"ginseng_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Gooseberry": {
 					"Name": "Cornucopia_Gooseberry",
@@ -941,7 +981,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"gooseberry_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_GreenPeas": {
 					"Name": "Cornucopia_GreenPeas",
@@ -961,7 +1002,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"pea_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Groundcherries": {
 					"Name": "Cornucopia_Groundcherries",
@@ -984,7 +1026,8 @@
 						"groundcherry_item",
 						"cape_gooseberry_item",
 						"dehydrator_fruit_fix"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Habanero": {
 					"Name": "Cornucopia_Habanero",
@@ -1005,7 +1048,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"habanero_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Honeydew": {
 					"Name": "Cornucopia_Honeydew",
@@ -1026,7 +1070,8 @@
 						"modid_cornucopia.morecrops",
 						"honeydew_item",
 						"melon_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Jalapeno": {
 					"Name": "Cornucopia_Jalapeno",
@@ -1047,7 +1092,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"jalapeno_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_JuniperBerries": {
 					"Name": "Cornucopia_JuniperBerries",
@@ -1070,7 +1116,8 @@
 						"cornucopia_forage",
 						"juniper_berry_item",
 						"dehydrator_fruit_fix"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_KidneyBeans": {
 					"Name": "Cornucopia_KidneyBeans",
@@ -1091,7 +1138,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"kidney_bean_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_NavyBeans": {
 					"Name": "Cornucopia_NavyBeans",
@@ -1112,7 +1160,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"navy_bean_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Oats": {
 					"Name": "Cornucopia_Oats",
@@ -1134,7 +1183,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"oat_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Okra": {
 					"Name": "Cornucopia_Okra",
@@ -1155,7 +1205,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"okra_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_PassionFruit": {
 					"Name": "Cornucopia_PassionFruit",
@@ -1175,7 +1226,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"passion_fruit_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_PintoBeans": {
 					"Name": "Cornucopia_PintoBeans",
@@ -1196,7 +1248,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"pinto_bean_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Quinoa": {
 					"Name": "Cornucopia_Quinoa",
@@ -1217,7 +1270,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"quinoa_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_RedOnion": {
 					"Name": "Cornucopia_RedOnion",
@@ -1238,7 +1292,8 @@
 						"modid_cornucopia.morecrops",
 						"red_onion_item",
 						"onion_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Shallot": {
 					"Name": "Cornucopia_Shallot",
@@ -1259,7 +1314,8 @@
 						"modid_cornucopia.morecrops",
 						"shallot_item",
 						"onion_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Shiitake": {
 					"Name": "Cornucopia_Shiitake",
@@ -1282,7 +1338,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"shiitake_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_SugarBeet": {
 					"Name": "Cornucopia_SugarBeet",
@@ -1302,7 +1359,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"sugar_beet_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_SweetPotato": {
 					"Name": "Cornucopia_SweetPotato",
@@ -1323,7 +1381,8 @@
 						"modid_cornucopia.morecrops",
 						"sweet_potato_item",
 						"yam_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_WasabiRoot": {
 					"Name": "Cornucopia_WasabiRoot",
@@ -1345,7 +1404,8 @@
 						"modid_cornucopia.morecrops",
 						"wasabi_item",
 						"horseradish_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_WhiteGrape": {
 					"Name": "Cornucopia_WhiteGrape",
@@ -1366,7 +1426,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"white_grape_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
 			}
 		},
@@ -1397,7 +1458,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"aloe_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_BayLeaves": {
 					"Name": "Cornucopia_BayLeaves",
@@ -1418,7 +1480,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"bay_leaf_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Catnip": {
 					"Name": "Cornucopia_Catnip",
@@ -1440,7 +1503,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"catnip_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Chives": {
 					"Name": "Cornucopia_Chives",
@@ -1461,7 +1525,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"chive_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Cilantro": {
 					"Name": "Cornucopia_Cilantro",
@@ -1482,7 +1547,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"cilantro_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_CuminSeeds": {
 					"Name": "Cornucopia_CuminSeeds",
@@ -1503,7 +1569,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"cumin_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Dill": {
 					"Name": "Cornucopia_Dill",
@@ -1524,7 +1591,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"dill_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Fennel": {
 					"Name": "Cornucopia_Fennel",
@@ -1545,7 +1613,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"fennel_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Fenugreek": {
 					"Name": "Cornucopia_Fenugreek",
@@ -1566,7 +1635,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"fenugreek_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Lemongrass": {
 					"Name": "Cornucopia_Lemongrass",
@@ -1587,7 +1657,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"lemongrass_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_LicoriceRoot": {
 					"Name": "Cornucopia_LicoriceRoot",
@@ -1608,7 +1679,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"licorice_root_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Marjoram": {
 					"Name": "Cornucopia_Marjoram",
@@ -1629,7 +1701,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"marjoram_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Mint": {
 					"Name": "Cornucopia_Mint",
@@ -1651,7 +1724,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"mint_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Oregano": {
 					"Name": "Cornucopia_Oregano",
@@ -1672,7 +1746,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"oregano_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Parsley": {
 					"Name": "Cornucopia_Parsley",
@@ -1693,7 +1768,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"parsley_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_PerillaLeaves": {
 					"Name": "Cornucopia_PerillaLeaves",
@@ -1714,7 +1790,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"perilla_leaf_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Rosemary": {
 					"Name": "Cornucopia_Rosemary",
@@ -1736,7 +1813,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"rosemary_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Sage": {
 					"Name": "Cornucopia_Sage",
@@ -1758,7 +1836,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"sage_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Tarragon": {
 					"Name": "Cornucopia_Tarragon",
@@ -1779,7 +1858,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"tarragon_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Thyme": {
 					"Name": "Cornucopia_Thyme",
@@ -1800,7 +1880,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"thyme_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Turmeric": {
 					"Name": "Cornucopia_Turmeric",
@@ -1821,7 +1902,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"turmeric_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Wormwood": {
 					"Name": "Cornucopia_Wormwood",
@@ -1842,7 +1924,8 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"wormwood_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
 			}
 		},
@@ -3446,7 +3529,8 @@
 						"season_fall",
 						"modid_cornucopia.morecrops",
 						"almond_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Breadfruit": {
 					"Name": "Cornucopia_Breadfruit",
@@ -3466,7 +3550,8 @@
 						"season_spring",
 						"modid_cornucopia.morecrops",
 						"breadfruit_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Cashew": {
 					"Name": "Cornucopia_Cashew",
@@ -3488,7 +3573,8 @@
 						"season_fall",
 						"modid_cornucopia.morecrops",
 						"cashew_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_ChicleRubber": {
 					"Name": "Cornucopia_ChicleRubber",
@@ -3507,7 +3593,8 @@
 						"cornucopia_pack_extendedtrees",
 						"modid_cornucopia.morecrops",
 						"chicle_rubber_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Sapodilla": {
 					"Name": "Cornucopia_Sapodilla",
@@ -3527,7 +3614,8 @@
 						"season_summer",
 						"modid_cornucopia.morecrops",
 						"sapodilla_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_DragonFruit": {
 					"Name": "Cornucopia_DragonFruit",
@@ -3547,7 +3635,8 @@
 						"season_summer",
 						"modid_cornucopia.morecrops",
 						"dragon_fruit_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Durian": {
 					"Name": "Cornucopia_Durian",
@@ -3567,7 +3656,8 @@
 						"season_summer",
 						"modid_cornucopia.morecrops",
 						"durian_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Fig": {
 					"Name": "Cornucopia_Fig",
@@ -3587,7 +3677,8 @@
 						"season_winter",
 						"modid_cornucopia.morecrops",
 						"fig_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Grapefruit": {
 					"Name": "Cornucopia_Grapefruit",
@@ -3608,7 +3699,8 @@
 						"modid_cornucopia.morecrops",
 						"grapefruit_item",
 						"citrus_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Lemon": {
 					"Name": "Cornucopia_Lemon",
@@ -3629,7 +3721,8 @@
 						"modid_cornucopia.morecrops",
 						"lemon_item",
 						"citrus_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Lime": {
 					"Name": "Cornucopia_Lime",
@@ -3650,7 +3743,8 @@
 						"modid_cornucopia.morecrops",
 						"lime_item",
 						"citrus_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Lychee": {
 					"Name": "Cornucopia_Lychee",
@@ -3670,7 +3764,8 @@
 						"season_summer",
 						"modid_cornucopia.morecrops",
 						"lychee_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Nectarine": {
 					"Name": "Cornucopia_Nectarine",
@@ -3690,7 +3785,8 @@
 						"season_summer",
 						"modid_cornucopia.morecrops",
 						"nectarine_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Papaya": {
 					"Name": "Cornucopia_Papaya",
@@ -3710,7 +3806,8 @@
 						"season_summer",
 						"modid_cornucopia.morecrops",
 						"papaya_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Pecan": {
 					"Name": "Cornucopia_Pecan",
@@ -3732,7 +3829,8 @@
 						"season_fall",
 						"modid_cornucopia.morecrops",
 						"pecan_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Persimmon": {
 					"Name": "Cornucopia_Persimmon",
@@ -3752,7 +3850,8 @@
 						"season_winter",
 						"modid_cornucopia.morecrops",
 						"persimmon_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Plantain": {
 					"Name": "Cornucopia_Plantain",
@@ -3772,7 +3871,8 @@
 						"season_summer",
 						"modid_cornucopia.morecrops",
 						"plantain_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Pomelo": {
 					"Name": "Cornucopia_Pomelo",
@@ -3793,7 +3893,8 @@
 						"modid_cornucopia.morecrops",
 						"pomelo_item",
 						"citrus_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Ume": {
 					"Name": "Cornucopia_Ume",
@@ -3814,7 +3915,8 @@
 						"modid_cornucopia.morecrops",
 						"ume_item",
 						"plum_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Walnut": {
 					"Name": "Cornucopia_Walnut",
@@ -3836,7 +3938,8 @@
 						"season_fall",
 						"modid_cornucopia.morecrops",
 						"walnut_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Yuzu": {
 					"Name": "Cornucopia_Yuzu",
@@ -3857,7 +3960,8 @@
 						"modid_cornucopia.morecrops",
 						"yuzu_item",
 						"citrus_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
 			}
 		},
@@ -3888,7 +3992,8 @@
 						"season_winter",
 						"modid_cornucopia.morecrops",
 						"camphor_leaf_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_CinnamonSticks": {
 					"Name": "Cornucopia_CinnamonSticks",
@@ -3911,7 +4016,8 @@
 						"modid_cornucopia.morecrops",
 						"cinnamon_stick_item",
 						"cinnamon_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_EucalyptusLeaves": {
 					"Name": "Cornucopia_EucalyptusLeaves",
@@ -3933,7 +4039,8 @@
 						"season_spring",
 						"modid_cornucopia.morecrops",
 						"eucalyptus_leaf_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_MelaleucaLeaves": {
 					"Name": "Cornucopia_MelaleucaLeaves",
@@ -3955,7 +4062,8 @@
 						"season_spring",
 						"modid_cornucopia.morecrops",
 						"melaleuca_leaf_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Nutmeg": {
 					"Name": "Cornucopia_Nutmeg",
@@ -3977,7 +4085,8 @@
 						"season_summer",
 						"modid_cornucopia.morecrops",
 						"nutmeg_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
 			}
 		},
@@ -4513,7 +4622,8 @@
 						"modid_cornucopia.morecrops",
 						"olive_oil_item",
 						"oil_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Tofu": {
 					"Name": "Cornucopia_Tofu",
@@ -4533,7 +4643,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"tofu_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Molasses": {
 					"Name": "Cornucopia_Molasses",
@@ -4552,7 +4663,8 @@
 						"modid_cornucopia.morecrops",
 						"molasses_item",
 						"color_brown"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
 			}
 		},
@@ -4580,7 +4692,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"flour_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_DarkAle": {
 					"Name": "Cornucopia_DarkAle",
@@ -4604,7 +4717,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Porter": {
 					"Name": "Cornucopia_Porter",
@@ -4628,7 +4742,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_SemolinaFlour": {
 					"Name": "Cornucopia_SemolinaFlour",
@@ -4647,7 +4762,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"flour_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_SparklingWine": {
 					"Name": "Cornucopia_SparklingWine",
@@ -4672,7 +4788,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"wine_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_Stout": {
 					"Name": "Cornucopia_Stout",
@@ -4696,7 +4813,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
 				"Cornucopia_WholeGrainFlour": {
 					"Name": "Cornucopia_WholeGrainFlour",
@@ -4715,7 +4833,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"flour_item"
-					]
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
 			}
 		}
