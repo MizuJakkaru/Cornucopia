@@ -55,6 +55,11 @@
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "Removes some Cornucopia duplicates of SVE crops and fruit trees. Balance is not guaranteed."
+		},
+		"Require Items For Perfection": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Recommended) Crops added by this mod appear on the shipping menu and are generally required for achieving perfection."
 		}
 	},
 	"DynamicTokens": [
@@ -68,16 +73,15 @@
 			"Value": "0.2"
 		},
 		{
-			"Name": "50Percent",
-			"Value": "0.33"
+			"Name": "ExcludeFromShipping",
+			"Value": false
 		},
 		{
-			"Name": "75Percent",
-			"Value": "0.33"
-		},
-		{
-			"Name": "90Percent",
-			"Value": "0.36"
+			"Name": "ExcludeFromShipping",
+			"Value": true,
+			"When": {
+				"Require Items For Perfection": false
+			}
 		},
 	],
     "Changes": [	
@@ -86,9 +90,9 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "Cornucopia.MoreCrops_RemoveConfigFlags": { 
+                /*"Cornucopia.MoreCrops_RemoveConfigFlags": { 
                     "Id": "Cornucopia.MoreCrops_RemoveConfigFlags",
-                    "Trigger": "DayStarted DayEnding", 
+                    "Trigger": "DayEnding", 
                     "HostOnly": true,
                     "Action": null,
                     "Actions": [
@@ -96,18 +100,25 @@
 						"MarkActionApplied All Cornucopia.MoreCrops_SetHerbsPackFlags false",
 						"MarkActionApplied All Cornucopia.MoreCrops_SetExtendedCropsPackFlags false",
 						"MarkActionApplied All Cornucopia.MoreCrops_SetExtendedTreesPackFlags false",
-                        "RemoveMail All Cornucopia.MoreCrops_HerbsPackEnabled all",
-						"RemoveMail All Cornucopia.MoreCrops_ExtendedCropsPackEnabled all",
-						"RemoveMail All Cornucopia.MoreCrops_ExtendedTreesPackEnabled all",
+                        //"RemoveMail All Cornucopia.MoreCrops_HerbsPackEnabled all",
+						//"RemoveMail All Cornucopia.MoreCrops_ExtendedCropsPackEnabled all",
+						//"RemoveMail All Cornucopia.MoreCrops_ExtendedTreesPackEnabled all",
                     ]
+                },*/
+				"Cornucopia.MoreCrops_DayStart": { 
+                    "Id": "Cornucopia.MoreCrops_DayStart",
+                    "Trigger": "DayStarted", 
+                    "HostOnly": true,
+                    "Action": "MarkActionApplied Host Cornucopia.MoreCrops_RepeatConfigFlags false",
+                    "Actions": null
                 },
-				//Entries to set flags based on config
 				"Cornucopia.MoreCrops_SetExtendedCropsPackFlags": {
                     "Id": "Cornucopia.MoreCrops_SetExtendedCropsPackFlags",
                     "Trigger": "DayStarted",
                     "Condition": "{{Enable Extended Crops Pack}}",
                     "HostOnly": true,
-                    "Action": "AddMail All Cornucopia.MoreCrops_ExtendedCropsPackEnabled received",
+					"MarkActionApplied": true,
+                    "Action": "AddMail Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled received",
                     "Actions": null
                 },
 				"Cornucopia.MoreCrops_SetExtendedTreesPackFlags": {
@@ -115,24 +126,60 @@
                     "Trigger": "DayStarted",
                     "Condition": "{{Enable Extended Trees Pack}}",
                     "HostOnly": true,
-                    "Action": "AddMail All Cornucopia.MoreCrops_ExtendedTreesPackEnabled received",
+					"MarkActionApplied": true,
+                    "Action": "AddMail Host Cornucopia.MoreCrops_ExtendedTreesPackEnabled received",
                     "Actions": null
                 },
 				"Cornucopia.MoreCrops_SetHerbsPackFlags": { 
                     "Id": "Cornucopia.MoreCrops_SetHerbsPackFlags",
                     "Trigger": "DayStarted",
-                    "Condition": "{{Enable Herbs Pack}}", //Config name, true/false
+                    "Condition": "{{Enable Herbs Pack}}",
                     "HostOnly": true,
-                    "Action": "AddMail All Cornucopia.MoreCrops_HerbsPackEnabled received", //Mailflag that will be checked by other mod
+					"MarkActionApplied": true,
+                    "Action": "AddMail Host Cornucopia.MoreCrops_HerbsPackEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia.MoreCrops_RemoveExtendedCropsPackFlags": {
+                    "Id": "Cornucopia.MoreCrops_RemoveExtendedCropsPackFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "!{{Enable Extended Crops Pack}}",
+                    "HostOnly": true,
+					"MarkActionApplied": true,
+                    "Action": "RemoveMail Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia.MoreCrops_RemoveExtendedTreesPackFlags": {
+                    "Id": "Cornucopia.MoreCrops_RemoveExtendedTreesPackFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "!{{Enable Extended Trees Pack}}",
+                    "HostOnly": true,
+					"MarkActionApplied": true,
+                    "Action": "RemoveMail Host Cornucopia.MoreCrops_ExtendedTreesPackEnabled received",
+                    "Actions": null
+                },
+				"Cornucopia.MoreCrops_RemoveHerbsPackFlags": { 
+                    "Id": "Cornucopia.MoreCrops_RemoveHerbsPackFlags",
+                    "Trigger": "DayStarted",
+                    "Condition": "!{{Enable Herbs Pack}}",
+                    "HostOnly": true,
+					"MarkActionApplied": true,
+                    "Action": "RemoveMail Host Cornucopia.MoreCrops_HerbsPackEnabled received",
                     "Actions": null
                 },
 				"Cornucopia.MoreCrops_RepeatConfigFlags": { 
                     "Id": "Cornucopia.MoreCrops_RepeatConfigFlags",
-                    "Trigger": "DayStarted DayEnding", 
+                    "Trigger": "DayEnding", 
                     "HostOnly": true,
                     "Action": null,
+					"MarkActionApplied": true,
                     "Actions": [
-						"MarkActionApplied All Cornucopia.MoreCrops_RemoveConfigFlags false",
+						"MarkActionApplied Host Cornucopia.MoreCrops_DayStart false",
+						"MarkActionApplied Host Cornucopia.MoreCrops_SetHerbsPackFlags false",
+						"MarkActionApplied Host Cornucopia.MoreCrops_SetExtendedCropsPackFlags false",
+						"MarkActionApplied Host Cornucopia.MoreCrops_SetExtendedTreesPackFlags false",
+						"MarkActionApplied Host Cornucopia.MoreCrops_RemoveHerbsPackFlags false",
+						"MarkActionApplied Host Cornucopia.MoreCrops_RemoveExtendedCropsPackFlags false",
+						"MarkActionApplied Host Cornucopia.MoreCrops_RemoveExtendedTreesPackFlags false",
                     ]
                 },
             }
