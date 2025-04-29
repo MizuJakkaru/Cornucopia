@@ -73,7 +73,7 @@
 					"Seasons": ["spring"],
 					"ItemsProduced": [
 						{
-							"Condition": "ANY \"DAY_OF_MONTH 1\" \"{{Query: ({{Day}} % 3) = 0}}\"",
+							"Condition": "DAY_OF_MONTH 1 4 7 10 13 16 19 22 25 28 31 34 37 40 43 46 49 52 55",
 							"ItemId": "(O)Cornucopia_Vanilla",
 							"Chance": 1.0,
 							"MinStack": 1,
@@ -138,7 +138,7 @@
 					"Seasons": ["summer"],
 					"ItemsProduced": [
 						{
-							"Condition": "ANY \"DAY_OF_MONTH 1\" \"{{Query: ({{Day}} % 3) = 0}}\"",
+							"Condition": "DAY_OF_MONTH 1 4 7 10 13 16 19 22 25 28 31 34 37 40 43 46 49 52 55",
 							"ItemId": "(O)Cornucopia_BlackCurrants",
 							"Chance": 1.0,
 							"MinStack": 1,
@@ -178,7 +178,7 @@
 					"Seasons": ["winter"],
 					"ItemsProduced": [
 						{
-							"Condition": "ANY \"DAY_OF_MONTH 1\" \"{{Query: ({{Day}} % 4) = 0}}\"",
+							"Condition": "DAY_OF_MONTH 1 5 9 13 17 21 25 29 33 37 41 45 49 53",
 							"ItemId": "(O)Cornucopia_Elderberries",
 							"Chance": 1.0,
 							"MinStack": 1,
@@ -198,7 +198,7 @@
 					"Seasons": ["summer"],
 					"ItemsProduced": [
 						{
-							"Condition": "ANY \"DAY_OF_MONTH 1\" \"{{Query: ({{Day}} % 3) = 0}}\"",
+							"Condition": "DAY_OF_MONTH 1 4 7 10 13 16 19 22 25 28 31 34 37 40 43 46 49 52 55",
 							"ItemId": "(O)Cornucopia_Gooseberry",
 							"Chance": 1.0,
 							"MinStack": 3,
@@ -218,7 +218,7 @@
 					"Seasons": ["winter"],
 					"ItemsProduced": [
 						{
-							"Condition": "ANY \"DAY_OF_MONTH 1\" \"{{Query: ({{Day}} % 3) = 0}}\"",
+							"Condition": "DAY_OF_MONTH 1 4 7 10 13 16 19 22 25 28 31 34 37 40 43 46 49 52 55",
 							"ItemId": "(O)Cornucopia_JuniperBerries",
 							"Chance": 1.0,
 							"MinStack": 2,
@@ -238,7 +238,7 @@
 					"Seasons": ["spring", "fall"],
 					"ItemsProduced": [
 						{
-							"Condition": "ANY \"DAY_OF_MONTH 1\" \"{{Query: ({{Day}} % 5) = 0}}\"",
+							"Condition": "DAY_OF_MONTH 1 6 11 16 21 26 31 36 41 46 51 56",
 							"ItemId": "(O)Cornucopia_Shiitake",
 							"Chance": 1.0,
 							"MinStack": 1,
