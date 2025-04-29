@@ -1535,7 +1535,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_essentialflowers",
 						"cornucopia_season_summer",
-						"modid_cornucopia.moreflowers"
+						"modid_cornucopia.moreflowers",
+						"cornucopia_chefstock"
 					]
 				},
 				"Cornucopia_MorningGlorySeeds": {

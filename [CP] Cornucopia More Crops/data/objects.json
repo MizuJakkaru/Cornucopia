@@ -22,7 +22,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
-						"basil_item"
+						"basil_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -194,7 +195,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
-						"onion_item"
+						"onion_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -372,7 +374,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"vanilla_item",
-						"vanilla_bean_item"
+						"vanilla_bean_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -397,7 +400,8 @@
 						"cornucopia_pack_essential",
 						"cornucopia_forage",
 						"modid_cornucopia.morecrops",
-						"peppercorn_item"
+						"peppercorn_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1047,7 +1051,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"habanero_item"
+						"habanero_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1091,7 +1096,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"jalapeno_item"
+						"jalapeno_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1291,7 +1297,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"red_onion_item",
-						"onion_item"
+						"onion_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1313,7 +1320,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"shallot_item",
-						"onion_item"
+						"onion_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1403,7 +1411,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"wasabi_item",
-						"horseradish_item"
+						"horseradish_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1479,7 +1488,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"bay_leaf_item"
+						"bay_leaf_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1546,7 +1556,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"cilantro_item"
+						"cilantro_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1590,7 +1601,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"dill_item"
+						"dill_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1634,7 +1646,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"fenugreek_item"
+						"fenugreek_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1656,7 +1669,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"lemongrass_item"
+						"lemongrass_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1812,7 +1826,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"rosemary_item"
+						"rosemary_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1835,7 +1850,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"sage_item"
+						"sage_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1901,7 +1917,8 @@
 						"cornucopia_rarity_exclusive",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"turmeric_item"
+						"turmeric_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -3455,7 +3472,8 @@
 						"cornucopia_pack_essential",
 						"season_spring",
 						"modid_cornucopia.morecrops",
-						"cocoa_item"
+						"cocoa_item",
+						"cornucopia_chefstock"
 					]
 				},
 				"Cornucopia_Pear": {
@@ -4084,7 +4102,8 @@
 						"cornucopia_pack_herbs",
 						"season_summer",
 						"modid_cornucopia.morecrops",
-						"nutmeg_item"
+						"nutmeg_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
@@ -4621,7 +4640,8 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"olive_oil_item",
-						"oil_item"
+						"oil_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -4832,7 +4852,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"flour_item"
+						"flour_item",
+						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
