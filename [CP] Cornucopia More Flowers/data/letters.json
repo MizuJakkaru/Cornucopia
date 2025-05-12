@@ -13,11 +13,11 @@
 			"Entries": {
 				"Cornucopia.MoreFlowers_HaleyRoyalJelly_SendMail": {
 					"Id": "Cornucopia.MoreFlowers_HaleyRoyalJelly_SendMail",
-					"Trigger": "DayStarted",
+					"Trigger": "DayEnding",
 					"HostOnly": false,
 					"MarkActionApplied": true,
 					"Condition": "DATE_RANGE summer 3 1 summer 28",
-					"Action": "AddMail All Cornucopia.MoreFlowers_HaleyRoyalJelly all"
+					"Action": "AddMail Current Cornucopia.MoreFlowers_HaleyRoyalJelly tomorrow"
 				}
 			}
 		}
