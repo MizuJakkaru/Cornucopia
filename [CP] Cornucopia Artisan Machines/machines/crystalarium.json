@@ -1,0 +1,70 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)21",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_SeaSalt": {
+					"Id": "Cornucopia_SeaSalt",
+					"Triggers": [
+						{
+							"Id": "OutputCollected",
+							"Trigger": "OutputCollected",
+							"RequiredItemId": null,
+							"RequiredTags": null,
+							"RequiredCount": 1,
+							"Condition": null
+						},
+						{
+							"Id": "ItemPlacedInMachine_SeaSalt",
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "Cornucopia_SeaSalt",
+						},
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+						{
+							"CustomData": null,
+							"OutputMethod": null,
+							"CopyColor": false,
+							"CopyPrice": false,
+							"CopyQuality": false,
+							"PreserveType": null,
+							"PreserveId": null,
+							"IncrementMachineParentSheetIndex": 0,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"Condition": null,
+							"Id": "Default",
+							"ItemId": "DROP_IN",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": 0,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ObjectColor": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					],
+					"MinutesUntilReady": 3000,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+			}
+		}
+	]
+}

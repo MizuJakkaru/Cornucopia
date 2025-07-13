@@ -61,7 +61,7 @@
 								},
 								{
 									"RequiredTags": [
-										"forage_item"
+										"category_greens"
 									],
 									"RequiredCount": 5
 								}
