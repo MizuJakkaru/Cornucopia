@@ -190,5 +190,15 @@
 	"JasmineSapling_description": "Leva 28 dias para produzir uma árvore de Jasmim madura. Dá frutas no outuno. Só cresce se os 8 espaços adjacentes estiverem vazios.",
 	"MagnoliaSapling_description": "Leva 28 dias para produzir uma Magnólia madura. Dá frutas na primavera. Só cresce se os 8 espaços adjacentes estiverem vazios.",
 	"WisteriaSapling_description": "Leva 28 dias para produzir uma Glicínia madura. Dá frutas na primavera. Só cresce se os 8 espaços adjacentes estiverem vazios.",
-	"YlangYlangSapling_description": "Leva 28 dias para produzir uma árvore de Ylang Ylang madura. Dá frutas no verão. Só cresce se os 8 espaços adjacentes estiverem vazios."
+	"YlangYlangSapling_description": "Leva 28 dias para produzir uma árvore de Ylang Ylang madura. Dá frutas no verão. Só cresce se os 8 espaços adjacentes estiverem vazios.",
+	"config.Enable Extended Flowers Pack.name": "Habilitar Ainda Mais Flores",
+	"config.Enable Extended Flowers Pack.description": "(Recomendado) Adiciona uma grande variedade com 30+ flores e árvores floríferas em adição ao pacote base.",
+	"config.Rose Color Explosion.description": "Explosão de Cores de Rosas",
+	"config.Rose Color Explosion.description": "Dá a cada uma das flores sazonais quatro cores diferentes que podem ser colhidas (Rosas extras são excluídas dos requerimentos para alcançar a perfeição).",
+	"config.SVE Compat Patch.name": "Patch de Compatibilidade com SVE",
+	"config.SVE Compat Patch.description": "Muda a aparência e o nome das duas Flores-monstro de Cornucópia e Stardew Valley Expanded para que sejam diferentes uma da outra.",
+	"config.Enable Giant Crops on Ginger Island.name": "Permirir Lavouras Gigantes na Ilha Gengibre",
+	"config.Enable Giant Crops on Ginger Island.description": "Permite que lavouras gigantes crescam na fazenda da Ilha Gengibre, o que te permite cultivar a Flor-Monstro gigante.",
+	"SVERafflesiaPatch_name": "Flor-Monstro de Ferngill",
+	"CornucopiaRafflesiaPatch_name": "Flor-Monstro de Joia"
 }

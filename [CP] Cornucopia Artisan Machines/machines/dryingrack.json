@@ -34,6 +34,7 @@
 									"RequiredCount": 5
 								},
 								{
+									"Id": "flower_item",
 									"RequiredTags": [
 										"flower_item"
 									],

@@ -310,5 +310,11 @@
 	"GiftsForEvelyn_Evelyn.8": "Ah, George...",
 	"GiftsForEvelyn_Evelyn.9": "Eu também te amo, querido...",
 	"GiftsForEvelyn_Evelyn.10": "Obrigada!",
-	"GiftsForEvelyn_George.5": "Hmmph"
+	"GiftsForEvelyn_George.5": "Hmmph",
+	"Starmite_name": "Starmite",
+"Starmite_description": "Um produto super salgado da fermentação de grãos. Ou você ama, ou odeia.",
+"config.Enable Juicer.name": "Habilitar Espremedor",
+"config.Enable Juicer.description": "Adiciona uma nova máquina para fazer suco de frutas e vegetais.",
+"config.Enable Flexible Recipes.name": "Habilitar Receitas Flexíveis",
+"config.Enable Flexible Recipes.description": "(Precisa do mod Spacecore) Permite usar queijos alternativos, como queijo de cabra e queijos vegetais, em receitas do jogo base. Também permite utilizar bebida vegetal em receitas do jogo base para substituir o leite. "
 }

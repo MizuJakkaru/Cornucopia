@@ -306,5 +306,9 @@
 	"GiftsForEvelyn_Evelyn.8": "Oh, George...",
 	"GiftsForEvelyn_Evelyn.9": "Je t'aime moi aussi, mon chéri...",
 	"GiftsForEvelyn_Evelyn.10": "Merci !",
-	"GiftsForEvelyn_George.5": "Humpf"
+	"GiftsForEvelyn_George.5": "Humpf",
+	"config.Enable Juicer.name": "Centrifugeuse",
+"config.Enable Juicer.description": "Ajoute une machine pour faire des jus de fruits et de légumes.",
+"config.Enable Flexible Recipes.name": "Lait et fromage dans les recettes",
+"config.Enable Flexible Recipes.description": "(Nécessite le mod Spacecore) Lorsqu'il y a du fromage dans une recette du jeu de base, celui-ci peut être substitué par du fromage de chèvre ou du fromage végétal ; de même, le lait animal peut être substitué par du lait végétal.",
 }

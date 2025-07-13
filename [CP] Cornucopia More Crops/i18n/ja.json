@@ -100,7 +100,7 @@
 	"BirdPepper_description": "小粒だが、とても辛いトウガラシ。",
 	"BlackBeans_description": "素朴で豊かな風味のする香ばしい豆。",
 	"BlackCurrants_description": "黒くてジューシーなベリー。主にジャムにつかわれる。",
-	"BlueAgave_description": "アルコールの醸造につかわれる植物の挿し木。テキーラに使われるもの。",
+	"BlueAgave_description": "アルコールの醸造につかわれる植物の挿し木。テキーラにつかう。",
 	"Buckwheat_description": "麺やパンケーキなどにつかわれる、苦みのある植物。",
 	"ButternutSquash_description": "ひょうたん型をしたカボチャ。なめらかで甘みがある。",
 	"Cabbage_description": "あらゆる料理につかえる万能の野菜。",
@@ -132,7 +132,6 @@
 	"HenoftheWoods_description": "いためたり焼いたりするとおいしいキノコ。",
 	"Honeydew_description": "さっぱりした味のメロン。フルーツサラダなどにつかわれる。",
 	"Jalapeno_description": "ほどよくスパイシーな唐辛子。パーティの定番。",
-	"JuniperBerries_description": "酸味が強く食用には向かない。ジンの香り付けにつかわれる。",
 	"KidneyBeans_description": "キドニービーンズともいう。他の豆よりも毒性が強い。",
 	"Kiwi_description": "みずみずしくて新鮮なキウイ。",
 	"Lemongrass_description": "レモンに近い香りをした草のような植物。",
@@ -343,7 +342,6 @@
 	"BasilSeeds_description": "春植えの作物。そだつのに3日かかる。",
 	"BayLeavesSeeds_description": "12日かけて茂みにそだち、冬の間じゅう毎日ローリエを収穫できる。",
 	"BellPepperSeeds_description": "夏植えの作物。そだつのに10日かかる。最初の収穫のあともくりかえし収穫できる。",
-
 	"BlackBeansSeeds_description": "秋植えの作物。そだつのに10日かかるが、そのあともくりかえし収穫できる。支柱にからみながらそだつ。",
 	"BlueAgaveSeeds_description": "夏植えの作物。そだつのに12日かかる。",
 	"VanillaSeeds_description": "16日かけて茂みにそだち、春の3日ごとにバニラを収穫できる。水やりは必要ない。",
@@ -535,5 +533,6 @@
 	"WholeGrainFlour_name": "全粒粉",
 	"WholeGrainFlour_description": "小麦の全ての部分を使った穀粉。",
 	"OilmakerInvalidCount_Olives": "オリーブが4つ必要",
-	"CheesePressInvalidCount_Soybeans": "大豆が2つ必要"
+	"CheesePressInvalidCount_Soybeans": "大豆が2つ必要",
+	"JuniperBerries_description": "酸味が強く食用には向かない。"
 }

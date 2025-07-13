@@ -356,7 +356,7 @@
         	"Action": "EditData",
         	"Target": "Data/Locations",
         	"TargetField": [ "EastScarp_MeadowFarm", "Forage" ],
-			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
+			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true, "HasVisitedLocation|contains=EastScarp_MeadowFarm": true},
 			"Priority": "Default + 4",
         	"Entries": {
                 "(O)Cornucopia_Peppercorn": {
@@ -374,7 +374,7 @@
         	"Action": "EditData",
         	"Target": "Data/Locations",
         	"TargetField": [ "EastScarp_MeadowFarm", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=LemurKat.EastScarpe.CP": true},
+			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=LemurKat.EastScarpe.CP": true, "HasVisitedLocation|contains=EastScarp_MeadowFarm": true},
 			"Priority": "Default + 4",
         	"Entries": {
 				"(O)Cornucopia_JuniperBerries": {

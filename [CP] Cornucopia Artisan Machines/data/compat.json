@@ -165,6 +165,42 @@
 					"BeforeId": "Cornucopia_CenturyEgg"
 				}
 			]
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {
+				"HasMod|contains=PPJA.cannabiskit": true
+			},
+			"Priority": "Late",
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedFlower",
+				"Triggers",
+				"flower_item"
+			],
+			"Entries": {
+				"Condition": "!ITEM_CONTEXT_TAG Input flower_cannabinoid"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {
+				"HasMod|contains=PPJA.cannabiskit": true
+			},
+			"Priority": "Late",
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"Cornucopia_DriedFlower",
+				"Triggers",
+				"flower_item"
+			],
+			"Entries": {
+				"Condition": "!ITEM_CONTEXT_TAG Input flower_cannabinoid"
+			}
+		},
 	]
 }

@@ -24,10 +24,9 @@
 								},
 								{
 									"RequiredTags": [
-										"category_greens",
-										"!edible_mushroom"
+										"category_greens"
 									],
-									"Condition": "ITEM_EDIBILITY Input 1"
+									"Condition": "!ITEM_CONTEXT_TAG Input edible_mushroom, ITEM_EDIBILITY Input 1"
 								},
 								{
 									"RequiredTags": [

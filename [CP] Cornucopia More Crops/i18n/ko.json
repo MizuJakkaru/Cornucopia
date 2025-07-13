@@ -132,7 +132,6 @@
 	"HenoftheWoods_description": "튀기거나 구울 수 있는 잎이 많은 버섯입니다. 때때로 마이타케 버섯이라고 불리우기도 합니다.",
 	"Honeydew_description": "과일 샐러드에 많이들 넣는 간단한 멜론입니다.",
 	"Jalapeno_description": "적당히 매운 고추. 화려한 맛의 필수품.",
-	"JuniperBerries_description": "시큼해서 일반적으로 생으로 먹진 않지만, 발효시키면 진이 됩니다.",
 	"KidneyBeans_description": "이 콩에는 식물성 헤마글루티닌이 다량 함유되어 있어 다른 콩보다 독성이 강합니다.",
 	"Kiwi_description": "과즙이 풍부하고 신선한 키위입니다.",
 	"Lemongrass_description": "레몬을 연상시키는 향과 풍미를 지닌 잡초같이 생긴 식물입니다.",
@@ -343,6 +342,7 @@
 	"BasilSeeds_description": "봄 작물. 성장하려면 3일 소요됩니다.",
 	"BayLeavesSeeds_description": "덤불로 성장하려면 12일 소요됩니다. 겨울동안 매일 월계수 잎을 생산합니다.",
 	"BellPepperSeeds_description": "여름 작물. 성장하려면 10일이 소요되지만, 수확한 후에도 계속 작물이 생산됩니다.",
+	"BirdPepperSeeds_description": "",
 	"BlackBeansSeeds_description": "가을 작물. 성장하려면 10일이 소요되지만, 수확한 후에도 계속 작물이 생산됩니다. 격자 구조물에 감겨 자랍니다",
 	"BlueAgaveSeeds_description": "여름 작물. 성장하려면 12일 소요됩니다.",
 	"VanillaSeeds_description": "덤불로 성장하려면 16일 소요됩니다. 봄에 3일 간격으로 바닐라빈을 생산합니다. 물을 줄 필요가 없습니다!",
@@ -411,7 +411,7 @@
 	"Sapodilla_description": "이 과일은 영양이 풍부하며, 황설탕의 맛이 납니다.",
 	"AlmondSapling_name": "아몬드나무 묘목",
 	"AvocadoSapling_name": "아보카도나무 묘목",
-	"BreadfruitSapling_name": "빵나무나무 묘목",
+	"BreadfruitSapling_name": "빵나무 묘목",
 	"CamphorLeavesSapling_name": "녹나무 묘목",
 	"CashewSapling_name": "캐슈나무 묘목",
 	"SapodillaSeed_name": "사포딜라 씨앗",
@@ -528,5 +528,10 @@
 	"config.Retexture Cheese Press.name": "치즈 착제기 리텍스쳐",
 	"config.Retexture Cheese Press.description": "치즈 착제기의 이미지를 변경하여 치즈 아이콘을 제거합니다.",
 	"config.Map Edits.name": "맵 수정",
-	"config.Map Edits.description": "사소한 맵 수정 활성화(현재는 진저 아일랜드에 사포딜라 나무만 추가)"
+	"config.Map Edits.description": "사소한 맵 수정 활성화(현재는 진저 아일랜드에 사포딜라 나무만 추가)",
+	"Molasses_name": "당밀",
+	"Molasses_description": "설탕을 제조할때 나오는 끈적거리는 부산물.",
+	"WholeGrainFlour_name": "홀그레인 밀가루",
+	"WholeGrainFlour_description": "정제하지 않은 곡물로 만든 요리 재료.",
+	"OilmakerInvalidCount_Olives": "올리브 4개 필요"
 }

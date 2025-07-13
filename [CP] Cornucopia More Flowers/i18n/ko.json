@@ -195,5 +195,17 @@
 	"config.Enable Extended Flowers Pack.description": "(권장) 필수팩 외에 30가지 이상 되는 다양한 종류의 꽃과 꽃나무를 추가합니다.",
 	"config.Rose Color Explosion.description": "장미 색상 확장",
 	"config.Rose Color Explosion.description": "각 계절 장미에 수확 가능한 4가지 색상을 부여합니다. (추가 장미는 완벽 요구 사항에서 제외됩니다.)",
-	"config.SVE Compat Patch.name": "대확장 호환 패치"
+	"config.SVE Compat Patch.name": "대확장 호환 패치",
+	"config.SVE Compat Patch.description": "Cornucopia와 Stardew Valley Expanded의 라플레시아를 서로 구별할 수 있게 텍스처를 변경하고 이름을 바꿉니다.",
+	"config.Enable Giant Crops on Ginger Island.name": "진저 섬에서 거대 작물 재배 활성화",
+	"config.Enable Giant Crops on Ginger Island.description": "진저 아일랜드 농장에서 거대한 작물이 자랄 수 있도록 해, 거대한 라플레시아를 얻을 수 있게 합니다.",
+	"SVERafflesiaPatch_name": "펀길 라플레시아",
+	"CornucopiaRafflesiaPatch_name": "보석 라플레시아",
+	"RoyalJelly_name": "로얄 젤리",
+	"RoyalJelly_description": "여왕벌이 만들어 낸 반짝거리는 젤리.",
+	"Mail_HaleyRoyalJelly": "안녕 @,^맙소사, 벌써 여름이 왔다는 게 실감나? 그런데, 너에게 알려주고 싶은 내용을 잡지에서 읽었어. 꿀벌이 가끔 로얄 젤리라는 특별한 걸 만들 수 있다는 거 알아? 정말 달콤하고 버터 같고 피부에 좋대. 주변에 특별한 꽃을 심으면 된다는거야! ^^ 물론 해바라기가 가장 좋지만, 이 기사에서는 장미를 사용할 수도 있고, 다른 \"로얄\" 꽃을 실험해 볼 수도 있다고 나와 있어. 한번 시도해 보고 되는지 알려줄래?^ -헤일리",
+	"CorpseFlowerSeed_name": "시체꽃 씨앗",
+	"CorpseFlowerSeed_description": "나무만큼 거대한 냄새 나는 꽃의 씨앗입니다.",
+	"CorpseFlowerPetal_name": "시체꽃 꽃잎",
+	"CorpseFlowerPetal_description": "꽃잎이 너무 커서 담요로 써도 되겠는데요, 냄새가 지독하지 않다면 말이죠."
 }

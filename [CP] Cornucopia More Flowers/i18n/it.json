@@ -195,5 +195,17 @@
 	"config.Enable Extended Flowers Pack.description": "(Consigliato) Aggiunge una grande varietà di 30+ fiori e alberi da fiore in aggiunta al pacchetto essenziale.",
 	"config.Rose Color Explosion.description": "Un'esplosione di Rose",
 	"config.Rose Color Explosion.description": "Dà a ciascuna delle rose stagionali quattro colori diversi che possono essere raccolti. (Le rose extra sono escluse dai requisiti di perfezione).",
-	"config.SVE Compat Patch.name": "SVE Compat Patch"
+	"config.SVE Compat Patch.name": "SVE Compat Patch",
+	"config.SVE Compat Patch.description": "Rimescola e rinomina entrambe le rafflesie di Cornucopia e Stardew Valley Expanded per renderle più diverse tra loro.",
+	"config.Enable Giant Crops on Ginger Island.name": "Abilita le coltivazioni giganti sull'isola dello zenzero",
+	"config.Enable Giant Crops on Ginger Island.description": "Permette la crescita di colture giganti nella fattoria di Isola dello Zenzero, che consente di ottenere rafflesie giganti.",
+	"SVERafflesiaPatch_name": "Rafflesia di Ferngill",
+	"CornucopiaRafflesiaPatch_name": "Rafflesia Gemmata",
+	"RoyalJelly_name": "Pappa Reale",
+	"RoyalJelly_description": "Pappa scintillante prodotta da un'ape regina.",
+	"Mail_HaleyRoyalJelly": "Ehi @,^Accidenti, siamo già in estate riesci a crederci? A proposito, ho letto qualcosa in una rivista che volevo dirti. Sapevi che le api a volte possono produrre un prodotto speciale chiamato Pappa Reale? A quanto pare è davvero dolce, burrosa e ottima per la pelle. Devi solo piantare dei fiori speciali intorno a loro!^^I girasoli sono ovviamente i migliori, ma questo articolo dice che puoi usare le rose o sperimentare con altri fiori \"reali\". Perché non provi e mi dici se funziona?^   -Haley",
+	"CorpseFlowerSeed_name": "Seme di Fiore Cadavere",
+	"CorpseFlowerSeed_description": "Il seme di un fiore puzzolente grande quanto un albero.",
+	"CorpseFlowerPetal_name": "Petalo di Fiore Cadavere",
+	"CorpseFlowerPetal_description": "Un petalo talmente grande da poter essere usato come una coperta, se solo non avesse un odore così orribile."
 }

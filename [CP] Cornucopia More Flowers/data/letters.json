@@ -4,7 +4,7 @@
 			"Action": "EditData",
 			"Target": "Data/Mail",
 			"Entries": {
-				"Cornucopia.MoreFlowers_HaleyRoyalJelly": "{{i18n:Mail_HaleyRoyalJelly}}"
+				"Cornucopia.MoreFlowers_HaleyRoyalJelly": "{{i18n:Mail_HaleyRoyalJelly}}[#]{{i18n:RoyalJelly_name}}"
 			}
 		},
 		{

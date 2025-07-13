@@ -195,5 +195,15 @@
 	"config.Enable Extended Flowers Pack.description": "（推奨）エッセンシャルパックに加えて、30種類以上のさまざまな花や木を追加します。",
 	"config.Rose Color Explosion.description": "バラ色の拡張",
 	"config.Rose Color Explosion.description": "季節ごとに4つの異なる色のバラを収穫できます。（コンプリート条件の対象外）",
-	"config.SVE Compat Patch.name": "SVE互換パッチ"
+	"config.SVE Compat Patch.name": "SVE互換パッチ",
+	"config.Enable Extended Flowers Pack.name": "Habilitar Ainda Mais Flores",
+	"config.Enable Extended Flowers Pack.description": "(Recomendado) Adiciona uma grande variedade com 30+ flores e árvores floríferas em adição ao pacote base.",
+	"config.Rose Color Explosion.description": "Explosão de Cores de Rosas",
+	"config.Rose Color Explosion.description": "Dá a cada uma das flores sazonais quatro cores diferentes que podem ser colhidas (Rosas extras são excluídas dos requerimentos para alcançar a perfeição).",
+	"config.SVE Compat Patch.name": "Patch de Compatibilidade com SVE",
+	"config.SVE Compat Patch.description": "Muda a aparência e o nome das duas Flores-monstro de Cornucópia e Stardew Valley Expanded para que sejam diferentes uma da outra.",
+	"config.Enable Giant Crops on Ginger Island.name": "Permirir Lavouras Gigantes na Ilha Gengibre",
+	"config.Enable Giant Crops on Ginger Island.description": "Permite que lavouras gigantes crescam na fazenda da Ilha Gengibre, o que te permite cultivar a Flor-Monstro gigante.",
+	"SVERafflesiaPatch_name": "Flor-Monstro de Ferngill",
+	"CornucopiaRafflesiaPatch_name": "Flor-Monstro de Joia",
 }

@@ -310,5 +310,13 @@
 	"GiftsForEvelyn_Evelyn.8": "Oh, George...",
 	"GiftsForEvelyn_Evelyn.9": "Anch'io ti amo, mio tesoro...",
 	"GiftsForEvelyn_Evelyn.10": "Grazie!",
-	"GiftsForEvelyn_George.5": "Bah! Uff!"
+	"GiftsForEvelyn_George.5": "Bah! Uff!",
+	"Starmite_name": "Starmite",
+	"Starmite_description": "Un sottoprodotto della fermentazione dei cereali estremamente salato. O lo ami o lo odi.",
+	"config.Enable Juicer.name": "Abilita l'estrattore di succo",
+	"config.Enable Juicer.description": "Aggiunge una nuova macchina per la produzione di succhi di frutta e verdura.",
+	"config.Enable Flexible Recipes.name": "Abilita le ricette flessibili",
+	"config.Enable Flexible Recipes.description": "(Richiede Spacecore) Consente di utilizzare formaggi alternativi, tra cui il formaggio di capra e i formaggi a base vegetale, nelle ricette vaniglia che utilizzano il formaggio. Consente inoltre di utilizzare il latte vegetale nelle ricette di vaniglia che prevedono l'uso del latte.",
+	"config.SVE Compat Patch.name": "Patch Compatta SVE",
+	"config.SVE Compat Patch.description": "Rimuove la zangola per burro e il burro di SVE e li rimpiazza con le loro versioni Cornucopia. NON USARE CON  LE OPZIONI DEI PACCHETTI DI SVE. (Usare invece CCCB)"
 }

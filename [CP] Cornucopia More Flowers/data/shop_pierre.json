@@ -14,6 +14,7 @@
 					"Condition": "SEASON spring, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
 					"IgnoreShopPriceModifiers": true,
+					"AvoidRepeat": true
 				},
 			},
 			"MoveEntries": [
@@ -34,6 +35,7 @@
 					"Condition": "SEASON summer, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
 					"IgnoreShopPriceModifiers": true,
+					"AvoidRepeat": true
 				},
 			},
 			"MoveEntries": [
@@ -53,6 +55,7 @@
 					"Condition": "SEASON fall, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
 					"IgnoreShopPriceModifiers": true,
+					"AvoidRepeat": true
 				},
 			},
 			"MoveEntries": [
@@ -72,6 +75,7 @@
 					"Condition": "SEASON winter, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
 					"IgnoreShopPriceModifiers": true,
+					"AvoidRepeat": true
 				},
 			},
 			"MoveEntries": [
@@ -91,6 +95,7 @@
 					"Condition": "SEASON spring, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
 					"IgnoreShopPriceModifiers": true,
+					"AvoidRepeat": true
 				},
 			},
 			"MoveEntries": [
@@ -111,6 +116,7 @@
 					"Condition": "SEASON summer, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
 					"IgnoreShopPriceModifiers": true,
+					"AvoidRepeat": true
 				},
 			},
 			"MoveEntries": [
@@ -130,6 +136,7 @@
 					"Condition": "SEASON fall, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
 					"IgnoreShopPriceModifiers": true,
+					"AvoidRepeat": true
 				},
 			},
 			"MoveEntries": [
@@ -149,6 +156,7 @@
 					"Condition": "SEASON winter, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
 					"IgnoreShopPriceModifiers": true,
+					"AvoidRepeat": true
 				},
 			},
 			"MoveEntries": [

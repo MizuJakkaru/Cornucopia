@@ -1,5 +1,5 @@
 {
-    "Format": "2.0.0",
+    "Format": "2.6.0",
 	"ConfigSchema": {
 		"Enable Extended Crops Pack": {
 			"AllowValues": "true, false",
@@ -194,7 +194,7 @@
 		{
             "Action": "Load",
             "Target": "Cornucopia.MoreCrops/i18n",
-            "FromFile": "i18n/default.json"
+            "FromFile": "{{FirstValidFile: i18n/{{language}}.json, i18n/default.json }}"
         },
 		
 		// add teabushes and wild trees images
@@ -216,16 +216,11 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/multiyieldcrops.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json, data/mapedits.json, data/compat.json"
+			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/multiyieldcrops.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json, data/mapedits.json, data/compat.json, data/objectcategories.json"
 		},
 		{
 			"Action": "Include",
 			"FromFile": "machines/cask.json, machines/cheesepress.json, machines/keg.json, machines/loom.json, machines/mill.json, machines/oilmaker.json, machines/dehydrator.json"
-		},
-		{
-			"Action": "Include",
-			//"When": {"HasMod |contains=spacechase0.SpaceCore": true},
-			"FromFile": "data/objectcategories.json, data/multiyieldcrops.json",
 		},
 		{
 			"Action": "Include",

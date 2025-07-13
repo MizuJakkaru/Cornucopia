@@ -194,5 +194,11 @@
 	"config.Enable Extended Flowers Pack.name": "Habilitar el pack de Expansión de Flores",
 	"config.Enable Extended Flowers Pack.description": "(Recomendado) añade más de 30 flores al juego base.",
 	"config.Rose Color Explosion.description": "Rosales Coloridos",
-	"config.Rose Color Explosion.description": "Da cuatro colores diferentes a las rosas de cada estación (las rosas extra están excluidas de los requerimientos para la perfección)."
+	"config.Rose Color Explosion.description": "Da cuatro colores diferentes a las rosas de cada estación (las rosas extra están excluidas de los requerimientos para la perfección).",
+	"config.SVE Compat Patch.name": "Compatibilidad con SVE",
+	"config.SVE Compat Patch.description": "Retexturiza y cambia el nombre de la raflesia de Cornucopia y SVE para que sean más diferentes entre sí.",
+	"config.Enable Giant Crops on Ginger Island.name": "Habilitar cultivos gigantes en Isla Jengibre",
+	"config.Enable Giant Crops on Ginger Island.description": "Te permite obtener cultivos gigantes en Isla Jengibre, lo cual te da la oportunidad de conseguir una raflesia gigante.",
+	"SVERafflesiaPatch_name": "Raflesia de Ferngill",
+	"CornucopiaRafflesiaPatch_name": "Raflesia gema"
 }

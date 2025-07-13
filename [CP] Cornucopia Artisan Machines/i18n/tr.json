@@ -323,5 +323,7 @@
   "GiftsForEvelyn_Evelyn.8": "Oh, George...",
   "GiftsForEvelyn_Evelyn.9": "Ben de seni seviyorum canım...",
   "GiftsForEvelyn_Evelyn.10": "Teşekkürler!",
-  "GiftsForEvelyn_George.5": "Hmmph!"
+  "GiftsForEvelyn_George.5": "Hmmph!",
+  "config.Enable Flexible Recipes.name": "Esnek Tarifleri Etkinleştir",
+"config.Enable Flexible Recipes.description": "(Spacecore gerektirir) Peynir kullanılan orjinal tariflerde keçi peyniri ve bitki bazlı peynir dahil alternatif peynirlerin kullanılmasına olanak tanır. Ayrıca süt kullanılan vanilyalı tariflerde bitki bazlı sütlerin kullanılmasına da olanak tanır.",
 }

@@ -195,5 +195,10 @@
 	"config.Enable Extended Flowers Pack.description": "(Recommandé) Ajoute plus de 30 plantes et arbres à fleurs supplémentaires à la sélection de base.",
 	"config.Rose Color Explosion.description": "Explosion de roses !",
 	"config.Rose Color Explosion.description": "Chaque rose de saison existe en 4 couleurs différentes (inutile de toutes les collecter pour atteindre le 100% Perfection).",
-	"config.SVE Compat Patch.name": "Rafflésia de SVE"
+	"config.SVE Compat Patch.name": "Rafflésia de SVE",
+	"config.SVE Compat Patch.description": "Modifie le nom et le style des rafflésias ajoutées par les mods Stardew Valley Expanded et Cornucopia afin de mieux les différencier.",
+	"config.Enable Giant Crops on Ginger Island.name": "Cultures géantes sur l'île Gingembre",
+	"config.Enable Giant Crops on Ginger Island.description": "Des cultures géantes peuvent désormais pousser dans la zone de ferme de l'île Gingembre.",
+	"SVERafflesiaPatch_name": "Rafflésia de Ferngill",
+	"CornucopiaRafflesiaPatch_name": "Rafflésia des Gemmes"
 }

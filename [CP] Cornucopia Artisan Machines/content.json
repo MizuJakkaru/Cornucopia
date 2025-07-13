@@ -1,5 +1,5 @@
 {
-	"Format": "2.0.0",
+	"Format": "2.6.0",
 	"ConfigSchema": {
 		"Enable Vinegar Keg": {
 			"AllowValues": "true, false",
@@ -236,5 +236,10 @@
 			"Action": "Include",
 			"FromFile": "data/compat.json"
 		},
+		{
+            "Action": "Load",
+            "Target": "Cornucopia.ArtisanMachines/i18n",
+            "FromFile": "{{FirstValidFile: i18n/{{language}}.json, i18n/default.json }}"
+        },
     ]
 }

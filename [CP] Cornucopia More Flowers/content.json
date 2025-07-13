@@ -1,5 +1,5 @@
 {
-    "Format": "2.0.0",
+    "Format": "2.6.0",
 	"ConfigSchema": {
 		"Enable Extended Flowers Pack": {
 			"AllowValues": "true, false",
@@ -121,5 +121,10 @@
 			"FromFile": "data/crops_uncolored.json",
 			"When": {"Enable Multicolored Flowers": false}
 		},
+		{
+            "Action": "Load",
+            "Target": "Cornucopia.MoreFlowers/i18n",
+            "FromFile": "{{FirstValidFile: i18n/{{language}}.json, i18n/default.json }}"
+        },
     ]
 }
