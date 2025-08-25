@@ -44,7 +44,10 @@
 							"ItemId": "(O)Cornucopia_ChicleRubber",
 							"DaysUntilReady": 5
 						}
-					]
+					],
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:Sapodilla_name}}"
+					}
 				}
 			}
 		}
