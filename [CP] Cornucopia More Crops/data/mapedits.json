@@ -1,5 +1,104 @@
 {
 	"Changes": [
+	{
+			"Action": "EditMap",
+			"Target": "Maps/Desert",
+			"When": {
+				"Enable Extended Trees Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 16,
+						"Y": 15
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_DatePalmSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 30,
+						"Y": 22
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_DatePalmSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 19,
+						"Y": 46
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_DatePalmSeed"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Desert",
+			"When": {
+				"Enable Extended Trees Pack": true,
+				"Map Edits": true,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 11,
+						"Y": 17
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_DatePalmSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 7,
+						"Y": 10
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_DatePalmSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 32,
+						"Y": 11
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_DatePalmSeed"
+					}
+				},
+				{
+					"Position": {
+						"X": 30,
+						"Y": 22
+					},
+					"Layer": "Paths",
+					"SetIndex": "34",
+					"SetProperties": {
+						"SpawnTree": "wild Cornucopia_DatePalmSeed"
+					}
+				},
+			]
+		},
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Island_W",

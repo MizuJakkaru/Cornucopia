@@ -45,6 +45,48 @@
 							"DaysUntilReady": 5
 						}
 					]
+				},
+				"Cornucopia_DatePalmSeed": {
+					"Textures": [
+						{
+							"Texture": "Cornucopia.MoreCrops/treedate_empty",
+							"Condition": "LOCATION_SEASON Town spring summer winter, !LOCATION_IS_INDOORS Here"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treedate_fall",
+							"Condition": "ANY \"LOCATION_SEASON Town fall\" \"LOCATION_IS_INDOORS Here\""
+						}
+					],
+					"SeedItemId": "(O)Cornucopia_DatePalmSeed",
+					"DebrisColor": 100004,
+					"IsLeafyInWinter": true,
+					"UseAlternateSpriteWhenSeedReady": true,
+					"SeedOnShakeChance": 0.35,
+					"SeedSpreadChance": 0,
+					"SeedOnChopChance": 1,
+					"AllowWoodpeckers": false,
+					"SeedDropItems": [
+						{
+							"ItemId": "(O)Cornucopia_Date",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Condition": "ANY \"LOCATION_SEASON Town fall\" \"LOCATION_IS_INDOORS Here\"",
+							"Chance": 1
+						},
+						{
+							"ItemId": "(O)Cornucopia_PalmNut",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Condition": "LOCATION_SEASON Town spring summer winter, !LOCATION_IS_INDOORS Here",
+							"Chance": 1
+						}
+					],
+					"TapItems": [
+						{
+							"ItemId": "(O)245",
+							"DaysUntilReady": 10
+						}
+					]
 				}
 			}
 		}

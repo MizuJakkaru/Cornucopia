@@ -6,7 +6,7 @@
 			"Entries": {
 				"Cornucopia_Basil": {
 					"Name": "Cornucopia_Basil",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 194,
 					"DisplayName": "{{i18n:Basil_name}}",
@@ -29,7 +29,7 @@
 				},
 				"Cornucopia_BellPepper": {
 					"Name": "Cornucopia_BellPepper",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 8,
 					"DisplayName": "{{i18n:BellPepper_name}}",
@@ -50,7 +50,7 @@
 				},
 				"Cornucopia_Turnip": {
 					"Name": "Cornucopia_Turnip",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 140,
 					"DisplayName": "{{i18n:Turnip_name}}",
@@ -73,7 +73,7 @@
 				},
 				"Cornucopia_CottonBoll": {
 					"Name": "Cornucopia_CottonBoll",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 14,
 					"DisplayName": "{{i18n:CottonBoll_name}}",
@@ -95,7 +95,7 @@
 				},
 				"Cornucopia_Cucumber": {
 					"Name": "Cornucopia_Cucumber",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 12,
 					"DisplayName": "{{i18n:Cucumber_name}}",
@@ -116,7 +116,7 @@
 				},
 				"Cornucopia_Kiwi": {
 					"Name": "Cornucopia_Kiwi",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 182,
 					"DisplayName": "{{i18n:Kiwi_name}}",
@@ -137,7 +137,7 @@
 				},
 				"Cornucopia_Lettuce": {
 					"Name": "Cornucopia_Lettuce",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 122,
 					"DisplayName": "{{i18n:Lettuce_name}}",
@@ -159,7 +159,7 @@
 				},
 				"Cornucopia_Olive": {
 					"Name": "Cornucopia_Olive",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 266,
 					"DisplayName": "{{i18n:Olive_name}}",
@@ -180,7 +180,7 @@
 				},
 				"Cornucopia_Onion": {
 					"Name": "Cornucopia_Onion",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 16,
 					"DisplayName": "{{i18n:Onion_name}}",
@@ -202,7 +202,7 @@
 				},
 				"Cornucopia_Peanut": {
 					"Name": "Cornucopia_Peanut",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 22,
 					"DisplayName": "{{i18n:Peanut_name}}",
@@ -224,7 +224,7 @@
 				},
 				"Cornucopia_Raspberry": {
 					"Name": "Cornucopia_Raspberry",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 24,
 					"DisplayName": "{{i18n:Raspberry_name}}",
@@ -270,7 +270,7 @@
 				},
 				"Cornucopia_Spinach": {
 					"Name": "Cornucopia_Spinach",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 82,
 					"DisplayName": "{{i18n:Spinach_name}}",
@@ -293,7 +293,7 @@
 				},
 				"Cornucopia_Sugarcane": {
 					"Name": "Cornucopia_Sugarcane",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 30,
 					"DisplayName": "{{i18n:Sugarcane_name}}",
@@ -315,7 +315,7 @@
 				},
 				"Cornucopia_Watermelon": {
 					"Name": "Cornucopia_Watermelon",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 10,
 					"DisplayName": "{{i18n:Watermelon_name}}",
@@ -337,7 +337,7 @@
 				},
 				"Cornucopia_Zucchini": {
 					"Name": "Cornucopia_Zucchini",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 120,
 					"DisplayName": "{{i18n:Zucchini_name}}",
@@ -381,7 +381,7 @@
 				},
 				"Cornucopia_Peppercorn": {
 					"Name": "Cornucopia_Peppercorn",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 190,
 					"DisplayName": "{{i18n:Peppercorn_name}}",
@@ -407,7 +407,7 @@
 				},
 				"Cornucopia_BellPepperYellow": {
 					"Name": "Cornucopia_BellPepperYellow",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 40,
 					"DisplayName": "{{i18n:BellPepper_name}}",
@@ -429,7 +429,7 @@
 				},
 				"Cornucopia_BellPepperOrange": {
 					"Name": "Cornucopia_BellPepperOrange",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 41,
 					"DisplayName": "{{i18n:BellPepper_name}}",
@@ -451,7 +451,7 @@
 				},
 				"Cornucopia_BellPepperGreen": {
 					"Name": "Cornucopia_BellPepperGreen",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 42,
 					"DisplayName": "{{i18n:BellPepper_name}}",
@@ -482,7 +482,7 @@
 			"Entries": {
 				"Cornucopia_AdzukiBean": {
 					"Name": "Cornucopia_AdzukiBean",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 88,
 					"DisplayName": "{{i18n:AdzukiBean_name}}",
@@ -504,7 +504,7 @@
 				},
 				"Cornucopia_Agave": {
 					"Name": "Cornucopia_Agave",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 76,
 					"DisplayName": "{{i18n:Agave_name}}",
@@ -524,7 +524,7 @@
 				},
 				"Cornucopia_Asparagus": {
 					"Name": "Cornucopia_Asparagus",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 154,
 					"DisplayName": "{{i18n:Asparagus_name}}",
@@ -545,7 +545,7 @@
 				},
 				"Cornucopia_Bamboo": {
 					"Name": "Cornucopia_Bamboo",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 96,
 					"DisplayName": "{{i18n:Bamboo_name}}",
@@ -567,7 +567,7 @@
 				},
 				"Cornucopia_Barley": {
 					"Name": "Cornucopia_Barley",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 98,
 					"DisplayName": "{{i18n:Barley_name}}",
@@ -589,7 +589,7 @@
 				},
 				"Cornucopia_BlackBeans": {
 					"Name": "Cornucopia_BlackBeans",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 150,
 					"DisplayName": "{{i18n:BlackBeans_name}}",
@@ -611,7 +611,7 @@
 				},
 				"Cornucopia_BlackCurrants": {
 					"Name": "Cornucopia_BlackCurrants",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 70,
 					"DisplayName": "{{i18n:BlackCurrants_name}}",
@@ -635,7 +635,7 @@
 				},
 				"Cornucopia_BlueAgave": {
 					"Name": "Cornucopia_BlueAgave",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 78,
 					"DisplayName": "{{i18n:BlueAgave_name}}",
@@ -656,7 +656,7 @@
 				},
 				"Cornucopia_Buckwheat": {
 					"Name": "Cornucopia_Buckwheat",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 124,
 					"DisplayName": "{{i18n:Buckwheat_name}}",
@@ -678,7 +678,7 @@
 				},
 				"Cornucopia_ButternutSquash": {
 					"Name": "Cornucopia_ButternutSquash",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 126,
 					"DisplayName": "{{i18n:ButternutSquash_name}}",
@@ -699,7 +699,7 @@
 				},
 				"Cornucopia_Cabbage": {
 					"Name": "Cornucopia_Cabbage",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 6,
 					"DisplayName": "{{i18n:Cabbage_name}}",
@@ -721,7 +721,7 @@
 				},
 				"Cornucopia_CanaryMelon": {
 					"Name": "Cornucopia_CanaryMelon",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 4,
 					"DisplayName": "{{i18n:CanaryMelon_name}}",
@@ -765,7 +765,7 @@
 				},
 				"Cornucopia_Cantaloupe": {
 					"Name": "Cornucopia_Cantaloupe",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 128,
 					"DisplayName": "{{i18n:Cantaloupe_name}}",
@@ -787,7 +787,7 @@
 				},
 				"Cornucopia_Cassava": {
 					"Name": "Cornucopia_Cassava",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 18,
 					"DisplayName": "{{i18n:Cassava_name}}",
@@ -808,7 +808,7 @@
 				},
 				"Cornucopia_Celery": {
 					"Name": "Cornucopia_Celery",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 28,
 					"DisplayName": "{{i18n:Celery_name}}",
@@ -829,7 +829,7 @@
 				},
 				"Cornucopia_ChickenoftheWoods": {
 					"Name": "Cornucopia_ChickenoftheWoods",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 38,
 					"DisplayName": "{{i18n:ChickenoftheWoods_name}}",
@@ -855,7 +855,7 @@
 				},
 				"Cornucopia_Chickpea": {
 					"Name": "Cornucopia_Chickpea",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 62,
 					"DisplayName": "{{i18n:Chickpea_name}}",
@@ -876,7 +876,7 @@
 				},
 				"Cornucopia_Daikon": {
 					"Name": "Cornucopia_Daikon",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 142,
 					"DisplayName": "{{i18n:Daikon_name}}",
@@ -898,7 +898,7 @@
 				},
 				"Cornucopia_Durum": {
 					"Name": "Cornucopia_Durum",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 184,
 					"DisplayName": "{{i18n:Durum_name}}",
@@ -920,7 +920,7 @@
 				},
 				"Cornucopia_Elderberries": {
 					"Name": "Cornucopia_Elderberries",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 80,
 					"DisplayName": "{{i18n:Elderberries_name}}",
@@ -945,7 +945,7 @@
 				},
 				"Cornucopia_Ginseng": {
 					"Name": "Cornucopia_Ginseng",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 134,
 					"DisplayName": "{{i18n:Ginseng_name}}",
@@ -968,7 +968,7 @@
 				},
 				"Cornucopia_Gooseberry": {
 					"Name": "Cornucopia_Gooseberry",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 68,
 					"DisplayName": "{{i18n:Gooseberry_name}}",
@@ -990,7 +990,7 @@
 				},
 				"Cornucopia_GreenPeas": {
 					"Name": "Cornucopia_GreenPeas",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 90,
 					"DisplayName": "{{i18n:GreenPeas_name}}",
@@ -1011,7 +1011,7 @@
 				},
 				"Cornucopia_Groundcherries": {
 					"Name": "Cornucopia_Groundcherries",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 264,
 					"DisplayName": "{{i18n:Groundcherries_name}}",
@@ -1035,7 +1035,7 @@
 				},
 				"Cornucopia_Habanero": {
 					"Name": "Cornucopia_Habanero",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 188,
 					"DisplayName": "{{i18n:Habanero_name}}",
@@ -1058,7 +1058,7 @@
 				},
 				"Cornucopia_Honeydew": {
 					"Name": "Cornucopia_Honeydew",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 130,
 					"DisplayName": "{{i18n:Honeydew_name}}",
@@ -1080,7 +1080,7 @@
 				},
 				"Cornucopia_Jalapeno": {
 					"Name": "Cornucopia_Jalapeno",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 92,
 					"DisplayName": "{{i18n:Jalapeno_name}}",
@@ -1103,7 +1103,7 @@
 				},
 				"Cornucopia_JuniperBerries": {
 					"Name": "Cornucopia_JuniperBerries",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 26,
 					"DisplayName": "{{i18n:JuniperBerries_name}}",
@@ -1127,7 +1127,7 @@
 				},
 				"Cornucopia_KidneyBeans": {
 					"Name": "Cornucopia_KidneyBeans",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 152,
 					"DisplayName": "{{i18n:KidneyBeans_name}}",
@@ -1149,7 +1149,7 @@
 				},
 				"Cornucopia_NavyBeans": {
 					"Name": "Cornucopia_NavyBeans",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 148,
 					"DisplayName": "{{i18n:NavyBeans_name}}",
@@ -1171,7 +1171,7 @@
 				},
 				"Cornucopia_Oats": {
 					"Name": "Cornucopia_Oats",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 60,
 					"DisplayName": "{{i18n:Oats_name}}",
@@ -1194,7 +1194,7 @@
 				},
 				"Cornucopia_Okra": {
 					"Name": "Cornucopia_Okra",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 132,
 					"DisplayName": "{{i18n:Okra_name}}",
@@ -1216,7 +1216,7 @@
 				},
 				"Cornucopia_PassionFruit": {
 					"Name": "Cornucopia_PassionFruit",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 86,
 					"DisplayName": "{{i18n:PassionFruit_name}}",
@@ -1237,7 +1237,7 @@
 				},
 				"Cornucopia_PintoBeans": {
 					"Name": "Cornucopia_PintoBeans",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 146,
 					"DisplayName": "{{i18n:PintoBeans_name}}",
@@ -1259,7 +1259,7 @@
 				},
 				"Cornucopia_Quinoa": {
 					"Name": "Cornucopia_Quinoa",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 158,
 					"DisplayName": "{{i18n:Quinoa_name}}",
@@ -1281,7 +1281,7 @@
 				},
 				"Cornucopia_RedOnion": {
 					"Name": "Cornucopia_RedOnion",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 180,
 					"DisplayName": "{{i18n:RedOnion_name}}",
@@ -1304,7 +1304,7 @@
 				},
 				"Cornucopia_Shallot": {
 					"Name": "Cornucopia_Shallot",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 72,
 					"DisplayName": "{{i18n:Shallot_name}}",
@@ -1327,7 +1327,7 @@
 				},
 				"Cornucopia_Shiitake": {
 					"Name": "Cornucopia_Shiitake",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 36,
 					"DisplayName": "{{i18n:Shiitake_name}}",
@@ -1351,7 +1351,7 @@
 				},
 				"Cornucopia_SugarBeet": {
 					"Name": "Cornucopia_SugarBeet",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 84,
 					"DisplayName": "{{i18n:SugarBeet_name}}",
@@ -1372,7 +1372,7 @@
 				},
 				"Cornucopia_SweetPotato": {
 					"Name": "Cornucopia_SweetPotato",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 32,
 					"DisplayName": "{{i18n:SweetPotato_name}}",
@@ -1394,7 +1394,7 @@
 				},
 				"Cornucopia_WasabiRoot": {
 					"Name": "Cornucopia_WasabiRoot",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 136,
 					"DisplayName": "{{i18n:WasabiRoot_name}}",
@@ -1418,7 +1418,7 @@
 				},
 				"Cornucopia_WhiteGrape": {
 					"Name": "Cornucopia_WhiteGrape",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 94,
 					"DisplayName": "{{i18n:WhiteGrape_name}}",
@@ -1449,7 +1449,7 @@
 			"Entries": {
 				"Cornucopia_Aloe": {
 					"Name": "Cornucopia_Aloe",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 214,
 					"DisplayName": "{{i18n:Aloe_name}}",
@@ -1472,7 +1472,7 @@
 				},
 				"Cornucopia_BayLeaves": {
 					"Name": "Cornucopia_BayLeaves",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 212,
 					"DisplayName": "{{i18n:BayLeaves_name}}",
@@ -1495,7 +1495,7 @@
 				},
 				"Cornucopia_Catnip": {
 					"Name": "Cornucopia_Catnip",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 206,
 					"DisplayName": "{{i18n:Catnip_name}}",
@@ -1518,7 +1518,7 @@
 				},
 				"Cornucopia_Chives": {
 					"Name": "Cornucopia_Chives",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 192,
 					"DisplayName": "{{i18n:Chives_name}}",
@@ -1540,7 +1540,7 @@
 				},
 				"Cornucopia_Cilantro": {
 					"Name": "Cornucopia_Cilantro",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 216,
 					"DisplayName": "{{i18n:Cilantro_name}}",
@@ -1585,7 +1585,7 @@
 				},
 				"Cornucopia_Dill": {
 					"Name": "Cornucopia_Dill",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 240,
 					"DisplayName": "{{i18n:Dill_name}}",
@@ -1608,7 +1608,7 @@
 				},
 				"Cornucopia_Fennel": {
 					"Name": "Cornucopia_Fennel",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 208,
 					"DisplayName": "{{i18n:Fennel_name}}",
@@ -1630,7 +1630,7 @@
 				},
 				"Cornucopia_Fenugreek": {
 					"Name": "Cornucopia_Fenugreek",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 242,
 					"DisplayName": "{{i18n:Fenugreek_name}}",
@@ -1653,7 +1653,7 @@
 				},
 				"Cornucopia_Lemongrass": {
 					"Name": "Cornucopia_Lemongrass",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 254,
 					"DisplayName": "{{i18n:Lemongrass_name}}",
@@ -1676,7 +1676,7 @@
 				},
 				"Cornucopia_LicoriceRoot": {
 					"Name": "Cornucopia_LicoriceRoot",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 252,
 					"DisplayName": "{{i18n:LicoriceRoot_name}}",
@@ -1698,7 +1698,7 @@
 				},
 				"Cornucopia_Marjoram": {
 					"Name": "Cornucopia_Marjoram",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 256,
 					"DisplayName": "{{i18n:Marjoram_name}}",
@@ -1720,7 +1720,7 @@
 				},
 				"Cornucopia_Mint": {
 					"Name": "Cornucopia_Mint",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 198,
 					"DisplayName": "{{i18n:Mint_name}}",
@@ -1743,7 +1743,7 @@
 				},
 				"Cornucopia_Oregano": {
 					"Name": "Cornucopia_Oregano",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 250,
 					"DisplayName": "{{i18n:Oregano_name}}",
@@ -1765,7 +1765,7 @@
 				},
 				"Cornucopia_Parsley": {
 					"Name": "Cornucopia_Parsley",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 200,
 					"DisplayName": "{{i18n:Parsley_name}}",
@@ -1787,7 +1787,7 @@
 				},
 				"Cornucopia_PerillaLeaves": {
 					"Name": "Cornucopia_PerillaLeaves",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 204,
 					"DisplayName": "{{i18n:PerillaLeaves_name}}",
@@ -1809,7 +1809,7 @@
 				},
 				"Cornucopia_Rosemary": {
 					"Name": "Cornucopia_Rosemary",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 202,
 					"DisplayName": "{{i18n:Rosemary_name}}",
@@ -1833,7 +1833,7 @@
 				},
 				"Cornucopia_Sage": {
 					"Name": "Cornucopia_Sage",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 196,
 					"DisplayName": "{{i18n:Sage_name}}",
@@ -1857,7 +1857,7 @@
 				},
 				"Cornucopia_Tarragon": {
 					"Name": "Cornucopia_Tarragon",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 244,
 					"DisplayName": "{{i18n:Tarragon_name}}",
@@ -1879,7 +1879,7 @@
 				},
 				"Cornucopia_Thyme": {
 					"Name": "Cornucopia_Thyme",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 210,
 					"DisplayName": "{{i18n:Thyme_name}}",
@@ -1901,7 +1901,7 @@
 				},
 				"Cornucopia_Turmeric": {
 					"Name": "Cornucopia_Turmeric",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 246,
 					"DisplayName": "{{i18n:Turmeric_name}}",
@@ -1924,7 +1924,7 @@
 				},
 				"Cornucopia_Wormwood": {
 					"Name": "Cornucopia_Wormwood",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 248,
 					"DisplayName": "{{i18n:Wormwood_name}}",
@@ -3436,7 +3436,7 @@
 			"Entries": {
 				"Cornucopia_Avocado": {
 					"Name": "Cornucopia_Avocado",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 374,
 					"DisplayName": "{{i18n:Avocado_name}}",
@@ -3456,7 +3456,7 @@
 				},
 				"Cornucopia_CocoaPod": {
 					"Name": "Cornucopia_CocoaPod",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 382,
 					"DisplayName": "{{i18n:CocoaPod_name}}",
@@ -3478,7 +3478,7 @@
 				},
 				"Cornucopia_Pear": {
 					"Name": "Cornucopia_Pear",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 370,
 					"DisplayName": "{{i18n:Pear_name}}",
@@ -3498,7 +3498,7 @@
 				},
 				"Cornucopia_Pistachio": {
 					"Name": "Cornucopia_Pistachio",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 396,
 					"DisplayName": "{{i18n:Pistachio_name}}",
@@ -3529,7 +3529,7 @@
 			"Entries": {
 				"Cornucopia_Almond": {
 					"Name": "Cornucopia_Almond",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 384,
 					"DisplayName": "{{i18n:Almond_name}}",
@@ -3552,7 +3552,7 @@
 				},
 				"Cornucopia_Breadfruit": {
 					"Name": "Cornucopia_Breadfruit",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 428,
 					"DisplayName": "{{i18n:Breadfruit_name}}",
@@ -3573,7 +3573,7 @@
 				},
 				"Cornucopia_Cashew": {
 					"Name": "Cornucopia_Cashew",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 386,
 					"DisplayName": "{{i18n:Cashew_name}}",
@@ -3616,7 +3616,7 @@
 				},
 				"Cornucopia_Sapodilla": {
 					"Name": "Cornucopia_Sapodilla",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 444,
 					"DisplayName": "{{i18n:Sapodilla_name}}",
@@ -3637,7 +3637,7 @@
 				},
 				"Cornucopia_DragonFruit": {
 					"Name": "Cornucopia_DragonFruit",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 372,
 					"DisplayName": "{{i18n:DragonFruit_name}}",
@@ -3658,7 +3658,7 @@
 				},
 				"Cornucopia_Durian": {
 					"Name": "Cornucopia_Durian",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 426,
 					"DisplayName": "{{i18n:Durian_name}}",
@@ -3679,7 +3679,7 @@
 				},
 				"Cornucopia_Fig": {
 					"Name": "Cornucopia_Fig",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 368,
 					"DisplayName": "{{i18n:Fig_name}}",
@@ -3700,7 +3700,7 @@
 				},
 				"Cornucopia_Grapefruit": {
 					"Name": "Cornucopia_Grapefruit",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 424,
 					"DisplayName": "{{i18n:Grapefruit_name}}",
@@ -3722,7 +3722,7 @@
 				},
 				"Cornucopia_Lemon": {
 					"Name": "Cornucopia_Lemon",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 366,
 					"DisplayName": "{{i18n:Lemon_name}}",
@@ -3744,7 +3744,7 @@
 				},
 				"Cornucopia_Lime": {
 					"Name": "Cornucopia_Lime",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 378,
 					"DisplayName": "{{i18n:Lime_name}}",
@@ -3766,7 +3766,7 @@
 				},
 				"Cornucopia_Lychee": {
 					"Name": "Cornucopia_Lychee",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 430,
 					"DisplayName": "{{i18n:Lychee_name}}",
@@ -3787,7 +3787,7 @@
 				},
 				"Cornucopia_Nectarine": {
 					"Name": "Cornucopia_Nectarine",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 380,
 					"DisplayName": "{{i18n:Nectarine_name}}",
@@ -3808,7 +3808,7 @@
 				},
 				"Cornucopia_Papaya": {
 					"Name": "Cornucopia_Papaya",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 362,
 					"DisplayName": "{{i18n:Papaya_name}}",
@@ -3829,7 +3829,7 @@
 				},
 				"Cornucopia_Pecan": {
 					"Name": "Cornucopia_Pecan",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 420,
 					"DisplayName": "{{i18n:Pecan_name}}",
@@ -3852,7 +3852,7 @@
 				},
 				"Cornucopia_Persimmon": {
 					"Name": "Cornucopia_Persimmon",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 376,
 					"DisplayName": "{{i18n:Persimmon_name}}",
@@ -3873,7 +3873,7 @@
 				},
 				"Cornucopia_Plantain": {
 					"Name": "Cornucopia_Plantain",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 394,
 					"DisplayName": "{{i18n:Plantain_name}}",
@@ -3894,7 +3894,7 @@
 				},
 				"Cornucopia_Pomelo": {
 					"Name": "Cornucopia_Pomelo",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 422,
 					"DisplayName": "{{i18n:Pomelo_name}}",
@@ -3916,7 +3916,7 @@
 				},
 				"Cornucopia_Ume": {
 					"Name": "Cornucopia_Ume",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 392,
 					"DisplayName": "{{i18n:Ume_name}}",
@@ -3938,7 +3938,7 @@
 				},
 				"Cornucopia_Walnut": {
 					"Name": "Cornucopia_Walnut",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 388,
 					"DisplayName": "{{i18n:Walnut_name}}",
@@ -3961,7 +3961,7 @@
 				},
 				"Cornucopia_Yuzu": {
 					"Name": "Cornucopia_Yuzu",
-					"Type": "Fruit",
+					"Type": "Basic",
 					"Category": -79,
 					"SpriteIndex": 390,
 					"DisplayName": "{{i18n:Yuzu_name}}",
@@ -3980,7 +3980,48 @@
 						"citrus_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
-				}
+				},
+				"Cornucopia_Date": {
+					"Name": "Cornucopia_Date",
+					"Type": "Basic",
+					"Category": -79,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:Date_name}}",
+					"Description": "{{i18n:Date_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 50,
+					"Edibility": 18,
+					"ContextTags": [
+						"color_red",
+						"cornucopia_wildtree_produce",
+						"cornucopia_rarity_uncommon",
+						"cornucopia_pack_extendedtrees",
+						"season_fall",
+						"modid_cornucopia.morecrops",
+						"date_item"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
+				},
+				"Cornucopia_PalmNut": {
+					"Name": "Cornucopia_PalmNut",
+					"Type": "Basic",
+					"Category": -81,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:PalmNut_name}}",
+					"Description": "{{i18n:PalmNut_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 20,
+					"Edibility": 10,
+					"ContextTags": [
+						"color_red",
+						"cornucopia_wildtree_produce",
+						"cornucopia_rarity_common",
+						"cornucopia_pack_extendedtrees",
+						"modid_cornucopia.morecrops",
+						"palm_nut_item"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
+				},
 			}
 		},
 		{
@@ -3992,7 +4033,7 @@
 			"Entries": {
 				"Cornucopia_CamphorLeaves": {
 					"Name": "Cornucopia_CamphorLeaves",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 434,
 					"DisplayName": "{{i18n:CamphorLeaves_name}}",
@@ -4015,7 +4056,7 @@
 				},
 				"Cornucopia_CinnamonSticks": {
 					"Name": "Cornucopia_CinnamonSticks",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 398,
 					"DisplayName": "{{i18n:CinnamonSticks_name}}",
@@ -4039,7 +4080,7 @@
 				},
 				"Cornucopia_EucalyptusLeaves": {
 					"Name": "Cornucopia_EucalyptusLeaves",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 438,
 					"DisplayName": "{{i18n:EucalyptusLeaves_name}}",
@@ -4062,7 +4103,7 @@
 				},
 				"Cornucopia_MelaleucaLeaves": {
 					"Name": "Cornucopia_MelaleucaLeaves",
-					"Type": "Vegetable",
+					"Type": "Basic",
 					"Category": -75,
 					"SpriteIndex": 440,
 					"DisplayName": "{{i18n:MelaleucaLeaves_name}}",
@@ -4085,7 +4126,7 @@
 				},
 				"Cornucopia_Nutmeg": {
 					"Name": "Cornucopia_Nutmeg",
-					"Type": "Forage",
+					"Type": "Basic",
 					"Category": -81,
 					"SpriteIndex": 436,
 					"DisplayName": "{{i18n:Nutmeg_name}}",
@@ -4522,7 +4563,24 @@
 						"cornucopia_shop_pierre",
 						"modid_cornucopia.morecrops"
 					]
-				}
+				},
+				
+				"Cornucopia_DatePalmSeed": {
+					"Name": "Cornucopia_DatePalmSeed",
+					"Type": "Basic",
+					"Category": -74,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:DatePalmSeed_name}}",
+					"Description": "{{i18n:DatePalmSeed_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 60,
+					"ContextTags": [
+						"cornucopia_wildtree_seed",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_extendedtrees",
+						"modid_cornucopia.morecrops"
+					]
+				},
 			}
 		},
 		{
@@ -4858,6 +4916,38 @@
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
 			}
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Enable Extended Trees Pack": true
+			},
+			"Entries": {
+				"Cornucopia_PalmOil": {
+					"Name": "Cornucopia_PalmOil",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:PalmOil_name}}",
+					"Description": "{{i18n:PalmOil_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+					"Price": 150,
+					"Edibility": 5,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_red",
+						"cornucopia_artisangood",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_essential",
+						"modid_cornucopia.morecrops",
+						"palm_oil_item",
+						"oil_item",
+						"cornucopia_chefstock"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
+				},
+			}
+		},
 	]
 }

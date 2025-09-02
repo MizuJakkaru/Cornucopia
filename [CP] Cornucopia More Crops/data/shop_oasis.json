@@ -106,6 +106,18 @@
 							"Amount": 2.0
 						}
 					]
+				},
+				
+				"Cornucopia_DatePalmSeed": {
+					"Id": "Cornucopia_DatePalmSeed",
+					"ItemId": "Cornucopia_DatePalmSeed",
+					"IgnoreShopPriceModifiers": true,
+					"PriceModifiers": [
+						{
+							"Modification": "Multiply",
+							"Amount": 2.0
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -119,6 +131,10 @@
 				},
 				{
 					"Id": "Cornucopia_LycheeSapling",
+					"BeforeId": "(BC)196"
+				},
+				{
+					"Id": "Cornucopia_DatePalmSeed",
 					"BeforeId": "(BC)196"
 				}
 			]

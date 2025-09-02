@@ -80,6 +80,33 @@
 					"MinutesUntilReady": 3200
 				}
 			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"When": {
+				"Enable Extended Trees Pack": true
+			},
+			"TargetField": [
+				"(BC)19",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_PalmOil": {
+					"Id": "Cornucopia_PalmOil",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_PalmNut"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_PalmOil"
+						}
+					],
+					"MinutesUntilReady": 960
+				},
+			}
 		}
 	]
 }

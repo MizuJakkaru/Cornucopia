@@ -205,7 +205,7 @@
         },
 		{
             "Action": "Load",
-            "Target": "Cornucopia.MoreCrops/treesapodilla_spring, Cornucopia.MoreCrops/treesapodilla_summer, Cornucopia.MoreCrops/treesapodilla_fall, Cornucopia.MoreCrops/treesapodilla_winter",
+            "Target": "Cornucopia.MoreCrops/treesapodilla_spring, Cornucopia.MoreCrops/treesapodilla_summer, Cornucopia.MoreCrops/treesapodilla_fall, Cornucopia.MoreCrops/treesapodilla_winter, Cornucopia.MoreCrops/treedate_empty, Cornucopia.MoreCrops/treedate_fall",
             "FromFile": "assets/{{TargetWithoutPath}}.png"
         },
 		
