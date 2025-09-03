@@ -513,5 +513,14 @@
 	"WholeGrainFlour_description": "A cooking ingredient made from whole kernels of grain.",
 	"OilmakerInvalidCount_Olives": "Requires 4 Olives",
 	"CheesePressInvalidCount_Soybeans": "Requires 2 Soybeans",
-	"LoomInvalidCount_CottonBoll": "Requires 3 Cotton Bolls"
+	"LoomInvalidCount_CottonBoll": "Requires 3 Cotton Bolls",
+	
+	"Date_name": "Date",
+	"Date_description": "This is a placeholder, I don't like dates.",
+	"DatePalmSeed_name": "Date Palm Seed",
+	"DatePalmSeed_description": "Also a placeholder, what do you want me to say?",
+	"PalmNut_name": "Palm Nut",
+	"PalmNut_description": "A nut that can be used to make a rich orange cooking oil.",
+	"PalmOil_name": "Palm Oil",
+	"PalmOil_description": "I've actually never cooked with palm oil, so, you've guessed it... this is also a placeholder.",
 }
