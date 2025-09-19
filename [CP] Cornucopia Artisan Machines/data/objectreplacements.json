@@ -21,6 +21,22 @@
 				},
 				"Tropical Curry": {
 					"0": "Cornucopia_CoconutMilk 1 832 1 260 1"
+				},
+				"Escargot": {
+					"0": "721 1 248 1 Cornucopia_Butter 1"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"When": {
+				"Enable Vanilla Recipe Changes": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			},
+			"Fields": {
+				"Bruschetta": {
+					"0": "216 1 Cornucopia_OliveOil 1 256 1"
 				}
 			}
 		},
@@ -45,38 +61,6 @@
 				"Enable Flexible Recipes": true
 			},
 			"Entries": {
-				"Omelet": {
-					"ProductQualifiedId": "(O)195",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "ContextTag",
-							"Value": "category_egg, egg_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_EggAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 128,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						}
-					]
-				},
 				"Cheese Cauli.": {
 					"ProductQualifiedId": "(O)197",
 					"ProductAmount": 1,
@@ -98,69 +82,6 @@
 								"Width": 16,
 								"Height": 16
 							}
-						}
-					]
-				},
-				"Parsnip Soup": {
-					"ProductQualifiedId": "(O)199",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)24",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)419",
-							"Amount": 1
-						}
-					]
-				},
-				"Complete Breakfast": {
-					"ProductQualifiedId": "(O)201",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)194",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)210",
-							"Amount": 1
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)211",
-							"Amount": 1
 						}
 					]
 				},
@@ -217,247 +138,35 @@
 						}
 					]
 				},
-				"Rice Pudding": {
-					"ProductQualifiedId": "(O)232",
+				"Escargot": {
+					"ProductQualifiedId": "(O)729",
 					"ProductAmount": 1,
 					"Ingredients": [
 						{
+							"Type": "Item",
+							"Value": "(O)721",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)248",
+							"Amount": 1
+						},
+						{
 							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
+							"Value": "butter_item",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideText": "{{i18n:Ingredient_ButterAny}}",
+							"OverrideTexturePath": "Cornucopia.ArtisanMachines/Objects",
 							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
+								"X": 48,
+								"Y": 0,
 								"Width": 16,
 								"Height": 16
 							}
 						},
-						{
-							"Type": "Item",
-							"Value": "(O)245",
-							"Amount": 1
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)423",
-							"Amount": 1
-						}
 					]
 				},
-				"Ice Cream": {
-					"ProductQualifiedId": "(O)233",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)245",
-							"Amount": 1
-						}
-					]
-				},
-				"Pumpkin Soup": {
-					"ProductQualifiedId": "(O)236",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)276",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						}
-					]
-				},
-				"Miner's Treat": {
-					"ProductQualifiedId": "(O)243",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)78",
-							"Amount": 2
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)245",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						}
-					]
-				},
-				"Artichoke Dip": {
-					"ProductQualifiedId": "(O)605",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)274",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						}
-					]
-				},
-				"Pumpkin Pie": {
-					"ProductQualifiedId": "(O)608",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)276",
-							"Amount": 1
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)246",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)245",
-							"Amount": 1
-						}
-					]
-				},
-				"Chowder": {
-					"ProductQualifiedId": "(O)727",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)372",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						}
-					]
-				},
-				"Lobster Bisque": {
-					"ProductQualifiedId": "(O)730",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)715",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						}
-					]
-				},
-				"Banana Pudding": {
-					"ProductQualifiedId": "(O)904",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)91",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "category_milk, milk_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
-							"OverrideTexturePath": "Maps/springobjects",
-							"OverrideTextureRect": {
-								"X": 256,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
-							}
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)245",
-							"Amount": 1
-						}
-					]
-				}
 			}
 		}
 	]
