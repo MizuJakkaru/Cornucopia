@@ -4699,6 +4699,7 @@
 						"modid_cornucopia.morecrops",
 						"olive_oil_item",
 						"oil_item",
+						"cooking_oil_item",
 						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
@@ -4943,6 +4944,7 @@
 						"modid_cornucopia.morecrops",
 						"palm_oil_item",
 						"oil_item",
+						"cooking_oil_item",
 						"cornucopia_chefstock"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"

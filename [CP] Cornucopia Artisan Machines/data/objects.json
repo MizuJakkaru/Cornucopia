@@ -109,6 +109,7 @@
 					"ContextTags": [
 						"color_red",
 						"oil_item",
+						"cooking_oil_item",
 						"dye_strong",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
@@ -189,6 +190,7 @@
 					"ContextTags": [
 						"color_white",
 						"oil_item",
+						"cooking_oil_item",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood"
 					]
@@ -1086,6 +1088,7 @@
 						"color_green",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
+						"cooking_oil_item",
 						"oil_item"
 					]
 				},
