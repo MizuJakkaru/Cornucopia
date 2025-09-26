@@ -1,0 +1,36 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_EgglessEgg": {
+					"Id": "Cornucopia_EgglessEgg",
+					"Triggers": [
+						{
+							"Id": "MungBeans",
+							"RequiredItemId": "(O)Cornucopia_MungBeans"
+						},
+						{
+							"Id": "bean_item",
+							"RequiredTags": [
+								"bean_item"
+							]
+						}
+					],
+					"OutputItem": [
+						{
+							"Id": "Default",
+							"ItemId": "(O)Cornucopia_EgglessEgg"
+						}
+					],
+					"MinutesUntilReady": 350
+				}
+			}
+		}
+	]
+}

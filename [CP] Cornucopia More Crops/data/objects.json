@@ -22,8 +22,7 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
-						"basil_item",
-						"cornucopia_chefstock"
+						"basil_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -195,8 +194,7 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
-						"onion_item",
-						"cornucopia_chefstock"
+						"onion_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -374,8 +372,7 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"vanilla_item",
-						"vanilla_bean_item",
-						"cornucopia_chefstock"
+						"vanilla_bean_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -400,8 +397,7 @@
 						"cornucopia_pack_essential",
 						"cornucopia_forage",
 						"modid_cornucopia.morecrops",
-						"peppercorn_item",
-						"cornucopia_chefstock"
+						"peppercorn_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -470,6 +466,29 @@
 						"traveling_cart_banned"
 					],
 					"ExcludeFromShippingCollection": true
+				},
+				"Cornucopia_SesameSeeds": {
+					"Name": "Cornucopia_SesameSeeds",
+					"Type": "Seed",
+					"Category": -74,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:SesameSeeds_name}}",
+					"Description": "{{i18n:SesameSeeds_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 60,
+					"Edibility": -20,
+					"ContextTags": [
+						"sesame_item",
+						"sesame_seeds_item",
+						"seedmaker_banned",
+						"color_sand",
+						"cornucopia_crop_seed",
+						"season_spring",
+						"cornucopia_rarity_exclusive",
+						"cornucopia_pack_essential",
+						"modid_cornucopia.morecrops"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
 			}
 		},
@@ -870,7 +889,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"chickpea_item"
+						"chickpea_item",
+						"bean_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1051,8 +1071,7 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"habanero_item",
-						"cornucopia_chefstock"
+						"habanero_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1096,8 +1115,7 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"jalapeno_item",
-						"cornucopia_chefstock"
+						"jalapeno_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1297,8 +1315,7 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"red_onion_item",
-						"onion_item",
-						"cornucopia_chefstock"
+						"onion_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1320,8 +1337,7 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"shallot_item",
-						"onion_item",
-						"cornucopia_chefstock"
+						"onion_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1388,7 +1404,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"sweet_potato_item",
-						"yam_item"
+						"yam_item",
+						"root_vegetable_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1411,8 +1428,7 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"wasabi_item",
-						"horseradish_item",
-						"cornucopia_chefstock"
+						"horseradish_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1435,6 +1451,95 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"white_grape_item"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
+				},
+				"Cornucopia_Lentils": {
+					"Name": "Cornucopia_Lentils",
+					"Type": "Basic",
+					"Category": -75,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:Lentils_name}}",
+					"Description": "{{i18n:Lentils_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 20,
+					"Edibility": -300,
+					"ContextTags": [
+						"bean_item",
+						"color_sand",
+						"season_fall",
+						"cornucopia_crop_produce",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_extendedcrops",
+						"modid_cornucopia.morecrops",
+						"lentil_item"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
+				},
+				"Cornucopia_Ube": {
+					"Name": "Cornucopia_Ube",
+					"Type": "Basic",
+					"Category": -75,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:Ube_name}}",
+					"Description": "{{i18n:Ube_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 200,
+					"Edibility": 20,
+					"ContextTags": [
+						"color_iridium",
+						"season_winter",
+						"cornucopia_crop_produce",
+						"cornucopia_rarity_exclusive",
+						"cornucopia_pack_extendedcrops",
+						"modid_cornucopia.morecrops",
+						"ube_item",
+						"yam_item",
+						"root_vegetable_item"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
+				},
+				"Cornucopia_Beansprouts": {
+					"Name": "Cornucopia_Beansprouts",
+					"Type": "Basic",
+					"Category": -75,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:Beansprouts_name}}",
+					"Description": "{{i18n:Beansprouts_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 30,
+					"Edibility": 5,
+					"ContextTags": [
+						"color_white",
+						"season_summer",
+						"cornucopia_crop_produce",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_extendedcrops",
+						"modid_cornucopia.morecrops",
+						"beansprouts_item"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
+				},
+				"Cornucopia_MungBeans": {
+					"Name": "Cornucopia_MungBeans",
+					"Type": "Seed",
+					"Category": -74,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:MungBeans_name}}",
+					"Description": "{{i18n:MungBeans_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 50,
+					"Edibility": -300,
+					"ContextTags": [
+						"bean_item",
+						"seedmaker_banned",
+						"color_yellow",
+						"cornucopia_crop_seed",
+						"season_summer",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_extendedcrops",
+						"modid_cornucopia.morecrops",
+						"mungbean_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
@@ -1488,8 +1593,7 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"bay_leaf_item",
-						"cornucopia_chefstock"
+						"bay_leaf_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1556,8 +1660,7 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"cilantro_item",
-						"cornucopia_chefstock"
+						"cilantro_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1601,8 +1704,7 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"dill_item",
-						"cornucopia_chefstock"
+						"dill_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1646,8 +1748,7 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"fenugreek_item",
-						"cornucopia_chefstock"
+						"fenugreek_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1669,8 +1770,7 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"lemongrass_item",
-						"cornucopia_chefstock"
+						"lemongrass_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1826,8 +1926,7 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"rosemary_item",
-						"cornucopia_chefstock"
+						"rosemary_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1850,8 +1949,7 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"sage_item",
-						"cornucopia_chefstock"
+						"sage_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1917,8 +2015,7 @@
 						"cornucopia_rarity_exclusive",
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
-						"turmeric_item",
-						"cornucopia_chefstock"
+						"turmeric_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1941,6 +2038,28 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops",
 						"wormwood_item"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
+				},
+				"Cornucopia_MustardGreens": {
+					"Name": "Cornucopia_MustardGreens",
+					"Type": "Basic",
+					"Category": -75,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:MustardGreens_name}}",
+					"Description": "{{i18n:MustardGreens_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 40,
+					"Edibility": 5,
+					"ContextTags": [
+						"leafy_green_item",
+						"color_dark_cyan",
+						"season_winter",
+						"cornucopia_crop_produce",
+						"cornucopia_rarity_common",
+						"cornucopia_pack_herbs",
+						"modid_cornucopia.morecrops",
+						"mustard_greens_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
@@ -2997,6 +3116,40 @@
 						"cornucopia_shop_pierre",
 						"modid_cornucopia.morecrops"
 					]
+				},
+				"Cornucopia_LentilsSeeds": {
+					"Name": "Cornucopia_LentilsSeeds",
+					"Type": "Seed",
+					"Category": -74,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:LentilsSeeds_name}}",
+					"Description": "{{i18n:LentilsSeeds_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 20,
+					"ContextTags": [
+						"cornucopia_crop_seed",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_extendedcrops",
+						"cornucopia_season_fall",
+						"modid_cornucopia.morecrops"
+					]
+				},
+				"Cornucopia_UbeSeeds": {
+					"Name": "Cornucopia_UbeSeeds",
+					"Type": "Seed",
+					"Category": -74,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:UbeSeeds_name}}",
+					"Description": "{{i18n:UbeSeeds_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 50,
+					"ContextTags": [
+						"cornucopia_crop_seed",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_extendedcrops",
+						"cornucopia_season_winter",
+						"modid_cornucopia.morecrops"
+					]
 				}
 			}
 		},
@@ -3427,6 +3580,25 @@
 						"cornucopia_pack_herbs",
 						"modid_cornucopia.morecrops"
 					]
+				},
+				"Cornucopia_MustardSeeds": {
+					"Name": "Cornucopia_MustardSeeds",
+					"Type": "Seed",
+					"Category": -74,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:MustardSeeds_name}}",
+					"Description": "{{i18n:MustardSeeds_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects",
+					"Price": 20,
+					"ContextTags": [
+						"spice_item",
+						"cornucopia_crop_seed",
+						"cornucopia_rarity_common",
+						"cornucopia_pack_herbs",
+						"cornucopia_season_winter",
+						"cornucopia_shop_pierre",
+						"modid_cornucopia.morecrops"
+					]
 				}
 			}
 		},
@@ -3472,8 +3644,7 @@
 						"cornucopia_pack_essential",
 						"season_spring",
 						"modid_cornucopia.morecrops",
-						"cocoa_item",
-						"cornucopia_chefstock"
+						"cocoa_item"
 					]
 				},
 				"Cornucopia_Pear": {
@@ -4021,7 +4192,7 @@
 						"palm_nut_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
-				},
+				}
 			}
 		},
 		{
@@ -4143,8 +4314,7 @@
 						"cornucopia_pack_herbs",
 						"season_summer",
 						"modid_cornucopia.morecrops",
-						"nutmeg_item",
-						"cornucopia_chefstock"
+						"nutmeg_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
@@ -4564,7 +4734,6 @@
 						"modid_cornucopia.morecrops"
 					]
 				},
-				
 				"Cornucopia_DatePalmSeed": {
 					"Name": "Cornucopia_DatePalmSeed",
 					"Type": "Basic",
@@ -4580,7 +4749,7 @@
 						"cornucopia_pack_extendedtrees",
 						"modid_cornucopia.morecrops"
 					]
-				},
+				}
 			}
 		},
 		{
@@ -4699,8 +4868,7 @@
 						"modid_cornucopia.morecrops",
 						"olive_oil_item",
 						"oil_item",
-						"cooking_oil_item",
-						"cornucopia_chefstock"
+						"cooking_oil_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -4742,6 +4910,29 @@
 						"modid_cornucopia.morecrops",
 						"molasses_item",
 						"color_brown"
+					],
+					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
+				},
+				"Cornucopia_SesameOil": {
+					"Name": "Cornucopia_SesameOil",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:SesameOil_name}}",
+					"Description": "{{i18n:SesameOil_description}}",
+					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
+					"Price": 120,
+					"Edibility": 5,
+					"IsDrink": true,
+					"ContextTags": [
+						"color_yellow",
+						"cornucopia_artisangood",
+						"cornucopia_rarity_rare",
+						"cornucopia_pack_essential",
+						"modid_cornucopia.morecrops",
+						"sesame_oil_item",
+						"oil_item",
+						"cooking_oil_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
@@ -4911,8 +5102,7 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"flour_item",
-						"cornucopia_chefstock"
+						"flour_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
@@ -4944,12 +5134,11 @@
 						"modid_cornucopia.morecrops",
 						"palm_oil_item",
 						"oil_item",
-						"cooking_oil_item",
-						"cornucopia_chefstock"
+						"cooking_oil_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
-				},
+				}
 			}
-		},
+		}
 	]
 }

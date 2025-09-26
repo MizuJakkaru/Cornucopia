@@ -516,11 +516,36 @@
 	"LoomInvalidCount_CottonBoll": "Requires 3 Cotton Bolls",
 	
 	"Date_name": "Date",
-	"Date_description": "This is a placeholder, I don't like dates.",
+	"Date_description": "Sun-dried until deeply sweet.",
 	"DatePalmSeed_name": "Date Palm Seed",
-	"DatePalmSeed_description": "Also a placeholder, what do you want me to say?",
+	"DatePalmSeed_description": "This can be planted to grow a date palm tree.",
 	"PalmNut_name": "Palm Nut",
-	"PalmNut_description": "A nut that can be used to make a rich orange cooking oil.",
+	"PalmNut_description": "A nut that can be used to make a rich red cooking oil, or thrown into delicious soup.",
 	"PalmOil_name": "Palm Oil",
-	"PalmOil_description": "I've actually never cooked with palm oil, so, you've guessed it... this is also a placeholder.",
+	"PalmOil_description": "Deep red cooking oil with a savory flavor.",
+	
+	"Lentils_name": "Lentils",
+	"Lentils_description": "A small bean-like vegetable that makes a great base for curries and stews.",
+	"LentilsSeeds_name": "Lentils Seeds",
+	"LentilsSeeds_description": "Placeholder.",
+
+	"SesameSeeds_name": "Sesame Seeds",
+	"SesameSeeds_description": "The seeds of a sesame plant, commonly used as garnishing. Plant in spring to grow a sesame plant.",
+	"SesameOil_name": "Sesame Oil",
+	"SesameOil_description": "A golden oil prized for its roasted, nutty flavor.",
+	
+	"MungBeans_name": "Mung Beans",
+	"MungBeans_description": "Tiny yellow beans, commonly used to make sweet paste for pastries. Plant in summer to grow beansprouts.",
+	"Beansprouts_name": "Beansprouts",
+	"Beansprouts_description": "Crunchy little sprouts for stir fries and noodles.",
+	
+	"MustardGreens_name": "Mustard Greens",
+	"MustardGreens_description": "Peppery leaves that make a great garnish to spice up plain dishes.",
+	"MustardSeeds_name": "Mustard Seeds",
+	"MustardSeeds_description": "Concentrated spice! Make these into a peppery condiment, or plant in winter to grow a mustard plant."
+	
+	"Ube_name": "Ube",
+	"Ube_description": "A very sweet and creamy yam.",
+	"UbeSeeds_name": "Ube Seeds",
+	"UbeSeeds_description": "Placeholder.",
 }

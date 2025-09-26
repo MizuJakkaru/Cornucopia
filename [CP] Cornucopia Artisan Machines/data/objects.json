@@ -1304,7 +1304,7 @@
 						"cornucopia_artisangood"
 					]
 				}
-			}
+			},
 		},
 		{
 			"Action": "EditData",
@@ -1403,7 +1403,26 @@
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood"
 					]
-				}
+				},
+				"Cornucopia_EgglessEgg": {
+					"Name": "Cornucopia_EgglessEgg",
+					"Category": -4,
+					"Type": "Basic",
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:EgglessEgg_name}}",
+					"Description": "{{i18n:EgglessEgg_description}}",
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"Price": 50,
+					"Edibility": 50,
+					"ColorOverlayFromNextIndex": true,
+					"ContextTags": [
+						"color_yellow",
+						"egg_item",
+						"modid_cornucopia.artisanmachines",
+						"cornucopia_artisangood",
+						"plant_egg_item"
+					]
+				},
 			}
 		},
 		{

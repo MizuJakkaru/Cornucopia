@@ -134,7 +134,16 @@
 					"HarvestMinStack": 1,
 					"HarvestMaxStack": 1,
 					"ExtraHarvestChance": "{{10Percent}}"
-				}
+				},
+				"Cornucopia_SesameSeeds": {
+					"Seasons": [ "spring" ],
+					"DaysInPhase": [ 1, 1, 2, 1 ],
+					"HarvestItemId": "Cornucopia_SesameSeeds",
+					"Texture": "Cornucopia.MoreCrops/Crops",
+					"SpriteIndex": 0,
+					"HarvestMinStack": 2,
+					"HarvestMaxStack": 4,
+				},
 			}
 		},
 		// Extended crops
@@ -456,6 +465,29 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 19,
 				},
+				"Cornucopia_LentilsSeeds": {
+					"Seasons": [ "fall" ],
+					"DaysInPhase": [ 1, 1, 2, 1 ],
+					"HarvestItemId": "Cornucopia_Lentils",
+					"Texture": "Cornucopia.MoreCrops/Crops",
+					"SpriteIndex": 0,
+					"HarvestMinStack": 4,
+				},
+				"Cornucopia_MungBeans": {
+					"Seasons": [ "summer" ],
+					"DaysInPhase": [ 1, 2, 1, 2 ],
+					"HarvestItemId": "Cornucopia_BeanSprouts",
+					"Texture": "Cornucopia.MoreCrops/Crops",
+					"SpriteIndex": 0,
+				},
+				"Cornucopia_UbeSeeds": {
+					"Seasons": [ "winter" ],
+					"DaysInPhase": [ 2, 2, 2, 2 ],
+					"HarvestItemId": "Cornucopia_Ube",
+					"Texture": "Cornucopia.MoreCrops/Crops",
+					"SpriteIndex": 0,
+					"ExtraHarvestChance": "{{10Percent}}",
+				},
 			}
 		},
 		// Extended crops - white grapes config (unique)
@@ -631,7 +663,15 @@
                     "HarvestItemId": "Cornucopia_Wormwood",
                     "Texture": "Cornucopia.MoreCrops/Crops",
                     "SpriteIndex": 88
-                    }
+                    },
+				"Cornucopia_MustardSeeds": {
+					"Seasons": [ "winter" ],
+					"DaysInPhase": [ 1, 1, 1, 1 ],
+					"HarvestItemId": "Cornucopia_MustardGreens",
+					"Texture": "Cornucopia.MoreCrops/Crops",
+					"SpriteIndex": 0,
+					"ExtraHarvestChance": "{{10Percent}}",
+				},
 			}
         },
 	]
