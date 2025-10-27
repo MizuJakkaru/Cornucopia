@@ -77,6 +77,61 @@
 						}
 					}
 				},
+				"Cornucopia_MungBeans": {
+					"YieldOverrides": {
+						"1": {
+							"IgnoreDefaultDrops": true,
+							"Drops": [
+								{
+									"Id": "Bean Sprouts",
+									"ItemId": "(O)Cornucopia_BeanSprouts",
+								},
+								{
+									"Id": "Bean Sprouts 2",
+									"ItemId": "(O)Cornucopia_BeanSprouts",
+									"PerItemCondition": "RANDOM 0.7",
+								},
+								{
+									"Id": "Bean Sprouts 3",
+									"ItemId": "(O)Cornucopia_BeanSprouts",
+									"PerItemCondition": "RANDOM 0.3",
+								},
+							]
+						},
+						"5": {
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "Mung Beans",
+									"ItemId": "(O)Cornucopia_MungBeans",
+								},
+								{
+									"Id": "Mung Beans 2",
+									"ItemId": "(O)Cornucopia_MungBeans",
+									"PerItemCondition": "RANDOM 0.5",
+								},
+							]
+						}
+					}
+				},
+				"Cornucopia_MustardSeeds": {
+					"YieldOverrides": {
+						"4": {
+							"IgnoreDefaultDrops": false,
+							"Drops": [
+								{
+									"Id": "Mustard Seeds",
+									"ItemId": "(O)Cornucopia_MustardSeeds",
+								},
+								{
+									"Id": "Mustard Seeds 2",
+									"ItemId": "(O)Cornucopia_MustardSeeds",
+									"PerItemCondition": "RANDOM 0.5",
+								},
+							]
+						}
+					}
+				},
 			}
 		}
 	]

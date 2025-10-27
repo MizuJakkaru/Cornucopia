@@ -527,7 +527,7 @@
 	"Lentils_name": "Lentils",
 	"Lentils_description": "A small bean-like vegetable that makes a great base for curries and stews.",
 	"LentilsSeeds_name": "Lentils Seeds",
-	"LentilsSeeds_description": "Placeholder.",
+	"LentilsSeeds_description": "Plant these in fall. Takes 5 days to mature.",
 
 	"SesameSeeds_name": "Sesame Seeds",
 	"SesameSeeds_description": "The seeds of a sesame plant, commonly used as garnishing. Plant in spring to grow a sesame plant.",
@@ -547,5 +547,5 @@
 	"Ube_name": "Ube",
 	"Ube_description": "A very sweet and creamy yam.",
 	"UbeSeeds_name": "Ube Seeds",
-	"UbeSeeds_description": "Placeholder.",
+	"UbeSeeds_description": "Plant these in winter. Takes 8 days to mature.",
 }

@@ -44,7 +44,10 @@
 							"ItemId": "(O)Cornucopia_ChicleRubber",
 							"DaysUntilReady": 5
 						}
-					]
+					],
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:Sapodilla_name}}"
+					}
 				},
 				"Cornucopia_DatePalmSeed": {
 					"Textures": [
@@ -86,7 +89,10 @@
 							"ItemId": "(O)245",
 							"DaysUntilReady": 10
 						}
-					]
+					],
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:Date_name}}"
+					}
 				}
 			}
 		}

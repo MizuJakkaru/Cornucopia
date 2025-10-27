@@ -54,7 +54,11 @@
 							"ID": "Default",
 							"Result": "Deny",
 						}
-					]
+					],
+					
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:CorpseFlowerPetal_name}}"
+					}
 				}
 			}
 		}

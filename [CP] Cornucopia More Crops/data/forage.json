@@ -1,420 +1,585 @@
 {
-    "Changes": [
+	"Changes": [
 		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Desert", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Sugarcane": {
-					"Chance": 0.5,
-                	"ItemId": "(O)Cornucopia_Sugarcane"
-                }
-        	}
-        },
-        // add forage (cindersap forest)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Forest", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                },
-        	}
-        },
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawnableDefinitions",
+			"Entries": {
+				"Cornucopia_SesameSeeds": {
+					"Type": "Forageable",
+					"ForageableIsTillSpot": true,
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_SesameSeeds",
+								"Quality": 0
+							}
+						}
+					]
+				},
+				"Cornucopia_LentilsSeeds": {
+					"Type": "Forageable",
+					"ForageableIsTillSpot": true,
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_LentilsSeeds",
+								"Quality": 0
+							}
+						}
+					]
+				},
+				"Cornucopia_UbeSeeds": {
+					"Type": "Forageable",
+					"ForageableIsTillSpot": true,
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_UbeSeeds",
+								"Quality": 0
+							}
+						}
+					]
+				},
+				"Cornucopia_Sugarcane": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_Sugarcane"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 5
+				},
+				"Cornucopia_Peppercorn": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_Peppercorn"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 3
+				},
+				"Cornucopia_JuniperBerries": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_JuniperBerries"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 5
+				},
+				"Cornucopia_Raspberry": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_Raspberry"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 5
+				},
+				"Cornucopia_ChickenoftheWoods": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_ChickenoftheWoods"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 7
+				},
+				"Cornucopia_Shiitake": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_Shiitake"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 5
+				}
+			}
+		},
 		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Forest", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true},
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		// add forage (bus stop)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "BusStop", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                }
-        	}
-        },
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawningGroups",
+			"Entries": {
+				"Cornucopia_SesameSeeds": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_SesameSeeds"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_LentilsSeeds": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_LentilsSeeds"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_UbeSeeds": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_UbeSeeds"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_Sugarcane": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_Sugarcane"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_Peppercorn": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_Peppercorn"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_Raspberry": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_Raspberry"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_JuniperBerries": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_JuniperBerries"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_ChickenoftheWoods": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_ChickenoftheWoods"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_Shiitake": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_Shiitake"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				}
+			}
+		},
 		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "BusStop", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true},
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		// add forage (pelican town)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Town", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                }
-        	}
-        },
-		// add forage (mountain)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Mountain", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring",
-					"Chance": 0.4,
-                }
-        	}
-        },
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.MoreCrops_Sugarcane": {
+					"Id": "Cornucopia.MoreCrops_Sugarcane",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Sugarcane Desert",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Sugarcane IslandSouth",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Sugarcane IslandSouthEast",
+						"If RANDOM 0.2, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Sugarcane Custom_FableReef",
+					]
+				},
+				"Cornucopia.MoreCrops_Peppercorn": {
+					"Id": "Cornucopia.MoreCrops_Peppercorn",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON spring summer",
+					"Actions": [
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Forest",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn BusStop",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Mountain",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Summit",
+						"If RANDOM 0.08 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Backwoods",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Railroad",
+					]
+				},
+				"Cornucopia.MoreCrops_Peppercorn_Island": {
+					"Id": "Cornucopia.MoreCrops_Peppercorn_Island",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn IslandWest",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn IslandNorth",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn IslandEast",
+					]
+				},
+				"Cornucopia.MoreCrops_Peppercorn_SVE": {
+					"Id": "Cornucopia.MoreCrops_Peppercorn_SVE",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON spring summer, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}",
+					"Actions": [
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Custom_ForestWest",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Custom_AdventurerSummit",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Custom_BlueMoonVineyard",
+					]
+				},
+				"Cornucopia.MoreCrops_Peppercorn_ES": {
+					"Id": "Cornucopia.MoreCrops_Peppercorn_ES",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON spring summer, {{HasMod |contains=LemurKat.EastScarpe.CP}}",
+					"Actions": [
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn EastScarp_DeepMountains",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn EastScarp_Village null 5,105,35,35/40,85,30,30/85,90,100,115",
+						"If RANDOM 0.1, {{HasVisitedLocation|contains=EastScarp_MeadowFarm}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn EastScarp_MeadowFarm",
+					]
+				},
+				"Cornucopia.MoreCrops_Peppercorn_SBV": {
+					"Id": "Cornucopia.MoreCrops_Peppercorn_SBV",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON spring summer, {{HasMod |contains=skellady.SBVCP}}",
+					"Actions": [
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Custom_SBV_SunberryRoad",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Custom_SBV_ForestShortcut",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Custom_SBV_SunberryForest",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Custom_SBV_SunberryVillage",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn Custom_SBV_SunberryMountain",
+					]
+				},
+				"Cornucopia.MoreCrops_Raspberry": {
+					"Id": "Cornucopia.MoreCrops_Raspberry",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON summer",
+					"Actions": [
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Forest",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry BusStop",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Town",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Mountain",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Summit",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Backwoods",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Railroad",
+					]
+				},
+				"Cornucopia.MoreCrops_Raspberry_SVE": {
+					"Id": "Cornucopia.MoreCrops_Raspberry_SVE",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON summer, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}",
+					"Actions": [
+						"If RANDOM 0.3 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_ForestWest",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_AdventurerSummit",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_BlueMoonVineyard",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_Garden",
+					]
+				},
+				"Cornucopia.MoreCrops_Raspberry_ES": {
+					"Id": "Cornucopia.MoreCrops_Raspberry_ES",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON summer, {{HasMod |contains=LemurKat.EastScarpe.CP}}",
+					"Actions": [
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry EastScarp_DeepMountains",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry EastScarp_Village null 5,105,35,35/40,85,30,30/85,90,100,115",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry EastScarp_Orchard",
+						"If RANDOM 0.15, {{HasVisitedLocation|contains=EastScarp_MeadowFarm}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry EastScarp_MeadowFarm",
+					]
+				},
+				"Cornucopia.MoreCrops_Raspberry_SBV": {
+					"Id": "Cornucopia.MoreCrops_Raspberry_SBV",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON summer, {{HasMod |contains=skellady.SBVCP}}",
+					"Actions": [
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_SBV_SunberryRoad",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_SBV_ForestShortcut",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_SBV_SunberryForest",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_SBV_SunberryVillage",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_SBV_SunberryMountain",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_SBV_SecretForest2",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry Custom_SBV_SecretForest1",
+					]
+				},
+				"Cornucopia.MoreCrops_JuniperBerries": {
+					"Id": "Cornucopia.MoreCrops_JuniperBerries",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON winter, {{Enable Extended Crops Pack}}",
+					"Actions": [
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Forest",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries BusStop",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Mountain",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Summit",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Backwoods",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Railroad",
+						"If RANDOM 0.3 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Woods",
+					]
+				},
+				"Cornucopia.MoreCrops_JuniperBerries_SVE": {
+					"Id": "Cornucopia.MoreCrops_JuniperBerries_SVE",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON winter, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}",
+					"Actions": [
+						"If RANDOM 0.3 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_ForestWest",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_AdventurerSummit",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_BlueMoonVineyard",
+					]
+				},
+				"Cornucopia.MoreCrops_JuniperBerries_ES": {
+					"Id": "Cornucopia.MoreCrops_JuniperBerries_ES",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON winter, {{HasMod |contains=LemurKat.EastScarpe.CP}}",
+					"Actions": [
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries EastScarp_DeepMountains",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries EastScarp_Village null 5,105,35,35/40,85,30,30/85,90,100,115",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries EastScarp_Orchard",
+						"If RANDOM 0.15, {{HasVisitedLocation|contains=EastScarp_MeadowFarm}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries EastScarp_MeadowFarm",
+					]
+				},
+				"Cornucopia.MoreCrops_JuniperBerries_SBV": {
+					"Id": "Cornucopia.MoreCrops_JuniperBerries_SBV",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON winter, {{HasMod |contains=skellady.SBVCP}}",
+					"Actions": [
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_SBV_SunberryRoad",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_SBV_ForestShortcut",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_SBV_SunberryForest",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_SBV_SunberryVillage",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_SBV_SunberryMountain",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_SBV_SecretForest2",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_SBV_SecretForest1",
+					]
+				},
+				"Cornucopia.MoreCrops_ChickenoftheWoods": {
+					"Id": "Cornucopia.MoreCrops_ChickenoftheWoods",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON fall, {{Enable Extended Crops Pack}}",
+					"Actions": [
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_ChickenoftheWoods Woods",
+						"If RANDOM 0.25, {{HasMod |contains=skellady.SBVCP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_ChickenoftheWoods Custom_SBV_SecretCave",
+					]
+				},
+				"Cornucopia.MoreCrops_Shiitake": {
+					"Id": "Cornucopia.MoreCrops_Shiitake",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON spring fall, {{Enable Extended Crops Pack}}",
+					"Actions": [
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Shiitake Woods",
+						"If RANDOM 0.2, {{HasMod |contains=skellady.SBVCP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Shiitake Custom_SBV_SecretCave",
+					]
+				},
+				"Cornucopia.MoreCrops_SesameSeeds": {
+					"Id": "Cornucopia.MoreCrops_SesameSeeds",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If RANDOM 0.08 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SesameSeeds Desert",
+					]
+				},
+				"Cornucopia.MoreCrops_LentilsSeeds": {
+					"Id": "Cornucopia.MoreCrops_LentilsSeeds",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "{{Enable Extended Crops Pack}}",
+					"Actions": [
+						"If RANDOM 0.18 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_LentilsSeeds Desert",
+					]
+				},
+				"Cornucopia.MoreCrops_UbeSeeds": {
+					"Id": "Cornucopia.MoreCrops_UbeSeeds",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON winter, {{Enable Extended Crops Pack}}",
+					"Actions": [
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Beach",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Town",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Forest",
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Farm",
+						"If RANDOM 0.15, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Custom_BlueMoonVineyard",
+						"If RANDOM 0.2, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds EastScarp_Village",
+						"If RANDOM 0.25, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds EastScarp_Orchard",
+					]
+				},
+			}
+		},
 		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Mountain", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true},
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		// add forage (backwoods)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Backwoods", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                }
-        	}
-        },
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Backwoods", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true},
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		// add forage (railroad)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Railroad", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                }
-        	}
-        },
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Railroad", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true},
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		// add forage (railroad)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Summit", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                }
-        	}
-        },
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Summit", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true},
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		// add forage (secret woods)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Woods", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true},
-        	"Entries": {
-                "(O)Cornucopia_ChickenoftheWoods": {
-                	"ItemId": "(O)Cornucopia_ChickenoftheWoods",
-                	"Season": "fall",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                },
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		// add forage (ginger island west)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "IslandWest", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-					"Chance": 0.4,
-                }
-        	}
-        },
-		// add forage (ginger island north)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "IslandNorth", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-					"Chance": 0.4,
-                }
-        	}
-        },
-		// add forage (ginger island east)
-        {
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "IslandEast", "Forage" ],
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-					"Chance": 0.4,
-                }
-        	}
-        },
-		//SVE locations
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Custom_ForestWest", "Forage" ],
-			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                }
-        	}
-        },
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Custom_ForestWest", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Custom_AdventurerSummit", "Forage" ],
-			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                }
-        	}
-        },
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "Custom_AdventurerSummit", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		//East Scarp locations
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "EastScarp_DeepMountains", "Forage" ],
-			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                },
-        	}
-        },
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "EastScarp_DeepMountains", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=LemurKat.EastScarpe.CP": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "EastScarp_MeadowFarm", "Forage" ],
-			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true, "HasVisitedLocation|contains=EastScarp_MeadowFarm": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                }
-        	}
-        },
-		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "EastScarp_MeadowFarm", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=LemurKat.EastScarpe.CP": true, "HasVisitedLocation|contains=EastScarp_MeadowFarm": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {
+				"Enable Extended Crops Pack": true
+			},
+			"TargetField": [
+				"Town",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_MungBeans": {
+					"Id": "Cornucopia_MungBeans",
+					"ItemId": "(O)Cornucopia_MungBeans",
+					"Chance": 0.025,
+					"MinFishingLevel": 0,
+					"MinDistanceFromShore": 0
+				}
+			},
+			"MoveEntries": [
 				{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "EastScarp_Village", "Forage" ],
-			"When": {"HasMod |contains=LemurKat.EastScarpe.CP": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-                "(O)Cornucopia_Peppercorn": {
-                	"ItemId": "(O)Cornucopia_Peppercorn",
-                	"Condition": "SEASON spring summer",
-					"Chance": 0.4,
-                },
-                "(O)Cornucopia_Raspberry": {
-                	"ItemId": "(O)Cornucopia_Raspberry",
-                	"Season": "summer"
-                }
-        	}
-        },
+					"Id": "Cornucopia_MungBeans",
+					"ToPosition": "Top"
+				}
+			]
+		},
 		{
-        	"Action": "EditData",
-        	"Target": "Data/Locations",
-        	"TargetField": [ "EastScarp_Village", "Forage" ],
-			"When": {"Enable Extended Crops Pack": true, "HasMod |contains=LemurKat.EastScarpe.CP": true},
-			"Priority": "Default + 4",
-        	"Entries": {
-				"(O)Cornucopia_JuniperBerries": {
-                	"ItemId": "(O)Cornucopia_JuniperBerries",
-                	"Season": "winter",
-					//"Condition": "PLAYER_HAS_MAIL Host Cornucopia.MoreCrops_ExtendedCropsPackEnabled",
-                }
-        	}
-        },
-    ]
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {
+				"Enable Extended Crops Pack": true
+			},
+			"TargetField": [
+				"Forest",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_MungBeans": {
+					"Id": "Cornucopia_MungBeans",
+					"ItemId": "(O)Cornucopia_MungBeans",
+					"Chance": 0.025,
+					"MinFishingLevel": 0,
+					"MinDistanceFromShore": 0
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_MungBeans",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {
+				"Enable Extended Crops Pack": true
+			},
+			"TargetField": [
+				"Mountain",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_MungBeans": {
+					"Id": "Cornucopia_MungBeans",
+					"ItemId": "(O)Cornucopia_MungBeans",
+					"Chance": 0.025,
+					"MinFishingLevel": 0,
+					"MinDistanceFromShore": 0
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_MungBeans",
+					"ToPosition": "Top"
+				}
+			]
+		},
+	]
 }

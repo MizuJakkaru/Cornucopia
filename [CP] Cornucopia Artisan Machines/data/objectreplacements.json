@@ -58,7 +58,8 @@
 			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
 			"When": {
-				"Enable Flexible Recipes": true
+				"Enable Flexible Recipes": true,
+				"Enable Vanilla Recipe Changes": true,
 			},
 			"Entries": {
 				"Cheese Cauli.": {

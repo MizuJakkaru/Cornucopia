@@ -132,8 +132,13 @@
 		"FromFile": "assets/{{TargetWithoutPath}}.png"
 		},
 		{
-		"LogName": "Tea Bush",
 		"Action": "Load",
+		"Target": "Cornucopia.GrowableForage/teabushes",
+		"FromFile": "assets/teabushes_spring.png"
+		},
+		{
+		"LogName": "Tea Bush",
+		"Action": "EditImage",
 		"Target": "Cornucopia.GrowableForage/teabushes",
 		"FromFile": "assets/teabushes_{{season}}.png"
 		},

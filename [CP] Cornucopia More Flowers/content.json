@@ -105,8 +105,13 @@
 			"When": {"Enable Multicolored Flowers": false}
         },
 		// add teabushes images
-        {
+		{
             "Action": "Load",
+            "Target": "Cornucopia.MoreFlowers/teabushes",
+            "FromFile": "assets/teabushes_spring.png"
+        },
+        {
+            "Action": "EditImage",
             "Target": "Cornucopia.MoreFlowers/teabushes",
             "FromFile": "assets/teabushes_{{season}}.png"
         },

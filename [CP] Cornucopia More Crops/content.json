@@ -198,8 +198,13 @@
         },
 		
 		// add teabushes and wild trees images
-        {
+		{
             "Action": "Load",
+            "Target": "Cornucopia.MoreCrops/teabushes",
+            "FromFile": "assets/teabushes_spring.png"
+        },
+        {
+            "Action": "EditImage",
             "Target": "Cornucopia.MoreCrops/teabushes",
             "FromFile": "assets/teabushes_{{season}}.png"
         },

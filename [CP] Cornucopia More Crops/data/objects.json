@@ -471,12 +471,12 @@
 					"Name": "Cornucopia_SesameSeeds",
 					"Type": "Seed",
 					"Category": -74,
-					"SpriteIndex": 0,
+					"SpriteIndex": 273,
 					"DisplayName": "{{i18n:SesameSeeds_name}}",
 					"Description": "{{i18n:SesameSeeds_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
 					"Price": 60,
-					"Edibility": -20,
+					"Edibility": -300,
 					"ContextTags": [
 						"sesame_item",
 						"sesame_seeds_item",
@@ -1458,7 +1458,7 @@
 					"Name": "Cornucopia_Lentils",
 					"Type": "Basic",
 					"Category": -75,
-					"SpriteIndex": 0,
+					"SpriteIndex": 258,
 					"DisplayName": "{{i18n:Lentils_name}}",
 					"Description": "{{i18n:Lentils_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
@@ -1466,7 +1466,7 @@
 					"Edibility": -300,
 					"ContextTags": [
 						"bean_item",
-						"color_sand",
+						"color_dark_green",
 						"season_fall",
 						"cornucopia_crop_produce",
 						"cornucopia_rarity_rare",
@@ -1480,7 +1480,7 @@
 					"Name": "Cornucopia_Ube",
 					"Type": "Basic",
 					"Category": -75,
-					"SpriteIndex": 0,
+					"SpriteIndex": 278,
 					"DisplayName": "{{i18n:Ube_name}}",
 					"Description": "{{i18n:Ube_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
@@ -1499,13 +1499,13 @@
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
-				"Cornucopia_Beansprouts": {
-					"Name": "Cornucopia_Beansprouts",
+				"Cornucopia_BeanSprouts": {
+					"Name": "Cornucopia_BeanSprouts",
 					"Type": "Basic",
 					"Category": -75,
-					"SpriteIndex": 0,
-					"DisplayName": "{{i18n:Beansprouts_name}}",
-					"Description": "{{i18n:Beansprouts_description}}",
+					"SpriteIndex": 276,
+					"DisplayName": "{{i18n:BeanSprouts_name}}",
+					"Description": "{{i18n:BeanSprouts_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
 					"Price": 30,
 					"Edibility": 5,
@@ -1516,7 +1516,7 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"beansprouts_item"
+						"bean_sprout_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1524,7 +1524,7 @@
 					"Name": "Cornucopia_MungBeans",
 					"Type": "Seed",
 					"Category": -74,
-					"SpriteIndex": 0,
+					"SpriteIndex": 277,
 					"DisplayName": "{{i18n:MungBeans_name}}",
 					"Description": "{{i18n:MungBeans_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
@@ -2045,7 +2045,7 @@
 					"Name": "Cornucopia_MustardGreens",
 					"Type": "Basic",
 					"Category": -75,
-					"SpriteIndex": 0,
+					"SpriteIndex": 274,
 					"DisplayName": "{{i18n:MustardGreens_name}}",
 					"Description": "{{i18n:MustardGreens_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
@@ -3121,7 +3121,7 @@
 					"Name": "Cornucopia_LentilsSeeds",
 					"Type": "Seed",
 					"Category": -74,
-					"SpriteIndex": 0,
+					"SpriteIndex": 259,
 					"DisplayName": "{{i18n:LentilsSeeds_name}}",
 					"Description": "{{i18n:LentilsSeeds_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
@@ -3138,7 +3138,7 @@
 					"Name": "Cornucopia_UbeSeeds",
 					"Type": "Seed",
 					"Category": -74,
-					"SpriteIndex": 0,
+					"SpriteIndex": 279,
 					"DisplayName": "{{i18n:UbeSeeds_name}}",
 					"Description": "{{i18n:UbeSeeds_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
@@ -3585,7 +3585,7 @@
 					"Name": "Cornucopia_MustardSeeds",
 					"Type": "Seed",
 					"Category": -74,
-					"SpriteIndex": 0,
+					"SpriteIndex": 275,
 					"DisplayName": "{{i18n:MustardSeeds_name}}",
 					"Description": "{{i18n:MustardSeeds_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
@@ -4917,7 +4917,7 @@
 					"Name": "Cornucopia_SesameOil",
 					"Type": "Basic",
 					"Category": -26,
-					"SpriteIndex": 0,
+					"SpriteIndex": 12,
 					"DisplayName": "{{i18n:SesameOil_name}}",
 					"Description": "{{i18n:SesameOil_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects-Artisan",
@@ -4961,7 +4961,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"flour_item"
+						"flour_item",
+						"wheat_flour_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -5031,7 +5032,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"flour_item"
+						"flour_item",
+						"wheat_flour_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -5102,7 +5104,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"flour_item"
+						"flour_item",
+						"wheat_flour_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
