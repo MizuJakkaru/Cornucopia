@@ -602,7 +602,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"barley_item"
+						"barley_item",
+						"wheat_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -691,7 +692,8 @@
 						"cornucopia_rarity_common",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"buckwheat_item"
+						"buckwheat_item",
+						"wheat_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -934,7 +936,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"durum_item"
+						"durum_item",
+						"wheat_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -1539,7 +1542,7 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"mungbean_item"
+						"mung_bean_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				}
@@ -2441,7 +2444,8 @@
 						"cornucopia_crop_seed",
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
-						"modid_cornucopia.morecrops"
+						"modid_cornucopia.morecrops",
+						"bamboo_shoot_item"
 					]
 				},
 				"Cornucopia_BarleySeeds": {
@@ -3298,7 +3302,9 @@
 						"cornucopia_pack_herbs",
 						"cornucopia_season_fall",
 						"cornucopia_shop_pierre",
-						"modid_cornucopia.morecrops"
+						"modid_cornucopia.morecrops",
+						"coriander_item",
+						"coriander_seed_item"
 					]
 				},
 				"Cornucopia_DillSeeds": {
@@ -3597,7 +3603,8 @@
 						"cornucopia_pack_herbs",
 						"cornucopia_season_winter",
 						"cornucopia_shop_pierre",
-						"modid_cornucopia.morecrops"
+						"modid_cornucopia.morecrops",
+						"mustard_seed_item"
 					]
 				}
 			}
@@ -3952,7 +3959,8 @@
 						"cornucopia_pack_extendedtrees",
 						"season_summer",
 						"modid_cornucopia.morecrops",
-						"lychee_item"
+						"lychee_item",
+						"stone_fruit_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -3973,7 +3981,8 @@
 						"cornucopia_pack_extendedtrees",
 						"season_summer",
 						"modid_cornucopia.morecrops",
-						"nectarine_item"
+						"nectarine_item",
+						"stone_fruit_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -4103,7 +4112,8 @@
 						"season_summer",
 						"modid_cornucopia.morecrops",
 						"ume_item",
-						"plum_item"
+						"plum_item",
+						"stone_fruit_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -4962,7 +4972,8 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"flour_item",
-						"wheat_flour_item"
+						"wheat_flour_item",
+						"buckwheat_flour_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -5033,7 +5044,9 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"flour_item",
-						"wheat_flour_item"
+						"wheat_flour_item",
+						"semolina_item",
+						"semolina_flour_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},

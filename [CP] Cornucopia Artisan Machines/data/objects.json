@@ -92,7 +92,8 @@
 						"cornucopia_artisangood",
 						"allergen_egg",
 						"food_nonvegan",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"century_egg_item"
 					]
 				},
 				"Cornucopia_ChiliOil": {
@@ -114,7 +115,8 @@
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
 						"food_spicy",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"chili_oil_item"
 					]
 				},
 				"Cornucopia_ChiliPowder": {
@@ -136,7 +138,8 @@
 						"food_spicy",
 						"cornucopia_alembic_essentialoil_banned",
 						"cornucopia_waxbarrel_candles_banned",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"chili_powder_item"
 					]
 				},
 				"Cornucopia_CoconutButter": {
@@ -153,12 +156,13 @@
 						"color_white",
 						"butter_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"coconut_butter_item"
 					]
 				},
 				"Cornucopia_CoconutMilk": {
 					"Name": "Cornucopia_CoconutMilk",
-					"Category": -26,
+					"Category": -6,
 					"Type": "Basic",
 					"SpriteIndex": 80,
 					"DisplayName": "{{i18n:CoconutMilk_name}}",
@@ -192,7 +196,8 @@
 						"oil_item",
 						"cooking_oil_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"coconut_oil_item"
 					]
 				},
 				"Cornucopia_CookieButter": {
@@ -208,7 +213,9 @@
 					"ContextTags": [
 						"color_brown",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"fruit_butter_item",
+						"cookie_butter_item"
 					]
 				},
 				"Cornucopia_DriedFlower": {
@@ -325,7 +332,8 @@
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
 						"allergen_fish",
-						"food_nonvegetarian"
+						"food_nonvegetarian",
+						"fish_oil_item"
 					]
 				},
 				"Cornucopia_FishSauce": {
@@ -345,7 +353,8 @@
 						"cornucopia_artisangood",
 						"allergen_fish",
 						"food_nonvegetarian",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"fish_sauce_item"
 					]
 				},
 				"Cornucopia_FlavoredYogurt": {
@@ -406,7 +415,9 @@
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
 						"food_nonvegetarian",
-						"allergen_fish"
+						"allergen_fish",
+						"garum_item",
+						"fish_sauce_item"
 					]
 				},
 				"Cornucopia_GellingPowder": {
@@ -442,7 +453,8 @@
 						"noodle_item",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"glass_noodle_item"
+						"glass_noodle_item",
+						"starch_noodle_item"
 					]
 				},
 				"Cornucopia_HoneyButter": {
@@ -458,7 +470,9 @@
 					"ContextTags": [
 						"color_yellow",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"fruit_butter_item",
+						"honey_butter_item"
 					]
 				},
 				"Cornucopia_MapleButter": {
@@ -474,7 +488,9 @@
 					"ContextTags": [
 						"color_sand",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"fruit_butter_item",
+						"maple_butter_item"
 					]
 				},
 				"Cornucopia_Margarine": {
@@ -539,7 +555,7 @@
 				},
 				"Cornucopia_NutMilk": {
 					"Name": "Cornucopia_NutMilk",
-					"Category": -26,
+					"Category": -6,
 					"Type": "Basic",
 					"SpriteIndex": 128,
 					"DisplayName": "{{i18n:NutMilk_name}}",
@@ -600,7 +616,8 @@
 						"cornucopia_artisangood",
 						"allergen_fish",
 						"food_nonvegetarian",
-						"traveling_cart_banned"
+						"traveling_cart_banned",
+						"pickled_fish_item"
 					]
 				},
 				"Cornucopia_PineNuts": {
@@ -618,7 +635,8 @@
 						"nut_item",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"pine_nut_item"
 					]
 				},
 				"Cornucopia_PrismaticEssence": {
@@ -636,7 +654,8 @@
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
 						"prismatic_item",
-						"traveling_cart_banned"
+						"traveling_cart_banned",
+						"essential_oil_item"
 					]
 				},
 				"Cornucopia_RiceNoodles": {
@@ -670,7 +689,8 @@
 					"ContextTags": [
 						"color_brown",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"garlic_item"
 					]
 				},
 				"Cornucopia_RoastedSunflowerSeeds": {
@@ -686,7 +706,8 @@
 					"ContextTags": [
 						"color_yellow",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"sunflower_seed_item"
 					]
 				},
 				"Cornucopia_RoastedPumpkinSeeds": {
@@ -702,7 +723,8 @@
 					"ContextTags": [
 						"color_orange",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"pumpkin_seed_item"
 					]
 				},
 				"Cornucopia_Saffron": {
@@ -784,7 +806,8 @@
 						"cornucopia_artisangood",
 						"allergen_dairy",
 						"food_nonvegan",
-						"traveling_cart_banned"
+						"traveling_cart_banned",
+						"smoked_cheese_item"
 					]
 				},
 				"Cornucopia_SmokedEgg": {
@@ -804,7 +827,8 @@
 						"allergen_egg",
 						"food_nonvegan",
 						"draw_preserve_sprite",
-						"smoked_item"
+						"smoked_item",
+						"smoked_egg_item"
 					]
 				},
 				"Cornucopia_SmokedMeat": {
@@ -825,7 +849,8 @@
 						"food_nonvegetarian",
 						"draw_preserve_sprite",
 						"smoked_item",
-						"traveling_cart_banned"
+						"traveling_cart_banned",
+						"smoked_meat_item"
 					]
 				},
 				"Cornucopia_SmokedSalmon": {
@@ -844,7 +869,8 @@
 						"cornucopia_artisangood",
 						"smoked_salmon_item",
 						"allergen_fish",
-						"food_nonvegetarian"
+						"food_nonvegetarian",
+						"smoked_fish_item"
 					]
 				},
 				"Cornucopia_SnackCheese": {
@@ -959,7 +985,8 @@
 						"color_white",
 						"yogurt_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"plain_yogurt_item"
 					]
 				},
 				"Cornucopia_CornFlour": {
@@ -976,7 +1003,8 @@
 						"color_green",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"flour_item"
+						"flour_item",
+						"corn_flour_item"
 					]
 				},
 				"Cornucopia_OrangeZest": {
@@ -993,7 +1021,9 @@
 						"color_orange",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"dye_medium"
+						"dye_medium",
+						"orange_zest_item",
+						"citrus_zest_item"
 					]
 				},
 				"Cornucopia_SeaSalt": {
@@ -1007,7 +1037,9 @@
 					"ContextTags": [
 						"color_pink",
 						"forage_item",
-						"forage_item_beach"
+						"forage_item_beach",
+						"salt_item",
+						"sea_salt_item"
 					],
 					"Type": "Basic",
 					"Category": -23
@@ -1027,7 +1059,8 @@
 						"pickle_item",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"preserve_sheet_index_266"
+						"preserve_sheet_index_266",
+						"sauerkraut_item"
 					]
 				},
 				"Cornucopia_Starmite": {
@@ -1043,7 +1076,9 @@
 					"ContextTags": [
 						"color_purple",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"marmite_item",
+						"vegemite_item"
 					]
 				}
 			}
@@ -1089,7 +1124,8 @@
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
 						"cooking_oil_item",
-						"oil_item"
+						"oil_item",
+						"avocado_oil_item"
 					]
 				},
 				"Cornucopia_BlackPepperMayonnaise": {
@@ -1124,7 +1160,9 @@
 						"color_dark_green",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"brined_olive_item",
+						"pickled_olive_item"
 					]
 				},
 				"Cornucopia_CocoaButter": {
@@ -1140,7 +1178,9 @@
 					"ContextTags": [
 						"color_sand",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"cocoa_butter_item",
+						"butter_item"
 					]
 				},
 				"Cornucopia_MisoPaste": {
@@ -1157,7 +1197,9 @@
 						"color_dark_yellow",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"miso_item",
+						"miso_paste_item"
 					]
 				},
 				"Cornucopia_OliveOilMayonnaise": {
@@ -1195,7 +1237,8 @@
 						"cornucopia_waxbarrel_candles_banned",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"paprika_item"
 					]
 				},
 				"Cornucopia_PeanutButter": {
@@ -1212,7 +1255,8 @@
 						"color_brown",
 						"nut_butter_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"peanut_butter_item"
 					]
 				},
 				"Cornucopia_Pepper": {
@@ -1232,7 +1276,10 @@
 						"cornucopia_artisangood",
 						"cornucopia_alembic_essentialoil_banned",
 						"cornucopia_waxbarrel_candles_banned",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"pepper_item",
+						"ground_pepper_item",
+						"black_pepper_item"
 					]
 				},
 				"Cornucopia_PickleSpears": {
@@ -1249,7 +1296,9 @@
 						"color_dark_green",
 						"pickle_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"pickle_spears_item",
+						"pickled_cucumber_item"
 					]
 				},
 				"Cornucopia_StinkyTofu": {
@@ -1266,7 +1315,8 @@
 						"color_white",
 						"pickle_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"tofu_item"
 					]
 				},
 				"Cornucopia_SoySauce": {
@@ -1284,7 +1334,8 @@
 						"dye_strong",
 						"modid_cornucopia.artisanmachines",
 						"cornucopia_artisangood",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"soy_sauce_item"
 					]
 				},
 				"Cornucopia_Zoodles": {
@@ -1301,7 +1352,8 @@
 						"color_green",
 						"noodle_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"zucchini_noodle_item"
 					]
 				}
 			},
@@ -1328,7 +1380,10 @@
 						"color_brown",
 						"noodle_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"buckwheat_noodle_item",
+						"soba_noodle_item",
+						"wheat_noodle_item"
 					]
 				},
 				"Cornucopia_Kimchi": {
@@ -1346,7 +1401,8 @@
 						"color_orange",
 						"pickle_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"kimchi_item"
 					]
 				},
 				"Cornucopia_SemolinaNoodles": {
@@ -1364,7 +1420,11 @@
 						"color_brown",
 						"noodle_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"pasta_item",
+						"semolina_noodle_item",
+						"pasta_noodle_item",
+						"wheat_noodle_item"
 					]
 				},
 				"Cornucopia_WasabiMayonnaise": {
@@ -1401,7 +1461,8 @@
 						"color_brown",
 						"noodle_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"wheat_noodle_item",
 					]
 				},
 				"Cornucopia_EgglessEgg": {
@@ -1446,7 +1507,9 @@
 					"ContextTags": [
 						"color_pink",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"gum_item",
+						"chewing_gum_item"
 					]
 				},
 				"Cornucopia_Umeboshi": {
@@ -1464,7 +1527,8 @@
 						"color_pale_red_violet",
 						"pickle_item",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"umeboshi_item"
 					]
 				},
 				"Cornucopia_LemonZest": {
@@ -1482,7 +1546,9 @@
 						"color_yellow",
 						"dye_medium",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"lemon_zest_item",
+						"citrus_zest_item"
 					]
 				},
 				"Cornucopia_LimeZest": {
@@ -1500,7 +1566,9 @@
 						"color_lime",
 						"dye_medium",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"lime_zest_item",
+						"citrus_zest_item"
 					]
 				}
 			}
@@ -1525,7 +1593,9 @@
 					"ContextTags": [
 						"color_green",
 						"modid_cornucopia.artisanmachines",
-						"cornucopia_artisangood"
+						"cornucopia_artisangood",
+						"aloe_gel_item",
+						"aloe_vera_item"
 					]
 				},
 				"Cornucopia_DillMayonnaise": {
