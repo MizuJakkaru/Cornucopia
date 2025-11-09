@@ -210,7 +210,7 @@
 					"Requester": "George",
 					"Duration": "Month",
 					"Repeatable": true,
-					"RequiredTags": "event_5837189, season_fall",
+					"RequiredTags": "event_5837189, !season_winter",
 					"Condition": "",
 					"OrderType": "",
 					"SpecialRule": "",
@@ -224,7 +224,7 @@
 							"Text": "{{GeorgeSpecialOrderRoses}}",
 							"RequiredCount": "10",
 							"Data": {
-								"AcceptedContextTags": "rose_item"
+								"AcceptedContextTags": "{{GeorgeSpecialOrder_floweroption}}"
 							}
 						},
 						{
@@ -236,7 +236,7 @@
 								"DropBoxGameLocation": "JoshHouse",
 								"DropBoxIndicatorLocation": "3 15",
 								"MinimumCapacity": "24",
-								"AcceptedContextTags": "rose_item"
+								"AcceptedContextTags": "{{GeorgeSpecialOrder_floweroption}}"
 							}
 						},
 						{
@@ -282,7 +282,7 @@
 			"Target": "Data/SpecialOrders",
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 			},
 			"Fields": {
 				"Cornucopia.ArtisanMachines_WaxBarrel": {
@@ -292,7 +292,7 @@
 							"Text": "{{GeorgeSpecialOrderRoses}}",
 							"RequiredCount": "10",
 							"Data": {
-								"AcceptedContextTags": "rose_item"
+								"AcceptedContextTags": "{{GeorgeSpecialOrder_floweroption}}"
 							}
 						},
 						{
@@ -304,27 +304,27 @@
 								"DropBoxGameLocation": "JoshHouse",
 								"DropBoxIndicatorLocation": "3 15",
 								"MinimumCapacity": "24",
-								"AcceptedContextTags": "rose_item"
+								"AcceptedContextTags": "{{GeorgeSpecialOrder_floweroption}}"
 							}
 						},
 						{
 							"Type": "Collect",
-							"Text": "{{i18n:GeorgeSpecialOrder_objective2}}",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective2_herb}}",
 							"RequiredCount": "10",
 							"Data": {
-								"AcceptedContextTags": "rosemary_item"
+								"AcceptedContextTags": "herb_item"
 							}
 						},
 						{
 							"Type": "Donate",
-							"Text": "{{i18n:GeorgeSpecialOrder_objective3}}",
+							"Text": "{{i18n:GeorgeSpecialOrder_objective3_herb}}",
 							"RequiredCount": "10",
 							"Data": {
 								"DropBox": "EvelynKitchen",
 								"DropBoxGameLocation": "JoshHouse",
 								"DropBoxIndicatorLocation": "3 15",
 								"MinimumCapacity": "24",
-								"AcceptedContextTags": "rosemary_item"
+								"AcceptedContextTags": "herb_item"
 							}
 						},
 						{

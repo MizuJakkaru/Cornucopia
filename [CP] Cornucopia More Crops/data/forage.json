@@ -308,7 +308,7 @@
 					"Trigger": "DayStarted",
 					"HostOnly": true,
 					"MarkActionApplied": false,
-					"Condition": "SEASON spring summer, {{HasMod |contains=LemurKat.EastScarpe.CP}}",
+					"Condition": "SEASON spring summer, {{HasMod |contains=LemurKat.EastScarp}}",
 					"Actions": [
 						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn EastScarp_DeepMountains",
 						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Peppercorn EastScarp_Village null 5,105,35,35/40,85,30,30/85,90,100,115",
@@ -363,7 +363,7 @@
 					"Trigger": "DayStarted",
 					"HostOnly": true,
 					"MarkActionApplied": false,
-					"Condition": "SEASON summer, {{HasMod |contains=LemurKat.EastScarpe.CP}}",
+					"Condition": "SEASON summer, {{HasMod |contains=LemurKat.EastScarp}}",
 					"Actions": [
 						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry EastScarp_DeepMountains",
 						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_Raspberry EastScarp_Village null 5,105,35,35/40,85,30,30/85,90,100,115",
@@ -420,7 +420,7 @@
 					"Trigger": "DayStarted",
 					"HostOnly": true,
 					"MarkActionApplied": false,
-					"Condition": "SEASON winter, {{HasMod |contains=LemurKat.EastScarpe.CP}}",
+					"Condition": "SEASON winter, {{HasMod |contains=LemurKat.EastScarp}}",
 					"Actions": [
 						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries EastScarp_DeepMountains",
 						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries EastScarp_Village null 5,105,35,35/40,85,30,30/85,90,100,115",
@@ -497,8 +497,8 @@
 						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Forest",
 						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Farm",
 						"If RANDOM 0.15, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Custom_BlueMoonVineyard",
-						"If RANDOM 0.2, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds EastScarp_Village",
-						"If RANDOM 0.25, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds EastScarp_Orchard",
+						"If RANDOM 0.2, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds EastScarp_Village",
+						"If RANDOM 0.25, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds EastScarp_Orchard",
 					]
 				},
 			}

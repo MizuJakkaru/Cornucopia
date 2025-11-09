@@ -1467,9 +1467,9 @@
 				},
 				"Cornucopia_EgglessEgg": {
 					"Name": "Cornucopia_EgglessEgg",
-					"Category": -4,
+					"Category": -5,
 					"Type": "Basic",
-					"SpriteIndex": 0,
+					"SpriteIndex": 88,
 					"DisplayName": "{{i18n:EgglessEgg_name}}",
 					"Description": "{{i18n:EgglessEgg_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",

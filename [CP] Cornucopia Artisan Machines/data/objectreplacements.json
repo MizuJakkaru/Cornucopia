@@ -1,5 +1,38 @@
 {
 	"Changes": [
+		/*{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"Entries": {
+				"Cornucopia_NutMilk": {
+					"CategoryTextOverride": "[LocalizedText Strings/StringsFromCSFiles:Object.cs.12862]",
+					"CategoryColorOverride": {
+						"R": 0,
+						"G": 155,
+						"B": 111,
+						"A": 255
+					},
+				},
+				"Cornucopia_CoconutMilk": {
+					"CategoryTextOverride": "[LocalizedText Strings/StringsFromCSFiles:Object.cs.12862]",
+					"CategoryColorOverride": {
+						"R": 0,
+						"G": 155,
+						"B": 111,
+						"A": 255
+					},
+				},
+				"Cornucopia_EgglessEgg": {
+					"CategoryTextOverride": "[LocalizedText Strings/StringsFromCSFiles:Object.cs.12862]",
+					"CategoryColorOverride": {
+						"R": 0,
+						"G": 155,
+						"B": 111,
+						"A": 255
+					},
+				},
+			}
+		},*/
 		{
 			"Action": "EditData",
 			"Target": "Data/CookingRecipes",
@@ -137,35 +170,6 @@
 								"Height": 16
 							}
 						}
-					]
-				},
-				"Escargot": {
-					"ProductQualifiedId": "(O)729",
-					"ProductAmount": 1,
-					"Ingredients": [
-						{
-							"Type": "Item",
-							"Value": "(O)721",
-							"Amount": 1
-						},
-						{
-							"Type": "Item",
-							"Value": "(O)248",
-							"Amount": 1
-						},
-						{
-							"Type": "ContextTag",
-							"Value": "butter_item",
-							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_ButterAny}}",
-							"OverrideTexturePath": "Cornucopia.ArtisanMachines/Objects",
-							"OverrideTextureRect": {
-								"X": 48,
-								"Y": 0,
-								"Width": 16,
-								"Height": 16
-							}
-						},
 					]
 				},
 			}

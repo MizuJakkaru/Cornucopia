@@ -11,6 +11,14 @@
 		{
 		   "Action": "EditData",
 		   "Target": "Data/Objects",
+		   "TargetField": ["399", "ContextTags"],			//spring onion
+		   "Entries": {
+				  "herb_item": "herb_item"
+		   }
+		},	
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
 		   "TargetField": ["798", "ContextTags"],			//midnight squid
 		   "Entries": {
 				  "#-1": "squid_item"
@@ -282,6 +290,14 @@
 		   "Action": "EditData",
 		   "Target": "Data/Objects",
 		   "TargetField": ["874", "ContextTags"],			//bug steak
+		   "Entries": {
+				  "#-1": "meat_item"
+		   }
+		},
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["684", "ContextTags"],			//bug meat
 		   "Entries": {
 				  "#-1": "meat_item"
 		   }

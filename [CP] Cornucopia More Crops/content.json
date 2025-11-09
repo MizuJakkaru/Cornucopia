@@ -201,7 +201,7 @@
 		{
             "Action": "Load",
             "Target": "Cornucopia.MoreCrops/teabushes",
-            "FromFile": "assets/teabushes_spring.png"
+            "FromFile": "assets/teabushes_indoors.png"
         },
         {
             "Action": "EditImage",

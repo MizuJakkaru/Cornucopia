@@ -62,11 +62,11 @@
 		},
 		{
 			"Name": "GeorgeSpecialOrder_floweroption",
-			"Value": "Fairy Rose"
+			"Value": "category_flower"
 		},
 		{
 			"Name": "GeorgeSpecialOrder_floweroption",
-			"Value": "Cornucopia_Rose",
+			"Value": "rose_item",
 			"When": {"HasMod|contains=Cornucopia.MoreFlowers": true}
 		},
 		{
@@ -107,7 +107,7 @@
 		},
 		{
 			"Name": "GeorgeSpecialOrderRoses",
-			"Value": "{{i18n:GeorgeSpecialOrder_objective0_fairyrose}}",
+			"Value": "{{i18n:GeorgeSpecialOrder_objective0_flower}}",
 		},
 		{
 			"Name": "GeorgeSpecialOrderRoses",
@@ -210,7 +210,7 @@
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 			},
-			"FromFile": "machines-extendedcrops/butterchurn.json, machines-extendedcrops/extruder.json, machines-extendedcrops/keg.json, machines-extendedcrops/mayonnaisemachine.json,  machines-extendedcrops/preservesjar.json"
+			"FromFile": "machines-extendedcrops/butterchurn.json, machines-extendedcrops/extruder.json, machines-extendedcrops/keg.json, machines-extendedcrops/mayonnaisemachine.json,  machines-extendedcrops/preservesjar.json, machines-extendedcrops/cheesepress.json"
 		},
 		
 		// add subfiles - extended trees

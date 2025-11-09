@@ -37,7 +37,8 @@
 							]
 						}
 					],
-					"MinutesUntilReady": 1750,
+					//"MinutesUntilReady": 1750,
+        "DaysUntilReady": 1,
 					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 				},
 				"Cornucopia_DriedMushroomFix": {
@@ -69,7 +70,8 @@
 							]
 						}
 					],
-					"MinutesUntilReady": 1750,
+					//"MinutesUntilReady": 1750,
+        "DaysUntilReady": 1,
 					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 5]"
 				}
 			},

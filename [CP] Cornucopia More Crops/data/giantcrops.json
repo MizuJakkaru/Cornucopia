@@ -122,6 +122,50 @@
 						},
 					"Chance": 0.01,
 				},
+				"Cornucopia_GiantHoneydew": {
+					"FromItemId": "Cornucopia_Honeydew",
+					"HarvestItems": [
+						{
+							"Chance": 1.0,
+							"ItemId": "Cornucopia_Honeydew",
+							"Quality": 0,
+							"MinStack": 15,
+							"MaxStack": 21,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/GiantCrops",
+					"TexturePosition": {
+							"X": 0,
+							"Y": 0
+						},
+					"TileSize": {
+							"X": 3,
+							"Y": 3
+						},
+					"Chance": 0.01,
+				},
+				"Cornucopia_GiantCantaloupe": {
+					"FromItemId": "Cornucopia_Cantaloupe",
+					"HarvestItems": [
+						{
+							"Chance": 1.0,
+							"ItemId": "Cornucopia_Cantaloupe",
+							"Quality": 0,
+							"MinStack": 15,
+							"MaxStack": 21,
+						}
+					],
+					"Texture": "Cornucopia.MoreCrops/GiantCrops",
+					"TexturePosition": {
+							"X": 48,
+							"Y": 64
+						},
+					"TileSize": {
+							"X": 3,
+							"Y": 3
+						},
+					"Chance": 0.01,
+				},
 			}
 		}
 	]

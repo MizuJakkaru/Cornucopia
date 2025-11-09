@@ -20,7 +20,7 @@
 							"ItemId": "(O)247"
 						}
 					],
-					"MinutesUntilReady": 360
+					"MinutesUntilReady": 120
 				},
 				"Cornucopia_OliveOil": {
 					"Id": "Cornucopia_OliveOil",

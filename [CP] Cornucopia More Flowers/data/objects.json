@@ -344,7 +344,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedflowers",
 						"modid_cornucopia.moreflowers",
-						"cactus_flower_item"
+						"cactus_flower_item",
+						"rose_item"
 					]
 				},
 				"Cornucopia_Camellia": {

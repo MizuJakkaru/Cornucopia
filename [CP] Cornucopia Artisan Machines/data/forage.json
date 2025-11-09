@@ -1,40 +1,134 @@
 {
-    "Changes": [
-		// add forage (beach)
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Beach", "Forage" ],
-            "Entries": {
-                "(O)Cornucopia_SeaSalt": {
-                    "ItemId": "(O)Cornucopia_SeaSalt",
-					"Chance": 0.4
-                }
-            }
-        },
-		// add forage (island south/docks)
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "IslandSouth", "Forage" ],
-            "Entries": {
-                "(O)Cornucopia_SeaSalt": {
-                    "ItemId": "(O)Cornucopia_SeaSalt",
-					"Chance": 0.1
-                }
-            }
-        },
-		// add forage (island south east/cove)
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "IslandSouthEast", "Forage" ],
-            "Entries": {
-                "(O)Cornucopia_SeaSalt": {
-                    "ItemId": "(O)Cornucopia_SeaSalt",
-					"Chance": 0.1
-                }
-            }
-        }
-    ]
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Early",
+			"Entries": {
+				"Cornucopia_SeaSaltRock": {
+					"Name": "Cornucopia_SeaSaltRock",
+					"DisplayName": "Rock Salt Stone",
+					"Description": "[LocalizedText Strings\\Objects:DiamondStone_Description]",
+					"Type": "Litter",
+					"Category": -999,
+					"Price": 0,
+					"Texture": "Cornucopia.ArtisanMachines/Objects",
+					"SpriteIndex": 89,
+					"ExcludeFromShippingCollection": true
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawnableDefinitions",
+			"Priority": "Early",
+			"Entries": {
+				"Cornucopia_SeaSalt": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_SeaSalt"
+							}
+						}
+					]
+				},
+				"Cornucopia_SeaSaltRock": {
+					"Type": "Minable",
+					"MinableTool": "Pickaxe",
+					"MinableHealth": 20,
+					"MinableObjectId": "Cornucopia_SeaSaltRock",
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "(O)Cornucopia_SeaSalt"
+								}
+							},
+						],
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "(O)Cornucopia_SeaSalt"
+								}
+							}
+						],
+						[
+							{
+								"Weight": 0.4,
+								"Value": {
+									"ItemId": "(O)Cornucopia_SeaSalt"
+								}
+							}
+						]
+					],
+					"MinableExperienceGranted": 4
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawningGroups",
+			"Entries": {
+				"Cornucopia_SeaSalt": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_SeaSalt"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_SeaSaltRock": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_SeaSaltRock"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia_SeaSalt_Spawn": {
+					"Id": "Cornucopia_SeaSalt_Spawn",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSalt Beach",
+					]
+				},
+				"Cornucopia_SeaSaltRock_Spawn": {
+					"Id": "Cornucopia_SeaSaltRock_Spawn",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "WORLD_STATE_ID beachBridgeFixed",
+					"Actions": [
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
+					]
+				},
+			}
+		}
+	]
 }
