@@ -90,21 +90,6 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                /*"Cornucopia.MoreCrops_RemoveConfigFlags": { 
-                    "Id": "Cornucopia.MoreCrops_RemoveConfigFlags",
-                    "Trigger": "DayEnding", 
-                    "HostOnly": true,
-                    "Action": null,
-                    "Actions": [
-						"MarkActionApplied All Cornucopia.MoreCrops_RepeatConfigFlags false",
-						"MarkActionApplied All Cornucopia.MoreCrops_SetHerbsPackFlags false",
-						"MarkActionApplied All Cornucopia.MoreCrops_SetExtendedCropsPackFlags false",
-						"MarkActionApplied All Cornucopia.MoreCrops_SetExtendedTreesPackFlags false",
-                        //"RemoveMail All Cornucopia.MoreCrops_HerbsPackEnabled all",
-						//"RemoveMail All Cornucopia.MoreCrops_ExtendedCropsPackEnabled all",
-						//"RemoveMail All Cornucopia.MoreCrops_ExtendedTreesPackEnabled all",
-                    ]
-                },*/
 				"Cornucopia.MoreCrops_DayStart": { 
                     "Id": "Cornucopia.MoreCrops_DayStart",
                     "Trigger": "DayStarted", 
