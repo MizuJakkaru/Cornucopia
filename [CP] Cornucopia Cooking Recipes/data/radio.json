@@ -270,8 +270,8 @@
 					"Actions": [
 						"Spiderbuttons.BETAS_Message \"{{i18n:Radio_{{TodaysRecipe}}}}\" true",
 						"RemoveMail Current Cornucopia.CookingRecipes_QoSRadio_Listening received",
-						"If !{{TodaysRecipe|contains=none}} ## MarkCookingRecipeKnown Current Cornucopia_{{TodaysRecipe}} true",
-						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_QoSRadio_Listening2 received\" 100"
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_QoSRadio_Listening2 received\" 100",
+						"Spiderbuttons.BETAS_PatchUpdate Cornucopia.CookingRecipes",
 					]
 				},
 				"Cornucopia.CookingRecipes_QoSRadio_Learned": {
@@ -283,22 +283,10 @@
 					"Actions": [
 						"If !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_{{TodaysRecipe}} ## Spiderbuttons.BETAS_Message \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_{{TodaysRecipe}}]]]\"",
 						"If PLAYER_HAS_COOKING_RECIPE Current Cornucopia_{{TodaysRecipe}} ## Spiderbuttons.BETAS_Message \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13151 [EscapedText [ItemName (O)Cornucopia_{{TodaysRecipe}}]]]\"",
+						"If !{{TodaysRecipe|contains=none}} ## MarkCookingRecipeKnown Current Cornucopia_{{TodaysRecipe}} true",
 						"RemoveMail Current Cornucopia.CookingRecipes_QoSRadio_Listening2 received",
-						"Spiderbuttons.BETAS_PatchUpdate Cornucopia.CookingRecipes",
-						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_QoSRadio_Listening3 received\" 100",
 					]
 				},
-				"Cornucopia.CookingRecipes_QoSRadio_RemoveAnim": {
-					"Id": "Cornucopia.CookingRecipes_QoSRadio_RemoveAnim",
-					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
-					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_QoSRadio_Listening3 Received",
-					"HostOnly": false,
-					"MarkActionApplied": false,
-					"Actions": [
-						"If !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_{{TodaysRecipe}} ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:NewRecipe}}\" (O)Cornucopia_{{TodaysRecipe}}",
-						"RemoveMail Current Cornucopia.CookingRecipes_QoSRadio_Listening3 received"
-					]
-				}
 			}
 		}
 	]

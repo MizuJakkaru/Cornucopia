@@ -1,0 +1,2245 @@
+{
+  "ZucchiniFritters_name": "西葫芦煎饼",
+  "ZucchiniFritters_description": "星露果酒馆的招牌菜！",
+
+  "Zarusoba_name": "笊篱荞麦面",
+  "Zarusoba_description": "冰镇荞麦面套餐。",
+
+  "YucaFries_name": "木薯薯条",
+  "YucaFries_description": "切好的木薯，炸一炸再撒上盐和奶酪！",
+
+  "YellowRice_name": "黄米饭",
+  "YellowRice_description": "加了葡萄干的甜米饭。",
+
+  "Yatsuhashi_name": "八桥饼",
+  "Yatsuhashi_description": "软糯年糕点心，里面包着肉桂或抹茶馅。",
+
+  "Wojapi_name": "沃加皮酱",
+  "Wojapi_description": "用捣碎的浆果和高汤做成的酱料。",
+
+  "WhiteChocolate_name": "白巧克力",
+  "WhiteChocolate_description": "用纯可可脂制成的巧克力。",
+
+  "WedgeSalad_name": "楔形沙拉",
+  "WedgeSalad_description": "就像沙拉……只是有人忘记把它拌一拌。",
+
+  "WasabiPeas_name": "芥末青豆",
+  "WasabiPeas_description": "裹上辣味粉末的干青豆。",
+
+  "Waffles_name": "华夫饼",
+  "Waffles_description": "上面的小格子非常适合承接融化的黄油、奶油，或者你想浇的任何东西。",
+
+  "Vinaigrette_name": "油醋汁",
+  "Vinaigrette_description": "油和醋调成的酸爽沙拉酱。",
+
+  "VegetableTempura_name": "蔬菜天妇罗",
+  "VegetableTempura_description": "各种蔬菜裹上面糊油炸，外壳酥脆！",
+
+  "VegetablePotPie_name": "欧洲防风派",
+  "VegetablePotPie_flavored": "%PRESERVED_DISPLAY_NAME 肉派",
+  "VegetablePotPie_description": "有种回到家里吃晚饭的温馨感觉。",
+
+  "VegetableKorma_name": "蔬菜科尔玛咖喱",
+  "VegetableKorma_description": "蔬菜在香浓坚果咖喱中慢火炖煮。",
+
+  "VanillaPudding_name": "香草布丁",
+  "VanillaPudding_description": "童年最爱的甜品。",
+
+  "Udon_name": "乌冬面",
+  "Udon_description": "粗小麦面配咸味高汤。",
+
+  "UbeHalaya_name": "紫薯哈拉亚",
+  "UbeHalaya_description": "绵密的紫薯布丁，冷藏后口感最佳。",
+
+  "UbeCake_name": "紫薯蛋糕",
+  "UbeCake_description": "用捣碎紫薯做成的戚风蛋糕。",
+
+  "Tzatziki_name": "酸奶黄瓜酱",
+  "Tzatziki_description": "来自约萨堡的酸爽蘸酱，用在许多料理里。",
+
+  "TunaSteak_name": "金枪鱼排",
+  "TunaSteak_description": "里面仍然是粉嫩的。",
+
+  "TunaSalad_name": "金枪鱼沙拉",
+  "TunaSalad_description": "经典款。",
+
+  "Tteokbokki_name": "辣炒年糕",
+  "Tteokbokki_description": "年糕加上辛辣酱汁翻炒而成。",
+
+  "TropicalToss_name": "热带缤纷沙拉",
+  "TropicalToss_description": "各种热带水果的大拼盘。",
+
+  "Trifle_name": "英式松糕",
+  "Trifle_description": "分层堆叠的蛋糕、奶油和水果甜点。",
+
+  "TresLechesCake_name": "三奶蛋糕",
+  "TresLechesCake_description": "用三种牛奶——普通牛奶、炼乳和淡奶做成的醇厚蛋糕。",
+
+  "TrenettealPesto_name": "香蒜扁面",
+  "TrenettealPesto_description": "拌上香蒜酱、春季豆子和新鲜罗勒的面条。",
+
+  "TreacleTart_name": "糖浆馅饼",
+  "TreacleTart_description": "浓稠、黏糊，又很甜！",
+
+  "TrailMix_name": "什锦坚果干粮",
+  "TrailMix_description": "长途远足路上，这点零食就够你撑一阵。",
+
+  "TortillaSoup_name": "玉米片汤",
+  "TortillaSoup_description": "加了许多玉米片的咸香辛辣浓汤。",
+
+  "TortillaRollUps_name": "玉米饼卷卷",
+  "TortillaRollUps_description": "很受小孩子欢迎的零食。",
+
+  "TomatoSoup_name": "番茄浓汤",
+  "TomatoSoup_description": "浓郁的番茄汤里带点罗勒香味。",
+
+  "Toffee_name": "太妃糖",
+  "Toffee_description": "奶油味与焦糖味在嘴里交织成一片美味。",
+
+  "Tiramisu_name": "提拉米苏",
+  "Tiramisu_description": "用浸满咖啡的手指饼干堆叠而成的蛋糕。里亚利亚的特色甜点。",
+
+  "TilapiaandZoodles_name": "罗非鱼配西葫芦面",
+  "TilapiaandZoodles_description": "西葫芦面条像意大利面，但更脆。",
+
+  "ThreeSistersSalad_name": "三姐妹沙拉",
+  "ThreeSistersSalad_description": "沙拉里的这些蔬菜天生就适合互相扶持！",
+
+  "TemakiRoll_name": "手卷寿司",
+  "TemakiRoll_description": "海苔、米饭、黄瓜和鱼。",
+
+  "TeaEggs_name": "茶叶蛋",
+  "TeaEggs_description": "浸泡在茶里的鸡蛋，带着独特的香气。",
+
+  "TaterTots_name": "薯饼小丸子",
+  "TaterTots_description": "压碎的土豆油炸成一粒粒小团子。",
+
+  "Tarkhuna_name": "龙蒿汽水",
+  "Tarkhuna_description": "带草本风味的甜饮料。颜色非常绿！",
+
+  "TapiocaPudding_name": "西米露布丁",
+  "TapiocaPudding_description": "用椰奶煮成的香滑西米布丁。",
+
+  "Takoyaki_name": "章鱼小丸子",
+  "Takoyaki_description": "油炸面糊球里裹着章鱼，再淋上美乃滋和咸香酱汁。",
+
+  "Taiyaki_name": "鲷鱼烧",
+  "Taiyaki_description": "鱼形外皮，里面包着红豆馅的点心。",
+
+  "Tahini_name": "芝麻酱",
+  "Tahini_description": "由烘烤后研磨的芝麻制成的调味酱。",
+
+  "Taffy_name": "太妃软糖",
+  "Taffy_description": "嚼劲十足。",
+
+  "Tabbouleh_name": "塔布勒沙拉",
+  "Tabbouleh_description": "用欧芹、薄荷和其他蔬菜碎做成的配菜沙拉。",
+
+  "Switchel_name": "甜醋饮",
+  "Switchel_description": "在甘蔗收割季，农夫们常喝这种饮料。",
+
+  "SweetPotatoFries_name": "红薯薯条",
+  "SweetPotatoFries_description": "像普通薯条，只是更甜。",
+
+  "SweetPotatoCasserole_name": "红薯砂锅",
+  "SweetPotatoCasserole_description": "烤红薯上铺了一层烤化的棉花糖。",
+
+  "SweetPilaf_name": "甜味抓饭",
+  "SweetPilaf_description": "用甜味坚果和香草做成的抓饭。",
+
+  "SweetCrepes_name": "甜味可丽饼",
+  "SweetCrepes_description": "卷着水果和奶油的可丽饼。",
+
+  "SunriseToast_name": "朝阳吐司",
+  "SunriseToast_description": "面包浸在牛奶和鸡蛋混合液里煎到金黄，再撒上糖粉和糖浆！",
+
+  "SugaredGrapefruit_name": "糖渍西柚",
+  "SugaredGrapefruit_description": "撒一点糖就能削弱它的苦味！",
+
+  "SugarcaneShake_name": "甘蔗冰沙",
+  "SugarcaneShake_description": "在许多地方都很受欢迎的甜蜜饮品！",
+
+  "Succotash_name": "玉米杂豆沙拉",
+  "Succotash_description": "玉米和豆子加上番茄拌在一起的饱腹沙拉。",
+
+  "StuffedPeppers_name": "芝士酿彩椒",
+  "StuffedPeppers_description": "大个彩椒里塞满了奶酪和面包屑。",
+
+  "StuffedMushrooms_name": "酿蘑菇",
+  "StuffedMushrooms_description": "蘑菇里填满了面包屑、蟹肉和奶酪。",
+
+  "Strudel_name": "苹果卷",
+  "Strudel_description": "多层酥皮包裹着甜苹果馅。",
+
+  "Stroganina_name": "俄式冻鱼片",
+  "Stroganina_description": "冰冻得硬邦邦的鱼片，在嘴里慢慢融化。",
+
+  "StreetCorn_name": "街头烤玉米",
+  "StreetCorn_description": "蘸过热黄油的玉米，再撒上奶酪和辣椒粉。",
+
+  "StrawberryShortcake_name": "草莓松饼蛋糕",
+  "StrawberryShortcake_description": "经典的草莓奶油蛋糕。",
+
+  "StrawberryDrink_name": "草莓饮",
+  "StrawberryDrink_description": "清爽果香，带一点茶味！",
+
+  "StickyToffeePudding_name": "太妃布丁",
+  "StickyToffeePudding_description": "黏糯可口，甜到心里。",
+
+  "Steckerlfisch_name": "烤串鱼",
+  "Steckerlfisch_description": "串在签子上的整条烤鱼，不是鱼条！",
+
+  "SteamedBambooShoots_name": "清蒸竹笋",
+  "SteamedBambooShoots_description": "口感软嫩，但味道有点寡淡。",
+
+  "StarmiteToast_name": "星酵涂抹吐司",
+  "StarmiteToast_description": "抹了酵母麦芽膏的吐司面包。",
+
+  "SpringSalmagundi_name": "春日什锦沙拉",
+  "SpringSalmagundi_description": "层层堆叠的水果和鱼，再淋上意大利黑醋的奇特沙拉。",
+
+  "SpringSalad_name": "春日藜麦沙拉",
+  "SpringSalad_description": "藜麦让这份沙拉多了一丝特别的弹感。",
+
+  "SpringRolls_name": "春卷",
+  "SpringRolls_description": "许多蔬菜被塞进油炸云吞皮里，是极佳的手抓小吃！",
+
+  "SplitPeaSoup_name": "豌豆浓汤",
+  "SplitPeaSoup_description": "浓郁的汤，颜色意外地鲜艳。",
+
+  "SpinachTortellini_name": "菠菜馄饨面",
+  "SpinachTortellini_description": "小小的意面包着绿色馅料。",
+
+  "SpinachDip_name": "菠菜蘸酱",
+  "SpinachDip_description": "既好吃又顶饱。",
+
+  "SpicyPapayaSalad_name": "辣味木瓜沙拉",
+  "SpicyPapayaSalad_description": "用青木瓜切丝拌成的沙拉，咸、鲜、甜、辣味兼具。",
+
+  "SpicyFruitSpear_name": "辣味水果串",
+  "SpicyFruitSpear_description": "甜水果上撒了厚厚一层辣椒粉。",
+
+  "Spatzle_name": "德式疙瘩面",
+  "Spatzle_description": "一种鸡蛋面食。",
+
+  "SourShchi_name": "酸什奇汤",
+  "SourShchi_description": "这道酸味蔬菜汤的关键食材是酸菜。",
+
+  "SourFishSoup_name": "酸鱼汤",
+  "SourFishSoup_description": "酸酸的，很有个性！",
+
+  "SoupCurry_name": "汤咖喱",
+  "SoupCurry_description": "像高汤一样偏稀的咖喱，里面装满蔬菜和蘑菇。",
+
+  "Souffle_name": "舒芙蕾",
+  "Souffle_description": "虽然加了糖，蛋味依然很明显。",
+
+  "Sopapillas_name": "蜂蜜小油饼",
+  "Sopapillas_description": "柔软、鼓鼓的炸面饼上撒了肉桂糖，配蜂蜜吃最佳！",
+
+  "SoftPretzel_name": "软椒盐卷饼",
+  "SoftPretzel_description": "一个大大的、有嚼劲的椒盐卷饼，撒了少许盐。",
+
+  "SnailNoodles_name": "螺蛳粉",
+  "SnailNoodles_description": "用炖螺蛳做成的汤底，味道有点“重”的米粉。",
+
+  "SmotheredWaffles_name": "浇满浇头的华夫饼",
+  "SmotheredWaffles_description": "没有眼泪，只有美梦。",
+
+  "Smore_name": "棉花糖夹心饼",
+  "Smore_description": "吃完一个还想再来一个。",
+
+  "Skyr_name": "斯基尔酸奶",
+  "Skyr_description": "传统的诺斯酸奶，充分过滤后，既酸又绵密。",
+
+  "ShrimpTempura_name": "虾天妇罗",
+  "ShrimpTempura_description": "一只只小虾尾从面衣里露了出来！",
+
+  "ShrimpFriedRice_name": "虾仁炒饭",
+  "ShrimpFriedRice_description": "在炒锅里大火快炒，才有那股烟熏锅气！",
+
+  "ShrimpandGrits_name": "虾仁玉米糊",
+  "ShrimpandGrits_description": "粗磨白玉米糊上铺着烤虾。",
+
+  "ShortbreadCookies_name": "黄油酥饼",
+  "ShortbreadCookies_description": "香浓、奶油味十足的饼干。",
+
+  "Shakshouka_name": "沙克舒卡",
+  "Shakshouka_description": "鸡蛋直接在香料番茄酱中煮熟的料理。",
+
+  "SesameCrackers_name": "芝麻薄脆饼",
+  "SesameCrackers_description": "有各种有趣的形状和大小！",
+
+  "SeaweedChips_name": "海苔脆片",
+  "SeaweedChips_description": "油炸海苔，口感非常酥脆。",
+
+  "SearedSunflower_name": "炭烤向日葵",
+  "SearedSunflower_description": "幼嫩的向日葵花朵在明火上烤得微微焦黄。",
+
+  "SeafoodPaella_name": "海鲜西班牙饭",
+  "SeafoodPaella_description": "温热的米饭上铺满各种海鲜。",
+
+  "SeafoodBoil_name": "海鲜大杂烩",
+  "SeafoodBoil_description": "把海鲜、玉米和土豆一起丢进大锅里煮，辣一点最好吃！",
+
+  "ScorchedRice_name": "锅巴饭",
+  "ScorchedRice_description": "把米饭煮到非常酥脆。",
+
+  "Scone_name": "司康",
+  "Scone_description": "有水果味的早餐烘焙点心。",
+
+  "Scarpaccia_name": "意式南瓜烤饼",
+  "Scarpaccia_description": "传统南瓜砂锅烤菜。",
+
+  "ScallionPancake_name": "葱油饼",
+  "ScallionPancake_description": "酥脆又简单的家常饼！",
+
+  "SandwichCookies_name": "夹心三明治饼干",
+  "SandwichCookies_description": "费恩吉尔到处都能买到的某款人气饼干的“山寨版”。",
+
+  "Samosas_name": "咖喱角",
+  "Samosas_description": "里面的内馅还是热腾腾的。",
+
+  "SaltGrilledFish_name": "盐烤鱼",
+  "SaltGrilledFish_description": "简单到只要有篝火就能做出来的料理。",
+
+  "SaltandVinegarChips_name": "盐醋薯片",
+  "SaltandVinegarChips_description": "这种酸味在费恩吉尔某些地方特别受欢迎。",
+
+  "SalmonChowder_name": "三文鱼浓汤",
+  "SalmonChowder_description": "莳萝让这锅三文鱼奶油汤风味十足。",
+
+  "SalmonBearnaise_name": "贝亚恩酱三文鱼",
+  "SalmonBearnaise_description": "略微炙烤的三文鱼配上浓郁的香草酱。",
+
+  "SaladRolls_name": "沙拉卷",
+  "SaladRolls_description": "薄薄的米纸里卷着菠菜、虾仁和米饭。",
+
+  "Saimin_name": "细面汤",
+  "Saimin_description": "余烬岛的终极安慰食物！",
+
+  "Sachertorte_name": "萨赫蛋糕",
+  "Sachertorte_description": "奢华的巧克力蛋糕。",
+
+  "RoyalHoneyToast_name": "皇家蜂蜜吐司",
+  "RoyalHoneyToast_description": "遥远星辰的回响让你充满力量！",
+
+  "RoseWater_name": "玫瑰露",
+  "RoseWater_description": "花香四溢。",
+
+  "RoseDrink_name": "玫瑰饮品",
+  "RoseDrink_description": "冰镇奶饮上漂着几片玫瑰花瓣。",
+
+  "RootBeer_name": "沙士汽水",
+  "RootBeer_description": "有些人觉得味道像是药。",
+
+  "RollCake_name": "卷卷蛋糕",
+  "RollCake_description": "糖霜被卷在蛋糕里面！",
+
+  "RockCandyFruit_name": "冰糖水果串",
+  "RockCandyFruit_description": "裹着脆糖壳的水果串！",
+
+  "RoastedBreadfruit_name": "烤面包果",
+  "RoastedBreadfruit_description": "厚厚的面包果切片在明火上烤熟，带有坚果般的香味。",
+
+  "RizGras_name": "什锦香料烩饭",
+  "RizGras_description": "调味很重的米饭，上面铺着鱼和蔬菜。",
+
+  "RiversHarvest_name": "河之收获",
+  "RiversHarvest_description": "甜味坚果酱汁让这道菜的层次更丰富。",
+
+  "RiceCakes_name": "米饼",
+  "RiceCakes_description": "把米压成圆圆一片。",
+
+  "RiceandBeans_name": "米饭加豆子",
+  "RiceandBeans_description": "再普通不过的家常主食。",
+
+  "RefriedBeans_name": "回锅豆泥",
+  "RefriedBeans_description": "咸香的豆泥，常常和玉米卷一起上桌。",
+
+  "RedRed_name": "红红豆炖菜",
+  "RedRed_description": "用棕榈油煮的豆子，配上炸蕉片，整道菜都呈现鲜红的颜色！",
+
+  "Ratatouille_name": "炖菜杂蔬",
+  "Ratatouille_description": "薄切的蔬菜在酱汁里烤熟，因为卢泰斯的高级餐厅而闻名。",
+
+  "RaisinBread_name": "葡萄干面包",
+  "RaisinBread_description": "柔软的面包里夹着葡萄干和醋栗。",
+
+  "RainbowCake_name": "彩虹蛋糕",
+  "RainbowCake_description": "每一片里都有所有颜色在向你问好。",
+
+  "RadishCake_name": "萝卜糕",
+  "RadishCake_description": "用刨碎的白萝卜做成的煎饼。",
+
+  "RaccoonSoba_name": "狸猫荞麦面",
+  "RaccoonSoba_description": "搭配清淡汤汁的荞麦面。",
+
+  "Qurutob_name": "咸酸奶面包盘",
+  "Qurutob_description": "在浓稠咸酸奶酱上，铺上层层薄饼和蔬菜，用手抓着吃。",
+
+  "SpinachQuiche_name": "菠菜咸派",
+  "SpinachQuiche_description": "本质上就是个“蛋挞派”！",
+
+  "Pupusas_name": "奶酪仙人掌玉米饼",
+  "Pupusas_description": "玉米粉和奶酪做成的小饼，里面塞了烤仙人掌。",
+
+  "PumpkinBite_name": "南瓜小点",
+  "PumpkinBite_description": "试着快速说五遍“迷你南瓜香料免烤芝士蛋糕”！",
+
+  "PrincessCake_name": "公主蛋糕",
+  "PrincessCake_description": "简单又惹人喜爱的蛋糕，夹着果酱，外层裹着绿色翻糖。",
+
+  "PowderShake_name": "粉雪奶昔",
+  "PowderShake_description": "冰凉的糖粉像云朵一样从杯口飘散。",
+
+  "PoundedYam_name": "捣山药",
+  "PoundedYam_description": "把煮熟的山药捣成顺滑面团，适合搭配各种汤和炖菜！",
+
+  "PotatoSalad_name": "土豆沙拉",
+  "PotatoSalad_description": "餐桌上的万年配角。",
+
+  "PotatoPancakes_name": "土豆煎饼",
+  "PotatoPancakes_description": "略微油腻、煎得金黄的土豆饼。",
+
+  "PotatoFries_name": "薯条",
+  "PotatoFries_description": "酥脆可口！",
+
+  "PotatoesauGratin_name": "奶油焗土豆",
+  "PotatoesauGratin_description": "土豆片浸在黄油和奶油里烤得金黄。",
+
+  "PotatoBread_name": "土豆面包",
+  "PotatoBread_description": "有嚼劲的一种面包。",
+
+  "Polenta_name": "玉米粥",
+  "Polenta_description": "香滑细腻！",
+
+  "PokeBowl_name": "夏威夷拌饭",
+  "PokeBowl_description": "把腌制过的生鱼块铺在热米饭上。",
+
+  "PoachedPear_name": "蜜烤梨",
+  "PoachedPear_description": "用蜂蜜焗烤到温热柔软。",
+
+  "PlowmansPlatter_name": "农夫拼盘",
+  "PlowmansPlatter_description": "类似芝士板的午餐拼盘。",
+
+  "PizzaRolls_name": "披萨卷",
+  "PizzaRolls_description": "一咬开奶酪和番茄酱就流出来。",
+
+  "PitaChips_name": "皮塔饼干",
+  "PitaChips_description": "通常配酸奶黄瓜酱一起吃。",
+
+  "Pita_name": "皮塔饼",
+  "Pita_description": "略微酥脆的扁平面包。",
+
+  "PinkDrink_name": "粉粉椰奶饮",
+  "PinkDrink_description": "用椰奶调制的甜饮料。",
+
+  "PineappleUpsideDownCake_name": "倒置菠萝蛋糕",
+  "PineappleUpsideDownCake_description": "这块蛋糕是“翻过来”的！",
+
+  "PineapplePizza_name": "菠萝披萨",
+  "PineapplePizza_description": "在派对上总会引发争论的热门口味。",
+
+  "PineappleCake_name": "凤梨酥",
+  "PineappleCake_description": "酥脆微硬的外皮包着甜甜的菠萝馅。",
+
+  "Pierogi_name": "波兰饺子",
+  "Pierogi_description": "小巧的咸馅饺子，满满都是美味。",
+
+  "PickledRind_name": "腌果皮",
+  "PickledRind_description": "简单快手的泡菜食谱。酸酸又带点甜。",
+
+  "Pesto_name": "香蒜酱",
+  "Pesto_description": "用松子和香草调成的美味酱料。",
+
+  "PerillaKimchi_name": "紫苏泡菜",
+  "PerillaKimchi_description": "简单快速的泡菜做法。",
+
+  "PepperSoup_name": "辣椒鱼汤",
+  "PepperSoup_description": "非常稀、非常辣的鱼汤。肉豆蔻让它的味道格外特别！",
+
+  "PeppermintCandy_name": "薄荷糖",
+  "PeppermintCandy_description": "标志性的味道！",
+
+  "PenneallArrabbiatta_name": "愤怒通心粉",
+  "PenneallArrabbiatta_description": "只用很简单食材做成的传统意面，味道却相当辛辣！",
+
+  "PecanPie_name": "碧根果派",
+  "PecanPie_description": "坚果味浓郁，上面覆盖着一层亮晶晶的糖衣。",
+
+  "PecanBrittle_name": "碧根果脆糖",
+  "PecanBrittle_description": "碧根果和焦糖一起硬化成让人上瘾的零食。",
+
+  "PeachCrisp_name": "桃子酥顶甜点",
+  "PeachCrisp_description": "类似水果馅饼，用桃子和酥脆顶层烤制而成。",
+
+  "PBJSandwich_name": "花生酱果酱三明治",
+  "PBJSandwich_description": "你喜欢留着面包边，还是切掉？",
+
+  "Pavlova_name": "帕芙洛娃蛋白饼",
+  "Pavlova_description": "蓬松的蛋白甜饼，上面盖满水果。",
+
+  "PastaPrimavera_name": "春季蔬菜意面",
+  "PastaPrimavera_description": "用春季蔬菜清淡调味的意大利面。",
+
+  "Papanasi_name": "炸奶酪甜甜圈",
+  "Papanasi_description": "油炸山羊奶酪小点，配上奶油和酸果酱。",
+
+  "Papadzules_name": "南瓜籽酱卷饼",
+  "Papadzules_description": "玉米饼里包着水煮蛋，再浇上浓稠的南瓜籽酱。",
+
+  "PantaBhat_name": "隔夜泡饭",
+  "PantaBhat_description": "把米饭泡一整晚，配上炸鱼、腌菜和豆汤一起吃！",
+
+  "PannaCotta_name": "奶冻",
+  "PannaCotta_description": "绵密的奶冻，上面淋了柚子酱。",
+
+  "Panipuri_name": "印度小吃帕尼普里",
+  "Panipuri_description": "酥脆的空心球里装满了快乐。",
+
+  "PaniPopo_name": "椰汁甜面包",
+  "PaniPopo_description": "小面包浸泡在香甜椰奶酱中。",
+
+  "PanikiStew_name": "蝙蝠炖汤",
+  "PanikiStew_description": "用蝙蝠翅膀和各种香料炖煮的浓汤。",
+
+  "PalmNutSoup_name": "棕榈果汤",
+  "PalmNutSoup_description": "用棕榈果煮成的汤，通常会加入熏鱼和香料。",
+
+  "PalakPaneer_name": "菠菜芝士咖喱",
+  "PalakPaneer_description": "把菠菜打成泥煮成咖喱，再放进结实的奶酪块。",
+
+  "PadPrinat_name": "帕德普里纳特炒面",
+  "PadPrinat_description": "甜咸交织的炒面，是普里纳特料理风靡世界的代表之一。",
+
+  "OystersMignonette_name": "红葱生蚝",
+  "OystersMignonette_description": "生蚝配红葱酱汁，滑溜溜的！",
+
+  "OysterSauceCrab_name": "蚝油焗蟹",
+  "OysterSauceCrab_description": "整只螃蟹煮在香浓烟熏酱汁里。",
+
+  "OysterSauce_name": "蚝油",
+  "OysterSauce_description": "带有鲜明海味的酱料。",
+
+  "Otai_name": "奥泰水果饮",
+  "Otai_description": "水果和牛奶混合打成泡沫，是热带地区的人气饮品。",
+
+  "OnionRings_name": "洋葱圈",
+  "OnionRings_description": "洋葱切圈，裹上面糊油炸。",
+
+  "Onigiri_name": "饭团",
+  "Onigiri_description": "简单的米饭团，小孩们很喜欢的点心。",
+
+  "OneManThousand_name": "一人千鱼宴",
+  "OneManThousand_description": "独一无二的菜肴：堆成小山的炸沙丁鱼，再点缀虾仁和碎辣椒。",
+
+  "Omurice_name": "蛋包饭",
+  "Omurice_description": "裹着炒饭的蛋包，上面划了一圈番茄酱。",
+
+  "OliveRice_name": "橄榄饭",
+  "OliveRice_description": "加了橄榄的米饭，风味独特。",
+
+  "OkraSoup_name": "秋葵汤",
+  "OkraSoup_description": "用秋葵煮成的黏黏汤。",
+
+  "OdenHotpot_name": "关东煮火锅",
+  "OdenHotpot_description": "冬日里的一锅料理，里面有鱼饼和暖胃的汤底。",
+
+  "OctopusCurry_name": "章鱼咖喱",
+  "OctopusCurry_description": "用章鱼触手煮成的藏红花咖喱，口感有嚼劲。",
+
+  "Oatmeal_name": "燕麦粥",
+  "Oatmeal_description": "早餐必备，可以加肉桂、蜂蜜或水果。",
+
+  "NutButterCups_name": "花生酱杯",
+  "NutButterCups_altname": "坚果酱杯",
+  "NutButterCups_flavored": "%PRESERVED_DISPLAY_NAME 杯",
+  "NutButterCups_description": "根本停不下来。",
+
+  "Nougat_name": "牛轧糖",
+  "Nougat_description": "轻盈香甜，里面有开心果。",
+
+  "NigiriSushi_name": "握寿司",
+  "NigiriSushi_flavored": "%PRESERVED_DISPLAY_NAME 握寿司",
+  "NigiriSushi_description": "新鲜捕获的鱼切成生片，放在小块米饭上。",
+
+  "Natto_name": "纳豆",
+  "Natto_description": "发酵过的黏糊黄豆。是种需要慢慢习惯的味道。",
+
+  "NasiGoreng_name": "印尼炒饭",
+  "NasiGoreng_description": "咸香的炒饭，上面加了煎蛋和腌菜。",
+
+  "Namul_name": "韩式小菜拼盘",
+  "Namul_description": "各种腌菜和蔬菜拌菜，味道酸酸的！",
+
+  "NachosandCheese_name": "奶酪玉米片",
+  "NachosandCheese_description": "玉米片配上黏糊糊的奶酪。",
+
+  "Mustard_name": "芥末酱",
+  "Mustard_description": "由芥菜籽做成的酸辣调味酱。",
+
+  "MushroomSoup_name": "蘑菇汤",
+  "MushroomSoup_description": "稍微有点太咸了。",
+
+  "MushroomBurger_name": "蘑菇汉堡",
+  "MushroomBurger_description": "一块巨大多汁的蘑菇饼，煎得香香的，上面再盖一层奶酪！",
+
+  "Muhammara_name": "核桃红椒酱",
+  "Muhammara_description": "用烤红椒、核桃和石榴糖浆做成的蘸酱。",
+
+  "MudPie_name": "泥巴派",
+  "MudPie_description": "布朗尼底，上面铺着巧克力和鲜奶油。",
+
+  "Mousse_name": "慕斯",
+  "Mousse_description": "浓厚的巧克力甜点。",
+
+  "MotleyMushrooms_name": "杂色蘑菇",
+  "MotleyMushrooms_description": "欢快行进的菌丝大军。",
+
+  "Mooncake_name": "月饼",
+  "Mooncake_description": "坚实的外皮里包着香甜豆沙。",
+
+  "MoltenCustardBun_name": "流心奶黄包",
+  "MoltenCustardBun_description": "点心车必点的甜品，里面的咸蛋黄流沙馅会让你直达极乐。",
+
+  "MoinMoin_name": "豆布丁",
+  "MoinMoin_description": "去皮豆加香料和少量水打匀，蒸成扎实的“豆布丁”小吃。",
+
+  "Mohinga_name": "莫辛加鱼汤面",
+  "Mohinga_description": "用鲶鱼和咖喱汤底煮成的美味面汤，很多地方会当早餐吃。",
+
+  "Mochi_name": "年糕",
+  "Mochi_description": "反复捣打米饭直到变得粘糯。",
+
+  "MisoSoup_name": "味噌汤",
+  "MisoSoup_description": "用味噌做成的简单汤品。",
+
+  "MisoRamen_name": "味噌拉面",
+  "MisoRamen_description": "味噌汤底的拉面，再配上一颗腌制溏心蛋。",
+
+  "MintChutney_name": "薄荷酸辣酱",
+  "MintChutney_description": "切碎的薄荷果冻状酱料。",
+
+  "Minestrone_name": "意式蔬菜汤",
+  "Minestrone_description": "加入了大量豆类和绿叶蔬菜的蔬菜汤。",
+
+  "Millefeuille_name": "千层酥",
+  "Millefeuille_description": "层层酥皮夹着奶油，上面画着漂亮的格纹。",
+
+  "MilkSoup_name": "牛奶汤",
+  "MilkSoup_description": "传统料理，用温牛奶做汤底。",
+
+  "MieGoreng_name": "印尼炒面",
+  "MieGoreng_description": "用虾和葱头大火快炒的面条。",
+
+  "Meuniere_name": "香煎黄油鱼",
+  "Meuniere_description": "用黄油慢慢煎熟的鱼。",
+
+  "Meringues_name": "蛋白霜饼干",
+  "Meringues_description": "外表像普通饼干，其实入口即化。",
+
+  "MelonSalad_name": "瓜果沙拉",
+  "MelonSalad_description": "清爽又色彩缤纷的水果沙拉。",
+
+  "Melonpan_name": "菠萝包",
+  "Melonpan_description": "名字里虽然有“瓜”，其实就是甜味面包。",
+
+  "MechouiaSalad_name": "烤蔬菜沙拉",
+  "MechouiaSalad_description": "烤过的蔬菜，上面盖着鸡蛋和金枪鱼。",
+
+  "MeatSatay_name": "沙爹串",
+  "MeatSatay_flavored": "%PRESERVED_DISPLAY_NAME 沙爹串",
+  "MeatSatay_description": "腌制后烤好的肉串配花生酱。",
+
+  "MassamanCurry_name": "马萨曼咖喱",
+  "MassamanCurry_description": "融合多个地区风味的咖喱料理。",
+
+  "MashedPotatoes_name": "土豆泥",
+  "MashedPotatoes_description": "黄油味十足。",
+
+  "MascarponeLuxury_name": "马斯卡彭奢华杯",
+  "MascarponeLuxury_description": "甜奶油和油桃，再点缀金箔。",
+
+  "Marzipan_name": "杏仁软糖",
+  "Marzipan_description": "用甜杏仁膏捏成各种造型再上色。约萨堡的街头到处都是卖可爱“杏仁小食物和小动物”的摊贩！",
+
+  "MarshmallowSquares_name": "棉花糖脆米块",
+  "MarshmallowSquares_description": "轻盈酥脆的膨化米裹上融化棉花糖。",
+
+  "MarshmallowAnimals_name": "棉花糖小动物",
+  "MarshmallowAnimals_description": "它们是不是住在棉花糖森林里？",
+
+  "Marshmallow_name": "棉花糖",
+  "Marshmallow_description": "用那位著名科幻角色的话说：“我正准备烤一颗棉花梅隆。”",
+
+  "Marmalade_name": "橘子酱",
+  "Marmalade_description": "用柑橘皮和糖熬煮成的果酱。",
+
+  "MapoTofu_name": "麻婆豆腐",
+  "MapoTofu_description": "把嫩豆腐捣碎放进极辣的酱汁里，吃完嘴巴会发麻。",
+
+  "Mangu_name": "捣烂大蕉",
+  "Mangu_description": "捣碎的青蕉配上煎蛋和奶酪。",
+
+  "MangoChutney_name": "芒果酸辣酱",
+  "MangoChutney_description": "辣中带甜！",
+
+  "MalvaPudding_name": "马尔瓦布丁",
+  "MalvaPudding_description": "焦糖化的松软面包布丁，里面有杏子果酱。",
+
+  "Malasada_name": "菠萝夹心炸面包",
+  "Malasada_description": "裹了糖的炸面包，里面填了菠萝馅。",
+
+  "Magrood_name": "枣泥饼干",
+  "Magrood_description": "内馅是黏糯的枣泥小饼。",
+
+  "MagmaMole_name": "岩浆肉卷",
+  "MagmaMole_description": "辛辣滚烫，仿佛在吃熔岩。",
+
+  "Madeleines_name": "玛德琳",
+  "Madeleines_description": "轻盈的贝壳蛋糕，带细致花香。",
+
+  "Macarons_name": "马卡龙",
+  "Macarons_description": "轻巧的杏仁饼夹上甜馅。",
+
+  "MacaroniSalad_name": "通心粉沙拉",
+  "MacaroniSalad_description": "冷食沙拉，里面的蛋黄酱似乎太多了。",
+
+  "MacandFishBake_name": "海鲜芝士通心粉",
+  "MacandFishBake_description": "把经典芝士通心粉换成海鲜版本。",
+
+  "MacandCheese_name": "芝士通心粉",
+  "MacandCheese_description": "黏糊糊、奶酪味十足！",
+
+  "Lutefisk_name": "碱渍鳕鱼",
+  "Lutefisk_description": "胶状腌鳕鱼，配上传统的一整套配菜。",
+
+  "LumberjacksBun_name": "樵夫面包",
+  "LumberjacksBun_description": "味道温和的甜面包，里面是烧烤味蘑菇馅。",
+
+  "LukChup_name": "绿豆果子",
+  "LukChup_description": "用甜豆沙做成的小水果造型点心。",
+
+  "LoxandaSchmear_name": "烟熏三文鱼贝果",
+  "LoxandaSchmear_description": "贝果上铺着三文鱼和酸豆。",
+
+  "LotusWrappedStickyRice_name": "荷叶糯米饭",
+  "LotusWrappedStickyRice_description": "荷叶包裹的糯米饭，带着清香。",
+
+  "Lokum_name": "土耳其软糖",
+  "Lokum_description": "带花香的软糖，外面撒了糖粉。",
+
+  "LoftyPopover_name": "高高的泡芙碗",
+  "LoftyPopover_description": "用蛋液在玛芬模里烤成小碗形，适合盛肉汁吃。",
+
+  "LobsterRoll_name": "龙虾卷",
+  "LobsterRoll_description": "长面包里塞满抹了黄油的龙虾钳肉，是德雷克角的特色！",
+
+  "Licorice_name": "甘草糖",
+  "Licorice_description": "扭扭的糖果，带着浓重草本味。",
+
+  "LemonSquare_name": "柠檬方块",
+  "LemonSquare_description": "甜中带酸的小方块蛋糕，上面浇了一层柠檬凝乳。",
+
+  "LeekSoup_name": "韭葱汤",
+  "LeekSoup_description": "用大量韭葱和土豆煮成的奶油汤。",
+
+  "LechedeLeon_name": "狮子之乳",
+  "LechedeLeon_description": "加了新鲜配料的酸橘汁腌鱼汁。",
+
+  "Laplap_name": "椰奶水果拼盘",
+  "Laplap_description": "把水果切碎后浇上椰奶，常常在大香蕉叶上制作。",
+
+  "Lamington_name": "拉明顿蛋糕",
+  "Lamington_description": "外面裹了巧克力，再撒上干椰蓉的方块蛋糕。",
+
+  "Lalab_name": "辣酱生菜拼盘",
+  "Lalab_description": "新鲜蔬菜配上辣味虾酱沙拉汁。",
+
+  "Laghman_name": "拉格曼手工面",
+  "Laghman_description": "有嚼劲的手工面上铺着香料蔬菜。",
+
+  "Ladyfingers_name": "手指饼干",
+  "Ladyfingers_description": "甜甜的柔软饼干。",
+
+  "Koshary_name": "科沙里饭",
+  "Koshary_description": "有点像炒饭的料理，上面浇了酸辣番茄酱。",
+
+  "Kokoda_name": "椰汁生鱼沙拉",
+  "Kokoda_description": "椰奶和生鱼装在椰子壳里端上桌。",
+
+  "Knafeh_name": "卡纳菲",
+  "Knafeh_description": "软奶酪上面铺了一层细碎酥皮，再浇上玫瑰糖浆的甜点！",
+
+  "KitsuneUdon_name": "狐仙乌冬",
+  "KitsuneUdon_description": "加了豆腐和鱼板的暖心乌冬面。",
+
+  "KingCake_name": "国王蛋糕",
+  "KingCake_description": "那女王蛋糕又会长什么样呢？",
+
+  "KimchiRamen_name": "泡菜拉面",
+  "KimchiRamen_description": "带着独特酸辣味道的拉面。",
+
+  "Kheer_name": "印度奶米布丁",
+  "Kheer_description": "用米和牛奶煮成的粥，再加上干果和坚果增甜。",
+
+  "Khachapuri_name": "芝士船面包",
+  "Khachapuri_description": "面包里塞满了奶酪和软乎乎的溏心蛋。",
+
+  "KeyLimePie_name": "青柠派",
+  "KeyLimePie_description": "酸酸的柠檬馅，上面点缀一团奶油。",
+
+  "Ketchup_name": "番茄酱",
+  "Ketchup_description": "加了糖的番茄酱糊。",
+
+  "KayaToast_name": "咖椰吐司",
+  "KayaToast_description": "厚切黄油吐司涂满椰浆果酱。",
+
+  "Karantika_name": "鸡蛋鹰嘴豆烤饼",
+  "Karantika_description": "鹰嘴豆糊上铺打散鸡蛋烤制，配面包吃或切成小方块。",
+
+  "Kapustnica_name": "酸菜蘑菇汤",
+  "Kapustnica_description": "酸菜和蘑菇赋予这锅汤独特的风味。",
+
+  "Kanuchi_name": "坚果汤",
+  "Kanuchi_description": "把坚果磨碎熬成浓汤。",
+
+  "Johnnycakes_name": "玉米薄饼",
+  "Johnnycakes_description": "类似煎饼，但用玉米粉做成。",
+
+  "Jjigae_name": "韩式炖菜",
+  "Jjigae_description": "用泡菜煮成的浓厚炖汤。",
+
+  "JeweledRice_name": "宝石米饭",
+  "JeweledRice_description": "光泽亮丽，看上去像镶满宝石。",
+
+  "JellyBeans_name": "软心豆豆糖",
+  "JellyBeans_description": "豆子形状的彩色糖果，一共有 76 种专利口味。",
+
+  "JellO_name": "果冻",
+  "JellO_description": "晃晃悠悠。",
+
+  "JelliedCompote_name": "果冻什锦水果",
+  "JelliedCompote_description": "把煮好的水果鸡尾酒加入明胶再冷藏成型。",
+
+  "Japchae_name": "杂菜粉丝",
+  "Japchae_description": "红薯粉丝拌上大量蔬菜，咸香微甜。",
+
+  "Jammies_name": "果酱夹心饼干",
+  "Jammies_description": "中间有果酱的小饼干。",
+
+  "Jalebi_name": "印度蜜环圈",
+  "Jalebi_description": "加入藏红花的面糊油炸成小螺旋圈。",
+
+  "JalapenoLoaf_name": "墨西哥椒玉米面包",
+  "JalapenoLoaf_description": "松脆的玉米面包，里面还藏着辣辣的墨西哥椒。",
+
+  "Injera_name": "英吉拉面饼",
+  "Injera_description": "又酸又软的薄饼，很适合卷起来吃。",
+
+  "Inarizushi_name": "稻荷寿司",
+  "Inarizushi_description": "微甜的油炸豆腐皮里塞满米饭。",
+
+  "Hummus_name": "鹰嘴豆泥",
+  "Hummus_description": "打成泥的鹰嘴豆，常和皮塔饼一起吃。",
+
+  "HotSauce_name": "辣椒酱",
+  "HotSauce_description": "辣辣辣！",
+
+  "HotChocolate_name": "热巧克力",
+  "HotChocolate_description": "加了棉花糖的热可可，非常适合冷夜里喝。",
+
+  "HotandSourSoup_name": "酸辣汤",
+  "HotandSourSoup_description": "以醋为基底的汤，酸中带辣。",
+
+  "HoriatikiSalad_name": "希腊乡村沙拉",
+  "HoriatikiSalad_description": "用大量橄榄和醋调味的爽口沙拉。",
+
+  "Horchata_name": "欧洽塔米浆",
+  "Horchata_description": "把米打成绵密的甜坚果味“奶”。",
+
+  "HoneyWalnutShrimp_name": "蜜汁核桃虾",
+  "HoneyWalnutShrimp_description": "虾仁和核桃一起在蜂蜜里翻炒，再铺在米饭上。",
+
+  "HoneyCake_name": "蜂蜜蛋糕",
+  "HoneyCake_description": "只用纯蜂蜜调味的蛋糕。",
+
+  "HomemadePopcorn_name": "自制爆米花",
+  "HomemadePopcorn_description": "没有电影院卖的那种那么油。",
+
+  "HerbCheese_name": "香草奶酪酱",
+  "HerbCheese_description": "适合涂在面包或饼干上的香草乳酪。",
+
+  "HeartySautee_name": "活力炒菜",
+  "HeartySautee_description": "对你很有好处！",
+
+  "HasselbackPotatoes_name": "手风琴烤土豆",
+  "HasselbackPotatoes_description": "把土豆切成手风琴状，再和黄油一起烤。",
+
+  "HarGow_name": "虾饺",
+  "HarGow_description": "里头包了弹牙虾仁的蒸饺。",
+
+  "Hardtack_name": "硬饼干",
+  "Hardtack_description": "也叫船用饼干，干得几乎咬不动。",
+
+  "HardCandies_name": "硬糖",
+  "HardCandies_description": "甜甜的，又酸又香。",
+
+  "Halva_name": "哈瓦甜点",
+  "Halva_description": "用蜂蜜和芝麻酱做成的密实甜品，再加上碎枣。",
+
+  "Halloumi_name": "哈罗米烤奶酪",
+  "Halloumi_description": "在明火上烤的奶酪，咬下去会发出吱吱声！",
+
+  "Haleem_name": "哈里姆炖粥",
+  "Haleem_description": "用全谷物煮成的浓厚炖粥，上面再浇香草洋葱酱。",
+
+  "Gumdrops_name": "软糖豆块",
+  "Gumdrops_description": "有嚼劲但不是口香糖的糖果。",
+
+  "Gumbo_name": "秋葵浓海鲜汤",
+  "Gumbo_description": "极度辛辣的海鲜炖汤。",
+
+  "GulabJamun_name": "玫瑰糖球",
+  "GulabJamun_description": "炸好的面团球浸泡在甜甜的豆蔻糖浆里。",
+
+  "GroundnutStew_name": "花生炖汤",
+  "GroundnutStew_description": "以花生为主的汤，最后再淋一点花生油。",
+
+  "GrilledZucchini_name": "烤西葫芦",
+  "GrilledZucchini_description": "把西葫芦烤到刚刚好。",
+
+  "GrilledCheese_name": "烤芝士三明治",
+  "GrilledCheese_description": "永不过时的烤芝士夹心面包。",
+
+  "GreenPilaf_name": "绿色抓饭",
+  "GreenPilaf_description": "常常一大盘一起吃，用手抓着吃更有氛围。",
+
+  "GreenMachine_name": "绿色能量饮",
+  "GreenMachine_description": "这杯饮料会让你充满绿色的能量！",
+
+  "GreenFigandSaltfish_name": "青蕉咸鱼",
+  "GreenFigandSaltfish_description": "用未熟的香蕉（青蕉）搭配咸鱼和香料炒制。注意：里面其实没有无花果。",
+
+  "GreenCurry_name": "绿咖喱",
+  "GreenCurry_description": "新鲜青椒给了咖喱鲜亮的绿色。",
+
+  "GreenBeanCasserole_name": "青豆烤盘",
+  "GreenBeanCasserole_description": "砂锅里铺上豆角和酥脆洋葱圈一起烤。",
+
+  "Gravlax_name": "腌三文鱼片",
+  "Gravlax_description": "香草腌制的三文鱼，是诺斯的国民美食。",
+
+  "GrapeDumplings_name": "葡萄饺子",
+  "GrapeDumplings_description": "面团煮在热葡萄汁里一起端上桌。",
+
+  "GranolaBowl_name": "格兰诺拉水果碗",
+  "GranolaBowl_description": "一碗清爽的燕麦片加水果。",
+
+  "GrainPorridge_name": "杂粮粥",
+  "GrainPorridge_flavored": "%PRESERVED_DISPLAY_NAME 粥",
+  "GrainPorridge_description": "用多种谷物和牛奶煮成的简单粥品。",
+
+  "GrahamCracker_name": "全麦饼干",
+  "GrahamCracker_description": "到底谁是 Graham 呢？",
+
+  "GotoroCream_name": "哥托洛奶冻",
+  "GotoroCream_description": "在哥托洛帝国非常受欢迎，上面点缀了接骨木莓。",
+
+  "GooseberryCrumble_name": "醋栗酥皮派",
+  "GooseberryCrumble_description": "用野生小浆果做成的温热乡村风派。",
+
+  "GoldenStrands_name": "金丝甜点",
+  "GoldenStrands_description": "把蛋黄面糊细细拉进糖浆里煮成的金色细丝。",
+
+  "GoatCheeseSalad_name": "山羊奶酪沙拉",
+  "GoatCheeseSalad_description": "拌上碎奶酪和清爽油醋汁的沙拉。",
+
+  "GnocchialTartufo_name": "松露意式土豆团",
+  "GnocchialTartufo_description": "Q 弹的土豆团浸在浓郁奶油松露酱里。",
+
+  "Gingersnaps_name": "姜饼脆片",
+  "Gingersnaps_description": "广受欢迎的饼干零食，带一股生姜辣劲。",
+
+  "GingerbreadPeople_name": "姜饼小人",
+  "GingerbreadPeople_description": "他们脸上都画着糖霜笑容。",
+
+  "Gazpacho_name": "西班牙凉汤",
+  "Gazpacho_description": "用水分很足的蔬菜做成的冷汤，非常适合炎热的天气。",
+
+  "GarlicNaan_name": "蒜味烤饼",
+  "GarlicNaan_description": "在炙热的烤炉里烘烤出来的扁平面饼。",
+
+  "GarlicBread_name": "蒜香面包",
+  "GarlicBread_description": "涂满黄油和大蒜的面包，适合配正餐吃。",
+
+  "GalloPinto_name": "斑点公鸡饭",
+  "GalloPinto_description": "早餐吃的豆子拌饭！",
+
+  "Fungee_name": "玉米秋葵丸",
+  "Fungee_description": "把秋葵和玉米粉搅拌后做成一小团一小团。",
+
+  "Fufu_name": "富富薯团",
+  "Fufu_description": "把木薯捣成蓬松的面团，配上辣汤一起吃！",
+
+  "Fudge_name": "软糖块",
+  "Fudge_description": "尽量别把它“fudge”搞砸了。",
+
+  "FryBread_name": "油炸面饼",
+  "FryBread_description": "松软蓬松的炸面饼。",
+
+  "FruitTurnover_name": "莓果酥皮角",
+  "FruitTurnover_flavored": "%PRESERVED_DISPLAY_NAME 酥皮角",
+  "FruitTurnover_description": "包着水果馅的酥皮点心。",
+
+  "FruitSmoothie_name": "夏日冰沙",
+  "FruitSmoothie_flavored": "%PRESERVED_DISPLAY_NAME 冰沙",
+  "FruitSmoothie_description": "水果、牛奶和冰块一起打成香甜饮品！",
+
+  "FruitNectar_name": "果蜜",
+  "FruitNectar_flavored": "%PRESERVED_DISPLAY_NAME 果蜜",
+  "FruitNectar_description": "把捣碎的水果和蜂蜜一起调制而成。",
+
+  "FruitLeather_name": "水果卷皮",
+  "FruitLeather_description": "一大片摊平的水果泥，甜甜又有嚼劲。",
+
+  "Fruitcake_name": "水果蛋糕",
+  "Fruitcake_description": "密度大到你可以坐在上面当凳子。",
+
+  "FruitBar_name": "水果能量棒",
+  "FruitBar_description": "带水果味的野外便携干粮。",
+
+  "FrostedGrapes_name": "糖霜葡萄",
+  "FrostedGrapes_description": "把酸葡萄裹上一层厚厚的糖。",
+
+  "FriedTofu_name": "炸豆腐",
+  "FriedTofu_description": "深油炸过的豆腐，口感非常迷人。",
+
+  "FriedRice_name": "炒饭",
+  "FriedRice_description": "在高温油锅里翻炒的米饭，香味十足！",
+
+  "FriedPlantains_name": "炸大蕉",
+  "FriedPlantains_description": "把大蕉切片炸两遍。",
+
+  "FriedPickles_name": "炸酸黄瓜条",
+  "FriedPickles_description": "裹了面糊油炸的脆黄瓜条。",
+
+  "FriedOkra_name": "炸秋葵",
+  "FriedOkra_description": "外皮酥脆，里面还是嫩嫩多汁的秋葵。",
+
+  "FriedLotusRoot_name": "炸莲藕片",
+  "FriedLotusRoot_description": "莲藕切片和虾仁一起炸，形状也很好看。",
+
+  "FriedCheeseCurds_name": "炸芝士凝乳",
+  "FriedCheeseCurds_description": "咸香的奶酪小块炸到刚刚好。",
+
+  "Fondue_name": "芝士火锅",
+  "Fondue_description": "融化的奶酪，专门用来蘸小块食物。",
+
+  "Fluffernutter_name": "棉花糖花生酱三明治",
+  "Fluffernutter_description": "这种三明治的味道，很考验个人接受度。",
+
+  "FlowerHotpot_name": "花草火锅",
+  "FlowerHotpot_description": "用菊花叶和鱼煮成的清淡火锅。",
+
+  "FlatbreadPizza_name": "薄底披萨",
+  "FlatbreadPizza_description": "披萨，但底更薄。",
+
+  "Flan_name": "焦糖布丁",
+  "Flan_description": "柔滑的焦糖布丁。",
+
+  "FishStock_name": "鱼高汤",
+  "FishStock_description": "用金枪鱼熬成的鱼汤，是很多汤品的汤底。",
+
+  "FishnChips_name": "炸鱼薯条",
+  "FishnChips_description": "炸白肉鱼配薯条。",
+
+  "FishHeadCurry_name": "咖喱鱼头",
+  "FishHeadCurry_description": "鱼头在咖喱里慢炖，辣味十足又非常鲜。",
+
+  "FishAmok_name": "椰香鱼慕斯咖喱",
+  "FishAmok_description": "蒸到像慕斯一样绵密的咖喱鱼，再装进香蕉叶碗里。",
+
+  "FigToast_name": "无花果吐司",
+  "FigToast_description": "把无花果和烤山羊奶酪搭配在一起的奢华吐司。",
+
+  "FigCookies_name": "无花果饼干",
+  "FigCookies_description": "简单却让人停不下来的小点心。",
+
+  "FettuccineAlfredo_name": "阿尔弗雷多宽面",
+  "FettuccineAlfredo_description": "虽不正宗，却让人欲罢不能的奶油意面！",
+
+  "FernSalad_name": "蕨菜沙拉",
+  "FernSalad_description": "用野外采来的食材做成的新鲜沙拉！",
+
+  "Farofa_name": "木薯粉炒杂菜",
+  "Farofa_description": "用烤过的木薯粉和各种蔬菜炒成的干拌菜。",
+
+  "FarmersRamen_name": "农夫拉面",
+  "FarmersRamen_description": "朴素的拉面，以酱油味为主。",
+
+  "FancySushiPlatter_name": "豪华寿司拼盘",
+  "FancySushiPlatter_description": "摆得极其讲究的高档刺身拼盘。",
+
+  "Falafel_name": "炸豆丸子",
+  "Falafel_description": "用鹰嘴豆做成的油炸小丸子。",
+
+  "EverythingBagel_name": "综合口味贝果",
+  "EverythingBagel_description": "把所有能想到的配料都撒在上面的贝果。",
+
+  "Etouffee_name": "炖虾浇饭",
+  "Etouffee_description": "秋葵浓酱炖小龙虾，再配白米饭。",
+
+  "Enchiladas_name": "墨西哥卷饼",
+  "Enchiladas_description": "把奶酪包进玉米饼里，再浇上辣酱烤制。",
+
+  "EgusiSoup_name": "瓜子浓汤",
+  "EgusiSoup_description": "以烤过的南瓜籽和葫芦籽做成的咸香汤品。",
+
+  "EggyCurry_name": "蛋香海鲜咖喱炒",
+  "EggyCurry_description": "带微甜味的海鲜炒菜，裹着柔和蛋香咖喱酱。",
+
+  "EggTarts_name": "蛋挞",
+  "EggTarts_description": "香甜的葡式蛋挞或其他蛋挞，刚出炉的时候最好吃！",
+
+  "FluffyEggSandwich_name": "松软蛋沙拉三明治",
+  "FluffyEggSandwich_description": "蛋块从三明治边缘不断掉出来。",
+
+  "EggSalad_name": "蛋沙拉",
+  "EggSalad_description": "把鸡蛋捣碎后混合调味料和酱汁。",
+
+  "Eggnog_name": "蛋酒",
+  "Eggnog_description": "顺带一提，并不是所有蛋酒都有酒精。",
+
+  "EggFooYoung_name": "芙蓉蛋",
+  "EggFooYoung_description": "油煎蔬菜蛋饼，再浇上酱汁。",
+
+  "EelPie_name": "鳗鱼派",
+  "EelPie_description": "掰开后是黏滑滑的惊喜。",
+
+  "EelBowl_name": "鳗鱼饭",
+  "EelBowl_description": "烤鳗鱼刷上酱汁，铺在一碗热腾腾的米饭上。",
+
+  "Edamame_name": "毛豆",
+  "Edamame_description": "连荚一起蒸煮的毛豆，撒上一点盐。",
+
+  "Eclair_name": "闪电泡芙",
+  "Eclair_description": "柔软又夹着奶油，是吕泰斯地区很受欢迎的甜点。",
+
+  "DurianCrispies_name": "榴莲脆片",
+  "DurianCrispies_description": "像薯片一样，但味道更浓郁厚重。",
+
+  "DrunkardsNoodles_name": "醉鬼炒面",
+  "DrunkardsNoodles_description": "辣椒放得够多，绝对让你瞬间清醒！",
+
+  "DragonRoll_name": "龙卷寿司",
+  "DragonRoll_description": "鳗鱼卷上海苔和米饭，再铺上牛油果。",
+
+  "Donut_name": "甜甜圈",
+  "Donut_description": "嗯……甜甜圈。",
+
+  "Dolmas_name": "葡萄叶卷",
+  "Dolmas_description": "葡萄叶里塞满米饭和其他馅料。",
+
+  "DeviledEggs_name": "魔鬼蛋",
+  "DeviledEggs_description": "太好吃了，很容易一口气吃太多！",
+
+  "Dango_name": "团子",
+  "Dango_description": "串在签子上的糯米团子。",
+
+  "DalTadka_name": "香料扁豆汤",
+  "DalTadka_description": "加入咖喱香料的扁豆汤，配上许多调味！",
+
+  "Daifuku_name": "大福",
+  "Daifuku_description": "裹着红豆馅和一颗草莓的年糕。",
+
+  "CurryPowder_name": "咖喱粉",
+  "CurryPowder_description": "世界各地料理都会用到的重要香料混合物。",
+
+  "Cupcakes_name": "杯子蛋糕",
+  "Cupcakes_description": "迷你小蛋糕！",
+
+  "CucumberSandwich_name": "黄瓜三明治",
+  "CucumberSandwich_description": "清清爽爽、非常朴素的三明治。",
+
+  "CucumberRoll_name": "黄瓜卷寿司",
+  "CucumberRoll_description": "有点像素食版卷寿司。",
+
+  "CucumberKimchi_name": "黄瓜泡菜",
+  "CucumberKimchi_description": "简单快腌的小菜。",
+
+  "CrumbCake_name": "碎碎酥顶蛋糕",
+  "CrumbCake_description": "秋季蛋糕，上面铺满糖粒酥皮。",
+
+  "Croquette_name": "可乐饼",
+  "Croquette_description": "油炸土豆丸，是绝佳的零食。",
+
+  "Croissant_name": "牛角面包",
+  "Croissant_description": "层层酥皮卷成新月形的面包。",
+
+  "CritterFritter_name": "神秘小动物炸饼",
+  "CritterFritter_description": "这真的能吃吗？那可真神奇！",
+
+  "CrispyRiceBowl_name": "脆米饭碗",
+  "CrispyRiceBowl_description": "一碗丰盛的脆米饭配鱼和新鲜蔬菜。",
+
+  "CremeBrulee_name": "焦糖烤布蕾",
+  "CremeBrulee_description": "吕泰斯地区以这种轻微炙烤的甜点而闻名。",
+
+  "CreamStew_name": "奶油炖菜",
+  "CreamStew_description": "放了大量蔬菜和鲜奶油的经典炖汤。",
+
+  "CreamPuff_name": "奶油泡芙",
+  "CreamPuff_description": "里面塞满甜甜的奶油馅。",
+
+  "CreamedCorn_name": "奶油玉米糊",
+  "CreamedCorn_description": "把玉米粒打成泥煮成奶油汤。",
+
+  "CreamCheese_name": "奶油奶酪",
+  "CreamCheese_description": "最柔软的奶酪之一，经常当作涂抹酱或夹心。",
+
+  "CrabRoll_name": "蟹肉卷寿司",
+  "CrabRoll_description": "经典的寿司融合卷，假蟹肉可不够格。",
+
+  "CrabRangoons_name": "蟹角馄饨",
+  "CrabRangoons_description": "蟹肉碎和奶油奶酪包成的炸云吞，宛如儿时记忆里的味道。",
+
+  "CrabDip_name": "蟹肉蘸酱",
+  "CrabDip_description": "为薯片准备的绵密海鲜蘸酱。",
+
+  "CrabandCallaloo_name": "蟹肉卡拉卢",
+  "CrabandCallaloo_description": "螃蟹、绿叶菜和芋头叶一起在奶香汤中慢慢炖煮。",
+
+  "Couscous_name": "蒸粗麦粉",
+  "Couscous_description": "细小的面粒加上饱满蔬菜。",
+
+  "CottonCandy_name": "棉花糖云",
+  "CottonCandy_description": "糖丝旋成一小朵天堂云！",
+
+  "CottageBreakfast_name": "乡间早餐",
+  "CottageBreakfast_description": "奶酪、裹糖橙片和蘑菇香肠伴你开启新的一天。",
+
+  "CornMush_name": "玉米糊",
+  "CornMush_description": "用玉米粉煮成的粥，再在杜松灰里烤制。",
+
+  "Cornbread_name": "玉米面包",
+  "Cornbread_description": "任何家庭聚会都少不了的一道饱腹配菜。",
+
+  "Colcannon_name": "甘蓝土豆泥",
+  "Colcannon_description": "土豆泥里还带着爽脆菜叶。",
+
+  "CoffeeCake_name": "咖啡蛋糕",
+  "CoffeeCake_description": "松散的蛋糕内部藏着浓郁咖啡香气。",
+
+  "CoconutShrimp_name": "椰香虾",
+  "CoconutShrimp_description": "虾裹上椰丝煎炸，再配椰奶酱。",
+
+  "CoconutFish_name": "椰奶生鱼",
+  "CoconutFish_description": "用椰奶泡着生鱼片，再撒上一点高汤粉。",
+
+  "CoastalFeast_name": "海岸盛宴",
+  "CoastalFeast_description": "熏烤的沙丁鱼配上在海滩附近采来的各种食材。",
+
+  "ClayPotNoodles_name": "砂锅面",
+  "ClayPotNoodles_description": "在陶锅里烟熏煮成的咸香面条。",
+
+  "Clafoutis_name": "法式果馅烤布丁",
+  "Clafoutis_description": "把地樱桃铺在浓稠面糊里再烤制。",
+
+  "CinnamonRoll_name": "肉桂卷",
+  "CinnamonRoll_description": "刚从烤箱里出来的旋转糖霜面包。",
+
+  "Cinderdoodles_name": "灰烬曲奇",
+  "Cinderdoodles_description": "在本地人当中相当有人气。",
+
+  "Churros_name": "吉拿棒",
+  "Churros_description": "炸好的长条面团，里面塞满牛奶焦糖。",
+
+  "RusticChorba_name": "乡村乔巴汤",
+  "RusticChorba_description": "带一点辛香的浓郁蔬菜汤。",
+
+  "ChocolateTruffles_name": "巧克力松露",
+  "ChocolateTruffles_description": "外层是巧克力壳，里面是顺滑内馅。",
+
+  "ChocolatePudding_name": "巧克力布丁",
+  "ChocolatePudding_description": "童年最喜欢的甜点之一。",
+
+  "ChocolateLavaCake_name": "熔岩巧克力蛋糕",
+  "ChocolateLavaCake_description": "内部有熔化巧克力的蛋糕，趁热吃最棒！",
+
+  "ChocolateCoveredStrawberry_name": "巧克力草莓",
+  "ChocolateCoveredStrawberry_description": "离幸福只差一步！",
+
+  "ChocolateBanana_name": "巧克力香蕉",
+  "ChocolateBanana_description": "冰镇香蕉浇上会变硬的巧克力外衣。",
+
+  "Chocolate_name": "巧克力",
+  "Chocolate_description": "奢侈又迷人的味道！",
+
+  "ChipsandSalsa_name": "玉米片配莎莎酱",
+  "ChipsandSalsa_description": "派对上必备的莎莎酱和玉米片。",
+
+  "ChipsandGuacamole_name": "玉米片配鳄梨酱",
+  "ChipsandGuacamole_description": "柔滑顺口的鳄梨蘸酱。",
+
+  "ChipaGuasu_name": "玉米奶酪布丁",
+  "ChipaGuasu_description": "甜玉米和奶酪，口感类似面包布丁。",
+
+  "ChilledTofu_name": "凉拌豆腐",
+  "ChilledTofu_description": "冰镇豆腐切片，淋上酱油和葱花。",
+
+  "SourCherryPie_name": "酸樱桃派",
+  "SourCherryPie_description": "用榛子粉做皮，里面填满软糯的酸樱桃。",
+
+  "ChefSalad_name": "主厨沙拉",
+  "ChefSalad_description": "主厨亲自挑选的沙拉组合。",
+
+  "CheezieCurlz_name": "芝士卷卷条",
+  "CheezieCurlz_description": "别吃太多，不然手指都会变成橙色的。",
+
+  "CheeseRamen_name": "芝士拉面",
+  "CheeseRamen_description": "你会在拉面上撒奶酪吗？",
+
+  "CheeseFries_name": "芝士薯条",
+  "CheeseFries_description": "一整篮都浇满了奶酪的薯条！",
+
+  "Cheesecake_name": "芝士蛋糕",
+  "Cheesecake_description": "把奶油奶酪打到更加细腻柔滑的境界。",
+
+  "CheeseBoard_name": "芝士拼盘",
+  "CheeseBoard_description": "完美的派对小食！",
+
+  "Champurrado_name": "巧克力玉米饮",
+  "Champurrado_description": "加了巧克力的玉米粉热饮。",
+
+  "Ceviche_name": "酸橘汁腌鱼",
+  "Ceviche_description": "新鲜生鱼浸在柑橘汁和辣椒中腌制。",
+
+  "CenturyCongee_name": "皮蛋瘦肉粥",
+  "CenturyCongee_description": "米粥，在你生病时尤其暖胃！",
+
+  "Castella_name": "长崎蛋糕",
+  "Castella_description": "轻盈蓬松的蛋糕，非常经典！",
+
+  "CassavaCake_name": "木薯糕",
+  "CassavaCake_description": "好吃又像布丁，表面还可以撒上奶酪！",
+
+  "Cassata_name": "卡萨塔蛋糕",
+  "Cassata_description": "海绵蛋糕上铺满蜜饯水果，是南部里亚利亚的名点。",
+
+  "SpicedCarrotCake_name": "香料胡萝卜蛋糕",
+  "SpicedCarrotCake_description": "任何餐桌都适合的一款春季香料蛋糕！",
+
+  "Carpaccio_name": "鱼肉薄片",
+  "Carpaccio_description": "把鱼肉敲打成薄片生食。",
+
+  "CaramelizedOnions_name": "焦糖洋葱",
+  "CaramelizedOnions_description": "慢慢煮上好几个小时，才能把甜味逼出来。",
+
+  "CaramelizedBananas_name": "焦糖香蕉",
+  "CaramelizedBananas_description": "裹着糖的香蕉在黄油中翻炒。",
+
+  "CaramelEgg_name": "焦糖夹心巧克力蛋",
+  "CaramelEgg_description": "一颗巧克力蛋里藏着焦糖惊喜。",
+
+  "CaramelApple_name": "焦糖苹果",
+  "CaramelApple_description": "把苹果浸在热焦糖里做成的甜点。",
+
+  "Caramel_name": "焦糖",
+  "Caramel_description": "黄油味浓厚的甜焦糖，常用在糖果和点心中。",
+
+  "CapraeSalad_name": "山羊奶酪番茄沙拉",
+  "CapraeSalad_description": "味道完美融合的一道沙拉！吃完你会感觉好多了，真是不可思议。",
+
+  "Caponata_name": "茄子杂烩",
+  "Caponata_description": "切碎的茄子油炸后拌成的热乎乎配菜。",
+
+  "Cannoli_name": "卡诺里甜卷",
+  "Cannoli_description": "脆皮卷里塞满了瑞可塔奶酪和巧克力碎。",
+
+  "CandyCorn_name": "玉米糖",
+  "CandyCorn_description": "名字虽然叫“玉米”，但绝不会长在玉米棒上。",
+
+  "CandyApple_name": "糖壳苹果",
+  "CandyApple_description": "一整颗苹果裹上一层红色糖壳。",
+
+  "CandiedPineapple_name": "糖渍菠萝圈",
+  "CandiedPineapple_description": "甜甜的菠萝圈，口感有点嚼劲。",
+
+  "CandiedOrangePeel_name": "糖渍橙皮",
+  "CandiedOrangePeel_description": "薄薄的橙皮被甜味浸透，再撒上糖粉。",
+
+  "CandiedCherries_name": "糖渍樱桃",
+  "CandiedCherries_description": "用糖浸透的小樱桃。",
+
+  "CandiedAlmonds_name": "糖衣杏仁",
+  "CandiedAlmonds_description": "每一颗坚果外面都有一层甜甜的糖衣。",
+
+  "CalicoBar_name": "拼色巧克力条",
+  "CalicoBar_description": "椰子和威化饼底上铺了巧克力甘纳许和奶油冻。",
+
+  "CaldodeCamaron_name": "虾汤",
+  "CaldodeCamaron_description": "放了许多辣椒的浓郁虾汤。",
+
+  "CakePops_name": "蛋糕棒棒糖",
+  "CakePops_description": "一口一个刚刚好。",
+
+  "CacioePepe_name": "奶酪黑胡椒面",
+  "CacioePepe_description": "里亚利亚传统意面，只靠面条、奶酪和黑胡椒这三样食材。",
+
+  "CabbageRoll_name": "包菜卷",
+  "CabbageRoll_description": "把馅料裹在白菜叶里，再放进番茄酱中炖煮。",
+
+  "Butterscotch_name": "奶油太妃糖",
+  "Butterscotch_description": "温暖、黄油味浓厚又甜蜜的糖果！",
+
+  "ButternutSquashSoup_name": "奶油南瓜汤",
+  "ButternutSquashSoup_description": "滑顺又带着黄油香。",
+
+  "ButtermilkSoup_name": "酪奶面包汤",
+  "ButtermilkSoup_description": "用酪奶和烤脆面包丁煮成的甜汤。",
+
+  "ButterCake_name": "黄油蛋糕",
+  "ButterCake_description": "用大量黄油和糖做成的厚实奶香蛋糕。",
+
+  "BrownSugar_name": "红糖",
+  "BrownSugar_description": "其实就是砂糖里混了糖蜜，让味道更浓郁。",
+
+  "Brownie_name": "布朗尼",
+  "Brownie_description": "中间那块是最浓郁的巧克力精华。",
+
+  "Broth_name": "清汤",
+  "Broth_description": "在你打冷战的时候，这碗汤能把你从里到外暖起来。",
+
+  "BroccoliCheeseSoup_name": "西兰花芝士汤",
+  "BroccoliCheeseSoup_description": "简单的汤，只要一点西兰花和很多很多奶酪。",
+
+  "BroccoliandCheese_name": "芝士西兰花",
+  "BroccoliandCheese_description": "在厚厚的奶酪下面，很难找到那一点点西兰花。",
+
+  "BreakfastScramble_name": "早餐炒豆腐",
+  "BreakfastScramble_description": "把豆腐、蘑菇和牛油果炒到松松软软。",
+
+  "BreakfastCereal_name": "早餐麦片",
+  "BreakfastCereal_description": "你每天例行的高糖麦片。",
+
+  "BreadSoup_name": "面包汤",
+  "BreadSoup_description": "把剩面包和高汤、蔬菜一起煮成的料理。",
+
+  "BreadPudding_name": "面包布丁",
+  "BreadPudding_description": "有点黏黏的，但非常甜。",
+
+  "BouquetCrepe_name": "花束可丽饼",
+  "BouquetCrepe_description": "装满可食用花朵的花束形可丽饼，美到让人不舍得下口。",
+
+  "Bouillabaisse_name": "马赛鱼汤",
+  "Bouillabaisse_description": "加入许多蔬菜的丰盛海鲜汤。",
+
+  "Borsch_name": "红菜汤",
+  "Borsch_description": "用甜菜根做成的汤，味道很特别。",
+
+  "Borek_name": "土耳其千层饼",
+  "Borek_description": "酥皮里塞满土豆泥和辣椒粉。",
+
+  "BoiledPeanuts_name": "水煮花生",
+  "BoiledPeanuts_description": "咸咸的简单小零食。",
+
+  "Blini_name": "俄式薄饼",
+  "Blini_description": "薄薄的煎饼，上面放奶油奶酪和鱼子酱。",
+
+  "BlackSoup_name": "黑汤",
+  "BlackSoup_description": "来自上古战士社会的一种古老汤品，如今做法几乎失传。",
+
+  "BlackenedFish_name": "黑椒烤鱼",
+  "BlackenedFish_description": "嫩鱼裹上厚厚一层香料煎到焦香。",
+
+  "Biscuit_name": "烤饼",
+  "Biscuit_description": "松散的面包小圆饼，可别把它和饼干搞混了。",
+
+  "Biscotti_name": "意式脆饼",
+  "Biscotti_description": "干硬的饼干，特别适合搭配咖啡。",
+
+  "Bibimbap_name": "石锅拌饭",
+  "Bibimbap_description": "石锅会让这碗舒心的拌饭一直保持炙热。",
+
+  "Beyaynetu_name": "拼盘手抓大餐",
+  "Beyaynetu_description": "配上扁面饼和一堆小菜的丰盛餐点。",
+
+  "BearCandy_name": "熊之糖",
+  "BearCandy_description": "把糖浆和捣碎的浆果倒在新雪上做成的糖点。",
+
+  "BeanQuesadilla_name": "豆子起司馅饼",
+  "BeanQuesadilla_description": "把奶酪和黑豆夹在饼里煎到酥脆。",
+
+  "BeanChili_name": "豆肉辣酱",
+  "BeanChili_description": "配上一块玉米面包就完美了。",
+
+  "BeanBurger_name": "豆子汉堡",
+  "BeanBurger_description": "素食者的看家本领！",
+
+  "Bazin_name": "巴津炖饼",
+  "Bazin_description": "无酵大麦面团和水煮蛋泡在番茄汤里。",
+
+  "Baumkuchen_name": "年轮蛋糕",
+  "Baumkuchen_description": "一层层在转轴上烤出来的蛋糕！",
+
+  "BanoffeePie_name": "香蕉太妃派",
+  "BanoffeePie_description": "把香蕉和太妃糖一起变成绵密馅料。",
+
+  "Bannock_name": "乡村烤饼",
+  "Bannock_description": "简单结实的烤饼，抹上果酱最好吃。",
+
+  "BanhMi_name": "越南法棍",
+  "BanhMi_description": "夹满新鲜蔬菜和腌菜的长条三明治。",
+
+  "BangaRice_name": "棕榈汁米饭",
+  "BangaRice_description": "用棕榈果汁煮的半熟米饭。",
+
+  "BananaCurry_name": "香蕉咖喱",
+  "BananaCurry_description": "片片香蕉裹上辛辣浓郁的椰奶咖喱酱。",
+
+  "BananaBread_name": "香蕉面包",
+  "BananaBread_description": "浓郁湿润的口感！",
+
+  "Baklava_name": "果仁蜜饼",
+  "Baklava_description": "层层菲罗酥皮上浇满蜂蜜和时令坚果。",
+
+  "BakedSweetPotato_name": "烤红薯",
+  "BakedSweetPotato_description": "简单的烤红薯，在寒冷的日子里非常好吃！",
+
+  "BakedPotato_name": "烤土豆",
+  "BakedPotato_description": "里面烫得像岩浆一样。",
+
+  "BakedBeans_name": "烤豆子",
+  "BakedBeans_description": "只差一片烤面包就能更完美。",
+
+  "BakedApple_name": "烤苹果",
+  "BakedApple_description": "只要把苹果放进烤箱里烤一烤就行！",
+
+  "Bacalaitos_name": "炸咸鳕鱼饼",
+  "Bacalaitos_description": "酥脆的炸鳕鱼饼配蒜味蛋黄酱，非常咸！",
+
+  "BabaGhanoush_name": "茄子酱",
+  "BabaGhanoush_description": "烤茄子和芝麻酱、橄榄油以及调味料一起打成泥。",
+
+  "AvocadoToast_name": "牛油果吐司",
+  "AvocadoToast_description": "你就是不懂它的美味！",
+
+  "AutumnMuffin_name": "秋日松饼",
+  "AutumnMuffin_description": "奢华的松饼，顶部撒着糖粉。",
+
+  "AutumnCasserole_name": "秋收烤盘",
+  "AutumnCasserole_description": "用秋季蔬菜做成的饱腹烤菜。",
+
+  "Atole_name": "玉米香料热饮",
+  "Atole_description": "细玉米糊加上肉桂和香草煮成的浓稠饮料。",
+
+  "AsparagusDelight_name": "芦笋轻盈餐",
+  "AsparagusDelight_description": "比起大鱼大肉更健康的选择。",
+
+  "ArmoredTurnips_name": "铠甲大头菜",
+  "ArmoredTurnips_description": "把大块大头菜切片之后，做成奶油焗菜。",
+
+  "Arepas_name": "奶酪玉米饼",
+  "Arepas_description": "玉米粉加奶酪，完美组合！",
+
+  "CinnamonApplePie_name": "肉桂苹果派",
+  "CinnamonApplePie_description": "再配上一球冰淇淋就更棒了。",
+
+  "AppleCider_name": "苹果汽水",
+  "AppleCider_description": "带气泡的饮料，喝起来满满都是秋天味道。",
+
+  "AntsonaLog_name": "小蚂蚁爬树",
+  "AntsonaLog_description": "简单好做的小零食，轻盈又有点咸香。",
+
+  "AnimalCrackers_name": "动物饼干",
+  "AnimalCrackers_description": "动物饼干在我汤里，猴子和兔子绕来绕去。",
+  
+  "AncientWonder_name": "远古奇馐",
+  "AncientWonder_description": "罕见的鱼配上水果和古老配方的酱汁，味道相当冲。",
+
+  "AnchovyPizza_name": "凤尾鱼披萨",
+  "AnchovyPizza_description": "咸咸又甜甜的披萨，再用大量奶酪平衡味道。",
+
+  "Ambrosia_name": "仙馐沙拉",
+  "Ambrosia_description": "把鲜奶油、酸味水果和棉花糖混在一起的甜品。",
+
+  "AloeCooler_name": "芦荟冰爽饮",
+  "AloeCooler_description": "口感有点稠，却又甜又清爽！",
+
+  "Alfajores_name": "阿法霍雷斯饼干",
+  "Alfajores_description": "夹着牛奶焦糖的轻盈夹心饼。",
+
+  "Alegria_name": "蜂蜜籽棒",
+  "Alegria_description": "用蜂蜜把各种种子粘在一起做成的能量棒。",
+
+  "Akara_name": "豆丸炸饼",
+  "Akara_description": "用去皮豆子和辣椒做成的油炸丸子。",
+
+  "AcornBread_name": "橡实面包",
+  "AcornBread_description": "吃起来暖洋洋的。",
+
+  "Acorda_name": "香草面包粥",
+  "Acorda_description": "面包加高汤煮成粥，再配上水煮蛋和大量香草。",
+
+  "RecipeinaBottle_name": "瓶中食谱",
+  "RecipeinaBottle_description": "里面藏着什么？",
+
+  "LostPage_name": "遗失的书页",
+  "LostPage_description": "从旧食谱书上撕下的一页，有人正在寻找它。",
+
+  "RecipeinaBottle_Used": "你已经学会所有瓶中食谱了。",
+  "RecipeinaBottle_Found": "你找到了一张“瓶中食谱”！使用这个物品来解锁一份新的料理配方。"，
+
+
+	"Ingredient_EggAny": "鸡蛋（任意）",
+	"Ingredient_MilkAny": "牛奶（任意）",
+	"Ingredient_CheeseAny": "奶酪（任意）",
+	"Ingredient_ChiliAny": "辣椒（任意）",
+	"Ingredient_SoftCheeseAny": "软奶酪（任意）",
+	"Ingredient_ButterAny": "黄油（任意）",
+	"Ingredient_FlourAny": "面粉（任意）",
+	"Ingredient_FishAny": "鱼（非蟹笼鱼）",
+	"Ingredient_VegetableAny": "蔬菜（任意）",
+	"Ingredient_FruitAny": "水果（任意）",
+	"Ingredient_EdibleFlowerAny": "可食用花（任意）",
+	"Ingredient_EdibleMushroomAny": "可食用蘑菇（任意）",
+	"Ingredient_LeafyGreenAny": "叶菜类（任意）",
+	"Ingredient_RootVegetableAny": "根茎类蔬菜（任意）",
+	"Ingredient_NutButterAny": "坚果酱（任意）",
+	"Ingredient_YogurtAny": "酸奶（任意）",
+	"Ingredient_MayonnaiseAny": "蛋黄酱（任意）",
+	"Ingredient_GrainAny": "谷物（任意）",
+	"Ingredient_BeanAny": "豆类（任意）",
+	"Ingredient_HerbAny": "香草（任意）",
+	"Ingredient_CandiedFruitAny": "蜜饯水果（任意）",
+	"Ingredient_OilAny": "食用油（任意）",
+	"Ingredient_GrapeAny": "葡萄（任意）",
+	"Ingredient_MeatAny": "肉或豆腐（任意）",
+	"Ingredient_RoseAny": "玫瑰（任意）",
+	"Ingredient_SugarAny": "糖（任意）",
+	
+	"RecipeBook_description": "一本来自世界遥远角落的食谱合集。",
+	"RecipeBook_Breakfast_name": "食谱书：世界各地的早餐",
+	"RecipeBook_Dessert_name": "食谱书：蛋糕、曲奇与甜点",
+	"RecipeBook_ComfortFood_name": "食谱书：安慰食物与家常菜",
+	"RecipeBook_SnackFood_name": "食谱书：零食与街头小吃",
+	"RecipeBook_Woodland_name": "食谱书：迷雾林地",
+	"RecipeBook_Mountain_name": "食谱书：群峰低语",
+	"RecipeBook_InlandSea_name": "食谱书：弦月之海",
+	"RecipeBook_Delta_name": "食谱书：金色三角洲",
+	"RecipeBook_Highland_name": "食谱书：高地与低地",
+	"RecipeBook_Archipelago_name": "食谱书：宝石之海群岛",
+	"RecipeBook_Northern_name": "食谱书：北方原野",
+	"RecipeBook_Savanna_name": "食谱书：落日草原",
+	"RecipeBook_Learned": "你学会了新的烹饪食谱！",
+	"RecipeBook_Repeat": "你已经学会了这本书里的所有食谱。",
+	
+	"PaperHat_name": "纸帽子…？",
+	"PaperHat_description": "一堆揉皱的纸，被堆成大致像帽子的形状。你要拆开看看吗？",
+	"CrumpledHat_name": "皱巴巴的帽子",
+	"CrumpledHat_description": "一堆揉皱的纸，被堆成大致像帽子的形状。",
+	"QoSHat_name": "酱汁女王的帽子",
+	"QoSHat_description": "它怎么会出现在这里？",
+	
+	"Chef_name_ML": "神秘女士",
+	"Chef_name_QoS": "酱汁女王",
+	"ChefShop_dialogue.1": "你有我丢失的书页吗？有的话就把它装订进我的书里！",
+	"ChefShop_dialogue.2": "这些食材在山谷里的其他地方可找不到！",
+	"ChefShop_dialogue.3": "我会亲自打磨每一道食谱，确保它们每次都能完美出炉。",
+	"ChefShop_dialogue.4": "我的人生哲学是：『任何人都可以当厨师，只要……』嗯，后半句我还在打磨，不过也许短一点更有味道。",
+	"ChefShop_dialogue.5": "年轻时我可是个大冒险家。现在嘛，这一身老骨头不比从前了。",
+	"ChefShop_dialogue.6": "你有听本周电台里播了些什么吗？",
+	
+	"ChefShop_hint.1": "我敢说我看到有一页掉在附近了。希望它没有挂到树上，更别说被什么林地小动物叼回家了。",
+	"ChefShop_hint.2": "幸好我的旅行笔记是防水的。有些纸页肯定是漂到水里去了。",
+	"ChefShop_hint.3": "希望别的人没有捡到我的书页。在他们眼里，那可能只是一张垃圾纸。",
+	"ChefShop_hint.4": "我记得在坠落到这里之前，我曾飞过一片沙漠山谷。不知道那干燥的风会不会也把书页卷走一张？",
+	
+	"Chef_dialogue.FoundLostPageToday": "你找到我的一页遗失手稿了！给我一点时间，我马上把这一章唰唰唰整理好，寄到你的信箱里！",
+	"Chef_dialogue.GreenRain": "我踏遍世界上最偏远的角落，这么多年，从没见过这种风暴！真是难以置信！",
+	
+	"Chef_dialogue.Intro.a": "哎呀，你好呀！你是这个小镇的本地人吗？",
+	"Chef_dialogue.Intro.b": "有点丢脸，不过我在附近弄丢了几页非常重要的手稿。",
+	"Chef_dialogue.Intro.c": "我正在写书，你看。如果你能帮我找回这些「遗失书页」，我会免费送你一本签名书！",
+	"Chef_dialogue.Intro.d": "签名？我可不会随便送签名的！",
+	
+	"Chef_dialogue.Daily.1a": "你问我那些书页是怎么丢的？这么说吧……",
+	"Chef_dialogue.Daily.1b": "……热气球可不是交换刀具的好地方。",
+	
+	"Chef_dialogue.Daily.2a": "你找到我的书页了吗？要是找到了，你可以把它装订进旁边那本书里。一旦我能把缺页补上，就会把完整的一章寄给你。",
+	"Chef_dialogue.Daily.2b": "哦对了，我在写一本烹饪书！要收录世界各地的菜肴……这真的是我的毕生代表作。",
+	"Chef_dialogue.Daily.2c": "嗯，等真正完成之后才算数啦。",
+	
+	"Chef_dialogue.Daily.3a": "你和我的旅行同伴聊过了吗？我在山谷里找书页的时候，她好心让我把摊子挂在她的马车上。",
+	"Chef_dialogue.Daily.3b": "我们可是老相识了。啊，不过我们当年在……算了，不重要。",
+	
+	"Chef_dialogue.Daily.4a": "因为工作原因，我经常到处旅行。好处之一就是我总能带着独特的新鲜食材！",
+	"Chef_dialogue.Daily.4b": "我很乐意把它们卖给你……当然是要收一点费用的。有些食材可是拿命换来的！",
+	
+	"Mail_QoSBook_body": "随信附上的是我最新一章食谱的抢先版——聊表谢意。仅供你赏阅！^^祝你烹饪愉快！",
+	"Mail_QoSBook_title": "神秘女士的食谱书",
+	
+	"ReturnPage_text": "你上交了一页遗失手稿。",
+	"DuplicatePage_text": "很遗憾，这是一页重复的手稿。还是扔掉吧！",
+	
+	//Chef says one of these quest lines when turning in a quest item. DON'T TRANSLATE DIRECTLY.
+	//Ideally pick some global phrases for 'thanks' or related to cheers for eating or drinking. You can also copy stuff, doesn't have to have 12 unique things.
+	"ReturnPageSpeechBubble_1": "太棒了！",
+	"ReturnPageSpeechBubble_2": "好极了！",
+	"ReturnPageSpeechBubble_3": "真不错！",
+	"ReturnPageSpeechBubble_4": "完美！",
+	"ReturnPageSpeechBubble_5": "万岁！",
+	"ReturnPageSpeechBubble_6": "多谢啦！",
+	"ReturnPageSpeechBubble_7": "开动啦！",
+	"ReturnPageSpeechBubble_8": "祝你好胃口！",
+	"ReturnPageSpeechBubble_9": "谢谢！",
+	"ReturnPageSpeechBubble_10": "非常感谢！",
+	"ReturnPageSpeechBubble_11": "太给力了！",
+	"ReturnPageSpeechBubble_12": "感激不尽！",
+	
+	"DriedFruit_name": "果干",
+	"DriedMushrooms_name": "干蘑菇",
+	"SmokedFish_name": "熏鱼",
+	
+	"BakedPotato_altname": "稀有土豆",
+	"GrilledCheese_altname": "芝士热融吐司",
+	"Croissant_altname": "早餐可颂",
+	
+	"VegetablePotPie_altname": "蔬菜锅饼派",
+	"FruitTurnover_altname": "水果酥饼",
+	"FruitSmoothie_altname": "水果冰沙",
+	
+	"CornFlour_name": "玉米粉",
+	"CornFlour_description": "用磨碎的玉米制成的烹饪材料。",
+	"WheatNoodles_name": "小麦面条",
+	"WheatNoodles_description": "一捆筋道的面条，可用于多种料理。",
+	"SeaSalt_name": "海盐",
+	"SeaSalt_description": "一块直接来自海洋的岩盐。",
+	"Salt_name": "盐罐",
+	"Salt_description": "装满盐晶的小研磨罐。",
+	
+	"Mail_AbigailRecipe_body": "嗨，@，^我知道你一直乐于尝试新东西，所以觉得你应该也会喜欢这道食谱。我把配方写在下面，还附了一些小技巧，帮你做得更完美。要是试了记得告诉我感想！^   ——阿比盖尔",
+	"Mail_AbigailRecipe_title": "阿比盖尔的食谱",
+	"Mail_AbigailTiramisu_body": "最近好吗，@？^你前几天说的话让我想起了这个。你吃过提拉米苏吗？是啊，这东西对酒馆那种地方来说太讲究了，不过谁说你不能在家里试着做呢？它又甜又软，入口即化！^而且，我听说你厨艺不赖。如果有人能做好这道甜点，我赌那个人就是你。^   ——阿比盖尔",
+	"Mail_AbigailTiramisu_title": "阿比盖尔的提拉米苏",
+	
+	"Mail_AlexRecipe_body": "@：^这道菜能帮你保持精力充沛，随时应对一天里发生的一切。它是我的最爱之一。希望你也会喜欢！^   ——阿莱克斯",
+	"Mail_AlexRecipe_title": "阿莱克斯的食谱",
+	"Mail_AlexOmurice_body": "嘿，农夫！^你知道我今天早上在馋什么吗？一大份蛋白质炸弹！^……好吧，其实我每天都在吃鸡蛋。但你看看这个！蛋包饭里面可有炒饭呢。事实上，你也应该试试！你得变得更强，才算是我在镇上真正的对手。总之，明天一起出去走走？^   ——阿莱克斯",
+	"Mail_AlexOmurice_title": "阿莱克斯的蛋包饭",
+	
+	"Mail_CarolineVegetablePotPie_body": "亲爱的 @：^^希望你的农场一切顺利！如果你还有多余的根茎类蔬菜，我有一道完美适合它们的食谱。这里是做一份特别饱腹的锅饼派的步骤。有空一定要试试哦！^^   ——卡洛琳",
+	"Mail_CarolineVegetablePotPie_title": "卡洛琳的饱腹锅饼派",
+	
+	"Mail_ClintTunaSteak_body": "那个……你好。^这是另一道菜谱。你一直对我很好……所以……我想你可能会喜欢它。每当我想犒劳自己时，就会从威利那里买一块新鲜的金枪鱼，只为好好煎上一份。^那就这样，保重。^   ——克林特",
+	"Mail_ClintTunaSteak_title": "克林特的金枪鱼排",
+	
+	"Mail_DemetriusSeafoodBoil_body": "虽然叫作「海鲜煮锅」，但这道菜实际上还包含许多非海鲜的食材。也许叫它「海鲜与根茎煮锅」会更贴切。^这是我童年最喜欢的菜之一。感谢你一直以来在实验室里的帮助。^   ——德米特里厄斯",
+	"Mail_DemetriusSeafoodBoil_title": "德米特里厄斯的海陆煮锅",
+	
+	"Mail_DwarfAncientWonder_body": "人类，我再次把这封信托付给你们所谓的「邮政服务」。^^这道极其古老的食谱在我的族人之间传承了数千年。它是我们古代文明为数不多幸存下来的知识之一。^^你需要一些非常稀有的食材才能完成这道料理。但我现在就可以告诉你……它的味道美妙无比！^   ——矮人",
+	"Mail_DwarfAncientWonder_title": "远古奇馔",
+	
+	"Mail_DwarfHardtack_body": "人类，我已经学会如何使用你们所谓的「邮政服务」，来给你「邮寄」一份我觉得很有意思的食谱。多年前有个人类教给我：把地面上种植的小麦烤成一种非常坚硬的饼，可以保存几十年。而且一点味道都没有！^^人类喜欢没有味道的食物吗？你有机会应该尝尝洞萝炖菜。^   ——矮人",
+	"Mail_DwarfHardtack_title": "矮人的硬饼干",
+	
+	"Mail_ElliottRecipe_body": "@：^愿这封信问候你一切安好。我想与你分享一份富有故事的食谱。如果你想听听它背后的传说，随时再来找我。^   ——艾略特",
+	"Mail_ElliottRecipe_title": "艾略特的食谱",
+	
+	"Mail_ElliottFishnChips_body": "亲爱的 @：^尽管我和许多风度翩翩的绅士一样，喜欢在静谧的景色前享受一顿优雅的晚餐，但有时候，再精致的料理也比不上指尖那声「咔嚓」——炸鱼薯条的酥脆声。随信附上的是一份我在来到山谷之前就十分珍视的食谱。谢谢你一直以来的陪伴，我也希望你能和我一样享受它。敬上，^   ——艾略特",
+	"Mail_ElliottFishnChips_title": "艾略特的炸鱼薯条",
+	
+	"Mail_EmilyGrilledCheese_body": "@！^我终于在一张旧收据的背面找到了自己写的「傻瓜式烤芝士三明治」配方！^虽然花了点时间才看懂自己的字迹，但我觉得已经全部抄下来了。嘿，你也该试试！没有什么比烤芝士三明治配一碗热番茄汤更能治愈心情的了，对吧？^改天见，^   ——艾米丽",
+	"Mail_EmilyGrilledCheese_title": "艾米丽的烤芝士三明治",
+	
+	"Mail_EvelynPineappleUpsideDownCake_body": "你好，亲爱的……^^如果你有机会种出新鲜的菠萝，这款蛋糕一定会受到所有人的喜爱！而且做法其实比看起来简单。不过，就像所有食谱一样，有些细节还是要特别注意……从黄油开始，它必须打发成奶油状，不能融化，鸡蛋要用 6 个蛋白和 2 个半蛋黄，糖可以用白糖或红糖但不能用甘蔗糖……^^（**这封信里附上了三整页的手写步骤。）^^「爱你的，^奶奶伊芙琳」",
+	"Mail_EvelynPineappleUpsideDownCake_title": "伊芙琳的倒置菠萝蛋糕",
+	
+	"Mail_GeorgeCheesecake_body": "农夫，我原本想哪天把这份食谱交给我孙子……但你我都清楚，他在厨房里可不算个好手！所以，给你吧，也许你会用得上。当年我还年轻、腿脚利索的时候，为了打动一位姑娘，特地自学做这款蛋糕。你猜怎么着……它最后成了我们婚礼上的甜点！^   ——乔治^^附言：她最喜欢黑莓。",
+	"Mail_GeorgeCheesecake_title": "乔治的婚礼芝士蛋糕",
+	
+	"Mail_GusZucchiniFritters_body": "嗨，@，我只信得过你来保管这个食谱。没错，就是我那出名的西葫芦煎饼！……说实话，你算是我唯一的徒弟了。我想也该把配方传给你……当然啦，我还不算太老。^别忘了那份辣味番茄酱，它跟煎饼本身一样重要。每周都卖得跟热蛋糕一样快！^   ——格斯",
+	"Mail_GusZucchiniFritters_title": "格斯的招牌西葫芦煎饼",
+	
+	"Mail_HaleyRecipe_body": "@，我在一本杂志里找到这张剪下来的食谱。^^烘焙好麻烦啊，那就由你来帮我做吧？艾米丽每天都逼我吃「兔子食物」。来点甜的就太好了。^^   ——海莉",
+	"Mail_HaleyRecipe_title": "海莉的食谱",
+	
+	"Mail_HaleySpicedCarrotCake_body": "农夫！^^我今天在电视上看到一个「超——棒」的食谱。是香料胡萝卜蛋糕！不过你得用秋天的香料莓和春天的胡萝卜才做得出来！我怎么可能弄到这些？^^也许你农场上就有这些材料？求你给我烤一个吧？^^对了，要是你以后成为大名鼎鼎的厨师，我能不能帮你畅销食谱书拍所有美食照？我已经练习很久啦！^拜啦～^  海莉",
+	"Mail_HaleySpicedCarrotCake_title": "海莉的香料胡萝卜蛋糕",
+	
+	"Mail_HarveyRecipe_body": "@：^我最近一直在想着你的健康问题，所以想分享一份我认为对你很有益的食谱。我在念医学院时，从一位室友那里学来的。既营养，又美味！做完告诉我感觉如何。祝好，^   ——哈维",
+	"Mail_HarveyRecipe_title": "哈维的食谱",
+	
+	"Mail_HarveyCoffeeCake_body": "@：^让我告诉你一个小秘密。医生和普通人一样也有很多小嗜好——你应该已经知道，我的就是咖啡。是的，过高的咖啡因可能会对睡眠、情绪、血压、焦虑、肠胃蠕动、心悸等造成不良影响……所以我才会尽量少吃这种咖啡蛋糕。但它实在太诱人了……^   ——哈维",
+	"Mail_HarveyCoffeeCake_title": "哈维的咖啡蛋糕",
+	
+	"Mail_JasStrawberryShortcake_body": "亲爱的 ${Mr.^Ms.}$ @：^我四岁那年，妈妈给我烤过这样一块生日蛋糕。那已经是好——久以前的事了。我在玛妮阿姨的书里找到这张食谱，可是我还太小，不能自己用烤箱。你可以帮我做一块吗？拜托拜托～^爱你的，^   ——贾丝",
+	"Mail_JasStrawberryShortcake_title": "贾丝的生日蛋糕",
+	
+	"Mail_JodiHeartySautee_body": "亲爱的 @：^你有吃够维生素吗？呵呵！^^我这儿有道小菜刚好适合你。把彩椒、蘑菇、小萝卜配上洋葱和香草一起翻炒，就是任何晚餐都绝配的健康配菜！连我家那两个男孩都会吃，平时他们可最讨厌蔬菜了！^^我相信你要收集这些材料一点都不难。^^爱你的，^   ——乔迪",
+	"Mail_JodiHeartySautee_title": "乔迪的饱腹炒菜",
+	
+	"Mail_KentJohnnycakes_body": "这是……一份我当年轻兵时用的旧食谱。很简单，但总会让我想起那些更美好的日子……和战友们一起胡闹，在食堂里打牌……^^有时候，你总得抓紧那些回忆。别让现在的生活让你忘了过去，@。^^    ——肯特",
+	"Mail_KentJohnnycakes_title": "肯特的玉米饼",
+	
+	"Mail_KrobusCritterFritter_body": "@，我请人帮我写了这封信，好把这份美味小吃分享给你。我们一族在重大节日，特别是「凡俗节」时，很喜欢把这种东西炸来吃。味道好极了。^^记得要选大的蛆才好。^^   ——克罗布斯",
+	"Mail_KrobusCritterFritter_title": "克罗布斯的炸虫点心",
+	
+	"Mail_KrobusAntsonaLog_body": "问候你，@：^我已经对人类食物好奇很久了。你们总在谈论各种菜肴的味道和口感，但对我来说，那听起来就像另一种语言。随信附上一道食谱，请你做好之后和我分享。我也想亲自体验一下这种美味。^    ——克罗布斯",
+	"Mail_KrobusAntsonaLog_title": "克罗布斯的食谱",
+	
+	"Mail_LeahRecipe_body": "亲爱的 @：^我从各种地方都能获得灵感，厨房也不例外。烹饪和烘焙就像绘画或雕塑一样富有创造力，我很喜欢尝试新的食谱和味道。想把我最新的作品分享给你。^    ——莉亚",
+	"Mail_LeahRecipe_title": "莉亚的食谱",
+	
+	"Mail_LeahBroccoliandCheese_body": "亲爱的 @：^这是我母亲的食谱。我很幸运在有花园的房子里长大——到了秋天的尾声，我会去采一些野生的小西兰花，留着进烤箱。只需要一点刨碎的芝士，再加盐和胡椒调味，如果再撒些面包屑在上面，就更好吃了！^有些人喜欢芝士放得很重，但我觉得真正撑起整道菜味道的是西兰花本身。^   ——莉亚",
+	"Mail_LeahBroccoliandCheese_title": "莉亚的西兰花芝士烤盘",
+	
+	"Mail_MarnieCastella_body": "亲爱的 @：^感觉你搬到山谷已经好久了。你不觉得吗？不过，你现在确实已经是这里大家庭的一份子啦。看看你一出现，牛群有多开心就知道了！^我有一个用新鲜牛奶做的超级松软的海绵蛋糕配方。不需要任何糖霜，就能把牛奶自然的甜味完全表现出来。^    ——玛妮",
+	"Mail_MarnieCastella_title": "玛妮的长崎蛋糕",
+	
+	"Mail_MaruRecipe_body": "@：^最近怎么样？我这阵子一直在读世界各地的饮食文化。你说几百年前的人究竟是怎么想出这么多菜的？肯定经历了无数次尝试和失败吧。^这是一个让我想到你的食谱。^    ——玛鲁",
+	"Mail_MaruRecipe_title": "玛鲁的食谱",
+	
+	"Mail_MaruCrabRangoons_body": "@：^我有大发现了！这可能是目前为止最好吃的配方。听说它是一道很受欢迎的融合菜，我也找到了完美的参数来复制它！酥脆的油炸外壳里面，是奶油般的蟹肉芝士馅！你一定要试试！^   ——玛鲁",
+	"Mail_MaruCrabRangoons_title": "玛鲁的蟹角云吞",
+	
+	"Mail_PamStuffedMushrooms_body": "嘿，小子，你是个好人。怎么，难道我这种人就不能偶尔写封好心的信吗？^^啧，反正我觉得你可能会对这道蘑菇料理感兴趣。对我来说，它不过是一张不起眼的小纸片。^   ——潘姆",
+	"Mail_PamStuffedMushrooms_title": "潘姆的酿蘑菇",
+	
+	"Mail_PennyRecipe_body": "希望你最近好好照顾自己。我前几天翻自己的食谱盒时，找到了一道老家的家传菜，我想你一定会喜欢。有空的时候好好享用吧。^    ——潘妮",
+	"Mail_PennyRecipe_title": "潘妮的食谱",
+	
+	"Mail_PennyGingersnaps_body": "@：^从我还是小女孩起，我就特别喜欢烘焙。虽然妈妈的厨房有点拥挤，但我总能用手边现有的东西做出点什么来。^^这是我人生中学会的第一道点心。那次特别特别重要，因为正好有一位家族朋友送来了新鲜的姜。等我做好时，全身上下都沾满了面粉！但妈妈还是非常为我骄傲。^^爱你的，^潘妮",
+	"Mail_PennyGingersnaps_title": "潘妮的姜饼薄脆",
+	
+	"Mail_PierreMotleyMushrooms_body": "绝密：^这是刚调出来的新配方，用的是我私人存货里的松露油。别到处乱传！之所以给你，是因为咱俩可是好朋友。^    ——皮埃尔",
+	"Mail_PierreMotleyMushrooms_title": "皮埃尔的什锦蘑菇",
+	
+	"Mail_RobinPotatoBread_body": "亲爱的 @：^我想把这道在我家族里世代相传的老食谱寄给你。算是一道地方特产吧！要想在整天木工活里吃得饱，根本不需要什么精致的五道菜——一整条这种饱腹的土豆面包就够你吃一天了。而且只要一种材料：土豆！^   ——罗宾",
+	"Mail_RobinPotatoBread_title": "罗宾的土豆面包",
+	
+	"Mail_SamRecipe_body": "@：^最近过得怎么样？这是我下午点心时最常做的一道小吃。简直太绝了！吃完告诉我你的想法。如果你以后还想要更多食谱灵感，随时来找我。^   ——山姆",
+	"Mail_SamRecipe_title": "山姆的食谱",
+	
+	"Mail_SamDonut_body": "@：^这是一个甜甜圈。我还能多说什么呢？^不过，说真的，你一直是我非常重要的朋友。就当是回馈你的一点点心意吧。回头见，^   ——山姆",
+	"Mail_SamDonut_title": "山姆的甜甜圈",
+	
+	"Mail_SebastianRecipe_body": "嘿，@：^嗯，你是镇上少数不会把我当怪人的人之一。这份食谱就给你吧。我不太会做饭，所以……农夫们一般都喜欢下厨，对吧？^   ——塞巴斯蒂安",
+	"Mail_SebastianRecipe_title": "塞巴斯蒂安的食谱",
+	
+	"Mail_SebastianFancySushiPlatter_body": "嗨，@：^^有时候，我真希望这个山谷附近能开一家真正的高级餐厅。我的一个网友跟我讲起人们生吃的那些夸张的鱼——像带毒的河豚、海胆之类的。是不是很疯狂？^^总有一天我得试一次。如果你钓到上好的河豚，记得让我也尝一口——不过，也许还是你先尝一口，看看会不会中毒比较好。^^开玩笑的啦，哈哈。^   ——塞巴斯蒂安",
+	"Mail_SebastianFancySushiPlatter_title": "塞巴斯蒂安的豪华寿司拼盘",
+	
+	"Mail_ShanePineapplePizza_body": "@：^菠萝披萨：这是对美食的犯罪吗？^^嘿嘿……我知道你挺有幽默感的。这也是我们合得来的原因。老实说，我觉得菠萝披萨和其他任何披萨一样好吃。不太懂为什么那么多人要大惊小怪。^^当然啦，要是你不喜欢这道食谱，我也不会伤心的。^   ——山恩",
+	"Mail_ShanePineapplePizza_title": "山恩的披萨",
+	
+	"Mail_VincentAnimalCrackers_body": "亲爱的 ${Mr.^Ms.}$ @：^这是我最最喜欢的小零食！我们一家去动物园的时候都会吃它。我好喜欢动物园！特别特别喜欢狮子。^好啦！爱你的，^   ——文森特",
+	"Mail_VincentAnimalCrackers_title": "文森特的小动物饼干",
+	
+	"Mail_WillyOysterSauceCrab_body": "亲爱的 @：^今年的螃蟹抓得正欢！我老爹常说，螃蟹是教不会直着走路的……这是什么意思，我一点头绪都没有！不过有一点我知道，你完全可以把它们做成一盘了不起的海鲜大餐。^你还得自己做蚝油，所以上面也一并写给你了。^祝你螃蟹大丰收！^   ——威利",
+	"Mail_WillyOysterSauceCrab_title": "威利的蚝油炒蟹",
+	
+	"Mail_WizardRainbowCake_body": "亲爱的 @：^我想与你分享一份在魔法研究中极为实用的食谱。这道料理的食材可能很难获得，但你会发现，它的回报远远配得上付出的努力。^   ——巫师拉斯莫迪乌斯",
+	"Mail_WizardRainbowCake_title": "巫师的魔法蛋糕",
+	
+	"WizardNote": "仍在徒劳地寻找那道在斯莫鲁阿努族中被称为「远古奇馔」的料理……谁要是能把这种神秘食物的证据带给我，必将得到丰厚的奥术知识回报。^^拉斯莫迪乌斯。",
+	
+	"WizardQuest_title": "巫师的奇馔",
+	"WizardQuest_description": "巫师正在寻找一道只在矮人传说中出现、名为「远古奇馔」的食谱。如果你能替他找到，也许能借此讨好他。",
+	"WizardQuest_objective": "把一份「远古奇馔」交给巫师。",
+	
+	"WizardQuest_dialogue1": "这色泽……这香气……这力量……莫非是……？",
+	"WizardQuest_dialogue2": "没错！这就是传说中的「远古奇馔」！我能感觉到，从这道料理中涌出的强大魔力！",
+	"WizardQuest_dialogue3": "你在我的魔法笔记里已经拥有了一席之地。来吧，这是用几种晦涩材料酿制的强力药剂配方……只有真正的法师才能驾驭它。",
+	"WizardQuest_dialogue4": "现在，先离开吧……我要独自研究这道「奇馔」……",
+	
+	"Elliott_dialogue.default.intro": "啊，@，看来你已经被我寄给你的那道食谱所折服了。真是太好了！那股香气勾起了我……",
+	"Elliott_dialogue.default.end": "谢谢你帮我重温这段美好的回忆，@。你一如既往地给我灵感。嗯……我得在这想法溜走之前把它写下来……",
+	"Elliott_dialogue.CremeBrulee.1": "……所尝过的最神圣甜品的味道！为我制作它的甜点师承袭着家族世代传下来的秘方。",
+	"Elliott_dialogue.CremeBrulee.2": "这个家族的传统，全靠一株金色的香草兰做支撑。它的具体位置当然是被严密保护的秘密。",
+	"Elliott_dialogue.CremeBrulee.3": "我看你自己种的香草豆也同样香气四溢！",
+	"Elliott_dialogue.ChefSalad.1": "……我曾短暂居住在一间山中小屋，窗边挂着晾干的香草。那位自耕农邀请饥肠辘辘的旅人进屋，递上一盘手摘的园中鲜蔬……",
+	"Elliott_dialogue.ChefSalad.2": "……我现在又想起那份小小的心意——水煮鸡蛋被切成星星的形状，点缀在大自然的画布上……",
+	"Elliott_dialogue.FigToast.1": "……一座被早已消逝的文明遗迹环绕的花园，只有那些沉默不语的神祇雕像还在讲述着过去。",
+	"Elliott_dialogue.FigToast.2": "院落中央的无花果树果实累累，据说那是某位任性的神明将恋人变成的模样。这故事实在令人着迷！",
+	"Elliott_dialogue.FishnChips.1": "难道是我的鼻子在骗我吗……炸鱼薯条！而且还是刚出锅的！*咔嚓*",
+	"Elliott_dialogue.FishnChips.2": "我得跟你坦白，@。对我来说，这道菜意义非凡。你看，它是我人生中第一次真正意义上的「家常饭」。",
+	"Elliott_dialogue.FishnChips.3": "那天我提起行囊，正式离开旧日生活……一路走了好几个小时，也不知道脚步会把我带向何方。",
+	"Elliott_dialogue.FishnChips.4": "直到我站在一座从未造访的小镇边缘，脚下是鹅卵石铺就的码头。我从没想过自己会吃上这么油、这么平凡的炸鱼薯条，但那一天，它是我吃过最美味的东西。",
+	"Elliott_dialogue.FishnChips.5": "谢谢你又让我回味起那段经历，@。你给了我许多新的思绪。",
+	
+	"QoSRadio_name": "烹饪电台",
+	"QoSRadio_description": "一台电台，每周都会播出新的「酱汁女王」烹饪课程。目前在周二和周六播放。",
+	
+	"RecipeBook_SweetSensations_name": "酱汁女王——甜蜜感官",
+	"RecipeBook_SweetSensations_description": "学习「甜蜜感官」专题广播中所有的酱汁女王食谱。",
+	
+	"RecipeBook_AroundTheWorld_name": "酱汁女王——环游世界",
+	"RecipeBook_AroundTheWorld_description": "学习「环游世界」专题广播中所有的酱汁女王食谱。",
+	
+	"Mail_QoSRadio_body": "尊敬的约翰·史密斯先生：^^恭喜！！^^感谢您一直以来对 GFBN 节目的支持！随信附上一台限量版台式收音机，你可以在家中舒适地收听独家「酱汁女王」广播。每周二和周六都有全新的菜谱，敬请收听！^   ——费恩吉尔大区广播网 敬上……由像您这样的观众赞助，为您带来节目。谢谢！",
+	"Mail_QoSRadio_title": "来自费恩吉尔广播网",
+	
+	"Radio_IntroAroundTheWorld": "各位好！是我，酱汁女王——空中开播！今天就让我们一起探寻一道来自世界各地的让人口水直流的新菜式。本周登场的料理是……",
+	"Radio_IntroSweetSensations": "各位好！是我，酱汁女王——空中开播！今天我会带来一道让你心情大好的甜点。本周要制作的甜品是……",
+	"Radio_NothingToday": "今天电台里什么节目都没有。",
+	
+	"Radio_Eclair": "奶油泡芙卷！轻盈蓬松的泡芙皮，配上柔滑浓郁的内馅，再盖上一层光泽饱满的巧克力淋面，甜度恰到好处！今天我们会制作经典款的奶油泡芙卷，不过你也可以根据喜好去尝试不同的口味和夹心。首先准备好我们的……",
+	"Radio_FruitTurnover": "水果酥饼！迎面扑来的是春天般的香气：酥脆的派皮包裹着酸甜的水果馅，再加一抹柠檬点亮味道。它既适合当早餐或早午餐，也非常适合拿来当甜点，一端上桌就会被抢光。先把你最喜欢的水果切片，然后……",
+	"Radio_MudPie": "泥派蛋糕！别被名字骗了，这道甜点里可是一点泥巴都没有。它是一款为巧克力爱好者量身打造的浓郁甜品：布朗尼、巧克力与鲜奶油层层堆叠，组成这块绵密顺口的派。我们先从制作布朗尼糊开始……",
+	"Radio_LemonSquare": "柠檬方块！哦，甜甜的夏日享受……我第一次吃到柠檬方块时，就像有人把整整一个金色午后挤进了一口点心里。松软的黄油酥底，再加上浓到极致的柠檬馅……哇！酸得让你的眉毛都要抬起来，又甜得让你立刻原谅它。先来做我们的柠檬凝乳……",
+	"Radio_Ambrosia": "仙馔水果沙拉！舀上一勺「仙馔」，你会立刻被那层层叠叠的风味与口感所惊艳。多汁香甜的水果、浓郁柔滑的奶油，以及酥脆的坚果，完美地融合在一起。你可以用任何你喜欢的水果组合……",
+	"Radio_Pavlova": "帕芙洛娃蛋白饼！据说，这甜点是以芭蕾舞者轻盈的舞姿命名的。它拥有酥脆的蛋白外壳和柔软如棉花糖的内心，上面铺满鲜奶油与新鲜水果。是夏日里再适合不过的甜点。我们先从打发蛋白开始……",
+	"Radio_CalicoBar": "三层彩布条甜点！这些奢华的小方块由三层结构组成：酥香的椰子与坚果底层、顺滑的卡仕达奶油夹层，以及浓郁的巧克力顶层。黄油底层与细腻夹心形成完美对比，而巧克力则为整块点心画上满足的句号。先来制作卡仕达夹心……",
+	"Radio_Millefeuille": "千层酥！尽管它有着「上百万层」的名号，却一点也不娇气；门槛不在花哨，而在精确。它是一款奖励耐心、赞颂手艺、同时对你说「今天你值得拥有点美好的」的甜点。层层酥皮与奶油交错，顺滑、浓郁。至于顶部呢？那层标志性的糖霜，再用巧克力划出羽毛般的纹路……",
+	"Radio_CinnamonApplePie": "肉桂苹果派！一份好的肉桂苹果派，全靠平衡。馅料要有足够的酸度，才能衬托出甜味。苹果要软而不烂。至于肉桂……哦，肉桂就像老朋友，让一切都变得温暖而踏实。有些人喜欢再来一点肉豆蔻或丁香，我的建议是：相信你的鼻子。如果闻起来像「家」，那就八九不离十了……",
+	"Radio_CrumbCake": "碎粒蛋糕！也叫做咖啡蛋糕，是一种湿润柔软的蛋糕，上面铺着厚厚一层香浓的黄油肉桂碎粒。这款广受喜爱的慰藉系甜品，最适合搭配一杯咖啡或热茶享用。先把烤箱预热到……",
+	"Radio_Sopapillas": "油炸酥饼！这是一种轻盈蓬松的油炸面点，把面团擀平后切成方形或三角形，再放入热油中炸至金黄蓬起，外皮酥脆，内里柔软。一定要配蜂蜜一起吃！首先，准备你的面粉……",
+	"Radio_PrincessCake": "公主蛋糕！这真是一款为皇家而生的蛋糕。柔软的蛋糕体中夹着层层香甜果酱。而最精彩的部分？当然是杏仁翻糖——马斯卡彭杏仁膏就像锦上添花，在本就出众的蛋糕上又加了一笔风味。我们先从自制果酱开始……",
+	"Radio_Cannoli": "卡诺里卷！对卡诺里——是的，一个叫「cannolo」，多个才是「cannoli」——来说，外壳就是一切。咬下去要有「咔嚓」声，要碎得干脆。绝不能软趴趴！「软掉的卡诺里就是破碎的承诺」，曾经有人这样对我说。所以我们要从做出完美酥脆的外壳开始……",
+	"Radio_KingCake": "国王蛋糕！这是一种象征庆典与欢闹的甜食螺旋。因为在这圈圈叠叠的奶油面包与糖霜里？藏着一个小婴儿玩偶。而如果你吃到它，恭喜——下一个蛋糕就轮到你来烤，或者下一个派对要你来办，或者两个都要！幸运的是，里面的婴儿不是真的！不过，会不会还有别的秘密呢……让我们来看看……",
+	"Radio_Jalebi": "札雷比！今天的点心是一场盘旋的狂欢。札雷比是视觉与味觉的双重戏剧：亮橙色的圈圈在热油里滋滋作响，然后整块浸入糖浆，直到每一圈都被透明糖衣包裹。拿在手里微微作响，入口即化，对自己的甜度从不道歉。先一起准备好所有的材料……",
+	"Radio_UbeHalaya": "紫薯哈拉亚！把紫薯慢慢捣碎，与椰奶一起小火炖煮，直到它们被驯服为细腻绵软、略带坚果香气、甜度温和的糊状甜品。这道甜点的颜色美得像童话里的魔法。叫上亲朋好友，一起轮流捣紫薯吧……",
+	"Radio_Churros": "吉拿棒！听，那一声脆响！薄薄的酥皮包着柔软的内心。趁热裹上肉桂糖，甜得让你手指黏黏、心里暖暖。这种甜度值得你静静地享受片刻……",
+	"Radio_Daifuku": "大福！柔软的年糕几乎在口中融化，而里面的馅料甜度刚刚好，恰好中和糯米的嚼劲。无论选择什么口味，吃大福的体验永远让人愉悦。只有亲自尝过，你才能真正懂它的魅力……",
+	"Radio_Souffle": "舒芙蕾！这道轻盈的甜点，是艺术与科学结合的结晶，依靠打发的蛋白把面糊送上烤箱之巅，化成一朵云朵般的蓬松。舒芙蕾可以是咸的，也可以是甜的，而甜点舒芙蕾则是优雅的极致，最适合在刚出炉的那一刻享用。甜舒芙蕾的故事，要从……",
+	"Radio_Mooncake": "月饼！啊……月饼。它从来不是随便吃吃的点心，而是一种仪式。它伴随着灯笼、笑声、诗句，以及秋夜的宁静登场。当满月高挂，心也被填得满满的时候，人们互赠这圆圆的饼，承载着团圆与祝福。我们先从那温润甜美的内馅开始……",
+	"Radio_GotoroCream": "格特罗奶冻！格特罗奶冻不会高声宣告自己的存在……它只是悄悄地俘获你。用浓郁蛋奶糊与打发奶油调和，凝固到刚好能维持形状。至于味道？想象一下香草在最亲密时刻的模样。有时会添加一点水果香，但奶油永远是主角。先倒入充足的……",
+	"Radio_PineappleCake": "凤梨蛋糕！有些人不喜欢酸味水果入甜点，挺可惜的。菠萝的酸能激发这款松软蛋糕的全部潜力，而蛋糕的甜又恰好抵消菠萝有时过于锐利的酸度。这可是我的私心最爱之一！记得一定要用熟透的菠萝……",
+	"Radio_MascarponeLuxury": "马斯卡彭的奢华！今天，亲爱的小厨师们，我们不是在烘焙，我们是在「晕眩」之中。它可以被折进如云般的糖霜，点缀在烤无花果上，打入酱汁，抹在热面包上，或者和甜水果一起，躺在小小的玻璃杯里。下次当你伸手去拿奶油奶酪或黄油时，不妨停顿一下。想想马斯卡彭。先从好好犒劳自己……",
+	"Radio_Sachertorte": "萨赫蛋糕！湿润厚重的巧克力蛋糕配上果酱与巧克力淋面，组合出的味道堪称人间天堂。萨赫蛋糕既适合特别的日子，也适合偶尔纵容自己一下。下次去咖啡馆时，试着点一块，再配上一杯咖啡！我们先开始……",
+	"Radio_GulabJamun": "玫瑰甜球！这道皇家甜品是每个节日、每场婚宴、每次盛宴里的宠儿！小小的奶团被温柔地炸至秋叶般的金褐色，然后浸入豆蔻、玫瑰水与藏红花调配的糖浆中。结果如何？一颗颗浸透糖浆的小太阳，从里到外都充满香气。先量好你的奶粉……",
+	"Radio_Horchata": "欧洽塔米浆！这是一种由大米、杏仁、肉桂与糖调和而成的香甜奶香饮品。通常加冰冷饮，是炎热夏日消暑的绝佳选择。有些人还喜欢加一点香草增添风味！先把大米倒进搅拌机，然后……",
+	"Radio_Trifle": "英式水果松糕！靠近一点。再近一点。再近一点！这道甜点的秘密就在于层层叠叠的惊喜。松软的蛋糕、丝滑的卡仕达酱、新鲜果酱、绵密的奶油，再冠上一层像宝石般点缀的水果。你想怎样分层全由你决定，只要记住每一层只有一个目的：吃起来要好吃。其他的，都是小事。摆好你的材料和大玻璃碗，然后……",
+	"Radio_StickyToffeePudding": "太妃糖布丁！看起来像是一块上面放着冰淇淋的普通蛋糕，其实一点也不简单。烤好之后，要用温热的黄油太妃糖酱狠狠地浇上去，让蛋糕变成一块黏稠、柔软、充满焦糖香气的奇迹。上桌时再来一大勺香草冰淇淋！先把烤箱调到……",
+	"Radio_Baumkuchen": "年轮蛋糕！今天，我们要和这款标志性蛋糕一起「转圈圈」。每一层面糊都在旋转的烤棒上、明火之上单独烤制，所以当你切开它时，横截面就像树的年轮。想做出这种催眠般的甜点，我们先把烤箱预热……",
+	"Radio_RollCake": "瑞士卷！这是许多人童年记忆里的点心。但也颇具挑战性，因为蛋糕要刚好烤到不会裂开，才能卷成漂亮的圆筒。只要你照着步骤一步一步来，就能做出最柔软、最绵密的卷蛋糕。我们先从内馅开始……",
+	"Radio_TresLechesCake": "三奶蛋糕！就像一朵云在去奶牛场的路上迷了路，然后被你吃进肚子里。它轻盈、奶香浓郁、又有点小小放纵。这种蛋糕用的是轻盈的海绵蛋糕胚，再让它吸饱三种牛奶：炼乳、淡奶和鲜奶油。这就是「tres」的由来！先把三种牛奶都摆好……",
+	"Radio_Yatsuhashi": "八桥饼！这款传统和菓子已经让人们回味了好几个世纪，尤其是作为古城小镇里伴手礼的热门选择。它是轻盈的年糕，里面包着柔软甜馅。传统口味是肉桂，当然红豆与抹茶也同样受欢迎！我们先准备好糯米……",
+	"Radio_PepperSoup": "胡椒汤！一碗性格火辣、又清爽提神的汤品，透明的汤底里装着鲜嫩的鱼肉，还有一层若隐若现的肉豆蔻香气，使整道菜跳起独特的舞步。胡椒汤看起来简单，却一点都不敷衍。每一口都能温暖你的心窝、挑动舌尖，带着一股缓缓蔓延到脚尖的暖意。先处理一条肥美的虎纹鳟鱼……",
+	"Radio_EggTarts": "蛋挞！这位酥皮小点可谓环球旅行家。无论你偏爱烤出焦斑的葡式蛋挞、茶楼里流传百年的点心，还是世界街头那种一口一个的小蛋挞，总有一款能讨你欢心。拿出鸡蛋，然后……",
+	"Radio_CabbageRoll": "卷心菜卷！一小包朴实却暖心的料理，被包裹在大自然自己的包装纸里。每家祖母的馅料配方都不一样，但有一项少不了：那浓郁香咸的番茄酱汁，要把这些小卷浇得满满当当。先把新鲜番茄切碎……",
+	"Radio_CacioePepe": "奶酪黑胡椒意面！这道菜只需要寥寥几样材料，却能迸发出惊人的味道。奶酪与胡椒形成既火花四溅又绵密顺滑的酱汁，把每一根意面都紧紧包裹。如此简单，却称得上意面之王。先把水烧开……",
+	"Radio_ThreeSistersSalad": "「三姐妹」沙拉！沙拉里的「三姐妹」指的是玉米、豆类和南瓜。在世界某些地方，这三种作物被一起种植了几个世纪，因为它们在田里能够互相扶持。就像高高的玉米秆能支撑底下蔓生的豆苗一样，它们也会成为这道风味丰富、口感多变沙拉的完美基础……",
+	"Radio_Japchae": "杂菜粉丝！这道菜的灵魂，是那一撮撮晶莹剔透的粉丝，每一口都把咸与甜一同带入口中。新鲜蔬菜为这碗精致的安慰系料理带来明亮的爽脆。先把粉丝泡软……",
+
+	"Radio_Samosas": "萨莫萨！一口口小小的金黄酥饺，装满芬芳馅料，等着被你吃掉。土豆、小扁豆和豌豆，与香菜籽和孜然的香气交织在一起。配上薄荷酱，或者如果你更爱冒险一点，就试试芒果罗望子酸甜酱！首先，先取一些面粉，然后……",
+	"Radio_Borsch": "红菜汤！光是念出这个名字，就像给自己端起一碗拥抱。我第一次喝到它，是在一个小村庄的清晨，寒气逼人，霜花在窗上闪闪发亮，锅里慢炖的甜菜、卷心菜和香草散发出的泥土香气，像羊毛围巾一样把我包裹起来。每一勺都带着慢火熬煮的柔和醇厚，	再带一点微酸的提味。一切都要从你能找到的最鲜艳的甜菜开始……",
+	"Radio_GalloPinto": "斑鸠豆饭！看似简单，却是米饭与黑豆的绝妙结合，再与洋葱、甜椒和一点香菜一起翻炒，通常还会加上一点传统酱汁点缀。带着泥土气息、微微烟熏和一丝酸爽，每一口都在嘴里奏出和谐的节奏，让你停不下筷子。吃起来，就像在跟它一起打拍子	……",
+	"Radio_OneManThousand": "一人千鱼！光是名字就很让人好奇，不是吗？我第一次听说它是在集市上的一个摊位，摊主边笑边递给我一盘。“你一会儿就知道了，”他说，“一个人，一千种滋味。”他没说错。无数条小鱼裹上辛辣的调味料炸得酥脆，你可以一勺一勺地往嘴里	送。没错，你真的会一勺接一勺地吃下去……",
+	"Radio_PanikiStew": "蝙蝠炖汤！我是在热带高山上偶然尝到这道菜的，那里的泥炉烟气，与香茅和辣椒的气味交织在一起。虽然果蝠的肉略带野味，但因为它们吃水果，炖熟后会透出一丝独特的甜味，再配上浓郁、加了香料的椰奶汤底，把这滋味完美放大。别皱鼻子，先	试试这道菜吧，从……开始做起。",
+	"Radio_Blini": "布林饼！布林饼是柔软细致的小薄饼，用略甜的酵母面糊在锅里慢慢煎烤，轻轻鼓起。这份配方里加入的荞麦面粉，让它多了一层坚果般的香气。上桌时可以浇上酸奶油或奶油奶酪；如果想要“小指翘起来”的优雅时刻，那就配上新鲜鱼子酱吧。先来调面糊，	再预热平底锅……",
+	"Radio_BlackenedFish": "黑椒香烤鱼！这条鱼可不害羞。这条鱼是一条会“唱歌”的鱼。先裹上一层大胆的调料：甜椒粉、红辣椒粉、蒜、百里香、牛至，再加一点黑胡椒，然后在烧得滚烫的铸铁锅里煎烤。听到了吗？那就是鱼在唱歌！外层的香料被煎得酥脆，鱼肉却依然	轻盈松软，这种组合简直……啧啧啧！……",
+	"Radio_SeafoodPaella": "海鲜烩饭！这道菜是老听众加斯特意点的，他吃过一次我的烩饭之后，就完全停不下来了。等你自己做一次，就会明白为什么！米饭吸足了浓郁的海鲜高汤，再用番红花染上一层温暖的金黄色。然后，在金黄表面底下，还藏着一层脆香的焦香米粒，	就像埋着的宝藏……这就是一盘端得出的庆典！……",
+	"Radio_Bannock": "班诺克烤饼！我第一次尝到它，是在平原上的一个小营地里，坐在篝火旁，看着太阳慢慢沉到山后，空气里充满了烟味、故事和笑声。这块朴实的面饼，承载着无数群体的历史，每个地方都有自己的一套做法。先用面粉和水和成一团面……",
+	"Radio_VegetableKorma": "蔬菜科尔玛咖喱！胡萝卜、土豆、花椰菜等柔软的蔬菜，慢慢炖在由酸奶制成的浓郁咖喱酱中。这种咖喱做法有太多变体了，到最后，食谱几乎变成了你自己的表达！先把你最喜欢的蔬菜粗略切块……",
+	"Radio_Bibimbap": "拌饭！“拌饭”字面意思是“拌着吃的饭”，但它远远不止是一碗米饭。碗里有各种各样的配菜：爽脆的炒蔬菜、嫩嫩的豆芽、带着泥土气息的香菇、多汁的西葫芦，再加上一枚完美的太阳蛋放在最上面，等着和其他配料混合在一起。别忘了辣椒酱哦！先洗	米，然后……",
+	"Radio_OdenHotpot": "关东煮火锅！对我来说，关东煮是一道会勾起旅行回忆的料理。我记得某个寒冷的冬夜，我走在街上，闻着空气里飘来的鲜香汤味，被一位卖关东煮的小贩吸引过去。我点了一碗，立刻就被这道菜的温暖与丰盛征服了……",
+	"Radio_Fufu": "富富团！在把木薯捣成有弹性的饱腹团子时，你肯定能好好运动一番。它总是用手直接吃，常常蘸着味道浓烈的汤或炖菜，一口口都是辛辣、咸香、厚重的风味。做富富时，你一定要好好处理木薯，去除里面的毒素，所以先拿一碗水来……",
+	"Radio_MisoRamen": "味噌拉面！哦……来一碗热腾腾的味噌拉面吧！汤头浓郁厚实，由发酵味噌带来独特的鲜味深度。我们当然会在最后配上一颗流心糖心蛋和一些绿叶菜，不过真正的主角是汤——千万别用一大堆配料把汤味盖过去！今天，我们先从熬汤开始……",
+	"Radio_NasiGoreng": "印尼炒饭！想象一下，一堆炒得油亮的米饭，点缀着色彩鲜艳的蔬菜碎，也许还有几块嫩鸡肉，再在上面放上一颗煎蛋，蛋黄等着破开流淌在整盘饭上。印尼炒饭是风味和炒饭之王！虽然世界上有很多种炒饭，但没有一种比得上用大铁锅在明火上炒出	来的印尼炒饭。先准备一份放了一天的冷饭，然后……",
+	"Radio_Laghman": "拉格曼！粗厚的手工拉面铺在碗底，新鲜的茄子和青椒同台争艳，谁也不肯当配角。大蒜、辣椒和发酵豆酱为汤汁添上深邃的鲜味，从里到外将你温暖。吃拉格曼，就像在拥抱群山。那就把你的压面机拿出来吧……",
+	"Radio_Inarizushi": "稻荷寿司！这是一种用清酒调味的米饭，塞进甜而酥的油炸豆皮口袋里的寿司。是一道非常传统的食物，据说是某些地方丰收女神最喜欢的美味。它既特别又好吃，很适合提前做好带去野餐或当作便当。先从煮饭开始……",
+	"Radio_Namul": "拌菜！拌菜与其说是一道菜，不如说是一系列最适合小口慢尝的体验。将菠菜、蕨菜、豆芽等青菜用水轻焯或稍微快炒，再拌上芝麻油、大蒜、芝麻和少许酱油。点一点辣椒，添一勺豆酱；没有两盘拌菜的搭配是一模一样的……",
+	"Radio_Lutefisk": "白碱鱼（路特鱼）！这道古老的腌制鱼料理，总会和土豆、豌豆一起上桌，是寒冬里非常饱腹的一顿饭。当然，自己在家做的白碱鱼是最好的，不过如果你没时间把鱼泡在碱液里两个星期，买现成的也可以。只是记得要先提醒你的室友、邻居，以及邻居	的邻居……",
+	"Radio_Ceviche": "酸橘汁腌鱼！这是一道以生鱼为主角的海鲜料理，用柑橘汁、香草和香料腌制而成。柑橘汁中的酸会将鱼肉“腌熟”，让它的口感略微紧实，再带上一股酸爽滋味。酸橙浸透的鱼肉、爽脆的洋葱和细腻的牛油果，这种组合简直独一无二。来，我们开始切料	……",
+	"Radio_LechedeLeon": "狮子奶！有上周收听节目的听众应该还记得我们做的酸橘汁腌鱼……不过你知道吗，用同样的食材也能做出一杯清爽、辛辣、带点鱼味的饮料？没尝过之前先别急着否定！最重要的食材是一条大大的、新鲜捕获的狮子鱼……",
+	"Radio_Mohinga": "莫兴嘎！浓郁芳香的鲶鱼汤，上桌前撒上一些新鲜葱丝，再挤上一点酸橙提味。汤底是酸香鱼汤，通常用磨碎的米来增稠，并加入姜黄、生姜和一点辣椒来调味。我怎么也喝不够这道汤，它喝起来就像是装在碗里的、从未谋面的“家”的味道！让我们先从煮	汤开始……",
+	"Radio_Zarusoba": "笊篱荞麦面！这是一道非常适合春天享用的冷面料理，用的是荞麦面和咸香的蘸汁。葱花和姜丝带来清新、略带微辣的口感，而芥末的独特辛辣则会在舌尖久久停留。那就开始动手吧……",
+	"Radio_LotusWrappedStickyRice": "荷叶糯米饭！这小小的一包糯米和香菇，靠着包裹它的荷叶散发出让人上瘾的香气。你绝对不能省略荷叶，它才是让这小小“宝箱”升华的关键！我们会把所有东西放进蒸笼一起蒸，所以你需要准备的是……",
+	"Radio_GreenFigandSaltfish": "青蕉咸鳕鱼！在阳光灿烂的海滩上，远处钢鼓轻轻敲响，青蕉咸鳕鱼就是一场对比的盛宴。风干盐鳕鱼与甜而未熟的香蕉（青蕉）完美平衡。再用大蒜调味至恰到好处，一口就是一阵味觉爆发。先从处理你的咸鳕鱼开始……",
+	"Radio_FishAmok": "阿莫克鱼咖喱！这道咖喱是对感官的犒赏。香茅和椰奶的香气在空气中飘散，只闻味道就让人迫不及待想尝一口。浓稠的椰奶配上柔嫩的鱼块，让整道菜既安慰人心又十分满足。首先，我们需要先准备一个香蕉叶做的蒸篮……",
+//these strings combine to make a message like "You learned the following recipes: Fried Egg, Omelette, Baked Potato...(page one)
+//(page two)...Pancakes, Waffles!"
+"NewRecipe": "你学会了一道新食谱！",
+"RecipeBook_BookHasRecipes": "你学会了以下食谱：",
+"separator": "，",
+"pageseparator": "...",
+"pageend": "！",
+
+"RecipeBook_Breakfast_Page1": "「早餐，是一天中最重要的一餐！无论你身在世界何处，这些充满能量的料理都能让你的早晨有个完美开端。」",
+"RecipeBook_Breakfast_Page2": "「想来点甜甜的点心提神，还是只吃简单的谷物和鸡蛋？是要倒上一杯新鲜的果汁，还是一大杯深焙黑咖啡？就让这些诱人的文字与香气，为你指引方向吧！」",
+
+"RecipeBook_Northern_Page1": "「每个耕种季节的尾声，都会迎来一段安静的冬休。而对遥远北方的人们来说，冬天尤其漫长。风干、烟熏、腌渍——这里的食物用各种方式来对抗刺骨的严寒。」",
+"RecipeBook_Northern_Page2": "「不过，当春天再次破晓，收成便格外丰盛，金黄的谷粒从土地里冒出，慷慨地奉上自己的养分……来吧，煮上一锅热腾腾的浓汤，你一定会在梦里看见极光在天边跳舞！」",
+
+"RecipeBook_Dessert_Page1": "「完美尖挺的蛋白霜、熟透草莓在嘴里炸开的甜度、轻轻落下的一层糖粉，还有那一缕坚果巧克力的深沉香气，啊啊啊……朋友们，没有什么比沉溺在甜点温柔的怀抱中更美妙了。」",
+"RecipeBook_Dessert_Page2": "「甜点真正的意义，不在于它是甜的、酸的，还是苦的……而在于它是这场美食冒险的最后一块拼图，是你放纵自己、画上完美句点的一小口。当你回想起这些食谱时，一定会说：『多么享受，完美的一口！』」",
+
+"RecipeBook_ComfortFood_Page1": "「想象一下慵懒的夏日午后，你刚擦掉打球留下的汗水和草渍。远处，奶奶在喊你——晚饭好了！餐桌上摆满了你最爱的菜。」",
+"RecipeBook_ComfortFood_Page2": "「所谓『安慰食物』，吃的就是回忆——那些让你瞬间回到过去、感到温暖又安心的味道。这些菜或许很容易就能填饱肚子，但它们真正填满得最好的地方，其实是你的心。」",
+
+"RecipeBook_SnackFood_Page1": "「如果你是真正的行家，你一定知道——要说美食旅行的王者，非街头小吃莫属！滚烫大火上油花四溅，巷弄中小贩此起彼落地吆喝……」",
+"RecipeBook_SnackFood_Page2": "「……在夜市灯光下，人潮肩并肩地挤来挤去……街头小吃才是真正的个人风格！点几串香喷喷的烤串，买一杯刚榨好的甘蔗汁，再咬上一口这些食谱里的点心吧！」",
+
+"RecipeBook_Woodland_Page1": "「这是我最爱的旅程之一！想象一片笼罩在薄雾中的森林，大地上点缀着大自然慷慨赠予的食材……莓果、蕨菜、野生稻米和玉米，几代人细心照料的成果。」",
+"RecipeBook_Woodland_Page2": "「无论是在温暖的村落炉火旁烤着当天的渔获，还是配着一杯闪着气泡的草莓汁大口吃着松软阿雷巴饼，你都能在这些来自土地本身的朴实风味中，找到十足的喜悦……」",
+
+"RecipeBook_Highland_Page1": "「光是谈论高地与低地上的城市与小镇，就能说上好几个小时！每一座村庄和小镇都有属于自己的独特味道。阳光普照的旧酒乡街道上有松露与意面，乡间咖啡馆里飘着浓缩咖啡的香味……」",
+"RecipeBook_Highland_Page2": "「……白色沙滩上传来咸咸海风，灯火辉煌的大都会里则端出顶级料理——处处都让人惊叹！抓紧你的味蕾，因为这本食谱里的每一道菜都不会让你失望……」",
+
+"RecipeBook_Archipelago_Page1": "「想要自称环球旅行者，可得先在宝石海的热带群岛之间跳岛旅行，把那里的滋味一网打尽。把你的船停泊在低矮的环礁上，当地人把鱼铺在柳条架上，在拍岸的浪花上方风干。」",
+"RecipeBook_Archipelago_Page2": "「接着，跟我一起走进沉睡火山之间的热带丛林，在那里，香料与柑橘会在舌尖轻轻发麻！每座岛都有自己独特的料理，但它们都被同一个要素串在一起——大海。所以准备好，要么沉浸，要么被味道淹没！」",
+
+"RecipeBook_Savanna_Page1": "「槌子敲打面团的砰砰声渐渐停歇，取而代之的是镇上人们肚子咕噜的交谈声。篝火升起，厨师们端出大盘大盘的富富团、满是块状蔬菜的浓汤，还有晒干的小龙虾……」",
+"RecipeBook_Savanna_Page2": "「……在这块温暖的土地上，最美味的饭菜，是你也曾参与其中的那一顿。这里的『帮忙』从来不是负担，而是一种与家人朋友连结的方式。来一尝这股感觉吧，让它像夕阳一样温暖你的肚子！」",
+
+"RecipeBook_InlandSea_Page1": "「弯月海……这个地区几乎和农业的诞生画上等号！从这一小片土地出发，风味像野火般蔓延至世界各地。每座村庄与小镇，都在这里的味道基础上加上自己的历史与改编。」",
+"RecipeBook_InlandSea_Page2": "「这里没有任何两道汤、咖喱、沙拉或面饼是完全相同的。撕开一块在炭火中烤好的扁面包，配着这些酸香四溢的料理一起吃，别忘了——*美食*这个概念，就是在这里诞生的！」",
+
+"RecipeBook_Delta_Page1": "「每天都有成千上万条小船穿梭在这片河网之中，运送着来自各地的手摘水果、芳香香草和甜点。在这里，一顿美味佳肴，只需要你向船上一招手就能到手！」",
+"RecipeBook_Delta_Page2": "「这个地区的料理偏爱面条和炒菜——当然，还有少不了的辣椒。稻米特别适合在这里的洪水平原生长，所以，准备好你的锅子……」",
+
+"RecipeBook_Mountain_Page1": "「我第一次乘船来到这片『呢喃之地』时，所有期待都被彻底颠覆了。那是一座被渔村点缀的半岛，还有从海中升起的岛链，雪顶山脉则由一条条蜿蜒小路串联在一起。」",
+"RecipeBook_Mountain_Page2": "「然后是那里的食物……那里的食物！有些人钟情于辣得像火一样的香料，有些人则爱吃酸得要命的腌菜，发酵好几个月，一入口你都怀疑自己是不是要从里到外皱起来。无论走到哪里，清晨现捞的鱼总是最新鲜的！」",
+
+"Mail_GusEventOne_body": "@，^我打算在酒馆里定期开烹饪课，想让镇上的人对不同的料理更有兴趣。如果你今晚有空，就过来坐坐吧！^     —— 加斯",
+"Mail_GusEventOne_title": "加斯的烹饪邀请：香蒜酱与大蒜",
+"Mail_GusEventTwo_body": "@，^上周的烹饪课非常成功！今晚还会再办一堂，如果你有时间的话，就过来吧。希望能见到你！^     —— 你的朋友，加斯",
+"Mail_GusEventTwo_title": "加斯的烹饪邀请：咖喱",
+"Mail_GusEventThree_body": "@，^一如既往，很高兴你能来上课。如果你今晚有空，我们还会再办一堂。我等不及要让你试试这些香料了！^     —— 你的朋友，加斯",
+"Mail_GusEventThree_title": "加斯的烹饪邀请：孜然与香菜",
+"Mail_GusEventFour_body": "@，^老样子，今晚酒馆会再开一堂烹饪课。^我一直在给大家写信，不过也不知道信到底有没有送到手上！哈哈！^     —— 你的朋友，加斯",
+"Mail_GusEventFour_title": "加斯的烹饪邀请：芝麻酱",
+"Mail_GusEventFive_body": "像往常一样，@，我总是很高兴你能来上课。今晚还会有一堂，如果你有时间的话就来吧。说实话，这堂课也许会是最后一堂了。^     —— 你的朋友，加斯",
+"Mail_GusEventFive_title": "加斯的烹饪邀请：随心调味",
+
+//events
+"Events_GarlicPesto_dialogue.Gus.1a": "欢迎大家！",
+"Events_GarlicPesto_dialogue.Gus.1b": "很高兴能开始拓展大家对料理风味的认识。",
+"Events_GarlicPesto_dialogue.Gus.1c": "今天我们要介绍我最喜欢的味道之一：大蒜。",
+"Events_GarlicPesto_dialogue.Gus.1d": "大蒜常被视为许多料理起手时不可或缺的香料食材。",
+"Events_GarlicPesto_dialogue.Gus.1e": "我还想介绍一个很适合搭配大蒜的香草酱——香蒜酱。",
+"Events_GarlicPesto_dialogue.Gus.1f": "目前为止，有人有什么问题吗？",
+"Events_GarlicPesto_dialogue.Caroline.2a": "香蒜酱里面都放了哪些香草……？闻起来有点像我花园里的味道。",
+"Events_GarlicPesto_dialogue.Caroline.2b": "是罗勒吗？",
+"Events_GarlicPesto_dialogue.Gus.3a": "答对了！",
+"Events_GarlicPesto_dialogue.Gus.3b": "香蒜酱的主要食材其实是松子和罗勒！",
+"Events_GarlicPesto_dialogue.Gus.3c": "再加上大蒜、油和起司，它就成了一种很独特的酱料或浇头。",
+"Events_GarlicPesto_dialogue.Gus.3d": "抹在面包上或拌面都很棒。",
+"Events_GarlicPesto_dialogue.Harvey.4a": "松子非常健康！",
+"Events_GarlicPesto_dialogue.Harvey.4b": "不过吃太多，有时候会在几周内一直尝到金属味。",
+"Events_GarlicPesto_dialogue.Demetrius.5a": "什么？！",
+"Events_GarlicPesto_dialogue.Demetrius.5b": "听起来太糟了！",
+"Events_GarlicPesto_dialogue.Harvey.6a": "那……极少发生……",
+"Events_GarlicPesto_dialogue.Gus.7a": "＊咳咳＊！",
+"Events_GarlicPesto_dialogue.Harvey.8a": "对不起，加斯！你继续！",
+"Events_GarlicPesto_dialogue.Gus.9a": "那我们就开始做香蒜酱吧！",
+"Events_GarlicPesto_dialogue.Gus.9b": "首先，我们要用些新鲜的松子……等等抹在菠菜扁面上会好吃到不得了！",
+
+"Events_Curry_dialogue.Penny.1a": "你的研究进度怎么样，玛鲁？",
+"Events_Curry_dialogue.Maru.2a": "很好！",
+"Events_Curry_dialogue.Lewis.3a": "这里闻起来好香啊！",
+"Events_Curry_dialogue.Gus.4a": "欢迎大家！",
+"Events_Curry_dialogue.Gus.4b": "我看到好几张熟面孔……",
+"Events_Curry_dialogue.Gus.4c": "今天我要介绍一道变化多到几乎数不清的菜。",
+"Events_Curry_dialogue.Gus.4d": "我们来谈谈咖喱！",
+"Events_Curry_dialogue.Gus.4e": "大家有最喜欢的咖喱吗？",
+"Events_Curry_dialogue.Penny.5a": "嗯……",
+"Events_Curry_dialogue.Maru.6a": "绿咖喱！",
+"Events_Curry_dialogue.Maru.6b": "里面有很多蔬菜，还有一种我很喜欢的清爽感。",
+"Events_Curry_dialogue.Lewis.7a": "越辣越好！",
+"Events_Curry_dialogue.Willy.8a": "只要有海鲜我都爱！章鱼咖喱、汤咖喱、阿莫克鱼……",
+"Events_Curry_dialogue.Gus.9a": "大家的口味都很棒！",
+"Events_Curry_dialogue.Gus.9b": "威利，今天要送你的鱼头咖喱食谱，我想你一定会喜欢。",
+"Events_Curry_dialogue.Gus.9c": "那是一整条红鲷鱼做的！",
+"Events_Curry_dialogue.Gus.9d": "咖喱是不是很棒？",
+"Events_Curry_dialogue.Gus.9e": "世界各地有数不清的地方都有自己的咖喱做法！说不定有上千种食谱，没有两种是完全一样的！",
+"Events_Curry_dialogue.Gus.9f": "现在，我们先从怎么调咖喱香料粉开始讲起。",
+"Events_Curry_dialogue.Gus.9g": "虽然香料配方各地不同，但这一份是我的私房配方。",
+"Events_Curry_dialogue.Gus.9h": "我们需要一些芫荽籽和孜然籽、姜黄、葫芦巴，再加上一些辣椒……",
+"Events_Curry_dialogue.Gus.9i": "接着，我要大家拿起自己的研钵和杵，卷起袖子，准备开始捣碎！",
+
+"Events_CilantroCumin_dialogue.Jas.1a": "这些都是要吃的吗？",
+"Events_CilantroCumin_dialogue.Marnie.2a": "不是哦，我们要用它们来做菜！",
+"Events_CilantroCumin_dialogue.Shane.3a": "哦，那些是恩奇拉达吗？",
+"Events_CilantroCumin_dialogue.Gus.4a": "大家好！",
+"Events_CilantroCumin_dialogue.Gus.4b": "今天又看到一批新面孔！",
+"Events_CilantroCumin_dialogue.Gus.4c": "当然，也有几位老熟客。",
+"Events_CilantroCumin_dialogue.Gus.4d": "我想今天跟大家聊两种能大幅提升料理水准的香料和香草：孜然和芫荽。",
+"Events_CilantroCumin_dialogue.Gus.4e": "孜然和芫荽都是从各自植物的种子里取得的香料。",
+"Events_CilantroCumin_dialogue.Jas.5a": "有些不是种子。这个叶子上写着，嗯……C-I-L-A-N-T-R-O……",
+"Events_CilantroCumin_dialogue.Jas.5b": "香菜？",
+"Events_CilantroCumin_dialogue.Gus.6a": "观察得很好，贾斯！你把那个字念得很棒！",
+"Events_CilantroCumin_dialogue.Gus.6b": "有些地方会把芫荽的叶子叫做香菜，不过它们都是同一株植物来的。",
+"Events_CilantroCumin_dialogue.Marnie.7a": "这些通常都拿来做什么？我调味架上也有这两样，但好像从来没打开过……",
+"Events_CilantroCumin_dialogue.Gus.8a": "孜然能带来一种温暖的感觉，很适合用在你想要做出层次丰富的料理里。",
+"Events_CilantroCumin_dialogue.Gus.8b": "有些菜如果没有孜然就是少了点什么，比如今天附上的恩奇拉达食谱。",
+"Events_CilantroCumin_dialogue.Shane.9a": "那会让东西变得更辣吗？",
+"Events_CilantroCumin_dialogue.Gus.10a": "光靠孜然不会更辣，但它会让味道更加厚实。",
+"Events_CilantroCumin_dialogue.Gus.10b": "芫荽或香菜也常用在沙沙酱之类的东西里，会带来柠檬般清爽的香气！",
+"Events_CilantroCumin_dialogue.Shane.11a": "嗯……玉米片配超辣沙沙酱……",
+"Events_CilantroCumin_dialogue.Gus.12a": "那我们就来讲讲怎么使用它们、用量要多少吧！",
+"Events_CilantroCumin_dialogue.Gus.12b": "先从切辣椒开始。",
+"Events_CilantroCumin_dialogue.Gus.12c": "呃，谢恩，也许你先别把沙沙酱全部吃光……",
+
+"Events_Tahini_dialogue.Evelyn.1a": "这里闻起来真香啊，亲爱的！",
+"Events_Tahini_dialogue.Leah.2a": "都把我肚子闻饿了！",
+"Events_Tahini_dialogue.Gus.3a": "大家好！",
+"Events_Tahini_dialogue.Gus.3b": "潘妮和@又回来了……",
+"Events_Tahini_dialogue.Gus.3c": "那对其他第一次来的各位，欢迎！",
+"Events_Tahini_dialogue.Gus.3d": "今天我要讲的是芝麻酱的美妙世界！",
+"Events_Tahini_dialogue.Gus.3e": "它的用途多到不胜枚举。我敢说你们中有些人早就吃过自己最爱的芝麻酱料理，只是没发现而已。",
+"Events_Tahini_dialogue.Gus.3f": "它会用在鹰嘴豆泥、烤茄子泥、芝麻糖和牛轧糖里……当然也可以单独拿来当蘸酱配炸豆丸和沙威玛！",
+"Events_Tahini_dialogue.Elliott.4a": "嗯……光是听这串名字，就能把我带到早已失落的卡利科沙漠传说，或是某个远方熙来攘往的市集。",
+"Events_Tahini_dialogue.Gus.5a": "芝麻酱很棒，它能把芝麻本身的自然甜味勾出来。",
+"Events_Tahini_dialogue.Leah.6a": "我超爱鹰嘴豆泥！",
+"Events_Tahini_dialogue.Leah.6b": "不过烤茄子泥是什么？我从来没听说过。",
+"Events_Tahini_dialogue.Gus.7a": "它跟鹰嘴豆泥有点像！",
+"Events_Tahini_dialogue.Gus.7b": "用的是烤茄子，味道非常浓郁咸香，再带着芝麻酱的微甜。",
+"Events_Tahini_dialogue.Leah.8a": "哦！茄子超好吃的！",
+"Events_Tahini_dialogue.Evelyn.9a": "加斯，亲爱的，你刚刚提到牛轧糖。芝麻酱常用在甜点里吗？",
+"Events_Tahini_dialogue.Gus.10a": "当然啰！",
+"Events_Tahini_dialogue.Gus.10b": "它可以用来给饼干、蛋糕、冰淇淋调味……可能性多到数不完！",
+"Events_Tahini_dialogue.Gus.10c": "要不要今天就来做一道甜的，一道咸的呢？",
+"Events_Tahini_dialogue.Gus.10d": "那我们就先从一把芝麻和一个研钵开始……",
+
+"Events_SpiceToTaste_dialogue.Penny.1a": "你好，@。",
+"Events_SpiceToTaste_dialogue.Penny.1b": "我通常会在上课前先来问加斯一些问题。我不想在他上课的时候打断他。",
+"Events_SpiceToTaste_dialogue.Penny.1c": "看来我们今天都来早了。",
+"Events_SpiceToTaste_dialogue.Penny.1d": "嗯……不知道加斯在哪儿？",
+"Events_SpiceToTaste_dialogue.Noise.2a": "＊哐啷！＊",
+"Events_SpiceToTaste_dialogue.Penny.3a": "那是什么声音？！",
+"Events_SpiceToTaste_dialogue.AnswerChoice.4a": "是从另一间房传来的。",
+"Events_SpiceToTaste_dialogue.AnswerChoice.4b": "也许是加斯？",
+"Events_SpiceToTaste_dialogue.AnswerChoice.4c": "我们应该过去看看。",
+"Events_SpiceToTaste_dialogue.Penny.5a": "哦，不，加斯！",
+"Events_SpiceToTaste_dialogue.Penny.5b": "你没事吧？",
+"Events_SpiceToTaste_dialogue.Gus.6a": "我没事，我没事……",
+"Events_SpiceToTaste_dialogue.Gus.6b": "我只是把这些胡椒……咳……咳……",
+"Events_SpiceToTaste_dialogue.Gus.6c": "＊阿嚏！＊",
+"Events_SpiceToTaste_dialogue.Gus.6d": "……胡椒研磨罐……给掉地上了……",
+"Events_SpiceToTaste_dialogue.Penny.7a": "你确定就只有这个问题吗？你看起来有点失落。",
+"Events_SpiceToTaste_dialogue.Gus.8a": "唉……我有点担心大家其实并不太喜欢这些课程。",
+"Events_SpiceToTaste_dialogue.Gus.8b": "只有你和@有来上过不只一次！",
+"Events_SpiceToTaste_dialogue.Gus.8c": "也许我讲得太细，或者又不够详细。没有稳定回馈的时候，真的很难拿捏……",
+"Events_SpiceToTaste_dialogue.Penny.9a": "哦，加斯……真对不起……",
+"Events_SpiceToTaste_dialogue.Penny.9b": "身为老师，我知道那种有时候会觉得没人看见自己努力的感觉。",
+"Events_SpiceToTaste_dialogue.Penny.9c": "不过我觉得大家其实都从你的付出里受惠了。",
+"Events_SpiceToTaste_dialogue.Penny.9d": "我想如果你在大家进门的时候多问问近况，一定能听到很多好评。",
+"Events_SpiceToTaste_dialogue.Penny.9e": "你觉得呢，@？",
+"Events_SpiceToTaste_dialogue.AnswerChoice.10a": "我觉得课程很有趣。",
+"Events_SpiceToTaste_dialogue.AnswerChoice.10b": "你真的为大家的料理「加了很多料」！",
+"Events_SpiceToTaste_dialogue.AnswerChoice.10c": "每个人都会遇到一点小挫折……",
+"Events_SpiceToTaste_dialogue.Gus.11a": "你们说得大概都对……",
+"Events_SpiceToTaste_dialogue.Gus.11b": "……谢谢你们！",
+"Events_SpiceToTaste_dialogue.Gus.11c": "我们大概得赶快准备一下，好迎接今天会来的大家。",
+"Events_SpiceToTaste_dialogue.Gus.11d": "听起来已经有人到了。",
+"Events_SpiceToTaste_dialogue.Gus.11e": "天哪！",
+"Events_SpiceToTaste_dialogue.Gus.11f": "今天来了这么多人！",
+"Events_SpiceToTaste_dialogue.Leah.12a": "加斯！",
+"Events_SpiceToTaste_dialogue.Harvey.12a": "你在这儿！",
+"Events_SpiceToTaste_dialogue.Marnie.13a": "我家人超喜欢你做的恩奇拉达，加斯。",
+"Events_SpiceToTaste_dialogue.Marnie.13b": "你还有什么好吃的建议吗？",
+"Events_SpiceToTaste_dialogue.Maru.14a": "加斯！我得问你上次给我那个食谱的一些细节。我照着做却没成功，也不知道哪里出问题了。",
+"Events_SpiceToTaste_dialogue.Lewis.15a": "抱歉刚刚有点吵，我们在挪椅子！",
+"Events_SpiceToTaste_dialogue.Caroline.16a": "你在这儿啊！我种了些罗勒，想拿给你。上次你给的那个食谱配上它简直太棒了。",
+"Events_SpiceToTaste_dialogue.Gus.17a": "别一次一个个来！",
+"Events_SpiceToTaste_dialogue.Gus.17b": "谢谢你们两个……",
+"Events_SpiceToTaste_dialogue.Gus.17c": "这样吧，今天的课程结束后，我来开放时间让大家提问。",
+"Events_SpiceToTaste_dialogue.Evelyn.18a": "亲爱的，要不要在开始前吃几块芝麻饼干？我上次课后特别烤了呢……",
+"Events_SpiceToTaste_dialogue.Gus.19a": "当然好！",
+"Events_SpiceToTaste_dialogue.Gus.19b": "谢谢大家今天能来。真的非常感谢……！",
+"Events_SpiceToTaste_dialogue.Text.20a": "能在加斯的课堂上看到大家真是太好了！看来镇上的人们对烹饪有了全新的热情。",
+
+
+"Events_QoSFinal_dialogue.1a": "你在这儿啊！我的冒险小帮手！",
+"Events_QoSFinal_dialogue.1b": "多亏你帮忙，我总算把手稿整理好，寄到祖祖市的出版社了。",
+"Events_QoSFinal_dialogue.1c": "他们催我也不过才……八年吧？",
+"Events_QoSFinal_dialogue.1d": "我知道、我知道，我可是这个频道最赚钱的人。他们当然急着想出版我的第一本食谱。",
+"Events_QoSFinal_dialogue.1e": "不过，火开大一点，蛋糕也不会烤得比较快！",
+"Events_QoSFinal_dialogue.2a": "嗯……我想给你点谢礼，毕竟你真的「救了我一命」！",
+"Events_QoSFinal_dialogue.2b": "有些食谱，是我在偏远到只能搭热气球才能抵达的村庄里学到的……",
+"Events_QoSFinal_dialogue.2c": "而我跟开热气球的那位，现在已经闹得不太愉快了。",
+"Events_QoSFinal_dialogue.2d": "所以，这样吧，我以后卖东西给你都终身打折，如何？我看得出来你对料理真的很有热情，我也想把那一点火花，扇成一整片火焰！",
+"Events_QoSFinal_dialogue.3a": "哦，对了，差点忘了……",
+"Events_QoSFinal_string.1": "她递给你一张餐巾纸，上面潦草地写着什么。",
+"Events_QoSFinal_string.2": "「酱汁女王」",
+"Events_QoSFinal_dialogue.4a": "我的签名。我可不是什么人都会签的哦！",
+"Events_QoSFinal_dialogue.5a": "……怎么了？当然我本人与电视上的样子不一样！",
+"Events_QoSFinal_dialogue.5b": "那件粉红色睡袍和巨大帽子，都是节目组那群人搞出来的噱头。他们说那样会提高收视率。我说，那些只是多余的花哨装饰！",
+"Events_QoSFinal_dialogue.5c": "我嘛，只是来好好做菜的！成名在年轻时当然挺有趣，不过时间久了，那股新鲜劲就淡了。",
+"Events_QoSFinal_dialogue.5d": "人家常说，变化才是生活的调味料。如果你老是被同样的事情困住，味道一成不变，就会变得索然无味。",
+"Events_QoSFinal_dialogue.5e": "现在嘛，我只想像年轻时刚开始下厨那样，再到处走走……",
+"Events_QoSFinal_dialogue.5f": "……在大家纷纷找我去这家那家餐厅帮忙打广告之前的那段日子。",
+"Events_QoSFinal_dialogue.5g": "我很享受在山谷里四处走动的这段时光，大概还会在这里逗留一阵子……",
+"Events_QoSFinal_dialogue.5h": "……然后再踏上下一段旅程！",
+
+//these are messages intended primarily for visually-impaired players
+"Radio_Reminder": "今天电台有新的烹饪节目。",
+"RecipeBook_Breakfast_ImageDescription": "这本食谱展示了许多美味早餐，例如堆得高高的松软煎饼和华夫饼，上面盖着酸甜的浆果和香甜糖浆，还有奶酪炒蛋配蘑菇、热腾腾的肉桂燕麦粥，以及一盘摆着苹果和橘子切片的水果盘。",
+"RecipeBook_ComfortFood_ImageDescription": "这本食谱的封面是一幅温馨的野餐场景：有被切成三角形的三明治、蛋沙拉和马铃薯沙拉、热呼呼的通心粉焗烤，还有在阳光下变得微微黏手的汽水罐。",
+"RecipeBook_Dessert_ImageDescription": "这本食谱上是一整个刚出炉的大樱桃派，周围杂乱地放着烘焙用具：一袋面粉、打蛋器、破掉的蛋壳，还有奶油和糖。",
+"RecipeBook_SnackFood_ImageDescription": "这本食谱从热闹的夜市场景开场！五颜六色的小摊沿着小巷延伸，各种小推车卖着烤串和形形色色的小玩意。空气中充满了烤玉米、螺旋起司薯条和油滋滋披萨的香味！",
+"RecipeBook_Northern_ImageDescription": "这本食谱展示了一块铺着朴素桌布的大面包碗，面包碗里装着热腾腾的鲑鱼巧达浓汤，顶上点缀着莳萝。旁边是一盘辛辣起司与甚至连地衣都摆在上面的拼盘！",
+"RecipeBook_Savanna_ImageDescription": "这本食谱的封面是一只巨大的陶碗，里面盛着由苦叶菜、咸香鱼肉、油亮棕榈果和辣椒煮成的浓稠炖汤。旁边的盘子上则放着一团团单纯的木薯团，用来中和这顿饭的厚重风味。",
+"RecipeBook_Archipelago_ImageDescription": "这本食谱展示了一天的海上渔获！有你见过最新鲜的鱼和螃蟹，还有被敲开、露出椰肉的椰子。芒果和菠萝等热带香甜水果堆在香蕉叶上。",
+"RecipeBook_Woodland_ImageDescription": "这本食谱展示了一次丰盛的林间收获。一大块烤鲑鱼铺在雪松木板上，上面覆着蔓越莓与香料莓果熬成的果酱。周围环绕着盘卷的春季蕨菜，拌着蛤蜊和烤橡实一起上桌。",
+"RecipeBook_Highland_ImageDescription": "这本食谱展示了一盘极其华丽的意面，就像你在芬吉尔最昂贵的餐厅里会看到的那种。盘子的中央是一团用乌贼墨染黑的意大利面，旁边只有一根芦笋和一抹酱汁作点缀。",
+"RecipeBook_Mountain_ImageDescription": "这本食谱描绘了一份优雅却简单的料理：腌过的鳗鱼盖在热腾腾的白饭上，顶部点缀着微微腌过的甘蓝丝。桌上还摆着一只画工精致的茶壶，以及一杯冒着热气的绿茶。",
+"RecipeBook_InlandSea_ImageDescription": "这本食谱展示了一桌摆在精细编织桌布上的香料料理：中间是一大篮扁面包，带着窑火熏烤的香气，周围则是茄子咖喱、橄榄番茄沙拉与薄荷酸奶酱等料理。",
+"RecipeBook_Delta_ImageDescription": "这本食谱展示了一只在巨大火焰上翻炒的大铁锅！锅里翻腾着各种食材——虾、蘑菇、面条、甜椒和大葱等等！所有东西都在锅里被炒得香气四溢。",
+
+//journal quest text
+"LostPageReturn_name": "失落纸页归还",
+"ChefQuest_name": "神秘女士的委托",
+"ChefQuest_description": "一位神秘的女士请你帮忙寻找她笔记本上遗失的纸页。在山谷各处收集失落的纸页并交给她。",
+"ChefQuest_objective": "已取得的食谱书：",
+"ChefQuest_objective.no": "共 12 本",
+
+//this is a debugging message section shown to everyone after installing
+"InstallationCheck.a": "实用的安装检查！",
+"InstallationCheck.b": "你目前的安装等级是：",
+"InstallationCheck.c": "「丰收料理食谱」会为你的游戏新增以下数量的食谱：",
+"InstallationCheck.d": "如果你想调整模组设定，请阅读模组说明页面。",
+"InstallationCheck.e": "如果你不再需要这个提醒，可以在模组设定里将其关闭。谢谢！",
+
+"InstallationTier.HomeCook_Vanilla": "家常厨师·原版",
+"InstallationTier.HomeCook_Essential": "家常厨师·精简版",
+"InstallationTier.HomeCook_Extended": "家常厨师·扩展版",
+"InstallationTier.WorldTraveler_Vanilla": "世界旅人·原版",
+"InstallationTier.WorldTraveler_Essential": "世界旅人·精简版",
+"InstallationTier.WorldTraveler_Extended": "世界旅人·扩展版",
+
+//config options
+"config.World Traveler.name": "世界旅人",
+"config.World Traveler.description": "（强烈推荐）在「世界旅人」设定下解锁多达 400 道额外食谱！会新增一位需要你帮忙完成任务的新店主 NPC、每周电台烹饪节目、有村民参与的有趣剧情事件等等！【如果关闭世界旅人——你将获得此模组的精简版本。】",
+"config.Enable Flexible Recipes.name": "启用弹性食谱",
+"config.Enable Flexible Recipes.description": "（建议搭配 Love of Cooking 使用。）允许在料理中使用更广泛的食材，例如在需要奶油的料理中使用任意奶油类物品，或在需要起司的料理中使用任何起司，等等。如果你遇到料理配方相关的 Bug，可以关闭此选项。",
+"config.Enable Hyperflexible Recipes.name": "启用超弹性食谱",
+"config.Enable Hyperflexible Recipes.description": "（强烈建议搭配 Love of Cooking 使用。）可用其他模组中的相似食材来做菜。例如：可以将 SVE 的黄瓜、VMV 的橄榄或 WAG 的糖浆用于丰收食谱中。＊注意，可能会不小心用掉你不想消耗的食材——本选项不保证平衡性。",
+"config.Ingredient Indicator.name": "食材标示",
+"config.Ingredient Indicator.description": "在烹饪菜单中为超弹性食谱可替代的食材加上标记，让你知道哪些食材可以互相替用。只在「启用超弹性食谱」开启时生效。",
+
+"blank": "{0}",
+"star": "{0} =",
+"any": "任意 {0}",
+"vanilla": "{0}（任意）",
+"asterisk": "{0} *",
+
+"config.Ingredient Indicator.values.A": "物品",
+"config.Ingredient Indicator.values.B": "物品 =",
+"config.Ingredient Indicator.values.C": "任意物品",
+"config.Ingredient Indicator.values.D": "物品（任意）",
+"config.Ingredient Indicator.values.E": "物品 *",
+"config.Enable Flavored Recipes.name": "启用风味变体食谱",
+"config.Enable Flavored Recipes.description": "（需要 Extra Machine Configs，建议搭配 Love of Cooking 使用）在「启用弹性食谱」或「启用超弹性食谱」开启时允许部分料理根据所用食材改变颜色和风味。例如，用草莓制作水果冰沙时，会得到草莓冰沙。",
+"config.Enable Vanilla Recipe Changes.name": "启用原版食谱调整",
+"config.Enable Vanilla Recipe Changes.description": "对部分原版食谱做出轻微调整以配合丰收模组的设计，例如让巧克力蛋糕改用巧克力作为食材。",
+"config.Patch Duplicate Names.name": "修补重复名称",
+"config.Patch Duplicate Names.description": "在安装了 LoC、SVE 或 VMV 时，修改烤马铃薯、烤起司三明治和／或可颂的名称，以避免出现完全相同的食谱名称。未来也有可能对更多重复名称做出更改。",
+
+"config.Foods Contain Dairy.name": "标记含乳制品料理",
+"config.Foods Contain Dairy.description": "一个影响极小的选项。会在内部资料中标记哪些料理含有乳制品（供 BarleyZP 的过敏模组或 NPC 礼物喜好使用）。",
+"config.Radio Accessibility.name": "电台无障碍提示",
+"config.Radio Accessibility.description": "在早晨新增一则可被读屏工具读取的文字提醒，告诉你今天有新的烹饪电台节目，以搭配原本的画面提示。",
+"config.Recipe Book Accessibility.name": "食谱书无障碍模式",
+"config.Recipe Book Accessibility.description": "为使用读屏支持的玩家准备，此选项会将自定义的食谱书菜单替换成只包含文字说明、较为直觉的提示框界面。",
+"config.Enable Installation Help Message.name": "启用安装说明讯息",
+"config.Enable Installation Help Message.description": "会在 SMAPI 中给你一个小小的提示讯息，让你知道当前安装的是哪一个模组等级。如果你不再需要此讯息，可以在这里将它关闭！",
+
+"RecipeinaBottle_Found": "你找到了一瓶「瓶中食谱」！使用它可以学会一道新的料理食谱。"
+
+}
