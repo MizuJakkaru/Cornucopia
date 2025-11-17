@@ -78,5 +78,142 @@
 				"carp_item": "carp_item",
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_BiteBackMelon",
+				"ContextTags"
+			],
+			"Entries": {
+				"melon_item": "melon_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_Cuccaroot",
+				"ContextTags"
+			],
+			"Entries": {
+				"root_vegetable_item": "root_vegetable_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_FrostBerry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_Void_Goat_Cheese",
+				"ContextTags"
+			],
+			"Entries": {
+				"goat_cheese_item": "goat_cheese_item",
+				"soft_cheese_item": "soft_cheese_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lemurkat.EastScarp_Cherry_Orchard_Wine",
+				"ContextTags"
+			],
+			"Entries": {
+				"wine_item": "wine_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_Void_Goat_Cheese_Aged",
+				"ContextTags"
+			],
+			"Entries": {
+				"goat_cheese_item": "goat_cheese_item",
+				"soft_cheese_item": "soft_cheese_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lemurkat.EastScarp_ButterTuff",
+				"ContextTags"
+			],
+			"Entries": {
+				"broccoli_item": "broccoli_item",
+				"cauliflower_item": "cauliflower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lemurkat.EastScarp_Paneeki",
+				"ContextTags"
+			],
+			"Entries": {
+				"root_vegetable_item": "root_vegetable_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lemurkat.EastScarp_CaveFlower",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lemurkat.EastScarp_FirePepper",
+				"ContextTags"
+			],
+			"Entries": {
+				"chili_item": "chili_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lemurkat.EastScarp_GiggleFit",
+				"ContextTags"
+			],
+			"Entries": {
+				"mandrake_item": "mandrake_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lemurkat.EastScarp_ChocoFruit",
+				"ContextTags"
+			],
+			"Entries": {
+				"cocoa_item": "cocoa_item",
+				"cocoa_fruit_item": "cocoa_fruit_item"
+			}
+		},
 	]
 }

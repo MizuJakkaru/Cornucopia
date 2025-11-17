@@ -1241,7 +1241,7 @@
 				"ArtifactSpots"
 			],
 			"When": {
-				"HasMod |contains=LemurKat.EastScarpe.CP": true,
+				"HasMod |contains=LemurKat.EastScarp": true,
 				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Mountain_Obtained": false
 			},
 			"Priority": "Late",
@@ -1482,7 +1482,7 @@
 				"Fish"
 			],
 			"When": {
-				"HasMod |contains=LemurKat.EastScarpe.CP": true,
+				"HasMod |contains=LemurKat.EastScarp": true,
 				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained": false
 			},
 			"Entries": {

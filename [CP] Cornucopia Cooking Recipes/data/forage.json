@@ -201,10 +201,10 @@
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock IslandWest 85,78,1,1",
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock IslandWest 86,84,1,1",
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock IslandWest 92,81,1,1",
-						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock EastScarp_Village 60,104,1,1",
-						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock EastScarp_Village 58,110,1,1",
-						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock EastScarp_Village 50,112,1,1",
-						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock EastScarp_Village 47,111,1,1",
+						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock EastScarp_Village 60,104,1,1",
+						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock EastScarp_Village 58,110,1,1",
+						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock EastScarp_Village 50,112,1,1",
+						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock EastScarp_Village 47,111,1,1",
 					]
 				},*/
 				"Cornucopia.CookingRecipes_RecipeinaBottle_SpawnOnce": {
@@ -229,8 +229,8 @@
 						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandWest",
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandSouthEast",
 						"If RANDOM 0.15, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Custom_FableReef",
-						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
-						"If RANDOM 0.15, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
+						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
+						"If RANDOM 0.15, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
 					]
 				},
 				"Cornucopia.CookingRecipes_RecipeinaBottle_Extra": {
@@ -245,8 +245,8 @@
 						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandWest",
 						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandSouthEast",
 						"If RANDOM 0.05, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Custom_FableReef",
-						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
-						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
+						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
+						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
 					]
 				},
 				"Cornucopia.CookingRecipes_RecipeinaBottle_SummerSpawn": {
@@ -257,8 +257,8 @@
 					"Condition": "SEASON summer, {{NotAllPlayersHaveBottleRecipes}}",
 					"Actions": [
 						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Beach",
-						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
-						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
+						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
+						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
 					]
 				},
 				"Cornucopia.CookingRecipes_RecipeinaBottle_FarmhandSpawn": {
@@ -273,8 +273,8 @@
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandWest",
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandSouthEast",
 						"If RANDOM 0.1, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Custom_FableReef",
-						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
-						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarpe.CP}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
+						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
+						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
 					]
 				}
 			}

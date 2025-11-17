@@ -18966,11 +18966,6 @@
 							}
 						},
 						{
-							"Type": "Item",
-							"Value": "(O)Cornucopia_FishStock",
-							"Amount": 1
-						},
-						{
 							"Type": "ContextTag",
 							"Value": "spring_onion_item, green_onion_item",
 							"Amount": 1,

@@ -110,9 +110,9 @@
 			"Value": "true",
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
@@ -139,9 +139,9 @@
 			"When": {
 				"World Traveler": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
@@ -263,9 +263,9 @@
 			"Value": "PLAYER_HAS_COOKING_RECIPE Current Cornucopia_AnchovyPizza, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamPuff, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Ladyfingers, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LeekSoup, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_MacandCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Mochi, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PotatoFries, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaltGrilledFish, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FruitSmoothie, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BakedPotato, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BananaBread, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_DragonRoll, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CrabDip, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_StuffedPeppers, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanBurger, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanQuesadilla, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Broth, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_ButternutSquashSoup, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SunriseToast, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FarmersRamen, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FettuccineAlfredo, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Flan, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Fondue, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FriedRice, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Gumbo, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_KeyLimePie, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LoxandaSchmear, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LumberjacksBun, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PinkDrink, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SpinachDip, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaladRolls, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_TilapiaandZoodles, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Waffles, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_YucaFries",
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"World Traveler": false
@@ -277,9 +277,9 @@
 			"When": {
 				"World Traveler": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
@@ -301,9 +301,9 @@
 			"Value": "ANY \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_AnchovyPizza\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamPuff\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Ladyfingers\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LeekSoup\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_MacandCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Mochi\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_PotatoFries\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SaltGrilledFish\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FruitSmoothie\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BakedPotato\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BananaBread\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_DragonRoll\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CrabDip\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_StuffedPeppers\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BeanBurger\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BeanQuesadilla\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Broth\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_ButternutSquashSoup\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SunriseToast\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FarmersRamen\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FettuccineAlfredo\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Flan\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Fondue\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FriedRice\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Gumbo\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_KeyLimePie\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LoxandaSchmear\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LumberjacksBun\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_PinkDrink\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SpinachDip\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SaladRolls\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_TilapiaandZoodles\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Waffles\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_YucaFries",
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"World Traveler": false
@@ -315,9 +315,9 @@
 			"When": {
 				"World Traveler": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
@@ -1497,6 +1497,59 @@
 	],
 	"Changes": [
 		{
+            "Action": "Load",
+            "Target": "Cornucopia.CookingRecipes/i18n",
+            "FromFile": "{{FirstValidFile: i18n/{{language}}.json, i18n/default.json }}"
+        },
+		{
+            "Action": "EditData",
+            "Target": "Cornucopia.CookingRecipes/i18n",
+            "Entries": {
+				"Indicator": "{{i18n:{{indicator}}}}"
+			}
+        },
+		{
+            "Action": "EditData",
+            "Target": "Cornucopia.CookingRecipes/i18n",
+            "Entries": {
+				"InstallationTier": "{{i18n:InstallationTier.{{InstallationTier}}}}",
+				"RecipeAmount": "{{RecipeAmount}}"
+			}
+        },
+		{
+            "Action": "EditData",
+            "Target": "Cornucopia.CookingRecipes/i18n",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			},
+            "Entries": {
+				"InstallationTier": "{{i18n:InstallationTier.HomeCook_Extended}}",
+				"RecipeAmount": "126",
+			}
+        },
+		{
+            "Action": "EditData",
+            "Target": "Cornucopia.CookingRecipes/i18n",
+			"When": {
+				"World Traveler": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			},
+            "Entries": {
+				"InstallationTier": "{{i18n:InstallationTier.WorldTraveler_Extended}}",
+				"RecipeAmount": "527",
+			}
+        },
+		{
 			"Action": "EditData",
 			"Target": "Data/TriggerActions",
 			"When": {
@@ -1509,9 +1562,10 @@
 					"HostOnly": false,
 					"MarkActionApplied": false,
 					"Actions": [
+					"Spiderbuttons.BETAS_PatchUpdate Cornucopia.CookingRecipes",
 					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.a}}\" Info true",
-					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.b}} {{i18n:InstallationTier.{{InstallationTier}}}}\" Info true",
-					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.c}} {{RecipeAmount}}\" Info true",
+					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.b}} [LocalizedText [EscapedText Cornucopia.CookingRecipes/i18n:InstallationTier]]\" Info true",
+					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.c}} [LocalizedText [EscapedText Cornucopia.CookingRecipes/i18n:RecipeAmount]]\" Info true",
 					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.d}}\" Info true",
 					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.e}}\" Info true"
 					]
@@ -1625,18 +1679,6 @@
 			}
 		},
 		{
-            "Action": "Load",
-            "Target": "Cornucopia.CookingRecipes/i18n",
-            "FromFile": "{{FirstValidFile: i18n/{{language}}.json, i18n/default.json }}"
-        },
-		{
-            "Action": "EditData",
-            "Target": "Cornucopia.CookingRecipes/i18n",
-            "Entries": {
-				"Indicator": "{{i18n:{{indicator}}}}"
-			}
-        },
-		{
 			"Action": "Include",
 			"FromFile": "contexttags_compat/contexttags_vanilla.json",
 		},
@@ -1688,7 +1730,7 @@
 			"Action": "Include",
 			"FromFile": "contexttags_compat/contexttags_es.json",
 			"When": {
-				"HasMod|contains=LemurKat.EastScarpe.CP": true,
+				"HasMod|contains=LemurKat.EastScarp": true,
 			}
 		},
 		{
