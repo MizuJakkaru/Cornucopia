@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="64" nextobjectid="18">
+ <tileset firstgid="1" name="chefcart" tilewidth="16" tileheight="16" tilecount="936" columns="24">
+  <image source="springobjects.png" width="384" height="624"/>
+ </tileset>
+ <layer id="45" name="Buildings" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJzzZmZgAAABOQBP
+  </data>
+ </layer>
+</map>

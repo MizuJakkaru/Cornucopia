@@ -1,0 +1,325 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Cornucopia_WaitingRoom": {
+					"DisplayName": "Limbo",
+					"CreateOnLoad": {
+						"MapPath": "Maps/Coop"
+					},
+					"DefaultArrivalTile": {
+						"X": 5,
+						"Y": 6
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/Locations",
+			"Entries": {
+				"Cornucopia_WaitingRoom": {
+					"Exclude": true
+				}
+			},
+			"When": {
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"Cornucopia_LostPage_Breakfast": {
+					"Name": "Cornucopia_LostPage_Breakfast",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Dessert": {
+					"Name": "Cornucopia_LostPage_Dessert",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_ComfortFood": {
+					"Name": "Cornucopia_LostPage_ComfortFood",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_SnackFood": {
+					"Name": "Cornucopia_LostPage_SnackFood",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Woodland": {
+					"Name": "Cornucopia_LostPage_Woodland",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Mountain": {
+					"Name": "Cornucopia_LostPage_Mountain",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_InlandSea": {
+					"Name": "Cornucopia_LostPage_InlandSea",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Delta": {
+					"Name": "Cornucopia_LostPage_Delta",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Highland": {
+					"Name": "Cornucopia_LostPage_Highland",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Archipelago": {
+					"Name": "Cornucopia_LostPage_Archipelago",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Northern": {
+					"Name": "Cornucopia_LostPage_Northern",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Savanna": {
+					"Name": "Cornucopia_LostPage_Savanna",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawnableDefinitions",
+			"Entries": {
+				"Cornucopia_LostPage_Breakfast": {
+					"Type": "Minable",
+					"MinableTool": "Pickaxe",
+					"MinableHealth": 1,
+					"MinableObjectId": 38,
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "(O)Cornucopia_LostPage_Breakfast",
+									"Condition": "!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received"
+								}
+							}
+						],
+						[
+							{
+								"Weight": 0.00001,
+								"Value": {
+									"ItemId": "(O)390",
+								}
+							}
+						]
+					],
+					"MinableExperienceGranted": 1
+				},
+				"Cornucopia_LostPage_Northern": {
+					"Type": "Breakable",
+					"BreakableBigCraftableId": 118,
+					"BreakableHealth": 15,
+					"BreakableHitSound": "woodWhack",
+					"BreakableBrokenSound": "barrelBreak",
+					"BreakableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "(O)Cornucopia_LostPage_Northern"
+								}
+							}
+						]
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawningGroups",
+			"Entries": {
+				"Cornucopia.CookingRecipes_LostPage_Breakfast_Rock": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_LostPage_Breakfast"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPage_Northern_Barrel": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_LostPage_Northern"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				}
+			}
+		},
+	]
+}

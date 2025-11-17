@@ -1,0 +1,466 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Nasturtium",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_RoseHips",
+				"ContextTags"
+			],
+			"Entries": {
+				"tea_item": null,
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_RoselleHibiscus",
+				"ContextTags"
+			],
+			"Entries": {
+				"tea_item": null,
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Oysternut",
+				"ContextTags"
+			],
+			"Entries": {
+				"nut_item": "nut_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Tigernut",
+				"ContextTags"
+			],
+			"Entries": {
+				"nut_item": "nut_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_BloodOrange",
+				"ContextTags"
+			],
+			"Entries": {
+				"citrus_item": "citrus_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_PurplePluot",
+				"ContextTags"
+			],
+			"Entries": {
+				"apricot_item": "apricot_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Acerola",
+				"ContextTags"
+			],
+			"Entries": {
+				"cherry_item": "cherry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Cupuacu",
+				"ContextTags"
+			],
+			"Entries": {
+				"cocoa_item": "cocoa_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_PeanutButterFruit",
+				"ContextTags"
+			],
+			"Entries": {
+				"peanut_butter_item": "peanut_butter_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Shipova",
+				"ContextTags"
+			],
+			"Entries": {
+				"pear_item": "pear_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_AdzukiBeans",
+				"ContextTags"
+			],
+			"Entries": {
+				"adzuki_bean_item": "adzuki_bean_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_CoquitoNut",
+				"ContextTags"
+			],
+			"Entries": {
+				"coconut_item": "coconut_item",
+				"nut_item": "nut_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_CoxsOrangePippin",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_ElbertaPeach",
+				"ContextTags"
+			],
+			"Entries": {
+				"peach_item": "peach_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Feminello",
+				"ContextTags"
+			],
+			"Entries": {
+				"lemon_item": "lemon_item",
+				"citrus_item": "citrus_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_ForellePear",
+				"ContextTags"
+			],
+			"Entries": {
+				"pear_item": "pear_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_HarrowSweetPear",
+				"ContextTags"
+			],
+			"Entries": {
+				"pear_item": "pear_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_KabochaSquash",
+				"ContextTags"
+			],
+			"Entries": {
+				"pumpkin_item": "pumpkin_item",
+				"squash_item": "squash_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_KandilSinap",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_KuriPumpkin",
+				"ContextTags"
+			],
+			"Entries": {
+				"pumpkin_item": "pumpkin_item",
+				"squash_item": "squash_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_LitchiTomato",
+				"ContextTags"
+			],
+			"Entries": {
+				"tomato_item": "tomato_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_MoonDropGrape",
+				"ContextTags"
+			],
+			"Entries": {
+				"grape_item": "grape_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_PiedmontHazelnut",
+				"ContextTags"
+			],
+			"Entries": {
+				"hazelnut_item": "hazelnut_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_RatTailRadish",
+				"ContextTags"
+			],
+			"Entries": {
+				"radish_item": "radish_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_SeckelPear",
+				"ContextTags"
+			],
+			"Entries": {
+				"pear_item": "pear_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_TearDropGrapes",
+				"ContextTags"
+			],
+			"Entries": {
+				"green_grape_item": "green_grape_item",
+				"grape_item": "grape_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_TurbanSquash",
+				"ContextTags"
+			],
+			"Entries": {
+				"pumpkin_item": "pumpkin_item",
+				"squash_item": "squash_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_CalvilleBlancdHiver",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_EsopusSpitzenburg",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_WoollyKateTomato",
+				"ContextTags"
+			],
+			"Entries": {
+				"tomato_item": "tomato_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_KingCoconut",
+				"ContextTags"
+			],
+			"Entries": {
+				"coconut_item": "coconut_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Naranjilla",
+				"ContextTags"
+			],
+			"Entries": {
+				"orange_item": "orange_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_SweetLemon",
+				"ContextTags"
+			],
+			"Entries": {
+				"lemon_item": "lemon_item",
+				"citrus_item": "citrus_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_GreengagePlum",
+				"ContextTags"
+			],
+			"Entries": {
+				"plum_item": "plum_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_MirabellePlum",
+				"ContextTags"
+			],
+			"Entries": {
+				"plum_item": "plum_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_CentennialCrabapple",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_MakrutLime",
+				"ContextTags"
+			],
+			"Entries": {
+				"lime_item": "lime_item",
+				"citrus_item": "citrus_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Ujukitsu",
+				"ContextTags"
+			],
+			"Entries": {
+				"lemon_item": "lemon_item",
+				"citrus_item": "citrus_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Mandelo",
+				"ContextTags"
+			],
+			"Entries": {
+				"grapefruit_item": "grapefruit_item",
+				"citrus_item": "citrus_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"BFV.CombinedCrops_Calamansi",
+				"ContextTags"
+			],
+			"Entries": {
+				"lime_item": "lime_item",
+				"citrus_item": "citrus_item"
+			}
+		},
+	]
+}

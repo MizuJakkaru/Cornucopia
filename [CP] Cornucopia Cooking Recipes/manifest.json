@@ -1,0 +1,98 @@
+{
+	"Name": "Cornucopia - Cooking Recipes",
+	"Author": "Cornucopia",
+	"Description": "An additional Cooking Recipes mod for Stardew Valley 1.6 Content Patcher",
+	"Version": "1.0.0",
+	"MinimumApiVersion": "4.0.0",
+	"UniqueID": "Cornucopia.CookingRecipes",
+	"UpdateKeys": [
+		"Nexus:39057"
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true,
+			//"MinimumVersion": "1.28.4"
+		},
+		{
+			"UniqueID": "Spiderbuttons.BETAS",
+			"IsRequired": true,
+			"MinimumVersion": "3.3.1"
+		},
+		{
+			"UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
+			"IsRequired": true,
+			"MinimumVersion": "2.5.1"
+		},
+		{
+			"UniqueID": "Cornucopia.MoreCrops",
+			"IsRequired": false,
+			"MinimumVersion": "1.6.0"
+		},
+		{
+			"UniqueID": "Cornucopia.ArtisanMachines",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Cornucopia.MoreFlowers",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Wildflour.AtelierGoods",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "LemurKat.EastScarpe.CP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Rafseazz.RSVCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "skellady.SBVCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Wildflour.SASS",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "blueberry.LoveOfCooking.CP",
+			"IsRequired": false,
+			"MinimumVersion": "2.0.8"
+		},
+		{
+			"UniqueID": "Lumisteria.MtVapius",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "BFV.CombinedCrops",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "MoreFish",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "6480.flexiblecooking",
+			"IsRequired": false
+		}
+	],
+	"DH.MEEP": "2.0.0",
+	"DH.MEEP.CloseupInteractions": "",
+	"DH.MEEP.VanillaLetters": "",
+	"DH.MEEP.SetMailFlag": "",
+	"Spiderbuttons.BETAS": {
+		"AdvancedPermissions": [
+			"Logging"
+		]
+	}
+}

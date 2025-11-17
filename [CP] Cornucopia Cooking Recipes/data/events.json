@@ -1,0 +1,141 @@
+{
+    "Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia.CorkingRecipes_GusEventOne": "{{i18n:Mail_GusEventOne_body}}[#]{{i18n:Mail_GusEventOne_title}}",
+				"Cornucopia.CorkingRecipes_GusEventTwo": "{{i18n:Mail_GusEventTwo_body}}[#]{{i18n:Mail_GusEventTwo_title}}",
+				"Cornucopia.CorkingRecipes_GusEventThree": "{{i18n:Mail_GusEventThree_body}}[#]{{i18n:Mail_GusEventThree_title}}",
+				"Cornucopia.CorkingRecipes_GusEventFour": "{{i18n:Mail_GusEventFour_body}}[#]{{i18n:Mail_GusEventFour_title}}",
+				"Cornucopia.CorkingRecipes_GusEventFive": "{{i18n:Mail_GusEventFive_body}}[#]{{i18n:Mail_GusEventFive_title}}",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_GusEventOne": {
+					"Id": "Cornucopia.CookingRecipes_GusEventOne",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Gus 2, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_GusEventOne tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_GusEventTwo": {
+					"Id": "Cornucopia.CookingRecipes_GusEventTwo",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current eventSeen_Cornucopia.CookingRecipes_CookingLesson_GarlicPesto_memory_oneweek",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_GusEventTwo tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_GusEventThree": {
+					"Id": "Cornucopia.CookingRecipes_GusEventThree",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current eventSeen_Cornucopia.CookingRecipes_CookingLesson_Curry_memory_oneweek",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_GusEventThree tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_GusEventFour": {
+					"Id": "Cornucopia.CookingRecipes_GusEventFour",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current eventSeen_Cornucopia.CookingRecipes_CookingLesson_CilantroCumin_memory_oneweek",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_GusEventFour tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_GusEventFive": {
+					"Id": "Cornucopia.CookingRecipes_GusEventFive",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current eventSeen_Cornucopia.CookingRecipes_CookingLesson_Tahini_memory_oneweek",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_GusEventFive tomorrow",
+					]
+				},
+			}
+		},
+		{
+			"LogName": "Event - Pesto and Garlic",
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia.CookingRecipes_CookingLesson_GarlicPesto/LocalMail Cornucopia.CorkingRecipes_GusEventOne/Time 1600 2600": "playful/14 20/farmer 13 22 0 Gus 14 18 2 Caroline 10 21 1 Harvey 16 22 1 Penny 18 20 2 Demetrius 19 22 3/changeMapTile Front 10 21 855/changeMapTile Front 11 21 856/changeMapTile Front 17 22 855/changeMapTile Front 18 22 856/addObject 13 18 (O)Cornucopia_Pesto 7/addObject 12 18 (O)248 7/addObject 16 18 (O)426 7/addObject 19 18 (O)Cornucopia_PineNuts 7/addObject 17 18 Cornucopia_Basil 7/addObject 17 22 Cornucopia_GarlicBread 7/addObject 11 21 Cornucopia_SemolinaNoodles 7/addCookingRecipe Cornucopia_Pesto/addCookingRecipe Cornucopia_GarlicBread/addCookingRecipe Cornucopia_TrenettealPesto/skippable/move Gus 2 0 2/pause 4000/move Gus -4 0 2/pause 4000/move Gus 2 0 2/pause 2000/faceDirection Penny 3/faceDirection Demetrius 0/faceDirection Caroline 0/faceDirection Harvey 0/speak Gus \"{{i18n:Events_GarlicPesto_dialogue.Gus.1a}}$h#$b#{{i18n:Events_GarlicPesto_dialogue.Gus.1b}}#$b#{{i18n:Events_GarlicPesto_dialogue.Gus.1c}}#$b#{{i18n:Events_GarlicPesto_dialogue.Gus.1d}}#$b#{{i18n:Events_GarlicPesto_dialogue.Gus.1e}}#$b#{{i18n:Events_GarlicPesto_dialogue.Gus.1f}}\"/speak Caroline \"{{i18n:Events_GarlicPesto_dialogue.Caroline.2a}}#$b#{{i18n:Events_GarlicPesto_dialogue.Caroline.2b}}$h\"/jump Gus 4/pause 200/speak Gus \"{{i18n:Events_GarlicPesto_dialogue.Gus.3a}}$h#$b#{{i18n:Events_GarlicPesto_dialogue.Gus.3b}}#$b#{{i18n:Events_GarlicPesto_dialogue.Gus.3c}}#$b#{{i18n:Events_GarlicPesto_dialogue.Gus.3d}}\"/speak Harvey \"{{i18n:Events_GarlicPesto_dialogue.Harvey.4a}}$h#$b#{{i18n:Events_GarlicPesto_dialogue.Harvey.4b}}\"/pause 200/jump Demetrius 8/pause 100/faceDirection Demetrius 3/speak Demetrius \"{{i18n:Events_GarlicPesto_dialogue.Demetrius.5a}}$6#$b#{{i18n:Events_GarlicPesto_dialogue.Demetrius.5b}}$s\"/pause 200/faceDirection Harvey 1/speak Harvey \"{{i18n:Events_GarlicPesto_dialogue.Harvey.6a}}\"/speak Gus \"{{i18n:Events_GarlicPesto_dialogue.Gus.7a}}\"/faceDirection Harvey 0/faceDirection Demetrius 0/speak Harvey \"{{i18n:Events_GarlicPesto_dialogue.Harvey.8a}}$s\"/pause 200/move Gus -1 0 2/pause 500/speak Gus \"{{i18n:Events_GarlicPesto_dialogue.Gus.9a}}$h#$b#{{i18n:Events_GarlicPesto_dialogue.Gus.9b}}$h\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:RecipeBook_BookHasRecipes}} {{i18n:Pesto_name}}{{i18n:separator}}{{i18n:GarlicBread_name}}{{i18n:separator}}{{i18n:TrenettealPesto_name}}{{i18n:pageend}}\"/changeMapTile Front 10 21 1297/changeMapTile Front 11 21 1298/changeMapTile Front 17 22 1297/changeMapTile Front 18 22 1298/end",
+				
+				"Cornucopia.CookingRecipes_CookingLesson_Curry/LocalMail Cornucopia.CorkingRecipes_GusEventTwo/Time 1600 2600": "jaunty/14 20/farmer 13 22 0 Gus 14 18 2 Lewis 10 21 1 Willy 16 22 1 Penny 18 20 2 Maru 19 22 3/changeMapTile Front 10 21 855/changeMapTile Front 11 21 856/changeMapTile Front 17 22 855/changeMapTile Front 18 22 856/addObject 13 18 (O)Cornucopia_GreenCurry 7/addObject 12 18 (O)Cornucopia_CurryPowder 7/addObject 16 18 (O)Cornucopia_FishHeadCurry 7/addObject 10 21 (O)Cornucopia_Okra 7/addObject 15 18 Cornucopia_MassamanCurry 7/addObject 17 22 Cornucopia_Peanut 7/addObject 11 21 (O)260 7/addObject 8 18 (O)192 7/addObject 18 22 (O)88 7/addObject 19 18 (O)829 7/addObject 9 18 (O)Cornucopia_CoconutMilk 7/addCookingRecipe Cornucopia_CurryPowder/addCookingRecipe Cornucopia_EggyCurry/addCookingRecipe Cornucopia_FishHeadCurry/addCookingRecipe Cornucopia_GreenCurry/addCookingRecipe Cornucopia_MassamanCurry/skippable/move Gus 2 0 2/textAboveHead Penny \"{{i18n:Events_Curry_dialogue.Penny.1a}}\"/pause 2500/move Gus -4 0 2/textAboveHead Maru \"{{i18n:Events_Curry_dialogue.Maru.2a}}\"/pause 3000/move Gus 2 0 2/textAboveHead Lewis \"{{i18n:Events_Curry_dialogue.Lewis.3a}}\"/pause 1500/faceDirection Penny 3/faceDirection Maru 0/faceDirection Lewis 0/faceDirection Willy 0/speak Gus \"{{i18n:Events_Curry_dialogue.Gus.4a}}$h#$b#{{i18n:Events_Curry_dialogue.Gus.4b}}#$b#{{i18n:Events_Curry_dialogue.Gus.4c}}#$b#{{i18n:Events_Curry_dialogue.Gus.4d}}$h#$b#{{i18n:Events_Curry_dialogue.Gus.4e}}\"/beginSimultaneousCommand/textAboveHead Penny \"{{i18n:Events_Curry_dialogue.Penny.5a}}\"/emote Maru 32 true/emote Lewis 16 true/jump Lewis 4/emote Willy 20 true/endSimultaneousCommand/pause 1000/speak Maru \"{{i18n:Events_Curry_dialogue.Maru.6a}}$h#$b#{{i18n:Events_Curry_dialogue.Maru.6b}}$3\"/speak Lewis \"{{i18n:Events_Curry_dialogue.Lewis.7a}}$h\"/pause 800/speak Willy \"{{i18n:Events_Curry_dialogue.Willy.8a}}$h\"/pause 200/textAboveHead Gus \"{{i18n:Events_Curry_dialogue.Gus.9a}}\"/pause 500/speak Gus \"{{i18n:Events_Curry_dialogue.Gus.9b}}#$b#{{i18n:Events_Curry_dialogue.Gus.9c}}\"/emote Willy 16/speak Gus \"{{i18n:Events_Curry_dialogue.Gus.9d}}$h#$b#{{i18n:Events_Curry_dialogue.Gus.9e}}$h#$b#{{i18n:Events_Curry_dialogue.Gus.9f}}\"/move Gus -2 0 2/pause 1500/speak Gus \"{{i18n:Events_Curry_dialogue.Gus.9g}}#$b#{{i18n:Events_Curry_dialogue.Gus.9h}}\"/pause 200/speak Gus \"{{i18n:Events_Curry_dialogue.Gus.9i}}\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:RecipeBook_BookHasRecipes}} {{i18n:CurryPowder_name}}{{i18n:separator}}{{i18n:EggyCurry_name}}{{i18n:separator}}{{i18n:FishHeadCurry_name}}{{i18n:separator}}{{i18n:GreenCurry_name}}{{i18n:separator}}{{i18n:MassamanCurry_name}}{{i18n:pageend}}\"/changeMapTile Front 10 21 1297/changeMapTile Front 11 21 1298/changeMapTile Front 17 22 1297/changeMapTile Front 18 22 1298/end",
+				
+				"Cornucopia.CookingRecipes_CookingLesson_CilantroCumin/LocalMail Cornucopia.CorkingRecipes_GusEventThree/Time 1600 2600": "breezy/14 20/farmer 13 22 0 Gus 14 18 2 Penny 10 21 1 Marnie 16 22 1 Shane 18 20 2 Jas 19 22 3/changeMapTile Front 10 21 855/changeMapTile Front 11 21 856/changeMapTile Front 17 22 855/changeMapTile Front 18 22 856/addObject 13 18 (O)Cornucopia_Enchiladas 7/addObject 12 18 (O)Cornucopia_ChipsandSalsa 7/addObject 16 18 (O)Cornucopia_ChipsandGuacamole 7/addObject 10 21 (O)Cornucopia_Jalapeno 7/addObject 15 18 Cornucopia_TortillaSoup 7/addObject 17 22 Cornucopia_Habanero 7/addObject 11 21 (O)260 7/addObject 8 18 (O)270 7/addObject 18 22 (O)Cornucopia_Cilantro 7/addObject 19 18 (O)Cornucopia_CuminSeeds 7/addObject 9 18 (O)Cornucopia_Avocado 7/addCookingRecipe Cornucopia_Enchiladas/addCookingRecipe Cornucopia_ChipsandGuacamole/addCookingRecipe Cornucopia_ChipsandSalsa/addCookingRecipe Cornucopia_RefriedBeans/addCookingRecipe Cornucopia_TortillaSoup/skippable/move Gus 2 0 2/textAboveHead Jas \"{{i18n:Events_CilantroCumin_dialogue.Jas.1a}}\"/pause 2500/move Gus -4 0 2/textAboveHead Marnie \"{{i18n:Events_CilantroCumin_dialogue.Marnie.2a}}\"/pause 3000/move Gus 2 0 2/textAboveHead Shane \"{{i18n:Events_CilantroCumin_dialogue.Shane.3a}}\"/pause 1500/faceDirection Shane 3/faceDirection Jas 0/faceDirection Penny 0/faceDirection Marnie 0/speak Gus \"{{i18n:Events_CilantroCumin_dialogue.Gus.4a}}$h#$b#{{i18n:Events_CilantroCumin_dialogue.Gus.4b}}#$b#{{i18n:Events_CilantroCumin_dialogue.Gus.4c}}#$b#{{i18n:Events_CilantroCumin_dialogue.Gus.4d}}#$b#{{i18n:Events_CilantroCumin_dialogue.Gus.4e}}\"/emote Jas 8 false/speak Jas \"{{i18n:Events_CilantroCumin_dialogue.Jas.5a}}#$b#{{i18n:Events_CilantroCumin_dialogue.Jas.5b}}\"/speak Gus \"{{i18n:Events_CilantroCumin_dialogue.Gus.6a}}$h#$b#{{i18n:Events_CilantroCumin_dialogue.Gus.6b}}\"/speak Marnie \"{{i18n:Events_CilantroCumin_dialogue.Marnie.7a}}\"/speak Gus \"{{i18n:Events_CilantroCumin_dialogue.Gus.8a}}#$b#{{i18n:Events_CilantroCumin_dialogue.Gus.8b}}\"/emote Shane 16 false/speak Shane \"{{i18n:Events_CilantroCumin_dialogue.Shane.9a}}\"/speak Gus \"{{i18n:Events_CilantroCumin_dialogue.Gus.10a}}#$b#{{i18n:Events_CilantroCumin_dialogue.Gus.10b}}\"/speak Shane \"{{i18n:Events_CilantroCumin_dialogue.Shane.11a}}$h\"/emote Shane 20/speak Gus \"{{i18n:Events_CilantroCumin_dialogue.Gus.12a}}$h\"/move Gus -2 0 2/pause 1500/speak Gus \"{{i18n:Events_CilantroCumin_dialogue.Gus.12b}}#$b#{{i18n:Events_CilantroCumin_dialogue.Gus.12c}}\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:RecipeBook_BookHasRecipes}} {{i18n:ChipsandGuacamole_name}}{{i18n:separator}}{{i18n:ChipsandSalsa_name}}{{i18n:separator}}{{i18n:Enchiladas_name}}{{i18n:separator}}{{i18n:RefriedBeans_name}}{{i18n:separator}}{{i18n:TortillaSoup_name}}{{i18n:pageend}}\"/changeMapTile Front 10 21 1297/changeMapTile Front 11 21 1298/changeMapTile Front 17 22 1297/changeMapTile Front 18 22 1298/end",
+				
+				"Cornucopia.CookingRecipes_CookingLesson_Tahini/LocalMail Cornucopia.CorkingRecipes_GusEventFour/Time 1600 2600": "playful/14 20/farmer 13 22 0 Gus 14 18 2 Penny 10 21 1 Evelyn 16 22 1 Elliott 18 20 2 Leah 19 22 3/changeMapTile Front 10 21 855/changeMapTile Front 11 21 856/changeMapTile Front 17 22 855/changeMapTile Front 18 22 856/addObject 13 18 (O)Cornucopia_Nougat 7/addObject 12 18 (O)Cornucopia_BabaGhanoush 7/addObject 16 18 (O)Cornucopia_Halva 7/addObject 10 21 (O)Cornucopia_SesameSeeds 7/addObject 15 18 Cornucopia_Tahini 7/addObject 17 22 Cornucopia_Olive 7/addObject 11 21 (O)Cornucopia_Onion 7/addObject 8 18 (O)Cornucopia_Pistachio 7/addObject 18 22 (O)Cornucopia_Chickpea 7/addObject 19 18 (O)Cornucopia_Date 7/addObject 9 18 (O)Cornucopia_BellPepper 7/addCookingRecipe Cornucopia_BabaGhanoush/addCookingRecipe Cornucopia_Hummus/addCookingRecipe Cornucopia_Nougat/addCookingRecipe Cornucopia_Tahini/skippable/move Gus 2 0 2/textAboveHead Evelyn \"{{i18n:Events_Tahini_dialogue.Evelyn.1a}}\"/pause 2500/move Gus -4 0 2/pause 3000/move Gus 2 0 2/textAboveHead Leah \"{{i18n:Events_Tahini_dialogue.Leah.2a}}\"/pause 1500/faceDirection Penny 0/faceDirection Leah 0/faceDirection Elliott 0/faceDirection Evelyn 0/speak Gus \"{{i18n:Events_Tahini_dialogue.Gus.3a}}$h#$b#{{i18n:Events_Tahini_dialogue.Gus.3b}}#$b#{{i18n:Events_Tahini_dialogue.Gus.3c}}$h#$b#{{i18n:Events_Tahini_dialogue.Gus.3d}}$h#$b#{{i18n:Events_Tahini_dialogue.Gus.3e}}#$b#{{i18n:Events_Tahini_dialogue.Gus.3f}}\"/emote Elliott 20/speak Elliott \"{{i18n:Events_Tahini_dialogue.Elliott.4a}}$h\"/speak Gus \"{{i18n:Events_Tahini_dialogue.Gus.5a}}$h\"/speak Leah \"{{i18n:Events_Tahini_dialogue.Leah.6a}}$h\"/emote Leah 8/speak Leah \"{{i18n:Events_Tahini_dialogue.Leah.6b}}\"/speak Gus \"{{i18n:Events_Tahini_dialogue.Gus.7a}}$h#$b#{{i18n:Events_Tahini_dialogue.Gus.7b}}$h\"/emote Leah 20/speak Leah \"{{i18n:Events_Tahini_dialogue.Leah.8a}}\"/speak Evelyn \"{{i18n:Events_Tahini_dialogue.Evelyn.9a}}\"/speak Gus \"{{i18n:Events_Tahini_dialogue.Gus.10a}}$h#$b#{{i18n:Events_Tahini_dialogue.Gus.10b}}#$b#{{i18n:Events_Tahini_dialogue.Gus.10c}}\"/move Gus -2 0 2/pause 1500/speak Gus \"{{i18n:Events_Tahini_dialogue.Gus.10d}}\"/pause 500/addCookingRecipe {{ModId}}_Hummus/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:RecipeBook_BookHasRecipes}} {{i18n:BabaGhanoush_name}}{{i18n:separator}}{{i18n:Hummus_name}}{{i18n:separator}}{{i18n:Nougat_name}}{{i18n:separator}}{{i18n:Tahini_name}}{{i18n:pageend}}\"/changeMapTile Front 10 21 1297/changeMapTile Front 11 21 1298/changeMapTile Front 17 22 1297/changeMapTile Front 18 22 1298/end",
+				
+				"Cornucopia.CookingRecipes_CookingLesson_SpiceToTaste/LocalMail Cornucopia.CorkingRecipes_GusEventFive/Time 1600 2600": "kindadumbautumn/19 21/farmer 14 21 1 Penny 21 21 3 Evelyn 1000 1000 3 Marnie 999 999 2 Willy 998 998 0 Lewis 997 997 3 Caroline 996 996 0 Leah 995 995 2 Maru 994 994 1 Harvey 993 993 2 Gus 992 992 2/addCookingRecipe Cornucopia_DeviledEggs/addCookingRecipe Cornucopia_HasselbackPotatoes/addCookingRecipe Cornucopia_HerbCheese/addCookingRecipe Cornucopia_MacaroniSalad/skippable/pause 1000/advancedMove farmer false 4 0 1 1000/speak Penny \"{{i18n:Events_SpiceToTaste_dialogue.Penny.1a}}#$b#{{i18n:Events_SpiceToTaste_dialogue.Penny.1b}}$u#$b#{{i18n:Events_SpiceToTaste_dialogue.Penny.1c}}$u\"/pause 1000/faceDirection Penny 1/faceDirection farmer 3/pause 3000/faceDirection farmer 1/emote Penny 8/faceDirection Penny 3/speak Penny \"{{i18n:Events_SpiceToTaste_dialogue.Penny.1d}}$s\"/pause 1000/playSound woodWhack/message \"{{i18n:Events_SpiceToTaste_dialogue.Noise.2a}}\"/screenshake 5 1/beginSimultaneousCommand/jump Penny 8/jump farmer 8/endSimultaneousCommand/faceDirection Penny 1/speak Penny \"{{i18n:Events_SpiceToTaste_dialogue.Penny.3a}}$12\"/question null \"#{{i18n:Events_SpiceToTaste_dialogue.AnswerChoice.4a}}#{{i18n:Events_SpiceToTaste_dialogue.AnswerChoice.4b}}#{{i18n:Events_SpiceToTaste_dialogue.AnswerChoice.4c}}\"/globalFade/viewport -1000 -1000/addObject 34 8 (O)Cornucopia_Pepper -1/addObject 34 7 (O)Cornucopia_Pepper 3/addObject 36 8 (O)Cornucopia_Pepper 3/warp Penny 31 7/warp farmer 33 9/warp Gus 35 7/faceDirection Gus 3/faceDirection farmer 0/viewport 31 9 true unfreeze/pause 1000/speak Penny \"{{i18n:Events_SpiceToTaste_dialogue.Penny.5a}}$12#$b#{{i18n:Events_SpiceToTaste_dialogue.Penny.5b}}$s\"/advancedMove Penny false 2 0 1 500/advancedMove farmer false 0 -1 1 500/faceDirection Gus 3/speak Gus \"{{i18n:Events_SpiceToTaste_dialogue.Gus.6a}}$s#$b#{{i18n:Events_SpiceToTaste_dialogue.Gus.6b}}#$b#{{i18n:Events_SpiceToTaste_dialogue.Gus.6c}}#$b#{{i18n:Events_SpiceToTaste_dialogue.Gus.6d}}$s\"/speak Penny \"{{i18n:Events_SpiceToTaste_dialogue.Penny.7a}}$s\"/speak Gus \"{{i18n:Events_SpiceToTaste_dialogue.Gus.8a}}$s#$b#{{i18n:Events_SpiceToTaste_dialogue.Gus.8b}}$s#$b#{{i18n:Events_SpiceToTaste_dialogue.Gus.8c}}$s\"/speak Penny \"{{i18n:Events_SpiceToTaste_dialogue.Penny.9a}}$s#$b#{{i18n:Events_SpiceToTaste_dialogue.Penny.9b}}#$b#{{i18n:Events_SpiceToTaste_dialogue.Penny.9c}}#$b#{{i18n:Events_SpiceToTaste_dialogue.Penny.9d}}#$b#{{i18n:Events_SpiceToTaste_dialogue.Penny.9e}}\"/quickQuestion #{{i18n:Events_SpiceToTaste_dialogue.AnswerChoice.10a}}#{{i18n:Events_SpiceToTaste_dialogue.AnswerChoice.10b}}#{{i18n:Events_SpiceToTaste_dialogue.AnswerChoice.10c}}(break)friendship Gus 20\\friendship Penny 10(break)friendship Gus 50(break)pause 1/speak Gus \"{{i18n:Events_SpiceToTaste_dialogue.Gus.11a}}$u#$b#{{i18n:Events_SpiceToTaste_dialogue.Gus.11b}}#$b#{{i18n:Events_SpiceToTaste_dialogue.Gus.11c}}\"/playSound woodWhack/pause 150/playSound woodWhack/pause 150/playSound woodWhack/emote Penny 8 true/emote farmer 8 true/emote Gus 8 true/speak Gus \"{{i18n:Events_SpiceToTaste_dialogue.Gus.11d}}$u\"/warp Marnie 21 19/warp Maru 20 20/warp Lewis 22 21/warp Caroline 22 23/warp Evelyn 20 22/warp Willy 19 23/warp Leah 18 21/warp Harvey 17 20/beginSimultaneousCommand/speed farmer 4/speed Gus 4/speed Penny 4/advancedMove farmer false -2 0 0 11 -5 0/advancedMove Penny false -2 0 0 13 -4 0 0 1 -1 0/advancedMove Gus false -4 0 0 13 -7 0/endSimultaneousCommand/pause 5000/stopAnimation farmer/emote Gus 16/jump Gus 8/speak Gus \"{{i18n:Events_SpiceToTaste_dialogue.Gus.11e}}#$b#{{i18n:Events_SpiceToTaste_dialogue.Gus.11f}}\"/faceDirection Marnie 1 true/faceDirection Lewis 1 true/faceDirection Leah 1 true/faceDirection Willy 1 true/textAboveHead Leah \"{{i18n:Events_SpiceToTaste_dialogue.Leah.12a}}\"/pause 200/faceDirection Harvey 1 true/faceDirection Evelyn 1 true/faceDirection Caroline 1 true/emote Evelyn 20 true/emote Caroline 20 true/emote Willy 16 true/pause 200/textAboveHead Harvey \"{{i18n:Events_SpiceToTaste_dialogue.Harvey.12a}}\"/emote Lewis 16 true/endSimultaneousCommand/pause 500/speak Marnie \"{{i18n:Events_SpiceToTaste_dialogue.Marnie.13a}}#$b#{{i18n:Events_SpiceToTaste_dialogue.Marnie.13b}}\"/speak Maru \"{{i18n:Events_SpiceToTaste_dialogue.Maru.14a}}\"/speak Lewis \"{{i18n:Events_SpiceToTaste_dialogue.Lewis.15a}}\"/speak Caroline \"{{i18n:Events_SpiceToTaste_dialogue.Caroline.16a}}\"/jump Gus 8/speak Gus \"{{i18n:Events_SpiceToTaste_dialogue.Gus.17a}}$h\"/faceDirection Gus 1/pause 500/speak Gus \"{{i18n:Events_SpiceToTaste_dialogue.Gus.17b}}$u\"/faceDirection Gus 3/speak Gus \"{{i18n:Events_SpiceToTaste_dialogue.Gus.17c}}\"/speak Evelyn \"{{i18n:Events_SpiceToTaste_dialogue.Evelyn.18a}}\"/speak Gus \"{{i18n:Events_SpiceToTaste_dialogue.Gus.19a}}$h#$b#{{i18n:Events_SpiceToTaste_dialogue.Gus.19b}}\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:Events_SpiceToTaste_dialogue.Text.20a}} {{i18n:RecipeBook_BookHasRecipes}} {{i18n:DeviledEggs_name}}{{i18n:separator}}{{i18n:HasselbackPotatoes_name}}{{i18n:separator}}{{i18n:HerbCheese_name}}{{i18n:separator}}{{i18n:MacaroniSalad_name}}{{i18n:pageend}}\"/end",
+			
+			},
+		},
+		{
+			"LogName": "Event - Final",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"When": {
+				"World Traveler": true
+			},
+			"Entries": {
+				"Cornucopia.CookingRecipes_QoS_Final/HostMail Cornucopia.CorkingRecipes_RecipeBook_Breakfast/HostMail Cornucopia.CorkingRecipes_RecipeBook_Dessert/HostMail Cornucopia.CorkingRecipes_RecipeBook_ComfortFood/HostMail Cornucopia.CorkingRecipes_RecipeBook_SnackFood/HostMail Cornucopia.CorkingRecipes_RecipeBook_Woodland/HostMail Cornucopia.CorkingRecipes_RecipeBook_Mountain/HostMail Cornucopia.CorkingRecipes_RecipeBook_InlandSea/HostMail Cornucopia.CorkingRecipes_RecipeBook_Delta/HostMail Cornucopia.CorkingRecipes_RecipeBook_Highland/HostMail Cornucopia.CorkingRecipes_RecipeBook_Archipelago/HostMail Cornucopia.CorkingRecipes_RecipeBook_Northern/HostMail Cornucopia.CorkingRecipes_RecipeBook_Savanna/DayOfWeek Fri Sun/Weather sunny": "playful/32 13
+				/farmer 40 13 2 Cornucopia.CookingRecipes_Chef 32 11 2
+				/makeInvisible 30 11 15 4 
+				/setSkipActions AddMail Current Cornucopia.CookingRecipes_Chef_Completed received
+				/action RemoveQuest Cornucopia.CookingRecipes_ChefQuest
+				/skippable
+				/textAboveHead Cornucopia.CookingRecipes_Chef \"{{PlayerName}}!\"
+				/move farmer -8 0 0
+				/speak Cornucopia.CookingRecipes_Chef \"{{i18n:Events_QoSFinal_dialogue.1a}}$2#$b#{{i18n:Events_QoSFinal_dialogue.1b}}#$b#{{i18n:Events_QoSFinal_dialogue.1c}}$1#$b#{{i18n:Events_QoSFinal_dialogue.1d}}#$b#{{i18n:Events_QoSFinal_dialogue.1e}}$2\"
+				/pause 200
+				/emote Cornucopia.CookingRecipes_Chef 40
+				/speak Cornucopia.CookingRecipes_Chef \"{{i18n:Events_QoSFinal_dialogue.2a}}#$b#{{i18n:Events_QoSFinal_dialogue.2b}}#$b#{{i18n:Events_QoSFinal_dialogue.2c}}$3#$b#{{i18n:Events_QoSFinal_dialogue.2d}}\"
+				/pause 200
+				/emote farmer 32
+				/speak Cornucopia.CookingRecipes_Chef \"{{i18n:Events_QoSFinal_dialogue.3a}}\"
+				/pause 200
+				/emote farmer 8
+				/removeTile 34 8 AlwaysFront2
+				/removeTile 34 9 AlwaysFront2
+				/message \"{{i18n:Events_QoSFinal_string.1}}.\"
+				/playSound shwip
+				/temporaryAnimatedSprite Cornucopia.CookingRecipes\\Autograph 0 0 112 109 999 1 999 29 9 false false 9999 0 1 0 0 0
+				/message \"{{i18n:Events_QoSFinal_string.2}}\"
+				/removeTemporarySprites
+				/pause 200
+				
+				
+				/speak Cornucopia.CookingRecipes_Chef \"{{i18n:Events_QoSFinal_dialogue.4a}}$2\"
+				/pause 200
+				/emote farmer 16
+				/action AddMail Current Cornucopia.CookingRecipes_Chef_Completed received
+				/changeName Cornucopia.CookingRecipes_Chef \"{{i18n:Chef_name_QoS}}\"
+				/speak Cornucopia.CookingRecipes_Chef \"{{i18n:Events_QoSFinal_dialogue.5a}}$1#$b#{{i18n:Events_QoSFinal_dialogue.5b}}$2#$b#{{i18n:Events_QoSFinal_dialogue.5c}}#$b#{{i18n:Events_QoSFinal_dialogue.5d}}#$b#{{i18n:Events_QoSFinal_dialogue.5e}}$3#$b#{{i18n:Events_QoSFinal_dialogue.5f}}$3#$b#{{i18n:Events_QoSFinal_dialogue.5g}}#$b#{{i18n:Events_QoSFinal_dialogue.5h}}$1\"
+				/pause 200
+				/emote farmer 32
+				
+				/end",
+			}
+		},
+    ]
+}

@@ -1,0 +1,301 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+				"ContextTags"
+			],
+			"Entries": {
+				"wine_item": "wine_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine",
+				"ContextTags"
+			],
+			"Entries": {
+				"wine_item": "wine_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout",
+				"ContextTags"
+			],
+			"Entries": {
+				"trout_item": "trout_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Butterfish",
+				"ContextTags"
+			],
+			"Entries": {
+				"butter_item": "butter_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp",
+				"ContextTags"
+			],
+			"Entries": {
+				"carp_item": "carp_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon",
+				"ContextTags"
+			],
+			"Entries": {
+				"salmon_item": "salmon_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover",
+				"ContextTags"
+			],
+			"Entries": {
+				"leafy_green_item": "leafy_green_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp",
+				"ContextTags"
+			],
+			"Entries": {
+				"carp_item": "carp_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_mushroom": "edible_mushroom",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass",
+				"ContextTags"
+			],
+			"Entries": {
+				"bass_item": "bass_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout",
+				"ContextTags"
+			],
+			"Entries": {
+				"trout_item": "trout_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout",
+				"ContextTags"
+			],
+			"Entries": {
+				"trout_item": "trout_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel",
+				"ContextTags"
+			],
+			"Entries": {
+				"eel_item": "eel_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Void_Root",
+				"ContextTags"
+			],
+			"Entries": {
+				"root_vegetable_item": "root_vegetable_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose",
+				"ContextTags"
+			],
+			"Entries": {
+				"rose_item": "rose_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Nectarine",
+				"ContextTags"
+			],
+			"Entries": {
+				"stone_fruit_item": "stone_fruit_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Fossilized_Apple",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass",
+				"ContextTags"
+			],
+			"Entries": {
+				"bass_item": "bass_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp",
+				"ContextTags"
+			],
+			"Entries": {
+				"carp_item": "carp_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby",
+				"ContextTags"
+			],
+			"Entries": {
+				"goby_item": "goby_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab",
+				"ContextTags"
+			],
+			"Entries": {
+				"crab_item": "crab_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Bearberrys",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Joja_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Red_Baneberry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Salal_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Slime_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"berry_item": "berry_item",
+			}
+		},
+	]
+}

@@ -1,0 +1,1723 @@
+{
+	"Format": "2.8.0",
+	"ConfigSchema": {
+		"World Traveler": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Highly recommended) Unlock up to 400 additional recipes under the 'World Traveler' config! A new shopkeeper NPC seeking help with a quest, weekly cooking episodes over the radio, fun cutscenes with villagers, and more! [If you turn World Traveler OFF - You will get the lite version of the mod.]"
+		},
+		"Enable Flexible Recipes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Recommend use with Love of Cooking.) Allows using a wider variety of ingredients, such as using any butter item in recipes which require butter, or using any cheese in recipes which require cheese, and more. Turn this off if you have bugs with cooking recipes."
+		},
+		"Enable Hyperflexible Recipes": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "(HIGHLY RECOMMEND use with Love of Cooking.) Cook with similar items from other mods. For example, SVE cucumbers, or VMV olives, or WAG syrups can be used in Cornucopia recipes. *Be careful of accidentally using ingredients you don't want to lose - balance is not guaranteed."
+		},
+		"Ingredient Indicator": {
+			"AllowValues": "A, B, C, D, E",
+			"Default": "B",
+			"Description": "Label hyperflexible ingredients in the cooking menu with this option, letting you know which ingredients can be substituted. Only does something when Enable Hyperflexible Recipes is turned on."
+		},
+		"Enable Flavored Recipes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Requires Extra Machine Configs, Love of Cooking recommended) With Enable Flexible Recipes or Enable Hyperflexible Recipes turned on, this allows a few recipes to be specially flavored and colored based on the ingredient used to make it. For example, using a Strawberry to make a Fruit Smoothie will result in a Strawberry Smoothie."
+		},
+		"Enable Vanilla Recipe Changes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Tweak some vanilla recipes slightly to fit Cornucopia's design, ie Chocolate Cake using Chocolate."
+		},
+		"Patch Duplicate Names": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Changes the name of Baked Potato, Grilled Cheese, and/or Croissant if LoC, SVE, or VMV are installed, to prevent identical recipe names. May or may not change additional duplicate names in the future."
+		},
+		"Foods Contain Dairy": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "A very inconsequential option. Changes the internal data of dairy-containing items to say whether or not they have dairy (for use with BarleyZP's Allergies or NPC gift tastes)."
+		},
+		"Radio Accessibility": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Adds a screenreader-accessible text reminder in the morning when a new cooking episode is on the radio, in addition to the default visual reminder."
+		},
+		"Recipe Book Accessibility": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "For players that use screenreader support, this option replaces the custom recipe book menu with a more intuitive message box that has only text descriptions instead of images."
+		},
+		"Enable Installation Help Message": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Gives you a tiny info message in SMAPI letting you know what tier of the mod you have. If you don't need the message anymore, you can turn it off here!",
+		},
+	},
+	"DynamicTokens": [
+		{
+			"Name": "indicator",
+			"Value": "blank"
+		},
+		{
+			"Name": "indicator",
+			"Value": "star",
+			"When": {
+				"Ingredient Indicator": "B"
+				}
+		},
+		{
+			"Name": "indicator",
+			"Value": "any",
+			"When": {
+				"Ingredient Indicator": "C"
+				}
+		},
+		{
+			"Name": "indicator",
+			"Value": "vanilla",
+			"When": {
+				"Ingredient Indicator": "D"
+				}
+		},
+		{
+			"Name": "indicator",
+			"Value": "asterisk",
+			"When": {
+				"Ingredient Indicator": "E"
+				}
+		},
+		{
+			"Name": "HomeCook_Essential",
+			"Value": "false"
+		},
+		{
+			"Name": "HomeCook_Essential",
+			"Value": "true",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Name": "HomeCook_Extended",
+			"Value": "false"
+		},
+		{
+			"Name": "HomeCook_Extended",
+			"Value": "true",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		{
+			"Name": "WorldTraveler_Essential",
+			"Value": "false"
+		},
+		{
+			"Name": "WorldTraveler_Essential",
+			"Value": "true",
+			"When": {
+				"World Traveler": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Name": "WorldTraveler_Extended",
+			"Value": "false"
+		},
+		{
+			"Name": "WorldTraveler_Extended",
+			"Value": "true",
+			"When": {
+				"World Traveler": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		{
+			"Name": "RecipeAmount",
+			"Value": 39
+		},
+		{
+			"Name": "RecipeAmount",
+			"Value": 76,
+			"When": {
+				"HomeCook_Essential": true
+			}
+		},
+		{
+			"Name": "RecipeAmount",
+			"Value": 126,
+			"When": {
+				"HomeCook_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeAmount",
+			"Value": 113,
+			"When": {
+				"World Traveler": true
+			}
+		},
+		{
+			"Name": "RecipeAmount",
+			"Value": 248,
+			"When": {
+				"WorldTraveler_Essential": true
+			}
+		},
+		{
+			"Name": "RecipeAmount",
+			"Value": 527,
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "InstallationTier",
+			"Value": "HomeCook_Vanilla"
+		},
+		{
+			"Name": "InstallationTier",
+			"Value": "HomeCook_Essential",
+			"When": {
+				"HomeCook_Essential": true
+			}
+		},
+		{
+			"Name": "InstallationTier",
+			"Value": "HomeCook_Extended",
+			"When": {
+				"HomeCook_Extended": true
+			}
+		},
+		{
+			"Name": "InstallationTier",
+			"Value": "WorldTraveler_Vanilla",
+			"When": {
+				"World Traveler": true
+			}
+		},
+		{
+			"Name": "InstallationTier",
+			"Value": "WorldTraveler_Essential",
+			"When": {
+				"WorldTraveler_Essential": true
+			}
+		},
+		{
+			"Name": "InstallationTier",
+			"Value": "WorldTraveler_Extended",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "DairyTag",
+			"Value": "allergen_dairy"
+		},
+		{
+			"Name": "DairyTag",
+			"Value": "allergen_dairyfree",
+			"When": {
+				"Foods Contain Dairy": false
+			}
+		},
+		{
+			"Name": "NonveganTag",
+			"Value": "food_nonvegan"
+		},
+		{
+			"Name": "NonveganTag",
+			"Value": "food_vegan",
+			"When": {
+				"Foods Contain Dairy": false
+			}
+		},
+		{
+			"Name": "PlayerHasBottleRecipes",
+			"Value": "PLAYER_HAS_COOKING_RECIPE Current Cornucopia_AnchovyPizza, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamPuff, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Ladyfingers, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LeekSoup, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_MacandCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Mochi, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PotatoFries, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaltGrilledFish, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FruitSmoothie"
+		},
+		{
+			"Name": "PlayerHasBottleRecipes",
+			"Value": "PLAYER_HAS_COOKING_RECIPE Current Cornucopia_AnchovyPizza, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamPuff, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Ladyfingers, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LeekSoup, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_MacandCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Mochi, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PotatoFries, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaltGrilledFish, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FruitSmoothie, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BakedPotato, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BananaBread, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_DragonRoll, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CrabDip, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_StuffedPeppers, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanBurger",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"World Traveler": false
+			}
+		},
+		{
+			"Name": "PlayerHasBottleRecipes",
+			"Value": "PLAYER_HAS_COOKING_RECIPE Current Cornucopia_AnchovyPizza, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamPuff, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Ladyfingers, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LeekSoup, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_MacandCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Mochi, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PotatoFries, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaltGrilledFish, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FruitSmoothie, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BakedPotato, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BananaBread, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_DragonRoll, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CrabDip, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_StuffedPeppers, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanBurger, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanQuesadilla, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Broth, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_ButternutSquashSoup, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SunriseToast, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FarmersRamen, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FettuccineAlfredo, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Flan, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Fondue, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FriedRice, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Gumbo, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_KeyLimePie, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LoxandaSchmear, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LumberjacksBun, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PinkDrink, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SpinachDip, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaladRolls, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_TilapiaandZoodles, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Waffles, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_YucaFries",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"World Traveler": false
+			}
+		},
+		{
+			"Name": "PlayerHasBottleRecipes",
+			"Value": "PLAYER_HAS_COOKING_RECIPE Current Cornucopia_AnchovyPizza, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamPuff, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Ladyfingers, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LeekSoup, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_MacandCheese, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Mochi, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PotatoFries, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaltGrilledFish, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FruitSmoothie, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BakedPotato, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BananaBread, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_DragonRoll, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CrabDip, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_StuffedPeppers, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanBurger, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanQuesadilla, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Broth, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_ButternutSquashSoup, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SunriseToast, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FarmersRamen, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FettuccineAlfredo, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Flan, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Fondue, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FriedRice, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Gumbo, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_KeyLimePie, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LoxandaSchmear, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LumberjacksBun, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PinkDrink, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SpinachDip, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaladRolls, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_TilapiaandZoodles, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Waffles, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_YucaFries, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanChili, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BroccoliCheeseSoup, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FriedOkra, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_GreenMachine, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_JelliedCompote, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_MelonSalad, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PowderShake, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_RaisinBread, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SpringSalad, PLAYER_HAS_COOKING_RECIPE Current Cornucopia_TortillaRollUps",
+			"When": {
+				"World Traveler": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		{
+			"Name": "NotAllPlayersHaveBottleRecipes",
+			"Value": "ANY \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_AnchovyPizza\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamPuff\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Ladyfingers\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LeekSoup\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_MacandCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Mochi\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_PotatoFries\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SaltGrilledFish\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FruitSmoothie"
+		},
+		{
+			"Name": "NotAllPlayersHaveBottleRecipes",
+			"Value": "ANY \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_AnchovyPizza\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamPuff\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Ladyfingers\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LeekSoup\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_MacandCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Mochi\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_PotatoFries\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SaltGrilledFish\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FruitSmoothie\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BakedPotato\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BananaBread\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_DragonRoll\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CrabDip\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_StuffedPeppers\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BeanBurger",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"World Traveler": false
+			}
+		},
+		{
+			"Name": "NotAllPlayersHaveBottleRecipes",
+			"Value": "ANY \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_AnchovyPizza\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamPuff\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Ladyfingers\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LeekSoup\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_MacandCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Mochi\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_PotatoFries\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SaltGrilledFish\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FruitSmoothie\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BakedPotato\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BananaBread\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_DragonRoll\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CrabDip\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_StuffedPeppers\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BeanBurger\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BeanQuesadilla\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Broth\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_ButternutSquashSoup\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SunriseToast\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FarmersRamen\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FettuccineAlfredo\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Flan\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Fondue\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FriedRice\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Gumbo\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_KeyLimePie\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LoxandaSchmear\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LumberjacksBun\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_PinkDrink\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SpinachDip\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SaladRolls\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_TilapiaandZoodles\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Waffles\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_YucaFries",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"World Traveler": false
+			}
+		},
+		{
+			"Name": "NotAllPlayersHaveBottleRecipes",
+			"Value": "ANY \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_AnchovyPizza\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CreamPuff\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Ladyfingers\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LeekSoup\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_MacandCheese\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Mochi\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_PotatoFries\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SaltGrilledFish\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FruitSmoothie\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BakedPotato\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BananaBread\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_DragonRoll\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_CrabDip\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_StuffedPeppers\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BeanBurger\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BeanQuesadilla\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Broth\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_ButternutSquashSoup\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SunriseToast\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FarmersRamen\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FettuccineAlfredo\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Flan\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Fondue\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FriedRice\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Gumbo\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_KeyLimePie\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LoxandaSchmear\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_LumberjacksBun\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_PinkDrink\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SpinachDip\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SaladRolls\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_TilapiaandZoodles\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_Waffles\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_YucaFries\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BeanChili\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_BroccoliCheeseSoup\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_FriedOkra\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_GreenMachine\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_JelliedCompote\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_MelonSalad\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_PowderShake\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_RaisinBread\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_SpringSalad\" \"!PLAYER_HAS_COOKING_RECIPE All Cornucopia_TortillaRollUps",
+			"When": {
+				"World Traveler": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		{
+			"Name": "TodaysChannel",
+			"Value": "none",
+		},
+		{
+			"Name": "TodaysChannel",
+			"Value": "AroundTheWorld",
+			"When": {
+				"DayOfWeek": "Saturday"
+			}
+		},
+		{
+			"Name": "TodaysChannel",
+			"Value": "SweetSensations",
+			"When": {
+				"DayOfWeek": "Tuesday"
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "none",
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Eclair",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Spring",
+				"Day": 2,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "FruitTurnover",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Spring",
+				"Day": 9,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "MudPie",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Spring",
+				"Day": 16,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "LemonSquare",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Spring",
+				"Day": 23,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Ambrosia",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Summer",
+				"Day": 2,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Pavlova",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Summer",
+				"Day": 9,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "CalicoBar",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Summer",
+				"Day": 16,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Millefeuille",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Summer",
+				"Day": 23,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "CinnamonApplePie",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Fall",
+				"Day": 2,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "CrumbCake",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Fall",
+				"Day": 9,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Sopapillas",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Fall",
+				"Day": 16,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "PrincessCake",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Fall",
+				"Day": 23,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Cannoli",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Winter",
+				"Day": 2,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "KingCake",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Winter",
+				"Day": 9,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Jalebi",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Winter",
+				"Day": 16,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "UbeHalaya",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Winter",
+				"Day": 23,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Churros",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Spring",
+				"Day": 2,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Daifuku",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Spring",
+				"Day": 9,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Souffle",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Spring",
+				"Day": 16,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Mooncake",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Spring",
+				"Day": 23,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "GotoroCream",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Summer",
+				"Day": 2,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "PineappleCake",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Summer",
+				"Day": 9,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "MascarponeLuxury",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Summer",
+				"Day": 16,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Sachertorte",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Summer",
+				"Day": 23,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "GulabJamun",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Fall",
+				"Day": 2,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Horchata",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Fall",
+				"Day": 9,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Trifle",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Fall",
+				"Day": 16,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "StickyToffeePudding",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Fall",
+				"Day": 23,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Baumkuchen",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Winter",
+				"Day": 2,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "RollCake",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Winter",
+				"Day": 9,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "TresLechesCake",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Winter",
+				"Day": 16,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Yatsuhashi",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Winter",
+				"Day": 23,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "PepperSoup",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Spring",
+				"Day": 6,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "EggTarts",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Spring",
+				"Day": 13,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "CabbageRoll",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Spring",
+				"Day": 20,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "CacioePepe",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Spring",
+				"Day": 27,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "ThreeSistersSalad",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Summer",
+				"Day": 6,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Japchae",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Summer",
+				"Day": 13,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Samosas",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Summer",
+				"Day": 20,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Borsch",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Summer",
+				"Day": 27,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "GalloPinto",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Fall",
+				"Day": 6,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "OneManThousand",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Fall",
+				"Day": 13,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "PanikiStew",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Fall",
+				"Day": 20,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Blini",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Fall",
+				"Day": 27,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "BlackenedFish",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Winter",
+				"Day": 6,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "SeafoodPaella",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Winter",
+				"Day": 13,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Bannock",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Winter",
+				"Day": 20,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "VegetableKorma",
+			"When": {
+				"Query: {{Year}} % 2 = 1": true,
+				"Season": "Winter",
+				"Day": 27,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Bibimbap",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Spring",
+				"Day": 6,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "OdenHotpot",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Spring",
+				"Day": 13,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Fufu",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Spring",
+				"Day": 20,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "MisoRamen",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Spring",
+				"Day": 27,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "NasiGoreng",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Summer",
+				"Day": 6,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Laghman",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Summer",
+				"Day": 13,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Inarizushi",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Summer",
+				"Day": 20,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Namul",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Summer",
+				"Day": 27,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Lutefisk",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Fall",
+				"Day": 6,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Ceviche",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Fall",
+				"Day": 13,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "LechedeLeon",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Fall",
+				"Day": 20,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Mohinga",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Fall",
+				"Day": 27,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "Zarusoba",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Winter",
+				"Day": 6,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "LotusWrappedStickyRice",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Winter",
+				"Day": 13,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "GreenFigandSaltfish",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Winter",
+				"Day": 20,
+			}
+		},
+		{
+			"Name": "TodaysRecipe",
+			"Value": "FishAmok",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+				"Season": "Winter",
+				"Day": 27,
+			}
+		},
+		{
+			"Name": "ChefName",
+			"Value": "{{i18n: Chef_name_ML}}"
+		},
+		{
+			"Name": "ChefName",
+			"Value": "{{i18n: Chef_name_QoS}}",
+			"When": {
+				"HasReadLetter: currentPlayer |contains=Cornucopia.CookingRecipes_Chef_Completed": true
+			}
+		},
+		{
+			"Name": "WeekDayList",
+			"Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+		},
+		{
+			"Name": "WeekDay",
+			"Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
+		},
+		{
+			"Name": "CartStock_GroupA_ingredients",
+			"Value": "Cornucopia_LemonZest Cornucopia_Butter Cornucopia_BrinedOlives Cornucopia_Thyme Cornucopia_BayLeaves Cornucopia_Peppercorn Cornucopia_Caviar Cornucopia_Almond Cornucopia_Broth Cornucopia_Parsley 721 719 723 256 718 430 274 424"
+		},
+		{
+			"Name": "CartStock_GroupA_dishes",
+			"Value": "Cornucopia_Flan Cornucopia_Marzipan Cornucopia_SweetCrepes Cornucopia_Bouillabaisse Cornucopia_OystersMignonette Cornucopia_SalmonBearnaise Cornucopia_Souffle Cornucopia_SpinachQuiche Cornucopia_Polenta Cornucopia_CapraeSalad Cornucopia_Scarpaccia 649 729"
+		},
+		{
+			"Name": "CartStock_GroupB_ingredients",
+			"Value": "Cornucopia_Basil Cornucopia_Zucchini Cornucopia_WheatNoodles Cornucopia_OliveOil Cornucopia_PineNut Cornucopia_Rosemary Cornucopia_Sage Cornucopia_Lemon Cornucopia_Spinach Cornucopia_Chives Cornucopia_SemolinaNoodles Cornucopia_SemolinaFlour Cornucopia_Pesto 257 281 404 184 248"
+		},
+		{
+			"Name": "CartStock_GroupB_dishes",
+			"Value": "Cornucopia_TrenettealPesto Cornucopia_GnocchialTartufo Cornucopia_SpinachTortellini Cornucopia_CacioePepe Cornucopia_PenneallArrabbiata Cornucopia_PastaPrimavera Cornucopia_GarlicBread Cornucopia_FlatbreadPizza Cornucopia_AnchovyPizza Cornucopia_FettuccineAlfredo Cornucopia_Ratatouille Cornucopia_Minestrone Cornucopia_TomatoSoup 921"
+		},
+		{
+			"Name": "CartStock_GroupC_ingredients",
+			"Value": "Cornucopia_Paprika Cornucopia_Saffron Cornucopia_RoastedGarlic Cornucopia_SemolinaNoodles Cornucopia_WheatFlour Cornucopia_Onion Cornucopia_Turnip Cornucopia_Cabbage Cornucopia_BuckwheatNoodles Cornucopia_BuckwheatFlour Cornucopia_Buckwheat Cornucopia_PlainYogurt Cornucopia_GreenPeas Cornucopia_Parsley 284 424 192"
+		},
+		{
+			"Name": "CartStock_GroupC_dishes",
+			"Value": "Cornucopia_BreadSoup Cornucopia_Pierogi Cornucopia_MilkSoup Cornucopia_Borsch Cornucopia_CabbageRoll Cornucopia_Khachapuri Cornucopia_SourShchi Cornucopia_Kapustnica Cornucopia_ArmoredTurnips Cornucopia_ButtermilkSoup Cornucopia_HasselbackPotatoes Cornucopia_PotatoesauGratin Cornucopia_Spatzle Cornucopia_Colcannon"
+		},
+		{
+			"Name": "CartStock_GroupD_ingredients",
+			"Value": "Cornucopia_Woodskip Cornucopia_Butter Cornucopia_SmokedSalmon Cornucopia_Tarragon Cornucopia_Sauerkraut Cornucopia_Dill Cornucopia_PickleSpears Cornucopia_Chives 426 184 252 264 262 139 20 634 216"
+		},
+		{
+			"Name": "CartStock_GroupD_dishes",
+			"Value": "Cornucopia_Acorda Cornucopia_EggTarts Cornucopia_SeafoodPaella Cornucopia_Gazpacho Cornucopia_SpringSalmagundi Cornucopia_EelPie Cornucopia_FishnChips Cornucopia_Gravlax Cornucopia_SalmonChowder Cornucopia_Lutefisk Cornucopia_SplitPeaSoup Cornucopia_GoatCheeseSalad 222"
+		},
+		{
+			"Name": "CartStock_GroupE_ingredients",
+			"Value": "Cornucopia_Paprika Cornucopia_OliveOil Cornucopia_PlainYogurt Cornucopia_CuminSeeds Cornucopia_Fig Cornucopia_Date Cornucopia_GoatCheese Cornucopia_Cucumber Cornucopia_Tahini Cornucopia_Hummus Cornucopia_RoseWater Cornucopia_WholeGrainFlour Cornucopia_Pita 637"
+		},
+		{
+			"Name": "CartStock_GroupE_dishes",
+			"Value": "Cornucopia_Borek Cornucopia_Karantika Cornucopia_Magrood Cornucopia_Shakshouka Cornucopia_MechouiaSalad Cornucopia_Qurutob Cornucopia_HoriatikiSalad Cornucopia_Knafeh Cornucopia_Baklava Cornucopia_Halva Cornucopia_RusticChorba"
+		},
+		{
+			"Name": "CartStock_GroupF_ingredients",
+			"Value": "Cornucopia_Lentils Cornucopia_Onion Cornucopia_Walnut Cornucopia_Almond Cornucopia_Pistachio Cornucopia_Chickpea Cornucopia_Saffron Cornucopia_RedOnion Cornucopia_BrinedOlives 272 256 Raisins 248 423"
+		},
+		{
+			"Name": "CartStock_GroupF_dishes",
+			"Value": "Cornucopia_RiceandBeans Cornucopia_ScorchedRice Cornucopia_Koshary Cornucopia_Bazin Cornucopia_Couscous Cornucopia_YellowRice Cornucopia_GreenPilaf Cornucopia_SweetPilaf Cornucopia_Falafel Cornucopia_JeweledRice"
+		},
+		{
+			"Name": "CartStock_GroupG_ingredients",
+			"Value": "Cornucopia_ChiliPowder Cornucopia_CurryPowder Cornucopia_ChiliOil Cornucopia_PalmOil Cornucopia_Peanut Cornucopia_Watermelon Cornucopia_Okra Cornucopia_Plantain Cornucopia_Cassava Cornucopia_Lentils Cornucopia_Chickpea Cornucopia_BuckwheatFlour Cornucopia_NavyBeans Cornucopia_Onion Cornucopia_PalmNut 256 260 280 716 490 254"
+		},
+		{
+			"Name": "CartStock_GroupG_dishes",
+			"Value": "Cornucopia_Beyaynetu Cornucopia_Injera Cornucopia_RedRed Cornucopia_OneManThousand Cornucopia_EgusiSoup Cornucopia_PepperSoup Cornucopia_GroundnutStew Cornucopia_OkraSoup Cornucopia_OctopusCurry Cornucopia_RizGras Cornucopia_Akara Cornucopia_BangaRice Cornucopia_PalmNutSoup"
+		},
+		{
+			"Name": "CartStock_GroupH_ingredients",
+			"Value": "Cornucopia_Saffron Cornucopia_ChiliPowder Cornucopia_PlainYogurt Cornucopia_Onion Cornucopia_Lentils Cornucopia_CuminSeeds Cornucopia_Turmeric Cornucopia_CorianderSeeds Cornucopia_Fenugreek Cornucopia_Mint Cornucopia_Cashew Cornucopia_Spinach Cornucopia_GreenPeas Cornucopia_CurryPowder 426 423 192 829 834 248 706 260"
+		},
+		{
+			"Name": "CartStock_GroupH_dishes",
+			"Value": "Cornucopia_MangoChutney Cornucopia_BananaCurry Cornucopia_GarlicNaan Cornucopia_PantaBhat Cornucopia_DalTadka Cornucopia_Kheer Cornucopia_MintChutney Cornucopia_PalakPaneer Cornucopia_VegetableKorma Cornucopia_GulabJamun Cornucopia_Samosas Cornucopia_MassamanCurry"
+		},
+		{
+			"Name": "CartStock_GroupI_ingredients",
+			"Value": "Cornucopia_Tofu  Cornucopia_GlassNoodles Cornucopia_RiceNoodles Cornucopia_CenturyEgg Cornucopia_BambooShoot Cornucopia_BeanSprouts Cornucopia_Shallot Cornucopia_LotusRoot Cornucopia_Lychee Cornucopia_OysterSauce Cornucopia_Peppercorn Cornucopia_Pepper 143 723 248 278 815 272 Carrot"
+		},
+		{
+			"Name": "CartStock_GroupI_dishes",
+			"Value": "Cornucopia_CoconutShrimp Cornucopia_HoneyWalnutShrimp Cornucopia_Laghman Cornucopia_FriedLotusRoot Cornucopia_CenturyCongee Cornucopia_OliveRice Cornucopia_EggFooYoung Cornucopia_HarGow Cornucopia_HotandSourSoup Cornucopia_MapoTofu Cornucopia_SnailNoodles Cornucopia_OysterSauceCrab Cornucopia_ShrimpFriedRice Cornucopia_LotusWrappedStickyRice"
+		},
+		{
+			"Name": "CartStock_GroupJ_ingredients",
+			"Value": "Cornucopia_FishSauce Cornucopia_Basil Cornucopia_ChiliPowder Cornucopia_CoconutMilk Cornucopia_ChiliOil Cornucopia_ShrimpPaste Cornucopia_Lime Cornucopia_Papaya Cornucopia_Lemongrass Cornucopia_Turmeric Cornucopia_CurryPowder 720 423 88 717 404 829 701 151 Goby"
+		},
+		{
+			"Name": "CartStock_GroupJ_dishes",
+			"Value": "Cornucopia_FishAmok Cornucopia_Mohinga Cornucopia_EggyCurry Cornucopia_GreenCurry Cornucopia_ClayPotNoodles Cornucopia_DrunkardsNoodles Cornucopia_LukChup Cornucopia_PadPrinat Cornucopia_SourFishSoup Cornucopia_SaladRolls Cornucopia_BanhMi Cornucopia_SpicyPapayaSalad Cornucopia_SpringRolls 905 226"
+		},
+		{
+			"Name": "CartStock_GroupK_ingredients",
+			"Value": "Cornucopia_ShrimpPaste Cornucopia_DriedSquid Cornucopia_CoconutMilk Cornucopia_FishSauce Cornucopia_Sugarcane Cornucopia_Ube Cornucopia_Breadfruit Cornucopia_Durian Cornucopia_Nutmeg Cornucopia_PalmNut Cornucopia_Shallot Cornucopia_Cassava 91 830 88 149 834 149 130 147 150 701 280"
+		},
+		{
+			"Name": "CartStock_GroupK_dishes",
+			"Value": "Cornucopia_RoastedBreadfruit Cornucopia_FishHeadCurry Cornucopia_Kokoda Cornucopia_PokeBowl Cornucopia_Saimin Cornucopia_CoconutFish Cornucopia_PaniPopo Cornucopia_Otai Cornucopia_Laplap Cornucopia_Lalab Cornucopia_MieGoreng Cornucopia_NasiGoreng Cornucopia_PanikiStew Cornucopia_UbeCake Cornucopia_CassavaCake Cornucopia_TropicalToss 906"
+		},
+		{
+			"Name": "CartStock_GroupL_ingredients",
+			"Value": "Cornucopia_SesameOil Cornucopia_Kimchi Cornucopia_Umeboshi Cornucopia_WasabiRoot Cornucopia_PerillaLeaves Cornucopia_SoySauce Cornucopia_Cucumber Cornucopia_MustardGreens 149 130 717 148 423 152 397 128 151 306"
+		},
+		{
+			"Name": "CartStock_GroupL_dishes",
+			"Value": "Cornucopia_DragonRoll Cornucopia_EelBowl Cornucopia_Natto Cornucopia_Taiyaki Cornucopia_ShrimpTempura Cornucopia_CrispyRiceBowl Cornucopia_CucumberRoll Cornucopia_VegetableTempura Cornucopia_Takoyaki Cornucopia_Inarizushi Cornucopia_Zarusoba Cornucopia_Omurice Cornucopia_CucumberKimchi Cornucopia_PerillaKimchi Cornucopia_Namul Cornucopia_ScallionPancake"
+		},
+		{
+			"Name": "CartStock_GroupM_ingredients",
+			"Value": "Cornucopia_BambooShoot Cornucopia_Tofu Cornucopia_MisoPaste Cornucopia_BuckwheatNoodles Cornucopia_FishStock Cornucopia_Shiitake Cornucopia_WheatNoodles Cornucopia_Daikon Cornucopia_SweetPotato 829 147 138 152 399 278"
+		},
+		{
+			"Name": "CartStock_GroupM_dishes",
+			"Value": "Cornucopia_SoupCurry Cornucopia_MisoRamen Cornucopia_OdenHotpot Cornucopia_CheeseRamen Cornucopia_Tteokbokki Cornucopia_KimchiRamen Cornucopia_Bibimbap Cornucopia_Japchae Cornucopia_MisoSoup Cornucopia_KitsuneUdon Cornucopia_RaccoonSoba Cornucopia_Udon Cornucopia_FarmersRamen Cornucopia_Jjigae"
+		},
+		{
+			"Name": "CartStock_GroupN_ingredients",
+			"Value": "Cornucopia_CornFlour Cornucopia_ChiliPowder Cornucopia_Habanero Cornucopia_Jalapeno Cornucopia_RedOnion Cornucopia_BlackBeans Cornucopia_PintoBeans Cornucopia_Cassava Cornucopia_Onion Cornucopia_Cilantro Cornucopia_Lime 424 229 270 260 256 300 90 SummerSquash 426"
+		},
+		{
+			"Name": "CartStock_GroupN_dishes",
+			"Value": "Cornucopia_StreetCorn Cornucopia_Farofa Cornucopia_Arepas Cornucopia_GalloPinto Cornucopia_ChipsandGuacamole Cornucopia_ChipsandSalsa Cornucopia_Enchiladas Cornucopia_TortillaSoup Cornucopia_MagmaMole Cornucopia_CaldodeCamaron Cornucopia_Churros Cornucopia_BeanQuesadilla Cornucopia_Ceviche Cornucopia_Papadzules Cornucopia_NachosandCheese"
+		},
+		{
+			"Name": "CartStock_GroupO_ingredients",
+			"Value": "Cornucopia_Raspberry Cornucopia_RoastedSunflowerSeeds Cornucopia_NavyBeans Cornucopia_Vanilla Cornucopia_CocoaPod Cornucopia_DragonFruit Cornucopia_CinnamonSticks Cornucopia_Caramel Cornucopia_Avocado Cornucopia_BellPepper 340 832 410 638 398 396 270 400"
+		},
+		{
+			"Name": "CartStock_GroupO_dishes",
+			"Value": "Cornucopia_Horchata  Cornucopia_StrawberryDrink Cornucopia_CornMush Cornucopia_SearedSunflower Cornucopia_GrapeDumplings Cornucopia_HotChocolate Cornucopia_Atole Cornucopia_Champurrado Cornucopia_Alegria Cornucopia_Bannock Cornucopia_Wojapi Cornucopia_JalapenoLoaf"
+		},
+		{
+			"Name": "CartStock_GroupP_ingredients",
+			"Value": "Cornucopia_CornFlour  Cornucopia_ButternutSquash Cornucopia_Groundcherries Cornucopia_Sage SummerSquash 421 300 282 259 139 138 408 372 296 143 706 724 141 734"
+		},
+		{
+			"Name": "CartStock_GroupP_dishes",
+			"Value": "Cornucopia_AcordBread Cornucopia_FernSalad Cornucopia_ThreeSisterSalad Cornucopia_Succotash Cornucopia_CoastalFeast Cornucopia_Kanuchi Cornucopia_PecanPie Cornucopia_MushroomSoup Cornucopia_SourCherryPie Cornucopia_ButternutSquashSoup Cornucopia_CandiedAlmonds 244 608 607"
+		},
+		{
+			"Name": "CartStock_GroupQ_ingredients",
+			"Value": "Cornucopia_Cassava Cornucopia_Okra Cornucopia_Plantain Cornucopia_Shallot Cornucopia_CoconutMilk Cornucopia_RedOnion Cornucopia_HotSauce Cornucopia_Paprika 717 270 720 704 88 716 707"
+		},
+		{
+			"Name": "CartStock_GroupQ_dishes",
+			"Value": "Cornucopia_YucaFries Cornucopia_Mangu Cornucopia_GreenFigandSaltfish Cornucopia_CrabandCallaloo Cornucopia_Bacalaitos Cornucopia_Etouffee Cornucopia_ShrimpandGrits Cornucopia_BlackenedFish Cornucopia_Gumbo Cornucopia_SeafoodBoil Cornucopia_MacandFishBake Cornucopia_Cornbread Cornucopia_GreenBeanCasserole Cornucopia_GlazedYams"
+		},
+		{
+			"Name": "CartStock_GroupR_ingredients",
+			"Value": "Cornucopia_Peanut Cornucopia_PeanutButter Cornucopia_SweetPotato Cornucopia_Pecan Cornucopia_Jalapeno Cornucopia_CornFlour Cornucopia_Mutard Cornucopia_Ketchup Cornucopia_HotSauce 270 276 638 724 188 280"
+		},
+		{
+			"Name": "CartStock_GroupR_dishes",
+			"Value": "Cornucopia_Fruitcake Cornucopia_AutumnCasserole Cornucopia_BoiledPeanuts Cornucopia_CinnamonApplePie Cornucopia_CreamedCorn Cornucopia_Ambrosia Cornucopia_Smore Cornucopia_PotatoSalad Cornucopia_EggSalad Cornucopia_TunaSalad Cornucopia_PineapplePizza Cornucopia_SweetPotatoCasserole 610 236"
+		},
+		{
+			"Name": "CartStock_GroupS_ingredients",
+			"Value": "Cornucopia_PickleSpears Cornucopia_Butter 184 246 715 306 399 372 723 719 192 424 635 613"
+		},
+		{
+			"Name": "CartStock_GroupS_dishes",
+			"Value": "Cornucopia_LoxandaSchmear Cornucopia_CreamCheese Cornucopia_LobsterRoll Cornucopia_DeviledEggs Cornucopia_MacaroniSalad Cornucopia_CottageBreakfast Cornucopia_EverythingBagel Cornucopia_ChefSalad Cornucopia_AsparagusDelight 206 730 727 196"
+		},
+		{
+			"Name": "CartStock_TodaysIngredients",
+			"Value": "{{CartStock_GroupA_ingredients}},{{CartStock_GroupB_ingredients}},{{CartStock_GroupC_ingredients}},{{CartStock_GroupD_ingredients}},{{CartStock_GroupE_ingredients}},{{CartStock_GroupF_ingredients}},{{CartStock_GroupG_ingredients}},{{CartStock_GroupH_ingredients}},{{CartStock_GroupI_ingredients}},{{CartStock_GroupJ_ingredients}},{{CartStock_GroupK_ingredients}},{{CartStock_GroupL_ingredients}},{{CartStock_GroupM_ingredients}},{{CartStock_GroupN_ingredients}},{{CartStock_GroupO_ingredients}},{{CartStock_GroupP_ingredients}},{{CartStock_GroupQ_ingredients}},{{CartStock_GroupR_ingredients}},{{CartStock_GroupS_ingredients}}"
+		},
+		{
+			"Name": "CartStock_TodaysDishes",
+			"Value": "{{CartStock_GroupA_dishes}},{{CartStock_GroupB_dishes}},{{CartStock_GroupC_dishes}},{{CartStock_GroupD_dishes}},{{CartStock_GroupE_dishes}},{{CartStock_GroupF_dishes}},{{CartStock_GroupG_dishes}},{{CartStock_GroupH_dishes}},{{CartStock_GroupI_dishes}},{{CartStock_GroupJ_dishes}},{{CartStock_GroupK_dishes}},{{CartStock_GroupL_dishes}},{{CartStock_GroupM_dishes}},{{CartStock_GroupN_dishes}},{{CartStock_GroupO_dishes}},{{CartStock_GroupP_dishes}},{{CartStock_GroupQ_dishes}},{{CartStock_GroupR_dishes}},{{CartStock_GroupS_dishes}}"
+		},
+		{
+			"Name": "PageTier",
+			"Value": "A",
+		},
+		{
+			"Name": "PageTier",
+			"Value": "B",
+			"When": {
+				"WorldTraveler_Essential": true,
+				"WorldTraveler_Extended": false
+			}
+		},
+		{
+			"Name": "PageTier",
+			"Value": "C",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Breakfast_List",
+			"Value": "{{i18n:CottageBreakfast_name}}{{i18n:separator}}{{i18n:FluffyEggSandwich_name}}{{i18n:separator}}{{i18n:Scone_name}}{{i18n:separator}}{{i18n:SweetCrepes_name}}{{i18n:separator}}{{i18n:TaterTots_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_Breakfast_List",
+			"Value": "{{i18n:CottageBreakfast_name}}{{i18n:separator}}{{i18n:FluffyEggSandwich_name}}{{i18n:separator}}{{i18n:Scone_name}}{{i18n:separator}}{{i18n:SweetCrepes_name}}{{i18n:separator}}{{i18n:TaterTots_name}}{{i18n:separator}}{{i18n:BreakfastCereal_name}}{{i18n:separator}}{{i18n:Natto_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_Breakfast_List",
+			"Value": "{{i18n:CottageBreakfast_name}}{{i18n:separator}}{{i18n:FluffyEggSandwich_name}}{{i18n:separator}}{{i18n:Scone_name}}{{i18n:separator}}{{i18n:SweetCrepes_name}}{{i18n:separator}}{{i18n:TaterTots_name}}{{i18n:separator}}{{i18n:BreakfastCereal_name}}{{i18n:separator}}{{i18n:Natto_name}}{{i18n:separator}}{{i18n:Biscotti_name}}{{i18n:separator}}{{i18n:CenturyCongee_name}}{{i18n:separator}}{{i18n:Clafoutis_name}}{{i18n:separator}}{{i18n:Croissant_name}}{{i18n:separator}}{{i18n:EverythingBagel_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Breakfast_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:GranolaBowl_name}}{{i18n:separator}}{{i18n:KayaToast_name}}{{i18n:separator}}{{i18n:Mangu_name}}{{i18n:separator}}{{i18n:Marmalade_name}}{{i18n:separator}}{{i18n:SmotheredWaffles_name}}{{i18n:separator}}{{i18n:StarmiteToast_name}}{{i18n:separator}}{{i18n:SugaredGrapefruit_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_Dessert_List",
+			"Value": "{{i18n:CandiedCherries_name}}{{i18n:separator}}{{i18n:Cassata_name}}{{i18n:separator}}{{i18n:SourCherryPie_name}}{{i18n:separator}}{{i18n:Melonpan_name}}{{i18n:separator}}{{i18n:PeachCrisp_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_Dessert_List",
+			"Value": "{{i18n:CandiedCherries_name}}{{i18n:separator}}{{i18n:Cassata_name}}{{i18n:separator}}{{i18n:SourCherryPie_name}}{{i18n:separator}}{{i18n:Melonpan_name}}{{i18n:separator}}{{i18n:PeachCrisp_name}}{{i18n:separator}}{{i18n:CandiedPineapple_name}}{{i18n:separator}}{{i18n:Jammies_name}}{{i18n:separator}}{{i18n:Mousse_name}}{{i18n:separator}}{{i18n:Toffee_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_Dessert_List",
+			"Value": "{{i18n:CandiedCherries_name}}{{i18n:separator}}{{i18n:Cassata_name}}{{i18n:separator}}{{i18n:SourCherryPie_name}}{{i18n:separator}}{{i18n:Melonpan_name}}{{i18n:separator}}{{i18n:PeachCrisp_name}}{{i18n:separator}}{{i18n:CandiedPineapple_name}}{{i18n:separator}}{{i18n:Jammies_name}}{{i18n:separator}}{{i18n:Mousse_name}}{{i18n:separator}}{{i18n:Toffee_name}}{{i18n:separator}}{{i18n:Alfajores_name}}{{i18n:separator}}{{i18n:BanoffeePie_name}}{{i18n:separator}}{{i18n:ButterCake_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Dessert_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:separator}}{{i18n:CandiedOrangePeel_name}}{{i18n:separator}}{{i18n:ChocolateLavaCake_name}}{{i18n:separator}}{{i18n:FigCookies_name}}{{i18n:separator}}{{i18n:GooseberryCrumble_name}}{{i18n:separator}}{{i18n:Knafeh_name}}{{i18n:Lamington_name}}{{i18n:separator}}{{i18n:Madeleines_name}}{{i18n:separator}}{{i18n:MarshmallowSquares_name}}{{i18n:separator}}{{i18n:PecanBrittle_name}}{{i18n:separator}}{{i18n:Strudel_name}}{{i18n:separator}}{{i18n:TreacleTart_name}}{{i18n:separator}}{{i18n:UbeCake_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_ComfortFood_List",
+			"Value": "{{i18n:CreamedCorn_name}}{{i18n:separator}}{{i18n:LobsterRoll_name}}{{i18n:separator}}{{i18n:MacandFishBake_name}}{{i18n:separator}}{{i18n:PotatoSalad_name}}{{i18n:separator}}{{i18n:PotatoesauGratin_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_ComfortFood_List",
+			"Value": "{{i18n:CreamedCorn_name}}{{i18n:separator}}{{i18n:LobsterRoll_name}}{{i18n:separator}}{{i18n:MacandFishBake_name}}{{i18n:separator}}{{i18n:PotatoSalad_name}}{{i18n:separator}}{{i18n:PotatoesauGratin_name}}{{i18n:separator}}{{i18n:BoiledPeanuts_name}}{{i18n:separator}}{{i18n:CaramelizedOnions_name}}{{i18n:separator}}{{i18n:CucumberSandwich_name}}{{i18n:separator}}{{i18n:PickledRind_name}}{{i18n:separator}}{{i18n:WedgeSalad_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_ComfortFood_List",
+			"Value": "{{i18n:CreamedCorn_name}}{{i18n:separator}}{{i18n:LobsterRoll_name}}{{i18n:separator}}{{i18n:MacandFishBake_name}}{{i18n:separator}}{{i18n:PotatoSalad_name}}{{i18n:separator}}{{i18n:PotatoesauGratin_name}}{{i18n:separator}}{{i18n:BoiledPeanuts_name}}{{i18n:separator}}{{i18n:CaramelizedOnions_name}}{{i18n:separator}}{{i18n:CucumberSandwich_name}}{{i18n:separator}}{{i18n:PickledRind_name}}{{i18n:separator}}{{i18n:WedgeSalad_name}}{{i18n:separator}}{{i18n:BakedBeans_name}}{{i18n:separator}}{{i18n:Biscuit_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_ComfortFood_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:EggSalad_name}}{{i18n:separator}}{{i18n:Etouffee_name}}{{i18n:separator}}{{i18n:Fluffernutter_name}}{{i18n:separator}}{{i18n:GrilledZucchini_name}}{{i18n:separator}}{{i18n:JalapenoLoaf_name}}{{i18n:separator}}{{i18n:PastaPrimavera_name}}{{i18n:separator}}{{i18n:PotatoPancakes_name}}{{i18n:separator}}{{i18n:ShrimpandGrits_name}}{{i18n:separator}}{{i18n:TapiocaPudding_name}}{{i18n:separator}}{{i18n:TunaSalad_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_SnackFood_List",
+			"Value": "{{i18n:CheeseFries_name}}{{i18n:separator}}{{i18n:Croquette_name}}{{i18n:separator}}{{i18n:FruitBar_name}}{{i18n:separator}}{{i18n:Malasada_name}}{{i18n:separator}}{{i18n:PizzaRolls_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_SnackFood_List",
+			"Value": "{{i18n:CheeseFries_name}}{{i18n:separator}}{{i18n:Croquette_name}}{{i18n:separator}}{{i18n:FruitBar_name}}{{i18n:separator}}{{i18n:Malasada_name}}{{i18n:separator}}{{i18n:PizzaRolls_name}}{{i18n:separator}}{{i18n:ChocolateBanana_name}}{{i18n:separator}}{{i18n:FriedTofu_name}}{{i18n:separator}}{{i18n:MoltenCustardBun_name}}{{i18n:separator}}{{i18n:OnionRings_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_SnackFood_List",
+			"Value": "{{i18n:CheeseFries_name}}{{i18n:separator}}{{i18n:Croquette_name}}{{i18n:separator}}{{i18n:FruitBar_name}}{{i18n:separator}}{{i18n:Malasada_name}}{{i18n:separator}}{{i18n:PizzaRolls_name}}{{i18n:separator}}{{i18n:ChocolateBanana_name}}{{i18n:separator}}{{i18n:FriedTofu_name}}{{i18n:separator}}{{i18n:MoltenCustardBun_name}}{{i18n:separator}}{{i18n:OnionRings_name}}{{i18n:separator}}{{i18n:CheezieCurlz_name}}{{i18n:separator}}{{i18n:FlatbreadPizza_name}}{{i18n:separator}}{{i18n:FrostedGrapes_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_SnackFood_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:FruitLeather_name}}{{i18n:separator}}{{i18n:Panipuri_name}}{{i18n:separator}}{{i18n:RadishCake_name}}{{i18n:separator}}{{i18n:RockCandyFruit_name}}{{i18n:separator}}{{i18n:SesameCrackers_name}}{{i18n:separator}}{{i18n:SpringRolls_name}}{{i18n:separator}}{{i18n:StreetCorn_name}}{{i18n:separator}}{{i18n:SweetPotatoFries_name}}{{i18n:separator}}{{i18n:Taiyaki_name}}{{i18n:separator}}{{i18n:TrailMix_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_Woodland_List",
+			"Value": "{{i18n:AcornBread_name}}{{i18n:separator}}{{i18n:CoastalFeast_name}}{{i18n:separator}}{{i18n:GrapeDumplings_name}}{{i18n:separator}}{{i18n:Pupusas_name}}{{i18n:separator}}{{i18n:Wojapi_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_Woodland_List",
+			"Value": "{{i18n:AcornBread_name}}{{i18n:separator}}{{i18n:CoastalFeast_name}}{{i18n:separator}}{{i18n:GrapeDumplings_name}}{{i18n:separator}}{{i18n:Pupusas_name}}{{i18n:separator}}{{i18n:Wojapi_name}}{{i18n:separator}}{{i18n:Arepas_name}}{{i18n:separator}}{{i18n:MagmaMole_name}}{{i18n:separator}}{{i18n:StrawberryDrink_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_Woodland_List",
+			"Value": "{{i18n:AcornBread_name}}{{i18n:separator}}{{i18n:CoastalFeast_name}}{{i18n:separator}}{{i18n:GrapeDumplings_name}}{{i18n:separator}}{{i18n:Pupusas_name}}{{i18n:separator}}{{i18n:Wojapi_name}}{{i18n:separator}}{{i18n:Arepas_name}}{{i18n:separator}}{{i18n:MagmaMole_name}}{{i18n:separator}}{{i18n:StrawberryDrink_name}}{{i18n:separator}}{{i18n:Alegria_name}}{{i18n:separator}}{{i18n:AloeCooler_name}}{{i18n:separator}}{{i18n:Atole_name}}{{i18n:separator}}{{i18n:BearCandy_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Woodland_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:Champurrado_name}}{{i18n:separator}}{{i18n:CornMush_name}}{{i18n:separator}}{{i18n:FernSalad_name}}{{i18n:separator}}{{i18n:FryBread_name}}{{i18n:separator}}{{i18n:Kanuchi_name}}{{i18n:separator}}{{i18n:Papadzules_name}}{{i18n:separator}}{{i18n:RiversHarvest_name}}{{i18n:separator}}{{i18n:SearedSunflower_name}}{{i18n:separator}}{{i18n:Succotash_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_Highland_List",
+			"Value": "{{i18n:EelPie_name}}{{i18n:separator}}{{i18n:GoldenStrands_name}}{{i18n:separator}}{{i18n:LoftyPopover_name}}{{i18n:separator}}{{i18n:Spatzle_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_Highland_List",
+			"Value": "{{i18n:EelPie_name}}{{i18n:separator}}{{i18n:GoldenStrands_name}}{{i18n:separator}}{{i18n:LoftyPopover_name}}{{i18n:separator}}{{i18n:Spatzle_name}}{{i18n:separator}}{{i18n:Gazpacho_name}}{{i18n:separator}}{{i18n:Polenta_name}}{{i18n:separator}}{{i18n:Scarpaccia_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_Highland_List",
+			"Value": "{{i18n:EelPie_name}}{{i18n:separator}}{{i18n:GoldenStrands_name}}{{i18n:separator}}{{i18n:LoftyPopover_name}}{{i18n:separator}}{{i18n:Spatzle_name}}{{i18n:separator}}{{i18n:Gazpacho_name}}{{i18n:separator}}{{i18n:Polenta_name}}{{i18n:separator}}{{i18n:Scarpaccia_name}}{{i18n:separator}}{{i18n:Acorda_name}}{{i18n:separator}}{{i18n:Bouillabaisse_name}}{{i18n:separator}}{{i18n:Caponata_name}}{{i18n:separator}}{{i18n:Carpaccio_name}}{{i18n:separator}}{{i18n:Colcannon_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Highland_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:GnocchialTartufo_name}}{{i18n:separator}}{{i18n:Marzipan_name}}{{i18n:separator}}{{i18n:Meuniere_name}}{{i18n:separator}}{{i18n:Minestrone_name}}{{i18n:separator}}{{i18n:OystersMignonette_name}}{{i18n:separator}}{{i18n:PannaCotta_name}}{{i18n:separator}}{{i18n:SalmonBearnaise_name}}{{i18n:separator}}{{i18n:SpinachTortellini_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_Archipelago_List",
+			"Value": "{{i18n:Bacalaitos_name}}{{i18n:separator}}{{i18n:CaldodeCamaron_name}}{{i18n:separator}}{{i18n:ChipaGuasu_name}}{{i18n:separator}}{{i18n:CoconutFish_name}}{{i18n:separator}}{{i18n:Saimin_name}}{{i18n:separator}}{{i18n:Switchel_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_Archipelago_List",
+			"Value": "{{i18n:Bacalaitos_name}}{{i18n:separator}}{{i18n:CaldodeCamaron_name}}{{i18n:separator}}{{i18n:ChipaGuasu_name}}{{i18n:separator}}{{i18n:CoconutFish_name}}{{i18n:separator}}{{i18n:Saimin_name}}{{i18n:separator}}{{i18n:Switchel_name}}{{i18n:separator}}{{i18n:RiceandBeans_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_Archipelago_List",
+			"Value": "{{i18n:Bacalaitos_name}}{{i18n:separator}}{{i18n:CaldodeCamaron_name}}{{i18n:separator}}{{i18n:ChipaGuasu_name}}{{i18n:separator}}{{i18n:CoconutFish_name}}{{i18n:separator}}{{i18n:Saimin_name}}{{i18n:separator}}{{i18n:Switchel_name}}{{i18n:separator}}{{i18n:RiceandBeans_name}}{{i18n:separator}}{{i18n:Otai_name}}{{i18n:separator}}{{i18n:CassavaCake_name}}{{i18n:separator}}{{i18n:CrabandCallaloo_name}}{{i18n:separator}}{{i18n:Farofa_name}}{{i18n:separator}}{{i18n:FriedPlantains_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Archipelago_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:Fungee_name}}{{i18n:separator}}{{i18n:Kokoda_name}}{{i18n:separator}}{{i18n:Lalab_name}}{{i18n:separator}}{{i18n:Laplap_name}}{{i18n:separator}}{{i18n:MieGoreng_name}}{{i18n:separator}}{{i18n:PaniPopo_name}}{{i18n:separator}}{{i18n:RoastedBreadfruit_name}}{{i18n:separator}}{{i18n:SpicyFruitSpear_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_Northern_List",
+			"Value": "{{i18n:GrainPorridge_name}}{{i18n:separator}}{{i18n:CreamStew_name}}{{i18n:separator}}{{i18n:GoatCheeseSalad_name}}{{i18n:separator}}{{i18n:Khachapuri_name}}{{i18n:separator}}{{i18n:Papanasi_name}}{{i18n:separator}}{{i18n:Pierogi_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_Northern_List",
+			"Value": "{{i18n:GrainPorridge_name}}{{i18n:separator}}{{i18n:CreamStew_name}}{{i18n:separator}}{{i18n:GoatCheeseSalad_name}}{{i18n:separator}}{{i18n:Khachapuri_name}}{{i18n:separator}}{{i18n:Papanasi_name}}{{i18n:separator}}{{i18n:Pierogi_name}}{{i18n:separator}}{{i18n:BreadSoup_name}}{{i18n:separator}}{{i18n:Stroganina_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_Northern_List",
+			"Value": "{{i18n:GrainPorridge_name}}{{i18n:separator}}{{i18n:CreamStew_name}}{{i18n:separator}}{{i18n:GoatCheeseSalad_name}}{{i18n:separator}}{{i18n:Khachapuri_name}}{{i18n:separator}}{{i18n:Papanasi_name}}{{i18n:separator}}{{i18n:Pierogi_name}}{{i18n:separator}}{{i18n:BreadSoup_name}}{{i18n:separator}}{{i18n:Stroganina_name}}{{i18n:separator}}{{i18n:ButtermilkSoup_name}}{{i18n:separator}}{{i18n:Gravlax_name}}{{i18n:separator}}{{i18n:Kapustnica_name}}{{i18n:separator}}{{i18n:MilkSoup_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Northern_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:SalmonChowder_name}}{{i18n:separator}}{{i18n:Skyr_name}}{{i18n:separator}}{{i18n:SourShchi_name}}{{i18n:separator}}{{i18n:SplitPeaSoup_name}}{{i18n:separator}}{{i18n:Tarkhuna_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_Savanna_List",
+			"Value": "{{i18n:MalvaPudding_name}}{{i18n:separator}}{{i18n:MechouiaSalad_name}}{{i18n:separator}}{{i18n:PoundedYam_name}}{{i18n:separator}}{{i18n:RizGras_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_Savanna_List",
+			"Value": "{{i18n:MalvaPudding_name}}{{i18n:separator}}{{i18n:MechouiaSalad_name}}{{i18n:separator}}{{i18n:PoundedYam_name}}{{i18n:separator}}{{i18n:RizGras_name}}{{i18n:separator}}{{i18n:EgusiSoup_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_Savanna_List",
+			"Value": "{{i18n:MalvaPudding_name}}{{i18n:separator}}{{i18n:MechouiaSalad_name}}{{i18n:separator}}{{i18n:PoundedYam_name}}{{i18n:separator}}{{i18n:RizGras_name}}{{i18n:separator}}{{i18n:EgusiSoup_name}}{{i18n:separator}}{{i18n:Akara_name}}{{i18n:separator}}{{i18n:BangaRice_name}}{{i18n:separator}}{{i18n:Bazin_name}}{{i18n:separator}}{{i18n:Beyaynetu_name}}{{i18n:separator}}{{i18n:Borek_name}}{{i18n:separator}}{{i18n:Couscous_name}}{{i18n:separator}}{{i18n:Injera_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Savanna_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:Karantika_name}}{{i18n:separator}}{{i18n:Koshary_name}}{{i18n:separator}}{{i18n:Magrood_name}}{{i18n:separator}}{{i18n:MoinMoin_name}}{{i18n:separator}}{{i18n:OctopusCurry_name}}{{i18n:separator}}{{i18n:RedRed_name}}{{i18n:separator}}{{i18n:YellowRice_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_InlandSea_List",
+			"Value": "{{i18n:GarlicNaan_name}}{{i18n:separator}}{{i18n:Haleem_name}}{{i18n:separator}}{{i18n:Halloumi_name}}{{i18n:separator}}{{i18n:PantaBhat_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_InlandSea_List",
+			"Value": "{{i18n:GarlicNaan_name}}{{i18n:separator}}{{i18n:Haleem_name}}{{i18n:separator}}{{i18n:Halloumi_name}}{{i18n:separator}}{{i18n:PantaBhat_name}}{{i18n:separator}}{{i18n:HoriatikiSalad_name}}{{i18n:separator}}{{i18n:Pita_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_InlandSea_List",
+			"Value": "{{i18n:GarlicNaan_name}}{{i18n:separator}}{{i18n:Haleem_name}}{{i18n:separator}}{{i18n:Halloumi_name}}{{i18n:separator}}{{i18n:PantaBhat_name}}{{i18n:separator}}{{i18n:HoriatikiSalad_name}}{{i18n:separator}}{{i18n:Pita_name}}{{i18n:separator}}{{i18n:RusticChorba_name}}{{i18n:separator}}{{i18n:DalTadka_name}}{{i18n:separator}}{{i18n:Dolmas_name}}{{i18n:separator}}{{i18n:Falafel_name}}{{i18n:separator}}{{i18n:GreenPilaf_name}}{{i18n:separator}}{{i18n:Halva_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_InlandSea_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:JeweledRice_name}}{{i18n:separator}}{{i18n:Kheer_name}}{{i18n:separator}}{{i18n:MintChutney_name}}{{i18n:separator}}{{i18n:Muhammara_name}}{{i18n:separator}}{{i18n:PalakPaneer_name}}{{i18n:separator}}{{i18n:PitaChips_name}}{{i18n:separator}}{{i18n:RoseDrink_name}}{{i18n:separator}}{{i18n:RoseWater_name}}{{i18n:separator}}{{i18n:SweetPilaf_name}}{{i18n:separator}}{{i18n:Tabbouleh_name}}{{i18n:separator}}{{i18n:Tzatziki_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_Delta_List",
+			"Value": "{{i18n:CoconutShrimp_name}}{{i18n:separator}}{{i18n:ShrimpFriedRice_name}}{{i18n:separator}}{{i18n:SourFishSoup_name}}{{i18n:separator}}{{i18n:TeaEggs_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_Delta_List",
+			"Value": "{{i18n:CoconutShrimp_name}}{{i18n:separator}}{{i18n:ShrimpFriedRice_name}}{{i18n:separator}}{{i18n:SourFishSoup_name}}{{i18n:separator}}{{i18n:TeaEggs_name}}{{i18n:separator}}{{i18n:CucumberKimchi_name}}{{i18n:separator}}{{i18n:RiceCakes_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_Delta_List",
+			"Value": "{{i18n:CoconutShrimp_name}}{{i18n:separator}}{{i18n:ShrimpFriedRice_name}}{{i18n:separator}}{{i18n:SourFishSoup_name}}{{i18n:separator}}{{i18n:TeaEggs_name}}{{i18n:separator}}{{i18n:CucumberKimchi_name}}{{i18n:separator}}{{i18n:RiceCakes_name}}{{i18n:separator}}{{i18n:ClayPotNoodles_name}}{{i18n:separator}}{{i18n:DrunkardsNoodles_name}}{{i18n:separator}}{{i18n:DurianCrispies_name}}{{i18n:separator}}{{i18n:EggFooYoung_name}}{{i18n:separator}}{{i18n:HarGow_name}}{{i18n:separator}}{{i18n:HoneyWalnutShrimp_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Delta_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:HotandSourSoup_name}}{{i18n:separator}}{{i18n:LukChup_name}}{{i18n:separator}}{{i18n:MapoTofu_name}}{{i18n:separator}}{{i18n:OliveRice_name}}{{i18n:separator}}{{i18n:Qurutob_name}}{{i18n:separator}}{{i18n:SnailNoodles_name}}{{i18n:separator}}{{i18n:SpicyPapayaSalad_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "RecipeBook_Mountain_List",
+			"Value": "{{i18n:NigiriSushi_name}}{{i18n:separator}}{{i18n:CheeseRamen_name}}{{i18n:separator}}{{i18n:ShrimpTempura_name}}{{i18n:separator}}{{i18n:Tteokbokki_name}}{{i18n:pageend}}"
+		},
+		{
+			"Name": "RecipeBook_Mountain_List",
+			"Value": "{{i18n:NigiriSushi_name}}{{i18n:separator}}{{i18n:CheeseRamen_name}}{{i18n:separator}}{{i18n:ShrimpTempura_name}}{{i18n:separator}}{{i18n:Tteokbokki_name}}{{i18n:separator}}{{i18n:CrabRoll_name}}{{i18n:separator}}{{i18n:CrispyRiceBowl_name}}{{i18n:separator}}{{i18n:CucumberRoll_name}}{{i18n:separator}}{{i18n:KitsuneUdon_name}}{{i18n:pageend}}",
+			"When": {
+				"WorldTraveler_Essential": true,
+			}
+		},
+		{
+			"Name": "RecipeBook_Mountain_List",
+			"Value": "{{i18n:NigiriSushi_name}}{{i18n:separator}}{{i18n:CheeseRamen_name}}{{i18n:separator}}{{i18n:ShrimpTempura_name}}{{i18n:separator}}{{i18n:Tteokbokki_name}}{{i18n:separator}}{{i18n:CrabRoll_name}}{{i18n:separator}}{{i18n:CrispyRiceBowl_name}}{{i18n:separator}}{{i18n:CucumberRoll_name}}{{i18n:separator}}{{i18n:KitsuneUdon_name}}{{i18n:separator}}{{i18n:ChilledTofu_name}}{{i18n:separator}}{{i18n:EelBowl_name}}{{i18n:separator}}{{i18n:FishStock_name}}{{i18n:separator}}{{i18n:FlowerHotpot_name}}{{i18n:pageseparator}}",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+			"Name": "RecipeBook_Mountain_ListB",
+			"Value": "{{i18n:pageseparator}}{{i18n:Jjigae_name}}{{i18n:separator}}{{i18n:KimchiRamen_name}}{{i18n:separator}}{{i18n:Onigiri_name}}{{i18n:separator}}{{i18n:PerillaKimchi_name}}{{i18n:separator}}{{i18n:RaccoonSoba_name}}{{i18n:separator}}{{i18n:SoupCurry_name}}{{i18n:separator}}{{i18n:VegetableTempura_name}}{{i18n:pageend}}",
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "0",
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "1",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_1": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "2",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_2": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "3",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_3": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "4",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_4": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "5",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_5": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "6",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_6": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "7",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_7": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "8",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_8": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "9",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_9": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "10",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_10": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "11",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_11": true
+			}
+		},
+		{
+			"Name": "LostPageStat",
+			"Value": "12",
+			"When": {
+				"HasReadLetter:hostPlayer|contains=Cornucopia.CookingRecipes_LostPageStat_12": true
+			}
+		},
+		{
+			"Name": "DSVCompat_Elliott",
+			"Value": "Cornucopia_Takoyaki Cornucopia_OctopusCurry Cornucopia_OystersMignonette",
+		},
+		{
+			"Name": "DSVCompat_Elliott",
+			"Value": " ",
+			"When": {
+				"DSV.Core/ConfigValue:JewishElliott": "True",
+				"HasMod|contains=DSV.Core": true
+			}
+		},
+		{
+			"Name": "DSVCompat_Harvey",
+			"Value": "Cornucopia_TilapiaandZoodles Cornucopia_PantaBhat",
+		},
+		{
+			"Name": "DSVCompat_Harvey",
+			"Value": " ",
+			"When": {
+				"DSV.Core/ConfigValue:HarveyVariant|contains=ModdedSikh": true,
+				"HasMod|contains=DSV.Core": true
+			}
+		},
+	],
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"Enable Installation Help Message": true
+			},
+			"Entries": {
+				"Cornucopia.CookingRecipes_InstallationMessage": {
+					"Id": "Cornucopia.CookingRecipes_InstallationMessage",
+					"Trigger": "DayStarted",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.a}}\" Info true",
+					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.b}} {{i18n:InstallationTier.{{InstallationTier}}}}\" Info true",
+					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.c}} {{RecipeAmount}}\" Info true",
+					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.d}}\" Info true",
+					"Spiderbuttons.BETAS_Log Cornucopia.CookingRecipes \"{{i18n:InstallationCheck.e}}\" Info true"
+					]
+				},
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+				"Cornucopia.CookingRecipes_SetWorldTravelerFlag": {
+                    "Id": "Cornucopia.CookingRecipes_SetWorldTravelerFlag",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{World Traveler}}",
+                    "HostOnly": true,
+					"MarkActionApplied": false,
+                    "Action": "AddMail Host Cornucopia.CookingRecipes_WorldTravelerEnabled received",
+                },
+				"Cornucopia.CookingRecipes_RemoveWorldTravelerFlag": {
+                    "Id": "Cornucopia.CookingRecipes_RemoveWorldTravelerFlag",
+                    "Trigger": "DayStarted",
+                    "Condition": "!{{World Traveler}}",
+                    "HostOnly": true,
+					"MarkActionApplied": false,
+                    "Action": "RemoveMail Host Cornucopia.CookingRecipes_WorldTravelerEnabled received",
+                },
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "MCornucopia.CookingRecipes/Objects, Cornucopia.CookingRecipes/Objects_2, Cornucopia.CookingRecipes/Hats, Cornucopia.CookingRecipes/Furniture, Cornucopia.CookingRecipes/Autograph",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Cornucopia.CookingRecipes/RecipeBook/Breakfast_Intro, Cornucopia.CookingRecipes/RecipeBook/Breakfast_A, Cornucopia.CookingRecipes/RecipeBook/Breakfast_B, Cornucopia.CookingRecipes/RecipeBook/Breakfast_C, Cornucopia.CookingRecipes/RecipeBook/Breakfast_D, Cornucopia.CookingRecipes/RecipeBook/Dessert_Intro, Cornucopia.CookingRecipes/RecipeBook/Dessert_A, Cornucopia.CookingRecipes/RecipeBook/Dessert_B, Cornucopia.CookingRecipes/RecipeBook/Dessert_C, Cornucopia.CookingRecipes/RecipeBook/Dessert_D, Cornucopia.CookingRecipes/RecipeBook/SnackFood_Intro, Cornucopia.CookingRecipes/RecipeBook/SnackFood_A, Cornucopia.CookingRecipes/RecipeBook/SnackFood_B, Cornucopia.CookingRecipes/RecipeBook/SnackFood_C, Cornucopia.CookingRecipes/RecipeBook/SnackFood_D, Cornucopia.CookingRecipes/RecipeBook/ComfortFood_Intro, Cornucopia.CookingRecipes/RecipeBook/ComfortFood_A, Cornucopia.CookingRecipes/RecipeBook/ComfortFood_B, Cornucopia.CookingRecipes/RecipeBook/ComfortFood_C, Cornucopia.CookingRecipes/RecipeBook/ComfortFood_D, Cornucopia.CookingRecipes/RecipeBook/Woodland_Intro, Cornucopia.CookingRecipes/RecipeBook/Woodland_A, Cornucopia.CookingRecipes/RecipeBook/Woodland_B, Cornucopia.CookingRecipes/RecipeBook/Woodland_C, Cornucopia.CookingRecipes/RecipeBook/Woodland_D, Cornucopia.CookingRecipes/RecipeBook/Highland_Intro, Cornucopia.CookingRecipes/RecipeBook/Highland_A, Cornucopia.CookingRecipes/RecipeBook/Highland_B, Cornucopia.CookingRecipes/RecipeBook/Highland_C, Cornucopia.CookingRecipes/RecipeBook/Highland_D, Cornucopia.CookingRecipes/RecipeBook/Archipelago_Intro, Cornucopia.CookingRecipes/RecipeBook/Archipelago_A, Cornucopia.CookingRecipes/RecipeBook/Archipelago_B, Cornucopia.CookingRecipes/RecipeBook/Archipelago_C, Cornucopia.CookingRecipes/RecipeBook/Archipelago_D, Cornucopia.CookingRecipes/RecipeBook/Northern_Intro, Cornucopia.CookingRecipes/RecipeBook/Northern_A, Cornucopia.CookingRecipes/RecipeBook/Northern_B, Cornucopia.CookingRecipes/RecipeBook/Northern_C, Cornucopia.CookingRecipes/RecipeBook/Northern_D, Cornucopia.CookingRecipes/RecipeBook/Savanna_Intro, Cornucopia.CookingRecipes/RecipeBook/Savanna_A, Cornucopia.CookingRecipes/RecipeBook/Savanna_B, Cornucopia.CookingRecipes/RecipeBook/Savanna_C, Cornucopia.CookingRecipes/RecipeBook/Savanna_D, Cornucopia.CookingRecipes/RecipeBook/InlandSea_Intro, Cornucopia.CookingRecipes/RecipeBook/InlandSea_A, Cornucopia.CookingRecipes/RecipeBook/InlandSea_B, Cornucopia.CookingRecipes/RecipeBook/InlandSea_C, Cornucopia.CookingRecipes/RecipeBook/InlandSea_D, Cornucopia.CookingRecipes/RecipeBook/Delta_Intro, Cornucopia.CookingRecipes/RecipeBook/Delta_A, Cornucopia.CookingRecipes/RecipeBook/Delta_B, Cornucopia.CookingRecipes/RecipeBook/Delta_C, Cornucopia.CookingRecipes/RecipeBook/Delta_D, Cornucopia.CookingRecipes/RecipeBook/Mountain_Intro, Cornucopia.CookingRecipes/RecipeBook/Mountain_A, Cornucopia.CookingRecipes/RecipeBook/Mountain_B, Cornucopia.CookingRecipes/RecipeBook/Mountain_C, Cornucopia.CookingRecipes/RecipeBook/Mountain_D",
+			"FromFile": "assets/recipebook/{{TargetWithoutPath}}.png"
+		},
+		{
+            "Action": "Load",
+            "Target": "Portraits/Cornucopia.CookingRecipes_Chef",
+            "FromFile": "assets/chef_portrait.png"
+        },
+		{
+            "Action": "Load",
+            "Target": "Characters/Cornucopia.CookingRecipes_Chef",
+            "FromFile": "assets/chef_sprites.png"
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/Cornucopia.CookingRecipes_ChefCart",
+            "FromFile": "assets/chefcart.png"
+        },
+		{
+			"Action": "Include",
+			"FromFile": "data/thisfilepreventsacrash.json",
+			"When": {
+				"World Traveler": false
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/basicingredients.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/wizardquest.json",
+			"When": {
+				"HomeCook_Extended": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/cookingrecipes.json, data/objects.json, data/recipebottles.json, data/forage.json, data/shops_recipes.json, data/machines.json, data/mail_recipes.json, data/gifttastes.json, data/compat.json, data/vanillarecipes.json, data/events.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/flexiblerecipes.json",
+			"When": {
+				"Enable Flexible Recipes": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/hyperflexiblerecipes.json",
+			"When": {
+				"Enable Hyperflexible Recipes": true,
+				"HasMod|contains=blueberry.LoveOfCooking.CP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/flavoredrecipes.json",
+			"When": {
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Enable Flavored Recipes": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/lostpages.json, data/recipebooks.json, data/chef.json",
+			"When": {
+				"World Traveler": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/radio.json",
+			"When": {
+				"WorldTraveler_Extended": true
+			}
+		},
+		{
+            "Action": "Load",
+            "Target": "Cornucopia.CookingRecipes/i18n",
+            "FromFile": "{{FirstValidFile: i18n/{{language}}.json, i18n/default.json }}"
+        },
+		{
+            "Action": "EditData",
+            "Target": "Cornucopia.CookingRecipes/i18n",
+            "Entries": {
+				"Indicator": "{{i18n:{{indicator}}}}"
+			}
+        },
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_vanilla.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_wag.json",
+			"When": {
+				"HasMod|contains=Wildflour.AtelierGoods": true,
+				"HasMod|contains=Atelier.Cauldron": true,
+				"Atelier.Cauldron/ConfigValue:FloristOnly": false,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_vmv.json",
+			"When": {
+				"HasMod|contains=Lumisteria.MtVapius": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_sve.json",
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_sbv.json",
+			"When": {
+				"HasMod|contains=skellady.SBVCP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_rata.json",
+			"When": {
+				"HasMod|contains=Wildflour.SASS": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_rsv.json",
+			"When": {
+				"HasMod|contains=Rafseazz.RSVCP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_es.json",
+			"When": {
+				"HasMod|contains=LemurKat.EastScarpe.CP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_mnf.json",
+			"When": {
+				"HasMod|contains=MoreFish": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_bonster.json",
+			"When": {
+				"HasMod|contains=BFV.CombinedCrops": true,
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"HasMod|contains=blueberry.LoveOfCooking.CP": true,
+			},
+			"TargetField": [
+				"blueberry.LoveOfCooking_chocolate",
+				"ContextTags"
+			],
+			"Entries": {
+				"chocolate_item": "chocolate_item"
+			}
+		},
+	]
+}

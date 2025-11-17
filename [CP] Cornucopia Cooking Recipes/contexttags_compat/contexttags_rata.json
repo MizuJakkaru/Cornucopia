@@ -1,0 +1,220 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Apple",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Apricot",
+				"ContextTags"
+			],
+			"Entries": {
+				"apricot_item": "apricot_item",
+				"stone_fruit_item": "stone_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Banana",
+				"ContextTags"
+			],
+			"Entries": {
+				"banana_item": "banana_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Cherry",
+				"ContextTags"
+			],
+			"Entries": {
+				"stone_fruit_item": "stone_fruit_item",
+				"cherry_item": "cherry_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Mango",
+				"ContextTags"
+			],
+			"Entries": {
+				"mango_item": "mango_item",
+				"stone_fruit_item": "stone_fruit_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Orange",
+				"ContextTags"
+			],
+			"Entries": {
+				"citrus_item": "citrus_item",
+				"orange_item": "orange_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Peach",
+				"ContextTags"
+			],
+			"Entries": {
+				"stone_fruit_item": "stone_fruit_item",
+				"peach_item": "peach_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Pomegranate",
+				"ContextTags"
+			],
+			"Entries": {
+				"pomegranate_item": "pomegranate_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Sugar_Plum",
+				"ContextTags"
+			],
+			"Entries": {
+				"stone_fruit_item": "stone_fruit_item",
+				"plum_item": "plum_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Hibiscus",
+				"ContextTags"
+			],
+			"Entries": {
+				"hibiscus_item": "hibiscus_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Cocoa_Agaric",
+				"ContextTags"
+			],
+			"Entries": {
+				"cocoa_item": "cocoa_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Rustgill",
+				"ContextTags"
+			],
+			"Entries": {
+				"bread_item": "bread_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Mottled_Fieldcap",
+				"ContextTags"
+			],
+			"Entries": {
+				"coffee_item": "coffee_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Jade_MoonDrop",
+				"ContextTags"
+			],
+			"Entries": {
+				"grape_item": "grape_item",
+				"green_grape_item": "green_grape_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Lapis_MoonDrop",
+				"ContextTags"
+			],
+			"Entries": {
+				"grape_item": "grape_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Lady_Luck",
+				"ContextTags"
+			],
+			"Entries": {
+				"leafy_green_item": "leafy_green_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Pearl_MoonDrop",
+				"ContextTags"
+			],
+			"Entries": {
+				"grape_item": "grape_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Amber_MoonDrop",
+				"ContextTags"
+			],
+			"Entries": {
+				"grape_item": "grape_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.SASS_Stout_Funnel",
+				"ContextTags"
+			],
+			"Entries": {
+				"chanterelle_item": "chanterelle_item",
+			}
+		},
+	]
+}

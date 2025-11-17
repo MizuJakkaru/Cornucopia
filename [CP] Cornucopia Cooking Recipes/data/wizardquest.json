@@ -1,0 +1,97 @@
+{
+    "Changes": [
+		{
+            "Action": "EditMap",
+            "Target": "Maps/WizardHouseBasement",
+            "FromFile": "assets/6480WizardNote.tmx",
+			"PatchMode": "Overlay",
+            "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+            "ToArea": { "X": 18, "Y": 5, "Width": 1, "Height": 1 }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/WizardHouseBasement",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 5
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_Letter {{i18n:WizardNote}}",
+                        "MEEP_Letter_Type": "2"
+                    }
+                }
+            ]
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Custom_WizardBasement",
+            "FromFile": "assets/6480WizardNote.tmx",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"PatchMode": "Overlay",
+            "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+            "ToArea": { "X": 19, "Y": 5, "Width": 1, "Height": 1 }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_WizardBasement",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 5
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_Letter {{i18n:WizardNote}}",
+                        "MEEP_Letter_Type": "2",
+						"MEEP_SetMailFlag": "Cornucopia.CookingRecipes_ReadingWizardNote"
+                    }
+                }
+            ]
+        },
+		{
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"Entries": {
+				"Cornucopia.CookingRecipes_WizardToastQuest": "ItemDelivery/{{i18n:WizardQuest_title}}/{{i18n:WizardQuest_description}}/{{i18n:WizardQuest_objective}}/Wizard Cornucopia_AncientWonder 1/0/3000/-1/false/{{i18n:WizardQuest_dialogue1}}$0#$b#{{i18n:WizardQuest_dialogue2}}$1#$b#{{i18n:WizardQuest_dialogue3}}$0#$b#{{i18n:WizardQuest_dialogue4}}$1#$action MarkCookingRecipeKnown Current Cornucopia_RoyalHoneyToast true#$action spacechase0.SpaceCore_ShowHudMessage \"{{i18n:NewRecipe}}\" (O)Cornucopia_RoyalHoneyToast"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"Entries": {
+				"Cornucopia.CookingRecipes_WizardToastQuest": "ItemDelivery/{{i18n:WizardQuest_title}}/{{i18n:WizardQuest_description}}/{{i18n:WizardQuest_objective}}/Wizard Cornucopia_AncientWonder 1/0/3000/-1/false/{{i18n:WizardQuest_dialogue1}}$0#$b#{{i18n:WizardQuest_dialogue2}}$3#$b#{{i18n:WizardQuest_dialogue3}}$1#$b#{{i18n:WizardQuest_dialogue4}}$3#$action MarkCookingRecipeKnown Current Cornucopia_RoyalHoneyToast true#$action spacechase0.SpaceCore_ShowHudMessage \"{{i18n:NewRecipe}}\" (O)Cornucopia_RoyalHoneyToast"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_AddWizardQuest": {
+					"Id": "Cornucopia.CookingRecipes_AddWizardQuest",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_ReadingWizardNote Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"AddQuest Cornucopia.CookingRecipes_WizardToastQuest",
+						"RemoveMail Current Cornucopia.CookingRecipes_ReadingWizardNote received"
+					]
+				}
+			}
+		},
+    ]
+}

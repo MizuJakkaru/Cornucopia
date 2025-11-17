@@ -1,0 +1,350 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_mimic_octopus",
+				"ContextTags"
+			],
+			"Entries": {
+				"octopus_item": "octopus_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_blue_ringed_octopus",
+				"ContextTags"
+			],
+			"Entries": {
+				"octopus_item": "octopus_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_stubby_squid",
+				"ContextTags"
+			],
+			"Entries": {
+				"squid_item": "squid_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_dumbo_octopus",
+				"ContextTags"
+			],
+			"Entries": {
+				"octopus_item": "octopus_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_freshwater_pufferfish",
+				"ContextTags"
+			],
+			"Entries": {
+				"pufferfish_item": "pufferfish_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_void_evilpus",
+				"ContextTags"
+			],
+			"Entries": {
+				"octopus_item": "octopus_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_ribbon_eel",
+				"ContextTags"
+			],
+			"Entries": {
+				"eel_item": "eel_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_ghost_eel",
+				"ContextTags"
+			],
+			"Entries": {
+				"eel_item": "eel_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_anchoviella",
+				"ContextTags"
+			],
+			"Entries": {
+				"anchovy_item": "anchovy_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_zebra_eel",
+				"ContextTags"
+			],
+			"Entries": {
+				"eel_item": "eel_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_conger",
+				"ContextTags"
+			],
+			"Entries": {
+				"eel_item": "eel_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_sauger",
+				"ContextTags"
+			],
+			"Entries": {
+				"walleye_item": "walleye_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_pangasius",
+				"ContextTags"
+			],
+			"Entries": {
+				"catfish_item": "catfish_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_freshwater_shrimp",
+				"ContextTags"
+			],
+			"Entries": {
+				"prawn_item": "prawn_item",
+				"shrimp_item": "shrimp_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_red_freshwater_shrimp",
+				"ContextTags"
+			],
+			"Entries": {
+				"prawn_item": "prawn_item",
+				"shrimp_item": "shrimp_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_blue_freshwater_shrimp",
+				"ContextTags"
+			],
+			"Entries": {
+				"prawn_item": "prawn_item",
+				"shrimp_item": "shrimp_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_harlequin_freshwater_shrimp",
+				"ContextTags"
+			],
+			"Entries": {
+				"prawn_item": "prawn_item",
+				"shrimp_item": "shrimp_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_red_harlequin_freshwater_shrimp",
+				"ContextTags"
+			],
+			"Entries": {
+				"prawn_item": "prawn_item",
+				"shrimp_item": "shrimp_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_brief_squid",
+				"ContextTags"
+			],
+			"Entries": {
+				"squid_item": "squid_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_prawn",
+				"ContextTags"
+			],
+			"Entries": {
+				"prawn_item": "prawn_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_king_crab",
+				"ContextTags"
+			],
+			"Entries": {
+				"crab_item": "crab_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_mudskipper",
+				"ContextTags"
+			],
+			"Entries": {
+				"goby_item": "goby_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_cave_lobster",
+				"ContextTags"
+			],
+			"Entries": {
+				"lobster_item": "lobster_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_freshwater_crab",
+				"ContextTags"
+			],
+			"Entries": {
+				"crab_item": "crab_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_vampire_squid",
+				"ContextTags"
+			],
+			"Entries": {
+				"squid_item": "squid_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_zebra_tilapia",
+				"ContextTags"
+			],
+			"Entries": {
+				"tilapia_item": "tilapia_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_void_carp",
+				"ContextTags"
+			],
+			"Entries": {
+				"carp_item": "carp_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_electric_catfish",
+				"ContextTags"
+			],
+			"Entries": {
+				"catfish_item": "catfish_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_swimmer_crab",
+				"ContextTags"
+			],
+			"Entries": {
+				"crab_item": "crab_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_tiger_puffer",
+				"ContextTags"
+			],
+			"Entries": {
+				"pufferfish_item": "pufferfish_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MNF.MoreNewFish_great_firefly_squid",
+				"ContextTags"
+			],
+			"Entries": {
+				"squid_item": "squid_item",
+			}
+		},
+	]
+}

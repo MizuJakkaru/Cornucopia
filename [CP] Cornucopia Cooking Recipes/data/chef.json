@@ -1,0 +1,480 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Cornucopia_WaitingRoom": {
+					"DisplayName": "Limbo",
+					"CreateOnLoad": {
+						"MapPath": "Maps/Coop"
+					},
+					"DefaultArrivalTile": {
+						"X": 5,
+						"Y": 6
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/Locations",
+			"Entries": {
+				"Cornucopia_WaitingRoom": {
+					"Exclude": true
+				}
+			},
+			"When": {
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Cornucopia.CookingRecipes_Chef": {
+					"Exclude": true
+				}
+			},
+			"When": {
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Cornucopia.CookingRecipes_Chef, Characters/Schedules/Cornucopia.CookingRecipes_Chef",
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"Cornucopia.CookingRecipes_Chef": {
+					"DisplayName": "{{ChefName}}",
+					"CanSocialize": false,
+					"EndSlideShow": "Hidden",
+					"Shadow": {
+						"Visible": false
+					},
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "Cornucopia_WaitingRoom",
+							"Tile": {
+								"X": 5,
+								"Y": 5
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"Cornucopia.CookingRecipes_ChefShop": {
+					"StackSizeVisibility": "ShowIfMultiple",
+					"SalableItemTags": [
+						"category_sell_at_pierres_and_marnies",
+						"category_milk",
+						"category_egg",
+						"category_meat"
+					],
+					"PriceModifiers": [
+						{
+							"Id": "Discount",
+							"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Completed",
+							"Modification": "Multiply",
+							"Amount": 0.6
+						}
+					],
+					"PriceModifierMode": "Stack",
+					"Owners": [
+						{
+							"Name": "Cornucopia.CookingRecipes_Chef",
+							"Dialogues": [
+								{
+									"Id": "FirstDay",
+									"Condition": "!PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_Chef_Daily.1 Received",
+									"Dialogue": "{{i18n:ChefShop_dialogue.1}}"
+								},
+								{
+									"Id": "NotDone",
+									"Condition": "SYNCED_CHOICE day cornucopia_chef_dialogue 1 10 1 2, !PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Completed Received",
+									"Dialogue": "{{i18n:ChefShop_dialogue.1}}"
+								},
+								{
+									"Id": "Forest",
+									"Condition": "SYNCED_CHOICE day cornucopia_chef_dialogue 1 10 3 4, ANY \"!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained\" \"!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received\" \"!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received\"",
+									"Dialogue": "{{i18n:ChefShop_hint.1}}"
+								},
+								{
+									"Id": "Water",
+									"Condition": "SYNCED_CHOICE day cornucopia_chef_dialogue 1 10 5 6, ANY \"!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained\" \"!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received\"",
+									"Dialogue": "{{i18n:ChefShop_hint.2}}"
+								},
+								{
+									"Id": "Garbage",
+									"Condition": "SYNCED_CHOICE day cornucopia_chef_dialogue 1 10 7 8, ANY \"!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained\" \"!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained\"",
+									"Dialogue": "{{i18n:ChefShop_hint.3}}"
+								},
+								{
+									"Id": "Desert",
+									"Condition": "SYNCED_CHOICE day cornucopia_chef_dialogue 1 10 9, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained",
+									"Dialogue": "{{i18n:ChefShop_hint.4}}"
+								},
+								{
+									"Id": "Default",
+									"Dialogue": null,
+									"RandomDialogue": [
+										"{{i18n:ChefShop_dialogue.2}}",
+										"{{i18n:ChefShop_dialogue.3}}",
+										"{{i18n:ChefShop_dialogue.4}}",
+										"{{i18n:ChefShop_dialogue.5}}",
+										"{{i18n:ChefShop_dialogue.6}}"
+									]
+								}
+							]
+						}
+					],
+					"Items": [
+						{
+							"Id": "Cornucopia_ChefStock_Dishes",
+							"ItemId": "RANDOM_ITEMS (O)",
+							"PerItemCondition": "ITEM_ID Target {{Random:{{CartStock_TodaysDishes}}|key=chefstock}}, !ITEM_CONTEXT_TAG Target traveling_cart_banned",
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+							"MaxItems": 2,
+							"UseObjectDataPrice": true,
+							"IgnoreShopPriceModifiers": false,
+							"AvoidRepeat": true,
+							"PriceModifiers": [
+								{
+									"Id": "RandomPrice",
+									"Condition": null,
+									"Modification": 4,
+									"Amount": 0.0,
+									"RandomAmount": [
+										50,
+										80,
+										100.0,
+										150,
+										200.0,
+										300.0,
+										400.0,
+										500.0,
+									]
+								},
+								{
+									"Id": "RandomMultipleOfBasePrice",
+									"Condition": null,
+									"Modification": 2,
+									"Amount": 0.0,
+									"RandomAmount": [
+										1.3,
+										1.8,
+										2.0,
+										3.0,
+									]
+								}
+							],
+							"PriceModifierMode": 2
+						},
+						{
+							"Id": "Cornucopia_ChefStock_Ingredients",
+							"ItemId": "RANDOM_ITEMS (O)",
+							"PerItemCondition": "ITEM_ID Target {{Random:{{CartStock_TodaysIngredients}}|key=chefstock}}, !ITEM_CONTEXT_TAG Target traveling_cart_banned",
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+							"MaxItems": 3,
+							"UseObjectDataPrice": true,
+							"IgnoreShopPriceModifiers": false,
+							"AvoidRepeat": true,
+							"PriceModifiers": [
+								{
+									"Id": "RandomPrice",
+									"Condition": null,
+									"Modification": 4,
+									"Amount": 0.0,
+									"RandomAmount": [
+										50,
+										80,
+										100.0,
+										150,
+										200.0,
+										300.0,
+										400.0,
+										500.0,
+									]
+								},
+								{
+									"Id": "RandomMultipleOfBasePrice",
+									"Condition": null,
+									"Modification": 2,
+									"Amount": 0.0,
+									"RandomAmount": [
+										1.3,
+										1.8,
+										2.0,
+										3.0,
+									]
+								}
+							],
+							"PriceModifierMode": 2
+						},
+						{
+							"Id": "Cornucopia_ChefStock_Generic",
+							"ItemId": "RANDOM_ITEMS (O)",
+							"PerItemCondition": "ITEM_ID Target Cornucopia_Butter Cornucopia_Pepper Cornucopia_Salt 247 246 419 245 423, !ITEM_CONTEXT_TAG Target traveling_cart_banned",
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+							"MaxItems": 1,
+							"UseObjectDataPrice": true,
+							"IgnoreShopPriceModifiers": false,
+							"AvoidRepeat": true,
+							"PriceModifiers": [
+								{
+									"Id": "RandomPrice",
+									"Condition": null,
+									"Modification": 4,
+									"Amount": 0.0,
+									"RandomAmount": [
+										50,
+										80,
+										100.0,
+										150,
+										200.0,
+										300.0,
+										400.0,
+										500.0,
+									]
+								},
+								{
+									"Id": "RandomMultipleOfBasePrice",
+									"Condition": null,
+									"Modification": 2,
+									"Amount": 0.0,
+									"RandomAmount": [
+										1.3,
+										1.8,
+										2.0,
+										3.0,
+									]
+								}
+							],
+							"PriceModifierMode": 2
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_Breakfast",
+							"ItemId": "Cornucopia_RecipeBook_Breakfast",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Breakfast Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_Dessert",
+							"ItemId": "Cornucopia_RecipeBook_Dessert",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Dessert Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_ComfortFood",
+							"ItemId": "Cornucopia_RecipeBook_ComfortFood",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_ComfortFood Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_SnackFood",
+							"ItemId": "Cornucopia_RecipeBook_SnackFood",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_SnackFood Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_Woodland",
+							"ItemId": "Cornucopia_RecipeBook_Woodland",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Woodland Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_Highland",
+							"ItemId": "Cornucopia_RecipeBook_Highland",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Highland Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_Northern",
+							"ItemId": "Cornucopia_RecipeBook_Northern",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Northern Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_InlandSea",
+							"ItemId": "Cornucopia_RecipeBook_InlandSea",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_InlandSea Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_Savanna",
+							"ItemId": "Cornucopia_RecipeBook_Savanna",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Savanna Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_Delta",
+							"ItemId": "Cornucopia_RecipeBook_Delta",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Delta Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_Mountain",
+							"ItemId": "Cornucopia_RecipeBook_Mountain",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Mountain Received",
+							"Price": 3000
+						},
+						{
+							"Id": "Cornucopia_RecipeBook_Archipelago",
+							"ItemId": "Cornucopia_RecipeBook_Archipelago",
+							"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Archipelago Received",
+							"Price": 3000
+						},
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"FromFile": "assets/6480ChefShop.tmx",
+			"PatchMode": "Overlay",
+			"Priority": "Late",
+			"When": {
+				"Query: '{{DayOfWeek}}' = 'Friday' OR '{{DayOfWeek}}' = 'Sunday'": true
+			},
+			"ToArea": {
+				"X": 30,
+				"Y": 8,
+				"Width": 5,
+				"Height": 4
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_YeetBush": {
+					"Id": "Cornucopia.CookingRecipes_YeetBush",
+					"Trigger": "DayStarted",
+					"Condition": "DAY_OF_WEEK Fri Sun",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Action": "Spiderbuttons.BETAS_ClearTerrainFeatures Forest Bush 31 10"
+				},
+				"Cornucopia.CookingRecipes_UnYeetBush": {
+					"Id": "Cornucopia.CookingRecipes_UnYeetBush",
+					"Trigger": "DayStarted",
+					"Condition": "DAY_OF_WEEK Sat Mon",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Action": "Spiderbuttons.BETAS_RegeneratePathsLayer Forest 31 10 1 1"
+				}
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"Priority": "Late",
+			"When": {
+				"Query: '{{DayOfWeek}}' = 'Friday' OR '{{DayOfWeek}}' = 'Sunday'": true
+			},
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 32,
+						"Y": 11
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "OpenShop Cornucopia.CookingRecipes_ChefShop none 0600 2600 32 11 1 1"
+					}
+				},
+				{
+					"Position": {
+						"X": 31,
+						"Y": 11
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction Cornucopia.CookingRecipes_ReturnLostPage",
+						//"TileDesc": "quest,Lost Page Return,LostPageReturn_name,Cornucopia.CookingRecipes"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Schedules/Cornucopia.CookingRecipes_Chef",
+			"Entries": {
+				"Sun": "0 Forest 32 11 2",
+				"Fri": "0 Forest 32 11 2",
+				"spring": "0 Cornucopia_WaitingRoom 5 6 2"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Cornucopia.CookingRecipes_Chef",
+			"Entries": {
+				"GreenRain": "{{i18n:Chef_dialogue.GreenRain}}$1"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Cornucopia.CookingRecipes_Chef",
+			"When": {
+				"HasFlag|contains=Cornucopia.CookingRecipes_Chef_Daily.4": false
+			},
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:Chef_dialogue.Daily.4a}}$2#$b#{{i18n:Chef_dialogue.Daily.4b}}#$action AddMail Current Cornucopia.CookingRecipes_Chef_Daily.4 received"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Cornucopia.CookingRecipes_Chef",
+			"When": {
+				"HasFlag|contains=Cornucopia.CookingRecipes_Chef_Daily.3": false
+			},
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:Chef_dialogue.Daily.3a}}#$b#{{i18n:Chef_dialogue.Daily.3b}}$1#$action AddMail Current Cornucopia.CookingRecipes_Chef_Daily.3 received"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Cornucopia.CookingRecipes_Chef",
+			"When": {
+				"HasFlag|contains=Cornucopia.CookingRecipes_Chef_Daily.2": false
+			},
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:Chef_dialogue.Daily.2a}}#$b#{{i18n:Chef_dialogue.Daily.2b}}$2#$b#{{i18n:Chef_dialogue.Daily.2c}}$1#$action AddMail Current Cornucopia.CookingRecipes_Chef_Daily.2 received"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Cornucopia.CookingRecipes_Chef",
+			"When": {
+				"HasFlag|contains=Cornucopia.CookingRecipes_Chef_Daily.1": false
+			},
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:Chef_dialogue.Daily.1a}}#$b#{{i18n:Chef_dialogue.Daily.1b}}$3#$action AddMail Current Cornucopia.CookingRecipes_Chef_Daily.1 received"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Cornucopia.CookingRecipes_Chef",
+			"When": {
+				"HasFlag|contains=Cornucopia.CookingRecipes_Chef_Met": false
+			},
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:Chef_dialogue.Intro.a}}#$b#{{i18n:Chef_dialogue.Intro.b}}$1#$b#{{i18n:Chef_dialogue.Intro.c}}#$action AddMail Current Cornucopia.CookingRecipes_Chef_Met Received#$action AddQuest Cornucopia.CookingRecipes_ChefQuest#$e#{{i18n:Chef_dialogue.Intro.d}}$1"
+			}
+		}
+	]
+}

@@ -1,0 +1,1853 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"Cornucopia_LostPage_Breakfast": {
+					"Name": "Cornucopia_LostPage_Breakfast",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Dessert": {
+					"Name": "Cornucopia_LostPage_Dessert",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_ComfortFood": {
+					"Name": "Cornucopia_LostPage_ComfortFood",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_SnackFood": {
+					"Name": "Cornucopia_LostPage_SnackFood",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Woodland": {
+					"Name": "Cornucopia_LostPage_Woodland",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Mountain": {
+					"Name": "Cornucopia_LostPage_Mountain",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_InlandSea": {
+					"Name": "Cornucopia_LostPage_InlandSea",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Delta": {
+					"Name": "Cornucopia_LostPage_Delta",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Highland": {
+					"Name": "Cornucopia_LostPage_Highland",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Archipelago": {
+					"Name": "Cornucopia_LostPage_Archipelago",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Northern": {
+					"Name": "Cornucopia_LostPage_Northern",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_LostPage_Savanna": {
+					"Name": "Cornucopia_LostPage_Savanna",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:LostPage_name}}",
+					"Description": "{{i18n:LostPage_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_lostpage"
+					]
+				},
+				"Cornucopia_PaperHat": {
+					"Name": "Cornucopia_Cornucopia_PaperHat",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 15,
+					"DisplayName": "{{i18n:PaperHat_name}}",
+					"Description": "{{i18n:PaperHat_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/hats",
+			"Entries": {
+				"Cornucopia_CrumpledHat": "Cornucopia_CrumpledHat/{{i18n:CrumpledHat_description}}/false/true//{{i18n:CrumpledHat_name}}/2/Cornucopia.CookingRecipes\\Hats",
+				"Cornucopia_QoSHat": "Cornucopia_QoSHat/{{i18n:QoSHat_description}}/false/true//{{i18n:QoSHat_name}}/1/Cornucopia.CookingRecipes\\Hats"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"Entries": {
+				"Cornucopia_PaperHat": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_Breakfast": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_Dessert": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_ComfortFood": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_SnackFood": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_Mountain": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_Delta": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_Archipelago": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_Savanna": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_Northern": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_InlandSea": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_Woodland": {
+					"CanBeShipped": false
+				},
+				"Cornucopia_LostPage_Highland": {
+					"CanBeShipped": false
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"Cornucopia.CorkingRecipes_RecipeBook_Breakfast": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_Breakfast%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_Dessert": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_Dessert%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_ComfortFood": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_ComfortFood%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_SnackFood": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_SnackFood%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_Woodland": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_Woodland%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_Mountain": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_Mountain%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_InlandSea": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_InlandSea%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_Delta": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_Delta%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_Highland": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_Highland%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_Archipelago": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_Archipelago%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_Northern": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_Northern%%[#]{{i18n:Mail_QoSBook_title}}",
+				"Cornucopia.CorkingRecipes_RecipeBook_Savanna": "{{i18n:Mail_QoSBook_body}}%item id (O)Cornucopia_RecipeBook_Savanna%%[#]{{i18n:Mail_QoSBook_title}}",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"Entries": {
+				"Cornucopia.CookingRecipes_ChefQuest": "Basic/{{i18n:ChefQuest_name}}/{{i18n:ChefQuest_description}}/{{i18n:ChefQuest_objective}} {{LostPageStat}} {{i18n:ChefQuest_objective.no}}/null/-1/0/-1/false",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Breakfast": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Breakfast",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Breakfast Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Dessert": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Dessert",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Dessert Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_ComfortFood": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_ComfortFood",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_ComfortFood Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_SnackFood": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_SnackFood",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_SnackFood Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Mountain": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Mountain",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Mountain Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Archipelago": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Archipelago",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Archipelago Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Delta": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Delta",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Delta Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_InlandSea": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_InlandSea",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_InlandSea Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Woodland": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Woodland",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Woodland Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Northern": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Northern",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Northern Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Highland": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Highland",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Highland Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Savanna": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_IncrementStat_Savanna",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Savanna Any",
+					"Actions": [
+						"IncrementStat cornucopia.cookingrecipes_lostpages 1",
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_1": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_1",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 1",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_1 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_2": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_2",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 2",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_2 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_3": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_3",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 3",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_3 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_4": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_4",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 4",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_4 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_5": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_5",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 5",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_5 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_6": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_6",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 6",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_6 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_7": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_7",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 7",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_7 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_8": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_8",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 8",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_8 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_9": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_9",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 9",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_9 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_10": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_10",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 10",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_10 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_11": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_11",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 11",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_11 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPageStat_12": {
+					"Id": "Cornucopia.CookingRecipes_LostPageStat_12",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_STAT Current cornucopia.cookingrecipes_lostpages 12",
+					"Actions": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPageStat_12 Received",
+						"AddMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_RefreshQuest": {
+					"Id": "Cornucopia.CookingRecipes_RefreshQuest",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_StatIncremented Received",
+					"Actions": [
+						"RemoveMail Host Cornucopia.CookingRecipes_StatIncremented Received"
+					]
+				},
+				"Cornucopia.CookingRecipes_CheckForPages": {
+					"Id": "Cornucopia.CookingRecipes_CheckForPages",
+					"Trigger": "DayEnding",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Breakfast ## AddMail Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Dessert ## AddMail Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_ComfortFood ## AddMail Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_SnackFood ## AddMail Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Woodland ## AddMail Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Mountain ## AddMail Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_InlandSea ## AddMail Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Delta ## AddMail Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Highland ## AddMail Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Archipelago ## AddMail Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Northern ## AddMail Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received",
+						"If Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Savanna ## AddMail Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+						
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Breakfast, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Breakfast Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Dessert, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Dessert Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_ComfortFood, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_ComfortFood Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_SnackFood, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_SnackFood Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Woodland, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Woodland Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Mountain, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Mountain Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_InlandSea, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_InlandSea Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Delta, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Delta Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Highland, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Highland Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Archipelago, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Archipelago Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Northern, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Northern Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received",
+						"If !Spiderbuttons.BETAS_ITEM_IN_WORLD Cornucopia_LostPage_Savanna, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Savanna Any ## RemoveMail Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					]
+				},
+				"Cornucopia.CookingRecipes_ReturnLostPage": {
+					"Id": "Cornucopia.CookingRecipes_ReturnLostPage",
+					"Trigger": "Manual",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Breakfast Cornucopia_LostPage_Dessert Cornucopia_LostPage_ComfortFood   Cornucopia_LostPage_SnackFood Cornucopia_LostPage_Woodland Cornucopia_LostPage_Mountain Cornucopia_LostPage_InlandSea Cornucopia_LostPage_Delta Cornucopia_LostPage_Highland Cornucopia_LostPage_Archipelago Cornucopia_LostPage_Northern Cornucopia_LostPage_Savanna",
+					"Actions": [
+						"Spiderbuttons.BETAS_PlaySound jingle1",
+						
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Breakfast, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Breakfast Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_Breakfast_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Breakfast, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Breakfast Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_Breakfast",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Breakfast_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_1}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Breakfast_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_Breakfast",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Breakfast_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_Breakfast Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Breakfast_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_Breakfast",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Breakfast_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Breakfast_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_Breakfast_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Dessert, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Dessert Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_Dessert_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Dessert, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Dessert Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_Dessert",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Dessert_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_2}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Dessert_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_Dessert",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Dessert_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_Dessert Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Dessert_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_Dessert",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Dessert_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Dessert_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_Dessert_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_ComfortFood, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_ComfortFood Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_ComfortFood_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_ComfortFood, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_ComfortFood Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_ComfortFood",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_ComfortFood_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_3}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_ComfortFood_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_ComfortFood",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_ComfortFood_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_ComfortFood Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_ComfortFood_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_ComfortFood",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_ComfortFood_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_ComfortFood_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_ComfortFood_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_SnackFood, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_SnackFood Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_SnackFood_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_SnackFood, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_SnackFood Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_SnackFood",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_SnackFood_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_4}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_SnackFood_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_SnackFood",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_SnackFood_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_SnackFood Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_SnackFood_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_SnackFood",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_SnackFood_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_SnackFood_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_SnackFood_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Mountain, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Mountain Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_Mountain_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Mountain, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Mountain Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_Mountain",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Mountain_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_5}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Mountain_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_Mountain",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Mountain_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_Mountain Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Mountain_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_Mountain",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Mountain_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Mountain_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_Mountain_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Highland, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Highland Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_Highland_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Highland, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Highland Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_Highland",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Highland_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_6}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Highland_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_Highland",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Highland_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_Highland Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Highland_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_Highland",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Highland_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Highland_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_Highland_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Woodland, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Woodland Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_Woodland_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Woodland, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Woodland Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_Woodland",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Woodland_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_7}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Woodland_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_Woodland",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Woodland_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_Woodland Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Woodland_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_Woodland",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Woodland_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Woodland_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_Woodland_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Northern, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Northern Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_Northern_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Northern, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Northern Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_Northern",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Northern_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_8}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Northern_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_Northern",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Northern_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_Northern Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Northern_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_Northern",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Northern_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Northern_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_Northern_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Delta, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Delta Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_Delta_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Delta, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Delta Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_Delta",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Delta_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_9}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Delta_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_Delta",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Delta_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_Delta Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Delta_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_Delta",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Delta_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Delta_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_Delta_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Archipelago, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Archipelago Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_Archipelago_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Archipelago, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Archipelago Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_Archipelago",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Archipelago_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_10}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Archipelago_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_Archipelago",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Archipelago_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_Archipelago Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Archipelago_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_Archipelago",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Archipelago_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Archipelago_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_Archipelago_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Savanna, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Savanna Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_Savanna_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_Savanna, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_Savanna Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_Savanna",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Savanna_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_11}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Savanna_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_Savanna",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Savanna_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_Savanna Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Savanna_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_Savanna",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Savanna_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_Savanna_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_Savanna_TurningIn Received",
+						
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_InlandSea, !PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_InlandSea Any ## AddMail Current Cornucopia.CookingRecipes_LostPage_InlandSea_TurningIn Received",
+						"If Spiderbuttons.BETAS_PLAYER_HELD_ITEM Current Cornucopia_LostPage_InlandSea, PLAYER_HAS_MAIL Host Cornucopia.CorkingRecipes_RecipeBook_InlandSea Any ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:DuplicatePage_text}}\" (O)Cornucopia_LostPage_InlandSea",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_InlandSea_TurningIn Received ## SpiderButtons.BETAS_TextAboveHead Cornucopia.CookingRecipes_Chef \"{{i18n:ReturnPageSpeechBubble_12}}\" 3000 0 false",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_InlandSea_TurningIn Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ReturnPage_text}}\" (O)Cornucopia_LostPage_InlandSea",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_InlandSea_TurningIn Received ## AddMail Current Cornucopia.CorkingRecipes_RecipeBook_InlandSea Tomorrow",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_InlandSea_TurningIn Received ## RemoveItem (O)Cornucopia_LostPage_InlandSea",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_InlandSea_TurningIn Received ## AddMail Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_LostPage_InlandSea_TurningIn Received ## RemoveMail Current Cornucopia.CookingRecipes_LostPage_InlandSea_TurningIn Received",
+						
+						
+						"SpiderButtons.BETAS_SetNewDialogue Cornucopia.CookingRecipes_Chef \"{{i18n:Chef_dialogue.FoundLostPageToday}}$2\"",
+					]
+				},
+				"Cornucopia.CookingRecipes_PaperHat_Unwrap": {
+					"Id": "Cornucopia.CookingRecipes_PaperHat_Unwrap",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_PaperHat",
+					"Actions": [
+						"Spiderbuttons.BETAS_PlaySound newRecipe",
+						"RemoveItem (O)Cornucopia_PaperHat",
+						"AddItem (O)Cornucopia_LostPage_Dessert",
+						"AddItem (H)Cornucopia_CrumpledHat"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Bookseller",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Breakfast": {
+					"Id": "Cornucopia_LostPage_Breakfast",
+					"ItemId": "(O)Cornucopia_LostPage_Breakfast",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received,  PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_Dessert": {
+					"Id": "Cornucopia_LostPage_Dessert",
+					"ItemId": "(O)Cornucopia_LostPage_Dessert",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received,  PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_ComfortFood": {
+					"Id": "Cornucopia_LostPage_ComfortFood",
+					"ItemId": "(O)Cornucopia_LostPage_ComfortFood",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_SnackFood": {
+					"Id": "Cornucopia_LostPage_SnackFood",
+					"ItemId": "(O)Cornucopia_LostPage_SnackFood",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_Woodland": {
+					"Id": "Cornucopia_LostPage_Woodland",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received,  PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_Mountain": {
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_InlandSea": {
+					"Id": "Cornucopia_LostPage_InlandSea",
+					"ItemId": "(O)Cornucopia_LostPage_InlandSea",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received,  PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_Delta": {
+					"Id": "Cornucopia_LostPage_Delta",
+					"ItemId": "(O)Cornucopia_LostPage_Delta",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received,  PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_Highland": {
+					"Id": "Cornucopia_LostPage_Highland",
+					"ItemId": "(O)Cornucopia_LostPage_Highland",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_Archipelago": {
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_Northern": {
+					"Id": "Cornucopia_LostPage_Northern",
+					"ItemId": "(O)Cornucopia_LostPage_Northern",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received,  !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained received"
+					]
+				},
+				"Cornucopia_LostPage_Savanna": {
+					"Id": "Cornucopia_LostPage_Savanna",
+					"ItemId": "(O)Cornucopia_LostPage_Savanna",
+					"Price": 24000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Delta_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received, PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained received"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"HatMouse",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_PaperHat": {
+					"Id": "Cornucopia_PaperHat",
+					"ItemId": "(O)Cornucopia_PaperHat",
+					"Price": 50,
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained Received",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Global",
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_Dessert_Obtained received"
+					]
+				},
+				"Cornucopia_QoSHat": {
+					"Id": "Cornucopia_QoSHat",
+					"ItemId": "(H)Cornucopia_QoSHat",
+					"Price": 14000,
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Completed"
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_PaperHat",
+					"AfterId": "(H)PaperHat"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Late",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained": false
+			},
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_ComfortFood": {
+					"Id": "Cornucopia_LostPage_ComfortFood",
+					"ItemId": "(O)Cornucopia_LostPage_ComfortFood",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, DAYS_PLAYED 20, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained Received",
+					"AvailableStockLimit": "Global",
+					"AvailableStock": "1",
+					"PriceModifiers": [
+						{
+							"Id": "RandomPrice",
+							"Condition": null,
+							"Modification": 4,
+							"Amount": 0.0,
+							"RandomAmount": [
+								1100,
+								1150,
+								1200,
+								1400,
+								1800,
+								2000,
+								2500,
+								2700,
+								2900,
+								3000,
+								4000,
+								4200,
+								4500,
+								5000
+							]
+						}
+					],
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_ComfortFood_Obtained received"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained": false
+			},
+			"TargetField": [
+				"DesertTrade",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_LostPage_InlandSea": {
+					"Id": "Cornucopia_LostPage_InlandSea",
+					"ItemId": "(O)Cornucopia_LostPage_InlandSea",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, DAYS_PLAYED 100, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received",
+					"AvailableStockLimit": "Global",
+					"AvailableStock": "3",
+					"TradeItemId": "(O)215",
+					"TradeItemAmount": 1,
+					"ActionsOnPurchase": [
+						"AddMail Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained received"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GarbageCans",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained": false
+			},
+			"TargetField": [
+				"BeforeAll"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_SnackFood": {
+					"Id": "Cornucopia_LostPage_SnackFood",
+					"ItemId": "(O)Cornucopia_LostPage_SnackFood",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_SnackFood_Obtained Received, ANY \"RANDOM .008\" \"PLAYER_STAT Current trashCansChecked 100, RANDOM .025\"",
+					"IgnoreBaseChance": true
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Woodland_Obtained": false
+			},
+			"TargetField": [
+				"1",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Woodland": {
+					"Id": "Cornucopia_LostPage_Woodland",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received",
+					"Chance": 0.002
+				},
+				"Cornucopia_LostPage_Woodland_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Woodland_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_BASE_FORAGING_LEVEL Current 6",
+					"Chance": 0.008
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Woodland_Obtained": false
+			},
+			"TargetField": [
+				"2",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Woodland": {
+					"Id": "Cornucopia_LostPage_Woodland",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received",
+					"Chance": 0.002
+				},
+				"Cornucopia_LostPage_Woodland_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Woodland_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_BASE_FORAGING_LEVEL Current 6",
+					"Chance": 0.008
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Woodland_Obtained": false
+			},
+			"TargetField": [
+				"3",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Woodland": {
+					"Id": "Cornucopia_LostPage_Woodland",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received",
+					"Chance": 0.002
+				},
+				"Cornucopia_LostPage_Woodland_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Woodland_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_BASE_FORAGING_LEVEL Current 6",
+					"Chance": 0.008
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Woodland_Obtained": false
+			},
+			"TargetField": [
+				"8",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Woodland": {
+					"Id": "Cornucopia_LostPage_Woodland",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received",
+					"Chance": 0.002
+				},
+				"Cornucopia_LostPage_Woodland_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Woodland_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_BASE_FORAGING_LEVEL Current 6",
+					"Chance": 0.008
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Woodland_Obtained": false,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Birch_Tree",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Woodland": {
+					"Id": "Cornucopia_LostPage_Woodland",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received",
+					"Chance": 0.002
+				},
+				"Cornucopia_LostPage_Woodland_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Woodland_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_BASE_FORAGING_LEVEL Current 6",
+					"Chance": 0.008
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Woodland_Obtained": false,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Fir_Tree",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Woodland": {
+					"Id": "Cornucopia_LostPage_Woodland",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received",
+					"Chance": 0.002
+				},
+				"Cornucopia_LostPage_Woodland_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Woodland_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Woodland",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Woodland_Obtained Received, PLAYER_BASE_FORAGING_LEVEL Current 6",
+					"Chance": 0.008
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Mountain_Obtained": false
+			},
+			"TargetField": [
+				"Town",
+				"ArtifactSpots"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Mountain": {
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received",
+					"Chance": 0.015
+				},
+				"Cornucopia_LostPage_Mountain_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_STAT Current ArtifactSpotsDug 80",
+					"Chance": 0.05
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Mountain_Obtained": false
+			},
+			"TargetField": [
+				"Railroad",
+				"ArtifactSpots"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Mountain": {
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received",
+					"Chance": 0.015
+				},
+				"Cornucopia_LostPage_Mountain_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_STAT Current ArtifactSpotsDug 80",
+					"Chance": 0.05
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"EastScarp_Village",
+				"ArtifactSpots"
+			],
+			"When": {
+				"HasMod |contains=LemurKat.EastScarpe.CP": true,
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Mountain_Obtained": false
+			},
+			"Priority": "Late",
+			"Entries": {
+				"Cornucopia_LostPage_Mountain": {
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received",
+					"Chance": 0.015
+				},
+				"Cornucopia_LostPage_Mountain_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_STAT Current ArtifactSpotsDug 80",
+					"Chance": 0.05
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Custom_Ridgeside_RidgesideVillage",
+				"ArtifactSpots"
+			],
+			"When": {
+				"HasMod |contains=Rafseazz.RSVCP": true,
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Mountain_Obtained": false
+			},
+			"Priority": "Late",
+			"Entries": {
+				"Cornucopia_LostPage_Mountain": {
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received",
+					"Chance": 0.015
+				},
+				"Cornucopia_LostPage_Mountain_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_STAT Current ArtifactSpotsDug 80",
+					"Chance": 0.05
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Lumisteria.MtVapius_Hamlet",
+				"ArtifactSpots"
+			],
+			"When": {
+				"HasMod |contains=Lumisteria.MtVapius": true,
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Mountain_Obtained": false
+			},
+			"Priority": "Late",
+			"Entries": {
+				"Cornucopia_LostPage_Mountain": {
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received",
+					"Chance": 0.015,
+				},
+				"Cornucopia_LostPage_Mountain_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Mountain",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Mountain_Obtained Received, PLAYER_STAT Current ArtifactSpotsDug 80",
+					"Chance": 0.05
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Mountain",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Mountain_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained": false
+			},
+			"TargetField": [
+				"Beach",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Archipelago": {
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.015,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1
+				},
+				"Cornucopia_LostPage_Archipelago_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.04,
+					"MinFishingLevel": 6,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained": false
+			},
+			"TargetField": [
+				"BeachNightMarket",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Archipelago": {
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.04,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1
+				},
+				"Cornucopia_LostPage_Archipelago_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.04,
+					"MinFishingLevel": 6,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained": false
+			},
+			"TargetField": [
+				"Farm_Beach",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Archipelago": {
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.015,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1
+				},
+				"Cornucopia_LostPage_Archipelago_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.04,
+					"MinFishingLevel": 6,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"EastScarp_Village",
+				"Fish"
+			],
+			"When": {
+				"HasMod |contains=LemurKat.EastScarpe.CP": true,
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained": false
+			},
+			"Entries": {
+				"Cornucopia_LostPage_Archipelago": {
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.02,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1,
+					"FishAreaId": "ESBay"
+				},
+				"Cornucopia_LostPage_Archipelago_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.04,
+					"MinFishingLevel": 6,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1,
+					"FishAreaId": "ESBay"
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"Custom_BlueMoonVineyard",
+				"Fish"
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained": false
+			},
+			"Entries": {
+				"Cornucopia_LostPage_Archipelago": {
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.02,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1,
+					"FishAreaID": "Ocean"
+				},
+				"Cornucopia_LostPage_Archipelago_SkillBuff": {
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
+					"Chance": 0.04,
+					"MinFishingLevel": 6,
+					"MinDistanceFromShore": 2,
+					"CuriosityLureBuff": 0.07,
+					"CatchLimit": 1,
+					"FishAreaID": "Ocean"
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_LostPage_Archipelago",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LostPage_Archipelago_SkillBuff",
+					"ToPosition": "Top"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Priority": "Early",
+			"When": {
+				"HasReadLetter: hostPlayer |contains=Cornucopia.CookingRecipes_LostPage_Delta_Obtained": false
+			},
+			"Entries": {
+				"Cornucopia_LostPage_Delta": "Cornucopia_LostPage_Delta/trap/.1/682 .45/freshwater/1/3",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Savanna_Obtained": false
+			},
+			"TargetField": [
+				"White Chicken",
+				"DeluxeProduceItemIds"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Savanna": {
+					"Id": "Cornucopia_LostPage_Savanna",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received, RANDOM 0.02",
+					"MinimumFriendship": 0,
+					"ItemId": "Cornucopia_LostPage_Savanna"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Savanna_Obtained": false
+			},
+			"TargetField": [
+				"Brown Chicken",
+				"DeluxeProduceItemIds"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Savanna": {
+					"Id": "Cornucopia_LostPage_Savanna",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received, RANDOM 0.02",
+					"MinimumFriendship": 0,
+					"ItemId": "Cornucopia_LostPage_Savanna"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Savanna_Obtained": false
+			},
+			"TargetField": [
+				"Blue Chicken",
+				"DeluxeProduceItemIds"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Savanna": {
+					"Id": "Cornucopia_LostPage_Savanna",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Savanna_Obtained Received, RANDOM 0.04",
+					"MinimumFriendship": 0,
+					"ItemId": "Cornucopia_LostPage_Savanna"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"When": {
+				"HasFlag:hostPlayer|contains=Cornucopia.CookingRecipes_LostPage_Northern_Obtained": false
+			},
+			"TargetField": [
+				"Pig",
+				"ProduceItemIds"
+			],
+			"Entries": {
+				"Cornucopia_LostPage_Northern": {
+					"Id": "Cornucopia_LostPage_Northern",
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, RANDOM 0.2",
+					"MinimumFriendship": 0,
+					"ItemId": "Cornucopia_LostPage_Northern"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawnableDefinitions",
+			"Entries": {
+				"Cornucopia_LostPage_Breakfast": {
+					"Type": "Minable",
+					"MinableTool": "Pickaxe",
+					"MinableHealth": 1,
+					"MinableObjectId": 38,
+					"MinableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "(O)Cornucopia_LostPage_Breakfast",
+									"Condition": "!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received"
+								}
+							},
+							{
+								"Weight": 0.00001,
+								"Value": {
+									"ItemId": "(O)390"
+								}
+							}
+						],
+					],
+					"MinableExperienceGranted": 1
+				},
+				"Cornucopia_LostPage_Northern": {
+					"Type": "Breakable",
+					"BreakableBigCraftableId": 118,
+					"BreakableHealth": 15,
+					"BreakableHitSound": "woodWhack",
+					"BreakableBrokenSound": "barrelBreak",
+					"BreakableDrops": [
+						[
+							{
+								"Weight": 1.0,
+								"Value": {
+									"ItemId": "(O)Cornucopia_LostPage_Northern",
+									"Condition": "!PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received"
+								}
+							},
+							{
+								"Weight": 0.00001,
+								"Value": {
+									"ItemId": "(O)388"
+								}
+							}
+						],
+					]
+				},
+				"Cornucopia_LostPage_Highland": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_LostPage_Highland",
+								"Quality": 0
+							}
+						}
+					]
+				},
+				"Cornucopia_LostPage_InlandSea": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_LostPage_InlandSea",
+								"Quality": 0
+							}
+						}
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawningGroups",
+			"Entries": {
+				"Cornucopia.CookingRecipes_LostPage_Breakfast_Rock": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_LostPage_Breakfast"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPage_Northern_Barrel": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_LostPage_Northern"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_LostPage_Highland": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_LostPage_Highland"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_LostPage_InlandSea": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_LostPage_InlandSea"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_LostPage_Breakfast_Spawn": {
+					"Id": "Cornucopia.CookingRecipes_LostPage_Breakfast_Spawn",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Breakfast_Obtained Received, DAY_OF_MONTH 1",
+					"Actions": [
+						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.CookingRecipes_LostPage_Breakfast_Rock Farm"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPage_Northern_Spawn": {
+					"Id": "Cornucopia.CookingRecipes_LostPage_Northern_Spawn",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": true,
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Northern_Obtained Received, DAY_OF_MONTH 15",
+					"Actions": [
+						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.CookingRecipes_LostPage_Northern_Barrel Mountain 109,11,130,34"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPage_Highland_Spawn": {
+					"Id": "Cornucopia.CookingRecipes_LostPage_Highland_Spawn",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, DAY_OF_WEEK Tuesday",
+					"Actions": [
+						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_LostPage_Highland Woods"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPage_Highland_Spawn_Forest": {
+					"Id": "Cornucopia.CookingRecipes_LostPage_Highland_Spawn_Forest",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Highland_Obtained Received, RANDOM 0.01",
+					"Actions": [
+						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_LostPage_Highland Forest"
+					]
+				},
+				"Cornucopia.CookingRecipes_LostPage_InlandSea_Spawn": {
+					"Id": "Cornucopia.CookingRecipes_LostPage_InlandSea_Spawn",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_InlandSea_Obtained Received, DAY_OF_WEEK Thursday",
+					"Actions": [
+						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_LostPage_InlandSea Desert"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,272 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_MossyCrayfish",
+				"ContextTags"
+			],
+			"Entries": {
+				"crayfish_item": "crayfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_RainbowPerch",
+				"ContextTags"
+			],
+			"Entries": {
+				"perch_item": "perch_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_LeafyTrout",
+				"ContextTags"
+			],
+			"Entries": {
+				"trout_item": "trout_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_FireBeans",
+				"ContextTags"
+			],
+			"Entries": {
+				"bean_item": "bean_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_Rye",
+				"ContextTags"
+			],
+			"Entries": {
+				"grain_item": "grain_item",
+				"wheat_item": "wheat_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_FrostApple",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_WhiteGrape",
+				"ContextTags"
+			],
+			"Entries": {
+				"white_grape_item": "white_grape_item",
+				"grape_item": "grape_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_SunGrape",
+				"ContextTags"
+			],
+			"Entries": {
+				"raisin_item": "raisin_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_Olive",
+				"ContextTags"
+			],
+			"Entries": {
+				"olive_item": "olive_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_VoidOlive",
+				"ContextTags"
+			],
+			"Entries": {
+				"olive_item": "olive_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_LambLettuce",
+				"ContextTags"
+			],
+			"Entries": {
+				"leafy_green_item": "leafy_green_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_ConstellatedWatermelon",
+				"ContextTags"
+			],
+			"Entries": {
+				"watermelon_item": "watermelon_item",
+				"melon_item": "melon_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_CometRoots",
+				"ContextTags"
+			],
+			"Entries": {
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_Sunroot",
+				"ContextTags"
+			],
+			"Entries": {
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_BlackChanterelle",
+				"ContextTags"
+			],
+			"Entries": {
+				"chanterelle_item": "chanterelle_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_CrystalRose",
+				"ContextTags"
+			],
+			"Entries": {
+				"rose_item": "rose_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_BlueClover",
+				"ContextTags"
+			],
+			"Entries": {
+				"leafy_green_item": "leafy_green_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_ArtisanGoods_OliveOil",
+				"ContextTags"
+			],
+			"Entries": {
+				"cooking_oil_item": "cooking_oil_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_ArtisanGoods_VoidOliveOil",
+				"ContextTags"
+			],
+			"Entries": {
+				"cooking_oil_item": "cooking_oil_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar",
+				"ContextTags"
+			],
+			"Entries": {
+				"caviar_item": "caviar_item",
+				"roe_item": "roe_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_ArtisanGoods_MyriadinTea",
+				"ContextTags"
+			],
+			"Entries": {
+				"tea_item": "tea_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_Cooking_Tapenade",
+				"ContextTags"
+			],
+			"Entries": {
+				"tapenade_item": "tapenade_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_Cooking_RyeBread",
+				"ContextTags"
+			],
+			"Entries": {
+				"bread_item": "bread_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Lumisteria.MtVapius_Candy_CandiedFruit",
+				"ContextTags"
+			],
+			"Entries": {
+				"candied_fruit_item": "candied_fruit_item"
+			}
+		},
+	]
+}

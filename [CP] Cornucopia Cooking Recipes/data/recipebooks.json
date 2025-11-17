@@ -1,0 +1,1964 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"Cornucopia_RecipeBook_Breakfast": {
+					"Name": "Cornucopia_RecipeBook_Breakfast",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 3,
+					"DisplayName": "{{i18n:RecipeBook_Breakfast_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_Dessert": {
+					"Name": "Cornucopia_RecipeBook_Dessert",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 4,
+					"DisplayName": "{{i18n:RecipeBook_Dessert_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_ComfortFood": {
+					"Name": "Cornucopia_RecipeBook_ComfortFood",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 5,
+					"DisplayName": "{{i18n:RecipeBook_ComfortFood_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_SnackFood": {
+					"Name": "Cornucopia_RecipeBook_SnackFood",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 6,
+					"DisplayName": "{{i18n:RecipeBook_SnackFood_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_Woodland": {
+					"Name": "Cornucopia_RecipeBook_Woodland",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 7,
+					"DisplayName": "{{i18n:RecipeBook_Woodland_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_Mountain": {
+					"Name": "Cornucopia_RecipeBook_Mountain",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 8,
+					"DisplayName": "{{i18n:RecipeBook_Mountain_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_InlandSea": {
+					"Name": "Cornucopia_RecipeBook_InlandSea",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 9,
+					"DisplayName": "{{i18n:RecipeBook_InlandSea_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_Delta": {
+					"Name": "Cornucopia_RecipeBook_Delta",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 10,
+					"DisplayName": "{{i18n:RecipeBook_Delta_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_Highland": {
+					"Name": "Cornucopia_RecipeBook_Highland",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 11,
+					"DisplayName": "{{i18n:RecipeBook_Highland_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_Archipelago": {
+					"Name": "Cornucopia_RecipeBook_Archipelago",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 12,
+					"DisplayName": "{{i18n:RecipeBook_Archipelago_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_Northern": {
+					"Name": "Cornucopia_RecipeBook_Northern",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 13,
+					"DisplayName": "{{i18n:RecipeBook_Northern_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				},
+				"Cornucopia_RecipeBook_Savanna": {
+					"Name": "Cornucopia_RecipeBook_Savanna",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 14,
+					"DisplayName": "{{i18n:RecipeBook_Savanna_name}}",
+					"Description": "{{i18n:RecipeBook_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_travelerrecipebook"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"Entries": {
+				"Cornucopia_RecipeBook_Breakfast": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_Dessert": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_ComfortFood": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_SnackFood": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_Woodland": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_Mountain": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_InlandSea": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_Delta": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_Highland": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_Archipelago": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_Northern": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_Savanna": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_RecipeBook_Breakfast": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Breakfast",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Breakfast",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_Breakfast",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_Breakfast",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Biscotti true",
+						"MarkCookingRecipeKnown Current Cornucopia_BreakfastCereal true",
+						"MarkCookingRecipeKnown Current Cornucopia_CenturyCongee true",
+						"MarkCookingRecipeKnown Current Cornucopia_Clafoutis true",
+						"MarkCookingRecipeKnown Current Cornucopia_CottageBreakfast true",
+						"MarkCookingRecipeKnown Current Cornucopia_Croissant true",
+						"MarkCookingRecipeKnown Current Cornucopia_FluffyEggSandwich true",
+						"MarkCookingRecipeKnown Current Cornucopia_EverythingBagel true",
+						"MarkCookingRecipeKnown Current Cornucopia_GranolaBowl true",
+						"MarkCookingRecipeKnown Current Cornucopia_KayaToast true",
+						"MarkCookingRecipeKnown Current Cornucopia_Mangu true",
+						"MarkCookingRecipeKnown Current Cornucopia_Marmalade true",
+						"MarkCookingRecipeKnown Current Cornucopia_Natto true",
+						"MarkCookingRecipeKnown Current Cornucopia_Scone true",
+						"MarkCookingRecipeKnown Current Cornucopia_SmotheredWaffles true",
+						"MarkCookingRecipeKnown Current Cornucopia_StarmiteToast true",
+						"MarkCookingRecipeKnown Current Cornucopia_SugaredGrapefruit true",
+						"MarkCookingRecipeKnown Current Cornucopia_SweetCrepes true",
+						"MarkCookingRecipeKnown Current Cornucopia_TaterTots true",
+						"MEEP_CloseupInteractionReel_Action",
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/Breakfast_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_Breakfast_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/Breakfast_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_Breakfast_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/Breakfast_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Breakfast_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Dessert": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Dessert",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Dessert",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_Dessert",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_Dessert",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Alfajores true",
+						"MarkCookingRecipeKnown Current Cornucopia_BanoffeePie true",
+						"MarkCookingRecipeKnown Current Cornucopia_ButterCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_CandiedCherries true",
+						"MarkCookingRecipeKnown Current Cornucopia_CandiedOrangePeel true",
+						"MarkCookingRecipeKnown Current Cornucopia_CandiedPineapple true",
+						"MarkCookingRecipeKnown Current Cornucopia_Cassata true",
+						"MarkCookingRecipeKnown Current Cornucopia_SourCherryPie true",
+						"MarkCookingRecipeKnown Current Cornucopia_ChocolateLavaCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_FigCookies true",
+						"MarkCookingRecipeKnown Current Cornucopia_GooseberryCrumble true",
+						"MarkCookingRecipeKnown Current Cornucopia_Jammies true",
+						"MarkCookingRecipeKnown Current Cornucopia_Knafeh true",
+						"MarkCookingRecipeKnown Current Cornucopia_Lamington true",
+						"MarkCookingRecipeKnown Current Cornucopia_Madeleines true",
+						"MarkCookingRecipeKnown Current Cornucopia_MarshmallowSquares true",
+						"MarkCookingRecipeKnown Current Cornucopia_Melonpan true",
+						"MarkCookingRecipeKnown Current Cornucopia_Mousse true",
+						"MarkCookingRecipeKnown Current Cornucopia_PeachCrisp true",
+						"MarkCookingRecipeKnown Current Cornucopia_PecanBrittle true",
+						"MarkCookingRecipeKnown Current Cornucopia_Strudel true",
+						"MarkCookingRecipeKnown Current Cornucopia_Toffee true",
+						"MarkCookingRecipeKnown Current Cornucopia_TreacleTart true",
+						"MarkCookingRecipeKnown Current Cornucopia_UbeCake true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/Dessert_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_Dessert_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/Dessert_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_Dessert_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/Dessert_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Dessert_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_ComfortFood": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_ComfortFood",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_ComfortFood",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_ComfortFood",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_ComfortFood",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_BakedBeans true",
+						"MarkCookingRecipeKnown Current Cornucopia_Biscuit true",
+						"MarkCookingRecipeKnown Current Cornucopia_BoiledPeanuts true",
+						"MarkCookingRecipeKnown Current Cornucopia_CaramelizedOnions true",
+						"MarkCookingRecipeKnown Current Cornucopia_CreamedCorn true",
+						"MarkCookingRecipeKnown Current Cornucopia_CucumberSandwich true",
+						"MarkCookingRecipeKnown Current Cornucopia_EggSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_Etouffee true",
+						"MarkCookingRecipeKnown Current Cornucopia_Fluffernutter true",
+						"MarkCookingRecipeKnown Current Cornucopia_GrilledZucchini true",
+						"MarkCookingRecipeKnown Current Cornucopia_JalapenoLoaf true",
+						"MarkCookingRecipeKnown Current Cornucopia_MacandFishBake true",
+						"MarkCookingRecipeKnown Current Cornucopia_PastaPrimavera true",
+						"MarkCookingRecipeKnown Current Cornucopia_PickledRind true",
+						"MarkCookingRecipeKnown Current Cornucopia_PotatoPancakes true",
+						"MarkCookingRecipeKnown Current Cornucopia_PotatoSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_PotatoesauGratin true",
+						"MarkCookingRecipeKnown Current Cornucopia_ShrimpandGrits true",
+						"MarkCookingRecipeKnown Current Cornucopia_TapiocaPudding true",
+						"MarkCookingRecipeKnown Current Cornucopia_TunaSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_WedgeSalad true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/ComfortFood_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_ComfortFood_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/ComfortFood_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_ComfortFood_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/ComfortFood_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_ComfortFood_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_SnackFood": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_SnackFood",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_SnackFood",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_SnackFood",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_SnackFood",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_CheeseFries true",
+						"MarkCookingRecipeKnown Current Cornucopia_CheezieCurlz true",
+						"MarkCookingRecipeKnown Current Cornucopia_ChocolateBanana true",
+						"MarkCookingRecipeKnown Current Cornucopia_Croquette true",
+						"MarkCookingRecipeKnown Current Cornucopia_FriedTofu true",
+						"MarkCookingRecipeKnown Current Cornucopia_FrostedGrapes true",
+						"MarkCookingRecipeKnown Current Cornucopia_FruitBar true",
+						"MarkCookingRecipeKnown Current Cornucopia_FruitLeather true",
+						"MarkCookingRecipeKnown Current Cornucopia_LechedeLeon true",
+						"MarkCookingRecipeKnown Current Cornucopia_OnionRings true",
+						"MarkCookingRecipeKnown Current Cornucopia_Panipuri true",
+						"MarkCookingRecipeKnown Current Cornucopia_PizzaRolls true",
+						"MarkCookingRecipeKnown Current Cornucopia_RockCandyFruit true",
+						"MarkCookingRecipeKnown Current Cornucopia_SesameCrackers true",
+						"MarkCookingRecipeKnown Current Cornucopia_SpringRolls true",
+						"MarkCookingRecipeKnown Current Cornucopia_SweetPotatoFries true",
+						"MarkCookingRecipeKnown Current Cornucopia_Taiyaki true",
+						"MarkCookingRecipeKnown Current Cornucopia_TrailMix true",
+						"MarkCookingRecipeKnown Current Cornucopia_FlatbreadPizza true",
+						"MarkCookingRecipeKnown Current Cornucopia_Malasada true",
+						"MarkCookingRecipeKnown Current Cornucopia_MoltenCustardBun true",
+						"MarkCookingRecipeKnown Current Cornucopia_RadishCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_StreetCorn true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/SnackFood_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_SnackFood_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/SnackFood_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_SnackFood_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/SnackFood_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_SnackFood_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Woodland": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Woodland",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Woodland",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_Woodland",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_Woodland",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_AcornBread true",
+						"MarkCookingRecipeKnown Current Cornucopia_Alegria true",
+						"MarkCookingRecipeKnown Current Cornucopia_AloeCooler true",
+						"MarkCookingRecipeKnown Current Cornucopia_Arepas true",
+						"MarkCookingRecipeKnown Current Cornucopia_Atole true",
+						"MarkCookingRecipeKnown Current Cornucopia_BearCandy true",
+						"MarkCookingRecipeKnown Current Cornucopia_Champurrado true",
+						"MarkCookingRecipeKnown Current Cornucopia_CoastalFeast true",
+						"MarkCookingRecipeKnown Current Cornucopia_CornMush true",
+						"MarkCookingRecipeKnown Current Cornucopia_FernSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_FryBread true",
+						"MarkCookingRecipeKnown Current Cornucopia_GalloPinto true",
+						"MarkCookingRecipeKnown Current Cornucopia_GrapeDumplings true",
+						"MarkCookingRecipeKnown Current Cornucopia_Kanuchi true",
+						"MarkCookingRecipeKnown Current Cornucopia_MagmaMole true",
+						"MarkCookingRecipeKnown Current Cornucopia_Papadzules true",
+						"MarkCookingRecipeKnown Current Cornucopia_Pupusas true",
+						"MarkCookingRecipeKnown Current Cornucopia_RiversHarvest true",
+						"MarkCookingRecipeKnown Current Cornucopia_SearedSunflower true",
+						"MarkCookingRecipeKnown Current Cornucopia_StrawberryDrink true",
+						"MarkCookingRecipeKnown Current Cornucopia_Succotash true",
+						"MarkCookingRecipeKnown Current Cornucopia_Wojapi true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/Woodland_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_Woodland_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/Woodland_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_Woodland_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/Woodland_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Woodland_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Mountain": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Mountain",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Mountain",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_Mountain",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_Mountain",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_NigiriSushi true",
+						"MarkCookingRecipeKnown Current Cornucopia_CheeseRamen true",
+						"MarkCookingRecipeKnown Current Cornucopia_ChilledTofu true",
+						"MarkCookingRecipeKnown Current Cornucopia_CrabRoll true",
+						"MarkCookingRecipeKnown Current Cornucopia_CrispyRiceBowl true",
+						"MarkCookingRecipeKnown Current Cornucopia_CucumberRoll true",
+						"MarkCookingRecipeKnown Current Cornucopia_EelBowl true",
+						"MarkCookingRecipeKnown Current Cornucopia_FishStock true",
+						"MarkCookingRecipeKnown Current Cornucopia_FlowerHotpot true",
+						"MarkCookingRecipeKnown Current Cornucopia_Japchae true",
+						"MarkCookingRecipeKnown Current Cornucopia_Jjigae true",
+						"MarkCookingRecipeKnown Current Cornucopia_KimchiRamen true",
+						"MarkCookingRecipeKnown Current Cornucopia_KitsuneUdon true",
+						"MarkCookingRecipeKnown Current Cornucopia_Onigiri true",
+						"MarkCookingRecipeKnown Current Cornucopia_PerillaKimchi true",
+						"MarkCookingRecipeKnown Current Cornucopia_RaccoonSoba true",
+						"MarkCookingRecipeKnown Current Cornucopia_ShrimpTempura true",
+						"MarkCookingRecipeKnown Current Cornucopia_SoupCurry true",
+						"MarkCookingRecipeKnown Current Cornucopia_Tteokbokki true",
+						"MarkCookingRecipeKnown Current Cornucopia_VegetableTempura true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/Mountain_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_Mountain_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/Mountain_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_Mountain_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/Mountain_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Mountain_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_InlandSea": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_InlandSea",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_InlandSea",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_InlandSea",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_InlandSea",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_RusticChorba true",
+						"MarkCookingRecipeKnown Current Cornucopia_DalTadka true",
+						"MarkCookingRecipeKnown Current Cornucopia_Dolmas true",
+						"MarkCookingRecipeKnown Current Cornucopia_Falafel true",
+						"MarkCookingRecipeKnown Current Cornucopia_GarlicNaan true",
+						"MarkCookingRecipeKnown Current Cornucopia_GreenPilaf true",
+						"MarkCookingRecipeKnown Current Cornucopia_Haleem true",
+						"MarkCookingRecipeKnown Current Cornucopia_Halloumi true",
+						"MarkCookingRecipeKnown Current Cornucopia_Halva true",
+						"MarkCookingRecipeKnown Current Cornucopia_JeweledRice true",
+						"MarkCookingRecipeKnown Current Cornucopia_Kheer true",
+						"MarkCookingRecipeKnown Current Cornucopia_MintChutney true",
+						"MarkCookingRecipeKnown Current Cornucopia_Muhammara true",
+						"MarkCookingRecipeKnown Current Cornucopia_PalakPaneer true",
+						"MarkCookingRecipeKnown Current Cornucopia_PantaBhat true",
+						"MarkCookingRecipeKnown Current Cornucopia_Pita true",
+						"MarkCookingRecipeKnown Current Cornucopia_PitaChips true",
+						"MarkCookingRecipeKnown Current Cornucopia_RoseDrink true",
+						"MarkCookingRecipeKnown Current Cornucopia_RoseWater true",
+						"MarkCookingRecipeKnown Current Cornucopia_Samosas true",
+						"MarkCookingRecipeKnown Current Cornucopia_SweetPilaf true",
+						"MarkCookingRecipeKnown Current Cornucopia_Tabbouleh true",
+						"MarkCookingRecipeKnown Current Cornucopia_Tzatziki true",
+						"MarkCookingRecipeKnown Current Cornucopia_VegetableKorma true",
+						"MEEP_CloseupInteractionReel_Action",
+						"MarkActionApplied current Cornucopia.CookingRecipes_RecipeBook_Delta false"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/InlandSea_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_InlandSea_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/InlandSea_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_InlandSea_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/InlandSea_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_InlandSea_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Delta": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Delta",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Delta",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Delta_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_Delta",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Delta_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_Delta",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_ClayPotNoodles true",
+						"MarkCookingRecipeKnown Current Cornucopia_CoconutShrimp true",
+						"MarkCookingRecipeKnown Current Cornucopia_CucumberKimchi true",
+						"MarkCookingRecipeKnown Current Cornucopia_DrunkardsNoodles true",
+						"MarkCookingRecipeKnown Current Cornucopia_DurianCrispies true",
+						"MarkCookingRecipeKnown Current Cornucopia_EggFooYoung true",
+						"MarkCookingRecipeKnown Current Cornucopia_HarGow true",
+						"MarkCookingRecipeKnown Current Cornucopia_HoneyWalnutShrimp true",
+						"MarkCookingRecipeKnown Current Cornucopia_HotandSourSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_LukChup true",
+						"MarkCookingRecipeKnown Current Cornucopia_MapoTofu true",
+						"MarkCookingRecipeKnown Current Cornucopia_OliveRice true",
+						"MarkCookingRecipeKnown Current Cornucopia_Qurutob true",
+						"MarkCookingRecipeKnown Current Cornucopia_RiceCakes true",
+						"MarkCookingRecipeKnown Current Cornucopia_ShrimpFriedRice true",
+						"MarkCookingRecipeKnown Current Cornucopia_SnailNoodles true",
+						"MarkCookingRecipeKnown Current Cornucopia_SourFishSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_SpicyPapayaSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_TeaEggs true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/Delta_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_Delta_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/Delta_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_Delta_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/Delta_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Delta_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Highland": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Highland",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Highland",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Highland_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_Highland",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Highland_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_Highland",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Acorda true",
+						"MarkCookingRecipeKnown Current Cornucopia_Bouillabaisse true",
+						"MarkCookingRecipeKnown Current Cornucopia_Caponata true",
+						"MarkCookingRecipeKnown Current Cornucopia_Carpaccio true",
+						"MarkCookingRecipeKnown Current Cornucopia_Colcannon true",
+						"MarkCookingRecipeKnown Current Cornucopia_EelPie true",
+						"MarkCookingRecipeKnown Current Cornucopia_EggTarts true",
+						"MarkCookingRecipeKnown Current Cornucopia_GnocchialTartufo true",
+						"MarkCookingRecipeKnown Current Cornucopia_GoldenStrands true",
+						"MarkCookingRecipeKnown Current Cornucopia_LoftyPopover true",
+						"MarkCookingRecipeKnown Current Cornucopia_Meuniere true",
+						"MarkCookingRecipeKnown Current Cornucopia_Minestrone true",
+						"MarkCookingRecipeKnown Current Cornucopia_OystersMignonette true",
+						"MarkCookingRecipeKnown Current Cornucopia_PannaCotta true",
+						"MarkCookingRecipeKnown Current Cornucopia_Polenta true",
+						"MarkCookingRecipeKnown Current Cornucopia_SalmonBearnaise true",
+						"MarkCookingRecipeKnown Current Cornucopia_Scarpaccia true",
+						"MarkCookingRecipeKnown Current Cornucopia_Spatzle true",
+						"MarkCookingRecipeKnown Current Cornucopia_SpinachTortellini true",
+						"MarkCookingRecipeKnown Current Cornucopia_Marzipan true",
+						"MarkCookingRecipeKnown Current Cornucopia_Gazpacho true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/Highland_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_Highland_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/Highland_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_Highland_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/Highland_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Highland_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Archipelago": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Archipelago",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Archipelago",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_Archipelago",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_Archipelago",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Otai true",
+						"MarkCookingRecipeKnown Current Cornucopia_CaldodeCamaron true",
+						"MarkCookingRecipeKnown Current Cornucopia_CassavaCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_ChipaGuasu true",
+						"MarkCookingRecipeKnown Current Cornucopia_CoconutFish true",
+						"MarkCookingRecipeKnown Current Cornucopia_CrabandCallaloo true",
+						"MarkCookingRecipeKnown Current Cornucopia_Farofa true",
+						"MarkCookingRecipeKnown Current Cornucopia_FriedPlantains true",
+						"MarkCookingRecipeKnown Current Cornucopia_Fungee true",
+						"MarkCookingRecipeKnown Current Cornucopia_Kokoda true",
+						"MarkCookingRecipeKnown Current Cornucopia_Lalab true",
+						"MarkCookingRecipeKnown Current Cornucopia_Laplap true",
+						"MarkCookingRecipeKnown Current Cornucopia_MieGoreng true",
+						"MarkCookingRecipeKnown Current Cornucopia_PaniPopo true",
+						"MarkCookingRecipeKnown Current Cornucopia_RoastedBreadfruit true",
+						"MarkCookingRecipeKnown Current Cornucopia_Saimin true",
+						"MarkCookingRecipeKnown Current Cornucopia_SpicyFruitSpear true",
+						"MarkCookingRecipeKnown Current Cornucopia_Switchel true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/Archipelago_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_Archipelago_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/Archipelago_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_Archipelago_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/Archipelago_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Archipelago_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Northern": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Northern",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Northern",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Northern_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_Northern",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Northern_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_Northern",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_GrainPorridge true",
+						"MarkCookingRecipeKnown Current Cornucopia_BreadSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_ButtermilkSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_CreamStew true",
+						"MarkCookingRecipeKnown Current Cornucopia_GoatCheeseSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_Gravlax true",
+						"MarkCookingRecipeKnown Current Cornucopia_Kapustnica true",
+						"MarkCookingRecipeKnown Current Cornucopia_Khachapuri true",
+						"MarkCookingRecipeKnown Current Cornucopia_MilkSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_Papanasi true",
+						"MarkCookingRecipeKnown Current Cornucopia_SalmonChowder true",
+						"MarkCookingRecipeKnown Current Cornucopia_Skyr true",
+						"MarkCookingRecipeKnown Current Cornucopia_SourShchi true",
+						"MarkCookingRecipeKnown Current Cornucopia_SplitPeaSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_Stroganina true",
+						"MarkCookingRecipeKnown Current Cornucopia_Tarkhuna true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/Northern_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_Northern_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/Northern_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_Northern_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/Northern_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Northern_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Savanna": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Savanna",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Savanna",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_Savanna",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_Savanna",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Akara true",
+						"MarkCookingRecipeKnown Current Cornucopia_BangaRice true",
+						"MarkCookingRecipeKnown Current Cornucopia_Bazin true",
+						"MarkCookingRecipeKnown Current Cornucopia_Beyaynetu true",
+						"MarkCookingRecipeKnown Current Cornucopia_Borek true",
+						"MarkCookingRecipeKnown Current Cornucopia_Couscous true",
+						"MarkCookingRecipeKnown Current Cornucopia_EgusiSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_Injera true",
+						"MarkCookingRecipeKnown Current Cornucopia_Karantika true",
+						"MarkCookingRecipeKnown Current Cornucopia_Koshary true",
+						"MarkCookingRecipeKnown Current Cornucopia_Magrood true",
+						"MarkCookingRecipeKnown Current Cornucopia_MalvaPudding true",
+						"MarkCookingRecipeKnown Current Cornucopia_MechouiaSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_MoinMoin true",
+						"MarkCookingRecipeKnown Current Cornucopia_OctopusCurry true",
+						"MarkCookingRecipeKnown Current Cornucopia_PoundedYam true",
+						"MarkCookingRecipeKnown Current Cornucopia_RedRed true",
+						"MarkCookingRecipeKnown Current Cornucopia_RizGras true",
+						"MarkCookingRecipeKnown Current Cornucopia_YellowRice true",
+						"MEEP_CloseupInteractionReel_Action"
+					],
+					"CustomFields": {
+						"MEEP_CloseupInteraction_Image_1": "Cornucopia.CookingRecipes/RecipeBook/Savanna_Intro",
+						"MEEP_CloseupInteraction_Text_1": "{{i18n:RecipeBook_Savanna_Page1}}",
+						"MEEP_CloseupInteraction_Image_2": "Cornucopia.CookingRecipes/RecipeBook/Savanna_Intro",
+						"MEEP_CloseupInteraction_Text_2": "{{i18n:RecipeBook_Savanna_Page2}}",
+						"MEEP_CloseupInteraction_Image_3": "Cornucopia.CookingRecipes/RecipeBook/Savanna_{{PageTier}}",
+						"MEEP_CloseupInteraction_Text_3": "{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Savanna_List}}",
+						"MEEP_CloseupInteraction_Sound": "newRecipe"
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_Breakfast",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/Breakfast_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_Breakfast_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_Dessert",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/Dessert_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_Dessert_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_ComfortFood",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/ComfortFood_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_ComfortFood_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_SnackFood",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/SnackFood_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_SnackFood_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_Woodland",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/Woodland_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_Woodland_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_Highland",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/Highland_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_Highland_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_Archipelago",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/Archipelago_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_Archipelago_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_Northern",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/Northern_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_Northern_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_Savanna",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/Savanna_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_Savanna_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_InlandSea",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/InlandSea_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_InlandSea_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_Delta",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/Delta_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_Delta_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"TargetField": [
+				"Cornucopia.CookingRecipes_RecipeBook_Mountain",
+				"CustomFields"
+			],
+			"Entries": {
+				"MEEP_CloseupInteraction_Image_4": "Cornucopia.CookingRecipes/RecipeBook/Mountain_D",
+				"MEEP_CloseupInteraction_Text_4": "{{RecipeBook_Mountain_ListB}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {
+				"Recipe Book Accessibility": true
+			},
+			"Entries": {
+				"Cornucopia.CookingRecipes_RecipeBook_Breakfast": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Breakfast",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Breakfast",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Breakfast_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Biscotti true",
+						"MarkCookingRecipeKnown Current Cornucopia_BreakfastCereal true",
+						"MarkCookingRecipeKnown Current Cornucopia_CenturyCongee true",
+						"MarkCookingRecipeKnown Current Cornucopia_Clafoutis true",
+						"MarkCookingRecipeKnown Current Cornucopia_CottageBreakfast true",
+						"MarkCookingRecipeKnown Current Cornucopia_Croissant true",
+						"MarkCookingRecipeKnown Current Cornucopia_FluffyEggSandwich true",
+						"MarkCookingRecipeKnown Current Cornucopia_EverythingBagel true",
+						"MarkCookingRecipeKnown Current Cornucopia_GranolaBowl true",
+						"MarkCookingRecipeKnown Current Cornucopia_KayaToast true",
+						"MarkCookingRecipeKnown Current Cornucopia_Mangu true",
+						"MarkCookingRecipeKnown Current Cornucopia_Marmalade true",
+						"MarkCookingRecipeKnown Current Cornucopia_Natto true",
+						"MarkCookingRecipeKnown Current Cornucopia_Scone true",
+						"MarkCookingRecipeKnown Current Cornucopia_SmotheredWaffles true",
+						"MarkCookingRecipeKnown Current Cornucopia_StarmiteToast true",
+						"MarkCookingRecipeKnown Current Cornucopia_SugaredGrapefruit true",
+						"MarkCookingRecipeKnown Current Cornucopia_SweetCrepes true",
+						"MarkCookingRecipeKnown Current Cornucopia_TaterTots true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Breakfast2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Breakfast2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Breakfast_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Breakfast3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Breakfast3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Breakfast_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Breakfast4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Breakfast4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Breakfast_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Breakfast5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Breakfast5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_Breakfast_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Breakfast_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_ComfortFood": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_ComfortFood",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_ComfortFood",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_ComfortFood_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_BakedBeans true",
+						"MarkCookingRecipeKnown Current Cornucopia_Biscuit true",
+						"MarkCookingRecipeKnown Current Cornucopia_BoiledPeanuts true",
+						"MarkCookingRecipeKnown Current Cornucopia_CaramelizedOnions true",
+						"MarkCookingRecipeKnown Current Cornucopia_CreamedCorn true",
+						"MarkCookingRecipeKnown Current Cornucopia_CucumberSandwich true",
+						"MarkCookingRecipeKnown Current Cornucopia_EggSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_Etouffee true",
+						"MarkCookingRecipeKnown Current Cornucopia_Fluffernutter true",
+						"MarkCookingRecipeKnown Current Cornucopia_GrilledZucchini true",
+						"MarkCookingRecipeKnown Current Cornucopia_JalapenoLoaf true",
+						"MarkCookingRecipeKnown Current Cornucopia_MacandFishBake true",
+						"MarkCookingRecipeKnown Current Cornucopia_PastaPrimavera true",
+						"MarkCookingRecipeKnown Current Cornucopia_PickledRind true",
+						"MarkCookingRecipeKnown Current Cornucopia_PotatoPancakes true",
+						"MarkCookingRecipeKnown Current Cornucopia_PotatoSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_PotatoesauGratin true",
+						"MarkCookingRecipeKnown Current Cornucopia_ShrimpandGrits true",
+						"MarkCookingRecipeKnown Current Cornucopia_TapiocaPudding true",
+						"MarkCookingRecipeKnown Current Cornucopia_TunaSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_WedgeSalad true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_ComfortFood2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_ComfortFood2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_ComfortFood_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_ComfortFood3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_ComfortFood3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_ComfortFood_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_ComfortFood4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_ComfortFood4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_ComfortFood_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_ComfortFood5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_ComfortFood5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_ComfortFood_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_ComfortFood_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Dessert": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Dessert",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Dessert",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Dessert_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Alfajores true",
+						"MarkCookingRecipeKnown Current Cornucopia_BanoffeePie true",
+						"MarkCookingRecipeKnown Current Cornucopia_ButterCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_CandiedCherries true",
+						"MarkCookingRecipeKnown Current Cornucopia_CandiedOrangePeel true",
+						"MarkCookingRecipeKnown Current Cornucopia_CandiedPineapple true",
+						"MarkCookingRecipeKnown Current Cornucopia_Cassata true",
+						"MarkCookingRecipeKnown Current Cornucopia_SourCherryPie true",
+						"MarkCookingRecipeKnown Current Cornucopia_ChocolateLavaCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_FigCookies true",
+						"MarkCookingRecipeKnown Current Cornucopia_GooseberryCrumble true",
+						"MarkCookingRecipeKnown Current Cornucopia_Jammies true",
+						"MarkCookingRecipeKnown Current Cornucopia_Knafeh true",
+						"MarkCookingRecipeKnown Current Cornucopia_Lamington true",
+						"MarkCookingRecipeKnown Current Cornucopia_Madeleines true",
+						"MarkCookingRecipeKnown Current Cornucopia_MarshmallowSquares true",
+						"MarkCookingRecipeKnown Current Cornucopia_Melonpan true",
+						"MarkCookingRecipeKnown Current Cornucopia_Mousse true",
+						"MarkCookingRecipeKnown Current Cornucopia_PeachCrisp true",
+						"MarkCookingRecipeKnown Current Cornucopia_PecanBrittle true",
+						"MarkCookingRecipeKnown Current Cornucopia_Strudel true",
+						"MarkCookingRecipeKnown Current Cornucopia_Toffee true",
+						"MarkCookingRecipeKnown Current Cornucopia_TreacleTart true",
+						"MarkCookingRecipeKnown Current Cornucopia_UbeCake true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Dessert2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Dessert2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Dessert_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Dessert3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Dessert3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Dessert_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Dessert4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Dessert4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Dessert_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Dessert5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Dessert5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_Dessert_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Dessert_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_SnackFood": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_SnackFood",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_SnackFood",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_SnackFood_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_CheeseFries true",
+						"MarkCookingRecipeKnown Current Cornucopia_CheezieCurlz true",
+						"MarkCookingRecipeKnown Current Cornucopia_ChocolateBanana true",
+						"MarkCookingRecipeKnown Current Cornucopia_Croquette true",
+						"MarkCookingRecipeKnown Current Cornucopia_FriedTofu true",
+						"MarkCookingRecipeKnown Current Cornucopia_FrostedGrapes true",
+						"MarkCookingRecipeKnown Current Cornucopia_FruitBar true",
+						"MarkCookingRecipeKnown Current Cornucopia_FruitLeather true",
+						"MarkCookingRecipeKnown Current Cornucopia_LechedeLeon true",
+						"MarkCookingRecipeKnown Current Cornucopia_OnionRings true",
+						"MarkCookingRecipeKnown Current Cornucopia_Panipuri true",
+						"MarkCookingRecipeKnown Current Cornucopia_PizzaRolls true",
+						"MarkCookingRecipeKnown Current Cornucopia_RockCandyFruit true",
+						"MarkCookingRecipeKnown Current Cornucopia_SesameCrackers true",
+						"MarkCookingRecipeKnown Current Cornucopia_SpringRolls true",
+						"MarkCookingRecipeKnown Current Cornucopia_SweetPotatoFries true",
+						"MarkCookingRecipeKnown Current Cornucopia_Taiyaki true",
+						"MarkCookingRecipeKnown Current Cornucopia_TrailMix true",
+						"MarkCookingRecipeKnown Current Cornucopia_FlatbreadPizza true",
+						"MarkCookingRecipeKnown Current Cornucopia_Malasada true",
+						"MarkCookingRecipeKnown Current Cornucopia_MoltenCustardBun true",
+						"MarkCookingRecipeKnown Current Cornucopia_RadishCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_StreetCorn true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_SnackFood2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_SnackFood2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_SnackFood_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_SnackFood3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_SnackFood3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_SnackFood_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_SnackFood4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_SnackFood4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_SnackFood_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_SnackFood5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_SnackFood5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_SnackFood_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_SnackFood_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Northern": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Northern",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Northern",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Northern_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_GrainPorridge true",
+						"MarkCookingRecipeKnown Current Cornucopia_BreadSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_ButtermilkSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_CreamStew true",
+						"MarkCookingRecipeKnown Current Cornucopia_GoatCheeseSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_Gravlax true",
+						"MarkCookingRecipeKnown Current Cornucopia_Kapustnica true",
+						"MarkCookingRecipeKnown Current Cornucopia_Khachapuri true",
+						"MarkCookingRecipeKnown Current Cornucopia_MilkSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_Papanasi true",
+						"MarkCookingRecipeKnown Current Cornucopia_SalmonChowder true",
+						"MarkCookingRecipeKnown Current Cornucopia_Skyr true",
+						"MarkCookingRecipeKnown Current Cornucopia_SourShchi true",
+						"MarkCookingRecipeKnown Current Cornucopia_SplitPeaSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_Stroganina true",
+						"MarkCookingRecipeKnown Current Cornucopia_Tarkhuna true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Northern2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Northern2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Northern_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Northern3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Northern3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Northern_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Northern4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Northern4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Northern_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Northern5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Northern5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_Northern_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Northern_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Savanna": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Savanna",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Savanna",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Savanna_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Akara true",
+						"MarkCookingRecipeKnown Current Cornucopia_BangaRice true",
+						"MarkCookingRecipeKnown Current Cornucopia_Bazin true",
+						"MarkCookingRecipeKnown Current Cornucopia_Beyaynetu true",
+						"MarkCookingRecipeKnown Current Cornucopia_Borek true",
+						"MarkCookingRecipeKnown Current Cornucopia_Couscous true",
+						"MarkCookingRecipeKnown Current Cornucopia_EgusiSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_Injera true",
+						"MarkCookingRecipeKnown Current Cornucopia_Karantika true",
+						"MarkCookingRecipeKnown Current Cornucopia_Koshary true",
+						"MarkCookingRecipeKnown Current Cornucopia_Magrood true",
+						"MarkCookingRecipeKnown Current Cornucopia_MalvaPudding true",
+						"MarkCookingRecipeKnown Current Cornucopia_MechouiaSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_MoinMoin true",
+						"MarkCookingRecipeKnown Current Cornucopia_OctopusCurry true",
+						"MarkCookingRecipeKnown Current Cornucopia_PoundedYam true",
+						"MarkCookingRecipeKnown Current Cornucopia_RedRed true",
+						"MarkCookingRecipeKnown Current Cornucopia_RizGras true",
+						"MarkCookingRecipeKnown Current Cornucopia_YellowRice true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Savanna2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Savanna2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Savanna_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Savanna3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Savanna3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Savanna_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Savanna4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Savanna4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Savanna_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Savanna5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Savanna5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_Savanna_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Savanna_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Archipelago": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Archipelago",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Archipelago",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Archipelago_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Otai true",
+						"MarkCookingRecipeKnown Current Cornucopia_CaldodeCamaron true",
+						"MarkCookingRecipeKnown Current Cornucopia_CassavaCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_ChipaGuasu true",
+						"MarkCookingRecipeKnown Current Cornucopia_CoconutFish true",
+						"MarkCookingRecipeKnown Current Cornucopia_CrabandCallaloo true",
+						"MarkCookingRecipeKnown Current Cornucopia_Farofa true",
+						"MarkCookingRecipeKnown Current Cornucopia_FriedPlantains true",
+						"MarkCookingRecipeKnown Current Cornucopia_Fungee true",
+						"MarkCookingRecipeKnown Current Cornucopia_Kokoda true",
+						"MarkCookingRecipeKnown Current Cornucopia_Lalab true",
+						"MarkCookingRecipeKnown Current Cornucopia_Laplap true",
+						"MarkCookingRecipeKnown Current Cornucopia_MieGoreng true",
+						"MarkCookingRecipeKnown Current Cornucopia_PaniPopo true",
+						"MarkCookingRecipeKnown Current Cornucopia_RoastedBreadfruit true",
+						"MarkCookingRecipeKnown Current Cornucopia_Saimin true",
+						"MarkCookingRecipeKnown Current Cornucopia_SpicyFruitSpear true",
+						"MarkCookingRecipeKnown Current Cornucopia_Switchel true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Archipelago2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Archipelago2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Archipelago_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Archipelago3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Archipelago3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Archipelago_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Archipelago4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Archipelago4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Archipelago_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Archipelago5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Archipelago5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_Archipelago_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Archipelago_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Delta": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Delta",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Delta",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Delta_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_ClayPotNoodles true",
+						"MarkCookingRecipeKnown Current Cornucopia_CoconutShrimp true",
+						"MarkCookingRecipeKnown Current Cornucopia_CucumberKimchi true",
+						"MarkCookingRecipeKnown Current Cornucopia_DrunkardsNoodles true",
+						"MarkCookingRecipeKnown Current Cornucopia_DurianCrispies true",
+						"MarkCookingRecipeKnown Current Cornucopia_EggFooYoung true",
+						"MarkCookingRecipeKnown Current Cornucopia_HarGow true",
+						"MarkCookingRecipeKnown Current Cornucopia_HoneyWalnutShrimp true",
+						"MarkCookingRecipeKnown Current Cornucopia_HotandSourSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_LukChup true",
+						"MarkCookingRecipeKnown Current Cornucopia_MapoTofu true",
+						"MarkCookingRecipeKnown Current Cornucopia_OliveRice true",
+						"MarkCookingRecipeKnown Current Cornucopia_Qurutob true",
+						"MarkCookingRecipeKnown Current Cornucopia_RiceCakes true",
+						"MarkCookingRecipeKnown Current Cornucopia_ShrimpFriedRice true",
+						"MarkCookingRecipeKnown Current Cornucopia_SnailNoodles true",
+						"MarkCookingRecipeKnown Current Cornucopia_SourFishSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_SpicyPapayaSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_TeaEggs true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Delta2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Delta2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Delta_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Delta3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Delta3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Delta_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Delta4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Delta4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Delta_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Delta5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Delta5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_Delta_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Delta_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Woodland": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Woodland",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Woodland",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Woodland_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_AcornBread true",
+						"MarkCookingRecipeKnown Current Cornucopia_Alegria true",
+						"MarkCookingRecipeKnown Current Cornucopia_AloeCooler true",
+						"MarkCookingRecipeKnown Current Cornucopia_Arepas true",
+						"MarkCookingRecipeKnown Current Cornucopia_Atole true",
+						"MarkCookingRecipeKnown Current Cornucopia_BearCandy true",
+						"MarkCookingRecipeKnown Current Cornucopia_Champurrado true",
+						"MarkCookingRecipeKnown Current Cornucopia_CoastalFeast true",
+						"MarkCookingRecipeKnown Current Cornucopia_CornMush true",
+						"MarkCookingRecipeKnown Current Cornucopia_FernSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_FryBread true",
+						"MarkCookingRecipeKnown Current Cornucopia_GalloPinto true",
+						"MarkCookingRecipeKnown Current Cornucopia_GrapeDumplings true",
+						"MarkCookingRecipeKnown Current Cornucopia_Kanuchi true",
+						"MarkCookingRecipeKnown Current Cornucopia_MagmaMole true",
+						"MarkCookingRecipeKnown Current Cornucopia_Papadzules true",
+						"MarkCookingRecipeKnown Current Cornucopia_Pupusas true",
+						"MarkCookingRecipeKnown Current Cornucopia_RiversHarvest true",
+						"MarkCookingRecipeKnown Current Cornucopia_SearedSunflower true",
+						"MarkCookingRecipeKnown Current Cornucopia_StrawberryDrink true",
+						"MarkCookingRecipeKnown Current Cornucopia_Succotash true",
+						"MarkCookingRecipeKnown Current Cornucopia_Wojapi true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Woodland2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Woodland2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Woodland_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Woodland3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Woodland3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Woodland_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Woodland4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Woodland4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Woodland_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Woodland5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Woodland5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_Woodland_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Woodland_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Mountain": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Mountain",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Mountain",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Mountain_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_NigiriSushi true",
+						"MarkCookingRecipeKnown Current Cornucopia_CheeseRamen true",
+						"MarkCookingRecipeKnown Current Cornucopia_ChilledTofu true",
+						"MarkCookingRecipeKnown Current Cornucopia_CrabRoll true",
+						"MarkCookingRecipeKnown Current Cornucopia_CrispyRiceBowl true",
+						"MarkCookingRecipeKnown Current Cornucopia_CucumberRoll true",
+						"MarkCookingRecipeKnown Current Cornucopia_EelBowl true",
+						"MarkCookingRecipeKnown Current Cornucopia_FishStock true",
+						"MarkCookingRecipeKnown Current Cornucopia_FlowerHotpot true",
+						"MarkCookingRecipeKnown Current Cornucopia_Japchae true",
+						"MarkCookingRecipeKnown Current Cornucopia_Jjigae true",
+						"MarkCookingRecipeKnown Current Cornucopia_KimchiRamen true",
+						"MarkCookingRecipeKnown Current Cornucopia_KitsuneUdon true",
+						"MarkCookingRecipeKnown Current Cornucopia_Onigiri true",
+						"MarkCookingRecipeKnown Current Cornucopia_PerillaKimchi true",
+						"MarkCookingRecipeKnown Current Cornucopia_RaccoonSoba true",
+						"MarkCookingRecipeKnown Current Cornucopia_ShrimpTempura true",
+						"MarkCookingRecipeKnown Current Cornucopia_SoupCurry true",
+						"MarkCookingRecipeKnown Current Cornucopia_Tteokbokki true",
+						"MarkCookingRecipeKnown Current Cornucopia_VegetableTempura true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Mountain2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Mountain2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Mountain_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Mountain3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Mountain3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Mountain_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Mountain4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Mountain4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Mountain_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Mountain5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Mountain5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_Mountain_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Mountain_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Highland": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Highland",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_Highland",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Highland_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Acorda true",
+						"MarkCookingRecipeKnown Current Cornucopia_Bouillabaisse true",
+						"MarkCookingRecipeKnown Current Cornucopia_Caponata true",
+						"MarkCookingRecipeKnown Current Cornucopia_Carpaccio true",
+						"MarkCookingRecipeKnown Current Cornucopia_Colcannon true",
+						"MarkCookingRecipeKnown Current Cornucopia_EelPie true",
+						"MarkCookingRecipeKnown Current Cornucopia_EggTarts true",
+						"MarkCookingRecipeKnown Current Cornucopia_GnocchialTartufo true",
+						"MarkCookingRecipeKnown Current Cornucopia_GoldenStrands true",
+						"MarkCookingRecipeKnown Current Cornucopia_LoftyPopover true",
+						"MarkCookingRecipeKnown Current Cornucopia_Meuniere true",
+						"MarkCookingRecipeKnown Current Cornucopia_Minestrone true",
+						"MarkCookingRecipeKnown Current Cornucopia_OystersMignonette true",
+						"MarkCookingRecipeKnown Current Cornucopia_PannaCotta true",
+						"MarkCookingRecipeKnown Current Cornucopia_Polenta true",
+						"MarkCookingRecipeKnown Current Cornucopia_SalmonBearnaise true",
+						"MarkCookingRecipeKnown Current Cornucopia_Scarpaccia true",
+						"MarkCookingRecipeKnown Current Cornucopia_Spatzle true",
+						"MarkCookingRecipeKnown Current Cornucopia_SpinachTortellini true",
+						"MarkCookingRecipeKnown Current Cornucopia_Marzipan true",
+						"MarkCookingRecipeKnown Current Cornucopia_Gazpacho true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Highland2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Highland2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Highland_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Highland3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Highland3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_Highland_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Highland4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Highland4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_Highland_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_Highland5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_Highland5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_Highland_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_Highland_Listening4 received",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_InlandSea": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_InlandSea",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_InlandSea",
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_InlandSea_ImageDescription}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_RusticChorba true",
+						"MarkCookingRecipeKnown Current Cornucopia_DalTadka true",
+						"MarkCookingRecipeKnown Current Cornucopia_Dolmas true",
+						"MarkCookingRecipeKnown Current Cornucopia_Falafel true",
+						"MarkCookingRecipeKnown Current Cornucopia_GarlicNaan true",
+						"MarkCookingRecipeKnown Current Cornucopia_GreenPilaf true",
+						"MarkCookingRecipeKnown Current Cornucopia_Haleem true",
+						"MarkCookingRecipeKnown Current Cornucopia_Halloumi true",
+						"MarkCookingRecipeKnown Current Cornucopia_Halva true",
+						"MarkCookingRecipeKnown Current Cornucopia_JeweledRice true",
+						"MarkCookingRecipeKnown Current Cornucopia_Kheer true",
+						"MarkCookingRecipeKnown Current Cornucopia_MintChutney true",
+						"MarkCookingRecipeKnown Current Cornucopia_Muhammara true",
+						"MarkCookingRecipeKnown Current Cornucopia_PalakPaneer true",
+						"MarkCookingRecipeKnown Current Cornucopia_PantaBhat true",
+						"MarkCookingRecipeKnown Current Cornucopia_Pita true",
+						"MarkCookingRecipeKnown Current Cornucopia_PitaChips true",
+						"MarkCookingRecipeKnown Current Cornucopia_RoseDrink true",
+						"MarkCookingRecipeKnown Current Cornucopia_RoseWater true",
+						"MarkCookingRecipeKnown Current Cornucopia_Samosas true",
+						"MarkCookingRecipeKnown Current Cornucopia_SweetPilaf true",
+						"MarkCookingRecipeKnown Current Cornucopia_Tabbouleh true",
+						"MarkCookingRecipeKnown Current Cornucopia_Tzatziki true",
+						"MarkCookingRecipeKnown Current Cornucopia_VegetableKorma true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening received\" 100"
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_InlandSea2": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_InlandSea2",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_InlandSea_Page1}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_InlandSea3": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_InlandSea3",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_InlandSea_Page2}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening2 received",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening3 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_InlandSea4": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_InlandSea4",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:RecipeBook_BookHasRecipes}} {{RecipeBook_InlandSea_List}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening3 received",
+						"If {{WorldTraveler_Extended}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening4 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_InlandSea5": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_InlandSea5",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening4 Received, {{WorldTraveler_Extended}}",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{RecipeBook_InlandSea_ListB}}\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeBook_InlandSea_Listening4 received",
+					]
+				},
+			}
+		}
+	]
+}

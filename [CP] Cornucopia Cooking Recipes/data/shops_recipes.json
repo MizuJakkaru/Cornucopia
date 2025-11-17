@@ -1,0 +1,999 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AdventureShop",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_GrahamCracker": {
+					"Id": "Cornucopia_GrahamCracker (Recipe)",
+					"ItemId": "Cornucopia_GrahamCracker",
+					"IsRecipe": true,
+					"Price": 100
+				},
+				"Cornucopia_Marshmallow": {
+					"Id": "Cornucopia_Marshmallow (Recipe)",
+					"ItemId": "Cornucopia_Marshmallow",
+					"IsRecipe": true,
+					"Price": 100
+				},
+				"Cornucopia_Smore": {
+					"Id": "Cornucopia_Smore (Recipe)",
+					"ItemId": "Cornucopia_Smore",
+					"IsRecipe": true,
+					"Price": 800
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_DanceOfTheMoonlightJellies_Pierre",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_JellO": {
+					"Id": "Cornucopia_JellO (Recipe)",
+					"ItemId": "Cornucopia_JellO",
+					"IsRecipe": true,
+					"Price": 500
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"DesertTrade",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_FriedLotusRoot": {
+					"Id": "Cornucopia_FriedLotusRoot (Recipe)",
+					"ItemId": "Cornucopia_FriedLotusRoot",
+					"IsRecipe": true,
+					"TradeItemId": "Cornucopia_LotusSeeds",
+					"TradeItemAmount": 5
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"DesertTrade",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_Lokum": {
+					"Id": "Cornucopia_Lokum (Recipe)",
+					"ItemId": "Cornucopia_Lokum",
+					"IsRecipe": true,
+					"TradeItemId": "Cornucopia_Pistachio",
+					"TradeItemAmount": 10
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_EggFestival_Pierre",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_Caramel": {
+					"Id": "Cornucopia_Caramel (Recipe)",
+					"ItemId": "Cornucopia_Caramel",
+					"IsRecipe": true,
+					"Price": 200
+				},
+				"Cornucopia_CaramelEgg": {
+					"Id": "Cornucopia_CaramelEgg (Recipe)",
+					"ItemId": "Cornucopia_CaramelEgg",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_EggFestival_Pierre",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_MarshmallowAnimals": {
+					"Id": "Cornucopia_MarshmallowAnimals (Recipe)",
+					"ItemId": "Cornucopia_MarshmallowAnimals",
+					"IsRecipe": true,
+					"Price": 300
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FeastOfTheWinterStar_Pierre",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_BreadPudding": {
+					"Id": "Cornucopia_BreadPudding (Recipe)",
+					"ItemId": "Cornucopia_BreadPudding",
+					"IsRecipe": true,
+					"Price": 200
+				},
+				"Cornucopia_Fruitcake": {
+					"Id": "Cornucopia_Fruitcake (Recipe)",
+					"ItemId": "Cornucopia_Fruitcake",
+					"IsRecipe": true,
+					"Condition": "ANY \"YEAR 2\" \"!{{World Traveler}}\"",
+					"Price": 400
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FeastOfTheWinterStar_Pierre",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_HotChocolate": {
+					"Id": "Cornucopia_HotChocolate (Recipe)",
+					"ItemId": "Cornucopia_HotChocolate",
+					"IsRecipe": true,
+					"Price": 400
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FeastOfTheWinterStar_Pierre",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_GingerbreadPeople": {
+					"Id": "Cornucopia_GingerbreadPeople (Recipe)",
+					"ItemId": "Cornucopia_GingerbreadPeople",
+					"IsRecipe": true,
+					"Price": 200
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FeastOfTheWinterStar_Pierre",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_Eggnog": {
+					"Id": "Cornucopia_Eggnog (Recipe)",
+					"ItemId": "Cornucopia_Eggnog",
+					"IsRecipe": true,
+					"Condition": "YEAR 2",
+					"Price": 400
+				},
+				"Cornucopia_Fudge": {
+					"Id": "Cornucopia_Fudge (Recipe)",
+					"ItemId": "Cornucopia_Fudge",
+					"IsRecipe": true,
+					"Price": 200
+				},
+				"Cornucopia_ShortbreadCookies": {
+					"Id": "Cornucopia_ShortbreadCookies (Recipe)",
+					"ItemId": "Cornucopia_ShortbreadCookies",
+					"IsRecipe": true,
+					"Condition": "YEAR 2",
+					"Price": 400
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FestivalOfIce_TravelingMerchant",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_MashedPotatoes": {
+					"Id": "Cornucopia_MashedPotatoes (Recipe)",
+					"ItemId": "Cornucopia_MashedPotatoes",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FestivalOfIce_TravelingMerchant",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_GreenBeanCasserole": {
+					"Id": "Cornucopia_GreenBeanCasserole (Recipe)",
+					"ItemId": "Cornucopia_GreenBeanCasserole",
+					"IsRecipe": true,
+					"Price": 600
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FestivalOfIce_TravelingMerchant",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_MushroomSoup": {
+					"Id": "Cornucopia_MushroomSoup (Recipe)",
+					"ItemId": "Cornucopia_MushroomSoup",
+					"IsRecipe": true,
+					"Condition": "YEAR 2",
+					"Price": 200
+				},
+				"Cornucopia_PecanPie": {
+					"Id": "Cornucopia_PecanPie (Recipe)",
+					"ItemId": "Cornucopia_PecanPie",
+					"IsRecipe": true,
+					"Condition": "YEAR 2",
+					"Price": 400
+				},
+				"Cornucopia_PeppermintCandy": {
+					"Id": "Cornucopia_PeppermintCandy (Recipe)",
+					"ItemId": "Cornucopia_PeppermintCandy",
+					"IsRecipe": true,
+					"Price": 100
+				},
+				"Cornucopia_PumpkinBite": {
+					"Id": "Cornucopia_PumpkinBite (Recipe)",
+					"ItemId": "Cornucopia_PumpkinBite",
+					"IsRecipe": true,
+					"Price": 200
+				},
+				"Cornucopia_SweetPotatoCasserole": {
+					"Id": "Cornucopia_SweetPotatoCasserole (Recipe)",
+					"ItemId": "Cornucopia_SweetPotatoCasserole",
+					"IsRecipe": true,
+					"Condition": "YEAR 2",
+					"Price": 200
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FlowerDance_Pierre",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_SpringSalmagundi": {
+					"Id": "Cornucopia_SpringSalmagundi (Recipe)",
+					"ItemId": "Cornucopia_SpringSalmagundi",
+					"IsRecipe": true,
+					"Price": 300
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FlowerDance_Pierre",
+				"Items"
+			],
+			"When": {
+				"World Traveler": true
+			},
+			"Entries": {
+				"Cornucopia_Meringues": {
+					"Id": "Cornucopia_Meringues (Recipe)",
+					"ItemId": "Cornucopia_Meringues",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FlowerDance_Pierre",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_ChocolateCoveredStrawberry": {
+					"Id": "Cornucopia_ChocolateCoveredStrawberry (Recipe)",
+					"ItemId": "Cornucopia_ChocolateCoveredStrawberry",
+					"IsRecipe": true,
+					"Price": 80
+				},
+				"Cornucopia_Cupcakes": {
+					"Id": "Cornucopia_Cupcakes (Recipe)",
+					"ItemId": "Cornucopia_Cupcakes",
+					"IsRecipe": true,
+					"Price": 140
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FlowerDance_Pierre",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_ChocolateTruffles": {
+					"Id": "Cornucopia_ChocolateTruffles (Recipe)",
+					"ItemId": "Cornucopia_ChocolateTruffles",
+					"IsRecipe": true,
+					"Price": 800
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"ResortBar",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_MangoChutney": {
+					"Id": "Cornucopia_MangoChutney (Recipe)",
+					"ItemId": "Cornucopia_MangoChutney",
+					"IsRecipe": true,
+					"Price": 1000
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"ResortBar",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_TropicalToss": {
+					"Id": "Cornucopia_TropicalToss (Recipe)",
+					"ItemId": "Cornucopia_TropicalToss",
+					"IsRecipe": true,
+					"Price": 1400
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_FruitNectar": {
+					"Id": "Cornucopia_FruitNectar (Recipe)",
+					"ItemId": "Cornucopia_FruitNectar",
+					"IsRecipe": true,
+					"TradeItemId": "(O)832",
+					"TradeItemAmount": 10
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+			"When": {
+				"World Traveler": true
+			},
+			"Entries": {
+				"Cornucopia_BananaCurry": {
+					"Id": "Cornucopia_BananaCurry (Recipe)",
+					"ItemId": "Cornucopia_BananaCurry",
+					"IsRecipe": true,
+					"TradeItemId": "(O)881",
+					"TradeItemAmount": 30
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_SteamedBambooShoots": {
+					"Id": "Cornucopia_SteamedBambooShoots (Recipe)",
+					"ItemId": "Cornucopia_SteamedBambooShoots",
+					"IsRecipe": true,
+					"TradeItemId": "Cornucopia_BambooSeeds",
+					"TradeItemAmount": 10
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_Luau_Pierre",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_Steckerlfisch": {
+					"Id": "Cornucopia_Steckerlfisch (Recipe)",
+					"ItemId": "Cornucopia_Steckerlfisch",
+					"IsRecipe": true,
+					"Price": 50
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_Luau_Pierre",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_SugarcaneShake": {
+					"Id": "Cornucopia_SugarcaneShake (Recipe)",
+					"ItemId": "Cornucopia_SugarcaneShake",
+					"IsRecipe": true,
+					"Price": 200
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AnimalShop",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_BrownSugar": {
+					"Id": "Cornucopia_BrownSugar (Recipe)",
+					"ItemId": "Cornucopia_BrownSugar",
+					"IsRecipe": true,
+					"Price": 50
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AnimalShop",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_Oatmeal": {
+					"Id": "Cornucopia_Oatmeal (Recipe)",
+					"ItemId": "Cornucopia_Oatmeal",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day1",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_SoftPretzel": {
+					"Id": "Cornucopia_SoftPretzel (Recipe)",
+					"ItemId": "Cornucopia_SoftPretzel",
+					"IsRecipe": true,
+					"Price": 200
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day1",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_SaltandVinegarChips": {
+					"Id": "Cornucopia_SaltandVinegarChips (Recipe)",
+					"ItemId": "Cornucopia_SaltandVinegarChips",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day1",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_BakedApple": {
+					"Id": "Cornucopia_BakedApple (Recipe)",
+					"ItemId": "Cornucopia_BakedApple",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day1",
+				"Items"
+			],
+			"When": {
+				"World Traveler": true
+			},
+			"Entries": {
+				"Cornucopia_FriedCheeseCurds": {
+					"Id": "Cornucopia_FriedCheeseCurds (Recipe)",
+					"ItemId": "Cornucopia_FriedCheeseCurds",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day2",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_NachosandCheese": {
+					"Id": "Cornucopia_NachosandCheese (Recipe)",
+					"ItemId": "Cornucopia_NachosandCheese",
+					"IsRecipe": true,
+					"Price": 200
+				},
+				"Cornucopia_SeaweedChips": {
+					"Id": "Cornucopia_SeaweedChips (Recipe)",
+					"ItemId": "Cornucopia_SeaweedChips",
+					"IsRecipe": true,
+					"Price": 100
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day2",
+				"Items"
+			],
+			"When": {
+				"World Traveler": true
+			},
+			"Entries": {
+				"Cornucopia_CottonCandy": {
+					"Id": "Cornucopia_CottonCandy (Recipe)",
+					"ItemId": "Cornucopia_CottonCandy",
+					"IsRecipe": true,
+					"Price": 200
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day2",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_CakePops": {
+					"Id": "Cornucopia_CakePops (Recipe)",
+					"ItemId": "Cornucopia_CakePops",
+					"IsRecipe": true,
+					"Price": 400
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day2",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_CaramelizedBananas": {
+					"Id": "Cornucopia_CaramelizedBananas (Recipe)",
+					"ItemId": "Cornucopia_CaramelizedBananas",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day3",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_ScallionPancake": {
+					"Id": "Cornucopia_ScallionPancake (Recipe)",
+					"ItemId": "Cornucopia_ScallionPancake",
+					"IsRecipe": true,
+					"Price": 200
+				},
+				"Cornucopia_Takoyaki": {
+					"Id": "Cornucopia_Takoyaki (Recipe)",
+					"ItemId": "Cornucopia_Takoyaki",
+					"IsRecipe": true,
+					"Price": 800
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day2",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_Dango": {
+					"Id": "Cornucopia_Dango (Recipe)",
+					"ItemId": "Cornucopia_Dango",
+					"IsRecipe": true,
+					"Price": 200
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day2",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_WasabiPeas": {
+					"Id": "Cornucopia_WasabiPeas (Recipe)",
+					"ItemId": "Cornucopia_WasabiPeas",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_SpiritsEve_Pierre",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_NutButterCups": {
+					"Id": "Cornucopia_NutButterCups (Recipe)",
+					"ItemId": "Cornucopia_NutButterCups",
+					"IsRecipe": true,
+					"Price": 140
+				},
+				"Cornucopia_JellyBeans": {
+					"Id": "Cornucopia_JellyBeans (Recipe)",
+					"ItemId": "Cornucopia_JellyBeans",
+					"IsRecipe": true,
+					"Price": 300
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_SpiritsEve_Pierre",
+				"Items"
+			],
+			"When": {
+				"World Traveler": true
+			},
+			"Entries": {
+				"Cornucopia_HardCandies": {
+					"Id": "Cornucopia_HardCandies (Recipe)",
+					"ItemId": "Cornucopia_HardCandies",
+					"IsRecipe": true,
+					"Price": 100
+				},
+				"Cornucopia_Taffy": {
+					"Id": "Cornucopia_Taffy (Recipe)",
+					"ItemId": "Cornucopia_Taffy",
+					"IsRecipe": true,
+					"Condition": "YEAR 2",
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_SpiritsEve_Pierre",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_Butterscotch": {
+					"Id": "Cornucopia_Butterscotch (Recipe)",
+					"ItemId": "Cornucopia_Butterscotch",
+					"IsRecipe": true,
+					"Condition": "YEAR 2",
+					"Price": 100
+				},
+				"Cornucopia_CandyCorn": {
+					"Id": "Cornucopia_CandyCorn (Recipe)",
+					"ItemId": "Cornucopia_CandyCorn",
+					"IsRecipe": true,
+					"Price": 50
+				},
+				"Cornucopia_Gumdrops": {
+					"Id": "Cornucopia_Gumdrops (Recipe)",
+					"ItemId": "Cornucopia_Gumdrops",
+					"IsRecipe": true,
+					"Condition": "YEAR 2",
+					"Price": 100
+				},
+				"Cornucopia_Licorice": {
+					"Id": "Cornucopia_Licorice (Recipe)",
+					"ItemId": "Cornucopia_Licorice",
+					"IsRecipe": true,
+					"Price": 150
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_AppleCider": {
+					"Id": "Cornucopia_AppleCider (Recipe)",
+					"ItemId": "Cornucopia_AppleCider",
+					"IsRecipe": true,
+					"Condition": "ANY \"DAY_OF_WEEK Monday\" \"!{{World Traveler}}\"",
+					"Price": 300
+				},
+				"Cornucopia_Ketchup": {
+					"Id": "Cornucopia_Ketchup (Recipe)",
+					"ItemId": "Cornucopia_Ketchup",
+					"IsRecipe": true,
+					"Condition": "ANY \"DAY_OF_WEEK Wednesday\" \"!{{World Traveler}}\"",
+					"Price": 50
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_Chocolate": {
+					"Id": "Cornucopia_Chocolate (Recipe)",
+					"ItemId": "Cornucopia_Chocolate",
+					"IsRecipe": true,
+					"Condition": "ANY \"DAY_OF_WEEK Friday\" \"!{{World Traveler}}\"",
+					"Price": 50
+				},
+				"Cornucopia_ChocolatePudding": {
+					"Id": "Cornucopia_ChocolatePudding (Recipe)",
+					"ItemId": "Cornucopia_ChocolatePudding",
+					"IsRecipe": true,
+					"Condition": "ANY \"DAY_OF_WEEK Monday\" \"!{{World Traveler}}\"",
+					"Price": 100
+				},
+				"Cornucopia_VanillaPudding": {
+					"Id": "Cornucopia_VanillaPudding (Recipe)",
+					"ItemId": "Cornucopia_VanillaPudding",
+					"IsRecipe": true,
+					"Condition": "ANY \"DAY_OF_WEEK Sunday\" \"!{{World Traveler}}\"",
+					"Price": 100
+				},
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"When": {
+				"World Traveler": true
+			},
+			"Entries": {
+				"Cornucopia_HotSauce": {
+					"Id": "Cornucopia_HotSauce (Recipe)",
+					"ItemId": "Cornucopia_HotSauce",
+					"IsRecipe": true,
+					"Condition": "DAY_OF_WEEK Saturday",
+					"Price": 100
+				},
+				"Cornucopia_Vinaigrette": {
+					"Id": "Cornucopia_Vinaigrette (Recipe)",
+					"ItemId": "Cornucopia_Vinaigrette",
+					"Condition": "DAY_OF_WEEK Friday",
+					"IsRecipe": true,
+					"Price": 100
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_CheeseBoard": {
+					"Id": "Cornucopia_CheeseBoard (Recipe)",
+					"ItemId": "Cornucopia_CheeseBoard",
+					"Condition": "DAY_OF_WEEK Saturday",
+					"IsRecipe": true,
+					"Price": 400
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_Mustard": {
+					"Id": "Cornucopia_Mustard (Recipe)",
+					"ItemId": "Cornucopia_Mustard",
+					"Condition": "DAY_OF_WEEK Sunday",
+					"IsRecipe": true,
+					"Price": 50
+				},
+				"Cornucopia_WhiteChocolate": {
+					"Id": "Cornucopia_WhiteChocolate (Recipe)",
+					"ItemId": "Cornucopia_WhiteChocolate",
+					"Condition": "DAY_OF_WEEK Wednesday",
+					"IsRecipe": true,
+					"Price": 50
+				},
+			}
+		},
+	]
+}

@@ -1,0 +1,389 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"HomeCook_Extended": true
+			},
+			"Fields": {
+				"Cornucopia_NutButterCups": {
+					"DisplayName": "{{i18n:NutButterCups_altname}}"
+				},
+				"Cornucopia_VegetablePotPie": {
+					"DisplayName": "{{i18n:VegetablePotPie_altname}}"
+				},
+				"Cornucopia_FruitSmoothie": {
+					"DisplayName": "{{i18n:FruitSmoothie_altname}}"
+				},
+				"Cornucopia_FruitTurnover": {
+					"DisplayName": "{{i18n:FruitTurnover_altname}}"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"130",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_blue": "color_red"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"139",
+				"ContextTags"
+			],
+			"Entries": {
+				"color_salmon": "color_orange"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"When": {
+				"Enable Flexible Recipes": true
+			},
+			"Entries": {
+				"Cornucopia_FruitNectar": {
+					"Id": "Cornucopia_FruitNectar",
+					"IngredientConfigs": [
+						{
+							"Id": "category_fruits",
+							"ItemId": "-79",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.2,
+						},
+						{
+							"Id": "Honey",
+							"ItemId": "(O)340"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:FruitNectar_flavored}}",
+					"ObjectInternalName": "Cornucopia_FruitNectar PRESERVE_ID_0"
+				},
+				"Cornucopia_FruitSmoothie": {
+					"Id": "Cornucopia_FruitSmoothie",
+					"IngredientConfigs": [
+						{
+							"Id": "category_fruits",
+							"ItemId": "-79",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.2,
+						},
+						{
+							"Id": "category_milk",
+							"ItemId": "-6"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:FruitSmoothie_flavored}}",
+					"ObjectInternalName": "Cornucopia_FruitSmoothie PRESERVE_ID_0"
+				},
+				"Cornucopia_MeatSatay": {
+					"Id": "Cornucopia_MeatSatay",
+					"IngredientConfigs": [
+						{
+							"Id": "meat_item",
+							"ContextTags": "meat_item",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputPriceMultiplier": 1.4,
+						},
+						{
+							"Id": "Cornucopia_Peanut",
+							"ItemId": "(O)Cornucopia_Peanut"
+						},
+						{
+							"Id": "Oil",
+							"ItemId": "(O)247"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:MeatSatay_flavored}}",
+					"ObjectInternalName": "Cornucopia_MeatSatay PRESERVE_ID_0"
+				},
+				"Cornucopia_NutButterCups": {
+					"Id": "Cornucopia_NutButterCups",
+					"IngredientConfigs": [
+						{
+							"Id": "Cornucopia_Chocolate",
+							"ItemId": "(O)Cornucopia_Chocolate"
+						},
+						{
+							"Id": "Nut Butter",
+							"ContextTags": "nut_butter_item",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputPriceMultiplier": 1,
+						}
+					],
+					"ObjectDisplayName": "{{i18n:NutButterCups_flavored}}",
+					"ObjectInternalName": "Cornucopia_NutButterCups PRESERVE_ID_0"
+				},
+				"Cornucopia_GrainPorridge": {
+					"Id": "Cornucopia_GrainPorridge",
+					"IngredientConfigs": [
+						{
+							"Id": "grain_item",
+							"ContextTags": "grain_item",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1,
+						},
+						{
+							"Id": "category_milk",
+							"ItemId": "-6"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:GrainPorridge_flavored}}",
+					"ObjectInternalName": "Cornucopia_GrainPorridge PRESERVE_ID_0"
+				},
+				"Cornucopia_NigiriSushi": {
+					"Id": "Cornucopia_NigiriSushi",
+					"IngredientConfigs": [
+						{
+							"Id": "category_fish",
+							"ItemId": "-4",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.3,
+						},
+						{
+							"Id": "Rice",
+							"ItemId": "(O)423"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:NigiriSushi_flavored}}",
+					"ObjectInternalName": "Cornucopia_NigiriSushi PRESERVE_ID_0"
+				},
+				"Cornucopia_VegetablePotPie": {
+					"Id": "Cornucopia_VegetablePotPie",
+					"IngredientConfigs": [
+						{
+							"Id": "root vegetable",
+							"ContextTags": "root_vegetable_item",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.2,
+						},
+						{
+							"Id": "Wheat Flour",
+							"ItemId": "(O)246"
+						},
+						{
+							"Id": "category_milk",
+							"ItemId": "-6"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:VegetablePotPie_flavored}}",
+					"ObjectInternalName": "Cornucopia_VegetablePotPie PRESERVE_ID_0"
+				},
+				"Cornucopia_FruitTurnover": {
+					"Id": "Cornucopia_FruitTurnover",
+					"IngredientConfigs": [
+						{
+							"Id": "category_fruits",
+							"ItemId": "-79",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.2,
+						},
+						{
+							"Id": "Wheat Flour",
+							"ItemId": "(O)246"
+						},
+						{
+							"Id": "category_egg",
+							"ItemId": "-5"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:FruitTurnover_flavored}}",
+					"ObjectInternalName": "Cornucopia_FruitTurnover PRESERVE_ID_0"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"When": {
+				"Enable Hyperflexible Recipes": true
+			},
+			"Entries": {
+				"Cornucopia_FruitNectar": {
+					"Id": "Cornucopia_FruitNectar",
+					"IngredientConfigs": [
+						{
+							"Id": "category_fruits",
+							"ItemId": "-79",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.2,
+						},
+						{
+							"Id": "Honey",
+							"ContextTags": "honey_item"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:FruitNectar_flavored}}",
+					"ObjectInternalName": "Cornucopia_FruitNectar PRESERVE_ID_0"
+				},
+				"Cornucopia_FruitSmoothie": {
+					"Id": "Cornucopia_FruitSmoothie",
+					"IngredientConfigs": [
+						{
+							"Id": "category_fruits",
+							"ItemId": "-79",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.2,
+						},
+						{
+							"Id": "category_milk",
+							"ItemId": "-6"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:FruitSmoothie_flavored}}",
+					"ObjectInternalName": "Cornucopia_FruitSmoothie PRESERVE_ID_0"
+				},
+				"Cornucopia_MeatSatay": {
+					"Id": "Cornucopia_MeatSatay",
+					"IngredientConfigs": [
+						{
+							"Id": "meat_item",
+							"ContextTags": "meat_item",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputPriceMultiplier": 1.4,
+						},
+						{
+							"Id": "Cornucopia_Peanut",
+							"ContextTags": "peanut_item"
+						},
+						{
+							"Id": "Oil",
+							"ContextTags": "cooking_oil_item"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:MeatSatay_flavored}}",
+					"ObjectInternalName": "Cornucopia_MeatSatay PRESERVE_ID_0"
+				},
+				"Cornucopia_NutButterCups": {
+					"Id": "Cornucopia_NutButterCups",
+					"IngredientConfigs": [
+						{
+							"Id": "Cornucopia_Chocolate",
+							"ContextTags": "chocolate_item"
+						},
+						{
+							"Id": "Nut Butter",
+							"ContextTags": "nut_butter_item",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputPriceMultiplier": 1,
+						}
+					],
+					"ObjectDisplayName": "{{i18n:NutButterCups_flavored}}",
+					"ObjectInternalName": "Cornucopia_NutButterCups PRESERVE_ID_0"
+				},
+				"Cornucopia_GrainPorridge": {
+					"Id": "Cornucopia_GrainPorridge",
+					"IngredientConfigs": [
+						{
+							"Id": "grain_item",
+							"ContextTags": "grain_item",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1,
+						},
+						{
+							"Id": "category_milk",
+							"ItemId": "-6"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:GrainPorridge_flavored}}",
+					"ObjectInternalName": "Cornucopia_GrainPorridge PRESERVE_ID_0"
+				},
+				"Cornucopia_NigiriSushi": {
+					"Id": "Cornucopia_NigiriSushi",
+					"IngredientConfigs": [
+						{
+							"Id": "category_fish",
+							"ItemId": "-4",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.3,
+						},
+						{
+							"Id": "Rice",
+							"ContextTags": "rice_item"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:NigiriSushi_flavored}}",
+					"ObjectInternalName": "Cornucopia_NigiriSushi PRESERVE_ID_0"
+				},
+				"Cornucopia_VegetablePotPie": {
+					"Id": "Cornucopia_VegetablePotPie",
+					"IngredientConfigs": [
+						{
+							"Id": "root vegetable",
+							"ContextTags": "root_vegetable_item",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.2,
+						},
+						{
+							"Id": "Wheat Flour",
+							"ContextTags": "wheat_flour_item"
+						},
+						{
+							"Id": "category_milk",
+							"ItemId": "-6"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:VegetablePotPie_flavored}}",
+					"ObjectInternalName": "Cornucopia_VegetablePotPie PRESERVE_ID_0"
+				},
+				"Cornucopia_FruitTurnover": {
+					"Id": "Cornucopia_FruitTurnover",
+					"IngredientConfigs": [
+						{
+							"Id": "category_fruits",
+							"ItemId": "-79",
+							"InputPreserveId": "DROP_IN_ID",
+							"OutputPreserveId": 0,
+							"OutputColor": 0,
+							"OutputPriceMultiplier": 1.2,
+						},
+						{
+							"Id": "Wheat Flour",
+							"ContextTags": "wheat_flour_item"
+						},
+						{
+							"Id": "category_egg",
+							"ItemId": "-5"
+						}
+					],
+					"ObjectDisplayName": "{{i18n:FruitTurnover_flavored}}",
+					"ObjectInternalName": "Cornucopia_FruitTurnover PRESERVE_ID_0"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,305 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"Cornucopia.CorkingRecipes_QoSRadio": "{{i18n:Mail_QoSRadio_body}}%item id (F)Cornucopia_QoSRadio 1%%[#]{{i18n:Mail_QoSRadio_title}}",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"Cornucopia_QoSRadio": "Cornucopia_QoSRadio/decor/1 3/1 1/1/10/2/{{i18n:QoSRadio_name}}/0/Cornucopia.CookingRecipes\\Furniture/true"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"Cornucopia_RecipeBook_SweetSensations": {
+					"Name": "Cornucopia_RecipeBook_SweetSensations",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 17,
+					"DisplayName": "{{i18n:RecipeBook_SweetSensations_name}}",
+					"Description": "{{i18n:RecipeBook_SweetSensations_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes"
+					]
+				},
+				"Cornucopia_RecipeBook_AroundTheWorld": {
+					"Name": "Cornucopia_RecipeBook_AroundTheWorld",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 16,
+					"DisplayName": "{{i18n:RecipeBook_AroundTheWorld_name}}",
+					"Description": "{{i18n:RecipeBook_AroundTheWorld_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes"
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"Entries": {
+				"Cornucopia_RecipeBook_SweetSensations": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+				"Cornucopia_RecipeBook_AroundTheWorld": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": false,
+					"CanBeShipped": false
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_RecipeBook_SweetSensations": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_SweetSensations",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_SweetSensations",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SweetSensations_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_SweetSensations",
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SweetSensations_Learned Received ## RemoveItem (O)Cornucopia_RecipeBook_SweetSensations",
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SweetSensations_Learned Received ## Spiderbuttons.BETAS_PlaySound book_read",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_SweetSensations_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_SweetSensations",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_SweetSensations_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_FruitTurnover true",
+						"MarkCookingRecipeKnown Current Cornucopia_Ambrosia true",
+						"MarkCookingRecipeKnown Current Cornucopia_CinnamonApplePie true",
+						"MarkCookingRecipeKnown Current Cornucopia_Baumkuchen true",
+						"MarkCookingRecipeKnown Current Cornucopia_CalicoBar true",
+						"MarkCookingRecipeKnown Current Cornucopia_Cannoli true",
+						"MarkCookingRecipeKnown Current Cornucopia_Churros true",
+						"MarkCookingRecipeKnown Current Cornucopia_CrumbCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_Daifuku true",
+						"MarkCookingRecipeKnown Current Cornucopia_Eclair true",
+						"MarkCookingRecipeKnown Current Cornucopia_GotoroCream true",
+						"MarkCookingRecipeKnown Current Cornucopia_GulabJamun true",
+						"MarkCookingRecipeKnown Current Cornucopia_Horchata true",
+						"MarkCookingRecipeKnown Current Cornucopia_Jalebi true",
+						"MarkCookingRecipeKnown Current Cornucopia_KingCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_LemonSquare true",
+						"MarkCookingRecipeKnown Current Cornucopia_MascarponeLuxury true",
+						"MarkCookingRecipeKnown Current Cornucopia_Millefeuille true",
+						"MarkCookingRecipeKnown Current Cornucopia_Mooncake true",
+						"MarkCookingRecipeKnown Current Cornucopia_MudPie true",
+						"MarkCookingRecipeKnown Current Cornucopia_Pavlova true",
+						"MarkCookingRecipeKnown Current Cornucopia_PineappleCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_PrincessCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_RollCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_Sachertorte true",
+						"MarkCookingRecipeKnown Current Cornucopia_Sopapillas true",
+						"MarkCookingRecipeKnown Current Cornucopia_Souffle true",
+						"MarkCookingRecipeKnown Current Cornucopia_StickyToffeePudding true",
+						"MarkCookingRecipeKnown Current Cornucopia_TresLechesCake true",
+						"MarkCookingRecipeKnown Current Cornucopia_Trifle true",
+						"MarkCookingRecipeKnown Current Cornucopia_UbeHalaya true",
+						"MarkCookingRecipeKnown Current Cornucopia_Yatsuhashi true",
+					],
+				},
+				"Cornucopia.CookingRecipes_RecipeBook_AroundTheWorld": {
+					"Id": "Cornucopia.CookingRecipes_RecipeBook_AroundTheWorld",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeBook_AroundTheWorld",
+					"Actions": [
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_AroundTheWorld_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Learned}}\" (O)Cornucopia_RecipeBook_AroundTheWorld",
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_AroundTheWorld_Learned Received ## RemoveItem (O)Cornucopia_RecipeBook_AroundTheWorld",
+						"If !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_AroundTheWorld_Learned Received ## Spiderbuttons.BETAS_PlaySound book_read",
+						"If PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeBook_AroundTheWorld_Learned Received ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeBook_Repeat}}\" (O)Cornucopia_RecipeBook_AroundTheWorld",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeBook_AroundTheWorld_Learned Received",
+						"MarkCookingRecipeKnown Current Cornucopia_Bannock true",
+						"MarkCookingRecipeKnown Current Cornucopia_Bibimbap true",
+						"MarkCookingRecipeKnown Current Cornucopia_BlackenedFish true",
+						"MarkCookingRecipeKnown Current Cornucopia_Blini true",
+						"MarkCookingRecipeKnown Current Cornucopia_Borsch true",
+						"MarkCookingRecipeKnown Current Cornucopia_CabbageRoll true",
+						"MarkCookingRecipeKnown Current Cornucopia_CacioePepe true",
+						"MarkCookingRecipeKnown Current Cornucopia_Ceviche true",
+						"MarkCookingRecipeKnown Current Cornucopia_EggTarts true",
+						"MarkCookingRecipeKnown Current Cornucopia_FishAmok true",
+						"MarkCookingRecipeKnown Current Cornucopia_Fufu true",
+						"MarkCookingRecipeKnown Current Cornucopia_GalloPinto true",
+						"MarkCookingRecipeKnown Current Cornucopia_GreenFigandSaltfish true",
+						"MarkCookingRecipeKnown Current Cornucopia_Inarizushi true",
+						"MarkCookingRecipeKnown Current Cornucopia_Japchae true",
+						"MarkCookingRecipeKnown Current Cornucopia_Laghman true",
+						"MarkCookingRecipeKnown Current Cornucopia_LechedeLeon true",
+						"MarkCookingRecipeKnown Current Cornucopia_LotusWrappedStickyRice true",
+						"MarkCookingRecipeKnown Current Cornucopia_Lutefisk true",
+						"MarkCookingRecipeKnown Current Cornucopia_MisoRamen true",
+						"MarkCookingRecipeKnown Current Cornucopia_Mohinga true",
+						"MarkCookingRecipeKnown Current Cornucopia_Namul true",
+						"MarkCookingRecipeKnown Current Cornucopia_NasiGoreng true",
+						"MarkCookingRecipeKnown Current Cornucopia_OdenHotpot true",
+						"MarkCookingRecipeKnown Current Cornucopia_OneManThousand true",
+						"MarkCookingRecipeKnown Current Cornucopia_PanikiStew true",
+						"MarkCookingRecipeKnown Current Cornucopia_PepperSoup true",
+						"MarkCookingRecipeKnown Current Cornucopia_Samosas true",
+						"MarkCookingRecipeKnown Current Cornucopia_SeafoodPaella true",
+						"MarkCookingRecipeKnown Current Cornucopia_ThreeSistersSalad true",
+						"MarkCookingRecipeKnown Current Cornucopia_VegetableKorma true",
+						"MarkCookingRecipeKnown Current Cornucopia_Zarusoba true",
+					],
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Bookseller",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_RecipeBook_SweetSensations": {
+					"Id": "Cornucopia_RecipeBook_SweetSensations",
+					"ItemId": "(O)Cornucopia_RecipeBook_SweetSensations",
+					"Price": 16000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Condition": "SYNCED_RANDOM day cornucopia.cookingrecipes_sweetsensationsbook 0.2",
+				},
+				"Cornucopia_RecipeBook_AroundTheWorld": {
+					"Id": "Cornucopia_RecipeBook_AroundTheWorld",
+					"ItemId": "(O)Cornucopia_RecipeBook_AroundTheWorld",
+					"Price": 16000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Condition": "SYNCED_RANDOM day cornucopia.cookingrecipes_aroundtheworldbook 0.2",
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+			"Entries": {
+				"Cornucopia_QoSRadio": {
+					"DescriptionOverride": "{{i18n:QoSRadio_description}}",
+					"TileProperties": {
+						"0, 0": {
+							"Buildings": {
+								"Action": "spacechase0.SpaceCore_TriggerAction Cornucopia.CookingRecipes_QoSRadio_Interact"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TextureOverrides",
+			"When": {
+				"Query: {{HasCookingRecipe|contains=Cornucopia_{{TodaysRecipe}}}}": false,
+				"Query: {{TodaysRecipe|contains=none}}": false
+			},
+			"Entries": {
+				"Cornucopia.CookingRecipes_QoSRadio": {
+					"TargetTexture": "Cornucopia.CookingRecipes/Furniture",
+					"TargetRect": {
+						"X": 0,
+						"Y": 0,
+						"Width": 16,
+						"Height": 48
+					},
+					"SourceTexture": "Cornucopia.CookingRecipes/Furniture:1..3@10"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_RadioReminder": {
+					"Id": "Cornucopia.CookingRecipes_RadioReminder",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",
+					"Condition": "{{Radio Accessibility}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_{{TodaysRecipe}}, !{{TodaysRecipe|contains=none}}, PLAYER_HAS_MAIL Current Cornucopia.CorkingRecipes_QoSRadio Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Action": "Spiderbuttons.BETAS_DelayedAction \"spacechase0.SpaceCore_ShowHudMessage \\\"{{i18n:Radio_Reminder}}\\\"\" 1000",
+				},
+				"Cornucopia.CookingRecipes_ReceiveQoSRadio": {
+					"Id": "Cornucopia.CookingRecipes_ReceiveQoSRadio",
+					"Trigger": "DayEnding",
+					"Condition": "DAYS_PLAYED 8",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Action": "AddMail Host Cornucopia.CorkingRecipes_QoSRadio tomorrow"
+				},
+				"Cornucopia.CookingRecipes_QoSRadio_Interact": {
+					"Id": "Cornucopia.CookingRecipes_QoSRadio_Interact",
+					"Trigger": "Manual",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If {{TodaysChannel|contains=AroundTheWorld}} ## Spiderbuttons.BETAS_Message \"{{i18n:Radio_IntroAroundTheWorld}}\" true",
+						"If {{TodaysChannel|contains=SweetSensations}} ## Spiderbuttons.BETAS_Message \"{{i18n:Radio_IntroSweetSensations}}\" true",
+						"If {{TodaysChannel|contains=none}} ## Spiderbuttons.BETAS_Message \"{{i18n:Radio_NothingToday}}\"",
+						"If !{{TodaysChannel|contains=none}} ## Spiderbuttons.BETAS_PlaySound openBox",
+						"If !{{TodaysChannel|contains=none}} ## Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_QoSRadio_Listening received\" 100",
+					]
+				},
+				"Cornucopia.CookingRecipes_QoSRadio_RecipeBody": {
+					"Id": "Cornucopia.CookingRecipes_QoSRadio_RecipeBody",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_QoSRadio_Listening Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"Spiderbuttons.BETAS_Message \"{{i18n:Radio_{{TodaysRecipe}}}}\" true",
+						"RemoveMail Current Cornucopia.CookingRecipes_QoSRadio_Listening received",
+						"If !{{TodaysRecipe|contains=none}} ## MarkCookingRecipeKnown Current Cornucopia_{{TodaysRecipe}} true",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_QoSRadio_Listening2 received\" 100"
+					]
+				},
+				"Cornucopia.CookingRecipes_QoSRadio_Learned": {
+					"Id": "Cornucopia.CookingRecipes_QoSRadio_Learned",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_QoSRadio_Listening2 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_{{TodaysRecipe}} ## Spiderbuttons.BETAS_Message \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_{{TodaysRecipe}}]]]\"",
+						"If PLAYER_HAS_COOKING_RECIPE Current Cornucopia_{{TodaysRecipe}} ## Spiderbuttons.BETAS_Message \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13151 [EscapedText [ItemName (O)Cornucopia_{{TodaysRecipe}}]]]\"",
+						"RemoveMail Current Cornucopia.CookingRecipes_QoSRadio_Listening2 received",
+						"Spiderbuttons.BETAS_PatchUpdate Cornucopia.CookingRecipes",
+						"Spiderbuttons.BETAS_DelayedAction \"AddMail Current Cornucopia.CookingRecipes_QoSRadio_Listening3 received\" 100",
+					]
+				},
+				"Cornucopia.CookingRecipes_QoSRadio_RemoveAnim": {
+					"Id": "Cornucopia.CookingRecipes_QoSRadio_RemoveAnim",
+					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_QoSRadio_Listening3 Received",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_{{TodaysRecipe}} ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n:NewRecipe}}\" (O)Cornucopia_{{TodaysRecipe}}",
+						"RemoveMail Current Cornucopia.CookingRecipes_QoSRadio_Listening3 received"
+					]
+				}
+			}
+		}
+	]
+}

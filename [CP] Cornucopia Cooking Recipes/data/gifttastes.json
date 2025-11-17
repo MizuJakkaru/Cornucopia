@@ -1,0 +1,555 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Love"
+					],
+					"Value": "Cornucopia_RainbowCake",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Like"
+					],
+					"Value": " ",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Neutral"
+					],
+					"Value": "Cornucopia_Hardtack",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Dislike"
+					],
+					"Value": " ",
+					"Delimiter": "Cornucopia_Licorice Cornucopia_CritterFritter"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Hate"
+					],
+					"Value": "Cornucopia_BlackSoup",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Abigail",
+						1
+					],
+					"Value": "Cornucopia_PoachedPear Cornucopia_DragonRoll Cornucopia_MoonCake Cornucopia_PumpkinBites Cornucopia_Tiramisu",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Alex",
+						1
+					],
+					"Value": "Cornucopia_Oatmeal Cornucopia_Omurice Cornucopia_RizGras Cornucopia_FluffyEggSandwich Cornucopia_BreakfastScramble",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Caroline",
+						1
+					],
+					"Value": "Cornucopia_Gumbo Cornucopia_Yatsuhashi Cornucopia_JeweledRice Cornucopia_MintChutney Cornucopia_CaldodeCamaron Cornucopia_VegetablePotPie",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Clint",
+						1
+					],
+					"Value": "Cornucopia_ButternutSquashSoup Cornucopia_Kapustnica Cornucopia_CreamStew Cornucopia_TunaSteak",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Demetrius",
+						1
+					],
+					"Value": "Cornucopia_JellO Cornucopia_HomemadePopcorn Cornucopia_TrailMix Cornucopia_Pavlova Cornucopia_SweetPotatoFries Cornucopia_SeafoodBoil Cornucopia_PotatoBread",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Dwarf",
+						1
+					],
+					"Value": "Cornucopia_ArmoredTurnips Cornucopia_DragonRoll Cornucopia_RootBeer Cornucopia_Licorice, Cornucopia_AncientWonder",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Dwarf",
+						3
+					],
+					"Value": "Cornucopia_CritterFritter Cornucopia_BlackSoup",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Dwarf",
+						5
+					],
+					"Value": "Cornucopia_AnchovyPizza Cornucopia_PineapplePizza Cornucopia_PizzaRolls Cornucopia_FlatbreadPizza",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Elliott",
+						1
+					],
+					"Value": "{{DSVCompat_Elliott}} Cornucopia_FishnChips Cornucopia_FigToast Cornucopia_ChefSalad Cornucopia_CremeBrulee Cornucopia_Tiramisu",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Emily",
+						1
+					],
+					"Value": "Cornucopia_BreakfastScramble Cornucopia_BeanBurger Cornucopia_ChilledTofu Cornucopia_MalvaPudding Cornucopia_GrilledCheese Cornucopia_AutumnCasserole",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Evelyn",
+						1
+					],
+					"Value": "Cornucopia_BouquetCrepe Cornucopia_BreadPudding Cornucopia_PeppermintCandy Cornucopia_Borsch Cornucopia_PineappleUpsideDownCake Cornucopia_Cheesecake",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"George",
+						1
+					],
+					"Value": "Cornucopia_ScallionPancake Cornucopia_LeekSoup Cornucopia_SourShchi Cornucopia_PineappleUpsideDownCake Cornucopia_Cheesecake",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"George",
+						3
+					],
+					"Value": "Cornucopia_Licorice",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"George",
+						5
+					],
+					"Value": "Cornucopia_BouquetCrepe",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Gus",
+						1
+					],
+					"Value": "Cornucopia_PlowmansPlatter Cornucopia_CandiedOrangePeel Cornucopia_SeafoodPaella",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Haley",
+						1
+					],
+					"Value": "Cornucopia_Macarons Cornucopia_FruitSmoothie CornucopiaPrincessCake Cornucopia_Ambrosia Cornucopia_SpicedCarrotCake",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Haley",
+						7
+					],
+					"Value": "Cornucopia_RainbowCake",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Harvey",
+						1
+					],
+					"Value": "{{DSVCompat_Harvey}} Cornucopia_MotleyMushrooms Cornucopia_GreenMachine Cornucopia_CoffeeCake Cornucopia_TomatoSoup",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Harvey",
+						5
+					],
+					"Value": "Cornucopia_FriedPickles Cornucopia_RainbowCake Cornucopia_CandyApple Cornucopia_Donut Cornucopia_Brownie Cornucopia_Chocolate Cornucopia_ChocolatePudding Cornucopia_VanillaPudding Cornucopia_JellyBeans Cornucopia_Macarons Cornucopia_Marshmallow Cornucopia_CottonCandy Cornucopia_HardCandies Cornucopia_Taffy Cornucopia_CakePops Cornucopia_CandyCorn Cornucopia_AnchovyPizza Cornucopia_PineapplePizza Cornucopia_PizzaRolls Cornucopia_FlatbreadPizza",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Jas",
+						1
+					],
+					"Value": "Cornucopia_CandyApple Cornucopia_CreamPuff Cornucopia_MarshmallowAnimals Cornucopia_CakePops Cornucopia_StrawberryShortcake",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Jas",
+						7
+					],
+					"Value": "Cornucopia_FriedPickles",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Jodi",
+						1
+					],
+					"Value": "Cornucopia_CoffeeCake Cornucopia_ChocolateTruffles Cornucopia_BlackenedFish Cornucopia_HeartySautee",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Kent",
+						1
+					],
+					"Value": "Cornucopia_SpinachQuiche Cornucopia_GroundnutStew Cornucopia_CandiedAlmonds Cornucopia_AntsonaLog Cornucopia_GarlicNaan Cornucopia_Johnnycakes",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Krobus",
+						1
+					],
+					"Value": "Cornucopia_BlackSoup Cornucopia_CritterFritter Cornucopia_AntsonaLog",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Leah",
+						1
+					],
+					"Value": "Cornucopia_AutumnCasserole Cornucopia_CapraeSalad Cornucopia_ GoatCheeseSalad Cornucopia_Halloumi Cornucopia_ThreeSistersSalad Cornucopia_BroccoliandCheese Cornucopia_MushroomBurger",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Leah",
+						7
+					],
+					"Value": "Cornucopia_AnchovyPizza Cornucopia_PineapplePizza Cornucopia_PizzaRolls Cornucopia_FlatbreadPizza",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Leo",
+						1
+					],
+					"Value": "Cornucopia_SugarcaneShake Cornucopia_MangoChutney Cornucopia_DurianCrispies Cornucopia_LapLap Cornucopia_BananaCurry Cornucopia_ScorchedRice",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Leo",
+						3
+					],
+					"Value": "Cornucopia_SeaweedChips",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Lewis",
+						1
+					],
+					"Value": "Cornucopia_Ratatouille Cornucopia_Caponata Cornucopia_CabbageRoll Cornucopia_VegetablePotPie",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Linus",
+						1
+					],
+					"Value": "Cornucopia_OkraSoup Cornucopia_Steckerlfisch Cornucopia_DeviledEggs Cornucopia_PoundedYam Cornucopia_TemakiRoll",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Marnie",
+						1
+					],
+					"Value": "Cornucopia_SpicedCarrotCake Cornucopia_Tzatziki Cornucopia_PitaChips Cornucopia_PecanPie Cornucopia_CottageBreakfast Cornucopia_Castella",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Maru",
+						1
+					],
+					"Value": "Cornucopia_Fondue Cornucopia_StrawberryShortcake Cornucopia_CheeseFries Cornucopia_CrabRangoons Cornucopia_PadPrinat",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Pam",
+						1
+					],
+					"Value": "Cornucopia_NachosandCheese Cornucopia_Pupusas Cornucopia_PineappleUpsideDownCake Cornucopia_StuffedMushrooms",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Maru",
+						5
+					],
+					"Value": "Cornucopia_HoneyCake",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Penny",
+						1
+					],
+					"Value": "Cornucopia_KeyLimePie Cornucopia_MelonSalad Cornucopia_SpringRoll Cornucopia_CottonCandy Cornucopia_Gingersnaps",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Pierre",
+						1
+					],
+					"Value": "Cornucopia_FancySushiPlatter Cornucopia_FriedRice Cornucopia_OysterSauceCrab Cornucopia_TunaSteak Cornucopia_Tahini Cornucopia_MotleyMushrooms",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Pierre",
+						7
+					],
+					"Value": "Cornucopia_CornBread",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Robin",
+						1
+					],
+					"Value": "Cornucopia_FigToast Cornucopia_FettuccineAlfredo Cornucopia_PeachCrisp Cornucopia_PastaPrimavera",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sam",
+						1
+					],
+					"Value": "Cornucopia_CaramelEgg Cornucopia_Churros Cornucopia_ChipsandGuacamole Cornucopia_AnchovyPizza Cornucopia_PizzaRolls Cornucopia_FlatbreadPizza Cornucopia_Donut Cornucopia_HomemadePopcorn",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sam",
+						7
+					],
+					"Value": "Cornucopia_PineapplePizza",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sandy",
+						1
+					],
+					"Value": "Cornucopia_PokeBowl Cornucopia_PinkDrink Cornucopia_CottonCandy Cornucopia_TapiocaPudding Cornucopia_BouquetCrepe Cornucopia_BlackSoup Cornucopia_OkraSoup Cornucopia_PalmNutSoup",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sebastian",
+						1
+					],
+					"Value": "Cornucopia_Mochi Cornucopia_SeaweedChips Cornucopia_Nigiri Cornucopia_LechedeLeon Cornucopia_FancySushiPlatter Cornucopia_MisoSoup Cornucopia_BanhMi",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sebastian",
+						7
+					],
+					"Value": "Cornucopia_FriedPickles",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Shane",
+						1
+					],
+					"Value": "Cornucopia_GrilledCheese Cornucopia_WasabiPeas Cornucopia_ChipsandSalsa Cornucopia_Akara Cornucopia_AnchovyPizza Cornucopia_PizzaRolls Cornucopia_FlatbreadPizza Cornucopia_PineapplePizza Cornucopia_FriedPickles",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Vincent",
+						1
+					],
+					"Value": "Cornucopia_JellyBeans Cornucopia_Smores Cornucopia_FrostedGrapes Cornucopia_AnimalCrackers",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Vincent",
+						7
+					],
+					"Value": "Cornucopia_CritterFritter",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Willy",
+						1
+					],
+					"Value": "Cornucopia_SaltGrilledFish Cornucopia_SourFishSoup Cornucopia_EgusiSoup Cornucopia_OysterSauceCrab",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Willy",
+						3
+					],
+					"Value": "food_seafood",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Wizard",
+						1
+					],
+					"Value": "Cornucopia_BakedPotato Cornucopia_AncientWonder Cornucopia_CenturyCongee",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Wizard",
+						3
+					],
+					"Value": "Cornucopia_Licorice",
+					"Delimiter": " "
+				}
+			]
+		},
+	]
+}

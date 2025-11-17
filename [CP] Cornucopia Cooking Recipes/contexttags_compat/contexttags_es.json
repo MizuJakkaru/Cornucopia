@@ -1,0 +1,82 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_Azure_Chrysanthemum",
+				"ContextTags"
+			],
+			"Entries": {
+				"chrysanthemum_item": "chrysanthemum_item",
+				"edible_flower_item": "edible_flower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_Serruria",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_Bird_Of_Paradise",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_Red_Herring",
+				"ContextTags"
+			],
+			"Entries": {
+				"herring_item": "herring_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_Golden_Trout",
+				"ContextTags"
+			],
+			"Entries": {
+				"trout_item": "trout_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_Kokanee_Salmon",
+				"ContextTags"
+			],
+			"Entries": {
+				"salmon_item": "salmon_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"EastScarp_King_Carp",
+				"ContextTags"
+			],
+			"Entries": {
+				"carp_item": "carp_item",
+			}
+		},
+	]
+}

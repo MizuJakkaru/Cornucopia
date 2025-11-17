@@ -1,0 +1,2248 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"16",
+				"ContextTags"
+			],
+			"Entries": {
+				"wild_horseradish_item": "wild_horseradish_item",
+				"horseradish_item": "horseradish_item",
+				"spice_item": "spice_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"18",
+				"ContextTags"
+			],
+			"Entries": {
+				"daffodil_item": "daffodil_item",
+				"flower_item": "flower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"20",
+				"ContextTags"
+			],
+			"Entries": {
+				"leek_item": "leek_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"22",
+				"ContextTags"
+			],
+			"Entries": {
+				"dandelion_item": "dandelion_item",
+				"flower_item": "flower_item",
+				"edible_flower_item": "edible_flower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"24",
+				"ContextTags"
+			],
+			"Entries": {
+				"parsnip_item": "parsnip_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"78",
+				"ContextTags"
+			],
+			"Entries": {
+				"cave_carrot_item": "cave_carrot_item",
+				"root_vegetable_item": "root_vegetable_item",
+				"carrot_item": "carrot_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"88",
+				"ContextTags"
+			],
+			"Entries": {
+				"coconut_item": "coconut_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"90",
+				"ContextTags"
+			],
+			"Entries": {
+				"cactus_fruit_item": "cactus_fruit_item",
+				"cactus_item": "cactus_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"107",
+				"ContextTags"
+			],
+			"Entries": {
+				"category_egg": "category_egg"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"128",
+				"ContextTags"
+			],
+			"Entries": {
+				"pufferfish_item": "pufferfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"129",
+				"ContextTags"
+			],
+			"Entries": {
+				"anchovy_item": "anchovy_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"130",
+				"ContextTags"
+			],
+			"Entries": {
+				"tuna_item": "tuna_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"131",
+				"ContextTags"
+			],
+			"Entries": {
+				"sardine_item": "sardine_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"132",
+				"ContextTags"
+			],
+			"Entries": {
+				"bream_item": "bream_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"136",
+				"ContextTags"
+			],
+			"Entries": {
+				"largemouth_bass_item": "largemouth_bass_item",
+				"bass_item": "bass_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"137",
+				"ContextTags"
+			],
+			"Entries": {
+				"smallmouth_bass_item": "smallmouth_bass_item",
+				"bass_item": "bass_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"138",
+				"ContextTags"
+			],
+			"Entries": {
+				"rainbow_trout_item": "rainbow_trout_item",
+				"trout_item": "trout_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"139",
+				"ContextTags"
+			],
+			"Entries": {
+				"salmon_item": "salmon_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"140",
+				"ContextTags"
+			],
+			"Entries": {
+				"walleye_item": "walleye_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"141",
+				"ContextTags"
+			],
+			"Entries": {
+				"perch_item": "perch_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"142",
+				"ContextTags"
+			],
+			"Entries": {
+				"carp_item": "carp_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"143",
+				"ContextTags"
+			],
+			"Entries": {
+				"catfish_item": "catfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"144",
+				"ContextTags"
+			],
+			"Entries": {
+				"pike_item": "pike_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"145",
+				"ContextTags"
+			],
+			"Entries": {
+				"sunfish_item": "sunfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"146",
+				"ContextTags"
+			],
+			"Entries": {
+				"red_mullet_item": "red_mullet_item",
+				"goatfish_item": "goatfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"147",
+				"ContextTags"
+			],
+			"Entries": {
+				"herring_item": "herring_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"148",
+				"ContextTags"
+			],
+			"Entries": {
+				"eel_item": "eel_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"149",
+				"ContextTags"
+			],
+			"Entries": {
+				"octopus_item": "octopus_item",
+				"cephalopod_item": "cephalopod_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"150",
+				"ContextTags"
+			],
+			"Entries": {
+				"red_snapper_item": "red_snapper_item",
+				"snapper_item": "snapper_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"151",
+				"ContextTags"
+			],
+			"Entries": {
+				"squid_item": "squid_item",
+				"cephalopod_item": "cephalopod_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"152",
+				"ContextTags"
+			],
+			"Entries": {
+				"seaweed_item": "seaweed_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"153",
+				"ContextTags"
+			],
+			"Entries": {
+				"green_algae_item": "green_algae_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"154",
+				"ContextTags"
+			],
+			"Entries": {
+				"sea_cucumber_item": "sea_cucumber_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"155",
+				"ContextTags"
+			],
+			"Entries": {
+				"sea_cucumber_item": "sea_cucumber_item",
+				"super_cucumber_item": "super_cucumber_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"156",
+				"ContextTags"
+			],
+			"Entries": {
+				"ghostfish_item": "ghostfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"157",
+				"ContextTags"
+			],
+			"Entries": {
+				"white_algae_item": "white_algae_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"158",
+				"ContextTags"
+			],
+			"Entries": {
+				"stonefish_item": "stonefish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"161",
+				"ContextTags"
+			],
+			"Entries": {
+				"ice_pip_item": "ice_pip_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"162",
+				"ContextTags"
+			],
+			"Entries": {
+				"lava_eel_item": "lava_eel_item",
+				"eel_item": "eel_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"164",
+				"ContextTags"
+			],
+			"Entries": {
+				"sandfish_item": "sandfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"165",
+				"ContextTags"
+			],
+			"Entries": {
+				"scorpion_carp_item": "scorpion_carp_item",
+				"carp_item": "carp_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"188",
+				"ContextTags"
+			],
+			"Entries": {
+				"green_bean_item": "green_bean_item",
+				"string_bean_item": "string_bean_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"190",
+				"ContextTags"
+			],
+			"Entries": {
+				"cauliflower_item": "cauliflower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"192",
+				"ContextTags"
+			],
+			"Entries": {
+				"potato_item": "potato_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"198",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_seafood": "food_seafood"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"199",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_soup": "food_soup"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"202",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_seafood": "food_seafood"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"206",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_pizza": "food_pizza"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"207",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_casserole": "food_casserole"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"216",
+				"ContextTags"
+			],
+			"Entries": {
+				"bread_item": "bread_item",
+				"baguette_item": "baguette_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"222",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_pie": "food_pie"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"223",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_cookie": "food_cookie"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"224",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_noodle": "food_noodle"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"229",
+				"ContextTags"
+			],
+			"Entries": {
+				"tortilla_item": "tortilla_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"233",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_ice_cream": "food_ice_cream"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"241",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_sandwich": "food_sandwich"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"245",
+				"ContextTags"
+			],
+			"Entries": {
+				"sugar_item": "sugar_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"246",
+				"ContextTags"
+			],
+			"Entries": {
+				"wheat_flour_item": "wheat_flour_item",
+				"flour_item": "flour_item",
+				"bread_flour_item": "bread_flour_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"247",
+				"ContextTags"
+			],
+			"Entries": {
+				"cooking_oil_item": "cooking_oil_item",
+				"oil_item": "oil_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"248",
+				"ContextTags"
+			],
+			"Entries": {
+				"garlic_item": "garlic_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"250",
+				"ContextTags"
+			],
+			"Entries": {
+				"kale_item": "kale_item",
+				"leafy_green_item": "leafy_green_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"252",
+				"ContextTags"
+			],
+			"Entries": {
+				"rhubarb_item": "rhubarb_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"254",
+				"ContextTags"
+			],
+			"Entries": {
+				"melon_item": "melon_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"256",
+				"ContextTags"
+			],
+			"Entries": {
+				"tomato_item": "tomato_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"257",
+				"ContextTags"
+			],
+			"Entries": {
+				"morel_item": "morel_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"258",
+				"ContextTags"
+			],
+			"Entries": {
+				"blueberry_item": "blueberry_item",
+				"berry_item": "berry_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"259",
+				"ContextTags"
+			],
+			"Entries": {
+				"fiddlehead_fern_item": "fiddlehead_fern_item",
+				"fern_item": "fern_item",
+				"leafy_green_item": "leafy_green_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"260",
+				"ContextTags"
+			],
+			"Entries": {
+				"chili_item": "chili_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"262",
+				"ContextTags"
+			],
+			"Entries": {
+				"wheat_item": "wheat_item",
+				"grain_item": "grain_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"264",
+				"ContextTags"
+			],
+			"Entries": {
+				"radish_item": "radish_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"266",
+				"ContextTags"
+			],
+			"Entries": {
+				"red_cabbage_item": "red_cabbage_item",
+				"cabbage_item": "cabbage_item",
+				"leafy_green_item": "leafy_green_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"268",
+				"ContextTags"
+			],
+			"Entries": {
+				"starfruit_item": "starfruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"270",
+				"ContextTags"
+			],
+			"Entries": {
+				"corn_item": "corn_item",
+				"grain_item": "grain_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"272",
+				"ContextTags"
+			],
+			"Entries": {
+				"eggplant_item": "eggplant_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"274",
+				"ContextTags"
+			],
+			"Entries": {
+				"artichoke_item": "artichoke_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"276",
+				"ContextTags"
+			],
+			"Entries": {
+				"pumpkin_item": "pumpkin_item",
+				"gourd_item": "gourd_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"278",
+				"ContextTags"
+			],
+			"Entries": {
+				"bok_choy_item": "bok_choy_item",
+				"leafy_green_item": "leafy_green_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"280",
+				"ContextTags"
+			],
+			"Entries": {
+				"yam_item": "yam_item",
+				"sweet_potato_item": "sweet_potato_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"281",
+				"ContextTags"
+			],
+			"Entries": {
+				"chanterelle_item": "chanterelle_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"282",
+				"ContextTags"
+			],
+			"Entries": {
+				"cranberry_item": "cranberry_item",
+				"berry_item": "berry_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"283",
+				"ContextTags"
+			],
+			"Entries": {
+				"holly_item": "holly_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"284",
+				"ContextTags"
+			],
+			"Entries": {
+				"beet_item": "beet_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"296",
+				"ContextTags"
+			],
+			"Entries": {
+				"salmonberry_item": "salmonberry_item",
+				"berry_item": "berry_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"300",
+				"ContextTags"
+			],
+			"Entries": {
+				"amaranth_item": "amaranth_item",
+				"grain_item": "grain_item",
+				"leafy_green_item": "leafy_green_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"303",
+				"ContextTags"
+			],
+			"Entries": {
+				"pale_ale_item": "pale_ale_item",
+				"ale_item": "ale_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"304",
+				"ContextTags"
+			],
+			"Entries": {
+				"hops_item": "hops_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"305",
+				"ContextTags"
+			],
+			"Entries": {
+				"void_item": "void_item",
+				"void_egg_item": "void_egg_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"308",
+				"ContextTags"
+			],
+			"Entries": {
+				"void_item": "void_item",
+				"void_mayo_item": "void_mayo_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"309",
+				"ContextTags"
+			],
+			"Entries": {
+				"acorn_item": "acorn_item",
+				"nut_item": "nut_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"340",
+				"ContextTags"
+			],
+			"Entries": {
+				"honey_item": "honey_item",
+				"sugar_item": "sugar_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"346",
+				"ContextTags"
+			],
+			"Entries": {
+				"beer_item": "beer_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"348",
+				"ContextTags"
+			],
+			"Entries": {
+				"wine_item": "wine_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"372",
+				"ContextTags"
+			],
+			"Entries": {
+				"clam_item": "clam_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"373",
+				"ContextTags"
+			],
+			"Entries": {
+				"pumpkin_item": "pumpkin_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"396",
+				"ContextTags"
+			],
+			"Entries": {
+				"spice_berry_item": "spice_berry_item",
+				"spice_item": "spice_item",
+				"berry_item": "berry_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"397",
+				"ContextTags"
+			],
+			"Entries": {
+				"sea_urchin_item": "sea_urchin_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"398",
+				"ContextTags"
+			],
+			"Entries": {
+				"grape_item": "grape_item",
+				"berry_item": "berry_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"399",
+				"ContextTags"
+			],
+			"Entries": {
+				"spring_onion_item": "spring_onion_item",
+				"green_onion_item": "green_onion_item",
+				"onion_item": "onion_item",
+				"herb_item": "herb_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"400",
+				"ContextTags"
+			],
+			"Entries": {
+				"strawberry_item": "strawberry_item",
+				"berry_item": "berry_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"402",
+				"ContextTags"
+			],
+			"Entries": {
+				"sweet_pea_item": "sweet_pea_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"404",
+				"ContextTags"
+			],
+			"Entries": {
+				"common_mushroom_item": "common_mushroom_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"406",
+				"ContextTags"
+			],
+			"Entries": {
+				"wild_plum_item": "wild_plum_item",
+				"plum_item": "plum_item",
+				"stone_fruit_item": "stone_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"408",
+				"ContextTags"
+			],
+			"Entries": {
+				"hazelnut_item": "hazelnut_item",
+				"nut_item": "nut_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"410",
+				"ContextTags"
+			],
+			"Entries": {
+				"blackberry_item": "blackberry_item",
+				"berry_item": "berry_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"412",
+				"ContextTags"
+			],
+			"Entries": {
+				"winter_root_item": "winter_root_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"414",
+				"ContextTags"
+			],
+			"Entries": {
+				"crystal_fruit_item": "crystal_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"416",
+				"ContextTags"
+			],
+			"Entries": {
+				"snow_yam_item": "snow_yam_item",
+				"yam_item": "yam_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"417",
+				"ContextTags"
+			],
+			"Entries": {
+				"sweet_gem_berry_item": "sweet_gem_berry_item",
+				"berry_item": "berry_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"418",
+				"ContextTags"
+			],
+			"Entries": {
+				"crocus_item": "crocus_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"419",
+				"ContextTags"
+			],
+			"Entries": {
+				"vinegar_item": "vinegar_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"420",
+				"ContextTags"
+			],
+			"Entries": {
+				"red_mushroom_item": "red_mushroom_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"421",
+				"ContextTags"
+			],
+			"Entries": {
+				"sunflower_item": "sunflower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"422",
+				"ContextTags"
+			],
+			"Entries": {
+				"purple_mushroom_item": "purple_mushroom_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"423",
+				"ContextTags"
+			],
+			"Entries": {
+				"rice_item": "rice_item",
+				"grain_item": "grain_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"424",
+				"ContextTags"
+			],
+			"Entries": {
+				"cheese_item": "cheese_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"426",
+				"ContextTags"
+			],
+			"Entries": {
+				"cheese_item": "cheese_item",
+				"soft_cheese_item": "soft_cheese_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"430",
+				"ContextTags"
+			],
+			"Entries": {
+				"truffle_item": "truffle_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"432",
+				"ContextTags"
+			],
+			"Entries": {
+				"cooking_oil_item": "cooking_oil_item",
+				"truffle_oil_item": "truffle_oil_item",
+				"oil_item": "oil_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"433",
+				"ContextTags"
+			],
+			"Entries": {
+				"coffee_bean_item": "coffee_bean_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"442",
+				"ContextTags"
+			],
+			"Entries": {
+				"duck_egg_item": "duck_egg_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"447",
+				"ContextTags"
+			],
+			"Entries": {
+				"aged_roe_item": "aged_roe_item",
+				"roe_item": "roe_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"454",
+				"ContextTags"
+			],
+			"Entries": {
+				"ancient_fruit_item": "ancient_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"456",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_soup": "food_soup"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"457",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_soup": "food_soup"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"459",
+				"ContextTags"
+			],
+			"Entries": {
+				"mead_item": "mead_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"591",
+				"ContextTags"
+			],
+			"Entries": {
+				"tulip_item": "tulip_item",
+				"edible_flower_item": "edible_flower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"593",
+				"ContextTags"
+			],
+			"Entries": {
+				"spangle_item": "spangle_item",
+				"edible_flower_item": "edible_flower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"595",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+				"rose_item": "rose_item",
+				"fairy_rose_item": "fairy_rose_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"597",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+				"jazz_item": "jazz_item",
+				"allium_item": "allium_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"376",
+				"ContextTags"
+			],
+			"Entries": {
+				"poppy_item": "poppy_item",
+				"edible_flower_item": "edible_flower_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"605",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_sauce": "food_sauce"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"608",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_pie": "food_pie"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"613",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"614",
+				"ContextTags"
+			],
+			"Entries": {
+				"tea_item": "tea_item",
+				"green_tea_item": "green_tea_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"648",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_salad": "food_salad"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"634",
+				"ContextTags"
+			],
+			"Entries": {
+				"apricot_item": "apricot_item",
+				"stone_fruit_item": "stone_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"635",
+				"ContextTags"
+			],
+			"Entries": {
+				"orange_item": "orange_item",
+				"citrus_item": "citrus_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"636",
+				"ContextTags"
+			],
+			"Entries": {
+				"peach_item": "peach_item",
+				"stone_fruit_item": "stone_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"637",
+				"ContextTags"
+			],
+			"Entries": {
+				"pomegranate_item": "pomegranate_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"638",
+				"ContextTags"
+			],
+			"Entries": {
+				"cherry_item": "cherry_item",
+				"stone_fruit_item": "stone_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"684",
+				"ContextTags"
+			],
+			"Entries": {
+				"bug_meat_item": "bug_meat_item",
+				"meat_item": "meat_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"698",
+				"ContextTags"
+			],
+			"Entries": {
+				"sturgeon_item": "sturgeon_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"699",
+				"ContextTags"
+			],
+			"Entries": {
+				"tiger_trout_item": "tiger_trout_item",
+				"trout_item": "trout_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"700",
+				"ContextTags"
+			],
+			"Entries": {
+				"bullhead_item": "bullhead_item",
+				"catfish_item": "catfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"701",
+				"ContextTags"
+			],
+			"Entries": {
+				"tilapia_item": "tilapia_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"702",
+				"ContextTags"
+			],
+			"Entries": {
+				"chub_item": "chub_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"704",
+				"ContextTags"
+			],
+			"Entries": {
+				"dorado_item": "dorado_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"705",
+				"ContextTags"
+			],
+			"Entries": {
+				"albacore_item": "albacore_item",
+				"tuna_item": "tuna_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"706",
+				"ContextTags"
+			],
+			"Entries": {
+				"shad_item": "shad_item",
+				"herring_item": "herring_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"707",
+				"ContextTags"
+			],
+			"Entries": {
+				"lingcod_item": "lingcod_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"708",
+				"ContextTags"
+			],
+			"Entries": {
+				"halibut_item": "halibut_item",
+				"flounder_item": "flounder_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"715",
+				"ContextTags"
+			],
+			"Entries": {
+				"lobster_item": "lobster_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"716",
+				"ContextTags"
+			],
+			"Entries": {
+				"crayfish_item": "crayfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"717",
+				"ContextTags"
+			],
+			"Entries": {
+				"crab_item": "crab_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"718",
+				"ContextTags"
+			],
+			"Entries": {
+				"cockle_item": "cockle_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"719",
+				"ContextTags"
+			],
+			"Entries": {
+				"mussel_item": "mussel_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"720",
+				"ContextTags"
+			],
+			"Entries": {
+				"shrimp_item": "shrimp_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"721",
+				"ContextTags"
+			],
+			"Entries": {
+				"snail_item": "snail_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"722",
+				"ContextTags"
+			],
+			"Entries": {
+				"periwinkle_item": "periwinkle_item",
+				"snail_item": "snail_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"723",
+				"ContextTags"
+			],
+			"Entries": {
+				"oyster_item": "oyster_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"724",
+				"ContextTags"
+			],
+			"Entries": {
+				"maple_syrup_item": "maple_syrup_item",
+				"sugar_item": "sugar_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"734",
+				"ContextTags"
+			],
+			"Entries": {
+				"woodskip_item": "woodskip_item",
+				"mudskipper_item": "mudskipper_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"795",
+				"ContextTags"
+			],
+			"Entries": {
+				"void_salmon_item": "void_salmon_item",
+				"salmon_item": "salmon_item",
+				"void_item": "void_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"796",
+				"ContextTags"
+			],
+			"Entries": {
+				"slimejack_item": "slimejack_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"798",
+				"ContextTags"
+			],
+			"Entries": {
+				"midnight_squid_item": "midnight_squid_item",
+				"squid_item": "squid_item",
+				"cephalopod_item": "cephalopod_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"800",
+				"ContextTags"
+			],
+			"Entries": {
+				"blobfish_item": "blobfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"812",
+				"ContextTags"
+			],
+			"Entries": {
+				"roe_item": "roe_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"445",
+				"ContextTags"
+			],
+			"Entries": {
+				"roe_item": "roe_item",
+				"caviar_item": "caviar_item",
+				"aged_roe_item": "aged_roe_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"814",
+				"ContextTags"
+			],
+			"Entries": {
+				"ink_item": "ink_item",
+				"squid_ink_item": "squid_ink_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"815",
+				"ContextTags"
+			],
+			"Entries": {
+				"tea_leaf_item": "tea_leaf_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"267",
+				"ContextTags"
+			],
+			"Entries": {
+				"flounder_item": "flounder_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"269",
+				"ContextTags"
+			],
+			"Entries": {
+				"carp_item": "carp_item",
+				"midnight_carp_item": "midnight_carp_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"91",
+				"ContextTags"
+			],
+			"Entries": {
+				"banana_item": "banana_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"829",
+				"ContextTags"
+			],
+			"Entries": {
+				"ginger_item": "ginger_item",
+				"spice_item": "spice_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"830",
+				"ContextTags"
+			],
+			"Entries": {
+				"taro_item": "taro_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"832",
+				"ContextTags"
+			],
+			"Entries": {
+				"pineapple_item": "pineapple_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"834",
+				"ContextTags"
+			],
+			"Entries": {
+				"mango_item": "mango_item",
+				"stone_fruit_item": "stone_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"836",
+				"ContextTags"
+			],
+			"Entries": {
+				"stingray_item": "stingray_item",
+				"ray_item": "ray_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"837",
+				"ContextTags"
+			],
+			"Entries": {
+				"lionfish_item": "lionfish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"838",
+				"ContextTags"
+			],
+			"Entries": {
+				"blue_discus_item": "blue_discus_item",
+				"discus_item": "discus_item",
+				"cichlid_item": "cichlid_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"851",
+				"ContextTags"
+			],
+			"Entries": {
+				"magma_cap_item": "magma_cap_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"874",
+				"ContextTags"
+			],
+			"Entries": {
+				"meat_item": "meat_item",
+				"bug_meat_item": "bug_meat_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"921",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_pasta": "food_pasta"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Moss",
+				"ContextTags"
+			],
+			"Entries": {
+				"moss_item": "moss_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Raisins",
+				"ContextTags"
+			],
+			"Entries": {
+				"raisin_item": "raisin_item",
+				"dried_fruit_item": "dried_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"DriedFruit",
+				"ContextTags"
+			],
+			"Entries": {
+				"dried_fruit_item": "dried_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"DriedMushrooms",
+				"ContextTags"
+			],
+			"Entries": {
+				"dried_mushroom_item": "dried_mushroom_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Carrot",
+				"ContextTags"
+			],
+			"Entries": {
+				"carrot_item": "carrot_item",
+				"root_vegetable_item": "root_vegetable_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"SummerSquash",
+				"ContextTags"
+			],
+			"Entries": {
+				"summer_squash_item": "summer_squash_item",
+				"yellow_squash_item": "yellow_squash_item",
+				"courgette_item": "courgette_item",
+				"zucchini_item": "zucchini_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Broccoli",
+				"ContextTags"
+			],
+			"Entries": {
+				"broccoli_item": "broccoli_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Powdermelon",
+				"ContextTags"
+			],
+			"Entries": {
+				"powdermelon_item": "powdermelon_item",
+				"melon_item": "melon_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"SmokedFish",
+				"ContextTags"
+			],
+			"Entries": {
+				"smoked_fish_item": "smoked_fish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Goby",
+				"ContextTags"
+			],
+			"Entries": {
+				"goby_item": "goby_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"MossSoup",
+				"ContextTags"
+			],
+			"Entries": {
+				"food_soup": "food_soup"
+			}
+		}
+	]
+}

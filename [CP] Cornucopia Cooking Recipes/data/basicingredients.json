@@ -1,0 +1,405 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Early",
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": false
+			},
+			"Entries": {
+				"Cornucopia_CornFlour": {
+					"Name": "Cornucopia_CornFlour",
+					"Category": 31,
+					"Type": "Basic",
+					"SpriteIndex": 31,
+					"DisplayName": "{{i18n:CornFlour_name}}",
+					"Description": "{{i18n:CornFlour_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 50,
+					"Edibility": 5,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_green",
+						"cornucopia_artisangood",
+						"flour_item"
+					]
+				},
+				"Cornucopia_WheatNoodles": {
+					"Name": "Cornucopia_WheatNoodles",
+					"Category": -26,
+					"Type": "Basic",
+					"SpriteIndex": 32,
+					"DisplayName": "{{i18n:WheatNoodles_name}}",
+					"Description": "{{i18n:WheatNoodles_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 150,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_yellow",
+						"noodle_item",
+						"cornucopia_artisangood",
+						"wheat_noodle_item",
+						"pasta_item",
+						"allergen_gluten"
+					]
+				},
+				"Cornucopia_SeaSalt": {
+					"Name": "Cornucopia_SeaSalt",
+					"SpriteIndex": 30,
+					"DisplayName": "{{i18n:SeaSalt_name}}",
+					"Description": "{{i18n:SeaSalt_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 60,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_pink",
+						"forage_item",
+						"forage_item_beach"
+					],
+					"Type": "Basic",
+					"Category": -23
+				},
+				"Cornucopia_Salt": {
+					"Name": "Cornucopia_Salt",
+					"Category": -26,
+					"Type": "Basic",
+					"SpriteIndex": 33,
+					"DisplayName": "{{i18n:Salt_name}}",
+					"Description": "{{i18n:Salt_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 140,
+					"Edibility": -300,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_white",
+						"spice_item",
+						"cornucopia_artisangood",
+						"salt_item",
+						"cornucopia_alembic_essentialoil_banned",
+						"cornucopia_waxbarrel_candles_banned",
+						"cornucopia_chefstock"
+					]
+				},
+				"Cornucopia_Marshmallow": {
+					"Name": "Cornucopia_Marshmallow",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 73,
+					"DisplayName": "{{i18n:Marshmallow_name}}",
+					"Description": "{{i18n:Marshmallow_description}}",
+					"Texture": "MCornucopia.CookingRecipes/Objects",
+					"Price": 250,
+					"Edibility": 36,
+					"IsDrink": false,
+					"ExcludeFromShippingCollection": true,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 200,
+							"CustomAttributes": {
+								"LuckLevel": 1.0
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_food",
+						"food_sweet",
+						"food_party",
+						"color_white"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Early",
+			"When": {
+				"World Traveler": false
+			},
+			"Entries": {
+				"Cornucopia_HotSauce": {
+					"Name": "Cornucopia_HotSauce",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 247,
+					"DisplayName": "{{i18n:HotSauce_name}}",
+					"Description": "{{i18n:HotSauce_description}}",
+					"Texture": "MCornucopia.CookingRecipes/Objects",
+					"Price": 250,
+					"Edibility": 8,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 60,
+							"CustomAttributes": {
+								"Speed": 2.0
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_food",
+						"food_spicy",
+						"food_sauce",
+						"color_red",
+						"cornucopia_chefstock"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.CookingRecipes_CornFlour": {
+					"Id": "Cornucopia.CookingRecipes_CornFlour",
+					"ItemId": "(O)Cornucopia_CornFlour",
+					"UseObjectDataPrice": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia.CookingRecipes_WheatNoodles": {
+					"Id": "Cornucopia.CookingRecipes_WheatNoodles",
+					"ItemId": "(O)Cornucopia_WheatNoodles",
+					"UseObjectDataPrice": true,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": false
+			},
+			"TargetField": [
+				"FishShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.CookingRecipes_Salt": {
+					"Id": "Cornucopia.CookingRecipes_Salt",
+					"ItemId": "(O)Cornucopia_Salt",
+					"TradeItemId": "Cornucopia_SeaSalt",
+					"TradeItemAmount": 1
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": false
+			},
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.CookingRecipes_Marshmallow": {
+					"Id": "Cornucopia.CookingRecipes_Marshmallow",
+					"ItemId": "Cornucopia_Marshmallow"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia.CookingRecipes_HotSauce": {
+					"Id": "Cornucopia.CookingRecipes_HotSauce",
+					"ItemId": "Cornucopia_HotSauce"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Early",
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": false
+			},
+			"TargetField": [
+				"Beach",
+				"Forage"
+			],
+			"Entries": {
+				"(O)Cornucopia_SeaSalt": {
+					"ItemId": "(O)Cornucopia_SeaSalt",
+					"Chance": 0.4
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Early",
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": false
+			},
+			"TargetField": [
+				"IslandSouth",
+				"Forage"
+			],
+			"Entries": {
+				"(O)Cornucopia_SeaSalt": {
+					"ItemId": "(O)Cornucopia_SeaSalt",
+					"Chance": 0.1
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Early",
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": false
+			},
+			"TargetField": [
+				"IslandSouthEast",
+				"Forage"
+			],
+			"Entries": {
+				"(O)Cornucopia_SeaSalt": {
+					"ItemId": "(O)Cornucopia_SeaSalt",
+					"Chance": 0.1
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Priority": "Early",
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": false
+			},
+			"Entries": {
+				"Cornucopia_SeaSalt": "Cornucopia_SeaSalt/trap/0.6/682 .45/ocean/1/3"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"Priority": "Early",
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": false
+			},
+			"TargetField": [
+				"Mill",
+				"ItemConversions"
+			],
+			"Entries": {
+				"Cornucopia_CornFlour": {
+					"Id": "Cornucopia_CornFlour",
+					"SourceChest": "Input",
+					"DestinationChest": "Output",
+					"RequiredTags": [
+						"id_o_270"
+					],
+					"ProducedItems": [
+						{
+							"ItemId": "(O)Cornucopia_CornFlour",
+							"MinStack": 2
+						}
+					],
+					"MaxDailyConversions": -1
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)21",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_SeaSalt": {
+					"Id": "Cornucopia_SeaSalt",
+					"Triggers": [
+						{
+							"Id": "OutputCollected",
+							"Trigger": "OutputCollected",
+							"RequiredItemId": null,
+							"RequiredTags": null,
+							"RequiredCount": 1,
+							"Condition": null
+						},
+						{
+							"Id": "ItemPlacedInMachine_SeaSalt",
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "Cornucopia_SeaSalt",
+						},
+					],
+					"UseFirstValidOutput": false,
+					"OutputItem": [
+						{
+							"CustomData": null,
+							"OutputMethod": null,
+							"CopyColor": false,
+							"CopyPrice": false,
+							"CopyQuality": false,
+							"PreserveType": null,
+							"PreserveId": null,
+							"IncrementMachineParentSheetIndex": 0,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"Condition": null,
+							"Id": "Default",
+							"ItemId": "DROP_IN",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": 0,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ObjectColor": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					],
+					"MinutesUntilReady": 3000,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Sewer",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_Marshmallow": {
+					"Id": "Cornucopia_Marshmallow",
+					"ItemId": "(O)Cornucopia_Marshmallow",
+					"Chance": 0.5,
+					"MinDistanceFromShore": 0,
+				},
+			},
+		},
+	]
+}

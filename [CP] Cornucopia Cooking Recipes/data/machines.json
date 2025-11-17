@@ -1,0 +1,30 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)20",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_RecipeinaBottle": {
+					"Id": "Cornucopia_RecipeinaBottle",
+					"Triggers": [
+						{
+							"Id": "Default",
+							"RequiredItemId": "(O)Cornucopia_RecipeinaBottle"
+						}
+					],
+					"OutputItem": [
+						{
+							"Id": "Default",
+							"ItemId": "(O)338"
+						}
+					],
+					"MinutesUntilReady": 60
+				},
+			},
+		}
+	]
+}

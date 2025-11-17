@@ -1,0 +1,175 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.AtelierGoods_Caramel",
+				"ContextTags"
+			],
+			"Entries": {
+				"caramel_item": "caramel_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.AtelierGoods_Bread_Flour",
+				"ContextTags"
+			],
+			"Entries": {
+				"wheat_flour_item": "wheat_flour_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.AtelierGoods_Cake_Flour",
+				"ContextTags"
+			],
+			"Entries": {
+				"wheat_flour_item": "wheat_flour_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Wildflour.AtelierGoods_Pastry_Flour",
+				"ContextTags"
+			],
+			"Entries": {
+				"wheat_flour_item": "wheat_flour_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Atelier.Cauldron/ConfigValue:SimpleAddOn": true,
+				"HasMod|contains=Atelier.Cauldron": true
+			},
+			"TargetField": [
+				"Wildflour.AtelierGoods_Flavored_Syrup",
+				"ContextTags"
+			],
+			"Entries": {
+				"wildflour_syrup_item": "wildflour_syrup_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Atelier.Cauldron/ConfigValue:WildFood": true,
+				"HasMod|contains=Atelier.Cauldron": true
+			},
+			"TargetField": [
+				"Wildflour.AtelierGoods_Olive_Oil",
+				"ContextTags"
+			],
+			"Entries": {
+				"cooking_oil_item": "cooking_oil_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Pickles": true,
+				"Atelier.Cauldron/ConfigValue:WildFood": true,
+				"HasMod|contains=Atelier.Cauldron": true
+			},
+			"TargetField": [
+				"Wildflour.AtelierGoods_Kale_Pesto",
+				"ContextTags"
+			],
+			"Entries": {
+				"pesto_item": "pesto_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Pickles": true,
+				"Atelier.Cauldron/ConfigValue:WildFood": true,
+				"HasMod|contains=Atelier.Cauldron": true
+			},
+			"TargetField": [
+				"Wildflour.AtelierGoods_Olive_Tapenade",
+				"ContextTags"
+			],
+			"Entries": {
+				"tapenade_item": "tapenade_item",
+				"pickled_olive_item": "pickled_olive_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Pickles": true,
+				"Atelier.Cauldron/ConfigValue:WildFood": true,
+				"HasMod|contains=Atelier.Cauldron": true
+			},
+			"TargetField": [
+				"Wildflour.AtelierGoods_Pickled_Fish",
+				"ContextTags"
+			],
+			"Entries": {
+				"pickled_fish_item": "pickled_fish_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Pickles": true,
+				"Atelier.Cauldron/ConfigValue:WildFood": true,
+				"HasMod|contains=Atelier.Cauldron": true
+			},
+			"TargetField": [
+				"Wildflour.AtelierGoods_Pickled_Olives",
+				"ContextTags"
+			],
+			"Entries": {
+				"pickled_olive_item": "pickled_olive_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Pickles": true,
+				"Atelier.Cauldron/ConfigValue:WildFood": true,
+				"HasMod|contains=Atelier.Cauldron": true
+			},
+			"TargetField": [
+				"Wildflour.AtelierGoods_Sauerkraut",
+				"ContextTags"
+			],
+			"Entries": {
+				"sauerkraut_item": "sauerkraut_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Atelier.Cauldron/ConfigValue:Pickles": true,
+				"Atelier.Cauldron/ConfigValue:WildFood": true,
+				"HasMod|contains=Atelier.Cauldron": true
+			},
+			"TargetField": [
+				"Wildflour.AtelierGoods_Basil_Pesto",
+				"ContextTags"
+			],
+			"Entries": {
+				"pesto_item": "pesto_item"
+			}
+		}
+	]
+}

@@ -1,0 +1,713 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"Cornucopia_RecipeinaBottle": {
+					"Name": "Cornucopia_RecipeinaBottle",
+					"Category": 0,
+					"Type": "Basic",
+					"SpriteIndex": 1,
+					"DisplayName": "{{i18n:RecipeinaBottle_name}}",
+					"Description": "{{i18n:RecipeinaBottle_description}}",
+					"Texture": "Cornucopia.CookingRecipes/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"Entries": {
+				"Cornucopia_RecipeinaBottle": {
+					"UseForTriggerAction": true,
+					"ConsumeForTriggerAction": true,
+					"CanBeShipped": false
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_RecipeinaBottle_FirstFound": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_FirstFound",
+					"Trigger": "Spiderbuttons.BETAS_ForagePicked",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "ITEM_ID Target Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"RemoveItem Cornucopia_RecipeinaBottle",
+						"Spiderbuttons.BETAS_HoldUpItem Cornucopia_RecipeinaBottle",
+						//"Spiderbuttons.BETAS_PlaySound getNewSpecialItem",
+						//"Spiderbuttons.BETAS_Message \"{{i18n:RecipeinaBottle_Found}}\" true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_SaltGrilledFish": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_SaltGrilledFish",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaltGrilledFish, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_SaltGrilledFish]]]\" (O)Cornucopia_SaltGrilledFish",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_SaltGrilledFish true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_Used": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_Used",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "{{PlayerHasBottleRecipes}}, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RecipeinaBottle_Used}}\"",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_Complete received",
+						"AddItem Cornucopia_RecipeinaBottle"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_AnchovyPizza": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_AnchovyPizza",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_AnchovyPizza, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_AnchovyPizza]]]\" (O)Cornucopia_AnchovyPizza",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_AnchovyPizza true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_CreamCheese": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_CreamCheese",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamCheese, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_CreamCheese]]]\" (O)Cornucopia_CreamCheese",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_CreamCheese true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_CreamPuff": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_CreamPuff",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CreamPuff, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_CreamPuff]]]\" (O)Cornucopia_CreamPuff",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_CreamPuff true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_Ladyfingers": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_Ladyfingers",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Ladyfingers, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_Ladyfingers]]]\" (O)Cornucopia_Ladyfingers",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_Ladyfingers true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_LeekSoup": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_LeekSoup",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LeekSoup, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_LeekSoup]]]\" (O)Cornucopia_LeekSoup",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_LeekSoup true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_MacandCheese": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_MacandCheese",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_MacandCheese, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_MacandCheese]]]\" (O)Cornucopia_MacandCheese",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_MacandCheese true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_Mochi": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_Mochi",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Mochi, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_Mochi]]]\" (O)Cornucopia_Mochi",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_Mochi true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_PotatoFries": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_PotatoFries",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PotatoFries, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_PotatoFries]]]\" (O)Cornucopia_PotatoFries",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_PotatoFries true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_FruitSmoothie": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_FruitSmoothie",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FruitSmoothie, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_FruitSmoothie]]]\" (O)Cornucopia_FruitSmoothie",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_FruitSmoothie true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_BakedPotato": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_BakedPotato",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Essential}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BakedPotato, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_BakedPotato]]]\" (O)Cornucopia_BakedPotato",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_BakedPotato true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_BananaBread": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_BananaBread",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Essential}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BananaBread, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_BananaBread]]]\" (O)Cornucopia_BananaBread",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_BananaBread true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_DragonRoll": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_DragonRoll",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Essential}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_DragonRoll, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_DragonRoll]]]\" (O)Cornucopia_DragonRoll",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_DragonRoll true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_CrabDip": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_CrabDip",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Essential}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_CrabDip, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_CrabDip]]]\" (O)Cornucopia_CrabDip",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_CrabDip true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_StuffedPeppers": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_StuffedPeppers",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Essential}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_StuffedPeppers, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_StuffedPeppers]]]\" (O)Cornucopia_StuffedPeppers",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_StuffedPeppers true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_BeanBurger": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_BeanBurger",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanBurger, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_BeanBurger]]]\" (O)Cornucopia_BeanBurger",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_BeanBurger true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_BeanQuesadilla": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_BeanQuesadilla",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanQuesadilla, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_BeanQuesadilla]]]\" (O)Cornucopia_BeanQuesadilla",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_BeanQuesadilla true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_Broth": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_Broth",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Broth, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_Broth]]]\" (O)Cornucopia_Broth",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_Broth true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_ButternutSquashSoup": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_ButternutSquashSoup",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_ButternutSquashSoup, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_ButternutSquashSoup]]]\" (O)Cornucopia_ButternutSquashSoup",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_ButternutSquashSoup true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_SunriseToast": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_SunriseToast",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SunriseToast, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_SunriseToast]]]\" (O)Cornucopia_SunriseToast",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_SunriseToast true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_FarmersRamen": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_FarmersRamen",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FarmersRamen, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_FarmersRamen]]]\" (O)Cornucopia_FarmersRamen",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_FarmersRamen true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_FettuccineAlfredo": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_FettuccineAlfredo",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FettuccineAlfredo, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_FettuccineAlfredo]]]\" (O)Cornucopia_FettuccineAlfredo",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_FettuccineAlfredo true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_Flan": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_Flan",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Flan, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_Flan]]]\" (O)Cornucopia_Flan",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_Flan true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_Fondue": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_Fondue",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Fondue, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_Fondue]]]\" (O)Cornucopia_Fondue",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_Fondue true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_FriedRice": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_FriedRice",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FriedRice, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_FriedRice]]]\" (O)Cornucopia_FriedRice",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_FriedRice true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_Gumbo": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_Gumbo",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Gumbo, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_Gumbo]]]\" (O)Cornucopia_Gumbo",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_Gumbo true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_KeyLimePie": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_KeyLimePie",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_KeyLimePie, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_KeyLimePie]]]\" (O)Cornucopia_KeyLimePie",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_KeyLimePie true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_LoxandaSchmear": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_LoxandaSchmear",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LoxandaSchmear, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_LoxandaSchmear]]]\" (O)Cornucopia_LoxandaSchmear",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_LoxandaSchmear true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_LumberjacksBun": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_LumberjacksBun",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_LumberjacksBun, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_LumberjacksBun]]]\" (O)Cornucopia_LumberjacksBun",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_LumberjacksBun true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_PinkDrink": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_PinkDrink",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PinkDrink, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_PinkDrink]]]\" (O)Cornucopia_PinkDrink",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_PinkDrink true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_SpinachDip": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_SpinachDip",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SpinachDip, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_SpinachDip]]]\" (O)Cornucopia_SpinachDip",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_SpinachDip true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_SaladRolls": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_SaladRolls",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SaladRolls, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_SaladRolls]]]\" (O)Cornucopia_SaladRolls",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_SaladRolls true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_TilapiaandZoodles": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_TilapiaandZoodles",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_TilapiaandZoodles, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_TilapiaandZoodles]]]\" (O)Cornucopia_TilapiaandZoodles",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_TilapiaandZoodles true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_Waffles": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_Waffles",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_Waffles, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_Waffles]]]\" (O)Cornucopia_Waffles",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_Waffles true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_YucaFries": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_YucaFries",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{HomeCook_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_YucaFries, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_YucaFries]]]\" (O)Cornucopia_YucaFries",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_YucaFries true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_BeanChili": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_BeanChili",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BeanChili, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_BeanChili]]]\" (O)Cornucopia_BeanChili",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_BeanChili true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_BroccoliCheeseSoup": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_BroccoliCheeseSoup",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_BroccoliCheeseSoup, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_BroccoliCheeseSoup]]]\" (O)Cornucopia_BroccoliCheeseSoup",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_BroccoliCheeseSoup true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_FriedOkra": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_FriedOkra",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_FriedOkra, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_FriedOkra]]]\" (O)Cornucopia_FriedOkra",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_FriedOkra true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_GreenMachine": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_GreenMachine",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_GreenMachine, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_GreenMachine]]]\" (O)Cornucopia_GreenMachine",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_GreenMachine true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_JelliedCompote": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_JelliedCompote",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_JelliedCompote, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_JelliedCompote]]]\" (O)Cornucopia_JelliedCompote",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_JelliedCompote true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_MelonSalad": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_MelonSalad",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_MelonSalad, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_MelonSalad]]]\" (O)Cornucopia_MelonSalad",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_MelonSalad true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_PowderShake": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_PowderShake",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_PowderShake, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_PowderShake]]]\" (O)Cornucopia_PowderShake",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_PowderShake true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_RaisinBread": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_RaisinBread",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_RaisinBread, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_RaisinBread]]]\" (O)Cornucopia_RaisinBread",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_RaisinBread true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_SpringSalad": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_SpringSalad",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_SpringSalad, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_SpringSalad]]]\" (O)Cornucopia_SpringSalad",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_SpringSalad true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_TortillaRollUps": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_TortillaRollUps",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "{{WorldTraveler_Extended}}, !PLAYER_HAS_COOKING_RECIPE Current Cornucopia_TortillaRollUps, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce, ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"spacechase0.SpaceCore_ShowHudMessage \"[LocalizedText Strings/StringsFromCSFiles:TV.cs.13153 [EscapedText [ItemName (O)Cornucopia_TortillaRollUps]]]\" (O)Cornucopia_TortillaRollUps",
+						"AddMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce received",
+						"MarkCookingRecipeKnown Current Cornucopia_TortillaRollUps true"
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_Reset": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_Reset",
+					"Trigger": "spacechase0.SpaceCore_OnItemUsed",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Input Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"Spiderbuttons.BETAS_PlaySound newArtifact",
+						"RemoveMail Current Cornucopia.CookingRecipes_RecipeinaBottle_RunOnce all"
+					]
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				},
+				{
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_{{Random: AnchovyPizza, CreamCheese, CreamPuff, Ladyfingers, LeekSoup, MacandCheese, Mochi, PotatoFries, Smoothie, BakedPotato, BananaBread, DragonRoll, CrabDip, StuffedPeppers, BeanBurger, BeanQuesadilla, Broth, ButternutSquashSoup, SunriseToast, FarmersRamen, FettuccineAlfredo, Flan, Fondue, FriedRice, Gumbo, KeyLimePie, LoxandaSchmear, LumberjacksBun, PinkDrink, SpinachDip, SaladRolls, TilapiaandZoodles, Waffles, YucaFries, BeanChili, BroccoliCheeseSoup, FriedOkra, GreenMachine, JelliedCompote, MelonSalad, PowderShake, RaisinBread, SpringSalad, TortillaRollUps}}",
+					"AfterId": "Cornucopia.CookingRecipes_RecipeinaBottle_Used"
+				}
+			]
+		}
+	]
+}

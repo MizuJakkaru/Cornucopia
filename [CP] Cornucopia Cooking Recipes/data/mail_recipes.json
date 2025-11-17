@@ -1,0 +1,717 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"Cornucopia.CorkingRecipes_AbigailBrownie": "{{i18n:Mail_AbigailRecipe_body}}%item cookingRecipe Cornucopia_Brownie%%[#]{{i18n:Mail_AbigailRecipe_title}}",
+				"Cornucopia.CorkingRecipes_AbigailBaklava": "{{i18n:Mail_AbigailRecipe_body}}%item cookingRecipe Cornucopia_Baklava%%[#]{{i18n:Mail_AbigailRecipe_title}}",
+				"Cornucopia.CorkingRecipes_AbigailCinderdoodles": "{{i18n:Mail_AbigailRecipe_body}}%item cookingRecipe Cornucopia_Cinderdoodles%%[#]{{i18n:Mail_AbigailRecipe_title}}",
+				"Cornucopia.CorkingRecipes_AbigailTiramisu": "{{i18n:Mail_AbigailTiramisu_body}}%item cookingRecipe Cornucopia_Tiramisu%%[#]{{i18n:Mail_AbigailTiramisu_title}}",
+				"Cornucopia.CorkingRecipes_AlexSpinachQuiche": "{{i18n:Mail_AlexRecipe_body}}%item cookingRecipe Cornucopia_SpinachQuiche%%[#]{{i18n:Mail_AlexRecipe_title}}",
+				"Cornucopia.CorkingRecipes_AlexBreakfastScramble": "{{i18n:Mail_AlexRecipe_body}}%item cookingRecipe Cornucopia_BreakfastScramble%%[#]{{i18n:Mail_AlexRecipe_title}}",
+				"Cornucopia.CorkingRecipes_AlexAsparagusDelight": "{{i18n:Mail_AlexRecipe_body}}%item cookingRecipe Cornucopia_AsparagusDelight%%[#]{{i18n:Mail_AlexRecipe_title}}",
+				"Cornucopia.CorkingRecipes_AlexOmurice": "{{i18n:Mail_AlexOmurice_body}}%item cookingRecipe Cornucopia_Omurice%%[#]{{i18n:Mail_AlexOmurice_title}}",
+				"Cornucopia.CorkingRecipes_CarolineVegetablePotPie": "{{i18n:Mail_CarolineVegetablePotPie_body}}%item cookingRecipe Cornucopia_VegetablePotPie%%[#]{{i18n:Mail_CarolineVegetablePotPie_title}}",
+				"Cornucopia.CorkingRecipes_ClintTunaSteak": "{{i18n:Mail_ClintTunaSteak_body}}%item cookingRecipe Cornucopia_TunaSteak%%[#]{{i18n:Mail_ClintTunaSteak_title}}",
+				"Cornucopia.CorkingRecipes_DemetriusSeafoodBoil": "{{i18n:Mail_DemetriusSeafoodBoil_body}}%item cookingRecipe Cornucopia_SeafoodBoil%%[#]{{i18n:Mail_DemetriusSeafoodBoil_title}}",
+				"Cornucopia.CorkingRecipes_DwarfAncientWonder": "{{i18n:Mail_DwarfAncientWonder_body}}%item cookingRecipe Cornucopia_AncientWonder%%[#]{{i18n:Mail_DwarfAncientWonder_title}}",
+				"Cornucopia.CorkingRecipes_DwarfHardtack": "{{i18n:Mail_DwarfHardtack_body}}%item cookingRecipe Cornucopia_Hardtack%%[#]{{i18n:Mail_DwarfHardtack_title}}",
+				"Cornucopia.CorkingRecipes_ElliottCremeBrulee": "{{i18n:Mail_ElliottRecipe_body}}%item cookingRecipe Cornucopia_CremeBrulee%%[#]{{i18n:Mail_ElliottRecipe_title}}",
+				"Cornucopia.CorkingRecipes_ElliottChefSalad": "{{i18n:Mail_ElliottRecipe_body}}%item cookingRecipe Cornucopia_ChefSalad%%[#]{{i18n:Mail_ElliottRecipe_title}}",
+				"Cornucopia.CorkingRecipes_ElliottFigToast": "{{i18n:Mail_ElliottRecipe_body}}%item cookingRecipe Cornucopia_FigToast%%[#]{{i18n:Mail_ElliottRecipe_title}}",
+				"Cornucopia.CorkingRecipes_ElliottFishnChips": "{{i18n:Mail_ElliottFishnChips_body}}%item cookingRecipe Cornucopia_FishnChips%%[#]{{i18n:Mail_ElliottFishnChips_title}}",
+				"Cornucopia.CorkingRecipes_EmilyGrilledCheese": "{{i18n:Mail_EmilyGrilledCheese_body}}%item cookingRecipe Cornucopia_GrilledCheese%%[#]{{i18n:Mail_EmilyGrilledCheese_title}}",
+				"Cornucopia.CorkingRecipes_EvelynPineappleUpsideDownCake": "{{i18n:Mail_EvelynPineappleUpsideDownCake_body}}%item cookingRecipe Cornucopia_PineappleUpsideDownCake%%[#]{{i18n:Mail_EvelynPineappleUpsideDownCake_title}}",
+				"Cornucopia.CorkingRecipes_GeorgeCheesecake": "{{i18n:Mail_GeorgeCheesecake_body}}%item cookingRecipe Cornucopia_Cheesecake%%[#]{{i18n:Mail_GeorgeCheesecake_title}}",
+				"Cornucopia.CorkingRecipes_GusZucchiniFritters": "{{i18n:Mail_GusZucchiniFritters_body}}%item cookingRecipe Cornucopia_ZucchiniFritters%%[#]{{i18n:Mail_GusZucchiniFritters_title}}",
+				"Cornucopia.CorkingRecipes_HaleyPoachedPear": "{{i18n:Mail_HaleyRecipe_body}}%item cookingRecipe Cornucopia_PoachedPear%%[#]{{i18n:Mail_HaleyRecipe_title}}",
+				"Cornucopia.CorkingRecipes_HaleyAutumnMuffin": "{{i18n:Mail_HaleyRecipe_body}}%item cookingRecipe Cornucopia_AutumnMuffin%%[#]{{i18n:Mail_HaleyRecipe_title}}",
+				"Cornucopia.CorkingRecipes_HaleyMacarons": "{{i18n:Mail_HaleyRecipe_body}}%item cookingRecipe Cornucopia_Macaron%%[#]{{i18n:Mail_HaleyRecipe_title}}",
+				"Cornucopia.CorkingRecipes_HaleySpicedCarrotCake": "{{i18n:Mail_HaleySpicedCarrotCake_body}}%item cookingRecipe Cornucopia_SpicedCarrotCake%%[#]{{i18n:Mail_HaleySpicedCarrotCake_title}}",
+				"Cornucopia.CorkingRecipes_HarveyShakshouka": "{{i18n:Mail_HarveyRecipe_body}}%item cookingRecipe Cornucopia_Shakshouka%%[#]{{i18n:Mail_HarveyRecipe_title}}",
+				"Cornucopia.CorkingRecipes_HarveyGroundnutStew": "{{i18n:Mail_HarveyRecipe_body}}%item cookingRecipe Cornucopia_GroundnutStew%%[#]{{i18n:Mail_HarveyRecipe_title}}",
+				"Cornucopia.CorkingRecipes_HarveyTomatoSoup": "{{i18n:Mail_HarveyRecipe_body}}%item cookingRecipe Cornucopia_TomatoSoup%%[#]{{i18n:Mail_HarveyRecipe_title}}",
+				"Cornucopia.CorkingRecipes_HarveyCoffeeCake": "{{i18n:Mail_HarveyCoffeeCake_body}}%item cookingRecipe Cornucopia_CoffeeCake%%[#]{{i18n:Mail_HarveyCoffeeCake_title}}",
+				"Cornucopia.CorkingRecipes_JasStrawberryShortcake": "{{i18n:Mail_JasStrawberryShortcake_body}}%item cookingRecipe Cornucopia_StrawberryShortcake%%[#]{{i18n:Mail_JasStrawberryShortcake_title}}",
+				"Cornucopia.CorkingRecipes_JodiHeartySautee": "{{i18n:Mail_JodiHeartySautee_body}}%item cookingRecipe Cornucopia_HeartySautee%%[#]{{i18n:Mail_JodiHeartySautee_title}}",
+				"Cornucopia.CorkingRecipes_KentJohnnycakes": "{{i18n:Mail_KentJohnnycakes_body}}%item cookingRecipe Cornucopia_Johnnycakes%%[#]{{i18n:Mail_KentJohnnycakes_title}}",
+				"Cornucopia.CorkingRecipes_KrobusCritterFritter": "{{i18n:Mail_KrobusRecipe_body}}%item cookingRecipe Cornucopia_CritterFritter%%[#]{{i18n:Mail_KrobusRecipe_title}}",
+				"Cornucopia.CorkingRecipes_KrobusAntsonaLog": "{{i18n:Mail_KrobusAntsonaLog_body}}%item cookingRecipe Cornucopia_AntsonaLog%%[#]{{i18n:Mail_KrobusAntsonaLog_title}}",
+				"Cornucopia.CorkingRecipes_LeahCapraeSalad": "{{i18n:Mail_LeahRecipe_body}}%item cookingRecipe Cornucopia_CapraeSalad%%[#]{{i18n:Mail_LeahRecipe_title}}",
+				"Cornucopia.CorkingRecipes_LeahRatatouille": "{{i18n:Mail_LeahRecipe_body}}%item cookingRecipe Cornucopia_Ratatouille%%[#]{{i18n:Mail_LeahRecipe_title}}",
+				"Cornucopia.CorkingRecipes_LeahMushroomBurger": "{{i18n:Mail_LeahRecipe_body}}%item cookingRecipe Cornucopia_MushroomBurger%%[#]{{i18n:Mail_LeahRecipe_title}}",
+				"Cornucopia.CorkingRecipes_LeahBroccoliandCheese": "{{i18n:Mail_LeahBroccoliandCheese_body}}%item cookingRecipe Cornucopia_BroccoliandCheese%%[#]{{i18n:Mail_LeahBroccoliandCheese_title}}",
+				"Cornucopia.CorkingRecipes_MarnieCastella": "{{i18n:Mail_MarnieCastella_body}}%item cookingRecipe Cornucopia_Castella%%[#]{{i18n:Mail_MarnieCastella_title}}",
+				"Cornucopia.CorkingRecipes_MaruEdamame": "{{i18n:Mail_MaruRecipe_body}}%item cookingRecipe Cornucopia_Edamame%%[#]{{i18n:Mail_MaruRecipe_title}}",
+				"Cornucopia.CorkingRecipes_MaruMeatSatay": "{{i18n:Mail_MaruRecipe_body}}%item cookingRecipe Cornucopia_MeatSatay%%[#]{{i18n:Mail_MaruRecipe_title}}",
+				"Cornucopia.CorkingRecipes_MaruPadPrinat": "{{i18n:Mail_MaruRecipe_body}}%item cookingRecipe Cornucopia_PadPrinat%%[#]{{i18n:Mail_MaruRecipe_title}}",
+				"Cornucopia.CorkingRecipes_MaruCrabRangoons": "{{i18n:Mail_MaruCrabRangoons_body}}%item cookingRecipe Cornucopia_CrabRangoons%%[#]{{i18n:Mail_MaruCrabRangoons_title}}",
+				"Cornucopia.CorkingRecipes_PamStuffedMushrooms": "{{i18n:Mail_PamStuffedMushrooms_body}}%item cookingRecipe Cornucopia_StuffedMushrooms%%[#]{{i18n:Mail_PamStuffedMushrooms_title}}",
+				"Cornucopia.CorkingRecipes_PennyHoneyCake": "{{i18n:Mail_PennyRecipe_body}}%item cookingRecipe Cornucopia_HoneyCake%%[#]{{i18n:Mail_PennyRecipe_title}}",
+				"Cornucopia.CorkingRecipes_PennyBouquetCrepe": "{{i18n:Mail_PennyRecipe_body}}%item cookingRecipe Cornucopia_BouquetCrepe%%[#]{{i18n:Mail_PennyRecipe_title}}",
+				"Cornucopia.CorkingRecipes_PennyCinnamonRoll": "{{i18n:Mail_PennyRecipe_body}}%item cookingRecipe Cornucopia_CinnamonRoll%%[#]{{i18n:Mail_PennyRecipe_title}}",
+				"Cornucopia.CorkingRecipes_PennyGingersnaps": "{{i18n:Mail_PennyGingersnaps_body}}%item cookingRecipe Cornucopia_Gingersnaps%%[#]{{i18n:Mail_PennyGingersnaps_title}}",
+				"Cornucopia.CorkingRecipes_PierreMotleyMushrooms": "{{i18n:Mail_PierreMotleyMushrooms_body}}%item cookingRecipe Cornucopia_MotleyMushrooms%%[#]{{i18n:Mail_PierreMotleyMushrooms_title}}",
+				"Cornucopia.CorkingRecipes_RobinPotatoBread": "{{i18n:Mail_RobinPotatoBread_body}}%item cookingRecipe Cornucopia_PotatoBread%%[#]{{i18n:Mail_RobinPotatoBread_title}}",
+				"Cornucopia.CorkingRecipes_SamSandwichCookies": "{{i18n:Mail_SamRecipe_body}}%item cookingRecipe Cornucopia_SandwichCookies%%[#]{{i18n:Mail_SamRecipe_title}}",
+				"Cornucopia.CorkingRecipes_SamAvocadoToast": "{{i18n:Mail_SamRecipe_body}}%item cookingRecipe Cornucopia_AvocadoToast%%[#]{{i18n:Mail_SamRecipe_title}}",
+				"Cornucopia.CorkingRecipes_SamHomemadePopcorn": "{{i18n:Mail_SamRecipe_body}}%item cookingRecipe Cornucopia_HomemadePopcorn%%[#]{{i18n:Mail_SamRecipe_title}}",
+				"Cornucopia.CorkingRecipes_SamDonut": "{{i18n:Mail_SamDonut_body}}%item cookingRecipe Cornucopia_Donut%%[#]{{i18n:Mail_SamDonut_title}}",
+				"Cornucopia.CorkingRecipes_SebastianUdon": "{{i18n:Mail_SebastianRecipe_body}}%item cookingRecipe Cornucopia_Udon%%[#]{{i18n:Mail_SebastianRecipe_title}}",
+				"Cornucopia.CorkingRecipes_SebastianBanhMi": "{{i18n:Mail_SebastianRecipe_body}}%item cookingRecipe Cornucopia_BanhMi%%[#]{{i18n:Mail_SebastianRecipe_title}}",
+				"Cornucopia.CorkingRecipes_SebastianMisoSoup": "{{i18n:Mail_SebastianRecipe_body}}%item cookingRecipe Cornucopia_MisoSoup%%[#]{{i18n:Mail_SebastianRecipe_title}}",
+				"Cornucopia.CorkingRecipes_SebastianFancySushiPlatter": "{{i18n:Mail_SebastianFancySushiPlatter_body}}%item cookingRecipe Cornucopia_FancySushiPlatter%%[#]{{i18n:Mail_SebastianFancySushiPlatter_title}}",
+				"Cornucopia.CorkingRecipes_ShanePineapplePizza": "{{i18n:Mail_ShanePineapplePizza_body}}%item cookingRecipe Cornucopia_PineapplePizza%%[#]{{i18n:Mail_ShanePineapplePizza_title}}",
+				"Cornucopia.CorkingRecipes_VincentAnimalCrackers": "{{i18n:Mail_VincentAnimalCrackers_body}}%item cookingRecipe Cornucopia_AnimalCrackers%%[#]{{i18n:Mail_VincentAnimalCrackers_title}}",
+				"Cornucopia.CorkingRecipes_WillyOysterSauceCrab": "{{i18n:Mail_WillyOysterSauceCrab_body}}%item cookingRecipe Cornucopia_OysterSauceCrab%% %item cookingRecipe Cornucopia_OysterSauce%%[#]{{i18n:Mail_WillyOysterSauceCrab_title}}",
+				"Cornucopia.CorkingRecipes_WizardRainbowCake": "{{i18n:Mail_WizardRainbowCake_body}}%item cookingRecipe Cornucopia_RainbowCake%%[#]{{i18n:Mail_WizardRainbowCake_title}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_SendAnotherRecipe": {
+					"Id": "Cornucopia.CookingRecipes_SendAnotherRecipe",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": false,
+					"Actions": [
+						"RemoveMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_SamSandwichCookies": {
+					"Id": "Cornucopia.CookingRecipes_SamSandwichCookies",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Sam 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SamSandwichCookies tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_PennyBouquetCrepe": {
+					"Id": "Cornucopia.CookingRecipes_PennyBouquetCrepe",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Penny 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_PennyBouquetCrepe tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_PierreMotleyMushrooms": {
+					"Id": "Cornucopia.CookingRecipes_PierreMotleyMushrooms",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Pierre 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_PierreMotleyMushrooms tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_RobinPotatoBread": {
+					"Id": "Cornucopia.CookingRecipes_RobinPotatoBread",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Robin 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{World Traveler}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_RobinPotatoBread tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_DwarfHardtack": {
+					"Id": "Cornucopia.CookingRecipes_DwarfHardtack",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Dwarf 5, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_DwarfHardtack tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_SamAvocadoToast": {
+					"Id": "Cornucopia.CookingRecipes_SamAvocadoToast",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Sam 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SamAvocadoToast tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_PennyCinnamonRoll": {
+					"Id": "Cornucopia.CookingRecipes_PennyCinnamonRoll",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Penny 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_PennyCinnamonRoll tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_HarveyGroundnutStew": {
+					"Id": "Cornucopia.CookingRecipes_HarveyGroundnutStew",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Harvey 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_HarveyGroundnutStew tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_DwarfAncientWonder": {
+					"Id": "Cornucopia.CookingRecipes_DwarfAncientWonder",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Dwarf 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_DwarfAncientWonder tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_EvelynPineappleUpsideDownCake": {
+					"Id": "Cornucopia.CookingRecipes_EvelynPineappleUpsideDownCake",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Evelyn 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{World Traveler}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_EvelynPineappleUpsideDownCake tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_AbigailBrownie": {
+					"Id": "Cornucopia.CookingRecipes_AbigailBrownie",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Abigail 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_AbigailBrownie tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_WillyOysterSauceCrab": {
+					"Id": "Cornucopia.CookingRecipes_WillyOysterSauceCrab",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Willy 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_WillyOysterSauceCrab tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_JasStrawberryShortcake": {
+					"Id": "Cornucopia.CookingRecipes_JasStrawberryShortcake",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Jas 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_JasStrawberryShortcake tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_JodiHeartySautee": {
+					"Id": "Cornucopia.CookingRecipes_JodiHeartySautee",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Jodi 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_JodiHeartySautee tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_ElliottCremeBrulee": {
+					"Id": "Cornucopia.CookingRecipes_ElliottCremeBrulee, {{HomeCook_Essential}}",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Elliott 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_ElliottCremeBrulee tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_ElliottChefSalad": {
+					"Id": "Cornucopia.CookingRecipes_ElliottChefSalad",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Elliott 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_ElliottChefSalad tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LeahCapraeSalad": {
+					"Id": "Cornucopia.CookingRecipes_LeahCapraeSalad",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Leah 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_LeahCapraeSalad tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_AbigailBaklava": {
+					"Id": "Cornucopia.CookingRecipes_AbigailBaklava",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Abigail 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_AbigailBaklava tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_AlexAsparagusDelight": {
+					"Id": "Cornucopia.CookingRecipes_AlexAsparagusDelight",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Alex 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_AlexAsparagusDelight tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_ElliottFigToast": {
+					"Id": "Cornucopia.CookingRecipes_ElliottFigToast",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Elliott 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_ElliottFigToast tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_KrobusAntsonaLog": {
+					"Id": "Cornucopia.CookingRecipes_KrobusAntsonaLog",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Krobus 5, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_KrobusAntsonaLog tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_KentJohnnycakes": {
+					"Id": "Cornucopia.CookingRecipes_KentJohnnycakes",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Kent 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_KentJohnnycakes tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_KrobusCritterFritter": {
+					"Id": "Cornucopia.CookingRecipes_KrobusCritterFritter",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Krobus 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{World Traveler}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_KrobusCritterFritter tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LeahRatatouille": {
+					"Id": "Cornucopia.CookingRecipes_LeahRatatouille",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Leah 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_LeahRatatouille tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_MaruPadPrinat": {
+					"Id": "Cornucopia.CookingRecipes_MaruPadPrinat",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Maru 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_MaruPadPrinat tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_SebastianMisoSoup": {
+					"Id": "Cornucopia.CookingRecipes_SebastianMisoSoup",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Sebastian 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SebastianMisoSoup tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_VincentAnimalCrackers": {
+					"Id": "Cornucopia.CookingRecipes_VincentAnimalCrackers",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Vincent 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_VincentAnimalCrackers tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LeahMushroomBurger": {
+					"Id": "Cornucopia.CookingRecipes_LeahMushroomBurger",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Leah 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_LeahMushroomBurger tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_PamStuffedMushrooms": {
+					"Id": "Cornucopia.CookingRecipes_PamStuffedMushrooms",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Pam 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{World Traveler}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_PamStuffedMushrooms tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_AbigailCinderdoodles": {
+					"Id": "Cornucopia.CookingRecipes_AbigailCinderdoodles",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Abigail 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_AbigailCinderdoodles tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_PennyHoneyCake": {
+					"Id": "Cornucopia.CookingRecipes_PennyHoneyCake",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Penny 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_PennyHoneyCake tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_GeorgeCheesecake": {
+					"Id": "Cornucopia.CookingRecipes_GeorgeCheesecake",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current George 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{World Traveler}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_GeorgeCheesecake tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_HaleyPoachedPear": {
+					"Id": "Cornucopia.CookingRecipes_HaleyPoachedPear",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Haley 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_HaleyPoachedPear tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_DemetriusSeafoodBoil": {
+					"Id": "Cornucopia.CookingRecipes_DemetriusSeafoodBoil",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Demetrius 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{World Traveler}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_DemetriusSeafoodBoil tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_HarveyShakshouka": {
+					"Id": "Cornucopia.CookingRecipes_HarveyShakshouka",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Harvey 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_HarveyShakshouka tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_MarnieCastella": {
+					"Id": "Cornucopia.CookingRecipes_MarnieCastella",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Marnie 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_MarnieCastella tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_MaruEdamame": {
+					"Id": "Cornucopia.CookingRecipes_MaruEdamame",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Maru 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_MaruEdamame tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_AlexSpinachQuiche": {
+					"Id": "Cornucopia.CookingRecipes_AlexSpinachQuiche",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Alex 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_AlexSpinachQuiche tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_HaleyMacarons": {
+					"Id": "Cornucopia.CookingRecipes_HaleyMacarons",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Haley 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_HaleyMacarons tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_HarveyTomatoSoup": {
+					"Id": "Cornucopia.CookingRecipes_HarveyTomatoSoup",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Harvey 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_HarveyTomatoSoup tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_SebastianUdon": {
+					"Id": "Cornucopia.CookingRecipes_SebastianUdon",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Sebastian 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SebastianUdon tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_AlexBreakfastScramble": {
+					"Id": "Cornucopia.CookingRecipes_AlexBreakfastScramble",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Alex 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_AlexBreakfastScramble tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_GusZucchiniFritters": {
+					"Id": "Cornucopia.CookingRecipes_GusZucchiniFritters",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Gus 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_GusZucchiniFritters tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_CarolineVegetablePotPie": {
+					"Id": "Cornucopia.CookingRecipes_CarolineVegetablePotPie",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Caroline 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{World Traveler}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_CarolineVegetablePotPie tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_ClintTunaSteak": {
+					"Id": "Cornucopia.CookingRecipes_ClintTunaSteak",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Clint 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{WorldTraveler_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_ClintTunaSteak tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_SebastianBanhMi": {
+					"Id": "Cornucopia.CookingRecipes_SebastianBanhMi",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Sebastian 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SebastianBanhMi tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_HaleyAutumnMuffin": {
+					"Id": "Cornucopia.CookingRecipes_HaleyAutumnMuffin",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Haley 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_HaleyAutumnMuffin tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_MaruMeatSatay": {
+					"Id": "Cornucopia.CookingRecipes_MaruMeatSatay",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Maru 4, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_MaruMeatSatay tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_SamHomemadePopcorn": {
+					"Id": "Cornucopia.CookingRecipes_SamHomemadePopcorn",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Sam 6, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Extended}}",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SamHomemadePopcorn tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_WizardRainbowCake": {
+					"Id": "Cornucopia.CookingRecipes_WizardRainbowCake",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Wizard 10, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_WizardRainbowCake tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_EmilyGrilledCheese": {
+					"Id": "Cornucopia.CookingRecipes_EmilyGrilledCheese",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Emily 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_EmilyGrilledCheese tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_ElliottFishnChips": {
+					"Id": "Cornucopia.CookingRecipes_ElliottFishnChips",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Elliott 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_ElliottFishnChips tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_SebastianFancySushiPlatter": {
+					"Id": "Cornucopia.CookingRecipes_SebastianFancySushiPlatter",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Sebastian 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SebastianFancySushiPlatter tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_MaruCrabRangoons": {
+					"Id": "Cornucopia.CookingRecipes_MaruCrabRangoons",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Maru 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_MaruCrabRangoons tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_PennyGingersnaps": {
+					"Id": "Cornucopia.CookingRecipes_PennyGingersnaps",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Penny 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_PennyGingersnaps tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_AlexOmurice": {
+					"Id": "Cornucopia.CookingRecipes_AlexOmurice",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Alex 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_AlexOmurice tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_HaleySpicedCarrotCake": {
+					"Id": "Cornucopia.CookingRecipes_HaleySpicedCarrotCake",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Haley 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_HaleySpicedCarrotCake tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_LeahBroccoliandCheese": {
+					"Id": "Cornucopia.CookingRecipes_LeahBroccoliandCheese",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Leah 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_LeahBroccoliandCheese tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_AbigailTiramisu": {
+					"Id": "Cornucopia.CookingRecipes_AbigailTiramisu",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Abigail 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_AbigailTiramisu tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_HarveyCoffeeCake": {
+					"Id": "Cornucopia.CookingRecipes_HarveyCoffeeCake",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Harvey 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_HarveyCoffeeCake tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_SamDonut": {
+					"Id": "Cornucopia.CookingRecipes_SamDonut",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Sam 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SamDonut tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+				"Cornucopia.CookingRecipes_ShanePineapplePizza": {
+					"Id": "Cornucopia.CookingRecipes_ShanePineapplePizza",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Shane 8, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_ShanePineapplePizza tomorrow",
+						"AddMail Current Cornucopia.CookingRecipes_MailSentToday received"
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_CremeBrulee": "{{i18n:Elliott_dialogue.default.intro}}$1#$b#{{i18n:Elliott_dialogue.CremeBrulee.1}}$1#$b#{{i18n:Elliott_dialogue.CremeBrulee.2}}#$b#{{i18n:Elliott_dialogue.CremeBrulee.3}}$1#$b#{{i18n:Elliott_dialogue.default.end}}",
+				"AcceptGift_(O)Cornucopia_ChefSalad": "{{i18n:Elliott_dialogue.default.intro}}$1#$b#{{i18n:Elliott_dialogue.ChefSalad.1}}#$b#.{{i18n:Elliott_dialogue.ChefSalad.2}}$1#$b#{{i18n:Elliott_dialogue.default.end}}",
+				"AcceptGift_(O)Cornucopia_FigToast": "{{i18n:Elliott_dialogue.default.intro}}$1#$b#{{i18n:Elliott_dialogue.FigToast.1}}#$b#{{i18n:Elliott_dialogue.FigToast.2}}$1#$b#{{i18n:Elliott_dialogue.default.end}}",
+				"AcceptGift_(O)Cornucopia_FishnChips": "{{i18n:Elliott_dialogue.FishnChips.1}}$8#$b#{{i18n:Elliott_dialogue.FishnChips.2}}#$b#{{i18n:Elliott_dialogue.FishnChips.3}}#$b#{{i18n:Elliott_dialogue.FishnChips.4}}$1#$b#{{i18n:Elliott_dialogue.FishnChips.5}}"
+			}
+		}
+	]
+}

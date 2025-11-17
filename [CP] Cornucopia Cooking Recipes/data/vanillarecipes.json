@@ -1,0 +1,166 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"Enable Vanilla Recipe Changes": true
+			},
+			"Fields": {
+				"Spaghetti": {
+					"0": "Cornucopia_WheatNoodles 1 256 1"
+				},
+				"Tortilla": {
+					"0": "Cornucopia_CornFlour 1"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"HomeCook_Essential": true,
+				"Enable Vanilla Recipe Changes": true,
+			},
+			"Fields": {
+				"Chocolate Cake": {
+					"0": "Cornucopia_Chocolate 1 246 1 245 1 -5 1"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"Priority": "Late",
+			"When": {
+				"Enable Vanilla Recipe Changes": true,
+				"HasMod|contains=6480.flexiblecooking": true
+			},
+			"Entries": {
+				"Spaghetti": {
+					"ProductQualifiedId": "(O)224",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_noodle_item",
+							"Amount": 1,
+						"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText {{i18n:WheatNoodles_name}}]]",
+							"OverrideTexturePath": "Cornucopia.CookingRecipes/Objects_2",
+							"OverrideTextureRect": {
+								"X": 32,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "tomato_item",
+							"Amount": 1,
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Tomato_Name]]]",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Tortilla": {
+					"ProductQualifiedId": "(O)229",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "corn_flour_item",
+							"Amount": 1,
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText {{i18n:CornFlour_name}}]]",
+							"OverrideTexturePath": "Cornucopia.CookingRecipes/Objects_2",
+							"OverrideTextureRect": {
+								"X": 16,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"Priority": "Late",
+			"When": {
+				"Enable Vanilla Recipe Changes": true,
+				"HasMod|contains=6480.flexiblecooking": true,
+				"HomeCook_Essential": true,
+			},
+			"Entries": {
+				"Chocolate Cake": {
+					"ProductQualifiedId": "(O)220",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "chocolate_item",
+							"Amount": 1,
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText {{i18n:Chocolate_name}}]]",
+							"OverrideTexturePath": "MCornucopia.CookingRecipes/Objects",
+							"OverrideTextureRect": {
+								"X": 352,
+								"Y": 0,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "[LocalizedText 6480.flexiblecooking/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:WheatFlour_Name]]]",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+			}
+		},
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"skellady.SBVCP_WildMustard",
+				"ContextTags"
+			],
+			"Entries": {
+				"mustard_seed_item": "mustard_seed_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"skellady.SBVCP_CarmineBlossom",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"skellady.SBVCP_WildMustardSeeds",
+				"ContextTags"
+			],
+			"Entries": {
+				"mustard_seed_item": "mustard_seed_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"skellady.SBVCP_EmeraldSnapper",
+				"ContextTags"
+			],
+			"Entries": {
+				"snapper_item": "snapper_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"skellady.SBVCP_AzureanCarp",
+				"ContextTags"
+			],
+			"Entries": {
+				"carp_item": "carp_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"skellady.SBVCP_ChartreuseTilapia",
+				"ContextTags"
+			],
+			"Entries": {
+				"tilapia_item": "tilapia_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"skellady.SBVCP_EeltailedCatfish",
+				"ContextTags"
+			],
+			"Entries": {
+				"catfish_item": "catfish_item",
+			}
+		},
+	]
+}

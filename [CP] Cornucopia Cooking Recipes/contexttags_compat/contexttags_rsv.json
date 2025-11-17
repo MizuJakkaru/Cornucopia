@@ -1,0 +1,446 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Apricot_Juice",
+				"ContextTags"
+			],
+			"Entries": {
+				"juice_item": "juice_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Autumn_Dew_Drop_Juice",
+				"ContextTags"
+			],
+			"Entries": {
+				"juice_item": "juice_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Bladetail_Sturgeon",
+				"ContextTags"
+			],
+			"Entries": {
+				"sturgeon_item": "sturgeon_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Cherry_Pluot",
+				"ContextTags"
+			],
+			"Entries": {
+				"stone_fruit_item": "stone_fruit_item",
+				"cherry_item": "cherry_item",
+				"plum_item": "plum_item",
+				"apricot_item": "apricot_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Clementine_Juice",
+				"ContextTags"
+			],
+			"Entries": {
+				"juice_item": "juice_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Crimson_Spiked_Clam",
+				"ContextTags"
+			],
+			"Entries": {
+				"clam_item": "clam_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Cutthroat_Trout",
+				"ContextTags"
+			],
+			"Entries": {
+				"trout_item": "trout_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Desert_Tangelo",
+				"ContextTags"
+			],
+			"Entries": {
+				"citrus_item": "citrus_item",
+				"orange_item": "orange_item",
+				"grapefruit_item": "grapefruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Ember_Blood_Lime",
+				"ContextTags"
+			],
+			"Entries": {
+				"citrus_item": "citrus_item",
+				"lime_item": "lime_item",
+				"orange_item": "orange_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Fairytale_Lionfish",
+				"ContextTags"
+			],
+			"Entries": {
+				"lionfish_item": "lionfish_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Fixer_Eel",
+				"ContextTags"
+			],
+			"Entries": {
+				"eel_item": "eel_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Forest_Amancay",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Foxbloom",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Harvester_Trout",
+				"ContextTags"
+			],
+			"Entries": {
+				"trout_item": "trout_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Highland_Butterwort",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Highland_Chard",
+				"ContextTags"
+			],
+			"Entries": {
+				"leafy_green_item": "leafy_green_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Lava_Lily",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Lullaby_Carp",
+				"ContextTags"
+			],
+			"Entries": {
+				"carp_item": "carp_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Mistbloom_Syrup",
+				"ContextTags"
+			],
+			"Entries": {
+				"syrup_item": "syrup_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Mountain_Arugula",
+				"ContextTags"
+			],
+			"Entries": {
+				"leafy_green_item": "leafy_green_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Mountain_Chico",
+				"ContextTags"
+			],
+			"Entries": {
+				"sapodilla_item": "sapodilla_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Mountain_Hokkaido",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Mountain_Mistbloom",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Mountain_Plumcot",
+				"ContextTags"
+			],
+			"Entries": {
+				"plum_item": "plum_item",
+				"apricot_item": "apricot_item",
+				"stone_fruit_item": "stone_fruit_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Northern_Limequat",
+				"ContextTags"
+			],
+			"Entries": {
+				"lime_item": "lime_item",
+				"citrus_item": "citrus_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Paradise_Rangpur",
+				"ContextTags"
+			],
+			"Entries": {
+				"citrus_item": "citrus_item",
+				"lime_item": "lime_item",
+				"lemon_item": "lemon_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Pebble_Back_Crab",
+				"ContextTags"
+			],
+			"Entries": {
+				"crab_item": "crab_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Ridge_Azorean_Flower",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Ridge_Cherry",
+				"ContextTags"
+			],
+			"Entries": {
+				"cherry_item": "cherry_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Ridge_Wild_Apple",
+				"ContextTags"
+			],
+			"Entries": {
+				"apple_item": "apple_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Ridgeside_Bass",
+				"ContextTags"
+			],
+			"Entries": {
+				"bass_item": "bass_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Ridgeside_Clementine",
+				"ContextTags"
+			],
+			"Entries": {
+				"citrus_item": "citrus_item",
+				"orange_item": "orange_item"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Ridgeside_Monkshood",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Sierra_Wintergreen",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Sockeye_Salmon",
+				"ContextTags"
+			],
+			"Entries": {
+				"salmon_item": "salmon_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Summit_Snowbell",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Violet_Devil_s_Claw",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Wild_Apple_Juice",
+				"ContextTags"
+			],
+			"Entries": {
+				"juice_item": "juice_item",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"Rafseazz.RSVCP_Aurorean_Iris",
+				"ContextTags"
+			],
+			"Entries": {
+				"edible_flower_item": "edible_flower_item",
+			}
+		},
+	]
+}

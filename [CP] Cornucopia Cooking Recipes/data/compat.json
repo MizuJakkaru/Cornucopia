@@ -1,0 +1,72 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"Entries": {
+				"DriedFruit_Name": "{{i18n:DriedFruit_name}}",
+				"DriedMushrooms_Name": "{{i18n:DriedMushrooms_name}}",
+				"SmokedFish_Name": "{{i18n:SmokedFish_name}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=blueberry.LoveOfCooking": true,
+				"Patch Duplicate Names": true,
+				"HomeCook_Essential": true
+			},
+			"Fields": {
+				"Cornucopia_BakedPotato": {
+					"DisplayName": "{{i18n:BakedPotato_altname}}"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Patch Duplicate Names": true
+			},
+			"Fields": {
+				"Cornucopia_GrilledCheese": {
+					"DisplayName": "{{i18n:GrilledCheese_altname}}"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Patch Duplicate Names": true,
+				"HomeCook_Essential": true
+			},
+			"Fields": {
+				"Cornucopia_BakedPotato": {
+					"DisplayName": "{{i18n:BakedPotato_altname}}"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=Lumisteria.MtVapius": true,
+				"Patch Duplicate Names": true,
+				"WorldTraveler_Extended": true
+			},
+			"Fields": {
+				"Cornucopia_Croissant": {
+					"DisplayName": "{{i18n:Croissant_altname}}"
+				}
+			}
+		}
+	]
+}
