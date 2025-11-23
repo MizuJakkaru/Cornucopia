@@ -1338,7 +1338,8 @@
 			],
 			"Entries": {
 				"cheese_item": "cheese_item",
-				"soft_cheese_item": "soft_cheese_item"
+				"soft_cheese_item": "soft_cheese_item",
+				"goat_cheese_item": "goat_cheese_item"
 			}
 		},
 		{

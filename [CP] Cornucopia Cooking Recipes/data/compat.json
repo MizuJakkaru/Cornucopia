@@ -21,7 +21,7 @@
 			"Fields": {
 				"Cornucopia_BakedPotato": {
 					"DisplayName": "{{i18n:BakedPotato_altname}}"
-				},
+				}
 			}
 		},
 		{
@@ -35,7 +35,7 @@
 			"Fields": {
 				"Cornucopia_GrilledCheese": {
 					"DisplayName": "{{i18n:GrilledCheese_altname}}"
-				},
+				}
 			}
 		},
 		{
@@ -50,7 +50,7 @@
 			"Fields": {
 				"Cornucopia_BakedPotato": {
 					"DisplayName": "{{i18n:BakedPotato_altname}}"
-				},
+				}
 			}
 		},
 		{
@@ -65,6 +65,381 @@
 			"Fields": {
 				"Cornucopia_Croissant": {
 					"DisplayName": "{{i18n:Croissant_altname}}"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_SVECompatPatchEnabled": true,
+				"HomeCook_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_BanhMi": "216 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 Carrot 1 342 1/25 5/Cornucopia_BanhMi/none/",
+				"Cornucopia_ChefSalad": "Cornucopia_Lettuce 1 424 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 -5 1 256 1/25 5/Cornucopia_ChefSalad/none/",
+				"Cornucopia_PoachedPear": "FlashShifter.StardewValleyExpandedCP_Pear 1 340 1/25 5/Cornucopia_PoachedPear/none/"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_SVECompatPatchEnabled": true,
+				"HomeCook_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_ButternutSquashSoup": "FlashShifter.StardewValleyExpandedCP_Butternut_Squash 1 Cornucopia_Butter 1/25 5/Cornucopia_ButternutSquashSoup/none/"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_SVECompatPatchEnabled": true,
+				"WorldTraveler_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_CrabRoll": "Cornucopia_Avocado 1 717 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 423 1 152 1/25 5/Cornucopia_CrabRoll/none/",
+				"Cornucopia_CucumberKimchi": "FlashShifter.StardewValleyExpandedCP_Cucumber 1 260 1/25 5/Cornucopia_CucumberKimchi/none/",
+				"Cornucopia_CucumberRoll": "FlashShifter.StardewValleyExpandedCP_Cucumber 1 423 1 152 1/25 5/Cornucopia_CucumberRoll/none/",
+				"Cornucopia_CucumberSandwich": "216 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 306 1/25 5/Cornucopia_CucumberSandwich/none/",
+				"Cornucopia_Gazpacho": "256 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 216 1/25 5/Cornucopia_Gazpacho/none/",
+				"Cornucopia_HoriatikiSalad": "FlashShifter.StardewValleyExpandedCP_Cucumber 1 Cornucopia_Lettuce 1 Cornucopia_BrinedOlives 1 Cornucopia_Vinaigrette 1/25 5/Cornucopia_HoriatikiSalad/none/",
+				"Cornucopia_TemakiRoll": "-4 1 152 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 423 1/25 5/Cornucopia_TemakiRoll/f Linus 10/"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_SVECompatPatchEnabled": true,
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_Lalab": "278 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 256 1 Cornucopia_ShrimpPaste 1/25 5/Cornucopia_Lalab/none/",
+				"Cornucopia_Qurutob": "246 1 Cornucopia_PlainYogurt 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 Cornucopia_Onion 1/25 5/Cornucopia_Qurutob/none/",
+				"Cornucopia_SpringSalad": "Cornucopia_Spinach 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 Cornucopia_Quinoa 1 Cornucopia_Vinaigrette 1/25 5/Cornucopia_SpringSalad/none/",
+				"Cornucopia_Tzatziki": "Cornucopia_PlainYogurt 1 FlashShifter.StardewValleyExpandedCP_Cucumber 1 248 1/25 5/Cornucopia_Tzatziki/none/",
+				"Cornucopia_MascarponeLuxury": "-6 1 FlashShifter.StardewValleyExpandedCP_Nectarine 1 384 1/25 5/Cornucopia_MascarponeLuxury/none/",
+				"Cornucopia_BakedSweetPotato": "FlashShifter.StardewValleyExpandedCP_Sweet_Potato 1/25 5/Cornucopia_BakedSweetPotato/s Foraging 4/",
+				"Cornucopia_SweetPotatoCasserole": "FlashShifter.StardewValleyExpandedCP_Sweet_Potato 1 Cornucopia_Marshmallow 2 Cornucopia_Walnut 1/25 5/Cornucopia_SweetPotatoCasserole/none/",
+				"Cornucopia_SweetPotatoFries": "FlashShifter.StardewValleyExpandedCP_Sweet_Potato 1 247 1/25 5/Cornucopia_SweetPotatoFries/none/",
+				"Cornucopia_VegetableTempura": "Broccoli 1 FlashShifter.StardewValleyExpandedCP_Sweet_Potato 1 Carrot 1 246 1 247 1/25 5/Cornucopia_VegetableTempura/none/"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_SVECompatPatchEnabled": true,
+				"Enable Flexible Recipes": true
+			},
+			"Entries": {
+				"Cornucopia_ChefSalad": {
+					"ProductQualifiedId": "(O)Cornucopia_ChefSalad",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Lettuce",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)256",
+							"Amount": 1
+						}
+					]
+				},
+				"Cornucopia_CucumberKimchi": {
+					"ProductQualifiedId": "(O)Cornucopia_CucumberKimchi",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cornucopia_CucumberSandwich": {
+					"ProductQualifiedId": "(O)Cornucopia_CucumberSandwich",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)216",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "mayo_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MayonnaiseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 192,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cornucopia_TemakiRoll": {
+					"ProductQualifiedId": "(O)Cornucopia_TemakiRoll",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "category_fish, !fish_crab_pot",
+							"Amount": 1,
+							"ContextTagsRequireAll": true,
+							"OverrideText": "{{i18n:Ingredient_FishAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 16,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)152",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)423",
+							"Amount": 1
+						}
+					]
+				},
+				"Cornucopia_Lalab": {
+					"ProductQualifiedId": "(O)Cornucopia_Lalab",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "leafy_green_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)256",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_ShrimpPaste",
+							"Amount": 1
+						}
+					]
+				},
+				"Cornucopia_SpringSalad": {
+					"ProductQualifiedId": "(O)Cornucopia_SpringSalad",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "leafy_green_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Quinoa",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Vinaigrette",
+							"Amount": 1
+						}
+					]
+				},
+				"Cornucopia_ButternutSquashSoup": {
+					"ProductQualifiedId": "(O)Cornucopia_ButternutSquashSoup",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "butter_item, margarine_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_ButterAny}}",
+							"OverrideTexturePath": "Cornucopia.ArtisanMachines/Objects",
+							"OverrideTextureRect": {
+								"X": 48,
+								"Y": 0,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cornucopia_SweetPotatoFries": {
+					"ProductQualifiedId": "(O)Cornucopia_SweetPotatoFries",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cornucopia_VegetableTempura": {
+					"ProductQualifiedId": "(O)Cornucopia_VegetableTempura",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)Broccoli",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Carrot",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
 				}
 			}
 		}

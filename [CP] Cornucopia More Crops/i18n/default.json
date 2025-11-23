@@ -501,10 +501,7 @@
 	"Cornucopia_name": "Cornucopia",
 	"Press_name": "Press",
 	"Press_description": "Turns milk into cheese and soybeans into tofu.",
-	"SesameSeeds_name": "Sesame Seeds",
-	"SesameSeeds_description": "Seeds with a smoky flavor. Plant in summer to grow a sesame plant.",
-	"SesameOil_name": "Sesame Oil",
-	"SesameOil_description": "A bottle of oil made from sesame seeds.",
+
 	"Tofu_name": "Tofu",
 	"Tofu_description": "Made from soybean milk. Can be used as a source of protein in many recipes.",
 	"Molasses_name": "Molasses",

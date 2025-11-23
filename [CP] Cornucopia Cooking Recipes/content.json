@@ -1592,6 +1592,38 @@
 					"MarkActionApplied": false,
                     "Action": "RemoveMail Host Cornucopia.CookingRecipes_WorldTravelerEnabled received",
                 },
+				"Cornucopia.CookingRecipes_SetFlexibleRecipesFlag": {
+                    "Id": "Cornucopia.CookingRecipes_SetFlexibleRecipesFlag",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Enable Flexible Recipes}}",
+                    "HostOnly": true,
+					"MarkActionApplied": false,
+                    "Action": "AddMail Host Cornucopia.CookingRecipes_FlexibleRecipesEnabled received",
+                },
+				"Cornucopia.CookingRecipes_RemoveFlexibleRecipesFlag": {
+                    "Id": "Cornucopia.CookingRecipes_RemoveFlexibleRecipesFlag",
+                    "Trigger": "DayStarted",
+                    "Condition": "!{{Enable Flexible Recipes}}",
+                    "HostOnly": true,
+					"MarkActionApplied": false,
+                    "Action": "RemoveMail Host Cornucopia.CookingRecipes_FlexibleRecipesEnabled received",
+                },
+				"Cornucopia.CookingRecipes_SetHyperflexibleRecipesFlag": {
+                    "Id": "Cornucopia.CookingRecipes_SetHyperflexibleRecipesFlag",
+                    "Trigger": "DayStarted",
+                    "Condition": "{{Enable Hyperflexible Recipes}}",
+                    "HostOnly": true,
+					"MarkActionApplied": false,
+                    "Action": "AddMail Host Cornucopia.CookingRecipes_HyperflexibleRecipesEnabled received",
+                },
+				"Cornucopia.CookingRecipes_RemoveHyperflexibleRecipesFlag": {
+                    "Id": "Cornucopia.CookingRecipes_RemoveHyperflexibleRecipesFlag",
+                    "Trigger": "DayStarted",
+                    "Condition": "!{{Enable Hyperflexible Recipes}}",
+                    "HostOnly": true,
+					"MarkActionApplied": false,
+                    "Action": "RemoveMail Host Cornucopia.CookingRecipes_HyperflexibleRecipesEnabled received",
+                },
 			}
 		},
 		{

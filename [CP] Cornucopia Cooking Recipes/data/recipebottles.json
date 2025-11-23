@@ -37,19 +37,6 @@
 			"Action": "EditData",
 			"Target": "Data/TriggerActions",
 			"Entries": {
-				"Cornucopia.CookingRecipes_RecipeinaBottle_FirstFound": {
-					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_FirstFound",
-					"Trigger": "Spiderbuttons.BETAS_ForagePicked",
-					"HostOnly": false,
-					"MarkActionApplied": true,
-					"Condition": "ITEM_ID Target Cornucopia_RecipeinaBottle",
-					"Actions": [
-						"RemoveItem Cornucopia_RecipeinaBottle",
-						"Spiderbuttons.BETAS_HoldUpItem Cornucopia_RecipeinaBottle",
-						//"Spiderbuttons.BETAS_PlaySound getNewSpecialItem",
-						//"Spiderbuttons.BETAS_Message \"{{i18n:RecipeinaBottle_Found}}\" true"
-					]
-				},
 				"Cornucopia.CookingRecipes_RecipeinaBottle_SaltGrilledFish": {
 					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_SaltGrilledFish",
 					"Trigger": "spacechase0.SpaceCore_OnItemUsed",

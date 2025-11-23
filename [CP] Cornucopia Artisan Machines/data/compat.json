@@ -170,7 +170,8 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"When": {
-				"HasMod|contains=PPJA.cannabiskit": true
+				"HasMod|contains=PPJA.cannabiskit": true,
+				"HasMod|contains=Wildflour.AtelierGoods": false
 			},
 			"Priority": "Late",
 			"TargetField": [
@@ -188,7 +189,8 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"When": {
-				"HasMod|contains=PPJA.cannabiskit": true
+				"HasMod|contains=PPJA.cannabiskit": true,
+				"HasMod|contains=Wildflour.AtelierGoods": false
 			},
 			"Priority": "Late",
 			"TargetField": [

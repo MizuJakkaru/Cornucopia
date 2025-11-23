@@ -408,7 +408,7 @@
 					"Trigger": "DayStarted",
 					"HostOnly": true,
 					"MarkActionApplied": false,
-					"Condition": "SEASON winter, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}",
+					"Condition": "SEASON winter, {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}, {{Enable Extended Crops Pack}}",
 					"Actions": [
 						"If RANDOM 0.3 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_ForestWest",
 						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_AdventurerSummit",
@@ -420,7 +420,7 @@
 					"Trigger": "DayStarted",
 					"HostOnly": true,
 					"MarkActionApplied": false,
-					"Condition": "SEASON winter, {{HasMod |contains=LemurKat.EastScarp}}",
+					"Condition": "SEASON winter, {{HasMod |contains=LemurKat.EastScarp}}, {{Enable Extended Crops Pack}}",
 					"Actions": [
 						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries EastScarp_DeepMountains",
 						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries EastScarp_Village null 5,105,35,35/40,85,30,30/85,90,100,115",
@@ -433,7 +433,7 @@
 					"Trigger": "DayStarted",
 					"HostOnly": true,
 					"MarkActionApplied": false,
-					"Condition": "SEASON winter, {{HasMod |contains=skellady.SBVCP}}",
+					"Condition": "SEASON winter, {{HasMod |contains=skellady.SBVCP}}, {{Enable Extended Crops Pack}}",
 					"Actions": [
 						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_SBV_SunberryRoad",
 						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_JuniperBerries Custom_SBV_ForestShortcut",

@@ -16,28 +16,6 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
-				"EastScarp_Serruria",
-				"ContextTags"
-			],
-			"Entries": {
-				"edible_flower_item": "edible_flower_item"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
-				"EastScarp_Bird_Of_Paradise",
-				"ContextTags"
-			],
-			"Entries": {
-				"edible_flower_item": "edible_flower_item"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
 				"EastScarp_Red_Herring",
 				"ContextTags"
 			],

@@ -90,7 +90,6 @@
 	"RoseSummerSeeds_name": "Mudas de Rosa do Verão",
 	"RoseSeeds_name": "Sementes de Rosa",
 	"RoseFallSeeds_name": "Mudas de Rosa do Outono",
-	"RosePrismaticSeeds_name": "Mudas de Rosa Prismática",
 	"RoseSpringSeeds_name": "Mudas de Rosa da Primavera",
 	"RoseWinterSeeds_name": "Mudas da Rosa do Inverno",
 	"PitcherPlantSeeds_name": "Sementes de Planta Jarro",
@@ -200,5 +199,13 @@
 	"config.Enable Giant Crops on Ginger Island.name": "Permirir Lavouras Gigantes na Ilha Gengibre",
 	"config.Enable Giant Crops on Ginger Island.description": "Permite que lavouras gigantes crescam na fazenda da Ilha Gengibre, o que te permite cultivar a Flor-Monstro gigante.",
 	"SVERafflesiaPatch_name": "Flor-Monstro de Ferngill",
-	"CornucopiaRafflesiaPatch_name": "Flor-Monstro de Joia"
+	"CornucopiaRafflesiaPatch_name": "Flor-Monstro de Joia",
+	"RoyalJelly_name": "Geleia Real",
+	"RoyalJelly_description": "Geleia brilhante feita por abelhas rainhas.",
+	"Mail_HaleyRoyalJelly": "E aí @,^Nossa, você consegue acreditar que já é verão? Aliás, eu li uma coisa em uma revista e quis te contar. Sabia que abelhas conseguem fazer um produto chamado Geleia Real? Aparentemente, é bem doce, amanteigada e ótima para sua pele. Você só precisa plantar certas flores especiais ao redor das abelhas!^^Girassóis são os melhores, claro, mas nesse artigo também diz que você pode usar rosas ou experimentar com outras flores \"reais\". Por que você não tenta e me fala se funcionar?^ -Haley",
+	"CorpseFlowerSeed_name": "Semente de Flor-Cadáver",
+	"CorpseFlowerSeed_description": "A semente de uma flor fedida do tamanho de uma árvore.",
+	"CorpseFlowerPetal_name": "Pétala de Flor-Cadáver",
+	"CorpseFlowerPetal_description": "Uma pétala tão grande que serviria como cobertor, se seu cheiro não fosse tão ruim.",
+	"RosePrismaticSeeds_name": "Mudas de Rosa Prismática"
 }

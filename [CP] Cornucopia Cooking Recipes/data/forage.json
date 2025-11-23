@@ -168,7 +168,17 @@
 					"HostOnly": true,
 					"MarkActionApplied": false,
 					"Actions": [
-						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSalt Beach",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSalt Beach 28,5,65,21/9,5,19,12/14,17,14,4",
+					]
+				},
+				"Cornucopia_SeaSalt_RemoveQuality": {
+					"Id": "Cornucopia_SeaSalt_RemoveQuality",
+					"Trigger": "Spiderbuttons.BETAS_ForagePicked",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Target Cornucopia_SeaSalt, ITEM_QUALITY Target 1 4",
+					"Actions": [
+						"Spiderbuttons.BETAS_ReloadItemField Cornucopia_SeaSalt Quality"
 					]
 				},
 				"Cornucopia_SeaSaltRock_Spawn": {
@@ -214,7 +224,7 @@
 					"MarkActionApplied": true,
 					"Condition": "ANY \"SEASON_DAY spring 25, YEAR 1 1\" \"SEASON summer fall winter, YEAR 1 1\" \"YEAR 2\"",
 					"Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.CookingRecipes_FirstBottleSpawn Beach"
+						"spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia.CookingRecipes_FirstBottleSpawn Beach 28,5,65,21/9,5,19,12/14,17,14,4"
 					]
 				},
 				"Cornucopia.CookingRecipes_RecipeinaBottle_RegularSpawn": {
@@ -224,7 +234,7 @@
 					"MarkActionApplied": false,
 					"Condition": "{{NotAllPlayersHaveBottleRecipes}}",
 					"Actions": [
-						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Beach",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Beach 28,5,65,21/9,5,19,12/14,17,14,4",
 						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandSouth",
 						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandWest",
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandSouthEast",
@@ -240,7 +250,7 @@
 					"MarkActionApplied": false,
 					"Condition": "{{NotAllPlayersHaveBottleRecipes}}, {{HomeCook_Extended}}",
 					"Actions": [
-						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Beach",
+						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Beach 28,5,65,21/9,5,19,12/14,17,14,4",
 						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandSouth",
 						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandWest",
 						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandSouthEast",
@@ -256,7 +266,7 @@
 					"MarkActionApplied": false,
 					"Condition": "SEASON summer, {{NotAllPlayersHaveBottleRecipes}}",
 					"Actions": [
-						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Beach",
+						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Beach 28,5,65,21/9,5,19,12/14,17,14,4",
 						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
 						"If RANDOM 0.05, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
 					]
@@ -268,7 +278,7 @@
 					"MarkActionApplied": false,
 					"Condition": "!{{PlayerHasBottleRecipes}}",
 					"Actions": [
-						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Beach",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle Beach 28,5,65,21/9,5,19,12/14,17,14,4",
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandSouth",
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandWest",
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle IslandSouthEast",
@@ -276,7 +286,28 @@
 						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Village 5,105,35,35/40,85,30,30/85,90,100,115",
 						"If RANDOM 0.1, {{HasMod |contains=LemurKat.EastScarp}} ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_RecipeinaBottle EastScarp_Orchard 5,60,40,20"
 					]
-				}
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_FirstFound": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_FirstFound",
+					"Trigger": "Spiderbuttons.BETAS_ForagePicked",
+					"HostOnly": false,
+					"MarkActionApplied": true,
+					"Condition": "ITEM_ID Target Cornucopia_RecipeinaBottle",
+					"Actions": [
+						"RemoveItem Cornucopia_RecipeinaBottle",
+						"Spiderbuttons.BETAS_HoldUpItem Cornucopia_RecipeinaBottle",
+					]
+				},
+				"Cornucopia.CookingRecipes_RecipeinaBottle_RemoveQuality": {
+					"Id": "Cornucopia.CookingRecipes_RecipeinaBottle_RemoveQuality",
+					"Trigger": "Spiderbuttons.BETAS_ForagePicked",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Target Cornucopia_RecipeinaBottle, ITEM_QUALITY Target 1 4",
+					"Actions": [
+						"Spiderbuttons.BETAS_ReloadItemField Cornucopia_RecipeinaBottle Quality"
+					]
+				},
 			}
 		}
 	]

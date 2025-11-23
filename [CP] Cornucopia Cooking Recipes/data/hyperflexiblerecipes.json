@@ -10860,7 +10860,8 @@
 						},
 						{
 							"Type": "ContextTag",
-							"Value": "sugar_item",
+							"Value": "sugar_item, !honey_item",
+							"ContextTagsRequireAll": true,
 							"Amount": 1,
 							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
 							"OverrideTexturePath": "Maps/springobjects",
@@ -18629,7 +18630,8 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "strawberry_item, berry_item",
+							"Value": "strawberry_item, berry_item, !grape_item",
+							"ContextTagsRequireAll": true,
 							"Amount": 1,
 							"OverrideText": "[LocalizedText Cornucopia.CookingRecipes/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:Strawberry_Name]]]",
 							"OverrideTexturePath": "Maps/springobjects",

@@ -16,7 +16,6 @@
 					"AvailableStock": "{{Random: 1, 1, 1, 1, 5}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
 						{
@@ -59,7 +58,6 @@
 					"AvailableStock": "{{Random: 1, 1, 5}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
 						{
@@ -102,7 +100,6 @@
 					"AvailableStock": "{{Random: 1, 1, 1, 1, 5}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
 						{
@@ -145,7 +142,6 @@
 					"AvailableStock": "{{Random: 1, 1, 1, 1, 5}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": "1",
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
 						{
@@ -188,7 +184,6 @@
 					"AvailableStock": "{{Random: 1, 1, 1, 1, 5}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": "1",
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
 						{
@@ -231,7 +226,6 @@
 					"AvailableStock": "{{Random: 1, 1, 1, 1, 5}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": "1",
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
 						{
@@ -274,7 +268,6 @@
 					"AvailableStock": "{{Random: 1, 1, 1, 1, 5}}",
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
 						{
@@ -317,7 +310,6 @@
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
 						{
@@ -360,7 +352,6 @@
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"MaxItems": 1,
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": false,
 					"PriceModifiers": [
 						{

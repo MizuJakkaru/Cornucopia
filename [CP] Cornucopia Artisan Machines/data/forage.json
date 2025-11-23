@@ -46,7 +46,7 @@
 								"Value": {
 									"ItemId": "(O)Cornucopia_SeaSalt"
 								}
-							},
+							}
 						],
 						[
 							{
@@ -106,6 +106,25 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/TriggerActions",
+			"When": {
+				"HasMod|contains=Spiderbuttons.BETAS": true
+			},
+			"Entries": {
+				"Cornucopia_SeaSalt_RemoveQuality": {
+					"Id": "Cornucopia_SeaSalt_RemoveQuality",
+					"Trigger": "Spiderbuttons.BETAS_ForagePicked",
+					"HostOnly": false,
+					"MarkActionApplied": false,
+					"Condition": "ITEM_ID Target Cornucopia_SeaSalt, ITEM_QUALITY Target 1 4",
+					"Actions": [
+						"Spiderbuttons.BETAS_ReloadItemField Cornucopia_SeaSalt Quality"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
 			"Entries": {
 				"Cornucopia_SeaSalt_Spawn": {
 					"Id": "Cornucopia_SeaSalt_Spawn",
@@ -113,7 +132,7 @@
 					"HostOnly": true,
 					"MarkActionApplied": false,
 					"Actions": [
-						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSalt Beach",
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSalt Beach 28,5,65,21/9,5,19,12/14,17,14,4"
 					]
 				},
 				"Cornucopia_SeaSaltRock_Spawn": {
@@ -125,9 +144,9 @@
 					"Actions": [
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
 						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
-						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16"
 					]
-				},
+				}
 			}
 		}
 	]

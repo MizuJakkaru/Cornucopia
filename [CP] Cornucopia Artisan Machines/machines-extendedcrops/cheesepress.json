@@ -18,7 +18,8 @@
 						{
 							"Id": "bean_item",
 							"RequiredTags": [
-								"bean_item"
+								"bean_item",
+								"!soybean_item"
 							]
 						}
 					],

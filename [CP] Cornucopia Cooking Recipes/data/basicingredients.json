@@ -22,7 +22,8 @@
 					"ContextTags": [
 						"color_green",
 						"cornucopia_artisangood",
-						"flour_item"
+						"flour_item",
+						"corn_flour_item"
 					]
 				},
 				"Cornucopia_WheatNoodles": {
@@ -57,7 +58,9 @@
 					"ContextTags": [
 						"color_pink",
 						"forage_item",
-						"forage_item_beach"
+						"forage_item_beach",
+						"salt_item",
+						"sea_salt_item"
 					],
 					"Type": "Basic",
 					"Category": -23
@@ -109,7 +112,8 @@
 						"cornucopia_food",
 						"food_sweet",
 						"food_party",
-						"color_white"
+						"color_white",
+						"marshmallow_item"
 					]
 				}
 			}
@@ -148,7 +152,8 @@
 						"food_spicy",
 						"food_sauce",
 						"color_red",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"hot_sauce_item"
 					]
 				}
 			}
@@ -164,13 +169,11 @@
 				"Cornucopia.CookingRecipes_CornFlour": {
 					"Id": "Cornucopia.CookingRecipes_CornFlour",
 					"ItemId": "(O)Cornucopia_CornFlour",
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": true
 				},
 				"Cornucopia.CookingRecipes_WheatNoodles": {
 					"Id": "Cornucopia.CookingRecipes_WheatNoodles",
 					"ItemId": "(O)Cornucopia_WheatNoodles",
-					"UseObjectDataPrice": true,
 					"IgnoreShopPriceModifiers": true
 				}
 			}
@@ -223,60 +226,6 @@
 					"Id": "Cornucopia.CookingRecipes_HotSauce",
 					"ItemId": "Cornucopia_HotSauce"
 				},
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"Priority": "Early",
-			"When": {
-				"HasMod|contains=Cornucopia.ArtisanMachines": false
-			},
-			"TargetField": [
-				"Beach",
-				"Forage"
-			],
-			"Entries": {
-				"(O)Cornucopia_SeaSalt": {
-					"ItemId": "(O)Cornucopia_SeaSalt",
-					"Chance": 0.4
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"Priority": "Early",
-			"When": {
-				"HasMod|contains=Cornucopia.ArtisanMachines": false
-			},
-			"TargetField": [
-				"IslandSouth",
-				"Forage"
-			],
-			"Entries": {
-				"(O)Cornucopia_SeaSalt": {
-					"ItemId": "(O)Cornucopia_SeaSalt",
-					"Chance": 0.1
-				}
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"Priority": "Early",
-			"When": {
-				"HasMod|contains=Cornucopia.ArtisanMachines": false
-			},
-			"TargetField": [
-				"IslandSouthEast",
-				"Forage"
-			],
-			"Entries": {
-				"(O)Cornucopia_SeaSalt": {
-					"ItemId": "(O)Cornucopia_SeaSalt",
-					"Chance": 0.1
-				}
 			}
 		},
 		{
