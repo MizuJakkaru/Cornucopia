@@ -4,6 +4,72 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
+				"Festival_StardewValleyFair_StarTokens",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_CandyApple": {
+					"Id": "Cornucopia_CandyApple (Recipe)",
+					"ItemId": "Cornucopia_CandyApple",
+					"IsRecipe": true,
+					"Price": 50
+				},
+				"Cornucopia_Cornbread": {
+					"Id": "Cornucopia_Cornbread (Recipe)",
+					"ItemId": "Cornucopia_Cornbread",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_StardewValleyFair_StarTokens",
+				"Items"
+			],
+			"When": {
+				"HomeCook_Essential": true
+			},
+			"Entries": {
+				"Cornucopia_CaramelApple": {
+					"Id": "Cornucopia_CaramelApple (Recipe)",
+					"ItemId": "Cornucopia_CaramelApple",
+					"IsRecipe": true,
+					"Price": 50
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_StardewValleyFair_StarTokens",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_CandiedAlmonds": {
+					"Id": "Cornucopia_CandiedAlmonds (Recipe)",
+					"ItemId": "Cornucopia_CandiedAlmonds",
+					"IsRecipe": true,
+					"Price": 100
+				},
+				"Cornucopia_RootBeer": {
+					"Id": "Cornucopia_RootBeer (Recipe)",
+					"ItemId": "Cornucopia_RootBeer",
+					"IsRecipe": true,
+					"Price": 100
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
 				"AdventureShop",
 				"Items"
 			],

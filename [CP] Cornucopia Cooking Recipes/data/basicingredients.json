@@ -4,13 +4,10 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Priority": "Early",
-			"When": {
-				"HasMod|contains=Cornucopia.ArtisanMachines": false
-			},
 			"Entries": {
 				"Cornucopia_CornFlour": {
 					"Name": "Cornucopia_CornFlour",
-					"Category": 31,
+					"Category": 0,
 					"Type": "Basic",
 					"SpriteIndex": 31,
 					"DisplayName": "{{i18n:CornFlour_name}}",
@@ -48,6 +45,8 @@
 				},
 				"Cornucopia_SeaSalt": {
 					"Name": "Cornucopia_SeaSalt",
+					"Category": 0,
+					"Type": "Basic",
 					"SpriteIndex": 30,
 					"DisplayName": "{{i18n:SeaSalt_name}}",
 					"Description": "{{i18n:SeaSalt_description}}",
@@ -62,8 +61,6 @@
 						"salt_item",
 						"sea_salt_item"
 					],
-					"Type": "Basic",
-					"Category": -23
 				},
 				"Cornucopia_Salt": {
 					"Name": "Cornucopia_Salt",
@@ -128,8 +125,8 @@
 			"Entries": {
 				"Cornucopia_HotSauce": {
 					"Name": "Cornucopia_HotSauce",
-					"Category": -7,
-					"Type": "Cooking",
+					"Category": 0,
+					"Type": "Basic",
 					"SpriteIndex": 247,
 					"DisplayName": "{{i18n:HotSauce_name}}",
 					"Description": "{{i18n:HotSauce_description}}",

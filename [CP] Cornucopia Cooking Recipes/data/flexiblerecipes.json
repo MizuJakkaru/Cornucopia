@@ -2481,7 +2481,7 @@
 						},
 						{
 							"Type": "Item",
-							"Value": "(O)Cornucopia_CoconutMilk",
+							"Value": "(O)88",
 							"Amount": 1
 						}
 					]
@@ -6975,12 +6975,12 @@
 						},
 						{
 							"Type": "ContextTag",
-							"Value": "category_milk",
+							"Value": "category_egg",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
-								"X": 256,
+								"X": 128,
 								"Y": 112,
 								"Width": 16,
 								"Height": 16

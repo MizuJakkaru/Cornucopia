@@ -12,7 +12,7 @@
 					"DisplayName": "{{i18n:FruitNectar_name}}",
 					"Description": "{{i18n:FruitNectar_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 26,
 					"IsDrink": true,
 					"ColorOverlayFromNextIndex": true,
@@ -44,7 +44,7 @@
 					"DisplayName": "{{i18n:FruitSmoothie_name}}",
 					"Description": "{{i18n:FruitSmoothie_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 30,
 					"IsDrink": true,
 					"ColorOverlayFromNextIndex": true,
@@ -75,7 +75,7 @@
 					"DisplayName": "{{i18n:AnchovyPizza_name}}",
 					"Description": "{{i18n:AnchovyPizza_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -98,7 +98,7 @@
 					"DisplayName": "{{i18n:AppleCider_name}}",
 					"Description": "{{i18n:AppleCider_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 26,
 					"IsDrink": true,
 					"ContextTags": [
@@ -117,7 +117,7 @@
 					"DisplayName": "{{i18n:BreadPudding_name}}",
 					"Description": "{{i18n:BreadPudding_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -147,7 +147,7 @@
 					"DisplayName": "{{i18n:BroccoliandCheese_name}}",
 					"Description": "{{i18n:BroccoliandCheese_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 46,
 					"IsDrink": false,
 					"ContextTags": [
@@ -167,7 +167,7 @@
 					"DisplayName": "{{i18n:CandyApple_name}}",
 					"Description": "{{i18n:CandyApple_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 75,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -219,7 +219,7 @@
 					"DisplayName": "{{i18n:CoffeeCake_name}}",
 					"Description": "{{i18n:CoffeeCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -251,7 +251,7 @@
 					"DisplayName": "{{i18n:Cornbread_name}}",
 					"Description": "{{i18n:Cornbread_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 60,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -270,7 +270,7 @@
 					"DisplayName": "{{i18n:CrabRangoons_name}}",
 					"Description": "{{i18n:CrabRangoons_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -302,7 +302,7 @@
 					"DisplayName": "{{i18n:CreamCheese_name}}",
 					"Description": "{{i18n:CreamCheese_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 80,
 					"Edibility": 16,
 					"IsDrink": false,
 					"ContextTags": [
@@ -322,7 +322,7 @@
 					"DisplayName": "{{i18n:CreamPuff_name}}",
 					"Description": "{{i18n:CreamPuff_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -344,7 +344,7 @@
 					"DisplayName": "{{i18n:Donut_name}}",
 					"Description": "{{i18n:Donut_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -366,7 +366,7 @@
 					"DisplayName": "{{i18n:FancySushiPlatter_name}}",
 					"Description": "{{i18n:FancySushiPlatter_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -398,7 +398,7 @@
 					"DisplayName": "{{i18n:FishnChips_name}}",
 					"Description": "{{i18n:FishnChips_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 32,
 					"IsDrink": false,
 					"Buffs": [
@@ -461,7 +461,7 @@
 					"DisplayName": "{{i18n:Gingersnaps_name}}",
 					"Description": "{{i18n:Gingersnaps_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 90,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -473,7 +473,8 @@
 						"allergen_gluten",
 						"food_bakery",
 						"food_sweet",
-						"food_cookie"
+						"food_cookie",
+						"cookie_item"
 					]
 				},
 				"Cornucopia_GrilledCheese": {
@@ -484,7 +485,7 @@
 					"DisplayName": "{{i18n:GrilledCheese_name}}",
 					"Description": "{{i18n:GrilledCheese_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -505,7 +506,7 @@
 					"DisplayName": "{{i18n:Ketchup_name}}",
 					"Description": "{{i18n:Ketchup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 120,
 					"Edibility": -300,
 					"IsDrink": true,
 					"ContextTags": [
@@ -525,7 +526,7 @@
 					"DisplayName": "{{i18n:Ladyfingers_name}}",
 					"Description": "{{i18n:Ladyfingers_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 90,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -548,7 +549,7 @@
 					"DisplayName": "{{i18n:LeekSoup_name}}",
 					"Description": "{{i18n:LeekSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 68,
 					"IsDrink": false,
 					"ContextTags": [
@@ -569,7 +570,7 @@
 					"DisplayName": "{{i18n:MacandCheese_name}}",
 					"Description": "{{i18n:MacandCheese_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -601,7 +602,7 @@
 					"DisplayName": "{{i18n:MangoChutney_name}}",
 					"Description": "{{i18n:MangoChutney_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 56,
 					"IsDrink": false,
 					"Buffs": [
@@ -630,7 +631,7 @@
 					"DisplayName": "{{i18n:Mochi_name}}",
 					"Description": "{{i18n:Mochi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -651,7 +652,7 @@
 					"DisplayName": "{{i18n:NachosandCheese_name}}",
 					"Description": "{{i18n:NachosandCheese_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 120,
 					"Edibility": 54,
 					"IsDrink": false,
 					"ContextTags": [
@@ -672,7 +673,7 @@
 					"DisplayName": "{{i18n:Omurice_name}}",
 					"Description": "{{i18n:Omurice_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -700,7 +701,7 @@
 					"DisplayName": "{{i18n:PineapplePizza_name}}",
 					"Description": "{{i18n:PineapplePizza_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -722,7 +723,7 @@
 					"DisplayName": "{{i18n:PlowmansPlatter_name}}",
 					"Description": "{{i18n:PlowmansPlatter_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 320,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -752,7 +753,7 @@
 					"DisplayName": "{{i18n:PokeBowl_name}}",
 					"Description": "{{i18n:PokeBowl_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 180,
 					"Edibility": 88,
 					"IsDrink": false,
 					"Buffs": [
@@ -783,14 +784,15 @@
 					"DisplayName": "{{i18n:PotatoFries_name}}",
 					"Description": "{{i18n:PotatoFries_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 52,
 					"IsDrink": false,
 					"ContextTags": [
 						"modid_cornucopia.cookingrecipes",
 						"cornucopia_food",
 						"color_yellow",
-						"food_street_food"
+						"food_street_food",
+						"french_fries_item"
 					]
 				},
 				"Cornucopia_RainbowCake": {
@@ -801,7 +803,7 @@
 					"DisplayName": "{{i18n:RainbowCake_name}}",
 					"Description": "{{i18n:RainbowCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 3000,
 					"Edibility": 200,
 					"IsDrink": false,
 					"Buffs": [
@@ -837,7 +839,7 @@
 					"DisplayName": "{{i18n:SaltGrilledFish_name}}",
 					"Description": "{{i18n:SaltGrilledFish_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 60,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -886,7 +888,7 @@
 					"DisplayName": "{{i18n:SeaweedChips_name}}",
 					"Description": "{{i18n:SeaweedChips_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 40,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -905,7 +907,7 @@
 					"DisplayName": "{{i18n:SoftPretzel_name}}",
 					"Description": "{{i18n:SoftPretzel_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 20,
 					"IsDrink": false,
 					"Buffs": [
@@ -934,7 +936,7 @@
 					"DisplayName": "{{i18n:Steckerlfisch_name}}",
 					"Description": "{{i18n:Steckerlfisch_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 70,
 					"Edibility": 34,
 					"IsDrink": false,
 					"Buffs": [
@@ -996,7 +998,7 @@
 					"DisplayName": "{{i18n:Tiramisu_name}}",
 					"Description": "{{i18n:Tiramisu_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 265,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1027,7 +1029,7 @@
 					"DisplayName": "{{i18n:MeatSatay_name}}",
 					"Description": "{{i18n:MeatSatay_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 180,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1046,7 +1048,7 @@
 					"DisplayName": "{{i18n:AutumnMuffin_name}}",
 					"Description": "{{i18n:AutumnMuffin_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1068,7 +1070,7 @@
 					"DisplayName": "{{i18n:AvocadoToast_name}}",
 					"Description": "{{i18n:AvocadoToast_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -1096,7 +1098,7 @@
 					"DisplayName": "{{i18n:BakedPotato_name}}",
 					"Description": "{{i18n:BakedPotato_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 325,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1113,7 +1115,7 @@
 					"DisplayName": "{{i18n:Baklava_name}}",
 					"Description": "{{i18n:Baklava_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -1146,13 +1148,13 @@
 					"DisplayName": "{{i18n:BananaBread_name}}",
 					"Description": "{{i18n:BananaBread_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
 						"modid_cornucopia.cookingrecipes",
 						"cornucopia_food",
-						"bread_item",
+						//"bread_item",
 						"food_sweet",
 						"allergen_gluten",
 						"food_bakery"
@@ -1166,7 +1168,7 @@
 					"DisplayName": "{{i18n:BanhMi_name}}",
 					"Description": "{{i18n:BanhMi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 275,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -1195,7 +1197,7 @@
 					"DisplayName": "{{i18n:BouquetCrepe_name}}",
 					"Description": "{{i18n:BouquetCrepe_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 56,
 					"IsDrink": false,
 					"Buffs": [
@@ -1226,7 +1228,7 @@
 					"DisplayName": "{{i18n:BreakfastScramble_name}}",
 					"Description": "{{i18n:BreakfastScramble_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -1254,7 +1256,7 @@
 					"DisplayName": "{{i18n:BrownSugar_name}}",
 					"Description": "{{i18n:BrownSugar_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 75,
 					"Edibility": 10,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1275,7 +1277,7 @@
 					"DisplayName": "{{i18n:Brownie_name}}",
 					"Description": "{{i18n:Brownie_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1298,7 +1300,7 @@
 					"DisplayName": "{{i18n:CapraeSalad_name}}",
 					"Description": "{{i18n:CapraeSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1319,7 +1321,7 @@
 					"DisplayName": "{{i18n:Caramel_name}}",
 					"Description": "{{i18n:Caramel_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 80,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1341,7 +1343,7 @@
 					"DisplayName": "{{i18n:CaramelApple_name}}",
 					"Description": "{{i18n:CaramelApple_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -1371,7 +1373,7 @@
 					"DisplayName": "{{i18n:CaramelEgg_name}}",
 					"Description": "{{i18n:CaramelEgg_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1391,7 +1393,7 @@
 					"DisplayName": "{{i18n:ChefSalad_name}}",
 					"Description": "{{i18n:ChefSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 46,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1412,7 +1414,7 @@
 					"DisplayName": "{{i18n:Chocolate_name}}",
 					"Description": "{{i18n:Chocolate_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1423,7 +1425,8 @@
 						"{{DairyTag}}",
 						"{{NonveganTag}}",
 						"food_sweet",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"milk_chocolate_item"
 					]
 				},
 				"Cornucopia_ChocolatePudding": {
@@ -1434,7 +1437,7 @@
 					"DisplayName": "{{i18n:ChocolatePudding_name}}",
 					"Description": "{{i18n:ChocolatePudding_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 110,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1454,7 +1457,7 @@
 					"DisplayName": "{{i18n:CrabDip_name}}",
 					"Description": "{{i18n:CrabDip_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 260,
 					"Edibility": 68,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1477,7 +1480,7 @@
 					"DisplayName": "{{i18n:CremeBrulee_name}}",
 					"Description": "{{i18n:CremeBrulee_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 260,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1498,7 +1501,7 @@
 					"DisplayName": "{{i18n:Dango_name}}",
 					"Description": "{{i18n:Dango_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -1526,7 +1529,7 @@
 					"DisplayName": "{{i18n:DragonRoll_name}}",
 					"Description": "{{i18n:DragonRoll_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 40,
 					"IsDrink": false,
 					"Buffs": [
@@ -1558,7 +1561,7 @@
 					"DisplayName": "{{i18n:Edamame_name}}",
 					"Description": "{{i18n:Edamame_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 24,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1575,7 +1578,7 @@
 					"DisplayName": "{{i18n:GroundnutStew_name}}",
 					"Description": "{{i18n:GroundnutStew_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 48,
 					"IsDrink": false,
 					"Buffs": [
@@ -1604,7 +1607,7 @@
 					"DisplayName": "{{i18n:HoneyCake_name}}",
 					"Description": "{{i18n:HoneyCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 36,
 					"IsDrink": false,
 					"Buffs": [
@@ -1636,7 +1639,7 @@
 					"DisplayName": "{{i18n:HotChocolate_name}}",
 					"Description": "{{i18n:HotChocolate_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 40,
 					"IsDrink": true,
 					"Buffs": [
@@ -1666,7 +1669,7 @@
 					"DisplayName": "{{i18n:PoachedPear_name}}",
 					"Description": "{{i18n:PoachedPear_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1685,7 +1688,7 @@
 					"DisplayName": "{{i18n:SpinachQuiche_name}}",
 					"Description": "{{i18n:SpinachQuiche_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 325,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1736,7 +1739,7 @@
 					"DisplayName": "{{i18n:SaltandVinegarChips_name}}",
 					"Description": "{{i18n:SaltandVinegarChips_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1754,7 +1757,7 @@
 					"DisplayName": "{{i18n:SandwichCookies_name}}",
 					"Description": "{{i18n:SandwichCookies_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 210,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1777,7 +1780,7 @@
 					"DisplayName": "{{i18n:Shakshouka_name}}",
 					"Description": "{{i18n:Shakshouka_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 72,
 					"IsDrink": false,
 					"Buffs": [
@@ -1806,7 +1809,7 @@
 					"DisplayName": "{{i18n:StuffedPeppers_name}}",
 					"Description": "{{i18n:StuffedPeppers_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1827,7 +1830,7 @@
 					"DisplayName": "{{i18n:SugarcaneShake_name}}",
 					"Description": "{{i18n:SugarcaneShake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 160,
 					"Edibility": 32,
 					"IsDrink": true,
 					"Buffs": [
@@ -1855,7 +1858,7 @@
 					"DisplayName": "{{i18n:Udon_name}}",
 					"Description": "{{i18n:Udon_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1875,7 +1878,7 @@
 					"DisplayName": "{{i18n:VanillaPudding_name}}",
 					"Description": "{{i18n:VanillaPudding_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 185,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1895,7 +1898,7 @@
 					"DisplayName": "{{i18n:ZucchiniFritters_name}}",
 					"Description": "{{i18n:ZucchiniFritters_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1922,7 +1925,7 @@
 					"DisplayName": "{{i18n:NutButterCups_name}}",
 					"Description": "{{i18n:NutButterCups_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -1943,7 +1946,7 @@
 					"DisplayName": "{{i18n:AncientWonder_name}}",
 					"Description": "{{i18n:AncientWonder_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 1200,
 					"Edibility": 110,
 					"IsDrink": false,
 					"Buffs": [
@@ -1971,7 +1974,7 @@
 					"DisplayName": "{{i18n:ArmoredTurnips_name}}",
 					"Description": "{{i18n:ArmoredTurnips_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 340,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -2001,7 +2004,7 @@
 					"DisplayName": "{{i18n:AsparagusDelight_name}}",
 					"Description": "{{i18n:AsparagusDelight_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2022,7 +2025,7 @@
 					"DisplayName": "{{i18n:AutumnCasserole_name}}",
 					"Description": "{{i18n:AutumnCasserole_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 420,
 					"Edibility": 100,
 					"IsDrink": false,
 					"Buffs": [
@@ -2052,7 +2055,7 @@
 					"DisplayName": "{{i18n:BakedApple_name}}",
 					"Description": "{{i18n:BakedApple_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2071,7 +2074,7 @@
 					"DisplayName": "{{i18n:BeanBurger_name}}",
 					"Description": "{{i18n:BeanBurger_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 86,
 					"IsDrink": false,
 					"Buffs": [
@@ -2101,7 +2104,7 @@
 					"DisplayName": "{{i18n:BeanQuesadilla_name}}",
 					"Description": "{{i18n:BeanQuesadilla_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 310,
 					"Edibility": 76,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2120,7 +2123,7 @@
 					"DisplayName": "{{i18n:Broth_name}}",
 					"Description": "{{i18n:Broth_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -2139,7 +2142,8 @@
 						"cornucopia_food",
 						"color_orange",
 						"food_soup",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"broth_item"
 					]
 				},
 				"Cornucopia_ButternutSquashSoup": {
@@ -2150,7 +2154,7 @@
 					"DisplayName": "{{i18n:ButternutSquashSoup_name}}",
 					"Description": "{{i18n:ButternutSquashSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 260,
 					"Edibility": 34,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2170,7 +2174,7 @@
 					"DisplayName": "{{i18n:Cinderdoodles_name}}",
 					"Description": "{{i18n:Cinderdoodles_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 130,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2213,7 +2217,7 @@
 					"DisplayName": "{{i18n:FarmersRamen_name}}",
 					"Description": "{{i18n:FarmersRamen_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 380,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -2243,7 +2247,7 @@
 					"DisplayName": "{{i18n:FettuccineAlfredo_name}}",
 					"Description": "{{i18n:FettuccineAlfredo_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 88,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2265,7 +2269,7 @@
 					"DisplayName": "{{i18n:FigToast_name}}",
 					"Description": "{{i18n:FigToast_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2287,7 +2291,7 @@
 					"DisplayName": "{{i18n:Flan_name}}",
 					"Description": "{{i18n:Flan_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 86,
 					"IsDrink": false,
 					"Buffs": [
@@ -2319,7 +2323,7 @@
 					"DisplayName": "{{i18n:Fondue_name}}",
 					"Description": "{{i18n:Fondue_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 48,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2340,7 +2344,7 @@
 					"DisplayName": "{{i18n:FriedLotusRoot_name}}",
 					"Description": "{{i18n:FriedLotusRoot_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 32,
 					"IsDrink": false,
 					"Buffs": [
@@ -2371,7 +2375,7 @@
 					"DisplayName": "{{i18n:FriedPickles_name}}",
 					"Description": "{{i18n:FriedPickles_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 180,
 					"Edibility": 48,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2390,7 +2394,7 @@
 					"DisplayName": "{{i18n:FriedRice_name}}",
 					"Description": "{{i18n:FriedRice_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 375,
 					"Edibility": 52,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2409,7 +2413,7 @@
 					"DisplayName": "{{i18n:GrahamCracker_name}}",
 					"Description": "{{i18n:GrahamCracker_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2418,7 +2422,8 @@
 						"allergen_gluten",
 						"food_nonvegan",
 						"food_cookie",
-						"color_brown"
+						"color_brown",
+						"graham_cracker_item"
 					]
 				},
 				"Cornucopia_Gumbo": {
@@ -2429,7 +2434,7 @@
 					"DisplayName": "{{i18n:Gumbo_name}}",
 					"Description": "{{i18n:Gumbo_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 320,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -2463,7 +2468,7 @@
 					"DisplayName": "{{i18n:HomemadePopcorn_name}}",
 					"Description": "{{i18n:HomemadePopcorn_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2472,7 +2477,8 @@
 						"{{DairyTag}}",
 						"{{NonveganTag}}",
 						"color_yellow",
-						"food_party"
+						"food_party",
+						"popcorn_item"
 					]
 				},
 				"Cornucopia_JellO": {
@@ -2483,7 +2489,7 @@
 					"DisplayName": "{{i18n:JellO_name}}",
 					"Description": "{{i18n:JellO_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 80,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -2500,7 +2506,8 @@
 						"cornucopia_food",
 						"color_red",
 						"food_party",
-						"food_sweet"
+						"food_sweet",
+						"jello_item"
 					]
 				},
 				"Cornucopia_JellyBeans": {
@@ -2511,7 +2518,7 @@
 					"DisplayName": "{{i18n:JellyBeans_name}}",
 					"Description": "{{i18n:JellyBeans_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 140,
 					"Edibility": 24,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2555,7 +2562,7 @@
 					"DisplayName": "{{i18n:LoxandaSchmear_name}}",
 					"Description": "{{i18n:LoxandaSchmear_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 275,
 					"Edibility": 64,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2577,7 +2584,7 @@
 					"DisplayName": "{{i18n:LumberjacksBun_name}}",
 					"Description": "{{i18n:LumberjacksBun_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -2627,7 +2634,7 @@
 					"DisplayName": "{{i18n:Marshmallow_name}}",
 					"Description": "{{i18n:Marshmallow_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 50,
 					"Edibility": 36,
 					"IsDrink": false,
 					"Buffs": [
@@ -2675,7 +2682,7 @@
 					"DisplayName": "{{i18n:MisoSoup_name}}",
 					"Description": "{{i18n:MisoSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 40,
 					"IsDrink": false,
 					"Buffs": [
@@ -2754,7 +2761,7 @@
 					"DisplayName": "{{i18n:OkraSoup_name}}",
 					"Description": "{{i18n:OkraSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -2772,7 +2779,7 @@
 					"DisplayName": "{{i18n:PadPrinat_name}}",
 					"Description": "{{i18n:PadPrinat_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 470,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -2803,7 +2810,7 @@
 					"DisplayName": "{{i18n:PalmNutSoup_name}}",
 					"Description": "{{i18n:PalmNutSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 260,
 					"Edibility": 68,
 					"IsDrink": false,
 					"Buffs": [
@@ -2833,7 +2840,7 @@
 					"DisplayName": "{{i18n:PBJSandwich_name}}",
 					"Description": "{{i18n:PBJSandwich_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 70,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -2864,7 +2871,7 @@
 					"DisplayName": "{{i18n:PenneallArrabbiatta_name}}",
 					"Description": "{{i18n:PenneallArrabbiatta_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -2894,7 +2901,7 @@
 					"DisplayName": "{{i18n:PinkDrink_name}}",
 					"Description": "{{i18n:PinkDrink_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 40,
 					"IsDrink": true,
 					"Buffs": [
@@ -2923,7 +2930,7 @@
 					"DisplayName": "{{i18n:RoyalHoneyToast_name}}",
 					"Description": "{{i18n:RoyalHoneyToast_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 2500,
 					"Edibility": 40,
 					"IsDrink": false,
 					"Buffs": [
@@ -2955,7 +2962,7 @@
 					"DisplayName": "{{i18n:Smore_name}}",
 					"Description": "{{i18n:Smore_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -2987,7 +2994,7 @@
 					"DisplayName": "{{i18n:SaladRolls_name}}",
 					"Description": "{{i18n:SaladRolls_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 320,
 					"Edibility": 46,
 					"IsDrink": false,
 					"Buffs": [
@@ -3018,7 +3025,7 @@
 					"DisplayName": "{{i18n:SpinachDip_name}}",
 					"Description": "{{i18n:SpinachDip_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 52,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3039,7 +3046,7 @@
 					"DisplayName": "{{i18n:SpringSalmagundi_name}}",
 					"Description": "{{i18n:SpringSalmagundi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -3072,7 +3079,7 @@
 					"DisplayName": "{{i18n:SunriseToast_name}}",
 					"Description": "{{i18n:SunriseToast_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 320,
 					"Edibility": 36,
 					"IsDrink": false,
 					"Buffs": [
@@ -3104,7 +3111,7 @@
 					"DisplayName": "{{i18n:TilapiaandZoodles_name}}",
 					"Description": "{{i18n:TilapiaandZoodles_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 88,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3126,7 +3133,7 @@
 					"DisplayName": "{{i18n:TomatoSoup_name}}",
 					"Description": "{{i18n:TomatoSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 230,
 					"Edibility": 40,
 					"IsDrink": false,
 					"Buffs": [
@@ -3153,7 +3160,7 @@
 					"DisplayName": "{{i18n:Waffles_name}}",
 					"Description": "{{i18n:Waffles_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3165,7 +3172,8 @@
 						"allergen_egg",
 						"{{DairyTag}}",
 						"food_nonvegan",
-						"color_orange"
+						"color_orange",
+						"waffle_item"
 					]
 				},
 				"Cornucopia_YucaFries": {
@@ -3176,7 +3184,7 @@
 					"DisplayName": "{{i18n:YucaFries_name}}",
 					"Description": "{{i18n:YucaFries_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 120,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3203,7 +3211,7 @@
 					"DisplayName": "{{i18n:GrainPorridge_name}}",
 					"Description": "{{i18n:GrainPorridge_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ColorOverlayFromNextIndex": true,
@@ -3234,7 +3242,7 @@
 					"DisplayName": "{{i18n:NigiriSushi_name}}",
 					"Description": "{{i18n:NigiriSushi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 80,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ColorOverlayFromNextIndex": true,
@@ -3255,7 +3263,7 @@
 					"DisplayName": "{{i18n:VegetablePotPie_name}}",
 					"Description": "{{i18n:VegetablePotPie_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 90,
 					"IsDrink": false,
 					"ColorOverlayFromNextIndex": true,
@@ -3288,7 +3296,7 @@
 					"DisplayName": "{{i18n:AcornBread_name}}",
 					"Description": "{{i18n:AcornBread_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 120,
 					"Edibility": 40,
 					"IsDrink": false,
 					"Buffs": [
@@ -3319,7 +3327,7 @@
 					"DisplayName": "{{i18n:Bacalaitos_name}}",
 					"Description": "{{i18n:Bacalaitos_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 66,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3340,7 +3348,7 @@
 					"DisplayName": "{{i18n:BananaCurry_name}}",
 					"Description": "{{i18n:BananaCurry_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 210,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -3356,7 +3364,8 @@
 						"modid_cornucopia.cookingrecipes",
 						"cornucopia_food",
 						"color_yellow",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"food_curry"
 					]
 				},
 				"Cornucopia_BlackSoup": {
@@ -3367,7 +3376,7 @@
 					"DisplayName": "{{i18n:BlackSoup_name}}",
 					"Description": "{{i18n:BlackSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 34,
 					"IsDrink": false,
 					"Buffs": [
@@ -3398,7 +3407,7 @@
 					"DisplayName": "{{i18n:CaldodeCamaron_name}}",
 					"Description": "{{i18n:CaldodeCamaron_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -3430,7 +3439,7 @@
 					"DisplayName": "{{i18n:CandiedCherries_name}}",
 					"Description": "{{i18n:CandiedCherries_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3449,7 +3458,7 @@
 					"DisplayName": "{{i18n:Cassata_name}}",
 					"Description": "{{i18n:Cassata_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -3481,7 +3490,7 @@
 					"DisplayName": "{{i18n:CheeseFries_name}}",
 					"Description": "{{i18n:CheeseFries_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3502,7 +3511,7 @@
 					"DisplayName": "{{i18n:CheeseRamen_name}}",
 					"Description": "{{i18n:CheeseRamen_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 290,
 					"Edibility": 66,
 					"IsDrink": false,
 					"Buffs": [
@@ -3532,7 +3541,7 @@
 					"DisplayName": "{{i18n:Cheesecake_name}}",
 					"Description": "{{i18n:Cheesecake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 380,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3555,7 +3564,7 @@
 					"DisplayName": "{{i18n:SourCherryPie_name}}",
 					"Description": "{{i18n:SourCherryPie_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 86,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3576,7 +3585,7 @@
 					"DisplayName": "{{i18n:ChipaGuasu_name}}",
 					"Description": "{{i18n:ChipaGuasu_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 295,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3597,7 +3606,7 @@
 					"DisplayName": "{{i18n:CoastalFeast_name}}",
 					"Description": "{{i18n:CoastalFeast_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 280,
 					"Edibility": 140,
 					"IsDrink": false,
 					"Buffs": [
@@ -3628,7 +3637,7 @@
 					"DisplayName": "{{i18n:CoconutFish_name}}",
 					"Description": "{{i18n:CoconutFish_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3650,7 +3659,7 @@
 					"DisplayName": "{{i18n:CoconutShrimp_name}}",
 					"Description": "{{i18n:CoconutShrimp_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3671,7 +3680,7 @@
 					"DisplayName": "{{i18n:CottageBreakfast_name}}",
 					"Description": "{{i18n:CottageBreakfast_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 160,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3691,7 +3700,7 @@
 					"DisplayName": "{{i18n:CottonCandy_name}}",
 					"Description": "{{i18n:CottonCandy_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 50,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3699,7 +3708,8 @@
 						"cornucopia_food",
 						"color_pink",
 						"food_sweet",
-						"food_street_food"
+						"food_street_food",
+						"cotton_candy_item"
 					]
 				},
 				"Cornucopia_CreamStew": {
@@ -3730,7 +3740,7 @@
 					"DisplayName": "{{i18n:CreamedCorn_name}}",
 					"Description": "{{i18n:CreamedCorn_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3748,7 +3758,7 @@
 					"DisplayName": "{{i18n:CritterFritter_name}}",
 					"Description": "{{i18n:CritterFritter_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 120,
 					"Edibility": 16,
 					"IsDrink": false,
 					"Buffs": [
@@ -3778,7 +3788,7 @@
 					"DisplayName": "{{i18n:Croquette_name}}",
 					"Description": "{{i18n:Croquette_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 180,
 					"Edibility": 72,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3796,7 +3806,7 @@
 					"DisplayName": "{{i18n:EelPie_name}}",
 					"Description": "{{i18n:EelPie_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -3830,7 +3840,7 @@
 					"DisplayName": "{{i18n:FluffyEggSandwich_name}}",
 					"Description": "{{i18n:FluffyEggSandwich_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -3882,7 +3892,7 @@
 					"DisplayName": "{{i18n:FruitBar_name}}",
 					"Description": "{{i18n:FruitBar_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 110,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3901,7 +3911,7 @@
 					"DisplayName": "{{i18n:GarlicNaan_name}}",
 					"Description": "{{i18n:GarlicNaan_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 75,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -3911,7 +3921,9 @@
 						"food_bakery",
 						"bread_item",
 						"color_brown",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"naan_item",
+						"flatbread_item"
 					]
 				},
 				"Cornucopia_GoatCheeseSalad": {
@@ -3922,7 +3934,7 @@
 					"DisplayName": "{{i18n:GoatCheeseSalad_name}}",
 					"Description": "{{i18n:GoatCheeseSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 88,
 					"IsDrink": false,
 					"Buffs": [
@@ -3952,7 +3964,7 @@
 					"DisplayName": "{{i18n:GoldenStrands_name}}",
 					"Description": "{{i18n:GoldenStrands_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 44,
 					"IsDrink": false,
 					"Buffs": [
@@ -4004,7 +4016,7 @@
 					"DisplayName": "{{i18n:Haleem_name}}",
 					"Description": "{{i18n:Haleem_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 48,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4024,7 +4036,7 @@
 					"DisplayName": "{{i18n:Halloumi_name}}",
 					"Description": "{{i18n:Halloumi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -4054,7 +4066,7 @@
 					"DisplayName": "{{i18n:HardCandies_name}}",
 					"Description": "{{i18n:HardCandies_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 50,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4072,7 +4084,7 @@
 					"DisplayName": "{{i18n:HotSauce_name}}",
 					"Description": "{{i18n:HotSauce_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 8,
 					"IsDrink": false,
 					"Buffs": [
@@ -4102,7 +4114,7 @@
 					"DisplayName": "{{i18n:Khachapuri_name}}",
 					"Description": "{{i18n:Khachapuri_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 72,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4123,7 +4135,7 @@
 					"DisplayName": "{{i18n:LobsterRoll_name}}",
 					"Description": "{{i18n:LobsterRoll_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -4156,7 +4168,7 @@
 					"DisplayName": "{{i18n:LoftyPopover_name}}",
 					"Description": "{{i18n:LoftyPopover_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 64,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4201,7 +4213,7 @@
 					"DisplayName": "{{i18n:Malasada_name}}",
 					"Description": "{{i18n:Malasada_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4223,7 +4235,7 @@
 					"DisplayName": "{{i18n:MalvaPudding_name}}",
 					"Description": "{{i18n:MalvaPudding_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 64,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4244,7 +4256,7 @@
 					"DisplayName": "{{i18n:MechouiaSalad_name}}",
 					"Description": "{{i18n:MechouiaSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 100,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4267,7 +4279,7 @@
 					"DisplayName": "{{i18n:Melonpan_name}}",
 					"Description": "{{i18n:Melonpan_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4287,7 +4299,7 @@
 					"DisplayName": "{{i18n:Meringues_name}}",
 					"Description": "{{i18n:Meringues_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 28,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4310,7 +4322,7 @@
 					"DisplayName": "{{i18n:PantaBhat_name}}",
 					"Description": "{{i18n:PantaBhat_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -4343,7 +4355,7 @@
 					"DisplayName": "{{i18n:Papanasi_name}}",
 					"Description": "{{i18n:Papanasi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 44,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4365,7 +4377,7 @@
 					"DisplayName": "{{i18n:PeachCrisp_name}}",
 					"Description": "{{i18n:PeachCrisp_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4386,7 +4398,7 @@
 					"DisplayName": "{{i18n:Pierogi_name}}",
 					"Description": "{{i18n:Pierogi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 260,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4406,7 +4418,7 @@
 					"DisplayName": "{{i18n:PineappleUpsideDownCake_name}}",
 					"Description": "{{i18n:PineappleUpsideDownCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4451,7 +4463,7 @@
 					"DisplayName": "{{i18n:PotatoBread_name}}",
 					"Description": "{{i18n:PotatoBread_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 56,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4471,7 +4483,7 @@
 					"DisplayName": "{{i18n:PotatoSalad_name}}",
 					"Description": "{{i18n:PotatoSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 46,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4492,7 +4504,7 @@
 					"DisplayName": "{{i18n:PotatoesauGratin_name}}",
 					"Description": "{{i18n:PotatoesauGratin_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 88,
 					"IsDrink": false,
 					"Buffs": [
@@ -4543,7 +4555,7 @@
 					"DisplayName": "{{i18n:Pupusas_name}}",
 					"Description": "{{i18n:Pupusas_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 20,
 					"IsDrink": false,
 					"Buffs": [
@@ -4570,7 +4582,7 @@
 					"DisplayName": "{{i18n:RizGras_name}}",
 					"Description": "{{i18n:RizGras_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 88,
 					"IsDrink": false,
 					"Buffs": [
@@ -4632,7 +4644,7 @@
 					"DisplayName": "{{i18n:Scone_name}}",
 					"Description": "{{i18n:Scone_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4672,7 +4684,7 @@
 					"DisplayName": "{{i18n:SeafoodBoil_name}}",
 					"Description": "{{i18n:SeafoodBoil_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 150,
 					"IsDrink": false,
 					"Buffs": [
@@ -4704,7 +4716,7 @@
 					"DisplayName": "{{i18n:ShrimpFriedRice_name}}",
 					"Description": "{{i18n:ShrimpFriedRice_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 370,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4748,7 +4760,7 @@
 					"DisplayName": "{{i18n:SourFishSoup_name}}",
 					"Description": "{{i18n:SourFishSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -4778,7 +4790,7 @@
 					"DisplayName": "{{i18n:Spatzle_name}}",
 					"Description": "{{i18n:Spatzle_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 260,
 					"Edibility": 34,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4799,7 +4811,7 @@
 					"DisplayName": "{{i18n:StuffedMushrooms_name}}",
 					"Description": "{{i18n:StuffedMushrooms_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 92,
 					"IsDrink": false,
 					"Buffs": [
@@ -4830,7 +4842,7 @@
 					"DisplayName": "{{i18n:SweetCrepes_name}}",
 					"Description": "{{i18n:SweetCrepes_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 120,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4853,7 +4865,7 @@
 					"DisplayName": "{{i18n:Switchel_name}}",
 					"Description": "{{i18n:Switchel_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 56,
 					"IsDrink": true,
 					"Buffs": [
@@ -4880,7 +4892,7 @@
 					"DisplayName": "{{i18n:Taffy_name}}",
 					"Description": "{{i18n:Taffy_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 50,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4898,7 +4910,7 @@
 					"DisplayName": "{{i18n:TaterTots_name}}",
 					"Description": "{{i18n:TaterTots_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4935,7 +4947,7 @@
 					"DisplayName": "{{i18n:Tteokbokki_name}}",
 					"Description": "{{i18n:Tteokbokki_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -4966,7 +4978,7 @@
 					"DisplayName": "{{i18n:Vinaigrette_name}}",
 					"Description": "{{i18n:Vinaigrette_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": -300,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4974,7 +4986,8 @@
 						"cornucopia_food",
 						"food_sauce",
 						"color_orange",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"vinaigrette_item"
 					]
 				},
 				"Cornucopia_Wojapi": {
@@ -4985,7 +4998,7 @@
 					"DisplayName": "{{i18n:Wojapi_name}}",
 					"Description": "{{i18n:Wojapi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 32,
 					"IsDrink": false,
 					"ContextTags": [
@@ -4994,7 +5007,8 @@
 						"food_nonvegan",
 						"color_red",
 						"food_sauce",
-						"food_sweet"
+						"food_sweet",
+						"jelly_item"
 					]
 				}
 			}
@@ -5014,7 +5028,7 @@
 					"DisplayName": "{{i18n:AnimalCrackers_name}}",
 					"Description": "{{i18n:AnimalCrackers_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 160,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5033,7 +5047,7 @@
 					"DisplayName": "{{i18n:Arepas_name}}",
 					"Description": "{{i18n:Arepas_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 20,
 					"IsDrink": false,
 					"Buffs": [
@@ -5062,7 +5076,7 @@
 					"DisplayName": "{{i18n:BoiledPeanuts_name}}",
 					"Description": "{{i18n:BoiledPeanuts_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 36,
 					"IsDrink": false,
 					"Buffs": [
@@ -5090,7 +5104,7 @@
 					"DisplayName": "{{i18n:BreadSoup_name}}",
 					"Description": "{{i18n:BreadSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -5140,33 +5154,6 @@
 						"food_breakfast"
 					]
 				},
-				"Cornucopia_Butterscotch": {
-					"Name": "Cornucopia_Butterscotch",
-					"Category": -7,
-					"Type": "Cooking",
-					"SpriteIndex": 109,
-					"DisplayName": "{{i18n:Butterscotch_name}}",
-					"Description": "{{i18n:Butterscotch_description}}",
-					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
-					"Edibility": 10,
-					"IsDrink": false,
-					"Buffs": [
-						{
-							"Id": "Food",
-							"Duration": 600,
-							"CustomAttributes": {}
-						}
-					],
-					"ContextTags": [
-						"modid_cornucopia.cookingrecipes",
-						"cornucopia_food",
-						"color_yellow",
-						"{{DairyTag}}",
-						"{{NonveganTag}}",
-						"food_sweet"
-					]
-				},
 				"Cornucopia_CakePops": {
 					"Name": "Cornucopia_CakePops",
 					"Category": -7,
@@ -5175,7 +5162,7 @@
 					"DisplayName": "{{i18n:CakePops_name}}",
 					"Description": "{{i18n:CakePops_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5198,7 +5185,7 @@
 					"DisplayName": "{{i18n:CandiedPineapple_name}}",
 					"Description": "{{i18n:CandiedPineapple_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5217,7 +5204,7 @@
 					"DisplayName": "{{i18n:CaramelizedOnions_name}}",
 					"Description": "{{i18n:CaramelizedOnions_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5234,7 +5221,7 @@
 					"DisplayName": "{{i18n:Castella_name}}",
 					"Description": "{{i18n:Castella_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5257,7 +5244,7 @@
 					"DisplayName": "{{i18n:CheeseBoard_name}}",
 					"Description": "{{i18n:CheeseBoard_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 320,
 					"Edibility": 84,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5278,7 +5265,7 @@
 					"DisplayName": "{{i18n:ChocolateBanana_name}}",
 					"Description": "{{i18n:ChocolateBanana_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5299,7 +5286,7 @@
 					"DisplayName": "{{i18n:ChocolateCoveredStrawberry_name}}",
 					"Description": "{{i18n:ChocolateCoveredStrawberry_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5351,7 +5338,7 @@
 					"DisplayName": "{{i18n:CrispyRiceBowl_name}}",
 					"Description": "{{i18n:CrispyRiceBowl_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 320,
 					"Edibility": 88,
 					"IsDrink": false,
 					"Buffs": [
@@ -5381,7 +5368,7 @@
 					"DisplayName": "{{i18n:CucumberKimchi_name}}",
 					"Description": "{{i18n:CucumberKimchi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 32,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5400,7 +5387,7 @@
 					"DisplayName": "{{i18n:CucumberRoll_name}}",
 					"Description": "{{i18n:CucumberRoll_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5418,7 +5405,7 @@
 					"DisplayName": "{{i18n:CucumberSandwich_name}}",
 					"Description": "{{i18n:CucumberSandwich_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 65,
 					"Edibility": 20,
 					"IsDrink": false,
 					"Buffs": [
@@ -5449,7 +5436,7 @@
 					"DisplayName": "{{i18n:Cupcakes_name}}",
 					"Description": "{{i18n:Cupcakes_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5472,7 +5459,7 @@
 					"DisplayName": "{{i18n:EgusiSoup_name}}",
 					"Description": "{{i18n:EgusiSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 56,
 					"IsDrink": false,
 					"Buffs": [
@@ -5503,41 +5490,13 @@
 					"DisplayName": "{{i18n:FriedTofu_name}}",
 					"Description": "{{i18n:FriedTofu_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 120,
 					"Edibility": 32,
 					"IsDrink": false,
 					"ContextTags": [
 						"modid_cornucopia.cookingrecipes",
 						"cornucopia_food",
 						"color_brown"
-					]
-				},
-				"Cornucopia_Fudge": {
-					"Name": "Cornucopia_Fudge",
-					"Category": -7,
-					"Type": "Cooking",
-					"SpriteIndex": 37,
-					"DisplayName": "{{i18n:Fudge_name}}",
-					"Description": "{{i18n:Fudge_description}}",
-					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
-					"Edibility": 10,
-					"IsDrink": false,
-					"Buffs": [
-						{
-							"Id": "Food",
-							"Duration": 600,
-							"CustomAttributes": {}
-						}
-					],
-					"ContextTags": [
-						"modid_cornucopia.cookingrecipes",
-						"cornucopia_food",
-						"color_brown",
-						"{{DairyTag}}",
-						"{{NonveganTag}}",
-						"food_sweet",
-						"food_bakery"
 					]
 				},
 				"Cornucopia_Gazpacho": {
@@ -5548,7 +5507,7 @@
 					"DisplayName": "{{i18n:Gazpacho_name}}",
 					"Description": "{{i18n:Gazpacho_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 88,
 					"IsDrink": false,
 					"Buffs": [
@@ -5577,7 +5536,7 @@
 					"DisplayName": "{{i18n:GingerbreadPeople_name}}",
 					"Description": "{{i18n:GingerbreadPeople_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 90,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5598,7 +5557,7 @@
 					"DisplayName": "{{i18n:GreenBeanCasserole_name}}",
 					"Description": "{{i18n:GreenBeanCasserole_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 36,
 					"IsDrink": false,
 					"Buffs": [
@@ -5627,7 +5586,7 @@
 					"DisplayName": "{{i18n:Hardtack_name}}",
 					"Description": "{{i18n:Hardtack_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 50,
 					"Edibility": 12,
 					"IsDrink": false,
 					"Buffs": [
@@ -5654,7 +5613,7 @@
 					"DisplayName": "{{i18n:HeartySautee_name}}",
 					"Description": "{{i18n:HeartySautee_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 120,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -5686,7 +5645,7 @@
 					"DisplayName": "{{i18n:HoriatikiSalad_name}}",
 					"Description": "{{i18n:HoriatikiSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 110,
 					"Edibility": 46,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5704,7 +5663,7 @@
 					"DisplayName": "{{i18n:Jammies_name}}",
 					"Description": "{{i18n:Jammies_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 75,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5727,7 +5686,7 @@
 					"DisplayName": "{{i18n:Johnnycakes_name}}",
 					"Description": "{{i18n:Johnnycakes_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5749,7 +5708,7 @@
 					"DisplayName": "{{i18n:KitsuneUdon_name}}",
 					"Description": "{{i18n:KitsuneUdon_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -5780,7 +5739,7 @@
 					"DisplayName": "{{i18n:MagmaMole_name}}",
 					"Description": "{{i18n:MagmaMole_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 100,
 					"IsDrink": false,
 					"Buffs": [
@@ -5834,7 +5793,7 @@
 					"DisplayName": "{{i18n:Mousse_name}}",
 					"Description": "{{i18n:Mousse_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5854,7 +5813,7 @@
 					"DisplayName": "{{i18n:Natto_name}}",
 					"Description": "{{i18n:Natto_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 16,
 					"IsDrink": false,
 					"Buffs": [
@@ -5901,7 +5860,7 @@
 					"DisplayName": "{{i18n:OysterSauce_name}}",
 					"Description": "{{i18n:OysterSauce_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": -300,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5924,7 +5883,7 @@
 					"DisplayName": "{{i18n:OysterSauceCrab_name}}",
 					"Description": "{{i18n:OysterSauceCrab_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 320,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -5947,29 +5906,6 @@
 						"cornucopia_chefstock"
 					]
 				},
-				"Cornucopia_Pavlova": {
-					"Name": "Cornucopia_Pavlova",
-					"Category": -7,
-					"Type": "Cooking",
-					"SpriteIndex": 95,
-					"DisplayName": "{{i18n:Pavlova_name}}",
-					"Description": "{{i18n:Pavlova_description}}",
-					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
-					"Edibility": 10,
-					"IsDrink": false,
-					"ContextTags": [
-						"modid_cornucopia.cookingrecipes",
-						"cornucopia_food",
-						"allergen_gluten",
-						"color_green",
-						"{{DairyTag}}",
-						"{{NonveganTag}}",
-						"food_bakery",
-						"food_sweet",
-						"food_cake"
-					]
-				},
 				"Cornucopia_PickledRind": {
 					"Name": "Cornucopia_PickledRind",
 					"Category": -7,
@@ -5978,7 +5914,7 @@
 					"DisplayName": "{{i18n:PickledRind_name}}",
 					"Description": "{{i18n:PickledRind_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -5995,7 +5931,7 @@
 					"DisplayName": "{{i18n:Pita_name}}",
 					"Description": "{{i18n:Pita_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 75,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6023,23 +5959,6 @@
 						"cornucopia_chefstock"
 					]
 				},
-				"Cornucopia_RiceandBeans": {
-					"Name": "Cornucopia_RiceandBeans",
-					"Category": -7,
-					"Type": "Cooking",
-					"SpriteIndex": 244,
-					"DisplayName": "{{i18n:RiceandBeans_name}}",
-					"Description": "{{i18n:RiceandBeans_description}}",
-					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
-					"Edibility": 92,
-					"IsDrink": false,
-					"ContextTags": [
-						"modid_cornucopia.cookingrecipes",
-						"cornucopia_food",
-						"color_white"
-					]
-				},
 				"Cornucopia_RiceCakes": {
 					"Name": "Cornucopia_RiceCakes",
 					"Category": -7,
@@ -6048,7 +5967,7 @@
 					"DisplayName": "{{i18n:RiceCakes_name}}",
 					"Description": "{{i18n:RiceCakes_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 32,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6065,7 +5984,7 @@
 					"DisplayName": "{{i18n:Scarpaccia_name}}",
 					"Description": "{{i18n:Scarpaccia_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 72,
 					"IsDrink": false,
 					"Buffs": [
@@ -6092,7 +6011,7 @@
 					"DisplayName": "{{i18n:StrawberryDrink_name}}",
 					"Description": "{{i18n:StrawberryDrink_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 40,
 					"IsDrink": true,
 					"Buffs": [
@@ -6122,7 +6041,7 @@
 					"DisplayName": "{{i18n:StrawberryShortcake_name}}",
 					"Description": "{{i18n:StrawberryShortcake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 88,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6144,7 +6063,7 @@
 					"DisplayName": "{{i18n:Stroganina_name}}",
 					"Description": "{{i18n:Stroganina_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 750,
 					"Edibility": 36,
 					"IsDrink": true,
 					"Buffs": [
@@ -6174,7 +6093,7 @@
 					"DisplayName": "{{i18n:TemakiRoll_name}}",
 					"Description": "{{i18n:TemakiRoll_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6195,7 +6114,7 @@
 					"DisplayName": "{{i18n:Toffee_name}}",
 					"Description": "{{i18n:Toffee_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 28,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6204,7 +6123,8 @@
 						"color_brown",
 						"{{DairyTag}}",
 						"{{NonveganTag}}",
-						"food_sweet"
+						"food_sweet",
+						"toffee_item"
 					]
 				},
 				"Cornucopia_TunaSteak": {
@@ -6262,7 +6182,7 @@
 					"DisplayName": "{{i18n:Otai_name}}",
 					"Description": "{{i18n:Otai_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 30,
 					"IsDrink": true,
 					"ContextTags": [
@@ -6283,7 +6203,7 @@
 					"DisplayName": "{{i18n:FruitTurnover_name}}",
 					"Description": "{{i18n:FruitTurnover_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ColorOverlayFromNextIndex": true,
@@ -6314,7 +6234,7 @@
 					"DisplayName": "{{i18n:Acorda_name}}",
 					"Description": "{{i18n:Acorda_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 140,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6336,7 +6256,7 @@
 					"DisplayName": "{{i18n:Akara_name}}",
 					"Description": "{{i18n:Akara_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 315,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -6364,7 +6284,7 @@
 					"DisplayName": "{{i18n:Alegria_name}}",
 					"Description": "{{i18n:Alegria_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6383,7 +6303,7 @@
 					"DisplayName": "{{i18n:Alfajores_name}}",
 					"Description": "{{i18n:Alfajores_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 46,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6435,7 +6355,7 @@
 					"DisplayName": "{{i18n:Ambrosia_name}}",
 					"Description": "{{i18n:Ambrosia_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 215,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -6466,7 +6386,7 @@
 					"DisplayName": "{{i18n:AntsonaLog_name}}",
 					"Description": "{{i18n:AntsonaLog_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 50,
 					"Edibility": 20,
 					"IsDrink": false,
 					"Buffs": [
@@ -6494,7 +6414,7 @@
 					"DisplayName": "{{i18n:CinnamonApplePie_name}}",
 					"Description": "{{i18n:CinnamonApplePie_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 86,
 					"IsDrink": false,
 					"Buffs": [
@@ -6527,7 +6447,7 @@
 					"DisplayName": "{{i18n:Atole_name}}",
 					"Description": "{{i18n:Atole_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 36,
 					"IsDrink": true,
 					"Buffs": [
@@ -6557,7 +6477,7 @@
 					"DisplayName": "{{i18n:BabaGhanoush_name}}",
 					"Description": "{{i18n:BabaGhanoush_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 510,
 					"Edibility": 86,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6576,7 +6496,7 @@
 					"DisplayName": "{{i18n:BakedBeans_name}}",
 					"Description": "{{i18n:BakedBeans_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -6604,7 +6524,7 @@
 					"DisplayName": "{{i18n:BakedSweetPotato_name}}",
 					"Description": "{{i18n:BakedSweetPotato_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -6630,7 +6550,7 @@
 					"DisplayName": "{{i18n:BangaRice_name}}",
 					"Description": "{{i18n:BangaRice_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 190,
 					"Edibility": 66,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6653,7 +6573,7 @@
 					"DisplayName": "{{i18n:Bannock_name}}",
 					"Description": "{{i18n:Bannock_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 26,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6661,7 +6581,9 @@
 						"cornucopia_food",
 						"color_orange",
 						"allergen_gluten",
-						"food_street_food"
+						"food_street_food",
+						"bread_item",
+						"food_bakery"
 					]
 				},
 				"Cornucopia_BanoffeePie": {
@@ -6672,7 +6594,7 @@
 					"DisplayName": "{{i18n:BanoffeePie_name}}",
 					"Description": "{{i18n:BanoffeePie_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 260,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6694,7 +6616,7 @@
 					"DisplayName": "{{i18n:Baumkuchen_name}}",
 					"Description": "{{i18n:Baumkuchen_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6717,7 +6639,7 @@
 					"DisplayName": "{{i18n:Bazin_name}}",
 					"Description": "{{i18n:Bazin_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 32,
 					"IsDrink": false,
 					"Buffs": [
@@ -6746,7 +6668,7 @@
 					"DisplayName": "{{i18n:BeanChili_name}}",
 					"Description": "{{i18n:BeanChili_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -6774,7 +6696,7 @@
 					"DisplayName": "{{i18n:BearCandy_name}}",
 					"Description": "{{i18n:BearCandy_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 360,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -6801,7 +6723,7 @@
 					"DisplayName": "{{i18n:Beyaynetu_name}}",
 					"Description": "{{i18n:Beyaynetu_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 40,
 					"IsDrink": false,
 					"Buffs": [
@@ -6829,7 +6751,7 @@
 					"DisplayName": "{{i18n:Bibimbap_name}}",
 					"Description": "{{i18n:Bibimbap_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6848,7 +6770,7 @@
 					"DisplayName": "{{i18n:Biscotti_name}}",
 					"Description": "{{i18n:Biscotti_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 240,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6872,7 +6794,7 @@
 					"DisplayName": "{{i18n:Biscuit_name}}",
 					"Description": "{{i18n:Biscuit_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 275,
 					"Edibility": 46,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6894,7 +6816,7 @@
 					"DisplayName": "{{i18n:BlackenedFish_name}}",
 					"Description": "{{i18n:BlackenedFish_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 280,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -6925,7 +6847,7 @@
 					"DisplayName": "{{i18n:Blini_name}}",
 					"Description": "{{i18n:Blini_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6947,7 +6869,7 @@
 					"DisplayName": "{{i18n:Borek_name}}",
 					"Description": "{{i18n:Borek_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -6975,7 +6897,7 @@
 					"DisplayName": "{{i18n:Borsch_name}}",
 					"Description": "{{i18n:Borsch_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 325,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -6995,7 +6917,7 @@
 					"DisplayName": "{{i18n:Bouillabaisse_name}}",
 					"Description": "{{i18n:Bouillabaisse_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -7070,7 +6992,7 @@
 					"DisplayName": "{{i18n:ButtermilkSoup_name}}",
 					"Description": "{{i18n:ButtermilkSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 34,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7083,6 +7005,34 @@
 						"food_soup"
 					]
 				},
+				"Cornucopia_Butterscotch": {
+					"Name": "Cornucopia_Butterscotch",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 109,
+					"DisplayName": "{{i18n:Butterscotch_name}}",
+					"Description": "{{i18n:Butterscotch_description}}",
+					"Texture": "MCornucopia.CookingRecipes/Objects",
+					"Price": 180,
+					"Edibility": 10,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 600,
+							"CustomAttributes": {}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_food",
+						"color_yellow",
+						"{{DairyTag}}",
+						"{{NonveganTag}}",
+						"food_sweet",
+						"butterscotch_item"
+					]
+				},
 				"Cornucopia_CabbageRoll": {
 					"Name": "Cornucopia_CabbageRoll",
 					"Category": -7,
@@ -7091,7 +7041,7 @@
 					"DisplayName": "{{i18n:CabbageRoll_name}}",
 					"Description": "{{i18n:CabbageRoll_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7110,7 +7060,7 @@
 					"DisplayName": "{{i18n:CacioePepe_name}}",
 					"Description": "{{i18n:CacioePepe_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 325,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -7142,7 +7092,7 @@
 					"DisplayName": "{{i18n:CalicoBar_name}}",
 					"Description": "{{i18n:CalicoBar_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 275,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7164,7 +7114,7 @@
 					"DisplayName": "{{i18n:CandiedAlmonds_name}}",
 					"Description": "{{i18n:CandiedAlmonds_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -7192,7 +7142,7 @@
 					"DisplayName": "{{i18n:CandiedOrangePeel_name}}",
 					"Description": "{{i18n:CandiedOrangePeel_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 36,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7211,7 +7161,7 @@
 					"DisplayName": "{{i18n:CandyCorn_name}}",
 					"Description": "{{i18n:CandyCorn_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7231,7 +7181,7 @@
 					"DisplayName": "{{i18n:Cannoli_name}}",
 					"Description": "{{i18n:Cannoli_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 360,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -7263,7 +7213,7 @@
 					"DisplayName": "{{i18n:Caponata_name}}",
 					"Description": "{{i18n:Caponata_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -7290,7 +7240,7 @@
 					"DisplayName": "{{i18n:CaramelizedBananas_name}}",
 					"Description": "{{i18n:CaramelizedBananas_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7310,7 +7260,7 @@
 					"DisplayName": "{{i18n:Carpaccio_name}}",
 					"Description": "{{i18n:Carpaccio_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 36,
 					"IsDrink": false,
 					"Buffs": [
@@ -7340,7 +7290,7 @@
 					"DisplayName": "{{i18n:CassavaCake_name}}",
 					"Description": "{{i18n:CassavaCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -7371,7 +7321,7 @@
 					"DisplayName": "{{i18n:CenturyCongee_name}}",
 					"Description": "{{i18n:CenturyCongee_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 390,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -7401,7 +7351,7 @@
 					"DisplayName": "{{i18n:Ceviche_name}}",
 					"Description": "{{i18n:Ceviche_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 46,
 					"IsDrink": false,
 					"Buffs": [
@@ -7427,10 +7377,10 @@
 					"Category": -7,
 					"Type": "Cooking",
 					"SpriteIndex": 390,
-					"DisplayName": "Champurrado",
-					"Description": "A chocolatey corn meal beverage.",
+					"DisplayName": "{{i18n:Champurrado_name}}",
+					"Description": "{{i18n:Champurrado_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 240,
 					"Edibility": 36,
 					"IsDrink": true,
 					"Buffs": [
@@ -7460,7 +7410,7 @@
 					"DisplayName": "{{i18n:CheezieCurlz_name}}",
 					"Description": "{{i18n:CheezieCurlz_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7480,7 +7430,7 @@
 					"DisplayName": "{{i18n:ChilledTofu_name}}",
 					"Description": "{{i18n:ChilledTofu_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7497,7 +7447,7 @@
 					"DisplayName": "{{i18n:ChipsandGuacamole_name}}",
 					"Description": "{{i18n:ChipsandGuacamole_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 210,
 					"Edibility": 54,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7516,7 +7466,7 @@
 					"DisplayName": "{{i18n:ChipsandSalsa_name}}",
 					"Description": "{{i18n:ChipsandSalsa_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 190,
 					"Edibility": 54,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7536,7 +7486,7 @@
 					"DisplayName": "{{i18n:ChocolateLavaCake_name}}",
 					"Description": "{{i18n:ChocolateLavaCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 100,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7560,7 +7510,7 @@
 					"DisplayName": "{{i18n:ChocolateTruffles_name}}",
 					"Description": "{{i18n:ChocolateTruffles_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 46,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7580,7 +7530,7 @@
 					"DisplayName": "{{i18n:RusticChorba_name}}",
 					"Description": "{{i18n:RusticChorba_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 56,
 					"IsDrink": false,
 					"Buffs": [
@@ -7607,7 +7557,7 @@
 					"DisplayName": "{{i18n:Churros_name}}",
 					"Description": "{{i18n:Churros_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 275,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7627,7 +7577,7 @@
 					"DisplayName": "{{i18n:Clafoutis_name}}",
 					"Description": "{{i18n:Clafoutis_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 64,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7649,7 +7599,7 @@
 					"DisplayName": "{{i18n:ClayPotNoodles_name}}",
 					"Description": "{{i18n:ClayPotNoodles_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 88,
 					"IsDrink": false,
 					"Buffs": [
@@ -7680,7 +7630,7 @@
 					"DisplayName": "{{i18n:Colcannon_name}}",
 					"Description": "{{i18n:Colcannon_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -7711,7 +7661,7 @@
 					"DisplayName": "{{i18n:CornMush_name}}",
 					"Description": "{{i18n:CornMush_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 72,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7728,7 +7678,7 @@
 					"DisplayName": "{{i18n:Couscous_name}}",
 					"Description": "{{i18n:Couscous_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 72,
 					"IsDrink": false,
 					"Buffs": [
@@ -7758,7 +7708,7 @@
 					"DisplayName": "{{i18n:CrabandCallaloo_name}}",
 					"Description": "{{i18n:CrabandCallaloo_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 72,
 					"IsDrink": false,
 					"Buffs": [
@@ -7788,7 +7738,7 @@
 					"DisplayName": "{{i18n:Croissant_name}}",
 					"Description": "{{i18n:Croissant_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 110,
 					"Edibility": 20,
 					"IsDrink": false,
 					"Buffs": [
@@ -7807,7 +7757,8 @@
 						"allergen_gluten",
 						"{{DairyTag}}",
 						"{{NonveganTag}}",
-						"food_bakery"
+						"food_bakery",
+						"croissant_item"
 					]
 				},
 				"Cornucopia_CrumbCake": {
@@ -7818,7 +7769,7 @@
 					"DisplayName": "{{i18n:CrumbCake_name}}",
 					"Description": "{{i18n:CrumbCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 210,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7842,7 +7793,7 @@
 					"DisplayName": "{{i18n:CurryPowder_name}}",
 					"Description": "{{i18n:CurryPowder_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": -300,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7860,7 +7811,7 @@
 					"DisplayName": "{{i18n:Daifuku_name}}",
 					"Description": "{{i18n:Daifuku_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 90,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7880,7 +7831,7 @@
 					"DisplayName": "{{i18n:DalTadka_name}}",
 					"Description": "{{i18n:DalTadka_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 110,
 					"IsDrink": false,
 					"Buffs": [
@@ -7909,7 +7860,7 @@
 					"DisplayName": "{{i18n:DeviledEggs_name}}",
 					"Description": "{{i18n:DeviledEggs_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 45,
 					"IsDrink": false,
 					"Buffs": [
@@ -7939,7 +7890,7 @@
 					"DisplayName": "{{i18n:Dolmas_name}}",
 					"Description": "{{i18n:Dolmas_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 230,
 					"Edibility": 55,
 					"IsDrink": false,
 					"ContextTags": [
@@ -7958,7 +7909,7 @@
 					"DisplayName": "{{i18n:DrunkardsNoodles_name}}",
 					"Description": "{{i18n:DrunkardsNoodles_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 750,
 					"Edibility": 100,
 					"IsDrink": false,
 					"Buffs": [
@@ -8008,7 +7959,7 @@
 					"DisplayName": "{{i18n:Eclair_name}}",
 					"Description": "{{i18n:Eclair_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8030,7 +7981,7 @@
 					"DisplayName": "{{i18n:EelBowl_name}}",
 					"Description": "{{i18n:EelBowl_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -8059,7 +8010,7 @@
 					"DisplayName": "{{i18n:EggFooYoung_name}}",
 					"Description": "{{i18n:EggFooYoung_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8078,7 +8029,7 @@
 					"DisplayName": "{{i18n:EggSalad_name}}",
 					"Description": "{{i18n:EggSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8099,7 +8050,7 @@
 					"DisplayName": "{{i18n:EggTarts_name}}",
 					"Description": "{{i18n:EggTarts_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8121,7 +8072,7 @@
 					"DisplayName": "{{i18n:Eggnog_name}}",
 					"Description": "{{i18n:Eggnog_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 25,
 					"IsDrink": true,
 					"Buffs": [
@@ -8152,7 +8103,7 @@
 					"DisplayName": "{{i18n:EggyCurry_name}}",
 					"Description": "{{i18n:EggyCurry_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -8172,7 +8123,8 @@
 						"food_nonvegetarian",
 						"food_tref",
 						"color_orange",
-						"food_seafood"
+						"food_seafood",
+						"food_curry"
 					]
 				},
 				"Cornucopia_Enchiladas": {
@@ -8183,7 +8135,7 @@
 					"DisplayName": "{{i18n:Enchiladas_name}}",
 					"Description": "{{i18n:Enchiladas_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -8213,7 +8165,7 @@
 					"DisplayName": "{{i18n:Etouffee_name}}",
 					"Description": "{{i18n:Etouffee_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8236,7 +8188,7 @@
 					"DisplayName": "{{i18n:EverythingBagel_name}}",
 					"Description": "{{i18n:EverythingBagel_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 55,
 					"IsDrink": false,
 					"Buffs": [
@@ -8266,7 +8218,7 @@
 					"DisplayName": "{{i18n:Falafel_name}}",
 					"Description": "{{i18n:Falafel_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8283,7 +8235,7 @@
 					"DisplayName": "{{i18n:Farofa_name}}",
 					"Description": "{{i18n:Farofa_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 130,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8320,7 +8272,7 @@
 					"DisplayName": "{{i18n:FigCookies_name}}",
 					"Description": "{{i18n:FigCookies_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 75,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8343,7 +8295,7 @@
 					"DisplayName": "{{i18n:FishAmok_name}}",
 					"Description": "{{i18n:FishAmok_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -8363,7 +8315,8 @@
 						"food_nonvegetarian",
 						"food_seafood",
 						"{{DairyTag}}",
-						"color_orange"
+						"color_orange",
+						"food_curry"
 					]
 				},
 				"Cornucopia_FishHeadCurry": {
@@ -8374,7 +8327,7 @@
 					"DisplayName": "{{i18n:FishHeadCurry_name}}",
 					"Description": "{{i18n:FishHeadCurry_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -8394,7 +8347,8 @@
 						"food_nonvegetarian",
 						"food_spicy",
 						"food_seafood",
-						"color_red"
+						"color_red",
+						"food_curry"
 					]
 				},
 				"Cornucopia_FishStock": {
@@ -8405,7 +8359,7 @@
 					"DisplayName": "{{i18n:FishStock_name}}",
 					"Description": "{{i18n:FishStock_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 165,
 					"Edibility": 35,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8427,7 +8381,7 @@
 					"DisplayName": "{{i18n:FlatbreadPizza_name}}",
 					"Description": "{{i18n:FlatbreadPizza_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 65,
 					"IsDrink": false,
 					"Buffs": [
@@ -8459,7 +8413,7 @@
 					"DisplayName": "{{i18n:FlowerHotpot_name}}",
 					"Description": "{{i18n:FlowerHotpot_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -8489,7 +8443,7 @@
 					"DisplayName": "{{i18n:Fluffernutter_name}}",
 					"Description": "{{i18n:Fluffernutter_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 35,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8510,7 +8464,7 @@
 					"DisplayName": "{{i18n:FriedOkra_name}}",
 					"Description": "{{i18n:FriedOkra_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8528,7 +8482,7 @@
 					"DisplayName": "{{i18n:FriedPlantains_name}}",
 					"Description": "{{i18n:FriedPlantains_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 35,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8547,7 +8501,7 @@
 					"DisplayName": "{{i18n:FrostedGrapes_name}}",
 					"Description": "{{i18n:FrostedGrapes_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 15,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8565,7 +8519,7 @@
 					"DisplayName": "{{i18n:FruitLeather_name}}",
 					"Description": "{{i18n:FruitLeather_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 80,
 					"Edibility": 35,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8591,7 +8545,38 @@
 						"cornucopia_food",
 						"color_yellow",
 						"allergen_gluten",
-						"food_street_food"
+						"food_street_food",
+						"bread_item",
+						"flatbread_item"
+					]
+				},
+				"Cornucopia_Fudge": {
+					"Name": "Cornucopia_Fudge",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 37,
+					"DisplayName": "{{i18n:Fudge_name}}",
+					"Description": "{{i18n:Fudge_description}}",
+					"Texture": "MCornucopia.CookingRecipes/Objects",
+					"Price": 200,
+					"Edibility": 10,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 600,
+							"CustomAttributes": {}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_food",
+						"color_brown",
+						"{{DairyTag}}",
+						"{{NonveganTag}}",
+						"food_sweet",
+						"food_bakery",
+						"fudge_item"
 					]
 				},
 				"Cornucopia_Fufu": {
@@ -8602,7 +8587,7 @@
 					"DisplayName": "{{i18n:Fufu_name}}",
 					"Description": "{{i18n:Fufu_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 80,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8636,7 +8621,7 @@
 					"DisplayName": "{{i18n:GalloPinto_name}}",
 					"Description": "{{i18n:GalloPinto_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -8664,7 +8649,7 @@
 					"DisplayName": "{{i18n:GarlicBread_name}}",
 					"Description": "{{i18n:GarlicBread_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8685,7 +8670,7 @@
 					"DisplayName": "{{i18n:GnocchialTartufo_name}}",
 					"Description": "{{i18n:GnocchialTartufo_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 1750,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -8717,7 +8702,7 @@
 					"DisplayName": "{{i18n:GooseberryCrumble_name}}",
 					"Description": "{{i18n:GooseberryCrumble_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 85,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8737,7 +8722,7 @@
 					"DisplayName": "{{i18n:GotoroCream_name}}",
 					"Description": "{{i18n:GotoroCream_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 65,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8758,7 +8743,7 @@
 					"DisplayName": "{{i18n:GranolaBowl_name}}",
 					"Description": "{{i18n:GranolaBowl_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 120,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8778,7 +8763,7 @@
 					"DisplayName": "{{i18n:Gravlax_name}}",
 					"Description": "{{i18n:Gravlax_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8798,7 +8783,7 @@
 					"DisplayName": "{{i18n:GreenCurry_name}}",
 					"Description": "{{i18n:GreenCurry_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -8817,7 +8802,8 @@
 						"allergen_fish",
 						"food_nonvegetarian",
 						"food_seafood",
-						"color_green"
+						"color_green",
+						"food_curry"
 					]
 				},
 				"Cornucopia_GreenFigandSaltfish": {
@@ -8828,7 +8814,7 @@
 					"DisplayName": "{{i18n:GreenFigandSaltfish_name}}",
 					"Description": "{{i18n:GreenFigandSaltfish_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 85,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8848,7 +8834,7 @@
 					"DisplayName": "{{i18n:GreenMachine_name}}",
 					"Description": "{{i18n:GreenMachine_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 30,
 					"IsDrink": true,
 					"Buffs": [
@@ -8876,7 +8862,7 @@
 					"DisplayName": "{{i18n:GreenPilaf_name}}",
 					"Description": "{{i18n:GreenPilaf_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 215,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -8903,7 +8889,7 @@
 					"DisplayName": "{{i18n:GrilledZucchini_name}}",
 					"Description": "{{i18n:GrilledZucchini_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 45,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8920,7 +8906,7 @@
 					"DisplayName": "{{i18n:GulabJamun_name}}",
 					"Description": "{{i18n:GulabJamun_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 90,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8941,7 +8927,7 @@
 					"DisplayName": "{{i18n:Gumdrops_name}}",
 					"Description": "{{i18n:Gumdrops_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8959,7 +8945,7 @@
 					"DisplayName": "{{i18n:Halva_name}}",
 					"Description": "{{i18n:Halva_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -8980,7 +8966,7 @@
 					"DisplayName": "{{i18n:HarGow_name}}",
 					"Description": "{{i18n:HarGow_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9001,7 +8987,7 @@
 					"DisplayName": "{{i18n:HasselbackPotatoes_name}}",
 					"Description": "{{i18n:HasselbackPotatoes_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -9027,7 +9013,7 @@
 					"DisplayName": "{{i18n:HerbCheese_name}}",
 					"Description": "{{i18n:HerbCheese_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9046,7 +9032,7 @@
 					"DisplayName": "{{i18n:HoneyWalnutShrimp_name}}",
 					"Description": "{{i18n:HoneyWalnutShrimp_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 260,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -9077,7 +9063,7 @@
 					"DisplayName": "{{i18n:Horchata_name}}",
 					"Description": "{{i18n:Horchata_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 25,
 					"IsDrink": true,
 					"ContextTags": [
@@ -9126,7 +9112,7 @@
 					"DisplayName": "{{i18n:Hummus_name}}",
 					"Description": "{{i18n:Hummus_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 210,
 					"Edibility": 85,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9134,7 +9120,8 @@
 						"cornucopia_food",
 						"color_yellow",
 						"food_party",
-						"food_sauce"
+						"food_sauce",
+						"hummus_item"
 					]
 				},
 				"Cornucopia_Inarizushi": {
@@ -9145,7 +9132,7 @@
 					"DisplayName": "{{i18n:Inarizushi_name}}",
 					"Description": "{{i18n:Inarizushi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 40,
 					"IsDrink": false,
 					"Buffs": [
@@ -9173,7 +9160,7 @@
 					"DisplayName": "{{i18n:Injera_name}}",
 					"Description": "{{i18n:Injera_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 75,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9181,7 +9168,8 @@
 						"cornucopia_food",
 						"color_brown",
 						"allergen_gluten",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"flatbread_item"
 					]
 				},
 				"Cornucopia_JalapenoLoaf": {
@@ -9192,7 +9180,7 @@
 					"DisplayName": "{{i18n:JalapenoLoaf_name}}",
 					"Description": "{{i18n:JalapenoLoaf_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9210,7 +9198,7 @@
 					"DisplayName": "{{i18n:Jalebi_name}}",
 					"Description": "{{i18n:Jalebi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9230,7 +9218,7 @@
 					"DisplayName": "{{i18n:Japchae_name}}",
 					"Description": "{{i18n:Japchae_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 55,
 					"IsDrink": false,
 					"Buffs": [
@@ -9258,7 +9246,7 @@
 					"DisplayName": "{{i18n:JelliedCompote_name}}",
 					"Description": "{{i18n:JelliedCompote_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9277,7 +9265,7 @@
 					"DisplayName": "{{i18n:JeweledRice_name}}",
 					"Description": "{{i18n:JeweledRice_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -9304,7 +9292,7 @@
 					"DisplayName": "{{i18n:Jjigae_name}}",
 					"Description": "{{i18n:Jjigae_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -9333,7 +9321,7 @@
 					"DisplayName": "{{i18n:Kanuchi_name}}",
 					"Description": "{{i18n:Kanuchi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -9361,7 +9349,7 @@
 					"DisplayName": "{{i18n:Kapustnica_name}}",
 					"Description": "{{i18n:Kapustnica_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9379,7 +9367,7 @@
 					"DisplayName": "{{i18n:Karantika_name}}",
 					"Description": "{{i18n:Karantika_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9399,7 +9387,7 @@
 					"DisplayName": "{{i18n:KayaToast_name}}",
 					"Description": "{{i18n:KayaToast_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 55,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9419,7 +9407,7 @@
 					"DisplayName": "{{i18n:Kheer_name}}",
 					"Description": "{{i18n:Kheer_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9440,7 +9428,7 @@
 					"DisplayName": "{{i18n:KimchiRamen_name}}",
 					"Description": "{{i18n:KimchiRamen_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -9471,7 +9459,7 @@
 					"DisplayName": "{{i18n:KingCake_name}}",
 					"Description": "{{i18n:KingCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 550,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -9505,7 +9493,7 @@
 					"DisplayName": "{{i18n:Knafeh_name}}",
 					"Description": "{{i18n:Knafeh_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9529,7 +9517,7 @@
 					"DisplayName": "{{i18n:Kokoda_name}}",
 					"Description": "{{i18n:Kokoda_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -9559,7 +9547,7 @@
 					"DisplayName": "{{i18n:Koshary_name}}",
 					"Description": "{{i18n:Koshary_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -9587,7 +9575,7 @@
 					"DisplayName": "{{i18n:Laghman_name}}",
 					"Description": "{{i18n:Laghman_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -9616,7 +9604,7 @@
 					"DisplayName": "{{i18n:Lalab_name}}",
 					"Description": "{{i18n:Lalab_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 65,
 					"IsDrink": false,
 					"Buffs": [
@@ -9646,7 +9634,7 @@
 					"DisplayName": "{{i18n:Lamington_name}}",
 					"Description": "{{i18n:Lamington_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 650,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9670,7 +9658,7 @@
 					"DisplayName": "{{i18n:Laplap_name}}",
 					"Description": "{{i18n:Laplap_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 100,
 					"IsDrink": false,
 					"Buffs": [
@@ -9698,7 +9686,7 @@
 					"DisplayName": "{{i18n:LechedeLeon_name}}",
 					"Description": "{{i18n:LechedeLeon_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 50,
 					"IsDrink": true,
 					"Buffs": [
@@ -9728,7 +9716,7 @@
 					"DisplayName": "{{i18n:LemonSquare_name}}",
 					"Description": "{{i18n:LemonSquare_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 325,
 					"Edibility": 85,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9751,7 +9739,7 @@
 					"DisplayName": "{{i18n:Licorice_name}}",
 					"Description": "{{i18n:Licorice_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 35,
 					"IsDrink": false,
 					"Buffs": [
@@ -9767,7 +9755,8 @@
 						"modid_cornucopia.cookingrecipes",
 						"cornucopia_food",
 						"color_black",
-						"food_sweet"
+						"food_sweet",
+						"licorice_item"
 					]
 				},
 				"Cornucopia_Lokum": {
@@ -9778,7 +9767,7 @@
 					"DisplayName": "{{i18n:Lokum_name}}",
 					"Description": "{{i18n:Lokum_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 850,
 					"Edibility": 45,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9797,7 +9786,7 @@
 					"DisplayName": "{{i18n:LotusWrappedStickyRice_name}}",
 					"Description": "{{i18n:LotusWrappedStickyRice_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9815,7 +9804,7 @@
 					"DisplayName": "{{i18n:LukChup_name}}",
 					"Description": "{{i18n:LukChup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 25,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9834,7 +9823,7 @@
 					"DisplayName": "{{i18n:Lutefisk_name}}",
 					"Description": "{{i18n:Lutefisk_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 100,
 					"IsDrink": false,
 					"Buffs": [
@@ -9865,7 +9854,7 @@
 					"DisplayName": "{{i18n:MacaroniSalad_name}}",
 					"Description": "{{i18n:MacaroniSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 45,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9887,7 +9876,7 @@
 					"DisplayName": "{{i18n:Madeleines_name}}",
 					"Description": "{{i18n:Madeleines_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9909,7 +9898,7 @@
 					"DisplayName": "{{i18n:Magrood_name}}",
 					"Description": "{{i18n:Magrood_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9930,7 +9919,7 @@
 					"DisplayName": "{{i18n:Mangu_name}}",
 					"Description": "{{i18n:Mangu_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 550,
 					"Edibility": 100,
 					"IsDrink": false,
 					"Buffs": [
@@ -9960,7 +9949,7 @@
 					"DisplayName": "{{i18n:MapoTofu_name}}",
 					"Description": "{{i18n:MapoTofu_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -9989,7 +9978,7 @@
 					"DisplayName": "{{i18n:Marmalade_name}}",
 					"Description": "{{i18n:Marmalade_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 20,
 					"IsDrink": false,
 					"ContextTags": [
@@ -9997,7 +9986,8 @@
 						"cornucopia_food",
 						"color_orange",
 						"food_sauce",
-						"food_sweet"
+						"food_sweet",
+						"marmalade_item"
 					]
 				},
 				"Cornucopia_MarshmallowAnimals": {
@@ -10008,7 +9998,7 @@
 					"DisplayName": "{{i18n:MarshmallowAnimals_name}}",
 					"Description": "{{i18n:MarshmallowAnimals_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 25,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10045,7 +10035,7 @@
 					"DisplayName": "{{i18n:Marzipan_name}}",
 					"Description": "{{i18n:Marzipan_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10065,7 +10055,7 @@
 					"DisplayName": "{{i18n:MascarponeLuxury_name}}",
 					"Description": "{{i18n:MascarponeLuxury_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 55,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10086,7 +10076,7 @@
 					"DisplayName": "{{i18n:MassamanCurry_name}}",
 					"Description": "{{i18n:MassamanCurry_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -10103,7 +10093,8 @@
 						"modid_cornucopia.cookingrecipes",
 						"cornucopia_food",
 						"color_orange",
-						"food_spicy"
+						"food_spicy",
+						"food_curry"
 					]
 				},
 				"Cornucopia_MelonSalad": {
@@ -10114,7 +10105,7 @@
 					"DisplayName": "{{i18n:MelonSalad_name}}",
 					"Description": "{{i18n:MelonSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 110,
 					"IsDrink": false,
 					"Buffs": [
@@ -10143,7 +10134,7 @@
 					"DisplayName": "{{i18n:Meuniere_name}}",
 					"Description": "{{i18n:Meuniere_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 245,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10164,7 +10155,7 @@
 					"DisplayName": "{{i18n:MieGoreng_name}}",
 					"Description": "{{i18n:MieGoreng_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 120,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10185,7 +10176,7 @@
 					"DisplayName": "{{i18n:MilkSoup_name}}",
 					"Description": "{{i18n:MilkSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 60,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10206,7 +10197,7 @@
 					"DisplayName": "{{i18n:Millefeuille_name}}",
 					"Description": "{{i18n:Millefeuille_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10255,7 +10246,7 @@
 					"DisplayName": "{{i18n:MintChutney_name}}",
 					"Description": "{{i18n:MintChutney_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 15,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10273,7 +10264,7 @@
 					"DisplayName": "{{i18n:MisoRamen_name}}",
 					"Description": "{{i18n:MisoRamen_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 380,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -10304,7 +10295,7 @@
 					"DisplayName": "{{i18n:Mohinga_name}}",
 					"Description": "{{i18n:Mohinga_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 140,
 					"IsDrink": false,
 					"Buffs": [
@@ -10336,7 +10327,7 @@
 					"DisplayName": "{{i18n:MoinMoin_name}}",
 					"Description": "{{i18n:MoinMoin_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -10366,7 +10357,7 @@
 					"DisplayName": "{{i18n:Mooncake_name}}",
 					"Description": "{{i18n:Mooncake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -10396,7 +10387,7 @@
 					"DisplayName": "{{i18n:MotleyMushrooms_name}}",
 					"Description": "{{i18n:MotleyMushrooms_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 1500,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -10424,7 +10415,7 @@
 					"DisplayName": "{{i18n:MudPie_name}}",
 					"Description": "{{i18n:MudPie_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -10456,7 +10447,7 @@
 					"DisplayName": "{{i18n:Muhammara_name}}",
 					"Description": "{{i18n:Muhammara_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 25,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10475,7 +10466,7 @@
 					"DisplayName": "{{i18n:MushroomSoup_name}}",
 					"Description": "{{i18n:MushroomSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10495,7 +10486,7 @@
 					"DisplayName": "{{i18n:Mustard_name}}",
 					"Description": "{{i18n:Mustard_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 120,
 					"Edibility": -300,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10515,7 +10506,7 @@
 					"DisplayName": "{{i18n:Namul_name}}",
 					"Description": "{{i18n:Namul_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 65,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10533,7 +10524,7 @@
 					"DisplayName": "{{i18n:NasiGoreng_name}}",
 					"Description": "{{i18n:NasiGoreng_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 65,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10552,7 +10543,7 @@
 					"DisplayName": "{{i18n:Nougat_name}}",
 					"Description": "{{i18n:Nougat_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10572,7 +10563,7 @@
 					"DisplayName": "{{i18n:OctopusCurry_name}}",
 					"Description": "{{i18n:OctopusCurry_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 700,
 					"Edibility": 130,
 					"IsDrink": false,
 					"Buffs": [
@@ -10593,7 +10584,8 @@
 						"allergen_shellfish",
 						"food_nonvegetarian",
 						"food_tref",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"food_curry"
 					]
 				},
 				"Cornucopia_OdenHotpot": {
@@ -10604,7 +10596,7 @@
 					"DisplayName": "{{i18n:OdenHotpot_name}}",
 					"Description": "{{i18n:OdenHotpot_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -10639,7 +10631,7 @@
 					"DisplayName": "{{i18n:OliveRice_name}}",
 					"Description": "{{i18n:OliveRice_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -10666,7 +10658,7 @@
 					"DisplayName": "{{i18n:OneManThousand_name}}",
 					"Description": "{{i18n:OneManThousand_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -10703,7 +10695,7 @@
 					"DisplayName": "{{i18n:Onigiri_name}}",
 					"Description": "{{i18n:Onigiri_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 20,
 					"IsDrink": false,
 					"Buffs": [
@@ -10730,7 +10722,7 @@
 					"DisplayName": "{{i18n:OystersMignonette_name}}",
 					"Description": "{{i18n:OystersMignonette_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -10760,7 +10752,7 @@
 					"DisplayName": "{{i18n:PalakPaneer_name}}",
 					"Description": "{{i18n:PalakPaneer_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 90,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10779,7 +10771,7 @@
 					"DisplayName": "{{i18n:PaniPopo_name}}",
 					"Description": "{{i18n:PaniPopo_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10799,7 +10791,7 @@
 					"DisplayName": "{{i18n:PanikiStew_name}}",
 					"Description": "{{i18n:PanikiStew_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 55,
 					"IsDrink": false,
 					"Buffs": [
@@ -10829,7 +10821,7 @@
 					"DisplayName": "{{i18n:Panipuri_name}}",
 					"Description": "{{i18n:Panipuri_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 90,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10847,7 +10839,7 @@
 					"DisplayName": "{{i18n:PannaCotta_name}}",
 					"Description": "{{i18n:PannaCotta_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10868,7 +10860,7 @@
 					"DisplayName": "{{i18n:Papadzules_name}}",
 					"Description": "{{i18n:Papadzules_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 120,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10887,7 +10879,7 @@
 					"DisplayName": "{{i18n:PastaPrimavera_name}}",
 					"Description": "{{i18n:PastaPrimavera_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 550,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -10900,6 +10892,29 @@
 						"color_green"
 					]
 				},
+				"Cornucopia_Pavlova": {
+					"Name": "Cornucopia_Pavlova",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 95,
+					"DisplayName": "{{i18n:Pavlova_name}}",
+					"Description": "{{i18n:Pavlova_description}}",
+					"Texture": "MCornucopia.CookingRecipes/Objects",
+					"Price": 300,
+					"Edibility": 10,
+					"IsDrink": false,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_food",
+						"allergen_gluten",
+						"color_green",
+						"{{DairyTag}}",
+						"{{NonveganTag}}",
+						"food_bakery",
+						"food_sweet",
+						"food_cake"
+					]
+				},
 				"Cornucopia_PecanBrittle": {
 					"Name": "Cornucopia_PecanBrittle",
 					"Category": -7,
@@ -10908,7 +10923,7 @@
 					"DisplayName": "{{i18n:PecanBrittle_name}}",
 					"Description": "{{i18n:PecanBrittle_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 25,
 					"IsDrink": false,
 					"Buffs": [
@@ -10937,7 +10952,7 @@
 					"DisplayName": "{{i18n:PecanPie_name}}",
 					"Description": "{{i18n:PecanPie_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 225,
 					"Edibility": 85,
 					"IsDrink": false,
 					"Buffs": [
@@ -10970,7 +10985,7 @@
 					"DisplayName": "{{i18n:PepperSoup_name}}",
 					"Description": "{{i18n:PepperSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -11003,7 +11018,7 @@
 					"DisplayName": "{{i18n:PeppermintCandy_name}}",
 					"Description": "{{i18n:PeppermintCandy_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 125,
 					"Edibility": 35,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11021,7 +11036,7 @@
 					"DisplayName": "{{i18n:PerillaKimchi_name}}",
 					"Description": "{{i18n:PerillaKimchi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11040,7 +11055,7 @@
 					"DisplayName": "{{i18n:Pesto_name}}",
 					"Description": "{{i18n:Pesto_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 10,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11063,7 +11078,7 @@
 					"DisplayName": "{{i18n:PineappleCake_name}}",
 					"Description": "{{i18n:PineappleCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11086,7 +11101,7 @@
 					"DisplayName": "{{i18n:PitaChips_name}}",
 					"Description": "{{i18n:PitaChips_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11103,7 +11118,7 @@
 					"DisplayName": "{{i18n:PotatoPancakes_name}}",
 					"Description": "{{i18n:PotatoPancakes_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 115,
 					"Edibility": 35,
 					"IsDrink": true,
 					"ContextTags": [
@@ -11121,7 +11136,7 @@
 					"DisplayName": "{{i18n:PowderShake_name}}",
 					"Description": "{{i18n:PowderShake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 40,
 					"IsDrink": true,
 					"Buffs": [
@@ -11151,7 +11166,7 @@
 					"DisplayName": "{{i18n:PrincessCake_name}}",
 					"Description": "{{i18n:PrincessCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 1000,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -11185,7 +11200,7 @@
 					"DisplayName": "{{i18n:PumpkinBite_name}}",
 					"Description": "{{i18n:PumpkinBite_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 750,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -11218,7 +11233,7 @@
 					"DisplayName": "{{i18n:Qurutob_name}}",
 					"Description": "{{i18n:Qurutob_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 120,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11238,7 +11253,7 @@
 					"DisplayName": "{{i18n:RaccoonSoba_name}}",
 					"Description": "{{i18n:RaccoonSoba_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -11287,7 +11302,7 @@
 					"DisplayName": "{{i18n:RaisinBread_name}}",
 					"Description": "{{i18n:RaisinBread_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 90,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11308,7 +11323,7 @@
 					"DisplayName": "{{i18n:RedRed_name}}",
 					"Description": "{{i18n:RedRed_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -11336,7 +11351,7 @@
 					"DisplayName": "{{i18n:RefriedBeans_name}}",
 					"Description": "{{i18n:RefriedBeans_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 170,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -11354,6 +11369,23 @@
 						"color_brown"
 					]
 				},
+				"Cornucopia_RiceandBeans": {
+					"Name": "Cornucopia_RiceandBeans",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 244,
+					"DisplayName": "{{i18n:RiceandBeans_name}}",
+					"Description": "{{i18n:RiceandBeans_description}}",
+					"Texture": "MCornucopia.CookingRecipes/Objects",
+					"Price": 250,
+					"Edibility": 92,
+					"IsDrink": false,
+					"ContextTags": [
+						"modid_cornucopia.cookingrecipes",
+						"cornucopia_food",
+						"color_white"
+					]
+				},
 				"Cornucopia_RiversHarvest": {
 					"Name": "Cornucopia_RiversHarvest",
 					"Category": -7,
@@ -11362,7 +11394,7 @@
 					"DisplayName": "{{i18n:RiversHarvest_name}}",
 					"Description": "{{i18n:RiversHarvest_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 650,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -11418,7 +11450,7 @@
 					"DisplayName": "{{i18n:RockCandyFruit_name}}",
 					"Description": "{{i18n:RockCandyFruit_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 750,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -11447,7 +11479,7 @@
 					"DisplayName": "{{i18n:RollCake_name}}",
 					"Description": "{{i18n:RollCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11471,7 +11503,7 @@
 					"DisplayName": "{{i18n:RootBeer_name}}",
 					"Description": "{{i18n:RootBeer_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 25,
 					"IsDrink": true,
 					"Buffs": [
@@ -11498,7 +11530,7 @@
 					"DisplayName": "{{i18n:RoseDrink_name}}",
 					"Description": "{{i18n:RoseDrink_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 40,
 					"IsDrink": true,
 					"Buffs": [
@@ -11527,7 +11559,7 @@
 					"DisplayName": "{{i18n:RoseWater_name}}",
 					"Description": "{{i18n:RoseWater_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 20,
 					"IsDrink": true,
 					"ContextTags": [
@@ -11547,7 +11579,7 @@
 					"DisplayName": "{{i18n:Sachertorte_name}}",
 					"Description": "{{i18n:Sachertorte_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 100,
 					"IsDrink": false,
 					"Buffs": [
@@ -11576,7 +11608,7 @@
 					"DisplayName": "{{i18n:SalmonBearnaise_name}}",
 					"Description": "{{i18n:SalmonBearnaise_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 100,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11598,7 +11630,7 @@
 					"DisplayName": "{{i18n:SalmonChowder_name}}",
 					"Description": "{{i18n:SalmonChowder_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 40,
 					"IsDrink": false,
 					"Buffs": [
@@ -11629,7 +11661,7 @@
 					"DisplayName": "{{i18n:Samosas_name}}",
 					"Description": "{{i18n:Samosas_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -11657,7 +11689,7 @@
 					"DisplayName": "{{i18n:SeafoodPaella_name}}",
 					"Description": "{{i18n:SeafoodPaella_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 700,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -11687,7 +11719,7 @@
 					"DisplayName": "{{i18n:SearedSunflower_name}}",
 					"Description": "{{i18n:SearedSunflower_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -11714,7 +11746,7 @@
 					"DisplayName": "{{i18n:SesameCrackers_name}}",
 					"Description": "{{i18n:SesameCrackers_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11732,7 +11764,7 @@
 					"DisplayName": "{{i18n:ShortbreadCookies_name}}",
 					"Description": "{{i18n:ShortbreadCookies_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 45,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11755,7 +11787,7 @@
 					"DisplayName": "{{i18n:ShrimpandGrits_name}}",
 					"Description": "{{i18n:ShrimpandGrits_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11778,7 +11810,7 @@
 					"DisplayName": "{{i18n:Skyr_name}}",
 					"Description": "{{i18n:Skyr_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 70,
 					"IsDrink": true,
 					"ContextTags": [
@@ -11798,7 +11830,7 @@
 					"DisplayName": "{{i18n:SmotheredWaffles_name}}",
 					"Description": "{{i18n:SmotheredWaffles_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 320,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11820,7 +11852,7 @@
 					"DisplayName": "{{i18n:SnailNoodles_name}}",
 					"Description": "{{i18n:SnailNoodles_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 600,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -11852,7 +11884,7 @@
 					"DisplayName": "{{i18n:Sopapillas_name}}",
 					"Description": "{{i18n:Sopapillas_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11873,7 +11905,7 @@
 					"DisplayName": "{{i18n:Souffle_name}}",
 					"Description": "{{i18n:Souffle_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 275,
 					"Edibility": 70,
 					"IsDrink": false,
 					"ContextTags": [
@@ -11896,7 +11928,7 @@
 					"DisplayName": "{{i18n:SoupCurry_name}}",
 					"Description": "{{i18n:SoupCurry_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 120,
 					"IsDrink": false,
 					"Buffs": [
@@ -11915,7 +11947,8 @@
 						"allergen_fish",
 						"food_soup",
 						"food_nonvegetarian",
-						"color_unknown"
+						"color_unknown",
+						"food_curry"
 					]
 				},
 				"Cornucopia_SourShchi": {
@@ -11926,7 +11959,7 @@
 					"DisplayName": "{{i18n:SourShchi_name}}",
 					"Description": "{{i18n:SourShchi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -11953,7 +11986,7 @@
 					"DisplayName": "{{i18n:SpicyFruitSpear_name}}",
 					"Description": "{{i18n:SpicyFruitSpear_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 50,
 					"IsDrink": false,
 					"Buffs": [
@@ -11981,7 +12014,7 @@
 					"DisplayName": "{{i18n:SpicyPapayaSalad_name}}",
 					"Description": "{{i18n:SpicyPapayaSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 115,
 					"Edibility": 45,
 					"IsDrink": false,
 					"Buffs": [
@@ -12013,7 +12046,7 @@
 					"DisplayName": "{{i18n:SpinachTortellini_name}}",
 					"Description": "{{i18n:SpinachTortellini_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -12062,7 +12095,7 @@
 					"DisplayName": "{{i18n:SpringRolls_name}}",
 					"Description": "{{i18n:SpringRolls_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 240,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -12089,7 +12122,7 @@
 					"DisplayName": "{{i18n:SpringSalad_name}}",
 					"Description": "{{i18n:SpringSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 260,
 					"Edibility": 45,
 					"IsDrink": false,
 					"Buffs": [
@@ -12117,7 +12150,7 @@
 					"DisplayName": "{{i18n:StarmiteToast_name}}",
 					"Description": "{{i18n:StarmiteToast_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -12145,7 +12178,7 @@
 					"DisplayName": "{{i18n:SteamedBambooShoots_name}}",
 					"Description": "{{i18n:SteamedBambooShoots_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 25,
 					"IsDrink": false,
 					"Buffs": [
@@ -12171,7 +12204,7 @@
 					"DisplayName": "{{i18n:StickyToffeePudding_name}}",
 					"Description": "{{i18n:StickyToffeePudding_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12192,7 +12225,7 @@
 					"DisplayName": "{{i18n:StreetCorn_name}}",
 					"Description": "{{i18n:StreetCorn_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 45,
 					"IsDrink": false,
 					"Buffs": [
@@ -12222,7 +12255,7 @@
 					"DisplayName": "{{i18n:Strudel_name}}",
 					"Description": "{{i18n:Strudel_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 350,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12244,7 +12277,7 @@
 					"DisplayName": "{{i18n:Succotash_name}}",
 					"Description": "{{i18n:Succotash_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 270,
 					"Edibility": 45,
 					"IsDrink": false,
 					"Buffs": [
@@ -12271,7 +12304,7 @@
 					"DisplayName": "{{i18n:SugaredGrapefruit_name}}",
 					"Description": "{{i18n:SugaredGrapefruit_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 200,
 					"Edibility": 25,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12289,7 +12322,7 @@
 					"DisplayName": "{{i18n:SweetPilaf_name}}",
 					"Description": "{{i18n:SweetPilaf_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 80,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12337,7 +12370,7 @@
 					"DisplayName": "{{i18n:SweetPotatoFries_name}}",
 					"Description": "{{i18n:SweetPotatoFries_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 175,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12354,7 +12387,7 @@
 					"DisplayName": "{{i18n:Tabbouleh_name}}",
 					"Description": "{{i18n:Tabbouleh_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 15,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12372,7 +12405,7 @@
 					"DisplayName": "{{i18n:Tahini_name}}",
 					"Description": "{{i18n:Tahini_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 100,
 					"Edibility": 15,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12390,7 +12423,7 @@
 					"DisplayName": "{{i18n:Taiyaki_name}}",
 					"Description": "{{i18n:Taiyaki_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 220,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -12465,7 +12498,7 @@
 					"DisplayName": "{{i18n:ThreeSistersSalad_name}}",
 					"Description": "{{i18n:ThreeSistersSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 500,
 					"Edibility": 100,
 					"IsDrink": false,
 					"Buffs": [
@@ -12494,7 +12527,7 @@
 					"DisplayName": "{{i18n:TortillaRollUps_name}}",
 					"Description": "{{i18n:TortillaRollUps_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 30,
 					"IsDrink": false,
 					"Buffs": [
@@ -12521,7 +12554,7 @@
 					"DisplayName": "{{i18n:TortillaSoup_name}}",
 					"Description": "{{i18n:TortillaSoup_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 60,
 					"IsDrink": false,
 					"Buffs": [
@@ -12550,7 +12583,7 @@
 					"DisplayName": "{{i18n:TrailMix_name}}",
 					"Description": "{{i18n:TrailMix_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 20,
 					"IsDrink": false,
 					"Buffs": [
@@ -12583,7 +12616,7 @@
 					"DisplayName": "{{i18n:TreacleTart_name}}",
 					"Description": "{{i18n:TreacleTart_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 40,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12605,7 +12638,7 @@
 					"DisplayName": "{{i18n:TrenettealPesto_name}}",
 					"Description": "{{i18n:TrenettealPesto_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 650,
 					"Edibility": 70,
 					"IsDrink": false,
 					"Buffs": [
@@ -12634,7 +12667,7 @@
 					"DisplayName": "{{i18n:TresLechesCake_name}}",
 					"Description": "{{i18n:TresLechesCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 450,
 					"Edibility": 40,
 					"IsDrink": false,
 					"Buffs": [
@@ -12668,7 +12701,7 @@
 					"DisplayName": "{{i18n:Trifle_name}}",
 					"Description": "{{i18n:Trifle_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 700,
 					"Edibility": 50,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12689,7 +12722,7 @@
 					"DisplayName": "{{i18n:TropicalToss_name}}",
 					"Description": "{{i18n:TropicalToss_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 110,
 					"Edibility": 80,
 					"IsDrink": false,
 					"Buffs": [
@@ -12719,7 +12752,7 @@
 					"DisplayName": "{{i18n:TunaSalad_name}}",
 					"Description": "{{i18n:TunaSalad_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 90,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12739,7 +12772,7 @@
 					"DisplayName": "{{i18n:Tzatziki_name}}",
 					"Description": "{{i18n:Tzatziki_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 15,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12759,7 +12792,7 @@
 					"DisplayName": "{{i18n:UbeCake_name}}",
 					"Description": "{{i18n:UbeCake_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12800,7 +12833,7 @@
 					"DisplayName": "{{i18n:VegetableKorma_name}}",
 					"Description": "{{i18n:VegetableKorma_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 550,
 					"Edibility": 120,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12808,7 +12841,8 @@
 						"cornucopia_food",
 						"color_unknown",
 						"allergen_nut",
-						"cornucopia_chefstock"
+						"cornucopia_chefstock",
+						"food_curry"
 					]
 				},
 				"Cornucopia_VegetableTempura": {
@@ -12837,7 +12871,7 @@
 					"DisplayName": "{{i18n:WasabiPeas_name}}",
 					"Description": "{{i18n:WasabiPeas_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 150,
 					"Edibility": 55,
 					"IsDrink": false,
 					"Buffs": [
@@ -12864,7 +12898,7 @@
 					"DisplayName": "{{i18n:WhiteChocolate_name}}",
 					"Description": "{{i18n:WhiteChocolate_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 180,
 					"Edibility": 35,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12886,7 +12920,7 @@
 					"DisplayName": "{{i18n:Yatsuhashi_name}}",
 					"Description": "{{i18n:Yatsuhashi_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 300,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [
@@ -12904,7 +12938,7 @@
 					"DisplayName": "{{i18n:YellowRice_name}}",
 					"Description": "{{i18n:YellowRice_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 400,
 					"Edibility": 90,
 					"IsDrink": false,
 					"Buffs": [
@@ -12930,7 +12964,7 @@
 					"DisplayName": "{{i18n:Zarusoba_name}}",
 					"Description": "{{i18n:Zarusoba_description}}",
 					"Texture": "MCornucopia.CookingRecipes/Objects",
-					"Price": 250,
+					"Price": 370,
 					"Edibility": 30,
 					"IsDrink": false,
 					"ContextTags": [

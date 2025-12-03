@@ -10,12 +10,30 @@
 				"Cornucopia_NutButterCups": {
 					"DisplayName": "{{i18n:NutButterCups_altname}}"
 				},
-				"Cornucopia_VegetablePotPie": {
-					"DisplayName": "{{i18n:VegetablePotPie_altname}}"
-				},
 				"Cornucopia_FruitSmoothie": {
 					"DisplayName": "{{i18n:FruitSmoothie_altname}}"
 				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"World Traveler": true
+			},
+			"Fields": {
+				"Cornucopia_VegetablePotPie": {
+					"DisplayName": "{{i18n:VegetablePotPie_altname}}"
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Fields": {
 				"Cornucopia_FruitTurnover": {
 					"DisplayName": "{{i18n:FruitTurnover_altname}}"
 				},

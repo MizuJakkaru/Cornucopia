@@ -12857,7 +12857,7 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "licorice_item, licorice_root_item",
+							"Value": "licorice_root_item",
 							"Amount": 1,
 							"OverrideText": "[LocalizedText Cornucopia.CookingRecipes/i18n:Indicator [EscapedText [LocalizedText Cornucopia.MoreCrops/i18n:LicoriceRoot_name]]]",
 							"OverrideTexturePath": "Cornucopia.MoreCrops/Objects",
@@ -16561,12 +16561,12 @@
 						},
 						{
 							"Type": "ContextTag",
-							"Value": "category_milk",
+							"Value": "category_egg",
 							"Amount": 1,
-							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
 							"OverrideTexturePath": "Maps/springobjects",
 							"OverrideTextureRect": {
-								"X": 256,
+								"X": 128,
 								"Y": 112,
 								"Width": 16,
 								"Height": 16
