@@ -823,7 +823,8 @@
 						"cornucopia_rarity_rare",
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
-						"cassava_item"
+						"cassava_item",
+						"root_vegetable_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},

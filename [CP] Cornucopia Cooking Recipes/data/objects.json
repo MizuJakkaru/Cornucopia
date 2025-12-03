@@ -1263,7 +1263,8 @@
 						"color_brown",
 						"food_sweet",
 						"cornucopia_chefstock",
-						"brown_sugar_item"
+						"brown_sugar_item",
+						"sugar_item"
 					]
 				},
 				"Cornucopia_Brownie": {
