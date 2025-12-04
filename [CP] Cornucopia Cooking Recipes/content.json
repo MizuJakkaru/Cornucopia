@@ -1685,7 +1685,7 @@
 			"FromFile": "data/hyperflexiblerecipes.json",
 			"When": {
 				"Enable Hyperflexible Recipes": true,
-				"HasMod|contains=blueberry.LoveOfCooking.CP": true,
+				//"HasMod|contains=blueberry.LoveOfCooking.CP": true,
 			}
 		},
 		{
