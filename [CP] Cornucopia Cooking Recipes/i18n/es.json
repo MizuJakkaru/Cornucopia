@@ -1,0 +1,2334 @@
+{
+
+	"ZucchiniFritters_name": "Buñuelos de Zucchini",
+	"ZucchiniFritters_description": "¡Una especialidad del Salón Fruta Estelar!",
+	
+	"Zarusoba_name": "Zarusoba",
+	"Zarusoba_description": "Un set de soba fría.",
+	
+	"YucaFries_name": "Yuca Frita",
+	"YucaFries_description": "Yuca picada. Fríela y añádele sal y queso.",
+	
+	"YellowRice_name": "Arroz Amarillo",
+	"YellowRice_description": "Arroz endulzado con pasas de uvas.",
+	
+	"Yatsuhashi_name": "Yatsuhashi",
+	"Yatsuhashi_description": "Dulces de mochi suave con relleno de canela o matcha.",
+	
+	"Wojapi_name": "Wojapi",
+	"Wojapi_description": "Salsa hecha con pulpa de bayas y caldo.",
+	
+	"WhiteChocolate_name": "Chocolate Blanco",
+	"WhiteChocolate_description": "Chocolate hecho con manteca de cacao pura.",
+	
+	"WedgeSalad_name": "Ensalada en Cuña",
+	"WedgeSalad_description": "Es como una ensalada... pero alguien olvidó mezclarla.",
+	
+	"WasabiPeas_name": "Arvejas con Wasabi",
+	"WasabiPeas_description": "Arvejas secas espolvoreadas con un polvo picante.",
+	
+	"Waffles_name": "Wafles",
+	"Waffles_description": "Los pequeños huecos de arriba son perfectos para atrapar manteca derretida, crema batida o lo que quieras ponerle.",
+	
+	"Vinaigrette_name": "Vinagreta",
+	"Vinaigrette_description": "Aceite y vinagre mezclados en un aderezo ácido.",
+	
+	"VegetableTempura_name": "Tempura de Verduras",
+	"VegetableTempura_description": "Una variedad de verduras fritas hasta obtener una cubierta crujiente de panko.",
+	
+	"VegetablePotPie_name": "Pastel de Chirivía",
+	"VegetablePotPie_flavored": "Pastel de Chirivía de %PRESERVED_DISPLAY_NAME",
+	"VegetablePotPie_description": "Se siente como una cena casera y acogedora.",
+	
+	"VegetableKorma_name": "Korma de Verduras",
+	"VegetableKorma_description": "Verduras cocidas a fuego lento en un curry sabroso con frutos secos.",
+	
+	"VanillaPudding_name": "Pudín de Vainilla",
+	"VanillaPudding_description": "Un favorito de la infancia.",
+	
+	"Udon_name": "Udon",
+	"Udon_description": "Fideos gruesos de trigo en un caldo salado.",
+	
+	"UbeHalaya_name": "Ube Halaya",
+	"UbeHalaya_description": "Pudín de ube almidonado, mejor servido frío.",
+	
+	"UbeCake_name": "Pastel de Ube",
+	"UbeCake_description": "Un pastel chiffon hecho con ube machacado.",
+	
+	"Tzatziki_name": "Tzatziki",
+	"Tzatziki_description": "Salsa ácida usada en varios platos de Fort Josa.",
+	
+	"TunaSteak_name": "Filet de Atún",
+	"TunaSteak_description": "Aún rosado por dentro.",
+	
+	"TunaSalad_name": "Ensalada de Atún",
+	"TunaSalad_description": "Clásica.",
+	
+	"Tteokbokki_name": "Tteokbokki",
+	"Tteokbokki_description": "Pasteles de arroz salteados en una salsa picante.",
+	
+	"TropicalToss_name": "Ensalada Tropical",
+	"TropicalToss_description": "Una mezcla de frutas tropicales.",
+	
+	"Trifle_name": "Trifle",
+	"Trifle_description": "Torta en capas con crema batida y frutas.",
+	
+	"TresLechesCake_name": "Pastel Tres Leches",
+  	"TresLechesCake_description": "Es un rico pastel elaborado con tres tipos de leche: leche común, leche condensada y leche evaporada.",
+	
+	"TrenettealPesto_name": "Trenette al Pesto",
+	"TrenettealPesto_description": "Fideos en salsa pesto con porotos de primavera y albahaca fresca.",
+	
+	"TreacleTart_name": "Tarta de Treacle",
+	"TreacleTart_description": "¡Densa, pegajosa y dulce!",
+	
+	"TrailMix_name": "Trail Mix",
+	"TrailMix_description": "Esto te mantendrá alimentado durante una caminata larga.",
+	
+	"TortillaSoup_name": "Sopa de Tortilla",
+	"TortillaSoup_description": "Sopa sabrosa y picante hecha con muchas tiras de tortilla.",
+	
+	"TortillaRollUps_name": "Rollitos de Tortilla",
+	"TortillaRollUps_description": "Un snack popular de la infancia.",
+	
+	"TomatoSoup_name": "Sopa de Tomate",
+	"TomatoSoup_description": "Sopa espesa con un toque de albahaca.",
+	
+	"Toffee_name": "Toffee",
+	"Toffee_description": "Sabores de manteca y caramelo mezclados en una delicia.",
+	
+	"Tiramisu_name": "Tiramisú",
+	"Tiramisu_description": "Torta hecha con galletas empapadas en café. Una especialidad rialiana.",
+	
+	"TilapiaandZoodles_name": "Tilapia con Zoodles",
+	"TilapiaandZoodles_description": "Los fideos de zucchini son como espaguetis, pero crujientes.",
+	
+	"ThreeSistersSalad_name": "Ensalada 'Las Tres Hermanas'",
+	"ThreeSistersSalad_description": "¡Las verduras de esta ensalada están especialmente colocadas para apoyarse mutuamente!",
+	
+	"TemakiRoll_name": "Roll Temaki",
+	"TemakiRoll_description": "Alga, arroz, pepino y pescado.",
+	
+	"TeaEggs_name": "Huevos al Té",
+	"TeaEggs_description": "Huevos infusionados en té para darles un sabor único.",
+	
+	"TaterTots_name": "Tater Tots",
+	"TaterTots_description": "Papas trituradas y fritas en bocaditos.",
+	
+	"Tarkhuna_name": "Tarkhuna",
+	"Tarkhuna_description": "Una bebida dulce con sabor a hierbas. ¡Es muy verde!",
+	
+	"TapiocaPudding_name": "Pudín de Tapioca",
+	"TapiocaPudding_description": "Tapioca cremosa con leche de coco.",
+	
+	"Takoyaki_name": "Takoyaki",
+	"Takoyaki_description": "Bolas de masa frita con pulpo, cubiertas con mayonesa y una salsa sabrosa.",
+	
+	"Taiyaki_name": "Taiyaki",
+	"Taiyaki_description": "Un pastel con forma de pez relleno de pasta de porotos rojos.",
+	
+	"Tahini_name": "Tahini",
+	"Tahini_description": "Un condimento hecho de semillas de sésamo tostadas y molidas.",
+	
+	"Taffy_name": "Taffy",
+	"Taffy_description": "Gomoso.",
+	
+	"Tabbouleh_name": "Tabulé",
+	"Tabbouleh_description": "Una ensalada como guarnición hecha de perejil, menta y otros vegetales picados.",
+	
+	"Switchel_name": "Switchel",
+	"Switchel_description": "Los granjeros beben esto durante la cosecha de azúcar.",
+	
+	"SweetPotatoFries_name": "Papas Fritas de Batata",
+	"SweetPotatoFries_description": "Como las papas fritas normales, solo que dulces.",
+	
+	"SweetPotatoCasserole_name": "Cazuela de Batata",
+	"SweetPotatoCasserole_description": "Batatas horneadas con una capa de malvaviscos derretidos.",
+	
+	"SweetPilaf_name": "Pilaf Dulce",
+	"SweetPilaf_description": "Pilaf hecho con frutos secos dulces y hierbas.",
+
+	"SweetCrepes_name": "Crêpes Dulces",
+	"SweetCrepes_description": "Crêpes hechas con fruta y crema batida.",
+
+	"SunriseToast_name": "Tostada Amanecer",
+	"SunriseToast_description": "Tostada remojada en una mezcla de leche y huevo, luego frita en sartén. ¡Cúbrela con azúcar en polvo y sirope!",
+
+	"SugaredGrapefruit_name": "Pomelo Azucarado",
+	"SugaredGrapefruit_description": "Un toque de azúcar suaviza su sabor amargo.",
+
+	"SugarcaneShake_name": "Batido de Caña de Azúcar",
+	"SugarcaneShake_description": "Popular en tantos lugares. ¡Es una bebida dulce y deliciosa!",
+
+	"Succotash_name": "Succotash",
+	"Succotash_description": "Maíz y porotos mezclados con tomates. Una ensalada abundante.",
+
+	"StuffedPeppers_name": "Morrones Rellenos",
+	"StuffedPeppers_description": "Morrones grandes rellenos de queso y pan rallado.",
+
+	"StuffedMushrooms_name": "Hongos Rellenos",
+	"StuffedMushrooms_description": "Hongos rellenos con pan rallado, carne de cangrejo y queso.",
+
+	"Strudel_name": "Strudel",
+	"Strudel_description": "Masa hojaldrada rellena con manzanas dulces.",
+
+	"Stroganina_name": "Stroganina",
+	"Stroganina_description": "Láminas de pescado congelado que se derriten lentamente en tu boca.",
+
+	"StreetCorn_name": "Elote Callejero",
+	"StreetCorn_description": "Maíz bañado en manteca caliente, con queso y chile en polvo.",
+
+	"StrawberryShortcake_name": "Shortcake de Fresas",
+	"StrawberryShortcake_description": "Un pastel icónico con fresas y crema.",
+
+	"StrawberryDrink_name": "Bebida de Fresa",
+	"StrawberryDrink_description": "Refrescante y frutal, con un toque de té.",
+
+	"StickyToffeePudding_name": "Pudín de Toffee Pegajoso",
+	"StickyToffeePudding_description": "Deliciosamente pegajoso.",
+
+	"Steckerlfisch_name": "Steckerlfisch",
+	"Steckerlfisch_description": "Pescado en un palo, ¡no palitos de pescado!",
+
+	"SteamedBambooShoots_name": "Brotes de Bambú al Vapor",
+	"SteamedBambooShoots_description": "Tiernos pero insípidos.",
+
+	"StarmiteToast_name": "Tostada Starmita",
+	"StarmiteToast_description": "Extracto levadado y maltoso untado sobre una tostada.",
+
+	"SpringSalmagundi_name": "Salmagundi Primaveral",
+	"SpringSalmagundi_description": "Una ensalada inusual con fruta y pescado en capas, rociada con vinagre balsámico.",
+
+	"SpringSalad_name": "Ensalada Primaveral",
+	"SpringSalad_description": "La quinoa le da ese toque especial.",
+
+	"SpringRolls_name": "Rollitos Primavera",
+	"SpringRolls_description": "Muchos vegetales dentro de una masa frita. ¡Un excelente aperitivo!",
+
+	"SplitPeaSoup_name": "Sopa de Arvejas Partidas",
+	"SplitPeaSoup_description": "Sopa rica con un color inusualmente vibrante.",
+
+	"SpinachTortellini_name": "Tortellini de Espinaca",
+	"SpinachTortellini_description": "Pequeños bolsillos de pasta con relleno verde.",
+
+	"SpinachDip_name": "Dip de Espinaca",
+	"SpinachDip_description": "Es delicioso y saciante.",
+
+	"SpicyPapayaSalad_name": "Ensalada Picante de Papaya",
+	"SpicyPapayaSalad_description": "Papaya verde rallada con un sabor salado, dulce y picante.",
+
+	"SpicyFruitSpear_name": "Brocheta de Frutas Picante",
+	"SpicyFruitSpear_description": "Frutas dulces cubiertas generosamente con chile en polvo.",
+
+	"Spatzle_name": "Spätzle",
+	"Spatzle_description": "Un plato de fideos de huevo.",
+
+	"SourShchi_name": "Shchi Agrio",
+	"SourShchi_description": "El chucrut es el ingrediente clave de esta sopa de vegetales avinagrada.",
+
+	"SourFishSoup_name": "Sopa de Pescado Agria",
+	"SourFishSoup_description": "¡Ácida y única!",
+
+	"SoupCurry_name": "Curry en Sopa",
+	"SoupCurry_description": "Curry líquido como caldo, lleno de vegetales y hongos.",
+
+	"Souffle_name": "Soufflé",
+	"Souffle_description": "Aunque está endulzado, el sabor a huevo es fuerte.",
+
+	"Sopapillas_name": "Sopapillas",
+	"Sopapillas_description": "Buñuelitos suaves y esponjosos cubiertos con azúcar y canela. ¡Cómelos con miel!",
+
+	"SoftPretzel_name": "Pretzel Suave",
+	"SoftPretzel_description": "Un pretzel grande y sueve, ligeramente salado.",
+
+	"SnailNoodles_name": "Fideos de Caracol",
+	"SnailNoodles_description": "Fideos en un caldo de olor fuerte hecho con caracoles guisados.",
+
+	"SmotheredWaffles_name": "Waffles Cubiertos",
+	"SmotheredWaffles_description": "Sin lágrimas, solo sueños.",
+
+	"Smore_name": "S'more",
+	"Smore_description": "Porque siempre quieres más.",
+
+	"Skyr_name": "Skyr",
+	"Skyr_description": "Yogur tradicional nors, cuidadosamente escurrido para un sabor muy ácido y una textura cremosa.",
+
+	"ShrimpTempura_name": "Tempura de Camarón",
+	"ShrimpTempura_description": "¡Las colitas de camarón quedan asomando!",
+
+	"ShrimpFriedRice_name": "Arroz Frito con Camarones",
+	"ShrimpFriedRice_description": "Salteado en wok para un sabor ahumado.",
+
+	"ShrimpandGrits_name": "Camarones con Grits",
+	"ShrimpandGrits_description": "Gachas de maíz blanco molido grueso con camarones a la parrilla encima.",
+
+	"ShortbreadCookies_name": "Galletas de Manteca",
+	"ShortbreadCookies_description": "Galletas ricas y mantecosas.",
+
+	"Shakshouka_name": "Shakshouka",
+	"Shakshouka_description": "Huevos escalfados directamente en una salsa de tomate especiada.",
+
+	"SesameCrackers_name": "Galletas de Sésamo",
+	"SesameCrackers_description": "¡Con formas y tamaños muy divertidos!",
+
+	"SeaweedChips_name": "Chips de Alga",
+	"SeaweedChips_description": "Alga frita. Es crocante.",
+
+	"SearedSunflower_name": "Girasol Asado",
+	"SearedSunflower_description": "Girasoles jóvenes tostados sobre brasas.",
+
+	"SeafoodPaella_name": "Paella de Mariscos",
+	"SeafoodPaella_description": "Un plato cálido de arroz con muchos mariscos.",
+
+	"SeafoodBoil_name": "Mariscada Hervida",
+	"SeafoodBoil_description": "Mariscos, maíz y papas hervidos en una olla enorme. ¡Mejor si es picante!",
+
+	"ScorchedRice_name": "Arroz Tostado",
+	"ScorchedRice_description": "Arroz cocido hasta quedar súper crocante.",
+
+	"Scone_name": "Scone",
+	"Scone_description": "Un panecillo de desayuno con sabor a frutas.",
+
+	"Scarpaccia_name": "Scarpaccia",
+	"Scarpaccia_description": "Un tradicional pastel salado de zapallo.",
+
+	"ScallionPancake_name": "Panqueque de Cebolla de Verdeo",
+	"ScallionPancake_description": "Crujiente y fácil de hacer.",
+
+	"SandwichCookies_name": "Galletas Sandwich",
+	"SandwichCookies_description": "Una versión no original de una famosa galleta vendida por toda Ferngill.",
+
+	"Samosas_name": "Samosas",
+	"Samosas_description": "Bien calientes por dentro.",
+
+	"SaltGrilledFish_name": "Pescado a la Parrilla con Sal",
+	"SaltGrilledFish_description": "Un plato simple que puede hacerse en cualquier fogata.",
+
+	"SaltandVinegarChips_name": "Chips de Sal y Vinagre",
+	"SaltandVinegarChips_description": "El sabor ácido es muy apreciado en algunas partes de Ferngill.",
+
+	"SalmonChowder_name": "Chowder de Salmón",
+	"SalmonChowder_description": "El eneldo aporta muchísimo sabor a esta sopa de salmón con leche.",
+
+	"SalmonBearnaise_name": "Salmón Béarnaise",
+	"SalmonBearnaise_description": "Salmón ligeramente cocido con una salsa rica y herbal.",
+
+	"SaladRolls_name": "Rollos de Ensalada",
+	"SaladRolls_description": "Delgadas láminas de arroz rellenas con espinaca, camarón y arroz.",
+
+	"Saimin_name": "Saimin",
+	"Saimin_description": "¡La comida reconfortante por excelencia de la Isla Brasa!",
+
+	"Sachertorte_name": "Sachertorte",
+	"Sachertorte_description": "Una exquisita confección de chocolate",
+
+	"RoyalHoneyToast_name": "Tostada con Miel Real",
+	"RoyalHoneyToast_description": "¡Los ecos de una estrella distante te llenan de poder!",
+
+	"RoseWater_name": "Agua de Rosas",
+	"RoseWater_description": "Floral y con fragancia.",
+
+	"RoseDrink_name": "Bebida de Rosa",
+	"RoseDrink_description": "Una bebida cremosa y helada con pétalos de rosa flotando en la superficie.",
+	
+	"RootBeer_name": "Cerveza de Raíz",
+	"RootBeer_description": "Una bebida gaseosa que algunos describen como medicinal.",
+
+	"RollCake_name": "Roll Cake",
+	"RollCake_description": "¡El glaseado está enrollado por dentro!",
+
+	"RockCandyFruit_name": "Caramelo Duro de Fruta",
+	"RockCandyFruit_description": "¡Una brocheta de frutas con una capa de azúcar crocante!",
+
+	"RoastedBreadfruit_name": "Fruta del Pan Asada",
+	"RoastedBreadfruit_description": "Rebanadas gruesas de fruta del pan asadas al fuego. Tiene un sabor muy a nuez.",
+
+	"RizGras_name": "Riz Gras",
+	"RizGras_description": "Arroz intensamente condimentado con pescado y verduras por encima.",
+
+	"RiversHarvest_name": "Cosecha del Río",
+	"RiversHarvest_description": "El aderezo dulce y con notas de nuez añade profundidad al plato.",
+
+	"RiceCakes_name": "Pasteles de Arroz",
+	"RiceCakes_description": "Arroz aplastados para darles forma redonda.",
+
+	"RiceandBeans_name": "Arroz con Porotos",
+	"RiceandBeans_description": "Un plato básico.",
+
+	"RefriedBeans_name": "Porotos Refritos",
+	"RefriedBeans_description": "Porotos machacados y sabrosos, a menudo servidos con tacos.",
+
+	"RedRed_name": "Red-Red",
+	"RedRed_description": "Porotos cocidos en aceite de palma, servidos con plátanos fritos. ¡Toman un color muy rojo!",
+
+	"Ratatouille_name": "Ratatouille",
+	"Ratatouille_description": "Verduras finamente rebanadas y horneadas en una salsa, famoso en la cocina de Lutèce.",
+
+	"RaisinBread_name": "Pan con Pasas",
+	"RaisinBread_description": "Pan delicioso con pasas y grosellas.",
+
+	"RainbowCake_name": "Torta Arcoíris",
+	"RainbowCake_description": "Todos los colores te saludan en cada rebanada.",
+
+	"RadishCake_name": "Pastel de Rábano",
+	"RadishCake_description": "Pasteles a la parrilla hechos con rábano daikon rallado.",
+
+	"RaccoonSoba_name": "Soba Mapache",
+	"RaccoonSoba_description": "Fideos de trigo sarraceno servidos con un caldo ligero.",
+
+	"Qurutob_name": "Qurutob",
+	"Qurutob_description": "Un plato en capas de pan plano y verduras sobre una base de salsa espesa y salada de yogurt. Se come con las manos.",
+
+	"SpinachQuiche_name": "Quiche de Espinaca",
+	"SpinachQuiche_description": "¡Es una tarta elaborada a base de huevo!",
+
+	"Pupusas_name": "Pupusas",
+	"Pupusas_description": "Harina de maíz y queso. Están rellenas de cactus asado.",
+
+	"PumpkinBite_name": "Bocado de Calabaza",
+	"PumpkinBite_description": "¡Intenta decir \"cheesecake de calabaza sin horno tamaño bocado\" cinco veces rápido!",
+
+	"PrincessCake_name": "Torta de Princesa",
+	"PrincessCake_description": "Torta simple y deliciosa, con capas de mermelada y cubierta de fondant verde.",
+
+	"PowderShake_name": "Batido de Polvo",
+	"PowderShake_description": "Nubes de azúcar helada se elevan de este batido.",
+
+	"PoundedYam_name": "Ñame Majado",
+	"PoundedYam_description": "Ñame hervido y majado hasta obtener una masa suave. ¡Ideal con sopas o guisos!",
+
+	"PotatoSalad_name": "Ensalada de Papa",
+	"PotatoSalad_description": "El acompañamiento por excelencia.",
+
+	"PotatoPancakes_name": "Panqueques de Papa",
+	"PotatoPancakes_description": "Suaves, ligeramente fritos y aceitosos.",
+
+	"PotatoFries_name": "Papas Fritas",
+	"PotatoFries_description": "¡Crocantes!",
+
+	"PotatoesauGratin_name": "Papas Gratinadas",
+	"PotatoesauGratin_description": "Papas en rodajas, horneadas con manteca y crema.",
+
+	"PotatoBread_name": "Pan de Papa",
+	"PotatoBread_description": "Un tipo de pan blando.",
+
+	"Polenta_name": "Polenta",
+	"Polenta_description": "¡Cremosa!",
+
+	"PokeBowl_name": "Poke Bowl",
+	"PokeBowl_description": "Cubos de pescado crudo mezclados en una salsa ligera, servidos sobre arroz tibio.",
+
+	"PoachedPear_name": "Pera Escalfada",
+	"PoachedPear_description": "Horneada con miel hasta quedar suave y tibia.",
+
+	"PlowmansPlatter_name": "Plato del Labrador",
+	"PlowmansPlatter_description": "Un almuerzo parecido a una tabla de quesos.",
+
+	"PizzaRolls_name": "Rollos de Pizza",
+	"PizzaRolls_description": "Queso y salsa de tomate se desbordan al morderlos.",
+
+	"PitaChips_name": "Chips de Pita",
+	"PitaChips_description": "Servidos con tzatziki.",
+
+	"Pita_name": "Pita",
+	"Pita_description": "Pan plano que es algo crujiente.",
+
+	"PinkDrink_name": "Bebida Rosa",
+	"PinkDrink_description": "Una bebida dulce hecha con leche de coco.",
+
+	"PineappleUpsideDownCake_name": "Torta Invertida de Piña",
+	"PineappleUpsideDownCake_description": "¡Esta torta está al revés!",
+
+	"PineapplePizza_name": "Pizza con Piña",
+	"PineapplePizza_description": "Un favorito de la fiesta… algo polémico.",
+
+	"PineappleCake_name": "Pastel de Piña",
+	"PineappleCake_description": "Un pastel firme y quebradizo relleno con dulce de piña.",
+
+	"Pierogi_name": "Pierogi",
+	"Pierogi_description": "Pequeños paquetitos de pura sabrosura.",
+
+	"PickledRind_name": "Cáscara Encurtida",
+	"PickledRind_description": "Un encurtido rápido. Son dulces pero ácidas.",
+
+	"Pesto_name": "Pesto",
+	"Pesto_description": "Piñones y especias convertidos en una sabrosa salsa.",
+
+	"PerillaKimchi_name": "Perilla Kimchi",
+	"PerillaKimchi_description": "Una receta rápida de kimchi.",
+
+	"PepperSoup_name": "Sopa Picante",
+	"PepperSoup_description": "Una sopa acuosa y extremadamente picante elaborada con pescado. ¡La nuez moscada le da un sabor único!",
+
+	"PeppermintCandy_name": "Caramelo de Menta",
+	"PeppermintCandy_description": "¡Icónico!",
+
+	"PenneallArrabbiatta_name": "Penne all'Arrabbiatta",
+	"PenneallArrabbiatta_description": "Una pasta tradicional hecha con ingredientes muy simples. ¡Es picante!",
+
+	"PecanPie_name": "Tarta Dulce de Nuez Pecán",
+"PecanPie_description": "Una tarta dulce de nueces con cobertura glaseada.",
+
+	"PecanBrittle_name": "Nuez Pecán Crocante",
+	"PecanBrittle_description": "Nueces de pecán y caramelo endurecidos en un dulce adictivo.",
+
+	"PeachCrisp_name": "Crisp de Melocotón",
+	"PeachCrisp_description": "Como un cobbler, pero hecho con melocotones y con una cubierta crujiente.",
+
+	"PBJSandwich_name": "PB&J Sandwich",
+	"PBJSandwich_description": "¿Con o sin corteza?",
+
+	"Pavlova_name": "Pavlova",
+	"Pavlova_description": "Un merengue aireado cubierto con fruta.",
+
+	"PastaPrimavera_name": "Pasta Primavera",
+	"PastaPrimavera_description": "Pasta ligeramente sazonada hecha con vegetales de primavera.",
+
+	"Papanasi_name": "Papanasi",
+	"Papanasi_description": "Pasteles fritos de queso de cabra con crema y mermelada ácida encima.",
+
+	"Papadzules_name": "Papadzules",
+	"Papadzules_description": "Tortillas de maíz rellenas de huevo duro y una cremosa salsa de semillas de calabaza.",
+
+	"PantaBhat_name": "Panta Bhat",
+	"PantaBhat_description": "Arroz remojado durante la noche. ¡Servir con shad frito, encurtidos y dal!",
+
+	"PannaCotta_name": "Panna Cotta",
+	"PannaCotta_description": "Gelatina cremosa, cubierta con crema de yuzu.",
+
+	"Panipuri_name": "Panipuri",
+	"Panipuri_description": "Bolas de masa crujientes rellenas de alegría.",
+
+	"PaniPopo_name": "Pani Popo",
+	"PaniPopo_description": "Rollos dulces remojados en salsa de coco.",
+
+	"PanikiStew_name": "Guiso de Paniki",
+	"PanikiStew_description": "Alas de murciélago estofadas en una variedad de especias.",
+
+	"PalmNutSoup_name": "Sopa de Fruto de Palma",
+	"PalmNutSoup_description": "Una sopa hecha de fruto de palma, a menudo con pescado ahumado y aromáticos.",
+
+	"PalakPaneer_name": "Palak Paneer",
+	"PalakPaneer_description": "Queso firme cocinado en una salsa de espinacas licuada.",
+
+	"PadPrinat_name": "Pad Prinat",
+	"PadPrinat_description": "Estos fideos salteados dulces y salados son un favorito internacional de la cocina Prinatiana.",
+
+	"OystersMignonette_name": "Ostras Mignonette",
+	"OystersMignonette_description": "Ostras crudas servidas con salsa de chalota. ¡Babosas!",
+
+	"OysterSauceCrab_name": "Cangrejo con Salsa de Ostra",
+	"OysterSauceCrab_description": "Un cangrejo entero cocinado en una salsa sabrosa y ahumada.",
+
+	"OysterSauce_name": "Salsa de Ostra",
+	"OysterSauce_description": "Salsa con un sabor salado y distintivo.",
+
+	"Otai_name": "'Otai",
+	"Otai_description": "Una mezcla espumosa de fruta y leche, popular en los trópicos.",
+
+	"OnionRings_name": "Aros de Cebolla",
+	"OnionRings_description": "Cebollas rebanadas, empanizadas y fritas.",
+
+	"Onigiri_name": "Onigiri",
+	"Onigiri_description": "Es una bola de arroz. Un snack popular para niños.",
+
+	"OneManThousand_name": "One Man Thousand",
+"OneManThousand_description": "Un plato verdaderamente único: un montón de sardinas fritas. Decorado con camarones y morrones picados.",
+
+	"Omurice_name": "Omurice",
+	"Omurice_description": "Un omelet hecha con arroz y adornado con un remolino de ketchup.",
+
+	"OliveRice_name": "Arroz con Aceitunas",
+	"OliveRice_description": "Arroz hecho con aceitunas con un sabor distintivo.",
+
+	"OkraSoup_name": "Sopa de Okra",
+	"OkraSoup_description": "Sopa viscosa hecha de okra.",
+
+	"OdenHotpot_name": "Oden Hotpot",
+	"OdenHotpot_description": "Un plato de invierno en una sola olla que consiste en pasteles de pescado y un caldo reconfortante.",
+
+	"OctopusCurry_name": "Curry de Pulpo",
+	"OctopusCurry_description": "Curry especiado con azafrán hecho con trozos de tentáculos.",
+
+	"Oatmeal_name": "Avena",
+	"Oatmeal_description": "El desayuno básico. Agrega canela, miel o fruta.",
+
+	"NutButterCups_name": "Tazas de Mantequilla de Maní",
+	"NutButterCups_altname": "Tazas de Mantequilla de Nueces",
+	"NutButterCups_flavored": "Tazas de %PRESERVED_DISPLAY_NAME",
+	"NutButterCups_description": "Nunca puedes comer solo una.",
+
+	"Nougat_name": "Turrón",
+	"Nougat_description": "Ligero y dulce, hecho con pistachos.",
+
+	"NigiriSushi_name": "Nigiri",
+	"NigiriSushi_flavored": "Nigiri de %PRESERVED_DISPLAY_NAME",
+	"NigiriSushi_description": "Pescado recién capturado, cortado crudo y servido sobre arroz.",
+
+	"Natto_name": "Natto",
+	"Natto_description": "Mezcla fermentada y pegajosa de soja. Un gusto adquirido.",
+
+	"NasiGoreng_name": "Nasi Goreng",
+	"NasiGoreng_description": "Arroz frito salado servido con un huevo frito y encurtidos.",
+
+	"Namul_name": "Namul",
+	"Namul_description": "Variedad de encurtidos y vegetales. ¡Son ácidos!",
+
+	"NachosandCheese_name": "Nachos con Queso",
+	"NachosandCheese_description": "Totopos y queso derretido.",
+
+	"Mustard_name": "Mostaza",
+	"Mustard_description": "Un condimento ácido hecho de semillas de mostaza.",
+
+	"MushroomSoup_name": "Sopa de Champiñones",
+	"MushroomSoup_description": "Está un poco salada.",
+
+	"MushroomBurger_name": "Hamburguesa de Champiñón",
+	"MushroomBurger_description": "Una gran y carnosa hamburguesa de champiñón, asada y cubierta con queso.",
+
+	"Muhammara_name": "Muhammara",
+	"Muhammara_description": "Dip de morrones rojos asados elaborado con nueces y melaza de granada.",
+
+	"MudPie_name": "Tarta de Lodo",
+	"MudPie_description": "Una capa de brownie con chocolate y crema batida encima.",
+
+	"Mousse_name": "Mousse",
+	"Mousse_description": "Un postre espeso y chocolatoso.",
+
+	"MotleyMushrooms_name": "Hongos Variopintos",
+	"MotleyMushrooms_description": "Desfile de micelios alegres.",
+
+	"Mooncake_name": "Pastel Lunar",
+	"Mooncake_description": "Un pastel firme lleno de pasta de poroto dulce.",
+
+	"MoltenCustardBun_name": "Panecillo con Crema Fundida",
+	"MoltenCustardBun_description": "Un dim sum dulce. La cremosa crema fundida de huevo salado en su interior invita a experimentar la verdadera dicha.",
+	
+	"MoinMoin_name": "Moin Moin",
+	"MoinMoin_description": "Porotos pelados mezclados con especias y un poco de agua, cocidos al vapor hasta obtener un snack firme similar a un pudín.",
+	
+	"Mohinga_name": "Mohinga",
+	"Mohinga_description": "Deliciosa sopa de pez gato con un contundente caldo de curry, típicamente consumida en el desayuno.",
+	
+	"Mochi_name": "Mochi",
+	"Mochi_description": "Se elabora machacando arroz hasta que se vuelve pegajoso.",
+	
+	"MisoSoup_name": "Sopa de Miso",
+	"MisoSoup_description": "Sopa sencilla hecha con miso.",
+	
+	"MisoRamen_name": "Ramen de Miso",
+	"MisoRamen_description": "Ramen en un caldo de miso con huevo marinado.",
+	
+	"MintChutney_name": "Chutney de Menta",
+	"MintChutney_description": "Jalea de menta picada.",
+	
+	"Minestrone_name": "Minestrone",
+	"Minestrone_description": "Sopa de verduras con muchas legumbres y hojas verdes.",
+	
+	"Millefeuille_name": "Milhojas",
+	"Millefeuille_description": "Capas de masa y crema, decoradas con un patrón de rejilla.",
+	
+	"MilkSoup_name": "Sopa de Leche",
+	"MilkSoup_description": "Sopa tradicional con un caldo de leche caliente.",
+	
+	"MieGoreng_name": "Mie Goreng",
+	"MieGoreng_description": "Fideos salteados con camarones y chalotes.",
+	
+	"Meuniere_name": "Meunière",
+	"Meuniere_description": "Pescado cocinado lentamente en mantequilla.",
+	
+	"Meringues_name": "Merengues",
+	"Meringues_description": "Galletas engañosamente ligeras que se derriten en la boca.",
+	
+	"MelonSalad_name": "Ensalada de Melón",
+	"MelonSalad_description": "Refrescante y colorida ensalada de frutas.",
+	
+	"Melonpan_name": "Melonpan",
+	"Melonpan_description": "A pesar de su nombre, es simplemente un pan dulce.",
+	
+	"MechouiaSalad_name": "Ensalada Mechouia",
+	"MechouiaSalad_description": "Verduras asadas, cubiertas con huevo y atún.",
+	
+	"MeatSatay_name": "Satay",
+	"MeatSatay_flavored": "Satay de %PRESERVED_DISPLAY_NAME",
+	"MeatSatay_description": "Brochetas marinadas y asadas con salsa de maní.",
+	
+	"MassamanCurry_name": "Curry Massaman",
+	"MassamanCurry_description": "Curry fusión que combina sabores de varias regiones.",
+	
+	"MashedPotatoes_name": "Puré de Papas",
+	"MashedPotatoes_description": "Muy mantecoso.",
+	
+	"MascarponeLuxury_name": "Lujo de Mascarpone",
+	"MascarponeLuxury_description": "Crema dulce con nectarinas, cubierto con hoja de oro.",
+	
+	"Marzipan_name": "Mazapán",
+	"Marzipan_description": "Pasta de almendras dulce moldeada y pintada. Las calles de Fort Josa están llenas de vendedores que ofrecen todo tipo de mazapán en forma de comida y animales.",
+	
+	"MarshmallowSquares_name": "Cuadrados de Malvavisco",
+	"MarshmallowSquares_description": "Crujientes arroz inflado cubierto con malvavisco derretido.",
+	
+	"MarshmallowAnimals_name": "Animales de Malvavisco",
+	"MarshmallowAnimals_description": "¿Viven en un bosque de malvaviscos?",
+	
+	"Marshmallow_name": "Malvavisco",
+	"Marshmallow_description": "En palabras del popular personaje de ciencia ficción: \"Me preparo para tostar un malvamelón.\"",
+	
+	"Marmalade_name": "Mermelada",
+	"Marmalade_description": "Conserva de frutas hecha con cáscaras de cítricos y azúcar.",
+	
+	"MapoTofu_name": "Mapo Tofu",
+	"MapoTofu_description": "Tofu suave triturado preparado en una salsa extremadamente picante que deja la boca hormigueando.",
+	
+	"Mangu_name": "Mangú",
+	"Mangu_description": "Plátanos machacados con huevo frito y queso.",
+	
+	"MangoChutney_name": "Chutney de Mango",
+	"MangoChutney_description": "Picante pero dulce.",
+	
+	"MalvaPudding_name": "Pudín Malva",
+	"MalvaPudding_description": "Pudín de pan esponjoso y caramelizado con mermelada de melocotón.",
+	
+	"Malasada_name": "Malasada",
+	"Malasada_description": "Pastelito relleno de piña, espolvoreado con azúcar.",
+	
+	"Magrood_name": "Magrood",
+	"Magrood_description": "Galletas pegajosas rellenas de dátiles.",
+	
+	"MagmaMole_name": "Magma Mole",
+	"MagmaMole_description": "Picante y ardiente, sabe a lava.",
+	
+	"Madeleines_name": "Madeleines",
+	"Madeleines_description": "Galletas de bizcocho esponjoso con delicado sabor floral.",
+	
+	"Macarons_name": "Macarons",
+	"Macarons_description": "Galletas livianas de almendra con relleno dulce.",
+	
+	"MacaroniSalad_name": "Ensalada de Macarrones",
+	"MacaroniSalad_description": "Ensalada fría con demasiada mayonesa.",
+	
+	"MacandFishBake_name": "Macarrones con Pescado",
+	"MacandFishBake_description": "Versión de mariscos del clásico macarrones con queso.",
+	
+	"MacandCheese_name": "Macarrones con Queso",
+	"MacandCheese_description": "¡Cremoso y con mucho queso!",
+	
+	"Lutefisk_name": "Lutefisk",
+	"Lutefisk_description": "Pescado gelatinoso en escabeche con su tradicional surtido de guarniciones.",
+	
+	"LumberjacksBun_name": "Panecillo del Leñador",
+	"LumberjacksBun_description": "Pan dulce pero suave, relleno con champiñones al estilo barbacoa.",
+	
+	"LukChup_name": "Luk Chup",
+	"LukChup_description": "Deliciosas frutas hechas de pasta de poroto dulce.",
+	
+	"LoxandaSchmear_name": "Bagel con Salmón",
+	"LoxandaSchmear_description": "Un bagel con salmón y alcaparras.",
+	
+	"LotusWrappedStickyRice_name": "Arroz Pegajoso Envuelto en Loto",
+	"LotusWrappedStickyRice_description": "Las hojas de loto dan a este paquete de arroz pegajoso una maravillosa fragancia.",
+	
+	"Lokum_name": "Lokum",
+	"Lokum_description": "Delicioso dulce con notas florales, espolvoreado con azúcar.",
+	
+	"LoftyPopover_name": "Popover Esponjoso",
+	"LoftyPopover_description": "Masa de huevo cocida en molde de muffin en forma de pequeño bol. Servir con salsa.",
+	
+	"LobsterRoll_name": "Roll de Langosta",
+	"LobsterRoll_description": "Roll tipo hoagie con carne de garra de langosta con mantequilla. Especialidad de Point Drake.",
+	
+	"Licorice_name": "Regaliz",
+	"Licorice_description": "Dulce retorcido con un fuerte sabor a hierbas.",
+	
+	"LemonSquare_name": "Cuadrado de Limón",
+	"LemonSquare_description": "Pastel dulce y ácido cubierto con crema de limón.",
+	
+	"LeekSoup_name": "Sopa de Puerro",
+	"LeekSoup_description": "Sopa cremosa elaborada con muchos puerros y papas.",
+	
+	"LechedeLeon_name": "Leche de León",
+	"LechedeLeon_description": "Jugo de ceviche con guarniciones frescas.",
+	
+	"Laplap_name": "Laplap",
+	"Laplap_description": "Frutas picadas bañadas en leche de coco. A menudo se prepara sobre una gran hoja de plátano.",
+
+	"Lamington_name": "Lamington",
+	"Lamington_description": "Pastel cubierto de chocolate y espolvoreado con coco deshidratado.",
+
+	"Lalab_name": "Lalab",
+	"Lalab_description": "Verduras frescas servidas con un aderezo picante de camarón.",
+
+	"Laghman_name": "Laghman",
+	"Laghman_description": "Fideos abundantes elaborados y cubiertos con verduras sazonadas.",
+
+	"Ladyfingers_name": "Soletas",
+	"Ladyfingers_description": "Galletas dulces y esponjosas.",
+
+	"Koshary_name": "Koshary",
+	"Koshary_description": "Arroz frito elaborado y coronado con una salsa de tomate picante.",
+
+	"Kokoda_name": "Kokoda",
+	"Kokoda_description": "Pescado fresco en leche de coco, servido dentro de la cáscara de un coco.",
+
+	"Knafeh_name": "Knafeh",
+	"Knafeh_description": "Queso suave desmenuzado cubierto con capas de masa filo hojaldrada. Se rocía con sirope de agua de rosas para terminar este dulce postre.",
+
+	"KitsuneUdon_name": "Kitsune Udon",
+	"KitsuneUdon_description": "Tazón de udon reconfortante con tofu y pastelitos de pescado en espiral.",
+
+	"KingCake_name": "Torta del Rey",
+	"KingCake_description": "¿Cómo se ve una torta de reina?",
+
+	"KimchiRamen_name": "Ramen de Kimchi",
+	"KimchiRamen_description": "Ramen elaborado con un sabor único y picante.",
+
+	"Kheer_name": "Kheer",
+	"Kheer_description": "Gachas de arroz y leche endulzada con frutos secos y frutas deshidratadas.",
+
+	"Khachapuri_name": "Khachapuri",
+	"Khachapuri_description": "Pan elaborado y relleno con queso y huevo blando.",
+
+	"KeyLimePie_name": "Tarta de Lima Key",
+	"KeyLimePie_description": "Ácida y agria, con una cucharada de crema batida.",
+
+	"Ketchup_name": "Ketchup",
+	"Ketchup_description": "Pasta de tomates endulzada con azúcar.",
+
+	"KayaToast_name": "Tostada Kaya",
+	"KayaToast_description": "Tostada gruesa untada con mantequilla y cubierta de deliciosa mermelada de coco.",
+
+	"Karantika_name": "Karantika",
+	"Karantika_description": "Masa elaborada con garbanzos, cubierta con huevo batido y horneada. Se sirve con pan o se corta en cuadrados.",
+
+	"Kapustnica_name": "Kapustnica",
+	"Kapustnica_description": "Chucrut y hongos elaboran los sabores únicos de esta sopa.",
+
+	"Kanuchi_name": "Kanuchi",
+	"Kanuchi_description": "Carne de nuez guisada en sopa.",
+
+	"Johnnycakes_name": "Johnnycakes",
+	"Johnnycakes_description": "Similar a panqueques, pero elaborados con maíz.",
+
+	"Jjigae_name": "Jjigae",
+	"Jjigae_description": "Guiso elaborado con kimchi.",
+
+	"JeweledRice_name": "Arroz Joya",
+	"JeweledRice_description": "Brillante y colorido.",
+
+	"JellyBeans_name": "Gomitas de Fruta",
+	"JellyBeans_description": "Dulces coloridos con forma de porotos. Disponibles en 76 sabores patentados.",
+
+	"JellO_name": "Gelatina",
+	"JellO_description": "Temblorosa.",
+
+	"JelliedCompote_name": "Compota Gelificada",
+	"JelliedCompote_description": "Coctel de frutas mezcladas con gelatina y luego refrigeradas.",
+
+	"Japchae_name": "Japchae",
+	"Japchae_description": "Fideos de batata elaborados con abundantes verduras. Es salado y un poco dulce.",
+
+	"Jammies_name": "Galletas con Mermelada",
+	"Jammies_description": "Galletas elaboradas con un centro de mermelada.",
+
+	"Jalebi_name": "Jalebi",
+	"Jalebi_description": "Masa aromatizada con azafrán, frita en aceite para formar pequeños espirales.",
+
+	"JalapenoLoaf_name": "Pan de Jalapeño",
+	"JalapenoLoaf_description": "Pan de maíz desmigable, pero con jalapeños picantes en su interior.",
+
+	"Injera_name": "Injera",
+	"Injera_description": "Pan plano ácido, que se puede enrollar fácilmente.",
+
+	"Inarizushi_name": "Inarizushi",
+	"Inarizushi_description": "Capa delgada de tofu frito con arroz dentro, ligeramente dulce.",
+
+	"Hummus_name": "Hummus",
+	"Hummus_description": "Pasta elaborada con porotos de garbanzo. Se sirve a menudo con pita.",
+
+	"HotSauce_name": "Salsa Picante",
+	"HotSauce_description": "¡Pica, pica y pica!",
+
+	"HotChocolate_name": "Chocolate Caliente",
+	"HotChocolate_description": "Chocolate caliente con malvaviscos, perfecto para una noche fría.",
+
+	"HotandSourSoup_name": "Sopa Agripicante",
+	"HotandSourSoup_description": "Sopa a base de vinagre, algo agria y algo picante.",
+
+	"HoriatikiSalad_name": "Ensalada Horiatiki",
+	"HoriatikiSalad_description": "Ensalada refrescante elaborada con muchas aceitunas y aderezada con vinagre.",
+
+	"Horchata_name": "Horchata",
+	"Horchata_description": "Arroz batido hasta obtener una leche dulce y con sabor a nuez.",
+
+	"HoneyWalnutShrimp_name": "Camarones con Miel y Nuez",
+	"HoneyWalnutShrimp_description": "Camarones salteados en miel y nueces, servidos sobre arroz.",
+
+	"HoneyCake_name": "Pastel de Miel",
+	"HoneyCake_description": "Pastel elaborado únicamente con miel.",
+
+	"HomemadePopcorn_name": "Palomitas Caseras",
+	"HomemadePopcorn_description": "No tan mantecosas como las que venden en los cines.",
+
+	"HerbCheese_name": "Queso con Hierbas",
+	"HerbCheese_description": "Delicioso aderezo de hierbas para cualquier pan o galleta salada.",
+
+	"HeartySautee_name": "Salteado Abundante",
+	"HeartySautee_description": "¡Es bueno para ti!",
+
+	"HasselbackPotatoes_name": "Papas Hasselback",
+	"HasselbackPotatoes_description": "Papas cortadas como acordeón y luego asadas con mantequilla.",
+
+	"HarGow_name": "Har Gow",
+	"HarGow_description": "Empanadita al vapor rellena de camarón.",
+
+	"Hardtack_name": "Galleta de Mar",
+	"Hardtack_description": "También llamada galleta de barco. Está tan seca que casi incomible.",
+
+	"HardCandies_name": "Caramelos Duros",
+	"HardCandies_description": "Dulces, azucarados y ácidos.",
+
+	"Halva_name": "Halva",
+	"Halva_description": "Denso dulce de miel y pasta de sésamo, con dátiles picados.",
+
+	"Halloumi_name": "Halloumi",
+	"Halloumi_description": "Queso a la parrilla. Crujiente al masticarlo.",
+
+	"Haleem_name": "Haleem",
+	"Haleem_description": "Guiso elaborado con granos enteros, coronado con caldo de hierbas y cebolla.",
+
+	"Gumdrops_name": "Gomitas",
+	"Gumdrops_description": "Dulces masticables, pero no chiclosas.",
+
+	"Gumbo_name": "Gumbo",
+	"Gumbo_description": "Guiso de mariscos excepcionalmente picante.",
+
+	"GulabJamun_name": "Gulab Jamun",
+	"GulabJamun_description": "Bolas de masa que absorben un sirope dulce de cardamomo.",
+
+	"GroundnutStew_name": "Guiso de Maní",
+"GroundnutStew_description": "Sopa hecha principalmente con maní. ¡Rocía aceite de maní por encima!",
+
+	"GrilledZucchini_name": "Zucchini a la Parrilla",
+	"GrilledZucchini_description": "Zucchini asado a la perfección.",
+
+	"GrilledCheese_name": "Sándwich de Queso va la Parrilla",
+	"GrilledCheese_description": "El clásico sándwich de queso a la parrilla.",
+
+	"GreenPilaf_name": "Pilaf Verde",
+	"GreenPilaf_description": "Un plato comunal que se suele comer con las manos.",
+
+	"GreenMachine_name": "Máquina Verde",
+	"GreenMachine_description": "¡Esta bebida te llenará de energía verde!",
+
+	"GreenFigandSaltfish_name": "Higo Verde con Bacalao",
+	"GreenFigandSaltfish_description": "Plátanos verdes salteados con pescado salado y aromáticos. No contiene higos.",
+
+	"GreenCurry_name": "Curry Verde",
+	"GreenCurry_description": "Morrones verdes frescos que le dan un color vibrante a este curry.",
+
+	"GreenBeanCasserole_name": "Cazuela de Porotos Verdes",
+	"GreenBeanCasserole_description": "Cazuela horneada con porotos verdes y cebollas crujientes por encima.",
+
+	"Gravlax_name": "Gravlax",
+	"Gravlax_description": "Salmón curado con hierbas. Una delicia nacional en Nors.",
+
+	"GrapeDumplings_name": "Dumplings de Uva",
+"GrapeDumplings_description": "Masa hervida, servida en jugo de uva caliente.",
+
+	"GranolaBowl_name": "Tazón de Granola",
+	"GranolaBowl_description": "Un tazón refrescante de avena y frutas.",
+
+	"GrainPorridge_name": "Gachas de Granos",
+	"GrainPorridge_flavored": "%PRESERVED_DISPLAY_NAME Gachas",
+	"GrainPorridge_description": "Una simple mezcla de granos y leche.",
+
+	"GrahamCracker_name": "Galleta Graham",
+	"GrahamCracker_description": "¿Quién fue Graham, de todos modos?",
+
+	"GotoroCream_name": "Crema Gotoro",
+	"GotoroCream_description": "Popular en el Imperio Gotoro, esta crema pastelera se elabora con cobertura de bayas de saúco.",
+
+	"GooseberryCrumble_name": "Crumble de Grosella",
+	"GooseberryCrumble_description": "Un pastel rústico y tibio elaborado con bayas silvestres.",
+
+	"GoldenStrands_name": "Hilos Dorados",
+	"GoldenStrands_description": "Hilos de masa de yema de huevo hervidos cuidadosamente en sirope.",
+
+	"GoatCheeseSalad_name": "Ensalada de Queso de Cabra",
+	"GoatCheeseSalad_description": "Ensalada mezclada con migas de queso y un aderezo ligero.",
+
+	"GnocchialTartufo_name": "Gnocchi al Tartufo",
+	"GnocchialTartufo_description": "Ñoquis elásticos en una rica y cremosa salsa de trufa.",
+
+	"Gingersnaps_name": "Galletas de Jengibre",
+	"Gingersnaps_description": "Un popular snack de galleta con un toque de jengibre.",
+
+	"GingerbreadPeople_name": "Personitas de Pan de Jengibre",
+	"GingerbreadPeople_description": "Decoradas con pequeñas sonrisas de azúcar.",
+
+	"Gazpacho_name": "Gazpacho",
+	"Gazpacho_description": "Sopa de vegetales con agua, servida fría. Perfecta para un día cálido.",
+
+	"GarlicNaan_name": "Naan de Ajo",
+	"GarlicNaan_description": "Pan plano horneado en un horno muy caliente.",
+
+	"GarlicBread_name": "Pan de Ajo",
+	"GarlicBread_description": "Pan de ajo con mantequilla. Sírvelo con la cena.",
+
+	"GalloPinto_name": "Gallo Pinto",
+	"GalloPinto_description": "¡Arroz con porotos para el desayuno!",
+
+	"Fungee_name": "Fungee",
+	"Fungee_description": "Porciones de okra con harina de maíz.",
+
+	"Fufu_name": "Fufu",
+	"Fufu_description": "Yuca machacada hasta formar una masa esponjosa. ¡Perfecta con sopas picantes!",
+
+	"Fudge_name": "Fudge",
+	"Fudge_description": "No metas la pata con el dulce",
+
+	"FryBread_name": "Pan Frito",
+	"FryBread_description": "Pan frito aireado y esponjoso.",
+
+	"FruitTurnover_name": "Dulce de Frutas",
+	"FruitTurnover_flavored": "%PRESERVED_DISPLAY_NAME Dulce",
+	"FruitTurnover_description": "Pastelito relleno de fruta.",
+
+	"FruitSmoothie_name": "Smoothie de Verano",
+	"FruitSmoothie_flavored": "%PRESERVED_DISPLAY_NAME Smoothie",
+	"FruitSmoothie_description": "Frutas, leche y hielo elaborados hasta convertirse en una deliciosa bebida.",
+
+	"FruitNectar_name": "Néctar de Fruta",
+	"FruitNectar_flavored": "%PRESERVED_DISPLAY_NAME Néctar",
+	"FruitNectar_description": "Elaborado al triturar fruta con miel.",
+
+	"FruitLeather_name": "Tira de Fruta",
+	"FruitLeather_description": "Una lámina de pulpa de fruta. Es dulce y masticable.",
+
+	"Fruitcake_name": "Pan de Frutas",
+	"Fruitcake_description": "Tan denso que podrías sentarte sobre él.",
+
+	"FruitBar_name": "Barrita de Fruta",
+	"FruitBar_description": "Snack de campo con sabor a fruta.",
+
+	"FrostedGrapes_name": "Uvas Escarchadas",
+	"FrostedGrapes_description": "Uvas ácidas espolvoreadas generosamente con azúcar.",
+
+	"FriedTofu_name": "Tofu Frito",
+	"FriedTofu_description": "Tofu frito. Tiene una textura agradable.",
+
+	"FriedRice_name": "Arroz Frito",
+	"FriedRice_description": "Arroz frito a alta temperatura con aceite. ¡Sabroso!",
+
+	"FriedPlantains_name": "Plátanos Fritos",
+	"FriedPlantains_description": "Rodajas de plátano fritas dos veces.",
+
+	"FriedPickles_name": "Pepinillos Fritos",
+	"FriedPickles_description": "Pepinillos empanizados y crujientes.",
+
+	"FriedOkra_name": "Okra Frita",
+	"FriedOkra_description": "Okra frita. Crujiente por fuera, tierna por dentro.",
+
+	"FriedLotusRoot_name": "Raíz de Loto Frita",
+	"FriedLotusRoot_description": "Raíz de loto en rodajas frita con camarón. Tiene una forma interesante.",
+
+	"FriedCheeseCurds_name": "Queso Frito en Trozos",
+	"FriedCheeseCurds_description": "Pedacitos de queso salados fritos a la perfección.",
+
+	"Fondue_name": "Fondue",
+	"Fondue_description": "Queso derretido para sumergir pequeños bocados.",
+
+	"Fluffernutter_name": "Sándwich Fluffernutter",
+	"Fluffernutter_description": "Este sándwich es un gusto adquirido.",
+
+	"FlowerHotpot_name": "Hotpot de Flores",
+	"FlowerHotpot_description": "Hojas de crisantemo y pescado en un caldo ligero.",
+
+	"FlatbreadPizza_name": "Pizza en Pan Plano",
+	"FlatbreadPizza_description": "Pizza, pero aún más plana.",
+
+	"Flan_name": "Flan",
+	"Flan_description": "Postre cremoso y caramelizado.",
+
+	"FishStock_name": "Caldo de Pescado",
+	"FishStock_description": "Caldo de atún estofado usado como base para muchas sopas.",
+
+	"FishnChips_name": "Fish 'n' Chips",
+	"FishnChips_description": "Pescado blanco frito con papas fritas.",
+
+	"FishHeadCurry_name": "Curry de Cabeza de Pescado",
+	"FishHeadCurry_description": "Pescado estofado en curry. Picante y muy salado.",
+	
+	"FishAmok_name": "Fish Amok",
+	"FishAmok_description": "Curry con una consistencia tipo mousse por el vapor. Servido en un cuenco de hojas de plátano.",
+	
+	"FigToast_name": "Tostada de Higo",
+	"FigToast_description": "Higos exquisitos acompañados con queso de cabra tostado.",
+	
+	"FigCookies_name": "Galletas de Higo",
+	"FigCookies_description": "Snacks sencillos que invitan a comer más de uno.",
+	
+	"FettuccineAlfredo_name": "Fettuccine Alfredo",
+	"FettuccineAlfredo_description": "Aunque no es tradicional, ¡sigue siendo muy sabroso!",
+	
+	"FernSalad_name": "Ensalada de Helecho",
+	"FernSalad_description": "Una ensalada fresca hecha con ingredientes silvestres.",
+	
+	"Farofa_name": "Farofa",
+	"Farofa_description": "Mezcla tostada de harina de yuca y otros vegetales.",
+	
+	"FarmersRamen_name": "Ramen del Granjero",
+	"FarmersRamen_description": "Fideos ramen sencillos. La salsa de soja le da su sabor principal.",
+	
+	"FancySushiPlatter_name": "Bandeja de Sushi Elegante",
+	"FancySushiPlatter_description": "Un set de sashimi increíblemente elegante con mariscos de alta gama.",
+	
+	"Falafel_name": "Falafel",
+	"Falafel_description": "Porotos de garbanzo molidos y fritos.",
+	
+	"EverythingBagel_name": "Bagel con Todo",
+	"EverythingBagel_description": "Un bagel con todo tipo de ingredientes encima.",
+	
+	"Etouffee_name": "Étouffée",
+	"Etouffee_description": "Cangrejo de río en un roux sabroso con arroz.",
+	
+	"Enchiladas_name": "Enchiladas",
+	"Enchiladas_description": "Tortillas de maíz rellenas de queso y cubiertas con salsa picante.",
+	
+	"EgusiSoup_name": "Sopa Egusi",
+	"EgusiSoup_description": "Sopa sabrosa hecha con semillas de calabaza y zapallo tostadas.",
+	
+	"EggyCurry_name": "Curry con Huevo",
+	"EggyCurry_description": "Salteado de mariscos con una salsa de curry con huevo ligeramente dulce.",
+	"EggTarts_name": "Tartaletas de Huevo",
+	"EggTarts_description": "Dulce y cremoso pastel de nata o tartaleta de huevo. ¡Mejor cuando está fresco!",
+	
+	"FluffyEggSandwich_name": "Sándwich de Huevo Esponjoso",
+	"FluffyEggSandwich_description": "Pedazos de huevo se caen por los costados.",
+	
+	"EggSalad_name": "Ensalada de Huevo",
+	"EggSalad_description": "Huevos triturados mezclados con condimentos y sazones.",
+	
+	"Eggnog_name": "Ponche de Huevo",
+	"Eggnog_description": "Dato curioso: no todos tienen alcohol.",
+	
+	"EggFooYoung_name": "Egg Foo Young",
+	"EggFooYoung_description": "Tortilla frita de vegetales crujiente cubierta con salsa.",
+	
+	"EelPie_name": "Tarta de Anguila",
+	"EelPie_description": "Ábrelo para una sorpresa resbaladiza.",
+	
+	"EelBowl_name": "Bowl de Anguila",
+	"EelBowl_description": "Filets de anguila a la parrilla con salsa, servidos en un tazón de arroz.",
+	
+	"Edamame_name": "Edamame",
+	"Edamame_description": "Porotos de soja al vapor en sus vainas. Espolvorea un poco de sal.",
+	
+	"Eclair_name": "Éclair",
+	"Eclair_description": "Suave y relleno de crema, es un postre popular de Lutèce.",
+	
+	"DurianCrispies_name": "Crujientes de Durian",
+	"DurianCrispies_description": "Como una papa frita, pero con un sabor a nuez y exquisito.",
+	
+	"DrunkardsNoodles_name": "Fideos del Borracho",
+	"DrunkardsNoodles_description": "¡Tan picante que te despertará al instante!",
+	
+	"DragonRoll_name": "Roll de Dragón",
+	"DragonRoll_description": "Anguila envuelta en alga y arroz, coronada con palta (aguacate).",
+	
+	"Donut_name": "Dona",
+	"Donut_description": "Mmm... donas.",
+	
+	"Dolmas_name": "Dolmas",
+	"Dolmas_description": "Hojas de parra rellenas con arroz y otros ingredientes.",
+	
+	"DeviledEggs_name": "Huevos Endiablados",
+	"DeviledEggs_description": "¡Demasiado fácil comer de más!",
+	
+	"Dango_name": "Dango",
+	"Dango_description": "Bolas de mochi en un pincho.",
+	
+	"DalTadka_name": "Dal Tadka",
+	"DalTadka_description": "Sopa con sabor a curry hecha con lentejas partidas y muchas especias.",
+	
+	"Daifuku_name": "Daifuku",
+	"Daifuku_description": "Mochi con porotos rojos y una fresa.",
+	
+	"CurryPowder_name": "Polvo de Curry",
+	"CurryPowder_description": "Mezcla integral de hierbas y especias usada en platillos de todo el mundo.",
+	
+	"Cupcakes_name": "Cupcakes",
+	"Cupcakes_description": "¡Pastelitos pequeños!",
+	
+	"CucumberSandwich_name": "Sándwich de Pepino",
+	"CucumberSandwich_description": "Un sándwich sencillo y refrescante.",
+	
+	"CucumberRoll_name": "Roll de Pepino",
+	"CucumberRoll_description": "Es como un maki vegetariano.",
+	
+	"CucumberKimchi_name": "Kimchi de Pepino",
+	"CucumberKimchi_description": "Receta rápida de kimchi.",
+	
+	"CrumbCake_name": "Pastel de Migas",
+	"CrumbCake_description": "Pastel otoñal cubierto con una crujiente capa de azúcar.",
+	
+	"Croquette_name": "Croqueta",
+	"Croquette_description": "Croqueta de papa frita. La merienda perfecta.",
+	
+	"Croissant_name": "Croissant",
+	"Croissant_description": "Pan hojaldrado en forma de media luna.",
+	
+	"CritterFritter_name": "Critter Fritter",
+	"CritterFritter_description": "¿Es comestible? ¡Increíble!",
+	
+	"CrispyRiceBowl_name": "Bowl de Arroz Crujiente",
+	"CrispyRiceBowl_description": "Tazón abundante de arroz crujiente, pescado y vegetales frescos.",
+	
+	"CremeBrulee_name": "Crème Brûlée",
+	"CremeBrulee_description": "La región de Lutèce es famosa por este postre ligeramente quemado.",
+	
+	"CreamStew_name": "Estofado de Crema",
+	"CreamStew_description": "Estofado clásico hecho con muchas verduras y crema fresca.",
+	
+	"CreamPuff_name": "Profiterol",
+	"CreamPuff_description": "Pastelitos rellenos de crema dulce.",
+	
+	"CreamedCorn_name": "Crema de Maíz",
+	"CreamedCorn_description": "Granos de maíz triturados convertidos en una sopa cremosa.",
+	
+	"CreamCheese_name": "Queso Crema",
+	"CreamCheese_description": "El queso más suave. Común para untar y rellenar.",
+	
+	"CrabRoll_name": "Roll de Cangrejo",
+	"CrabRoll_description": "Roll clásico de sushi. El cangrejo falso es para los débiles.",
+	
+	"CrabRangoons_name": "Rangoons de Cangrejo",
+	"CrabRangoons_description": "Relleno de cangrejo desmenuzado y queso crema. Igual que lo hacía mamá.",
+
+	"CrabDip_name": "Dip de Cangrejo",
+	"CrabDip_description": "Dip cremoso de mariscos para acompañar con chips.",
+
+	"CrabandCallaloo_name": "Cangrejo y Callaloo",
+	"CrabandCallaloo_description": "Cangrejo, verduras verdes y hojas de taro, todo cocido a fuego lento en una salsa cremosa.",
+
+	"Couscous_name": "Cuscús",
+	"Couscous_description": "Pasta pequeñita con abundantes verduras.",
+
+	"CottonCandy_name": "Algodón de Azúcar",
+	"CottonCandy_description": "¡Azúcar hilado en una pequeña nube celestial!",
+
+	"CottageBreakfast_name": "Desayuno Campestre",
+	"CottageBreakfast_description": "Requesón, naranja azucarada y salchicha de champiñones para empezar el día.",
+
+	"CornMush_name": "Papilla de Maíz",
+	"CornMush_description": "Papilla de harina de maíz horneada en ceniza de enebro.",
+
+	"Cornbread_name": "Pan de Maíz",
+	"Cornbread_description": "Un acompañamiento clásico, perfecto para cualquier reunión familiar.",
+
+	"Colcannon_name": "Colcannon",
+	"Colcannon_description": "Puré de papas con un delicioso toque crujiente.",
+
+	"CoffeeCake_name": "Torta de Café",
+	"CoffeeCake_description": "El pastel caliente se desmigaja para revelar un rico aroma a café.",
+
+	"CoconutShrimp_name": "Camarones con Coco",
+	"CoconutShrimp_description": "Camarones rebozados en coco rallado y salteados. Servidos con salsa de leche de coco.",
+
+	"CoconutFish_name": "Pescado con Coco",
+	"CoconutFish_description": "Pescado crudo en un tazón de leche espumosa de coco, espolvoreado con caldo.",
+
+	"CoastalFeast_name": "Festín Costero",
+	"CoastalFeast_description": "Jurel ahumado a la parrilla con ingredientes recolectados en la playa.",
+
+	"ClayPotNoodles_name": "Fideos en Olla de Barro",
+	"ClayPotNoodles_description": "Fideos sabrosos y ahumados cocidos en una olla de cerámica.",
+
+	"Clafoutis_name": "Clafoutis",
+	"Clafoutis_description": "Aguaymantos cubiertos con una masa espesa y luego horneados.",
+
+	"CinnamonRoll_name": "Roll de Canela",
+	"CinnamonRoll_description": "Este bollo en espiral cubierto de glaseado recién salido del horno.",
+
+	"Cinderdoodles_name": "Cinderdoodles",
+	"Cinderdoodles_description": "Son localmente muy populares.",
+
+	"Churros_name": "Churros",
+	"Churros_description": "Tiras de masa frita rellenas de dulce de leche.",
+
+	"RusticChorba_name": "Chorba Rústica",
+	"RusticChorba_description": "Guiso de verduras sustancioso con un toque de picante.",
+
+	"ChocolateTruffles_name": "Trufas de Chocolate",
+	"ChocolateTruffles_description": "Cáscara de chocolate con un interior suave.",
+
+	"ChocolatePudding_name": "Pudin de Chocolate",
+	"ChocolatePudding_description": "Un favorito de la infancia.",
+
+	"ChocolateLavaCake_name": "Pastel de Chocolate Fundido",
+	"ChocolateLavaCake_description": "Pastel con núcleo de chocolate fundido. ¡Servir muy caliente!",
+
+	"ChocolateCoveredStrawberry_name": "Fresas con Chocolate",
+	"ChocolateCoveredStrawberry_description": "¡A un paso de la felicidad!",
+
+	"ChocolateBanana_name": "Banana con Chocolate",
+	"ChocolateBanana_description": "Banana fría cubierta con una capa dura de chocolate.",
+
+	"Chocolate_name": "Chocolate",
+	"Chocolate_description": "¡Exquisito!",
+
+	"ChipsandSalsa_name": "Chips con Salsa",
+	"ChipsandSalsa_description": "Salsa y chips, perfectos para una fiesta.",
+
+	"ChipsandGuacamole_name": "Chips con Guacamole",
+	"ChipsandGuacamole_description": "Dip cremoso de palta (aguacate).",
+
+	"ChipaGuasu_name": "Chipa Guasu",
+	"ChipaGuasu_description": "Maíz dulce y queso. Similar a un pudín de pan.",
+
+	"ChilledTofu_name": "Tofu Frío",
+	"ChilledTofu_description": "Tofu frío, cortado y cubierto con salsa de soja y cebollín.",
+
+	"SourCherryPie_name": "Tarta de Cerezas Ácidas",
+	"SourCherryPie_description": "Tarta de harina de avellana rellena de cerezas blandas y jugosas.",
+
+	"ChefSalad_name": "Ensalada del Chef",
+	"ChefSalad_description": "Selección de ensaladas del chef.",
+
+	"CheezieCurlz_name": "Cheezie Curlz",
+	"CheezieCurlz_description": "No comas demasiadas, ¡te dejarán los dedos naranjas!",
+
+	"CheeseRamen_name": "Ramen con Queso",
+	"CheeseRamen_description": "¿Le pondrías queso al ramen?",
+
+	"CheeseFries_name": "Papas con Queso",
+	"CheeseFries_description": "Una canasta de papas fritas bañadas en queso.",
+
+	"Cheesecake_name": "Cheesecake",
+	"Cheesecake_description": "Queso crema batido hasta obtener una textura aún más cremosa.",
+
+	"CheeseBoard_name": "Tabla de Quesos",
+	"CheeseBoard_description": "¡La tabla perfecta para fiestas!",
+
+	"Champurrado_name": "Champurrado",
+	"Champurrado_description": "Bebida de harina de maíz con chocolate.",
+
+	"Ceviche_name": "Ceviche",
+	"Ceviche_description": "Pescado fresco crudo curado en jugo de cítricos y condimentado con chiles.",
+
+	"CenturyCongee_name": "Congee de Huevo Centenario",
+	"CenturyCongee_description": "Gachas de arroz. ¡Es maravilloso cuando estás enfermo!",
+
+	"Castella_name": "Castella",
+	"Castella_description": "Pastel liviano y esponjoso. ¡Icónico!",
+
+	"CassavaCake_name": "Pastel de Yuca",
+	"CassavaCake_description": "Delicioso y cremoso. ¡Cúbrelo con queso!",
+
+	"Cassata_name": "Cassata",
+	"Cassata_description": "Bizcocho cubierto con una variedad de frutas confitadas. Popular en el sur de Rialia.",
+
+	"SpicedCarrotCake_name": "Pastel de Zanahoria Especiado",
+	"SpicedCarrotCake_description": "Pastel primaveral especiado para cualquier mesa.",
+
+	"Carpaccio_name": "Carpaccio",
+	"Carpaccio_description": "Pescado ablandado y cortado en láminas finas",
+
+	"CaramelizedOnions_name": "Cebollas Caramelizadas",
+	"CaramelizedOnions_description": "Cocinadas durante horas para resaltar su deliciosa dulzura.",
+
+	"CaramelizedBananas_name": "Bananas Caramelizadas",
+	"CaramelizedBananas_description": "Bananas azucaradas salteadas en mantequilla.",
+
+	"CaramelEgg_name": "Huevo con Caramelo",
+	"CaramelEgg_description": "Huevo de chocolate con sorpresa de caramelo.",
+
+	"CaramelApple_name": "Manzana Caramelizada",
+	"CaramelApple_description": "Manzana dulce cubierta con caramelo caliente.",
+
+	"Caramel_name": "Caramelo",
+	"Caramel_description": "Mantecoso y dulce, comúnmente usado en caramelos y postres.",
+
+	"CapraeSalad_name": "Ensalada Caprae",
+	"CapraeSalad_description": "¡Una armonía de sabores! Te sentirás mejor después de comerla, qué curioso.",
+
+	"Caponata_name": "Caponata",
+	"Caponata_description": "Berenjena picada y frita. Está tibia y llena bastante.",
+
+	"Cannoli_name": "Cannoli",
+	"Cannoli_description": "Masa de repostería crujiente rellena con ricota y chocolate.",
+
+	"CandyCorn_name": "Caramelo de Maiz",
+	"CandyCorn_description": "A pesar del nombre, no crece en una mazorca.",
+
+	"CandyApple_name": "Caramelo de Manzana",
+	"CandyApple_description": "Una manzana cubierta con una capa de azúcar roja.",
+
+	"CandiedPineapple_name": "Piña Caramelizada",
+	"CandiedPineapple_description": "Un anillo de piña masticable y dulce.",
+
+	"CandiedOrangePeel_name": "Cáscara de Naranja Caramelizada",
+	"CandiedOrangePeel_description": "Finas cáscaras de naranja impregnadas de dulzura  y espolvoreadas con azúcar impalpable.",
+
+	"CandiedCherries_name": "Cerezas Confitadas",
+	"CandiedCherries_description": "Cerezas impregnadas en azúcar.",
+
+	"CandiedAlmonds_name": "Almendras Garrapiñadas",
+	"CandiedAlmonds_description": "Cada almendra tiene una capa crujiente de azúcar.",
+
+	"CalicoBar_name": "Barrita Calico",
+	"CalicoBar_description": "Capa de ganache de chocolate y crema pastelera sobre una base de coco y oblea.",
+
+	"CaldodeCamaron_name": "Caldo de Camarón",
+	"CaldodeCamaron_description": "Sopa de camarón preparada con muchos chiles picantes.",
+
+	"CakePops_name": "Cake Pops",
+	"CakePops_description": "Puedes comerlos de un solo bocado.",
+
+	"CacioePepe_name": "Cacio e Pepe",
+	"CacioePepe_description": "Un plato tradicional rialiano hecho solo con fideos, queso y pimienta.",
+
+	"CabbageRoll_name": "Rollitos de Repollo",
+	"CabbageRoll_description": "Hojas de repollo rellenas, bañadas en salsa de tomate.",
+
+	"Butterscotch_name": "Butterscotch",
+	"Butterscotch_description": "¡Caramelo cálido, mantecoso y dulce!",
+
+	"ButternutSquashSoup_name": "Sopa de Calabaza Anco",
+	"ButternutSquashSoup_description": "Suave y con un toque mantecoso.",
+
+	"ButtermilkSoup_name": "Sopa de Suero de Leche",
+	"ButtermilkSoup_description": "Sopa dulce hecha con suero de leche y crujientes pedazos de pan.",
+
+	"ButterCake_name": "Torta de Manteca",
+	"ButterCake_description": "Torta densa pero cremosa, hecha con mucha manteca y azúcar.",
+
+	"BrownSugar_name": "Azúcar Morena",
+	"BrownSugar_description": "Azúcar común mezclada con melaza para un sabor más profundo.",
+
+	"Brownie_name": "Brownie",
+	"Brownie_description": "La parte del centro es la más chocolatosa.",
+
+	"Broth_name": "Caldo",
+	"Broth_description": "Te entibia cuando tienes escalofríos.",
+
+	"BroccoliCheeseSoup_name": "Sopa de Brócoli con Queso",
+	"BroccoliCheeseSoup_description": "Sopa sencilla hecha con trozos de brócoli y mucho queso.",
+
+	"BroccoliandCheese_name": "Brócoli con Queso",
+	"BroccoliandCheese_description": "Cuesta encontrar el brócoli debajo de todo ese queso derretido.",
+
+	"BreakfastScramble_name": "Revuelto de Desayuno",
+	"BreakfastScramble_description": "Tofu, champiñones y palta (aguacate) mezclados en un revuelto esponjoso.",
+
+	"BreakfastCereal_name": "Cereal de Desayuno",
+	"BreakfastCereal_description": "Tu cereal azucarado de siempre.",
+
+	"BreadSoup_name": "Sopa de Pan",
+	"BreadSoup_description": "Pan sobrante cocido a fuego lento con caldo y verduras.",
+
+	"BreadPudding_name": "Budín de Pan",
+	"BreadPudding_description": "Un poco gelatinoso, pero muy dulce.",
+
+	"BouquetCrepe_name": "Crêpe Bouquet",
+	"BouquetCrepe_description": "Un hermoso cono de crêpe relleno de flores comestibles, casi demasiado bonito para comerlo.",
+
+	"Bouillabaisse_name": "Bullabesa",
+	"Bouillabaisse_description": "Sopa abundante de mariscos y pescado con muchas verduras.",
+
+	"Borsch_name": "Borsch",
+	"Borsch_description": "Sopa a base de remolacha con un sabor muy particular.",
+
+	"Borek_name": "Börek",
+	"Borek_description": "Masa hojaldrada rellena con puré de papa y pimentón.",
+
+	"BoiledPeanuts_name": "Maníes Hervidos",
+	"BoiledPeanuts_description": "Un snack simple y salado.",
+
+	"Blini_name": "Blini",
+	"Blini_description": "Panqueques finos cubiertos con queso crema y caviar.",
+
+	"BlackSoup_name": "Sopa Negra",
+	"BlackSoup_description": "Una receta ancestral de una sociedad guerrera, hoy perdida en el tiempo.",
+
+	"BlackenedFish_name": "Pescado Ennegrecido",
+	"BlackenedFish_description": "Pescado suave y chamuscado acompañado con especias intensas.",
+ 	"Biscuit_name": "Biscuit",
+	"Biscuit_description": "Pan que se desmigaja; no debe confundirse con una galleta.",
+
+	"Biscotti_name": "Biscotti",
+	"Biscotti_description": "Galletas firmes y rústicas. Ideales para acompañar café.",
+
+	"Bibimbap_name": "Bibimbap",
+	"Bibimbap_description": "El bowl de piedra mantiene este reconfortante plato de arroz bien caliente.",
+
+	"Beyaynetu_name": "Beyaynetu",
+	"Beyaynetu_description": "Un abundante plato de pan plano con diversas guarniciones para acompañarlo.",
+
+	"BearCandy_name": "Dulce de Oso",
+	"BearCandy_description": "Caramelo hecho con jarabe y moras trituradas sobre nieve fresca.",
+
+	"BeanQuesadilla_name": "Quesadilla de Porotos",
+	"BeanQuesadilla_description": "Queso derretido y porotos negros prensados en una tortilla crujiente.",
+
+	"BeanChili_name": "Chili de Porotos",
+	"BeanChili_description": "Acompáñalo con pan de maíz.",
+
+	"BeanBurger_name": "Hamburguesa de Porotos",
+	"BeanBurger_description": "¡El clásico vegetariano!",
+
+	"Bazin_name": "Bazin",
+	"Bazin_description": "Pan de cebada sin levadura y huevos duros en una sopa de tomate.",
+
+	"Baumkuchen_name": "Baumkuchen",
+	"Baumkuchen_description": "Torta hecha cocinando capas de masa sobre un eje giratorio.",
+
+	"BanoffeePie_name": "Banoffee Pie",
+	"BanoffeePie_description": "¡Banana y toffee mezclados a la perfección!",
+
+	"Bannock_name": "Bannock",
+	"Bannock_description": "Pan rápido y firme acompañado con mermelada.",
+
+	"BanhMi_name": "Banh Mi",
+	"BanhMi_description": "Un sándwich relleno con verduras frescas y encurtidos.",
+
+	"BangaRice_name": "Arroz Banga",
+	"BangaRice_description": "Arroz precocido en jugo de nueces de palma.",
+
+	"BananaCurry_name": "Curry con Banana",
+	"BananaCurry_description": "Rodajas de banana cubiertas con una pasta picante y aromática de coco.",
+
+	"BananaBread_name": "Pan de Banana",
+	"BananaBread_description": "¡Es húmedo y muy sabroso!",
+
+	"Baklava_name": "Baklava",
+	"Baklava_description": "Hojaldre fino en capas con miel y frutos secos de estación.",
+
+	"BakedSweetPotato_name": "Batata Horneada",
+	"BakedSweetPotato_description": "Una batata horneada y simple. Ideal para un día frío.",
+
+	"BakedPotato_name": "Papa Horneada",
+	"BakedPotato_description": "El interior está más caliente que la lava.",
+
+	"BakedBeans_name": "Porotos Horneados",
+	"BakedBeans_description": "Lástima que no tengas tostadas para acompañarlos.",
+	
+	"BakedApple_name": "Manzana Horneada",
+	"BakedApple_description": "Simplemente coloca una manzana en el horno y ¡hornéala!",
+	
+	"Bacalaitos_name": "Bacalaítos",
+	"Bacalaitos_description": "Croquetas crujientes de bacalao servidas con alioli. ¡Son bastante saladas!",
+	
+	"BabaGhanoush_name": "Baba Ghanoush",
+	"BabaGhanoush_description": "Berenjena asada mezclada con tahini, aceite de oliva y condimentos.",
+	
+	"AvocadoToast_name": "Tostada con Palta (Aguacate)",
+	"AvocadoToast_description": "No lo entenderías.",
+	
+	"AutumnMuffin_name": "Muffin de Otoño",
+	"AutumnMuffin_description": "Un muffin esquisto cubierto con azúcar en polvo.",
+	
+	"AutumnCasserole_name": "Cazuela de Otoño",
+	"AutumnCasserole_description": "Una abundante cazuela hecha con verduras otoñales.",
+	
+	"Atole_name": "Atole",
+	"Atole_description": "Masa de maíz cremosa con canela y vainilla.",
+	
+	"AsparagusDelight_name": "Delicia de Espárragos",
+	"AsparagusDelight_description": "Una alternativa saludable a una comida pesada.",
+	
+	"ArmoredTurnips_name": "Nabos Acorazados",
+	"ArmoredTurnips_description": "Gratín hecho con grandes rodajas de nabo.",
+	
+	"Arepas_name": "Arepas",
+	"Arepas_description": "Harina de maíz y queso. ¡Perfección!",
+	
+	"CinnamonApplePie_name": "Pastel de Manzana y Canela",
+	"CinnamonApplePie_description": "À la mode.",
+	
+	"AppleCider_name": "Sidra de Manzana",
+	"AppleCider_description": "Refresco burbujeante con un brillante sabor otoñal.",
+	
+	"AntsonaLog_name": "Hormigas en un Tronco",
+	"AntsonaLog_description": "Un snack sencillo, ligero pero sabroso.",
+	
+	"AnimalCrackers_name": "Galletitas de Animalitos",
+	"AnimalCrackers_description": "Animalitos en mi sopa, monos y conejos dan la vuelta sin parar.",
+	
+	"AncientWonder_name": "Maravilla Milenaria",
+	"AncientWonder_description": "Pescado raro cubierto con frutas y una salsa milenaria. Su aroma es intenso.",
+	
+	"AnchovyPizza_name": "Pizza de Anchoas",
+	"AnchovyPizza_description": "Una pizza salada y dulce equilibrada con abundante queso.",
+	
+	"Ambrosia_name": "Ambrosía",
+	"Ambrosia_description": "Crema batida mezclada con fruta ácida y malvaviscos.",
+	
+	"AloeCooler_name": "Refresco de Aloe",
+	"AloeCooler_description": "Extremadamente espeso, pero dulce y refrescante.",
+	
+	"Alfajores_name": "Alfajores",
+	"Alfajores_description": "Galletas suaves rellenas de dulce de leche.",
+	
+	"Alegria_name": "Alegría",
+	"Alegria_description": "Barras de semillas elaboradas con miel.",
+	
+	"Akara_name": "Akara",
+	"Akara_description": "Croquetas hechas de porotos pelados y ají molido.",
+	
+	"AcornBread_name": "Pan de Bellota",
+	"AcornBread_description": "Es tan reconfortante.",
+	
+	"Acorda_name": "Açorda",
+	"Acorda_description": "Sopa espesa de pan con un huevo pochado y muchas hierbas.",
+
+	"RecipeinaBottle_name": "Receta en una Botella",
+	"RecipeinaBottle_description": "¿Qué habrá dentro?",
+
+	"LostPage_name": "Página Perdida",
+	"LostPage_description": "Una página desgastada de un viejo libro de recetas. Alguien la quiere de vuelta.",
+
+	"RecipeinaBottle_Used": "Ya conoces todas las recetas de botella.",
+	"RecipeinaBottle_Found": "¡Encontraste una 'Receta en una Botella'! Usa este objeto para descubrir una nueva receta de cocina.",
+
+	"Ingredient_EggAny": "Huevo (Cualquiera)",
+	"Ingredient_MilkAny": "Leche (Cualquiera)",
+	"Ingredient_CheeseAny": "Queso (Cualquiera)",
+	"Ingredient_ChiliAny": "Chile (Cualquiera)",
+	"Ingredient_SoftCheeseAny": "Queso Suave (Cualquiera)",
+	"Ingredient_ButterAny": "Manteca (Cualquiera)",
+	"Ingredient_FlourAny": "Harina (Cualquiera)",
+	"Ingredient_FishAny": "Pescado (No Trampa de Cangrejos)",
+	"Ingredient_VegetableAny": "Vegetal (Cualquiera)",
+	"Ingredient_FruitAny": "Fruta (Cualquiera)",
+	"Ingredient_EdibleFlowerAny": "Flor Comestible (Cualquiera)",
+	"Ingredient_EdibleMushroomAny": "Hongo Comestible (Cualquiera)",
+	"Ingredient_LeafyGreenAny": "Hoja Verde (Cualquiera)",
+	"Ingredient_RootVegetableAny": "Raíz Comestible (Cualquiera)",
+	"Ingredient_NutButterAny": "Mantequilla de Nueces (Cualquiera)",
+	"Ingredient_YogurtAny": "Yogur (Cualquiera)",
+	"Ingredient_MayonnaiseAny": "Mayonesa (Cualquiera)",
+	"Ingredient_GrainAny": "Grano (Cualquiera)",
+	"Ingredient_BeanAny": "Poroto (Cualquiera)",
+	"Ingredient_HerbAny": "Hierba (Cualquiera)",
+	"Ingredient_CandiedFruitAny": "Fruta Caramelizada (Cualquiera)",
+	"Ingredient_OilAny": "Aceite para Cocinar (Cualquiera)",
+	"Ingredient_GrapeAny": "Uva (Cualquiera)",
+	"Ingredient_MeatAny": "Carne o Tofu (Cualquiera)",
+	"Ingredient_RoseAny": "Rosa (Cualquiera)",
+	"Ingredient_SugarAny": "Azúcar (Cualquiera)",
+
+	"RecipeBook_description": "Una colección de recetas de un lejano rincón del mundo.",
+
+	"RecipeBook_Breakfast_name": "Libro de Recetas: Desayunos del Mundo",
+	"RecipeBook_Dessert_name": "Libro de Recetas: Tortas, Galletas y Más",
+	"RecipeBook_ComfortFood_name": "Libro de Recetas: Comidas Reconfortantes",
+	"RecipeBook_SnackFood_name": "Libro de Recetas: Snacks y Comida Callejera",
+	"RecipeBook_Woodland_name": "Libro de Recetas: Bosques Brumosos",
+	"RecipeBook_Mountain_name": "Libro de Recetas: Susurros de las Cumbres",
+	"RecipeBook_InlandSea_name": "Libro de Recetas: El Mar Creciente",
+	"RecipeBook_Delta_name": "Libro de Recetas: El Delta Dorado",
+	"RecipeBook_Highland_name": "Libro de Recetas: Tierras Altas y Bajas",
+	"RecipeBook_Archipelago_name": "Libro de Recetas: Islas del Mar Gema",
+	"RecipeBook_Northern_name": "Libro de Recetas: La Extensión del Norte",
+	"RecipeBook_Savanna_name": "Libro de Recetas: Sabana del Ocaso",
+
+	"RecipeBook_Learned": "¡Has aprendido nuevas recetas de cocina!",
+	"RecipeBook_Repeat": "Ya conoces las recetas de este libro.",
+
+	"PaperHat_name": "¿Sombrero de Papel...?",
+	"PaperHat_description": "Un montón de papeles arrugados en la forma aproximada de un sombrero. ¿Lo desenvolverás?",
+
+	"CrumpledHat_name": "Sombrero Arrugado",
+	"CrumpledHat_description": "Un montón de papeles arrugados en la forma aproximada de un sombrero.",
+
+	"QoSHat_name": "Sombrero de la Reina de la Salsa",
+	"QoSHat_description": "¿Cómo terminó aquí?",
+
+	"Chef_name_ML": "Dama Misteriosa",
+	"Chef_name_QoS": "Reina de la Salsa",
+
+	"ChefShop_dialogue.1": "¿Tienes una de mis páginas perdidas? ¡Agrégala a mi libro si la tienes!",
+	"ChefShop_dialogue.2": "¡No encontrarás estos ingredientes en ningún otro lugar del valle!",
+	"ChefShop_dialogue.3": "Yo misma elaboro cada una de mis recetas para asegurar que siempre salgan perfectas.",
+	"ChefShop_dialogue.4": "Mi filosofía de vida: \"Cualquiera puede cocinar, si...\" Todavía estoy trabajando en la segunda parte, quizá sea mejor algo breve.",
+	"ChefShop_dialogue.5": "Fui toda una aventurera en mis mejores años. Ahora mis viejos huesos no son lo que solían ser.",
+	"ChefShop_dialogue.6": "¿Escuchaste lo que pasaron en la radio esta semana?",
+
+	"ChefShop_hint.1": "Juro que vi una de mis páginas caer por aquí. Espero que no haya terminado en un árbol o, peor aún, que algún animal del bosque se la haya llevado.",
+	"ChefShop_hint.2": "Tuve suerte de que mi cuaderno de viaje sea resistente al agua. Algunas de esas páginas terminaron flotando por ahí.",
+	"ChefShop_hint.3": "Ojalá nadie más haya tomado una de mis páginas. Puede que solo les parezca basura.",
+	"ChefShop_hint.4": "Recuerdo haber sobrevolado un valle desértico antes de estrellarme aquí. ¿Habrá atrapado el viento árido alguna de mis páginas?",
+
+	"Chef_dialogue.FoundLostPageToday": "¡Encontraste una de mis páginas perdidas! Dame un momento y tendré ese capítulo listo y enviado a tu buzón en un dos por tres.",
+	"Chef_dialogue.GreenRain": "En todos mis años viajando por los rincones más remotos del mundo, ¡jamás había visto una tormenta como esta!",
+
+	"Chef_dialogue.Intro.a": "¡Ah, hola! ¿Eres de los habitantes de este pueblo?",
+	"Chef_dialogue.Intro.b": "Me da vergüenza admitirlo, pero he perdido varias páginas importantes por aquí.",
+	"Chef_dialogue.Intro.c": "¿Sabias que estoy escribiendo un libro? Si me ayudas a recuperar las *páginas perdidas*, ¡te enviaré una copia gratis!",
+	"Chef_dialogue.Intro.d": "¿Un autógrafo? ¡No los doy tan fácilmente!",
+
+	"Chef_dialogue.Daily.1a": "¿Quieres saber cómo perdí esas páginas? Digamos que...",
+	"Chef_dialogue.Daily.1b": "...los globos aerostáticos no son el mejor lugar para cruzar espadas.",
+
+	"Chef_dialogue.Daily.2a": "¿Has encontrado alguna de mis páginas? Si tienes una, puedes agregarla al libro junto a mí. Te enviaré el capítulo terminado una vez que la añada.",
+	"Chef_dialogue.Daily.2b": "¡Oh sí, estoy escribiendo un libro de cocina! Una colección enciclopédica de recetas de todos los rincones del mundo... es realmente mi obra maestra.",
+	"Chef_dialogue.Daily.2c": "Bueno, lo será, una vez que esté terminado, claro.",
+
+	"Chef_dialogue.Daily.3a": "¿Ya hablaste con mi compañera de viaje? Es muy amable de su parte dejarme enganchar mi carrito al suyo mientras busco mis páginas.",
+	"Chef_dialogue.Daily.3b": "Ella y yo nos conocemos desde hace muchos años. Ah, pero ha pasado mucho tiempo desde nuestros viajes en... bueno, no importa.",
+
+	"Chef_dialogue.Daily.4a": "Viajo bastante por mi trabajo. Una ventaja es que siempre tengo ingredientes únicos a mano.",
+	"Chef_dialogue.Daily.4b": "Estoy feliz de venderlos... por un precio, claro. ¡He arriesgado la vida por algunos de estos!",
+
+	"Mail_QoSBook_body": "Adjunto encontrarás una copia adelantada del capítulo más reciente de mi libro de cocina, como agradecimiento. ¡Solo para tus ojos!^^¡Feliz cocina!",
+	"Mail_QoSBook_title": "Libro de Recetas de la Dama Misteriosa",
+
+	"ReturnPage_text": "Entregaste una página perdida.",
+	"DuplicatePage_text": "Lamentablemente, esta página está repetida. ¡Será mejor tirarla!",
+
+	"ReturnPageSpeechBubble_1": "¡Fantabuloso!",
+	"ReturnPageSpeechBubble_2": "¡Magnificupcake!",
+	"ReturnPageSpeechBubble_3": "¡Miigwech!",
+	"ReturnPageSpeechBubble_4": "¡Bellisimo!",
+	"ReturnPageSpeechBubble_5": "¡Mahalo!",
+	"ReturnPageSpeechBubble_6": "¡Asante sana!",
+	"ReturnPageSpeechBubble_7": "¡Itadakimasu!",
+	"ReturnPageSpeechBubble_8": "¡Bon appétit!",
+	"ReturnPageSpeechBubble_9": "¡Xie xie!",
+	"ReturnPageSpeechBubble_10": "¡Danke schön!",
+	"ReturnPageSpeechBubble_11": "¡Muchas gracias!",
+	"ReturnPageSpeechBubble_12": "¡Shukriyaa!",
+	
+	"DriedFruit_name": "Frutas Secas",
+	"DriedMushrooms_name": "Hongos Secos",
+	"SmokedFish_name": "Pescado Ahumado",
+
+	"BakedPotato_altname": "Papa Rara",
+	"GrilledCheese_altname": "Sándwich Fundido de Queso",
+	"Croissant_altname": "Croissant de Desayuno",
+
+	"VegetablePotPie_altname": "Pastel de Verduras",
+	"FruitTurnover_altname": "Pastelitos de fruta",
+	"FruitSmoothie_altname": "Batido de Frutas",
+
+	"CornFlour_name": "Harina de Maíz",
+	"CornFlour_description": "Un ingrediente culinario hecho a partir de maíz molido.",
+	"WheatNoodles_name": "Fideos de Trigo",
+	"WheatNoodles_description": "Un manojo de fideos robustos usados para una multitud de platillos.",
+	"SeaSalt_name": "Sal Marina",
+	"SeaSalt_description": "Un trozo de sal en roca que viene directo del océano.",
+	"Salt_name": "Sal",
+	"Salt_description": "Un molinillo lleno de cristales de sal.",
+	
+	"Mail_AbigailRecipe_body": "Hola @,^Sé que siempre te gusta probar cosas nuevas, así que pensé que podrías disfrutar esta receta. La he incluido abajo, junto con algunos consejos para hacerla perfecta. ¡Avísame si la pruebas!^   -Abigail",
+	"Mail_AbigailRecipe_title": "Receta de Abigail",
+
+	"Mail_AbigailTiramisu_body": "¡Hola, @!^Algo que dijiste el otro día me recordó esto. ¿Alguna vez has probado el tiramisú? Sí, es un poco demasiado elegante para que lo vendan en un lugar como el Salón ¿pero quién dice que no puedes intentar prepararlo en casa? ¡Es tan dulce y esponjoso!^Además, escuché que eres ${un buen cocinero^una buena cocinera}$. Si alguien puede hacerlo, apuesto a que eres tú.^   -Abigail",
+	"Mail_AbigailTiramisu_title": "Tiramisú de Abigail",
+
+	"Mail_AlexRecipe_body": "@,^Esta receta es una buena manera de mantenerte con energía y listo para cualquier cosa que el día te depare. Es una de mis favoritas. ¡Espero que te guste!^   -Alex",
+	"Mail_AlexRecipe_title": "Receta de Alex",
+
+	"Mail_AlexOmurice_body": "¡Hola, ${granjero^granjera}$!^¿Sabes qué se me antojaba esta mañana? Un gran tazón de proteína con huevo.^...Bueno, está bien, quizá ya como huevos todos los días. ¡Pero mira esto! Tiene arroz frito envuelto dentro. De hecho, ¡tú también deberías probarlo! Tienes que ponerte más fuerte para que tenga verdadera competencia en este pueblo. De todas formas, ¿nos vemos mañana?^   -Alex",
+	"Mail_AlexOmurice_title": "Omurice de Alex",
+
+	"Mail_CarolineVegetablePotPie_body": "${Querido^Querida}$ @,^¡Espero que tu granja vaya bien! Si te han sobrado algunas verduras de raíz, conozco la receta perfecta para ellas. Aquí tienes instrucciones para un pot pie maravillosamente lleno y reconfortante. ¡Inténtalo alguna vez!^   -Caroline",
+	"Mail_CarolineVegetablePotPie_title": "Generoso Pot Pie de Caroline",
+	
+	"Mail_ClintTunaSteak_body": "Hola...^Aquí tienes otra receta. Has sido muy amable conmigo... Así que pensé que podría gustarte. Cuando quiero darme un gusto, me agrada comprar un corte fresco de atún de Willy solo para freírlo.^Cuídate.^   -Clint",
+	"Mail_ClintTunaSteak_title": "Filet de Atún de Clint",
+
+	"Mail_DemetriusSeafoodBoil_body": "A pesar de llamarse 'cazuela de mariscos', este plato contiene varios ingredientes que no son mariscos. Tal vez sería más apropiado llamarlo 'cazuela de frutos del mar y alimentos terrestres'.^Esta es una de mis recetas favoritas de la infancia. Gracias por toda tu ayuda en el laboratorio.^   -Demetrius",
+	"Mail_DemetriusSeafoodBoil_title": "Cazuela de Frutos del Mar y Alimentos Terrestres de Demetrius",
+
+	"Mail_DwarfAncientWonder_body": "${Humano^Humana}$, aquí hay otro mensaje que confío a los caprichos del 'servicio postal'.^^Esta receta muy antigua ha sido transmitida por mi gente durante milenios. Es uno de los pocos conocimientos que han sobrevivido de nuestra civilización antigua.^^Necesitarás ingredientes muy raros para preparar este plato. Pero te lo diré ahora... ¡Su su sabor es increíble!^   -Enano",
+	"Mail_DwarfAncientWonder_title": "La Maravilla Milenaria",
+
+	"Mail_DwarfHardtack_body": "${Humano^Humana}$, he aprendido a usar esta cosa llamada 'servicio postal' para enviarte una receta que considero muy interesante. Otro humano me la enseñó hace muchos años. Puedes hornear el cultivo sobre tierra llamado trigo en un pastel muy duro que dura décadas. ¡Y no tiene sabor en absoluto!^^¿A los humanos les gusta la comida sin sabor? Deberías probar algún día el estofado de zanahoria cavernaria.^   -Enano",
+	"Mail_DwarfHardtack_title": "Galleta de Mar del Enano",
+
+	"Mail_ElliottRecipe_body": "@,^Espero que esta carta te encuentre bien. Quería compartir contigo una receta de una comida legendaria. Si alguna vez quieres saber más sobre ella, ven a hablar conmigo de nuevo.^   -Elliott",
+	"Mail_ElliottRecipe_title": "Receta de Elliott",
+
+	"Mail_ElliottFishnChips_body": "${Querido^Querida}$ @,^Aunque adoro una comida elegante con vista serena tanto como cualquier caballero refinado, a veces no hay comparación con sentir en tus dedos el crujido grasiento del pescado rebozado frito. Adjunto una receta que atesoro desde antes de llegar al valle. Valoro mucho tu compañía y me encantaría que la disfrutes también. Salud,^   -Elliott",
+	"Mail_ElliottFishnChips_title": "Fish 'n' Chips de Elliott",
+	
+		"Mail_EmilyGrilledCheese_body": "@!^¡Finalmente encontré mi receta infalible para sándwiches de queso a la parrilla, garabateada en el reverso de un ticket de compra!^Me tomó un poco descifrar mi letra, pero creo que lo tengo todo apuntado. ¡Hey, tú también deberías probarlo! ¿No hay mejor forma de animarse que un sándwich de queso con un tazón caliente de sopa de tomate, verdad?^Nos vemos otro día,^   -Emily",
+	"Mail_EmilyGrilledCheese_title": "Sándwich de Queso a la Parrilla de Emily",
+
+	"Mail_EvelynPineappleUpsideDownCake_body": "Hola, ${querido^querida}$...^^Si alguna vez logras cultivar piñas frescas, ¡este es un pastel que le encanta a todos! Y además, engañosamente simple. Aunque, como con cualquier receta, hay algunos detalles a los que querrás prestar especial atención… Comenzando por la manteca, que debe ser cremosa y no derretida, 6 claras y 2 y media yemas de huevo, azúcar blanca o morena, pero no azúcar de caña...^^(**Se incluyen 3 páginas de instrucciones manuscritas en esta carta.)^^'Con cariño,^Abuela Evelyn'",
+	"Mail_EvelynPineappleUpsideDownCake_title": "Pastel de Piña Invertido de Evelyn",
+
+	"Mail_GeorgeCheesecake_body": "Bueno, ${granjero^granjera}$, pensé que algún día podría darle esta receta a mi nieto… pero tú y yo sabemos que no es muy hábil en la cocina. Así que aquí tienes, quizá le saques provecho. Cuando era joven y ágil, me enseñé a hornear este pastel para impresionar a una joven. Y adivina… ¡también se sirvió en nuestra boda!^   -George^^P.D. Las moras son su fruta favorita.",
+	"Mail_GeorgeCheesecake_title": "Pastel de Boda de George",
+
+	"Mail_GusZucchiniFritters_body": "Hola @, eres la única persona en la que confiaría con esta receta. Sí, correcto: ¡son mis famosas frituras de zucchini! La verdad es que eres como mi único aprendiz de cocina que tengo. Pensé en pasarte esta receta… No es que me queden muchos años por delante.^No olvides la salsa marinara picante, es tan importante como las frituras mismas. ¡Se venden como pan caliente cada semana!^   -Gus",
+	"Mail_GusZucchiniFritters_title": "Frituras de Zucchini Famosas de Gus",
+
+	"Mail_HaleyRecipe_body": "@, encontré este recorte de receta en una de mis revistas.^^Hornear es bastante trabajo. ¿Así que por qué no haces esto por mí? Emily nos hace comer comida de conejo todos los días. Algo dulce estaría bien.^^   -Haley",
+	"Mail_HaleyRecipe_title": "Receta de Haley",
+
+	"Mail_HaleySpicedCarrotCake_body": "¡${Granjero^Granjera}$!^^Vi la *mejor* receta en la TV esta mañana. ¡Es un Pastel de Zanahoria Especiado! Pero necesitas bayas especiadas cultivadas en otoño y zanahorias de primavera para hacerlo. ¡¿Cómo se supone que consiga eso?!^^Quizá tengas estos ingredientes en tu granja. ¿Por favooor, puedes hornearme uno?^^Por cierto, si te conviertes en un chef famoso, ¿puedo tomar todas las fotos de comida para tu libro de recetas más vendido? ¡He estado practicando!^¡Adiós~^  Haley",
+	"Mail_HaleySpicedCarrotCake_title": "Pastel de Zanahoria Especiado de Haley",
+	
+		"Mail_HarveyRecipe_body": "@,^He estado pensando en ti y en tu salud, y quería compartir una receta que creo que te hará bien. La aprendí de un antiguo compañero de cuarto cuando estaba en la facultad de medicina. ¡Nutritiva y deliciosa también! Cuéntame qué te parece. Con cariño,^   -Harvey",
+	"Mail_HarveyRecipe_title": "Receta de Harvey",
+
+	"Mail_HarveyCoffeeCake_body": "@,^Te voy a contar un pequeño secreto. Los doctores tenemos tantos vicios como cualquier otra persona; creo que ya sabes que el mío es el café. Sí, niveles altos de cafeína pueden afectar el sueño, causar irritabilidad, presión arterial alta, ansiedad, problemas digestivos, palpitaciones y más… Por eso trato de no consumir demasiados. Pero es un canto de sirena…^   -Harvey",
+	"Mail_HarveyCoffeeCake_title": "Torta de Café de Harvey",
+
+	"Mail_JasStrawberryShortcake_body": "${Querido^Querida}$ @,^Cuando tenía cuatro años, mi mamá me horneó un pastel como este para mi cumpleaños. Eso fue hace muuucho tiempo. Encontré esta receta en el libro de la tía Marnie, pero soy demasiado joven para usar el horno sola. ¿Podrías hacerlo por mí, por favor? Con cariño,^   -Jas",
+	"Mail_JasStrawberryShortcake_title": "Torta de Cumpleaños de Jas",
+
+	"Mail_JodiHeartySautee_body": "${Querido^Querida}$ @,^¿Estás obteniendo suficientes vitaminas? ¡Jeje!^^Tengo una receta perfecta para ti. Morrones en rodajas, champiñones, rábanos, junto con una cebolla y algunas hierbas para sazonar, y tendrás un acompañamiento delicioso para cualquier cena. ¡Incluso mis hijos lo comen, y usualmente odian las verduras!^^Estoy segura de que no tendrás problemas para conseguir los ingredientes.^^Con cariño,^   -Jodi",
+	"Mail_JodiHeartySautee_title": "Generoso Salteado de Jodi",
+
+	"Mail_KentJohnnycakes_body": "Aquí… una receta antigua de mis días de entrenamiento como recluta. Simple, pero me recuerda tiempos mejores… jugando con el pelotón, jugando cartas en la cantina…^^A veces hay que aferrarse a los recuerdos. No dejes que el presente te haga olvidar tu pasado, @.^^    -Kent",
+	"Mail_KentJohnnycakes_title": "Johnnycakes de Kent",
+
+	"Mail_KrobusCritterFritter_body": "@,^He recibido ayuda para enviar esta carta y poder compartir contigo este delicioso snack. A mi gente le gusta freírlos para las grandes ocasiones, especialmente durante el Festival de lo Mundano. Es un snack muy sabroso.^^Asegúrate de elegir gusanos grandes.^^   -Krobus",
+	"Mail_KrobusCritterFritter_title": "Critter Fritter de Krobus",
+	
+		"Mail_KrobusAntsonaLog_body": "@,^He tenido curiosidad por la comida humana durante bastante tiempo. Tu especie suele hablar sobre el sabor y la textura de varios platillos, pero para mí, todo suena a un idioma extranjero. Adjunto una receta y me encantaría que la compartieras conmigo. Quisiera probar esta pequeña delicia.^    -Krobus",
+	"Mail_KrobusAntsonaLog_title": "Receta de Krobus",
+
+	"Mail_LeahRecipe_body": "${Querido^Querida}$ @,^Encuentro inspiración en todo tipo de lugares, incluida la cocina. Cocinar puede ser tan creativo como pintar o esculpir, y me encanta experimentar con nuevas recetas y sabores. Quiero compartir mi última creación contigo.^    -Leah",
+	"Mail_LeahRecipe_title": "Receta de Leah",
+
+	"Mail_LeahBroccoliandCheese_body": "${Querido^Querida}$ @,^Esta es una receta de mi madre. Tuve la suerte de crecer en una casa con jardín; al final del otoño recogía brócolis silvestres para hornearlos. Solo necesita un poco de queso rallado, sal y pimienta al gusto, ¡pero si le agregas pan rallado encima, queda aún más delicioso!^A algunos les gusta poner mucho queso, pero yo digo que el brócoli es el que lleva todo el sabor.^   -Leah",
+	"Mail_LeahBroccoliandCheese_title": "Brócoli con Queso de Leah",
+
+	"Mail_MarnieCastella_body": "${Querido^Querida}$ @,^¿Parece que ha pasado mucho tiempo desde que te mudaste al valle, no crees? Bueno, realmente te has convertido en parte de la familia. ¡Solo mira lo felices que están las vacas cuando estás cerca!^Tengo una receta para el bizcocho más esponjoso que puedas hacer con leche fresca. No lleva glaseado, así que la dulzura natural de la leche realmente se nota en este.^    -Marnie",
+	"Mail_MarnieCastella_title": "Castella de Marnie",
+
+	"Mail_MaruRecipe_body": "@,^¡Hola! Últimamente he estado leyendo sobre comida de todo el mundo. ¿Cómo crees que la gente de hace siglos pudo inventar algunas de estas recetas? Debieron pasar por mucho ensayo y error.^Aquí hay una receta que vi y que me recordó a ti.^    -Maru",
+	"Mail_MaruRecipe_title": "Receta de Maru",
+
+	"Mail_MaruCrabRangoons_body": "@,^¡He logrado un gran avance! Esta podría ser la mejor receta hasta ahora. Al parecer, es un platillo de fusión popular, y he encontrado los parámetros perfectos para replicarlo. ¡Cáscara crujiente y frita por fuera, con relleno cremoso de queso y cangrejo! ¡Tienes que probarlo!^   -Maru",
+	"Mail_MaruCrabRangoons_title": "Rangoons de Cangrejo de Maru",
+	
+	"Mail_PamStuffedMushrooms_body": "Hey ${chico^niña}$, eres ${un buen tipo^una buena chica}$. ¿Qué? ¿Una mujer como yo no puede enviar una linda carta de vez en cuando?^^Meh, pensé que te interesaría esta receta de hongos. Para mí es solo un pedazo de papel usado.^   -Pam",
+	"Mail_PamStuffedMushrooms_title": "Hongos Rellenos de Pam",
+
+	"Mail_PennyRecipe_body": "Espero que te hayas estado cuidando. El otro día estaba revisando mi caja de recetas y encontré una vieja receta familiara que estoy segfura te encantará. Por favor, disfrútala cuando tengas tiempo.^    -Penny",
+	"Mail_PennyRecipe_title": "Receta de Penny",
+
+	"Mail_PennyGingersnaps_body": "@,^Desde que era una niña, siempre me ha encantado hornear. La cocina de mi mamá puede ser un poco estrecha, pero siempre me las arreglaba con lo que teníamos a mano.^^Esta fue la primera receta que aprendí a cocinar. Fue muy especial porque acabábamos de conseguir jengibre fresco de un amigo de la familia. ¡Terminé cubierta de harina de pies a cabeza cuando terminé! Pero mi mamá estaba muy orgullosa de mí.^^Con cariño,^Penny",
+	"Mail_PennyGingersnaps_title": "Galletas de Jengibre de Penny",
+
+	"Mail_PierreMotleyMushrooms_body": "TOP SECRET:^Esta es nueva, con aceite de trufa directamente de mi reserva personal. ¡No la compartas! Te la doy porque somos muy buenos amigos.^    -Pierre",
+	"Mail_PierreMotleyMushrooms_title": "Hongos Variopintos de Pierre",
+
+	"Mail_RobinPotatoBread_body": "${Querido^Querida}$ @,^Quería enviarte esta vieja receta que ha estado en mi familia por generaciones. ¡Es una especialidad regional! No necesitas una elegante comida de varios platos para mantenerte alimentado mientras trabajas la madera todo el día: una sola porción de este contundente pan de papa te da toda la energía que necesitas. Y solo requiere un ingrediente: ¡papas!^   -Robin",
+	"Mail_RobinPotatoBread_title": "Pan de Papa de Robin",
+
+	"Mail_SamRecipe_body": "@,^¿Cómo has estado últimamente? Aquí tienes algo que preparo todo el tiempo como snack de la tarde. ¡Es mortal! Dime qué te parece. Y si alguna vez necesitas más ideas de recetas, me avisas.^   -Sam",
+	"Mail_SamRecipe_title": "Receta de Sam",
+
+	"Mail_SamDonut_body": "@,^Es una dona. ¿Qué más puedo decir?^Pero en serio, has sido un amigo increíble para mí. Solo quería devolverte un poco de esa energía. Nos vemos,^   -Sam",
+	"Mail_SamDonut_title": "Dona de Sam",
+
+	"Mail_SebastianRecipe_body": "Hey @,^Bueno, eres de las pocas personas en este pueblo que no me habla como si fuera un bicho raro. Toma, es una receta que encontré. No soy muy buen cocinero, así que… ¿Los granjeros cocinan, no?^   -Sebastian",
+	"Mail_SebastianRecipe_title": "Receta de Sebastian",
+
+	"Mail_SebastianFancySushiPlatter_body": "Hola @,^^A veces desearía que este valle tuviera un restaurante realmente elegante cerca. Alguien que conozco en línea me estuvo contando sobre los tipos de pescados locos que la gente come crudo, como el pez globo venenoso y los erizos de mar. ¿Una locura, verdad?^^Tengo que probar eso algún día. Si atrapas un buen pez globo, asegúrate de dejarme probar un poco... aunque quizá deberías ser tú quien lo pruebe primero, por si es venenoso.^^Es broma, jajaja.^   -Sebastian",
+	"Mail_SebastianFancySushiPlatter_title": "Bandeja de Sushi Elegante de Sebastian",
+
+	"Mail_ShanePineapplePizza_body": "@,^La pizza con piña: ¿Es un crimen contra la comida?^^Je... Sé que tienes sentido del humor. Por eso nos llevamos bien. La verdad, creo que la pizza con piña es genial, igual que cualquier otra pizza. No sé por qué la gente arma tanto alboroto.^^No me ofenderé si no te gusta esta receta.^   -Shane",
+	"Mail_ShanePineapplePizza_title": "Pizza de Shane",
+
+	"Mail_VincentAnimalCrackers_body": "${Querido Sr.^Querida Srta.}$ @,^¡Este es mi snack faborito de todos! Mi familia lo comía cuando ívamos al zoológico. ¡Me encanta el zoolójico! Espesialmente los leones.^¡Ok! Con cariño,^   -Vincent",
+	"Mail_VincentAnimalCrackers_title": "Galletitas de Animalitos de Vincent",
+
+	"Mail_WillyOysterSauceCrab_body": "${Querido^Querida}$ @,^¡Los cangrejos están picando esta temporada! Mi viejo siempre decía que no puedes enseñarle a un cangrejo a caminar derecho... ¿Qué significa eso? No tengo la menor idea. ¡Pero sí puedes convertirlos en un buen plato de mariscos fritos!^También necesitas preparar salsa de ostras para esto, así que aquí tienes una receta para hacerla.^¡Buena pesca de cangrejos!^   -Willy",
+	"Mail_WillyOysterSauceCrab_title": "Cangrejo con Salsa de Ostras de Willy",
+
+	"Mail_WizardRainbowCake_body": "${Querido^Querida}$ @,^Quería compartir contigo una receta que puede serte bastante útil en tus estudios mágicos. Los ingredientes pueden ser difíciles de conseguir, pero verás que los beneficios valen totalmente el esfuerzo.^   -M. Rasmodius, Mago",
+	"Mail_WizardRainbowCake_title": "Torta Arcoíris del Mago",
+	
+	"WizardNote": "Sigo buscando infructuosamente el plato conocido por los Smoluanu como la 'Maravilla Milenaria'... Quien me traiga prueba de esta misteriosa comida será recompensado generosamente con conocimiento arcano.^^M. Rasmodius.",
+	
+	"WizardQuest_title": "La Maravilla del Mago",
+	"WizardQuest_description": "El Mago está buscando una receta enana conocida solo como 'Maravilla Milenaria'. Quizás puedas caerle bien si la encuentras para él.",
+	"WizardQuest_objective": "Entrega una 'Maravilla Milenaria' al Mago.",
+	
+	"WizardQuest_dialogue1": "Ese tono... ese aroma... ese poder... ¿Podría ser...?",
+	"WizardQuest_dialogue2": "¡Lo es! ¡La escurridiza 'Maravilla Milenaria'! ¡Siento un inmenso potencial mágico emanando de este plato!",
+	"WizardQuest_dialogue3": "Te has ganado un lugar en mi libro. Aquí tienes la receta de un potente brebaje hecho con ingredientes oscuros... Que solo un verdadero mago puede manejar.",
+	"WizardQuest_dialogue4": "Ahora, déjame a mis asuntos... Debo examinar esta 'maravilla' por mi cuenta...",
+
+		"Elliott_dialogue.default.intro": "Ah, @, veo que te has dejado encantar por la receta que te envié. ¡Qué maravilloso! El aroma de esto me recuerda...",
+	"Elliott_dialogue.default.end": "Te agradezco por el grato recuerdo, @, siempre eres una inspiración. Hmm... Debo escribir el resto de esta idea antes de que se me escape...",
+	"Elliott_dialogue.CremeBrulee.1": "...¡El sabor del postre más divino que he probado! El pastelero que lo preparó para mí había heredado la receta, la cual ha sido transmitida a lo largo de generaciones.",
+	"Elliott_dialogue.CremeBrulee.2": "La tradición de esta familia se mantenía viva gracias a una única planta de vainilla dorada. Su ubicación era, por supuesto, un secreto celosamente guardado.",
+	"Elliott_dialogue.CremeBrulee.3": "¡Veo que tus propias vainas de vainilla son igualmente deliciosas!",
+	"Elliott_dialogue.ChefSalad.1": "...Mi breve estancia en una pequeña cabaña de montaña, con hierbas frescas secándose en las ventanas. El dueño de la casa invita a un viajero hambriento a probar un plato de verduras recién cosechadas del jardín...",
+	"Elliott_dialogue.ChefSalad.2": "...Ahora recuerdo el toque personal del plato, huevos hervidos cortados en forma de estrellas, salpicando el lienzo de la naturaleza...",
+	"Elliott_dialogue.FigToast.1": "...Un jardín rodeado por las ruinas de mármol de una sociedad ya desaparecida, narrado solo por las estatuas inmóviles de dioses olvidados.",
+	"Elliott_dialogue.FigToast.2": "Los exquisitos higos colgaban pesadamemte de un árbol en el centro de ese patio, se decía que pertenecían a un amante maldito de uno de esos dioses traviesos e impulsivos. ¡Una leyenda cautivadora, sin duda!",
+	"Elliott_dialogue.FishnChips.1": "¿Me engaña el olfato…? ¡Pescado con papas! ¡Y recién salido de la sartén! *crunch*",
+	"Elliott_dialogue.FishnChips.2": "Te confesaré la verdad, @. Este es un plato muy especial para mí. Verás, fue la primera comida verdaderamente hogareña que pude experimentar en mi vida.",
+	"Elliott_dialogue.FishnChips.3": "Ese día tomé la pluma y salí al mundo para siempre… Caminé por horas, sin saber a dónde me llevaban mis pies.",
+	"Elliott_dialogue.FishnChips.4": "Hasta que me encontré en un muelle de adoquines, en el extremo de un pueblo en el que nunca había estado. Nunca pensé que comería algo tan frito y terrenal como pescado con papas, pero ese día, fue lo mejor que había probado.",
+	"Elliott_dialogue.FishnChips.5": "Gracias por recordarme esa maravillosa experiencia, @. Me has dado mucho en qué reflexionar.",
+	
+	"QoSRadio_name": "Radio de Cocina",
+	"QoSRadio_description": "Una radio que transmite nuevas lecciones de cocina de la Reina de la Salsa cada semana. Actualmente se emite los martes y sábados.",
+	
+	"RecipeBook_SweetSensations_name": "Reina de la Salsa - Sensaciones Dulces",
+	"RecipeBook_SweetSensations_description": "Aprende todas las recetas de la Reina de la Salsa de la transmisión de radio 'Dulces Sensaciones'.",
+	
+	"RecipeBook_AroundTheWorld_name": "Reina de la Salsa - Alrededor del Mundo",
+	"RecipeBook_AroundTheWorld_description": "Aprende todas las recetas de la Reina de la Salsa de la transmisión de radio 'Alrededor del Mundo'.",
+	
+	"Mail_QoSRadio_body": "Querido Sr. John Smith,^^¡FELICITACIONES!!^^por ganar nuestro sorteo para los televidentes dedicados de GFBN. Adjunto encontrarás una de nuestras radios de edición limitada para encimera, que puedes usar para escuchar transmisiones exclusivas de la Reina de la Salsa desde la comodidad de tu hogar. Sintoniza cada semana los martes y sábados para descubrir una nueva receta.^   -La Greater Ferngill Broadcasting Network... traído a ti por televidentes como tú. ¡Gracias!",
+	"Mail_QoSRadio_title": "De Ferngill Broadcasting Network",
+	
+	"Radio_IntroAroundTheWorld": "¡Saludos! ¡Soy yo, la Reina de la Salsa - al aire! Acompáñame hoy mientras descubrimos una nueva receta deliciosa de todo el mundo. El platillo de esta semana...",
+
+	"Radio_IntroSweetSensations": "¡Saludos! ¡Soy yo, la Reina de la Salsa - al aire! Acompáñame hoy mientras descubrimos un nuevo postre delicioso para alegrar tu día. La creación de esta semana...",
+	"Radio_NothingToday": "No hay nada en la radio hoy.",
+	
+	"Radio_Eclair": "¡Éclair! El hojaldre es ligero y aireado, el relleno añade una cremosidad lujosa y el glaseado de chocolate brillante le da el toque perfecto de dulzura. Hoy prepararemos un éclair clásico, pero puedes experimentar a tu gusto con diferentes sabores y rellenos. Vamos a empezar con...",
+
+	"Radio_FruitTurnover": "¡Pastelitos de fruta! De inmediato me recibe el aroma irresistible de la primavera, con masa hojaldrada alrededor de un relleno de fruta dulce y ácido, y un toque de limón para realzarlo. Son perfectas para desayuno, brunch o postre, y seguro desaparecerán rápidamente una vez en la mesa. Corta tu fruta favorita y...",
+
+	"Radio_MudPie": "¡Tarta de Lodo! A pesar de su nombre, no hay lodo involucrado en esta receta, créeme. Es un postre rico, perfecto para los amantes del chocolate: brownie, chocolate y crema batida se unen para crear esta hermosa tarta cremosa. Comencemos preparando la mezcla de brownie...",
+
+	"Radio_LemonSquare": "¡Cuadrados de limón! Ah, el dulce deleite del verano... La primera vez que probé un cuadrado de limón, fue como si alguien exprimiera toda una tarde dorada en un solo bocado. Una tierna base de masa sablé, y un sabor a limón tan intenso... ¡Ooh! Lo suficientemente ácido como para levantarte las cejas, y lo suficientemente dulce como para que lo perdones. ¡Emprendamos la marcha con nuestra crema de limón...!",
+
+	"Radio_Ambrosia": "¡Ambrosía! Al tomar una cucharada de ambrosía, me sorprende de inmediato la explosión de sabores y texturas. La dulzura jugosa de la fruta, la riqueza cremosa de la crema batida y el crujido de los frutos secos se combinan en perfecta armonía. Puedes usar cualquier combinación de frutas que desees...",
+
+	"Radio_Pavlova": "¡Pavlova! Supuestamente recibe su nombre por el ligero y aéreo baile de una bailarina. El postre consiste en una crujiente capa de merengue con un centro suave, como malvavisco, cubierto con crema batida y fruta fresca. Es el postre perfecto para un cálido día de verano. Comencemos...",
+
+	"Radio_CalicoBar": "¡Barrita Calicó! Estas decadentes barritas se componen de tres capas: una base con coco y nueces que se desmigaja, un relleno cremoso con sabor a crema pastelera y una rica cobertura de chocolate. La base mantecosa proporciona un contraste perfecto con el relleno cremoso, mientras que la rica cobertura de chocolate añade un final satisfactorio. Comienca con tu relleno de crema pastelera...",
+
+	"Radio_Millefeuille": "¡Milhojas! A pesar de sus 'millones' de capas, no es complicado; es preciso. Es el tipo de postre que recompensa la paciencia, celebra la artesanía y dice: 'Te mereces algo hermoso hoy.' Capas de masa hojaldrada y crema, tan suave, tan rica. ¿Y la parte superior? Ese glaseado característico, con rayas de chocolate arrastradas en ese patrón icónico con la punta de un cuchillo...",
+
+	"Radio_CinnamonApplePie": "¡Tarta de Manzana con Canela! Una buena Tarta de Manzana con Canela se trata de equilibrio. El relleno debe tener la acidez justa para hacer que el dulzor cante. Quieres que las manzanas estén tiernas, pero no blandas. Y la canela... oh, la canela es la vieja amiga que hace que todo se sienta bien. A algunos les gusta un toque de nuez moscada o un susurro de clavo de olor; yo digo que confíes en tu nariz. Si huele a hogar, probablemente sea perfecta...",
+
+	"Radio_CrumbCake": "¡Pastel de Migas! El pastel de migas, también conocido como pastel de café, es un bizcocho húmedo y tierno cubierto con una generosa capa de migas mantecosas con aroma a canela. Esta querida comida reconfortante a menudo se disfruta junto a una taza de café o té. Precalienta tu horno a...",
+
+	"Radio_Sopapillas": "¡Sopapillas! Las sopapillas son pasteles fritos ligeros y esponjosos, hechos con masa estirada y cortada en cuadrados o triángulos. Luego se fríen hasta dorarse y elevarse, obteniendo un exterior crujiente y un interior suave y aireado. ¡Cómelas con miel! Primero, prepara tu harina...",
+
+	"Radio_PrincessCake": "¡Torta de Princesa! ¡Este es realmente una torta hecho para la realeza! Bizcocho suave, relleno con capas de mermelada dulce y rica  . ¿Y lo mejor? ¡El mazapán! Este fondant de almendra es como la cereza del pastel, añadiendo aún más sabor a un postre de respostería ya de por sí extraordinario. Comencemos haciendo nuestra propia mermelada…",
+
+	"Radio_Cannoli": "¡Cannoli! Con el cannolo —que es como nos referimos a uno solo— la cubierta lo es todo. Debe romperse, debe hacerse añicos. ¡Nada de blanduras! 'Un cannoli empapado es una promesa rota,' me dijo alguien una vez. Así que, comencemos con la promesa de unos cannoli maravillosamente crujientes...",
+
+	"Radio_KingCake": "¡Torta del Rey! Un símbolo azucarado de celebración y caos como ningún otro. Porque dentro de esta espiral dulce de brioche y glaseado… hay un bebé. Y si lo encuentras... ¿Adivina qué? Te toca hornear el siguiente u organizar la próxima fiesta. ¡O ambas cosas! Por suerte, el bebé no es real. ¿Pero habrá otro secreto dentro…? Descubrámoslo...",
+
+	"Radio_Jalebi": "¡Jalebi! El capricho de hoy es un remolino absoluto de alegría. El jalebi es puro drama en forma de postre: naranja brillante, chispeando en aceite caliente, luego sumergido en almíbar de azúcar hasta que cada curva queda lacada en brillo. Cruje en tus manos y se derrite en tu lengua, sin disculparse por la dulzura que posee. Primero, reunamos nuestros ingredientes...",
+
+	"Radio_UbeHalaya": "¡Ube Halaya! Puré de ube, o ñames morados, cocidos lentamente en leche de coco hasta convertirlos en un dulce cremoso y ligeramente pegajoso, con un dulce y suave sabor a nuez. ¡Este postre tiene un color tan hermoso que parece sacado de un cuento de hadas! Reúne a tus amigos y familiares y tomen turnos para machacar el ube juntos...",
+
+	"Radio_Churros": "¡Churros! ¡Crujientes! Esa fina y delicada armadura de masa crujiente que cede ante un interior suave. Rebozados en azúcar y canela mientras aún están calientes, justo lo suficiente para que tus dedos queden pegajosos y tu corazón se acelere. El tipo de dulzura que exige un momento de silencio...",
+
+	"Radio_Daifuku": "¡Daifuku! El mochi es tan suave y delicado que prácticamente se derrite en la boca, y el relleno dulce tiene la cantidad justa de dulzura para equilibrar la textura del mochi. Sin importar el sabor que elijas, la experiencia de comer daifuku siempre es un deleite. Realmente debes probarlo tú mismo para entenderlo...",
+
+	"Radio_Souffle": "¡Soufflé! Esta etérea creación es el matrimonio perfecto entre arte y ciencia, dependiendo de claras de huevo batidas para elevar la masa en el horno se elevede delciadamente como una nube. Los soufflés pueden ser dulces o salados, pero la versión dulce es pura elegancia, y se disfruta mejor en el instante en que emerge del horno. El soufflé dulce comienza con...",
+
+	"Radio_Mooncake": "¡Pastel Lunar! Ahhh… los pasteles lunares. No son casuales, son ceremoniales. Llegan con lamparas, risas, poesía y el silencio de las noches otoñales. Un pastel redondo, denso en historia y esperanza, intercambiado durante los festivales nocturnos, cuando la luna llena y los corazones coinciden. Para comenzar, hagamos el relleno suave pero dulce...",
+
+	"Radio_GotoroCream": "¡Crema Gotoro! La crema Gotoro no grita por tu atención... te hechiza. Se prepara con una rica crema pastelera suavizada con crema batida y cuajada lo justo para mantener su forma... ¿Y el sabor? Imagina a la vainilla en su momento más íntimo. A veces hay un susurro frutal, pero la crema siempre es el corazón. Para comenzar, vierte una generosa cantidad de...",
+
+	"Radio_PineappleCake": "¡Pastel de Piña! Hay quienes no disfrutan las frutas ácidas en los postres, y es una pena. La acidez de la piña resalta lo mejor de este pastel esponjoso, y la dulzura del bizcocho ayuda a equilibrar esa acidez que para muchos puede ser un obstáculo. ¡Uno de mis favoritos personales! Asegúrate de usar una piña bien madura...",
+
+	"Radio_MascarponeLuxury": "¡Lujo de Mascarpone! Hoy, queridos chefs, no vamos a hornear... vamos a suspirar. Mezclado en cremas aireadas, sobre higos asados, batido en salsas, untado en pan tibio o simplemente acompañado de fruta dulce en un pequeño y encantador vaso... La próxima vez que sientas la tentación de usar queso crema o manteca: detente. Considera el mascarpone. Comencemos dándonos un gusto de...",
+
+	"Radio_Sachertorte": "¡Sachertorte! Esta rica y húmeda torta de chocolate se complementa a la perfección con mermelada y un glaseado de chocolate. La combinación de sabores es sencillamente celestial. La Sachertorte es un postre perfecto para una ocasión especial o como un dulce capricho. ¡Pruébala junto a un café en la próxima cafetería a la que vayas! Comencemos...",
+
+	"Radio_GulabJamun": "¡Gulab Jamun! Esta delicia real es el niño mimado de todas las fiestas, banquetes de boda y celebraciones. Bolitas gorditas de masa de leche freídas gentilmente hasta que tienen el color de las hojas de otoño. Y luego... se bañan en un sirope aromático de cardamomo, agua de rosas y azafrán. ¿El resultado? Pequeños soles celestiales, empapados en jarabe hasta el centro. Mide tu leche en polvo...",
+
+	"Radio_Horchata": "¡Horchata! Una bebida dulce y cremosa hecha a base de arroz, almendras, canela y azúcar. A menudo se sirve fría, con hielo, y se disfruta como un refrescante placer en un día caluroso. ¡Algunas personas incluso añaden vainilla para dar más sabor! Comienza poniendo el arroz en la licuadora y...",
+
+	"Radio_Trifle": "¡Trifle! Mira de cerca. No, más de cerca. ¡Más de cerca! El secreto de este postre está en sus deliciosas capas. Bizcocho esponjoso, crema pastelera sedosa, mermelada fresca, nubes de crema batida, todo coronado con una joya de frutas decorativas. Cómo sirvas las capas es cpsa tuya; cada capa solo tiene que cumplir una función: ¿Es deliciosa al comerla? Si no, apenas es un trifle. Acomoda tus ingredientes y el bowl y...",
+
+	"Radio_StickyToffeePudding": "¡Pudín Pegajoso de Toffee! Lo que parece un simple pastel con helado encima no es tan simple. Una vez horneado, el pastel se empapa generosamente con una cálida y mantecosa salsa de toffee, transformándose en un placer rico, pegajoso y lleno de dulzura. Sírvelo con una cucharada de helado de vainilla. Ajusta tu horno a...",
+
+	"Radio_Baumkuchen": "¡Baumkuchen! Hoy, damos un giro —literalmente— a las muchas capas doradas de este pastel icónico. Cada capa se hornea con sumo cuidado, una a la vez, en “un espetón giratorio sobre fuego abierto, de modo que al cortarlo se asemeja al corte transversal de un árbol. Comienza este hipnótico postre precalentando tu horno...",
+
+	"Radio_RollCake": "¡Roll Cake! Este es un clásico de la infancia. Puede ser un tanto complicado, porque la masa debe hornearse a la perfección para que no se rompa al enrollarla en un cilindro perfecto. Pon atención a cada paso y obtendrás el roll cake más cremoso y esponjoso. Comenzamos con el relleno...",
+
+	"Radio_TresLechesCake": "¡Pastel de Tres Leches! Es como comer una nube que se detuvo en una granja lechera en su camino hasta aquí. Ligero, cremoso y un poco indulgente, el pastel de tres leches se hace con un bizcocho esponjoso que ha absorbido y empapado con tres tipos de leches: evaporada, condensada y crema fresca. ¡Ese es el 'tres'! Comienza alineando tus ingredientes lácteos...",
+
+	"Radio_Yatsuhashi": "¡Yatsuhashi! Este wagashi tradicional ha deleitado paladares durante siglos, especialmente como souvenir de los antiguos pueblos tradicionales. Es un mochi liviano y aireado, relleno de un dulce y suave relleno. Aunque el relleno tradicional es canela, la pasta de porotos coloradoso y el matcha también son sabores muy populares. Comencemos con un poco de arroz...",
+
+	"Radio_PepperSoup": "¡Sopa de Pimienta! Una personalidad picante y vibrante, este caldo de color claro está lleno de un maravilloso pescado fresco y una capa inferior única de nuez moscada que trae a la mesa una danza propia. La sopa de pescado picante es engañosamente simple, pero no dejes que su claridad te engañe. Cada sorbo calienta el alma, hormiguea la lengua y extiende un suave fuego hasta los dedos de los pies. Empieza limpiando una buena trucha tigre...",
+
+		"Radio_EggTarts": "¡Tartaletas de Huevo! Esta masa mantecosa es, sin dudas, una trotamundos. Ya sea que prefieras el pastel de nata con su superficie bronceada salido directamente de antiguos monasterios, la deliciosa versión dim sum de los salones de té en las viejas rutas comerciales o la variante rápida y fácil de la capital mundial de la comida callejera, las tartaletas de huevo tienen una versión que complacerá a todos. Toma unos huevos y...",
+	
+	"Radio_CabbageRoll": "¡Rollitos de Repollo! Un pequeño paquete de humilde pero reconfortante comida casera, envuelto en el propio regalo de la naturaleza. Cada abuela tiene su propia receta para el relleno, pero un clásico infaltable es la sabrosa salsa a base de tomate que baña estos tiernos envoltorios. Primero, pica unos tomates frescos...",
+	
+	"Radio_CacioePepe": "¡Cacio e Pepe! Este plato solo requiere unos pocos ingredientes, pero está cargado de sabor. El queso y la pimienta crean una salsa chispeante y cremosa que se adhiere perfectamente a cada fideo de espagueti. A pesar de ser tan simple, ciertamente merece el título de Rey de la Pasta. Comienza poniendo agua a hervir...",
+	
+	"Radio_ThreeSistersSalad": "¡Ensalada 'Las Tres Hermanas'! Las ‘tres hermanas’ en esta ensalada son el maíz, los porotos y la calabaza. En algunas regiones del mundo, estos cultivos han crecido juntos durante siglos porque se complementan en el campo. Así como los altas tallos del maíz se mantienen firmes para sostener a los porotos que trepan bajo ellas, también servirán de base para este plato lleno de sabor y variedad...",
+	
+	"Radio_Japchae": "¡Japchae! En el corazón de este plato están los fideos de 'cristal', son claros, brillantes y aportan dulzura y sabor en cada bocado. Las verduras frescas aportan un crujido brillante a este bowl de confort refinado. Pon tus fideos a remojar en...",
+	
+	"Radio_Samosas": "¡Samosas! Pequeñas croquetas de fragante felicidad envueltas en una masa dorada que ruega ser devorada. Papas, lentejas y arvejas se mezclan con el toque picante del cilantro y el comino. Sírvelas con una salsa de menta, o si te sientes aventurero, con un chutney de mango y tamarindo. Para empezar, toma harina y...",
+	
+	"Radio_Borsch": "¡Borsch! Solo decir su nombre se siente como un abrazo en un bowl. Lo probé por primera vez en una pequeña villa, en una mañana invernal tan nítida que la escarcha brillaba en las ventanas, mientras el aroma terroso de remolachas, repollo y hierbas cocinándose lentamente me envolvía como una bufanda de lana. Cada cucharada lleva la calidez suave de una cocción prolongada con un leve toque de acidez. Todo comienza con las remolachas más brillantes que puedas encontrar...",
+	
+	"Radio_GalloPinto": "¡Gallo Pinto! Una unión simple pero brillante de arroz y porotos negros, salteados con cebolla, pimiento y un toque de cilantro, todo acariciado por la clásica salsa tradicional. Terroso, ahumado y ligeramente ácido, cada bocado tiene una armonía sutil que hace que tu boca quiera seguir moviéndose. Hay un ritmo en él...",
+	
+	"Radio_OneManThousand": "¡One Man Thousand! ¿Solo el nombre despierta curiosidad, no? Lo escuché por primera vez en un puesto de mercado donde el vendedor se rió mientras me extendía un plato. ‘Ya verás’, dijo, ‘un hombre, mil sabores’. Y vaya si tenía razón. Mil pequeños peces fritos hasta quedar crujientes bajo un rebozado picante que hace que puedas comerlos a cucharadas. Y créeme: lo harás...",
+	
+	"Radio_PanikiStew": "¡Guiso de Paniki! Me topé con este guiso en las altas montañas tropicales, donde el humo de los fogones de barro se mezcla con el aroma de limoncillos y chiles. Aunque es una carne de sabor fuerte, la dieta de los murciélagos frugívoros le aporta una dulzura interesante a la cocción, lo cual es realzado por el caldo espeso de leche de coco y especias. No arrugues la nariz: dale una oportunidad preparando...",
+	
+	"Radio_Blini": "¡Blini! Delicados y esponjocitos mini panqueques elaborados con una masa ligeramente dulce y fermentada que se infla suavemente en la sartén. La harina de trigo sarraceno en esta receta aporta un matiz a nuez realmente encantador. Corónalos con crema agria o queso crema, y si quieres un momento realmente elegante, un toque de caviar fresco. Preparemos la masa y precalentemos la sartén...",
+	
+	"Radio_BlackenedFish": "¡Pescado Ennegrecido! Este pescado no es tímido. Este pescado sabe cómo *cantar*. Cubierto con una audaz mezcla de pimentón, cayena, ajo, tomillo, orégano y un poco de pimienta negra, luego sellado en una sartén de hierro fundido *increíblemente caliente*. ¿Escuchas eso? ¡Ese es el pescado cantando! Las especias se vuelven crujientes por fuera mientras el pescado se mantiene liviano y en escamas en una combinación que es simplemente... ¡mmwah!...",
+
+		"Radio_SeafoodPaella": "¡Paella de Mariscos! Esta es una petición especial de un oyente de toda la vida llamado Gus, que probó mi paella una vez y simplemente no pudo tener suficiente. Cuando la prepares también verás por qué. Arroz cargado de sabor gracias a un caldo rico de mariscos y azafrán que le da ese cálido resplandor dorado. Y luego, una capa crujiente caramelizada de tesoros escondida bajo la superficie dorada... ¡Esto es celebrar en una sartén!...",
+
+	"Radio_Bannock": "¡Bannock! Recuerdo haber probado esto por primera vez en un pequeño campamento en las llanuras, sentada junto al fuego mientras el sol se escondía detrás de las colinas, el aire lleno de humo, historias y risas. Este humilde pan porta la historia de innumerables comunidades, cada una con su propia forma de prepararlo. Empieza haciendo una masa de harina y agua...",
+
+	"Radio_VegetableKorma": "¡Korma de Verduras! Verduras tiernas como zanahorias, papas o coliflor se cocinan a fuego lento en un curry rico hecho a base de yogur. Hay tantas variantes de este curry que la receta termina siendo, al final, una expresión de ti mismo. Pica toscamente tus verduras favoritas...",
+
+	"Radio_Bibimbap": "¡Bibimbap! Bibimbap significa literalmente “arroz mezclado”, pero es mucho más que solo arroz. Hay un poco de todo: verduras salteadas crujientes, brotes tiernos, hongos terrosos, zucchini jugoso y un huevo frito perfecto encima, listo para mezclarse con los demás sabores. Y no te olvides del gochujang. Enjuaga el arroz y...",
+
+	"Radio_OdenHotpot": "¡Oden Hotpot! Para mí, el oden es un plato que trae recuerdos entrañables de mis viajes. Recuerdo caminar por las calles en una fría noche de invierno y el olor del caldo sabroso flotando en el aire me llevó hasta un puesto callejero que vendía oden. Pedí un bowl y quedé enganchada por la contundencia y la calidez del plato...",
+
+	"Radio_Fufu": "¡Fufu! Sin duda te tocará un buen trabajo al machacar la yuca hasta convertirla en una masa elástica y saciante. Siempre se come con las manos, a menudo mojada en sopas o guisos ricos, especiados y llenos de sabor. Al preparar fufu debes asegurarte de procesar bien la yuca para eliminar cualquier toxina, así que toma un bowl de agua...",
+
+	"Radio_MisoRamen": "¡Ramen de Miso! Ah... un buen bowl caliente de Ramen de Miso. El caldo es rico y confortable; el miso fermentado le da esa profundidad umami característica. Por supuesto lo remataremos con un huevo de yema cremosa y verduras de hoja, pero la verdadera estrella es el caldo, y nunca deberías opacarlo con una montaña de guarniciones. Empezamos hoy por nuestro caldo con...",
+
+	"Radio_NasiGoreng": "¡Nasi Goreng! Imagina un perfecto montículo de arroz frito brillante, salpicado de trocitos vibrantes de verduras, quizá algunos cortes de pollo tierno y un huevo frito arriba cuya yema pide a gritos romperse y mezclarse con el plato. Nasi goreng es el rey del sabor y del arroz frito. Aunque existen muchas variantes, ninguna se compara con un nasi goreng hecho en llama abierta con un wok grande. Toma arroz del día anterior para empezar y...",
+
+	"Radio_Laghman": "¡Laghman! Fideos gruesos estirados a mano sirven de base, con berenjena fresca que no cede ante el morrón con el que comparte el bowl. Ajo, chile y pasta de soja fermentada añaden profundidad y un umami que te calienta desde dentro. Comer laghman se siente como abrazar las montañas. Así que saca tu máquina de pasta...",
+
+	"Radio_Inarizushi": "¡Inarizushi! Un tipo de sushi hecho con arroz sazonado con sake, relleno dentro de un croqueta dulce y crujiente de tofu frito. Un alimento profundamente tradicional que se cree favorito de ciertas diosas regionales de la cosecha. Es un plato único y delicioso que va muy bien para preparar con antelación y llevar de picnic o almuerzo. Comienza con arroz...",
+
+	"Radio_Namul": "¡Namul! El namul no es tanto un plato en sí, sino una colección de sensaciones que se disfrutan mejor en pequeños bocados. Verduras blanqueadas o salteadas, como espinaca, brote de helecho o brotes de soja, mezcladas con aceite de sésamo, ajo, semillas de sésamo y un toque de salsa de soja. Un toque de chile, una pizca de pasta de soja; no hay dos preparaciones de namul iguales...",
+
+	"Radio_Lutefisk": "¡Lutefisk! Este antiquísimo plato de pescado conservado se sirve junto a papas y arvejas para formar una comida maravillosamente sustanciosa para el crudo invierno. Por supuesto, el lutefisk casero es el mejor, pero si no tienes tiempo de remojar un pescado en lejía durante dos semanas, el de tienda está bien. Solo asegúrate de advertir a tus compañeros de casa, vecinos y a los vecinos de tus vecinos...",
+
+	"Radio_Ceviche": "¡Ceviche! Un plato de mariscos hecho con pescado crudo marinado en jugos cítricos, hierbas y especias. La acidez de los cítricos en realidad cocina el pescado, dándole una textura ligeramente firme y un sabor ácido delicioso. No hay nada como la mezcla del pescado con lima, la cebolla crujiente y la palta (aguacate) cremosa. Vamos a picar...",
+
+	"Radio_LechedeLeon": "¡Leche de León! Quienes escucharon la semana pasada recordarán nuestra receta de ceviche... ¿Pero sabías que puedes usar los mismos ingredientes para hacer una bebida refrescante, picante y con sabor a pescado? No la descartes hasta probarla. El ingrediente más importante es un pez león grande y recién atrapado...",
+
+	"Radio_Mohinga": "¡Mohinga! Una sopa rica y aromática de pez gato, adornada con chalotas frescas y un chorrito de lima para realzarla. La base es un caldo de pescado ácido, a menudo espesado con arroz molido y especiado con cúrcuma, jengibre y un toque de chile. No puedo tener suficiente de este plato; sabe a un bowl de un hogar que nunca conocí. Empecemos preparando el caldo...",
+
+	"Radio_Zarusoba": "¡Zarusoba! Un plato frío de fideos perfecto para la primavera, que consiste en fideos soba, o de trigo sarraceno, con una salsa para mojar. La cebolla de verdeo y el jengibre aportan un toque fresco y ligeramente picante, mientras que el wasabi añade un picor único que permanece en la lengua. Empecemos...",
+
+	"Radio_LotusWrappedStickyRice": "¡Arroz Pegajoso Envuelto en Hoja de Loto! Este maravilloso paquete de arroz gomoso y hongos salados tiene un aroma adictivo gracias a las hojas de loto usadas para envolverlo. No puedes saltarte el envoltorio; realmente eleva este pequeño tesoro al siguiente nivel. Lo cocinaremos todo junto en una canasta de vapor, así que lo que necesitarás es...",
+
+	"Radio_GreenFigandSaltfish": "¡Higo Verde con Bacalao! Desde playas bañadas por el sol donde los tambores de acero suenan suavemente de fondo, este plato es una celebración de contrastes. El bacalao seco y salado equilibra perfectamente la dulzura del plátano verde. Condimentado a la perfección con ajo, es una explosión de sabor. Comienza preparando tu bacalao...",
+
+	"Radio_FishAmok": "¡Fish Amok! Este curry es un deleite para los sentidos. El aroma del limoncillo y la leche de coco invade el aire, invitándote a dar un bocado. La textura cremosa de la leche de coco y los trozos suaves de pescado hacen una comida reconfortante y satisfactoria. Primero prepararemos un bowl hecho con hoja de plátano...",
+	
+	//these strings combine to make a message like "You learned the following recipes: Fried Egg, Omelette, Baked Potato...(page one)
+	//(page two)...Pancakes, Waffles!"
+	"NewRecipe": "¡Has conseguido una nueva receta!",
+	"RecipeBook_BookHasRecipes": "Has aprendido las siguientes recetas:",
+	"separator": ", ",
+	"pageseparator": "...",
+	"pageend": "!",
+	
+	"RecipeBook_Breakfast_Page1": "'¡El desayuno, la comida más importante del día! Estos platos llenos de energía seguro que harán que tu mañana empiece con el pie derecho, sin importar en qué lugar del mundo estés.'",
+
+	"RecipeBook_Breakfast_Page2": "'¿Quieres un antojo dulce para arrancar, o quizá una comida más simple a base de granos y huevos? ¿Servirás una taza de cítricos recién exprimidos, o una de café del tueste más oscuro? ¡Aquí encontrarás notas tentadoras, tanto escritas como aromáticas!'",
+
+	"RecipeBook_Northern_Page1": "'Al final de cada temporada de cultivo llega un invierno de descanso. Y para la gente del gran norte, el invierno es realmente largo. Seco, ahumado, encurtido… aquí la comida adopta todo tipo de formas para resistir el frío helado.'",
+
+	"RecipeBook_Northern_Page2": "'Ah, pero cuando regresa la primavera, la cosecha es verdaderamente abundante y el grano dorado brota para ofrecer su riqueza… Ven, prepara uno de estos generosos guisos, ¡y estarás soñando con la aurora boreal!'",
+
+	"RecipeBook_Dessert_Page1": "'Perfectos picos puntiagudos de merengue, la dulce explosión de fresas maduras, suaves capas de azúcar glas o el profundo aroma de chocolates tostados, ahhhhh… Amigos míos, no hay nada como dejarse caer en el cálido abrazo de un postre.'",
+
+	"RecipeBook_Dessert_Page2": "'El verdadero significado de un postre no es que sea dulce, o ácido, o amargo… es que es la pieza final, ese pequeño capricho para coronar la maravillosa aventura que fue la comida. Cuando mires atrás a cualquiera de estas recetas, pensarás: “Qué delicia, ¡el bocado final perfecto!”'",
+
+	"RecipeBook_ComfortFood_Page1": "'Imagina una tarde de verano perezosa, limpiando el sudor y las manchas de césped después de un juego de atrapar la pelota con el vecindario. Tu abuela te llama a lo lejos: ¡la cena está lista! Y la mesa está llena de todos tus favoritos.'",
+
+	"RecipeBook_ComfortFood_Page2": "'Cuando hablamos de 'comida casera', hablamos de recuerdos: comida que te transporta en el tiempo y te hace sentir ${cálido^cállida}$ y seguro otra vez. Estos platos pueden llenar tu estómago fácilmente, pero lo que mejor llenan es tu alma.'",
+
+	"RecipeBook_SnackFood_Page1": "'Si eres un verdadero aficionado, lo sabrás: ¡no existe rey del viaje culinario como la comida callejera de un lugar! Aceite chisporroteando en woks ardientes, los gritos de los vendedores a lo largo del callejón…'",
+
+	"RecipeBook_SnackFood_Page2": "'…la multitud hombro con hombro bajo las luces del mercado nocturno… ¡la comida callejera es realmente única! Así que pide unas brochetas sabrosas, toma un vaso de jugo de caña recién exprimido e hinca el diente en estas recetas.'",
+
+	"RecipeBook_Woodland_Page1": "'¡Una de mis aventuras favoritas! Imagina un bosque cubierto de niebla, lleno de los ingredientes que ofrece la naturaleza… bayas, brotes de helecho, arroz silvestre y maíz, cuidados con esmero durante generaciones.'",
+
+	"RecipeBook_Woodland_Page2": "'Ya sea que alguien esté asando la pesca del día en el cálido fogón del pueblo, o acompañando una arepa ligera con un vaso de jugo de fresa burbujeante, siempre hay un deleite en los sabores naturales y abundantes que se recolectan directamente de la tierra…'",
+
+	"RecipeBook_Highland_Page1": "'¡Uno podría pasar horas hablando de las ciudades y regiones de las tierras altas y bajas! Cada villq y poblado tiene su propio sabor único. Trufas y pasta en calles bañadas por el sol en antiguas tierras vinícolas, espresso en cafés rurales…'",
+
+	"RecipeBook_Highland_Page2": "'…el aroma salado de las costas de arena blanca, o la alta cocina en la Ciudad de las Luces —todo asombra. Aférrate a tus papilas gustativas, porque ni un solo plato de esta colección te dejará decepcionado…'",
+
+	"RecipeBook_Archipelago_Page1": "'No puedes considerarte un trotamundos hasta que recorras las islas tropicales del Mar de Gemas, saboreando todo lo que tienen para ofrecer. Atraquemos en los atolones bajos, donde la gente sala y seca pescado sobre cestas de mimbre bajo las olas.'",
+
+	"RecipeBook_Archipelago_Page2": "'Luego acompáñame a las selvas tropicales entre volcanes dormidos, donde el picante y los cítricos hormiguean en la punta de tu lengua. Cada isla tiene su propia cocina, pero todas están unidas por un elemento clave: el mar —así que prepárate para nadar o hundirte.'",
+
+	"RecipeBook_Savanna_Page1": "'El sonido de mazos golpeando masa se desvanece poco a poco, reemplazado por las charlas de los habitantes hambrientos. A la luz del fuego, los cocineros sacan bandejas repletas de montones de fufú, cuencos de sopas espesas y cangrejos secos al sol…'",
+
+	"RecipeBook_Savanna_Page2": "'…Las comidas saben mejor cuando has ayudado a prepararlas, y en estas tierras cálidas, ayudar no es una tarea, sino un lazo con amigos y familia. Comparte este sentimiento, cálido como el atardecer en tu interior.'",
+
+	"RecipeBook_InlandSea_Page1": "'El Mar Creciente… ¡una región sinónimo del nacimiento mismo de la agricultura! Desde este pequeño punto surgió un fuego de sabor que se extendió por todo el mundo. Cada pueblo y aldea lleva una historia y un giro particular en los sabores de aquí.'",
+
+	"RecipeBook_InlandSea_Page2": "'No hay dos sopas, curris, ensaladas o panes iguales. Rompe un pan plano horneado al carbón para acompañar cualquiera de estas comidas llenas de carácter, y nunca olvides que aquí nació la idea de la *cocina*.'",
+
+	"RecipeBook_Delta_Page1": "'Miles de botes reman por esta red de ríos cada día, transportando una increíble variedad de frutas recogidas a mano, hierbas aromáticas y postres de toda la región. ¡Una comida llena de sabor nunca está más lejos que el saludo de una mano!'",
+
+	"RecipeBook_Delta_Page2": "'Los platos de esta región suelen incluir fideos y salteados —y por supuesto, no olvides el chile. El arroz crece especialmente bien en las planicies inundables, así que ve preparando tu olla…'",
+
+	"RecipeBook_Mountain_Page1": "'Cuando viajé por primera vez a las tierras susurrantes, mis expectativas quedaron hechas trizas. Una península llena de pueblos pesqueros y una cadena de islas elevadas desde el mar, con montañas nevadas conectadas por senderos serpenteantes.'",
+
+	"RecipeBook_Mountain_Page2": "'Y la comida… ¡la comida! Algunos prefieren un picante tan intenso que quema, otros un encurtido ácido fermentado durante meses con tanta fuerza que sientes que te pliegas hacia adentro. Y en todas partes, el pescado más fresco que puedas pedir, ¡capturado esa misma mañana!'",
+	
+	"Mail_GusEventOne_body": "@,^Estoy organizando una clase de cocina regular en el salón, para intentar que los habitantes del pueblo se interesen más por una variedad de cocinas. Si estás libre esta noche, ¡date una vuelta!^     -Gus",
+	"Mail_GusEventOne_title": "Invitación de Gus a una Clase de Cocina: Pesto y Ajo",
+
+	"Mail_GusEventTwo_body": "@,^¡La clase de cocina de la semana pasada fue un éxito! Habrá otra esta noche en el salón, si tienes tiempo. ¡Espero verte allí!^     -Tu amigo, Gus",
+	"Mail_GusEventTwo_title": "Invitación de Gus a una Clase de Cocina: Curry",
+
+	"Mail_GusEventThree_body": "@,^Me alegra tenerte en las clases de cocina, como siempre. Si tienes tiempo esta noche, habrá otra. ¡No puedo esperar para mostrarte algunas de estas especias!^     -Tu amigo, Gus",
+	"Mail_GusEventThree_title": "Invitación de Gus a una Clase de Cocina: Comino y Cilantro",
+
+	"Mail_GusEventFour_body": "@,^Como siempre, esta noche habrá otra clase de cocina en el salón.^He estado enviándole cartas a todos, ¡pero no estoy seguro de que las estén recibiendo! ¡Ja!^     -Tu amigo, Gus",
+	"Mail_GusEventFour_title": "Invitación de Gus a una Clase de Cocina: Tahini",
+
+	"Mail_GusEventFive_body": "Me alegra, como siempre, poder tenerte en las clases de cocina, @. Habrá otra esta noche, si tienes tiempo. Aunque, a decir verdad, podría ser la última.^     -Tu amigo, Gus",
+	"Mail_GusEventFive_title": "Invitación de Gus a una Clase de Cocina: Especias al Gusto",
+	
+	//events
+
+	//evento - Garlic Pesto
+	"Events_GarlicPesto_dialogue.Gus.1a": "¡Bienvenidos, todos!",
+	"Events_GarlicPesto_dialogue.Gus.1b": "Estoy entusiasmado por empezar a profundizar en la complejidad y el perfil de la cocina de cada uno.",
+	"Events_GarlicPesto_dialogue.Gus.1c": "Hoy vamos a hablar de uno de mis sabores favoritos: el ajo.",
+	"Events_GarlicPesto_dialogue.Gus.1d": "El ajo suele considerarse un aromático esencial para comenzar muchísimos tipos de platos.",
+	"Events_GarlicPesto_dialogue.Gus.1e": "También quería presentarles un acompañamiento herbal llamado pesto.",
+	"Events_GarlicPesto_dialogue.Gus.1f": "¿Alguien tiene alguna pregunta hasta ahora?",
+	"Events_GarlicPesto_dialogue.Caroline.2a": "¿Qué hierbas lleva el pesto…? Huele un poco como las hierbas de mi jardín.",
+	"Events_GarlicPesto_dialogue.Caroline.2b": "¿Es albahaca?",
+	"Events_GarlicPesto_dialogue.Gus.3a": "¡Correcto!",
+	"Events_GarlicPesto_dialogue.Gus.3b": "Los ingredientes principales del pesto son, en realidad, piñones y albahaca.",
+	"Events_GarlicPesto_dialogue.Gus.3c": "El ajo, el aceite y el queso también lo convierten en un condimento o aderezo único.",
+	"Events_GarlicPesto_dialogue.Gus.3d": "Es excelente sobre pan y pastas.",
+	"Events_GarlicPesto_dialogue.Harvey.4a": "¡Los piñones son excepcionalmente saludables!",
+	"Events_GarlicPesto_dialogue.Harvey.4b": "Pero, si consumes demasiados, pueden producir un regusto metálico. Puede durar varias semanas.",
+	"Events_GarlicPesto_dialogue.Demetrius.5a": "¿¡Qué?!",
+	"Events_GarlicPesto_dialogue.Demetrius.5b": "¡Eso suena terrible!",
+	"Events_GarlicPesto_dialogue.Harvey.6a": "Es… sumamente poco común…",
+	"Events_GarlicPesto_dialogue.Gus.7a": "*¡Ejem!*",
+	"Events_GarlicPesto_dialogue.Harvey.8a": "¡Perdón, Gus! ¡Continúa, por favor!",
+	"Events_GarlicPesto_dialogue.Gus.9a": "¡Empecemos a preparar un poco de pesto!",
+	"Events_GarlicPesto_dialogue.Gus.9b": "Primero, vamos a comenzar con unos piñones frescos… ¡Esto va a quedar delicioso más tarde sobre unos linguini con espinaca!",
+
+	//evento - Curry
+	"Events_Curry_dialogue.Penny.1a": "¿Cómo va tu proyecto, Maru?",
+	"Events_Curry_dialogue.Maru.2a": "¡Bien!",
+	"Events_Curry_dialogue.Lewis.3a": "¡Huele tan bien aquí!",
+	"Events_Curry_dialogue.Gus.4a": "¡Bienvenidos, todos!",
+	"Events_Curry_dialogue.Gus.4b": "Veo algunas caras conocidas...",
+	"Events_Curry_dialogue.Gus.4c": "Hoy voy a hablar de un plato con tantas variaciones que casi es imposible contarlas.",
+	"Events_Curry_dialogue.Gus.4d": "¡Hablemos de curry!",
+	"Events_Curry_dialogue.Gus.4e": "¿Alguien tiene un curry favorito?",
+	"Events_Curry_dialogue.Penny.5a": "Hmmm...",
+	"Events_Curry_dialogue.Maru.6a": "¡Curry verde!",
+	"Events_Curry_dialogue.Maru.6b": "Tiene muchísimas verduras y una frescura que disfruto mucho.",
+	"Events_Curry_dialogue.Lewis.7a": "¡Mientras más picante, mejor!",
+	"Events_Curry_dialogue.Willy.8a": "¡Cualquiera que tenga mariscos! Curry de pulpo, curry de sopa, fish amok...",
+	"Events_Curry_dialogue.Gus.9a": "¡Todos tienen un gusto maravilloso!",
+	"Events_Curry_dialogue.Gus.9b": "Willy, creo que te va a encantar la receta de curry de cabeza de pescado que voy a entregar hoy.",
+	"Events_Curry_dialogue.Gus.9c": "¡Usa un pargo colorado entero!",
+	"Events_Curry_dialogue.Gus.9d": "¿No es fantástico el curry?",
+	"Events_Curry_dialogue.Gus.9e": "En todo el mundo, cientos de lugares tienen su propia versión del plato. ¡Probablemente existan miles de recetas, y no hay dos iguales!",
+	"Events_Curry_dialogue.Gus.9f": "Ahora, empecemos por cómo hacer una mezcla de especias para curry.",
+	"Events_Curry_dialogue.Gus.9g": "Si bien algunas mezclas varían, esta es la mía.",
+	"Events_Curry_dialogue.Gus.9h": "Vamos a necesitar semillas de cilantro y comino, cúrcuma, fenogreco y unos chiles picantes...",
+	"Events_Curry_dialogue.Gus.9i": "Luego quiero que todos tomen su mortero, se remanguen y se preparen para pulverizar.",
+
+	//evento - Cilantro y Comino
+	"Events_CilantroCumin_dialogue.Jas.1a": "¿Todo esto es para comer?",
+	"Events_CilantroCumin_dialogue.Marnie.2a": "No, ¡vamos a cocinar con eso!",
+	"Events_CilantroCumin_dialogue.Shane.3a": "¿Ooh, esas son enchiladas?",
+	"Events_CilantroCumin_dialogue.Gus.4a": "¡Hola a todos!",
+	"Events_CilantroCumin_dialogue.Gus.4b": "¡Veo otro grupo de caras nuevas hoy!",
+	"Events_CilantroCumin_dialogue.Gus.4c": "Y, por supuesto, algunas de nuestras personas habituales.",
+	"Events_CilantroCumin_dialogue.Gus.4d": "Creo que hoy hablaremos de especias y hierbas que realmente elevan tu cocina: el comino y el cilantro.",
+	"Events_CilantroCumin_dialogue.Gus.4e": "El comino y el cilantro son especias que provienen de las semillas de sus respectivas plantas.",
+	"Events_CilantroCumin_dialogue.Jas.5a": "Algunas de estas no son semillas. Estas hojas dicen, ehm… C-I-L-A-N-T-R-O...",
+	"Events_CilantroCumin_dialogue.Jas.5b": "¿Cilantro?",
+	"Events_CilantroCumin_dialogue.Gus.6a": "¡Buen ojo, Jas! ¡Pronunciaste esa palabra muy bien!",
+	"Events_CilantroCumin_dialogue.Gus.6b": "En algunos lugares se refieren a las hojas del coriandro como cilantro pero todo proviene de la misma planta.",
+	"Events_CilantroCumin_dialogue.Marnie.7a": "¿En qué los usas? Tengo ambos en mi estante de especias, pero no creo que los haya abierto jamás...",
+	"Events_CilantroCumin_dialogue.Gus.8a": "Como el comino aporta una sensación cálida a la cocina, es excelente en cosas a las que quieres darles mucha profundidad.",
+	"Events_CilantroCumin_dialogue.Gus.8b": "Hay cosas que simplemente no saben bien sin comino, como la receta de enchiladas que incluí hoy.",
+	"Events_CilantroCumin_dialogue.Shane.9a": "¿Hace que las cosas sean más picantes?",
+	"Events_CilantroCumin_dialogue.Gus.10a": "No por sí solo, pero sí aporta mucho sabor robusto.",
+	"Events_CilantroCumin_dialogue.Gus.10b": "El cilantro o coriandro también se usa en cosas como la salsa. ¡También le aporta ese sabor alimonado y ese aroma fresco!",
+	"Events_CilantroCumin_dialogue.Shane.11a": "Mmm… ¡Chips y salsa muy, muy picante!",
+	"Events_CilantroCumin_dialogue.Gus.12a": "¡Hablemos sobre cuánto usar y cómo aprovecharlos mejor!",
+	"Events_CilantroCumin_dialogue.Gus.12b": "Primero, cortemos algunos morrones.",
+	"Events_CilantroCumin_dialogue.Gus.12c": "Eh, Shane, tal vez no deberías comerte toda la salsa justo ahora...",
+	
+	//evento - Tahini
+	"Events_Tahini_dialogue.Evelyn.1a": "¡Huele delicioso aquí, cariño!",
+	"Events_Tahini_dialogue.Leah.2a": "¡Me está dando hambre!",
+	"Events_Tahini_dialogue.Gus.3a": "¡Hola a todos!",
+	"Events_Tahini_dialogue.Gus.3b": "Veo que Penny y @ están de vuelta...",
+	"Events_Tahini_dialogue.Gus.3c": "¡Eso significa que es la primera vez para todos los demás, bienvenidos!",
+	"Events_Tahini_dialogue.Gus.3d": "Hoy vamos a explorar el maravilloso mundo del tahini.",
+	"Events_Tahini_dialogue.Gus.3e": "Se puede usar de muchísimas formas. Estoy seguro de que algunos de ustedes ya tienen favoritos sin siquiera saberlo.",
+	"Events_Tahini_dialogue.Gus.3f": "Se usa en hummus, baba ganoush, halva y turrón... ¡Tanbién como dip por sí solo para falafel y shawarma!",
+	"Events_Tahini_dialogue.Elliott.4a": "Mmm... solo esa lista me transporta a relatos del Desierto Calico perdido en el pasado, o a un bullicioso bazar lejano.",
+	"Events_Tahini_dialogue.Gus.5a": "El tahini es maravilloso, resaltando la dulzura natural de las semillas de sésamo de las que se hace.",
+	"Events_Tahini_dialogue.Leah.6a": "¡Me encanta el hummus!",
+	"Events_Tahini_dialogue.Leah.6b": "¿Pero qué es el baba ganoush? Nunca había oído hablar de eso.",
+	"Events_Tahini_dialogue.Gus.7a": "¡Es similar!",
+	"Events_Tahini_dialogue.Gus.7b": "Se hace con berenjenas asadas y tiene un sabor riquísimo y sabroso, con un toque dulce del tahini.",
+	"Events_Tahini_dialogue.Leah.8a": "¡Ooh! ¡Las berenjenas son deliciosas!",
+	"Events_Tahini_dialogue.Evelyn.9a": "Gus, querido, mencionaste el turrón. ¿Se usa mucho en postres?",
+	"Events_Tahini_dialogue.Gus.10a": "¡Claro, absolutamente!",
+	"Events_Tahini_dialogue.Gus.10b": "Se puede usar para darle sabor a galletas, tortas, helados... ¡Las posibilidades son infinitas!",
+	"Events_Tahini_dialogue.Gus.10c": "¿Qué tal si hoy hacemos algo dulce y algo salado?",
+	"Events_Tahini_dialogue.Gus.10d": "Comencemos con algunas semillas de sésamo y un mortero...",
+	
+	//evento - Spice To Taste
+	"Events_SpiceToTaste_dialogue.Penny.1a": "Hola, @.",
+	"Events_SpiceToTaste_dialogue.Penny.1b": "Normalmente llego antes de la clase para hacerle algunas preguntas a Gus. No quiero interrumpir mientras está enseñando.",
+	"Events_SpiceToTaste_dialogue.Penny.1c": "Supongo que hoy los dos llegamos un poco temprano.",
+	"Events_SpiceToTaste_dialogue.Penny.1d": "Hmm... ¿Dónde estará Gus?",
+	"Events_SpiceToTaste_dialogue.Noise.2a": "*¡Crash!*",
+	"Events_SpiceToTaste_dialogue.Penny.3a": "¡¿Qué fue eso?!",
+	"Events_SpiceToTaste_dialogue.AnswerChoice.4a": "Vino del otro cuarto.",
+	"Events_SpiceToTaste_dialogue.AnswerChoice.4b": "¿Quizás fue Gus?",
+	"Events_SpiceToTaste_dialogue.AnswerChoice.4c": "Deberíamos ir a revisar.",
+	"Events_SpiceToTaste_dialogue.Penny.5a": "¡Oh no, Gus!",
+	"Events_SpiceToTaste_dialogue.Penny.5b": "¿Estás bien?",
+	"Events_SpiceToTaste_dialogue.Gus.6a": "Estoy bien, estoy bien...",
+	"Events_SpiceToTaste_dialogue.Gus.6b": "Solo se me cayeron algunos de estos morrones... guh... guh...",
+	"Events_SpiceToTaste_dialogue.Gus.6c": "*¡ACHOO!*",
+	"Events_SpiceToTaste_dialogue.Gus.6d": "...Molinos de pimienta...",
+	"Events_SpiceToTaste_dialogue.Penny.7a": "¿Estás seguro de que eso es todo lo que pasó? Te ves un poco decaído.",
+	"Events_SpiceToTaste_dialogue.Gus.8a": "Bueno... me preocupa un poco que la gente no esté disfrutando realmente las clases.",
+	"Events_SpiceToTaste_dialogue.Gus.8b": "¡Tú y @ son las únicas personas que han venido más de una vez!",
+	"Events_SpiceToTaste_dialogue.Gus.8c": "Tal vez algunas cosas sean demasiado detalladas o no lo suficiente. Puede ser difícil sin recibir retroalimentación constante...",
+	"Events_SpiceToTaste_dialogue.Penny.9a": "Oh, Gus... lo siento mucho...",
+	"Events_SpiceToTaste_dialogue.Penny.9b": "Como profesora, sé que a veces puede sentirse ingrato.",
+	"Events_SpiceToTaste_dialogue.Penny.9c": "Pero creo que la gente ha estado beneficiándose de tu esfuerzo.",
+	"Events_SpiceToTaste_dialogue.Penny.9d": "Estoy segura de que si preguntas a la gente cuando llegue, escucharás muchas cosas buenas.",
+	"Events_SpiceToTaste_dialogue.Penny.9e": "¿Qué opinas, @?",
+	"Events_SpiceToTaste_dialogue.AnswerChoice.10a": "Creo que las clases han sido divertidas.",
+	"Events_SpiceToTaste_dialogue.AnswerChoice.10b": "¡Realmente has agregado mucho sabor!",
+	"Events_SpiceToTaste_dialogue.AnswerChoice.10c": "Todos tenemos algunos tropiezos...",
+	"Events_SpiceToTaste_dialogue.Gus.11a": "Probablemente tienen razón los dos...",
+	"Events_SpiceToTaste_dialogue.Gus.11b": "...¡Gracias!",
+	"Events_SpiceToTaste_dialogue.Gus.11c": "Probablemente deberíamos prepararnos para los que vengan hoy.",
+	"Events_SpiceToTaste_dialogue.Gus.11d": "Parece que la gente ya está aquí.",
+	"Events_SpiceToTaste_dialogue.Gus.11e": "¡Dios mío!",
+	"Events_SpiceToTaste_dialogue.Gus.11f": "¡Hoy vino muchísima gente!",
+	"Events_SpiceToTaste_dialogue.Leah.12a": "¡Gus!",
+	"Events_SpiceToTaste_dialogue.Harvey.12a": "¡Estás aquí!",
+	"Events_SpiceToTaste_dialogue.Marnie.13a": "Mi familia amó tus enchiladas, Gus.",
+	"Events_SpiceToTaste_dialogue.Marnie.13b": "¿Tienes otras buenas sugerencias?",
+	"Events_SpiceToTaste_dialogue.Maru.14a": "¡Gus! Necesito preguntarte sobre algunos detalles de una de las recetas que me diste. No salió del todo bien y no sé qué pasó.",
+	"Events_SpiceToTaste_dialogue.Lewis.15a": "Perdón por todo el ruido. ¡Tuvimos que mover algunas sillas!",
+	"Events_SpiceToTaste_dialogue.Caroline.16a": "¡Ahí estás! Cultivé un poco de albahaca y quiero que tengas. La receta que diste fue maravillosa.",
+	"Events_SpiceToTaste_dialogue.Gus.17a": "¡No todos de una vez!",
+	"Events_SpiceToTaste_dialogue.Gus.17b": "Gracias a los dos...",
+	"Events_SpiceToTaste_dialogue.Gus.17c": "¿Bueno, qué tal si después de la clase de hoy tomo algunas preguntas?",
+	"Events_SpiceToTaste_dialogue.Evelyn.18a": "¿Cariño, quieres algunas galletas de sésamo antes de empezar? Las hice después de la última vez...",
+	"Events_SpiceToTaste_dialogue.Gus.19a": "¡Por supuesto!",
+	"Events_SpiceToTaste_dialogue.Gus.19b": "Gracias a todos por venir. Muchas gracias a todos...!",
+	"Events_SpiceToTaste_dialogue.Text.20a": "¡Fue genial ver a todos en la clase de Gus! Parece que los habitantes del pueblo tienen un nuevo amor por la cocina.",	
+	
+	//evento - QoS Final
+	"Events_QoSFinal_dialogue.1a": "¡Ahí estás! ¡Mi intrépido ayudante!",
+	"Events_QoSFinal_dialogue.1b": "Gracias a tu esfuerzo, pude armar mi manuscrito y enviarlo a mis editores en Ciudad Zuzu.",
+	"Events_QoSFinal_dialogue.1c": "¿Llevan ocho años persiguiéndome por esto, no?",
+	"Events_QoSFinal_dialogue.1d": "Lo sé, lo sé, soy la que más ingresos genera para la red. Por supuesto que están ansiosos por publicar mi primer libro de cocina.",
+	"Events_QoSFinal_dialogue.1e": "¡Pero subir el fuego no hace que el pastel se hornee más rápido!",
+	"Events_QoSFinal_dialogue.2a": "Hmm... Bueno, quiero darte algo como agradecimiento por ayudarme. ¡Realmente me salvaste la vida!",
+	"Events_QoSFinal_dialogue.2b": "Algunas de esas recetas las aprendí en pueblos tan remotos que solo se puede llegar en globo aerostático...",
+	"Events_QoSFinal_dialogue.2c": "Y ya no estoy en buenos términos con mi operador de globos.",
+	"Events_QoSFinal_dialogue.2d": "¿Así que, qué tal un descuento de por vida en todo lo que vendo? ¡Siento que tienes verdadero talento para las artes culinarias y quiero avivar esa chispa hasta convertirla en llama!",
+	"Events_QoSFinal_dialogue.3a": "Ah, y antes de que se me olvide...",
+	"Events_QoSFinal_string.1": "Te entrega una servilleta con algo garabateado.",
+	"Events_QoSFinal_string.2": "'La Reina de la Salsa'",
+	"Events_QoSFinal_dialogue.4a": "Mi autógrafo. ¡No se lo doy a cualquiera, sabes!",
+	"Events_QoSFinal_dialogue.5a": "...¿Qué? ¡Por supuesto que no me veo igual que en la TV!",
+	"Events_QoSFinal_dialogue.5b": "Ese bata rosa y el sombrero gigante, todo es puro show televisivo. Dicen que aumenta el rating o algo así. ¡Cobertura innecesaria y cursi, digo yo!",
+	"Events_QoSFinal_dialogue.5c": "Yo, solo estoy aquí para cocinar comida deliciosa. Claro, la fama es divertida cuando eres joven, pero después pierde su encanto.",
+	"Events_QoSFinal_dialogue.5d": "Dicen que la variedad es la chispa de la vida, y cuando estás atrapado haciendo lo mismo de siempre, el sabor se vuelve rancio.",
+	"Events_QoSFinal_dialogue.5e": "Hoy en día, solo quiero recorrer el camino como cuando empezaba a ensuciarme las manos...",
+	"Events_QoSFinal_dialogue.5f": "...Antes de que todos me llamaran para ir a este o aquel restaurante por publicidad.",
+	"Events_QoSFinal_dialogue.5g": "He disfrutado bastante tener algo de eso de vuelta en mi vida, viajando por el valle. Probablemente siga visitandolo un tiempo más...",
+	"Events_QoSFinal_dialogue.5h": "...¡Antes de partir a mi próxima aventura, de todos modos!",
+	
+	//these are messages intended primarily for visually-impaired players
+	"Radio_Reminder": "Hoy hay un nuevo episodio de cocina en la radio.",
+	"RecipeBook_Breakfast_ImageDescription": "Este libro de recetas muestra deliciosos platos de desayuno, como panqueques y waffles recién hechos apilados con bayas ácidas y sirope dulce, huevos revueltos con queso y champiñones, avena caliente con canela, y una bandeja con rodajas de manzanas y naranjas.",
+	"RecipeBook_ComfortFood_ImageDescription": "Este libro de recetas muestra un acogedor picnic con todos tus favoritos. Sándwiches cortados en triángulos, ensalada de huevo y papa, cazuelas tibias de macarrones y latas de gaseosa pegajosas por el calor del sol.",
+	"RecipeBook_Dessert_ImageDescription": "Este libro de recetas muestra un enorme pastel de cereza recién salido del horno, con el mostrador a su alrededor cubierto con las herramientas del trabajo: una bolsa de harina, batidores, cáscaras de huevo rotas, crema y azúcar.",
+	"RecipeBook_SnackFood_ImageDescription": "Este libro de recetas comienza con una animada escena de un mercado nocturno. Puestos vibrantes se extienden por el callejón, con muchos carritos que venden snacks a la parrilla y todo tipo de artesanías. ¡El aroma mantecoso del maíz asado, papas fritas en espiral con queso y pizza grasosa llena el aire!",
+	"RecipeBook_Northern_ImageDescription": "Este libro de recetas muestra un mantel rústico con un enorme bowl con masa madre, lleno de un humeante guiso de salmón y adornado con eneldo. Además, un plato con quesos fuertes e incluso líquenes completa la comida.",
+	"RecipeBook_Savanna_ImageDescription": "Este libro de recetas tiene en la portada un gran cuenco de barro lleno de un guiso espeso hecho con hojas amargas, pescado salado y sabroso, nueces de palma aceitosas y chiles picantes. Junto a él hay un plato de masa simple de yuca para equilibrar la intensidad del plato.",
+	"RecipeBook_Archipelago_ImageDescription": "Este libro de recetas muestra la pesca diaria del océano. Los pescados y cangrejos más frescos que puedas ver, con cocos partidos que dejan ver su pulpa. Frutas tropicales aromáticas como mangos y piñas están apiladas sobre hojas de banano.",
+	"RecipeBook_Woodland_ImageDescription": "Este libro de recetas muestra una abundante cosecha del bosque. Un gran filet de salmón horneado está dispuesto sobre una tabla de cedro, cubierto con una mermelada de arándanos y baya especiada. Alrededor del plato hay brotes de helecho de primavera mezclados con almejas y bellotas asadas.",
+	"RecipeBook_Highland_ImageDescription": "Este libro de recetas muestra una preparación de espaguetis increíblemente elegante, como la que se vería en los restaurantes más caros de Ferngill. Un remolino de fideos oscurecidos con tinta de calamar descansa en el centro de un plato pulido, adornado solo con un tallo de espárrago y una pincelada de salsa.",
+	"RecipeBook_Mountain_ImageDescription": "Este libro de recetas muestra una comida simple pero elegante: anguila marinada sobre un cuenco de arroz humeante, coronado con un ligero aderezo de repollo encurtido. La mesa está puesta con una tetera finamente pintada y una taza fresca de té verde humeante.",
+	"RecipeBook_InlandSea_ImageDescription": "Este libro de recetas muestra una variedad de platos especiados servidos sobre un mantel intrincadamente tejido. En el centro hay una amplia canasta de panes planos que lleva el aroma del humo de los hornos de barro. Alrededor hay platos como curry de berenjena, ensalada de tomate con aceitunas y salsa de yogur con menta.",
+	"RecipeBook_Delta_ImageDescription": "Este libro de recetas muestra una sartén gigante siendo lanzada sobre una enorme llama. Una mezcla de ingredientes salta fuera de la sartén: camarones, champiñones, fideos, morrones, puerros y más. ¡Todo se está salteando en wok hasta quedar perfectamente delicioso!",
+	
+	//journal quest text
+	"LostPageReturn_name": "Devolución de Página Perdida",
+	"ChefQuest_name": "La Misión de la Dama Misteriosa",
+	"ChefQuest_description": "Una dama misteriosa te pidió ayuda para encontrar las páginas perdidas de su cuaderno. Reúne las páginas perdidas por todo el valle y entrégaselas.",
+	"ChefQuest_objective": "Libros de recetas recibidos:",
+	"ChefQuest_objective.no": "de 12",
+
+	//this is a debugging message section shown to everyone after installing
+	"InstallationCheck.a": "¡Revisión de instalación útil!",
+	"InstallationCheck.b": "Tu nivel actual de instalación es:",
+	"InstallationCheck.c": "Cornucopia Cooking Recipes agregará esta cantidad de recetas a tu juego:",
+	"InstallationCheck.d": "Si quieres ajustar la configuración del mod, por favor lee la página del mod.",
+	"InstallationCheck.e": "Si ya no necesitas este recordatorio, puedes desactivarlo en la configuración del mod. ¡Gracias!",
+	
+	"InstallationTier.HomeCook_Vanilla": "Cocina Casero Vanilla",
+	"InstallationTier.HomeCook_Essential": "Cocina Casero Esencial",
+	"InstallationTier.HomeCook_Extended": "Cocina Casero Extendido",
+	"InstallationTier.WorldTraveler_Vanilla": "Trotamundos Vanilla",
+	"InstallationTier.WorldTraveler_Essential": "Trotamundos Esencial",
+	"InstallationTier.WorldTraveler_Extended": "Trotamundos Extendido",
+	
+	//config options
+	"config.World Traveler.name": "Trotamundos",
+	"config.World Traveler.description": "(Altamente recomendado) ¡Desbloquea hasta 400 recetas adicionales bajo la configuración 'Trotamundos'! Un nuevo NPC comerciante que busca ayuda con una misión, episodios de cocina semanales por la radio, escenas divertidas con los aldeanos ¡y más! [Si desactivas Trotamundos, obtendrás la versión ligera del mod.]",
+	"config.Enable Flexible Recipes.name": "Habilitar Recetas Flexibles",
+	"config.Enable Flexible Recipes.description": "(Se recomienda usar con Love of Cooking.) Permite usar una mayor variedad de ingredientes, como cualquier tipo de mantequilla en recetas que la requieran, o cualquier queso en recetas que lo requieran, y más. Desactiva esto si tienes problemas con las recetas de cocina.",
+	"config.Enable Hyperflexible Recipes.name": "Habilitar Recetas Hiperflexibles",
+	"config.Enable Hyperflexible Recipes.description": "(ALTAMENTE RECOMENDADO usar con Love of Cooking.) Cocina con ingredientes similares de otros mods. Por ejemplo, pepinos de SVE, aceitunas de VMV, o jarabes de WAG pueden usarse en recetas de Cornucopia. *Cuidado de no usar accidentalmente ingredientes que no quieras perder - el balance no está garantizado.",
+	"config.Ingredient Indicator.name": "Indicador de Ingredientes",
+	"config.Ingredient Indicator.description": "Etiqueta los ingredientes hiperflexibles en el menú de cocina con esta opción, permitiéndote saber qué ingredientes pueden ser sustituidos. Solo funciona si 'Habilitar Recetas Hiperflexibles' está activado.",
+	
+	"blank": "{0}",
+	"star": "{0} =",
+	"any": "cualquier {0}",
+	"vanilla": "{0} (Cualquiera)",
+	"asterisk": "{0} *",
+	
+    "config.Ingredient Indicator.values.A": "Ingrediente",
+    "config.Ingredient Indicator.values.B": "Ingrediente =",
+    "config.Ingredient Indicator.values.C": "cualquier Ingrediente",
+    "config.Ingredient Indicator.values.D": "Ingrediente (Cualquiera)",
+    "config.Ingredient Indicator.values.E": "Ingrediente *",
+	"config.Enable Flavored Recipes.name": "Habilitar Recetas con Sabor",
+	"config.Enable Flavored Recipes.description": "(Requiere Extra Machine Configs, se recomienda Love of Cooking) Con 'Recetas Flexibles' o 'Recetas Hiperflexibles' activadas, algunas recetas tendrán sabor y color especial basado en el ingrediente usado. Por ejemplo, usar una Fresa para un Batido de Frutas resultará en un Batido de Fresa.",
+	"config.Enable Vanilla Recipe Changes.name": "Habilitar Cambios en Recetas Vanilla",
+	"config.Enable Vanilla Recipe Changes.description": "Ajusta algunas recetas vanilla ligeramente para que se adapten al diseño de Cornucopia, por ejemplo, Pastel de Chocolate usando Chocolate.",
+	"config.Patch Duplicate Names.name": "Corregir Nombres Duplicados",
+	"config.Patch Duplicate Names.description": "Cambia el nombre de Papas al Horno, Queso a la Plancha y/o Croissant si LoC, SVE o VMV están instalados, para evitar nombres de receta idénticos. Puede o no cambiar otros nombres duplicados en el futuro.",
+	
+	"config.Foods Contain Dairy.name": "Alimentos Contienen Lácteos",
+	"config.Foods Contain Dairy.description": "Opción muy irrelevante. Cambia los datos internos de los ítems con lácteos para indicar si contienen lácteos o no (para uso con Allergies de BarleyZP o gustos de regalos de NPCs).",
+	"config.Radio Accessibility.name": "Accesibilidad en Radio",
+	"config.Radio Accessibility.description": "Agrega un recordatorio accesible para lectores de pantalla por la mañana cuando hay un nuevo episodio de cocina en la radio, además del recordatorio visual por defecto.",
+	"config.Recipe Book Accessibility.name": "Accesibilidad del Libro de Recetas",
+	"config.Recipe Book Accessibility.description": "Para jugadores que usan soporte de lectores de pantalla, esta opción reemplaza el menú personalizado de recetas por un cuadro de mensaje más intuitivo con solo descripciones de texto en lugar de imágenes.",
+	"config.Enable Installation Help Message.name": "Habilitar Mensaje de Ayuda de Instalación",
+	"config.Enable Installation Help Message.description": "Muestra un pequeño mensaje en SMAPI indicando tu nivel de instalación del mod. Si ya no lo necesitas, puedes desactivarlo aquí.",
+
+	"RecipeinaBottle_Found": "¡Encontraste una 'Receta en una Botella'! Usa este ítem para descubrir una nueva receta de cocina."
+
+}
