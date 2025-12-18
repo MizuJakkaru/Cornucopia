@@ -49,7 +49,7 @@
 		"Recipe Book Accessibility": {
 			"AllowValues": "true, false",
 			"Default": "false",
-			"Description": "For players that use screenreader support, this option replaces the custom recipe book menu with a more intuitive message box that has only text descriptions instead of images."
+			"Description": "(FOR MOBILE SMAPI PLAYERS OR PLAYERS USING STARDEW ACCESS.) For players that use screenreader support, this option replaces the custom recipe book menu with a more intuitive message box that has only text descriptions instead of images."
 		},
 		"Enable Installation Help Message": {
 			"AllowValues": "true, false",

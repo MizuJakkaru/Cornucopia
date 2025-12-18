@@ -8099,8 +8099,21 @@
 					"ProductAmount": 1,
 					"Ingredients": [
 						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 3,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
 							"Type": "Item",
-							"Value": "(O)613",
+							"Value": "(O)246",
 							"Amount": 1
 						},
 						{
@@ -8112,6 +8125,19 @@
 							"OverrideTextureRect": {
 								"X": 80,
 								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
 								"Width": 16,
 								"Height": 16
 							}
@@ -8153,8 +8179,26 @@
 					"Ingredients": [
 						{
 							"Type": "Item",
-							"Value": "(O)613",
+							"Value": "(O)Cornucopia_Ube",
 							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
 						},
 						{
 							"Type": "ContextTag",
@@ -8250,7 +8294,12 @@
 					"Ingredients": [
 						{
 							"Type": "Item",
-							"Value": "(O)613",
+							"Value": "(O)423",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_CinnamonSticks",
 							"Amount": 1
 						},
 						{
@@ -8265,7 +8314,12 @@
 								"Width": 16,
 								"Height": 16
 							}
-						}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Raisins",
+							"Amount": 1
+						},
 					]
 				}
 			}
