@@ -541,7 +541,7 @@
 	"Kanuchi_description": "Öğütülmüş yemişlerle yapılan bir çorba.",
 	"Johnnycakes_name": "Johnnycakes",
 	"Johnnycakes_description": "Pankeke benzer ama mısır bazlı.",
-	"Jjigae_name": "Jjigae",
+	"Jjigae_name": "Sundubu Jjigae",
 	"Jjigae_description": "Kimchi ile yapılan bir güveç.",
 	"JeweledRice_name": "Mücevherli Pilav",
 	"JeweledRice_description": "Parlak ve ışıltılı!",
@@ -1757,8 +1757,8 @@
 	"LostPageReturn_name": "Kayıp Sayfa Teslimi",
 	"ChefQuest_name": "Gizemli Hanımefendinin Görevi",
 	"ChefQuest_description": "Gizemli bir hanımefendi senden defterinin kayıp sayfalarını bulmanda yardım istedi. Vadi boyunca kayıp sayfaları topla ve teslim et.",
-	"ChefQuest_objective": "Alınan tarif kitapları:",
-	"ChefQuest_objective.no": " \\ 12",
+	"ChefQuest_objective": "Toplam 12 tarif kitabından sahip olunan:",
+	"ChefQuest_objective.no": "",
 
 
 	"InstallationCheck.a": "Yardımcı kurulum kontrolü!",

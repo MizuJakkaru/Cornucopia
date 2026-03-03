@@ -7261,7 +7261,8 @@
 						},
 						{
 							"Type": "ContextTag",
-							"Value": "category_vegetable",
+							"Value": "category_vegetable, !bean_sprout_item, !beansprout_item",
+							"ContextTagsRequireAll": true,
 							"Amount": 1,
 							"OverrideText": "{{i18n:Ingredient_VegetableAny}}",
 							"OverrideTexturePath": "Maps/springobjects",
@@ -15124,7 +15125,8 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "edible_mushroom",
+							"Value": "edible_mushroom, !shiitake_item",
+							"ContextTagsRequireAll": true,
 							"Amount": 1,
 							"OverrideText": "{{i18n:Ingredient_EdibleMushroomAny}}",
 							"OverrideTexturePath": "Maps/springobjects",
@@ -19375,7 +19377,8 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "zucchini_item, courgette_item",
+							"Value": "zucchini_item, courgette_item, !summer_squash_item, !yellow_squash_item",
+							"ContextTagsRequireAll": true,
 							"Amount": 1,
 							"OverrideText": "[LocalizedText Cornucopia.CookingRecipes/i18n:Indicator [EscapedText [LocalizedText Cornucopia.MoreCrops/i18n:Zucchini_name]]]",
 							"OverrideTexturePath": "Cornucopia.MoreCrops/Objects",

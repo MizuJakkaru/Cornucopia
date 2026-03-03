@@ -21,11 +21,6 @@
 			"Default": "true",
 			"Description": "Replaces a few vanilla recipe ingredients to use versions from Cornucopia (such as using Coconut Milk instead of Coconut)."
 		},
-		"Enable Flexible Recipes": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "(Requires Spacecore) Allows using alternative cheese, including goat cheese and plant-based cheese, in vanilla recipes that use cheese. Also allows using plant-based milks in vanilla recipes that use milk."
-		},
 		"SVE Compat Patch": {
 			"AllowValues": "true, false",
 			"Default": "true",
@@ -129,12 +124,6 @@
 		},
 	],
 	"Changes": [
-		//Fixes existing objects with missing Types post 1.6.9 update
-		{
-			"Action": "Include",
-			"When": {"HasMod|contains=Spiderbuttons.BETAS":true},
-			"FromFile": "data/hotfix.json"
-		},
 		//set mail flags
 		{
             "Action": "EditData",

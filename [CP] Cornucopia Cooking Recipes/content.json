@@ -1671,7 +1671,7 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/cookingrecipes.json, data/objects.json, data/recipebottles.json, data/forage.json, data/shops_recipes.json, data/machines.json, data/mail_recipes.json, data/gifttastes.json, data/compat.json, data/vanillarecipes.json, data/events.json"
+			"FromFile": "data/cookingrecipes.json, data/objects.json, data/recipebottles.json, data/forage.json, data/shops_recipes.json, data/shops_dishes.json, data/machines.json, data/mail_recipes.json, data/gifttastes.json, data/compat.json, data/vanillarecipes.json, data/events.json"
 		},
 		{
 			"Action": "Include",

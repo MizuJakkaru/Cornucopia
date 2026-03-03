@@ -5938,7 +5938,8 @@
 						"modid_cornucopia.cookingrecipes",
 						"cornucopia_food",
 						"color_brown",
-						"allergen_gluten"
+						"allergen_gluten",
+						"flatbread_item"
 					]
 				},
 				"Cornucopia_Polenta": {
