@@ -499,6 +499,43 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_MangoChutney": {
+					"Id": "Cornucopia_MangoChutney (Recipe)",
+					"ItemId": "Cornucopia_MangoChutney",
+					"IsRecipe": true,
+					"Condition": "PLAYER_HAS_MAIL Any Island_Resort Received",
+					"Price": 2000
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
+			"When": {
+				"WorldTraveler_Extended": true
+			},
+			"Entries": {
+				"Cornucopia_TropicalToss": {
+					"Id": "Cornucopia_TropicalToss (Recipe)",
+					"ItemId": "Cornucopia_TropicalToss",
+					"Condition": "PLAYER_HAS_MAIL Any Island_Resort Received",
+					"IsRecipe": true,
+					"Price": 2800
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
 				"IslandTrade",
 				"Items"
 			],

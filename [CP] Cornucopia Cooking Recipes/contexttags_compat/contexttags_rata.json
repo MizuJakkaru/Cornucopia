@@ -120,39 +120,6 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
-				"Wildflour.SASS_Cocoa_Agaric",
-				"ContextTags"
-			],
-			"Entries": {
-				"cocoa_item": "cocoa_item",
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
-				"Wildflour.SASS_Rustgill",
-				"ContextTags"
-			],
-			"Entries": {
-				"bread_item": "bread_item",
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
-				"Wildflour.SASS_Mottled_Fieldcap",
-				"ContextTags"
-			],
-			"Entries": {
-				"coffee_item": "coffee_item",
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
 				"Wildflour.SASS_Jade_MoonDrop",
 				"ContextTags"
 			],

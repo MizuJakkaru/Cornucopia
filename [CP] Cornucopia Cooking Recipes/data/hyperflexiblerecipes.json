@@ -11016,8 +11016,8 @@
 						{
 							"Type": "ContextTag",
 							"Value": "olive_item, pickled_olive_item, tapenade_item",
-							"Amount": 1,
-							"OverrideText": "[LocalizedText Cornucopia.CookingRecipes/i18n:Indicator [EscapedText [LocalizedText Cornucopia.ArtisanMachines/i18n:BrinedOlives_name]]]",
+							"Amount": 2,
+							"OverrideText": "[LocalizedText Cornucopia.CookingRecipes/i18n:Indicator [EscapedText [LocalizedText Cornucopia.MoreCrops/i18n:Olive_name]]]",
 							"OverrideTexturePath": "Cornucopia.ArtisanMachines/Objects",
 							"OverrideTextureRect": {
 								"X": 240,
@@ -19377,7 +19377,7 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "zucchini_item, courgette_item, !summer_squash_item, !yellow_squash_item",
+							"Value": "zucchini_item, !summer_squash_item, !yellow_squash_item",
 							"ContextTagsRequireAll": true,
 							"Amount": 1,
 							"OverrideText": "[LocalizedText Cornucopia.CookingRecipes/i18n:Indicator [EscapedText [LocalizedText Cornucopia.MoreCrops/i18n:Zucchini_name]]]",
@@ -19392,6 +19392,7 @@
 						{
 							"Type": "ContextTag",
 							"Value": "summer_squash_item, yellow_squash_item",
+							"ContextTagsRequireAll": true,
 							"Amount": 1,
 							"OverrideText": "[LocalizedText Cornucopia.CookingRecipes/i18n:Indicator [EscapedText [LocalizedText Strings/Objects:SummerSquash_Name]]]",
 							"OverrideTexturePath": "Tilesheets/Objects_2",

@@ -6,7 +6,8 @@
 			"When": {
 				"Enable Extended Trees Pack": true,
 				"Map Edits": true,
-				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod |contains=ricehit.SevenDeadlySinsCP": false
 			},
 			"MapTiles": [
 				{
@@ -50,7 +51,8 @@
 			"When": {
 				"Enable Extended Trees Pack": true,
 				"Map Edits": true,
-				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod |contains=ricehit.SevenDeadlySinsCP": false
 			},
 			"MapTiles": [
 				{

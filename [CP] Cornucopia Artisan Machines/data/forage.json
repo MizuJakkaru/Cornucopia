@@ -142,9 +142,9 @@
 					"MarkActionApplied": false,
 					"Condition": "WORLD_STATE_ID beachBridgeFixed",
 					"Actions": [
-						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
-						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
-						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16"
+						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
+						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16",
+						"If RANDOM 0.05 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SeaSaltRock Beach 62,10,31,16"
 					]
 				}
 			}

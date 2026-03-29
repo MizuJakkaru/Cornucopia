@@ -26,6 +26,11 @@
 			"Default": "true",
 			"Description": "Removes SVE butter churn and butter and replaces it with Cornucopia butter. DO NOT USE WITH SVE BUNDLE OPTIONS (Use CCCB instead)."
 		},
+		"Require Items For Perfection": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Recommended) Artisan goods added by this mod appear on the shipping menu and are generally required for achieving perfection."
+		}
 	},
 	"DynamicTokens": [
 		{
@@ -65,6 +70,17 @@
 			"When": {"HasMod|contains=Cornucopia.MoreFlowers": true}
 		},
 		{
+			"Name": "DefaultExcludeFromShipping",
+			"Value": "false",
+		},
+		{
+			"Name": "DefaultExcludeFromShipping",
+			"Value": "true",
+			"When": {
+				"Require Items For Perfection": false
+			},
+		},
+		{
 			"Name": "Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping",
 			"Value": "true",
 		},
@@ -74,6 +90,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"Require Items For Perfection": true
 			},
 		},
 		{
@@ -86,6 +103,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"Require Items For Perfection": true
 			},
 		},
 		{
@@ -98,6 +116,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"Require Items For Perfection": true
 			},
 		},
 		{
@@ -119,7 +138,8 @@
 			"Name": "Cornucopia.MoreCrops_DriedHerbExcludeFromShipping",
 			"Value": "false",
 			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"Require Items For Perfection": true
 			},
 		},
 	],

@@ -15,6 +15,7 @@
 					"Price": 250,
 					"Edibility": 15,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_yellow",
 						"applesauce_item",
@@ -31,6 +32,7 @@
 					"Description": "{{i18n:Beeswax_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
 						"modid_cornucopia.artisanmachines",
@@ -49,6 +51,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
 						"butter_item",
@@ -69,6 +72,7 @@
 					"Price": 250,
 					"Edibility": -300,
 					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_sand",
 						"modid_cornucopia.artisanmachines",
@@ -86,6 +90,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 400,
 					"Edibility": 5,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
 						"modid_cornucopia.artisanmachines",
@@ -107,6 +112,7 @@
 					"Price": 120,
 					"Edibility": 5,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_red",
 						"oil_item",
@@ -129,6 +135,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_orange",
 						"dye_medium",
@@ -152,6 +159,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 250,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"butter_item",
@@ -171,6 +179,7 @@
 					"Price": 250,
 					"Edibility": 20,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"milk_item",
@@ -191,6 +200,7 @@
 					"Price": 200,
 					"Edibility": 5,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"oil_item",
@@ -210,6 +220,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 250,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
 						"modid_cornucopia.artisanmachines",
@@ -229,6 +240,7 @@
 					"Price": 100,
 					"Edibility": -300,
 					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_green",
 						"modid_cornucopia.artisanmachines",
@@ -267,6 +279,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
 					"Edibility": 15,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
 						"modid_cornucopia.artisanmachines",
@@ -288,6 +301,7 @@
 					"Price": 120,
 					"Edibility": -300,
 					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_green",
 						"modid_cornucopia.artisanmachines",
@@ -307,6 +321,7 @@
 					"Price": 100,
 					"Edibility": -300,
 					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
 						"modid_cornucopia.artisanmachines",
@@ -326,6 +341,7 @@
 					"Price": 140,
 					"Edibility": 5,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
 						"oil_item",
@@ -346,6 +362,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
 						"dye_medium",
@@ -369,6 +386,7 @@
 					"Edibility": 15,
 					"ColorOverlayFromNextIndex": true,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_pink",
 						"yogurt_item",
@@ -390,6 +408,7 @@
 					"Price": 310,
 					"Edibility": 20,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_yellow",
 						"mayo_item",
@@ -409,6 +428,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 300,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
 						"dye_medium",
@@ -430,6 +450,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"modid_cornucopia.artisanmachines",
@@ -448,6 +469,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"noodle_item",
@@ -467,6 +489,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 250,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
 						"modid_cornucopia.artisanmachines",
@@ -485,6 +508,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 325,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_sand",
 						"modid_cornucopia.artisanmachines",
@@ -503,6 +527,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
 						"butter_item",
@@ -522,6 +547,7 @@
 					"Price": 230,
 					"Edibility": -300,
 					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
 						"nut_butter_item",
@@ -542,6 +568,7 @@
 					"Price": 150,
 					"Edibility": 50,
 					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"nut_cheese_item",
@@ -565,6 +592,7 @@
 					"Edibility": 20,
 					"ColorOverlayFromNextIndex": true,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_pink",
 						"milk_item",
@@ -587,6 +615,7 @@
 					"Price": 300,
 					"Edibility": -300,
 					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"pickle_item",
@@ -609,6 +638,7 @@
 					"Price": 100,
 					"Edibility": -300,
 					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"pickle_item",
@@ -630,6 +660,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 80,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_sand",
 						"nut_item",
@@ -649,6 +680,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 3500,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_prismatic",
 						"modid_cornucopia.artisanmachines",
@@ -668,6 +700,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 250,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"noodle_item",
@@ -686,6 +719,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": 15,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
 						"modid_cornucopia.artisanmachines",
@@ -703,6 +737,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 75,
 					"Edibility": 20,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
 						"modid_cornucopia.artisanmachines",
@@ -720,6 +755,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 75,
 					"Edibility": 20,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_orange",
 						"modid_cornucopia.artisanmachines",
@@ -737,6 +773,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 400,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_red",
 						"dye_medium",
@@ -757,6 +794,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 140,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"spice_item",
@@ -778,6 +816,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_red",
 						"dye_strong",
@@ -800,6 +839,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 400,
 					"Edibility": 36,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_red",
 						"modid_cornucopia.artisanmachines",
@@ -820,6 +860,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": 18,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_brown",
 						"modid_cornucopia.artisanmachines",
@@ -841,6 +882,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": 36,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_brown",
 						"modid_cornucopia.artisanmachines",
@@ -863,6 +905,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": 20,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_orange",
 						"modid_cornucopia.artisanmachines",
@@ -883,6 +926,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 240,
 					"Edibility": 36,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_red",
 						"modid_cornucopia.artisanmachines",
@@ -902,6 +946,7 @@
 					"Price": 270,
 					"Edibility": 20,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_orange",
 						"mayo_item",
@@ -923,6 +968,7 @@
 					"Price": 1200,
 					"Edibility": 20,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_orange",
 						"mayo_item",
@@ -943,6 +989,7 @@
 					"Price": 250,
 					"Edibility": -300,
 					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_sand",
 						"modid_cornucopia.artisanmachines",
@@ -960,6 +1007,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
 						"noodle_item",
@@ -981,6 +1029,7 @@
 					"Price": 200,
 					"Edibility": 15,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"yogurt_item",
@@ -999,6 +1048,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 50,
 					"Edibility": 5,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_green",
 						"modid_cornucopia.artisanmachines",
@@ -1017,6 +1067,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_orange",
 						"modid_cornucopia.artisanmachines",
@@ -1034,6 +1085,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 60,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_pink",
 						"forage_item",
@@ -1054,6 +1106,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 450,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_yellow",
 						"pickle_item",
@@ -1073,6 +1126,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 400,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_purple",
 						"modid_cornucopia.artisanmachines",
@@ -1101,6 +1155,7 @@
 					"Price": 590,
 					"Edibility": 20,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_green",
 						"modid_cornucopia.artisanmachines",
@@ -1119,6 +1174,7 @@
 					"Price": 400,
 					"Edibility": 5,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_green",
 						"modid_cornucopia.artisanmachines",
@@ -1139,6 +1195,7 @@
 					"Price": 270,
 					"Edibility": 20,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"modid_cornucopia.artisanmachines",
@@ -1156,6 +1213,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 100,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_green",
 						"modid_cornucopia.artisanmachines",
@@ -1175,6 +1233,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 250,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_sand",
 						"modid_cornucopia.artisanmachines",
@@ -1193,6 +1252,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 300,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_yellow",
 						"modid_cornucopia.artisanmachines",
@@ -1213,6 +1273,7 @@
 					"Price": 950,
 					"Edibility": 20,
 					"IsDrink": true,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow_green",
 						"mayo_item",
@@ -1230,6 +1291,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 140,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_red",
 						"spice_item",
@@ -1251,6 +1313,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
 						"nut_butter_item",
@@ -1269,6 +1332,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 140,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_black",
 						"spice_item",
@@ -1292,6 +1356,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 100,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_green",
 						"pickle_item",
@@ -1311,6 +1376,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 400,
 					"Edibility": 5,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
 						"pickle_item",
@@ -1329,6 +1395,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 300,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_brown",
 						"dye_strong",
@@ -1348,6 +1415,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 275,
 					"Edibility": -300,
+					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_green",
 						"noodle_item",
@@ -1475,7 +1543,7 @@
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 50,
 					"Edibility": 50,
-					"ColorOverlayFromNextIndex": true,
+					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
 						"egg_item",
@@ -1588,7 +1656,7 @@
 					"DisplayName": "{{i18n:AloeGel_name}}",
 					"Description": "{{i18n:AloeGel_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
-					"Price": 150,
+					"Price": 200,
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_HerbsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_green",

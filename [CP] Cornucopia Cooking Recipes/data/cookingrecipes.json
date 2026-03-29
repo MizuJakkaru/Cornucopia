@@ -265,7 +265,7 @@
 				"Cornucopia_GreenBeanCasserole": "188 3 Cornucopia_Onion 1 DriedMushrooms 1/25 5/Cornucopia_GreenBeanCasserole/none/",
 				"Cornucopia_Hardtack": "246 1/25 5/Cornucopia_Hardtack/none/",
 				"Cornucopia_HeartySautee": "Cornucopia_BellPepper 1 281 1 264 1 Cornucopia_Onion 1/25 5/Cornucopia_HeartySautee/none/",
-				"Cornucopia_HoriatikiSalad": "Cornucopia_Cucumber 1 Cornucopia_Lettuce 1 Cornucopia_BrinedOlives 1 Cornucopia_Vinaigrette 1/25 5/Cornucopia_HoriatikiSalad/none/",
+				"Cornucopia_HoriatikiSalad": "Cornucopia_Cucumber 1 Cornucopia_Lettuce 1 Cornucopia_Olive 2 Cornucopia_Vinaigrette 1/25 5/Cornucopia_HoriatikiSalad/none/",
 				"Cornucopia_Jammies": "344 1 246 1 245 1 -5 1/25 5/Cornucopia_Jammies/none/",
 				"Cornucopia_Johnnycakes": "Cornucopia_CornFlour 1 -6 1 Cornucopia_Vanilla 1/25 5/Cornucopia_Johnnycakes/none/",
 				"Cornucopia_KitsuneUdon": "Cornucopia_WheatNoodles 1 Cornucopia_FriedTofu 1 152 1 -4 1/25 5/Cornucopia_KitsuneUdon/none/",
@@ -285,7 +285,6 @@
 				"Cornucopia_StrawberryShortcake": "400 2 246 1 245 1 -5 1/25 5/Cornucopia_StrawberryShortcake/none/",
 				"Cornucopia_Stroganina": "161 1/25 5/Cornucopia_Stroganina/none/",
 				"Cornucopia_TemakiRoll": "-4 1 152 1 Cornucopia_Cucumber 1 423 1/25 5/Cornucopia_TemakiRoll/f Linus 10/",
-				"Cornucopia_Toffee": "Cornucopia_BrownSugar 1 Cornucopia_Butter 1 Cornucopia_Salt 1/25 5/Cornucopia_Toffee/none/",
 				"Cornucopia_TunaSteak": "130 1 Cornucopia_SesameOil 1/25 5/Cornucopia_TunaSteak/none/",
 				"Cornucopia_WedgeSalad": "Cornucopia_Lettuce 1 256 1 424 1/25 5/Cornucopia_WedgeSalad/none/"
 			}
@@ -555,6 +554,7 @@
 				"Cornucopia_TapiocaPudding": "Cornucopia_Cassava 1 Cornucopia_CoconutMilk 1/25 5/Cornucopia_TapiocaPudding/none/",
 				"Cornucopia_Tarkhuna": "Cornucopia_Tarragon 1 245 1/25 5/Cornucopia_Tarkhuna/none/",
 				"Cornucopia_ThreeSistersSalad": "300 1 SummerSquash 1 270 1 Cornucopia_NavyBeans 3/25 5/Cornucopia_ThreeSistersSalad/none/",
+				"Cornucopia_Toffee": "Cornucopia_BrownSugar 1 Cornucopia_Butter 1 Cornucopia_Salt 1/25 5/Cornucopia_Toffee/none/",
 				"Cornucopia_TortillaRollUps": "Cornucopia_PeanutButter 1 344 1 229 1/25 5/Cornucopia_TortillaRollUps/none/",
 				"Cornucopia_TortillaSoup": "229 1 270 1 Cornucopia_Cilantro 1 Cornucopia_ChiliPowder 1/25 5/Cornucopia_TortillaSoup/none/",
 				"Cornucopia_TrailMix": "Cornucopia_Peanut 2 Cornucopia_Almond 2 Cornucopia_Chocolate 1 Raisins 1/25 5/Cornucopia_TrailMix/none/",

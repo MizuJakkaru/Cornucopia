@@ -12,7 +12,8 @@
 					"Id": "Cornucopia.CookingRecipes_RandomDish",
 					"ItemId": "RANDOM_ITEMS (O)",
 					"PerItemCondition": "ITEM_ID Target Cornucopia_AnchovyPizza Cornucopia_AppleCider Cornucopia_FishnChips Cornucopia_PineapplePizza Cornucopia_BreakfastScramble Cornucopia_Ratatouille Cornucopia_Shakshouka Cornucopia_Gumbo Cornucopia_SunriseToast Cornucopia_TomatoSoup Cornucopia_Waffles Cornucopia_LobsterRoll Cornucopia_Pierogi Cornucopia_HeartySautee Cornucopia_OnionRings Cornucopia_BeanChili Cornucopia_ChipsandSalsa Cornucopia_ChipsandGuacamole Cornucopia_Churros Cornucopia_CrabandCallaloo Cornucopia_Enchiladas Cornucopia_GarlicBread Cornucopia_Horchata Cornucopia_JalapenoLoaf Cornucopia_Minestrone Cornucopia_PitaChips Cornucopia_RefriedBeans Cornucopia_RootBeer Cornucopia_Tarkhuna Cornucopia_TortillaSoup",
-					"IgnoreShopPriceModifiers": false
+					"IgnoreShopPriceModifiers": false,
+					"MaxItems": 1
 				},
 				"Cornucopia.CookingRecipes_ZucchiniFritters": {
 					"Id": "Cornucopia.CookingRecipes_ZucchiniFritters",
@@ -44,8 +45,9 @@
 					"Id": "Cornucopia.CookingRecipes_RandomDish",
 					"ItemId": "RANDOM_ITEMS (O)",
 					"PerItemCondition": "ITEM_ID Target Cornucopia_Steckerlfisch Cornucopia_CoconutFish Cornucopia_FishHeadCurry Cornucopia_FishStock Cornucopia_OneManThousand Cornucopia_SalmonChowder",
-					"IgnoreShopPriceModifiers": false
-				},
+					"IgnoreShopPriceModifiers": false,
+					"MaxItems": 1
+				}
 			},
 			"MoveEntries": [
 				{
@@ -53,6 +55,6 @@
 					"AfterId": "(O)219"
 				}
 			]
-		},
+		}
 	]
 }

@@ -4,6 +4,7 @@
         {
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
+			"Priority": "Late",
             "TextOperations": [
 			//Universals
                 {

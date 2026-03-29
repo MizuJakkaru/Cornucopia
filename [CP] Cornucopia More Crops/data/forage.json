@@ -2,6 +2,36 @@
 	"Changes": [
 		{
 			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [
+				"Desert",
+				"ArtifactSpots"
+			],
+			"Entries": {
+				"Cornucopia_SesameSeeds": {
+					"Id": "Cornucopia_SesameSeeds",
+					"ItemId": "(O)Cornucopia_SesameSeeds",
+					"Chance": 0.025
+				},
+				"Cornucopia_LentilsSeeds": {
+					"Id": "Cornucopia_LentilsSeeds",
+					"ItemId": "(O)Cornucopia_LentilsSeeds",
+					"Chance": 0.04
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_SesameSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"Id": "Cornucopia_LentilsSeeds",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
 			"Target": "spacechase0.SpaceCore/SpawnableDefinitions",
 			"Entries": {
 				"Cornucopia_SesameSeeds": {
@@ -492,7 +522,7 @@
 					"MarkActionApplied": false,
 					"Condition": "SEASON winter, {{Enable Extended Crops Pack}}",
 					"Actions": [
-						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Beach",
+						"If RANDOM 0.25 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Beach 28,5,65,21/9,5,19,12/14,17,14,4",
 						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Town",
 						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Forest",
 						"If RANDOM 0.2 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_UbeSeeds Farm",
@@ -506,6 +536,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
+			"Priority": "Late",
 			"When": {
 				"Enable Extended Crops Pack": true
 			},
@@ -517,7 +548,7 @@
 				"Cornucopia_MungBeans": {
 					"Id": "Cornucopia_MungBeans",
 					"ItemId": "(O)Cornucopia_MungBeans",
-					"Chance": 0.025,
+					"Chance": 0.03,
 					"MinFishingLevel": 0,
 					"MinDistanceFromShore": 0
 				}
@@ -532,6 +563,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
+			"Priority": "Late",
 			"When": {
 				"Enable Extended Crops Pack": true
 			},
@@ -543,7 +575,7 @@
 				"Cornucopia_MungBeans": {
 					"Id": "Cornucopia_MungBeans",
 					"ItemId": "(O)Cornucopia_MungBeans",
-					"Chance": 0.025,
+					"Chance": 0.03,
 					"MinFishingLevel": 0,
 					"MinDistanceFromShore": 0
 				}
@@ -558,6 +590,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
+			"Priority": "Late",
 			"When": {
 				"Enable Extended Crops Pack": true
 			},
@@ -569,7 +602,7 @@
 				"Cornucopia_MungBeans": {
 					"Id": "Cornucopia_MungBeans",
 					"ItemId": "(O)Cornucopia_MungBeans",
-					"Chance": 0.025,
+					"Chance": 0.03,
 					"MinFishingLevel": 0,
 					"MinDistanceFromShore": 0
 				}

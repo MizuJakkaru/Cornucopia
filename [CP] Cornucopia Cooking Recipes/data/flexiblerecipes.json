@@ -5107,7 +5107,7 @@
 				},
 				"Cornucopia_CurryPowder": {
 					"ProductQualifiedId": "(O)Cornucopia_CurryPowder",
-					"ProductAmount": 1,
+					"ProductAmount": 4,
 					"Ingredients": [
 						{
 							"Type": "Item",
