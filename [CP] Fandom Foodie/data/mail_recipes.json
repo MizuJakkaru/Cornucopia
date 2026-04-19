@@ -1,0 +1,237 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"Cornucopia.CorkingRecipes_AppleBlood": "{{i18n:Mail_AppleBlood_body}}%item cookingRecipe Cornucopia_AppleBlood%%[#]{{i18n:Mail_AppleBlood_title}}",
+				"Cornucopia.CorkingRecipes_ArchonBurger": "{{i18n:Mail_ArchonBurger_body}}%item cookingRecipe Cornucopia_ArchonBurger%%[#]{{i18n:Mail_ArchonBurger_title}}",
+				"Cornucopia.CorkingRecipes_Estus": "{{i18n:Mail_Estus_body}}%item cookingRecipe Cornucopia_Estus%%[#]{{i18n:Mail_Estus_title}}",
+				"Cornucopia.CorkingRecipes_GrayStuff": "{{i18n:Mail_GrayStuff_body}}%item cookingRecipe Cornucopia_GrayStuff%%[#]{{i18n:Mail_GrayStuff_title}}",
+				"Cornucopia.CorkingRecipes_GreenEggsandHam": "{{i18n:Mail_GreenEggsandHam_body}}%item cookingRecipe Cornucopia_GreenEggsandHam%%[#]{{i18n:Mail_GreenEggsandHam_title}}",
+				"Cornucopia.CorkingRecipes_KikisCake": "{{i18n:Mail_KikisCake_body}}%item cookingRecipe Cornucopia_KikisCake%%[#]{{i18n:Mail_KikisCake_title}}",
+				"Cornucopia.CorkingRecipes_KrabbyPatty": "{{i18n:Mail_KrabbyPatty_body}}%item cookingRecipe Cornucopia_KrabbyPatty%%[#]{{i18n:Mail_KrabbyPatty_title}}",
+				"Cornucopia.CorkingRecipes_LembasBread": "{{i18n:Mail_LembasBread_body}}%item cookingRecipe Cornucopia_LembasBread%%[#]{{i18n:Mail_LembasBread_title}}",
+				"Cornucopia.CorkingRecipes_Potion": "{{i18n:Mail_Potion_body}}%item cookingRecipe Cornucopia_Potion%%[#]{{i18n:Mail_Potion_title}}",
+				"Cornucopia.CorkingRecipes_RedKibble": "{{i18n:Mail_RedKibble_body}}%item cookingRecipe Cornucopia_RedKibble%%[#]{{i18n:Mail_RedKibble_title}}",
+				"Cornucopia.CorkingRecipes_SakumaDrops": "{{i18n:Mail_SakumaDrops_body}}%item cookingRecipe Cornucopia_SakumaDrops%%[#]{{i18n:Mail_SakumaDrops_title}}",
+				"Cornucopia.CorkingRecipes_SpinachPuffs": "{{i18n:Mail_SpinachPuffs_body}}%item cookingRecipe Cornucopia_SpinachPuffs%%[#]{{i18n:Mail_SpinachPuffs_title}}",
+				"Cornucopia.CorkingRecipes_WonkaBar": "{{i18n:Mail_WonkaBar_body}}%item cookingRecipe Cornucopia_WonkaBar%%[#]{{i18n:Mail_WonkaBar_title}}",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.CookingRecipes_AppleBloodMail": {
+					"Id": "Cornucopia.CookingRecipes_AppleBloodMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)613\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)613\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_AppleBlood tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_ArchonBurgerMail": {
+					"Id": "Cornucopia.CookingRecipes_ArchonBurgerMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)72\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)72\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_ArchonBurger tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_EstusMail": {
+					"Id": "Cornucopia.CookingRecipes_EstusMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)768\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)768\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_Estus tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_GrayStuffMail": {
+					"Id": "Cornucopia.CookingRecipes_GrayStuffMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)595\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)595\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_GrayStuff tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_GreenEggsandHamMail": {
+					"Id": "Cornucopia.CookingRecipes_GreenEggsandHamMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)107\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)107\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_GreenEggsandHam tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_KikisCakeMail": {
+					"Id": "Cornucopia.CookingRecipes_KikisCakeMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)Cornucopia_CocoaPod\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)Cornucopia_CocoaPod\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_KikisCake tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_KrabbyPattyMail": {
+					"Id": "Cornucopia.CookingRecipes_KrabbyPattyMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)832\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)832\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_KrabbyPatty tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_LembasBreadMail": {
+					"Id": "Cornucopia.CookingRecipes_LembasBreadMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)577\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)577\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_LembasBread tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_PotionMail": {
+					"Id": "Cornucopia.CookingRecipes_PotionMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)394\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)394\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_Potion tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_RedKibbleMail": {
+					"Id": "Cornucopia.CookingRecipes_RedKibbleMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)Cornucopia_Tofu\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)Cornucopia_Tofu\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_RedKibble tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_SakumaDropsMail": {
+					"Id": "Cornucopia.CookingRecipes_SakumaDropsMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)350\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)350\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SakumaDrops tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_SpinachPuffsMail": {
+					"Id": "Cornucopia.CookingRecipes_SpinachPuffsMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)Cornucopia_Spinach\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)Cornucopia_Spinach\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_SpinachPuffs tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_WonkaBarMail": {
+					"Id": "Cornucopia.CookingRecipes_WonkaBarMail",
+					"Trigger": "DayEnding",
+					"Condition": "ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)336\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)336\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_WonkaBar tomorrow",
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_AppleBlood": "{{i18n:Leah_dialogue.AppleBlood}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_ArchonBurger": "{{i18n:Sebastian_dialogue.ArchonBurger}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_Estus": "{{i18n:Sam_dialogue.Estus}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_GrayStuff": "{{i18n:Haley_dialogue.GrayStuff}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_GreenEggsandHam": "{{i18n:Alex_dialogue.GreenEggsandHam}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_KikisCake": "{{i18n:Abigail_dialogue.KikisCake}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_KrabbyPatty": "{{i18n:Penny_dialogue.KrabbyPatty}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_LembasBread": "{{i18n:Elliott_dialogue.LembasBread}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_Potion": "{{i18n:Wizard_dialogue.Potion}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_RedKibble": "{{i18n:Maru_dialogue.RedKibble}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_SakumaDrops": "{{i18n:Emily_dialogue.SakumaDrops}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_SpinachPuffs": "{{i18n:Shane_dialogue.SpinachPuffs}}$1",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"AcceptGift_(O)Cornucopia_WonkaBar": "{{i18n:Harvey_dialogue.WonkaBar}}$1",
+			}
+		},
+	]
+}

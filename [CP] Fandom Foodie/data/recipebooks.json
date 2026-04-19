@@ -1,0 +1,143 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+			},
+			"Entries": {
+				"Cornucopia_RecipeBook_FandomFoodieAppetizingAnimation": {
+					"Name": "Cornucopia_RecipeBook_FandomFoodieAppetizingAnimation",
+					"Category": -102,
+					"Type": "asdf",
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:RecipeBook_FandomFoodieAppetizingAnimation_name}}",
+					"Description": "{{i18n:RecipeBook_FandomFoodieAppetizingAnimation_description}}",
+					"Texture": "Cornucopia.FandomFoodie/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"color_blue",
+						"book_item",
+						"spu_recipe_book"
+					],
+					"CustomFields": {
+						"Spiderbuttons.SpecialPowerUtilities/Books/RecipePrefix": "CornucopiaAA_"
+					}
+				},
+				"Cornucopia_RecipeBook_FandomFoodieGourmetGaming": {
+					"Name": "Cornucopia_RecipeBook_FandomFoodieGourmetGaming",
+					"Category": -102,
+					"Type": "asdf",
+					"SpriteIndex": 3,
+					"DisplayName": "{{i18n:RecipeBook_FandomFoodieGourmetGaming_name}}",
+					"Description": "{{i18n:RecipeBook_FandomFoodieGourmetGaming_description}}",
+					"Texture": "Cornucopia.FandomFoodie/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"color_purple",
+						"book_item",
+						"spu_recipe_book"
+					],
+					"CustomFields": {
+						"Spiderbuttons.SpecialPowerUtilities/Books/RecipePrefix": "CornucopiaGG_"
+					}
+				},
+				"Cornucopia_RecipeBook_FandomFoodieStarsSaucers": {
+					"Name": "Cornucopia_RecipeBook_FandomFoodieStarsSaucers",
+					"Category": -102,
+					"Type": "asdf",
+					"SpriteIndex": 4,
+					"DisplayName": "{{i18n:RecipeBook_FandomFoodieStarsSaucers_name}}",
+					"Description": "{{i18n:RecipeBook_FandomFoodieStarsSaucers_description}}",
+					"Texture": "Cornucopia.FandomFoodie/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"color_black",
+						"book_item",
+						"spu_recipe_book"
+					],
+					"CustomFields": {
+						"Spiderbuttons.SpecialPowerUtilities/Books/RecipePrefix": "CornucopiaSS_"
+					}
+				},
+				"Cornucopia_RecipeBook_FandomFoodieWarriorsWizards": {
+					"Name": "Cornucopia_RecipeBook_FandomFoodieWarriorsWizards",
+					"Category": -102,
+					"Type": "asdf",
+					"SpriteIndex": 5,
+					"DisplayName": "{{i18n:RecipeBook_FandomFoodieWarriorsWizards_name}}",
+					"Description": "{{i18n:RecipeBook_FandomFoodieWarriorsWizards_description}}",
+					"Texture": "Cornucopia.FandomFoodie/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"color_sea_green",
+						"book_item",
+						"spu_recipe_book"
+					],
+					"CustomFields": {
+						"Spiderbuttons.SpecialPowerUtilities/Books/RecipePrefix": "CornucopiaWW_"
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"Enable Animal Husbandry Pack": true,
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
+			},
+			"Entries": {
+				"Cornucopia_RecipeBook_FandomFoodiePlentyofProtein": {
+					"Name": "Cornucopia_RecipeBook_FandomFoodiePlentyofProtein",
+					"Category": -102,
+					"Type": "asdf",
+					"SpriteIndex": 6,
+					"DisplayName": "{{i18n:RecipeBook_FandomFoodiePlentyofProtein_name}}",
+					"Description": "{{i18n:RecipeBook_FandomFoodiePlentyofProtein_description}}",
+					"Texture": "Cornucopia.FandomFoodie/Objects_2",
+					"Price": 0,
+					"Edibility": -300,
+					"CanBeGivenAsGift": false,
+					"ExcludeFromShippingCollection": true,
+					"CanBeTrashed": false,
+					"ExcludeFromRandomSale": true,
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"color_salmon",
+						"book_item",
+						"spu_recipe_book"
+					],
+					"CustomFields": {
+						"Spiderbuttons.SpecialPowerUtilities/Books/RecipePrefix": "CornucopiaPP_"
+					}
+				}
+			}
+		}
+	]
+}

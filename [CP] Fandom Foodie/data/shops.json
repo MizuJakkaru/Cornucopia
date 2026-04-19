@@ -1,0 +1,153 @@
+{
+	"Changes": [
+		//trash can recipes for base install
+		{
+			"Action": "EditData",
+			"Target": "Data/GarbageCans",
+			"TargetField": [
+				"BeforeAll"
+			],
+			"Entries": {
+				"Cornucopia_DubiousFood": {
+					"Id": "Cornucopia_DubiousFood (Recipe)",
+					"ItemId": "(O)Cornucopia_DubiousFood",
+					"IsRecipe": true,
+					"IgnoreBaseChance": true,
+					"BaseChance": 0.07,
+					"IsMegaSuccess": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_DubiousFood"
+				}
+			}
+		},
+		//shop recipes for base install
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AdventureShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_Sweetroll": {
+					"Id": "Cornucopia_Sweetroll (Recipe)",
+					"ItemId": "Cornucopia_Sweetroll",
+					"IsRecipe": true,
+					"Price": 300
+				}
+			}
+		},
+		//shop books for extended install
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+			},
+			"TargetField": [
+				"Bookseller",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_RecipeBook_FandomFoodieAppetizingAnimation": {
+					"Id": "Cornucopia_RecipeBook_FandomFoodieAppetizingAnimation",
+					"ItemId": "(O)Cornucopia_RecipeBook_FandomFoodieAppetizingAnimation",
+					"Price": 10000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Condition": "SYNCED_RANDOM day cornucopia.fandomfoodie_appetizinganimationbook 0.5",
+				},
+				"Cornucopia_RecipeBook_FandomFoodieGourmetGaming": {
+					"Id": "Cornucopia_RecipeBook_FandomFoodieGourmetGaming",
+					"ItemId": "(O)Cornucopia_RecipeBook_FandomFoodieGourmetGaming",
+					"Price": 15000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Condition": "SYNCED_RANDOM day cornucopia.fandomfoodie_gourmetgamingbook 0.5",
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+			},
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_RecipeBook_FandomFoodieWarriorsWizards": {
+					"Id": "Cornucopia_RecipeBook_FandomFoodieWarriorsWizards",
+					"ItemId": "(O)Cornucopia_RecipeBook_FandomFoodieWarriorsWizards",
+					"Price": 8000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+				}
+			},
+			"MoveEntries": [
+				{ "Id": "Cornucopia_RecipeBook_FandomFoodieWarriorsWizards", "AfterId": "(O)Book_Bombs" }
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+			},
+			"TargetField": [
+				"ShadowShop",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_RecipeBook_FandomFoodieStarsSaucers": {
+					"Id": "Cornucopia_RecipeBook_FandomFoodieStarsSaucers",
+					"ItemId": "(O)Cornucopia_RecipeBook_FandomFoodieStarsSaucers",
+					"Price": 8000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+				}
+			}
+		},
+		//shop books for animal husbandry
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"When": {
+				"Enable Animal Husbandry Pack": true,
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
+			},
+			"TargetField": [
+				"Bookseller",
+				"Items"
+			],
+			
+			"Entries": {
+				"Cornucopia_RecipeBook_FandomFoodiePlentyofProtein": {
+					"Id": "Cornucopia_RecipeBook_FandomFoodiePlentyofProtein",
+					"ItemId": "(O)Cornucopia_RecipeBook_FandomFoodiePlentyofProtein",
+					"Price": 10000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					//"Condition": "SYNCED_RANDOM day cornucopia.fandomfoodie_plentyofproteinbook 0.7",
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_StardewValleyFair_StarTokens",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_SquareCake": {
+					"Id": "Cornucopia_SquareCake (Recipe)",
+					"ItemId": "Cornucopia_SquareCake",
+					"IsRecipe": true,
+					"Price": 300
+				},
+			}
+		},
+	]
+}

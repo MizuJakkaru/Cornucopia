@@ -1,0 +1,46 @@
+{
+    "Name": "Cornucopia - Fandom Foodie",
+    "Author": "Cornucopia",
+    "Description": "A Cornucopia standalone mod for Stardew Valley 1.6 Content Patcher themed around cooking recipes and food across dozens of fandoms.",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "4.0.0",
+    "UniqueID": "Cornucopia.FandomFoodie",
+    //"UpdateKeys": ["Nexus:?"],
+	"ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true,
+			//"MinimumVersion": "1.28.4"
+		},
+		{
+			"UniqueID": "Spiderbuttons.BETAS",
+			"IsRequired": true,
+			"MinimumVersion": "3.3.1"
+		},
+		{
+			"UniqueID": "Spiderbuttons.SpecialPowerUtilities",
+			"IsRequired": true,
+			"MinimumVersion": "2.1.0"
+		},
+		{
+			"UniqueID": "Cornucopia.MoreCrops",
+			"IsRequired": true,
+			"MinimumVersion": "1.6.0"
+		},
+		{
+			"UniqueID": "Cornucopia.ArtisanMachines",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Cornucopia.CookingRecipes",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "DIGUS.ANIMALHUSBANDRYMOD",
+			"IsRequired": false
+		}
+	]
+}

@@ -152,7 +152,7 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"lettuce_item",
-						"leafy_vegetable_item"
+						"leafy_green_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -285,7 +285,7 @@
 						"cornucopia_pack_essential",
 						"modid_cornucopia.morecrops",
 						"spinach_item",
-						"leafy_vegetable_item"
+						"leafy_green_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},
@@ -736,7 +736,7 @@
 						"cornucopia_pack_extendedcrops",
 						"modid_cornucopia.morecrops",
 						"cabbage_item",
-						"leafy_vegetable_item"
+						"leafy_green_item"
 					],
 					"ExcludeFromShippingCollection": "{{ExcludeFromShipping}}"
 				},

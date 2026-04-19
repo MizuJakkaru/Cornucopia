@@ -1,0 +1,550 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"TargetField": [
+				"1",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_TreeStar": {
+					"Id": "Cornucopia_TreeStar",
+					"ItemId": "(O)Cornucopia_TreeStar",
+					"Condition": "SEASON Summer",
+					"Chance": 0.1
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"TargetField": [
+				"2",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_TreeStar": {
+					"Id": "Cornucopia_TreeStar",
+					"ItemId": "(O)Cornucopia_TreeStar",
+					"Condition": "SEASON Summer",
+					"Chance": 0.1
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"TargetField": [
+				"3",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_TreeStar": {
+					"Id": "Cornucopia_TreeStar",
+					"ItemId": "(O)Cornucopia_TreeStar",
+					"Condition": "SEASON Summer",
+					"Chance": 0.1
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"TargetField": [
+				"8",
+				"ShakeItems"
+			],
+			"Entries": {
+				"Cornucopia_TreeStar": {
+					"Id": "Cornucopia_TreeStar",
+					"ItemId": "(O)Cornucopia_TreeStar",
+					"Condition": "SEASON Summer",
+					"Chance": 0.1
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"Priority": "Late",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Birch_Tree",
+				"ShakeItems"
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"Entries": {
+				"Cornucopia_TreeStar": {
+					"Id": "Cornucopia_TreeStar",
+					"ItemId": "(O)Cornucopia_TreeStar",
+					"Condition": "SEASON Summer",
+					"Chance": 0.1
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"Priority": "Late",
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Fir_Tree",
+				"ShakeItems"
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"Entries": {
+				"Cornucopia_TreeStar": {
+					"Id": "Cornucopia_TreeStar",
+					"ItemId": "(O)Cornucopia_TreeStar",
+					"Condition": "SEASON Summer",
+					"Chance": 0.1
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"Beach",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_DevilFruit": {
+					"Id": "Cornucopia_DevilFruit",
+					"ItemId": "(O)Cornucopia_DevilFruit",
+					"Chance": 0.04,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DevilFruit",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"BeachNightMarket",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_DevilFruit": {
+					"Id": "Cornucopia_DevilFruit",
+					"ItemId": "(O)Cornucopia_DevilFruit",
+					"Chance": 0.04,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DevilFruit",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"Beach",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_DevilFruit": {
+					"Id": "Cornucopia_DevilFruit",
+					"ItemId": "(O)Cornucopia_DevilFruit",
+					"Chance": 0.04,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DevilFruit",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"Farm_Beach",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_DevilFruit": {
+					"Id": "Cornucopia_DevilFruit",
+					"ItemId": "(O)Cornucopia_DevilFruit",
+					"Chance": 0.04,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DevilFruit",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"EastScarp_Village",
+				"Fish"
+			],
+			"When": {
+				"HasMod |contains=LemurKat.EastScarp": true,
+			},
+			"Entries": {
+				"Cornucopia_DevilFruit": {
+					"Id": "Cornucopia_DevilFruit",
+					"ItemId": "(O)Cornucopia_DevilFruit",
+					"Chance": 0.04,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DevilFruit",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"Custom_BlueMoonVineyard",
+				"Fish"
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"Entries": {
+				"Cornucopia_DevilFruit": {
+					"Id": "Cornucopia_DevilFruit",
+					"ItemId": "(O)Cornucopia_DevilFruit",
+					"Chance": 0.04,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DevilFruit",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"IslandWest",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_DevilFruit": {
+					"Id": "Cornucopia_DevilFruit",
+					"ItemId": "(O)Cornucopia_DevilFruit",
+					"Chance": 0.04,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DevilFruit",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"IslandSouth",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_DevilFruit": {
+					"Id": "Cornucopia_DevilFruit",
+					"ItemId": "(O)Cornucopia_DevilFruit",
+					"Chance": 0.04,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DevilFruit",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Priority": "Late",
+			"TargetField": [
+				"IslandSouthEast",
+				"Fish"
+			],
+			"Entries": {
+				"Cornucopia_DevilFruit": {
+					"Id": "Cornucopia_DevilFruit",
+					"ItemId": "(O)Cornucopia_DevilFruit",
+					"Chance": 0.04,
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_DevilFruit",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dust Spirit", 6],
+                    "Value": "Cornucopia_Konpeito .15 Cornucopia_Konpeito .02", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Duggy", 6],
+                    "Value": "Cornucopia_Negg .05", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Magma Duggy", 6],
+                    "Value": "Cornucopia_Negg .05", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Serpent", 6],
+                    "Value": "Cornucopia_SenzuBeans .05", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Royal Serpent", 6],
+                    "Value": "Cornucopia_SenzuBeans .1 Cornucopia_SenzuBeans .01", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Bat", 6],
+                    "Value": "Cornucopia_DungeonMeat .05", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Bat", 6],
+                    "Value": "Cornucopia_DungeonMeat .05", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Metal Head", 6],
+                    "Value": "Cornucopia_DungeonMeat .05", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pepper Rex", 6],
+                    "Value": "Cornucopia_DungeonMeat .05", 
+                    "Delimiter": " "
+                }
+            ]
+        },
+		{
+			"Action": "EditData",
+			"Target": "Data/GarbageCans",
+			"TargetField": [
+				"AfterAll"
+			],
+			"Entries": {
+				"Cornucopia_RareCandy": {
+					"Id": "Cornucopia_RareCandy",
+					"ItemId": "(O)Cornucopia_RareCandy"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawnableDefinitions",
+			"Entries": {
+				"Cornucopia_PaopuFruit": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_PaopuFruit"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 5
+				},
+				"Cornucopia_SpiceMelange": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_SpiceMelange"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 7
+				},
+				"Cornucopia_LifeMushroom": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_LifeMushroom"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 10
+				},
+				"Cornucopia_CinnamonSticks": {
+					"Type": "Forageable",
+					"ForageableItemData": [
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(O)Cornucopia_CinnamonSticks"
+							}
+						}
+					],
+					"ForageableExperienceGranted": 5
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/SpawningGroups",
+			"Entries": {
+				"Cornucopia_PaopuFruit": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_PaopuFruit"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_SpiceMelange": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_SpiceMelange"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_LifeMushroom": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_LifeMushroom"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				},
+				"Cornucopia_CinnamonSticks": {
+					"SpawnablesToSpawn": [
+						{
+							"SpawnableIds": [
+								{
+									"Weight": 1.0,
+									"Value": "Cornucopia_CinnamonSticks"
+								}
+							],
+							"Minimum": 1,
+							"Maximum": 1
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Cornucopia.FandomFoodie_PaopuFruit": {
+					"Id": "Cornucopia.FandomFoodie_PaopuFruit",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_PaopuFruit IslandWest 10,25,38,68/48,31,57,92/46,10,91,18/56,73,49,17",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_PaopuFruit IslandSouth 9,11,21,23/30,25,41,33/17,4,21,10",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_PaopuFruit IslandSouthEast 9,15,29,30",
+					]
+				},
+				"Cornucopia.FandomFoodie_SpiceMelange": {
+					"Id": "Cornucopia.FandomFoodie_SpiceMelange",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If RANDOM 0.08 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_SpiceMelange Desert",
+					]
+				},
+				"Cornucopia.FandomFoodie_LifeMushroom": {
+					"Id": "Cornucopia.FandomFoodie_LifeMushroom",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Actions": [
+						"If RANDOM 0.15 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_LifeMushroom Mountain 105,12,25,24",
+					]
+				},
+				"Cornucopia.FandomFoodie_CinnamonSticks": {
+					"Id": "Cornucopia.FandomFoodie_CinnamonSticks",
+					"Trigger": "DayStarted",
+					"HostOnly": true,
+					"MarkActionApplied": false,
+					"Condition": "SEASON Winter",
+					"Actions": [
+						"If RANDOM 0.12 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_CinnamonSticks Town",
+						"If RANDOM 0.12 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_CinnamonSticks Forest",
+						"If RANDOM 0.1 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_CinnamonSticks Mountain",
+						"If RANDOM 0.08 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_CinnamonSticks Backwoods",
+						"If RANDOM 0.08 ## spacechase0.SpaceCore_TriggerSpawnGroup Cornucopia_CinnamonSticks BusStop",
+					]
+				}
+			}
+		}
+	]
+}

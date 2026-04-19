@@ -1,0 +1,114 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+			},
+			"Fields": {
+				"CornucopiaGG_Cornucopia_MemoryLanePastry": {
+					"0": "246 1 Cornucopia_SweetPotato 1 400 1"									//swap yam for sweet potato			
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+			},
+			"Fields": {
+				"CornucopiaSS_Cornucopia_JellyBabies": {
+					"0": "Cornucopia_GellingPowder 1 350 1 245 1"								//swap bone fragment for gelling powder		
+				},
+				"CornucopiaSS_Cornucopia_MuddersMilk": {
+					"0": "-6 1 91 1 Cornucopia_PeanutButter 1 262 1"							//swap peanut for peanut butter			
+				},
+				"CornucopiaSS_Cornucopia_SoylentGreen": {
+					"0": "Cornucopia_GellingPowder 1 153 2 157 2"								//swap bone fragment for gelling powder
+				},
+			}
+		},
+		// cooking recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=Cornucopia.CookingRecipes": true,
+			},
+			"Fields": {
+				"Cornucopia_GrayStuff": {
+					"0": "Cornucopia_Chocolate 1 -6 1 402 1"									//swap cocoa pod for chocolate
+				},
+				"Cornucopia_KikisCake": {
+					"0": "Cornucopia_Chocolate 1 408 1 246 1 340 1 -5 1"
+				},
+				"Cornucopia_WonkaBar": {
+					"0": "Cornucopia_Chocolate 1 -6 1 PrizeTicket 1"
+				}
+			}
+		},
+		// cooking recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.CookingRecipes": true,
+			},
+			"Fields": {
+				"CornucopiaAA_Cornucopia_CookieCat": {
+					"0": "Cornucopia_Chocolate 1 -6 1 245 1"									//swap cocoa pod for chocolate
+				},
+				"CornucopiaAA_Cornucopia_ReptarBar": {
+					"0": "Cornucopia_Chocolate 1 Cornucopia_Pistachio 1"
+				}
+			}
+		},
+		// world traveler extended replacements only
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"HasMod|contains=Cornucopia.CookingRecipes": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.CookingRecipes_WorldTravelerEnabled": true,
+			},
+			"Fields": {
+				"CornucopiaGG_Cornucopia_ButterscotchCinnamonPie": {
+					"0": "Cornucopia_Butterscotch 1 Cornucopia_CinnamonSticks 1 246 1 -6 1"		//swap sugar for butterscotch
+				},
+				"CornucopiaAA_Cornucopia_MarmaladeSandwich": {
+					"0": "216 1 Cornucopia_Marmalade 1"											//swap orange & sugar for marmalade
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
+			},
+			"Fields": {
+				"Cornucopia_ArchonBurger": {
+					"0": "216 1 639 1 Cornucopia_Lettuce 1 424 1"								//swap mushroom for beef
+				}
+			}
+		}
+	]
+}

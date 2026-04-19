@@ -1,0 +1,435 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Love"
+					],
+					"Value": "Cornucopia_OlympianAmbrosia Cornucopia_RareCandy",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Like"
+					],
+					"Value": " ",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Neutral"
+					],
+					"Value": "Cornucopia_HotDogSushi Cornucopia_NifftyCookies",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Dislike"
+					],
+					"Value": " ",
+					"Delimiter": "Cornucopia_ArchonLoaf Cornucopia_GrassyGruel Cornucopia_HayburgerandFries Cornucopia_HerringandPumpkinPotPie Cornucopia_MysteryFoodX Cornucopia_TriloBites Cornucopia_Potion"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Hate"
+					],
+					"Value": "Cornucopia_DwarfBread Cornucopia_DubiousFood Cornucopia_Gagh Cornucopia_GrubPlatter Cornucopia_SlimeDecoction",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Abigail",
+						1
+					],
+					"Value": "Cornucopia_KikisCake",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Alex",
+						1
+					],
+					"Value": "Cornucopia_GreenEggsandHam",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Caroline",
+						1
+					],
+					"Value": "Cornucopia_ButterscotchCinnamonPie",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Clint",
+						1
+					],
+					"Value": "Cornucopia_Brawndo",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Demetrius",
+						1
+					],
+					"Value": "Cornucopia_MarmaladeSandwich",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Dwarf",
+						1
+					],
+					"Value": "Cornucopia_DeepernEverPie Cornucopia_DwarfBread",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Elliott",
+						1
+					],
+					"Value": "Cornucopia_LembasBread Cornucopia_SeedCakes",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Emily",
+						1
+					],
+					"Value": "Cornucopia_SakumaDrops",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Evelyn",
+						1
+					],
+					"Value": "Cornucopia_ElixirSoup Cornucopia_HerringandPumpkinPotPie",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"George",
+						1
+					],
+					"Value": "Cornucopia_SoylentGreen",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Gus",
+						1
+					],
+					"Value": "Cornucopia_OtiksSpicedPotatoes",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Haley",
+						1
+					],
+					"Value": "Cornucopia_GrayStuff",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Harvey",
+						1
+					],
+					"Value": "Cornucopia_WonkaBar",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Harvey",
+						3
+					],
+					"Value": "Cornucopia_JellyBabies",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Harvey",
+						5
+					],
+					"Value": "Cornucopia_Brawndo Cornucopia_ButterscotchCinnamonPie Cornucopia_CookieCat Cornucopia_GrayStuff Cornucopia_KikisCake Cornucopia_Konpeito Cornucopia_NukaCola Cornucopia_RareCandy Cornucopia_ReptarBar Cornucopia_SakumaDrops Cornucopia_ScoobySnacks Cornucopia_Slurm Cornucopia_SpookyDonut Cornucopia_SquareCake Cornucopia_Sweetroll",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Jas",
+						1
+					],
+					"Value": "Cornucopia_ReptarBar",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Jodi",
+						1
+					],
+					"Value": "Cornucopia_SistersStew",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Kent",
+						1
+					],
+					"Value": "Cornucopia_MuddersMilk",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Krobus",
+						1
+					],
+					"Value": "Cornucopia_DubiousFood Cornucopia_Gagh",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Leah",
+						1
+					],
+					"Value": "Cornucopia_AppleBlood",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Leo",
+						1
+					],
+					"Value": "Cornucopia_GrubPlatter",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Lewis",
+						1
+					],
+					"Value": "Cornucopia_YetosSuperbSoup",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Linus",
+						1
+					],
+					"Value": "Cornucopia_GrassyGruel",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Marnie",
+						1
+					],
+					"Value": "Cornucopia_ElixirSoup",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Marnie",
+						5
+					],
+					"Value": "Cornucopia_HayburgerandFries",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Maru",
+						1
+					],
+					"Value": "Cornucopia_RedKibble",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Pam",
+						1
+					],
+					"Value": "Cornucopia_PanGalacticGargleBlaster",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Penny",
+						1
+					],
+					"Value": "Cornucopia_KrabbyPatty",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Robin",
+						1
+					],
+					"Value": "Cornucopia_MarmaladeSandwich",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sam",
+						1
+					],
+					"Value": "Cornucopia_Estus",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sam",
+						7
+					],
+					"Value": "Cornucopia_BigKahunaBurger",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sandy",
+						1
+					],
+					"Value": "Cornucopia_AdeptusTemptation",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sebastian",
+						1
+					],
+					"Value": "Cornucopia_ArchonBurger",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Shane",
+						1
+					],
+					"Value": "Cornucopia_SpinachPuffs",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Vincent",
+						1
+					],
+					"Value": "Cornucopia_SquareCake",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Willy",
+						1
+					],
+					"Value": "Cornucopia_SeaSaltIceCream",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Willy",
+						3
+					],
+					"Value": "food_seafood",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Wizard",
+						1
+					],
+					"Value": "Cornucopia_Potion",
+					"Delimiter": " "
+				}
+			]
+		}
+	]
+}

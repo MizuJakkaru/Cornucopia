@@ -1,0 +1,83 @@
+{
+    "Format": "2.0.0",
+	"ConfigSchema": {
+		"Enable Extended Recipes Pack": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable another 50+ fandom recipes."
+		},
+		"Enable Animal Husbandry Pack": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable another 13 fandom recipes involving meat items. Requires Animal Husbandry."
+		},
+		"Enable Flexible Recipes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "(Recommend use with Love of Cooking.) Allows using a wider variety of ingredients, such as using any butter item in recipes which require butter, or using any cheese in recipes which require cheese, and more. Turn this off if you have bugs with cooking recipes."
+		},
+		"Enable Extended Forage Pack": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adds 8 new fandom inspired forage and monster loot items and enables monster drops for a few recipes. Includes a meat item which can be used with flexible cooking for meat recipes."
+		},
+		"Foods Contain Dairy": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "A very inconsequential option. Changes the internal data of dairy-containing items to say whether or not they have dairy (for use with BarleyZP's Allergies or NPC gift tastes)."
+		}
+	},
+	"DynamicTokens": [
+		{
+			"Name": "DairyTag",
+			"Value": "allergen_dairy"
+		},
+		{
+			"Name": "DairyTag",
+			"Value": "allergen_dairyfree",
+			"When": {
+				"Foods Contain Dairy": false
+			}
+		},
+		{
+			"Name": "NonveganTag",
+			"Value": "food_nonvegan"
+		},
+		{
+			"Name": "NonveganTag",
+			"Value": "food_vegan",
+			"When": {
+				"Foods Contain Dairy": false
+			}
+		},
+	],
+    "Changes": [
+		// add item +  images
+        {
+            "Action": "Load",
+            "Target": "MCornucopia.FandomFoodie/Objects, Cornucopia.FandomFoodie/Objects_2, Cornucopia.FandomFoodie/Furniture,",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" // assets/Objects.png
+        },
+		// add subfiles
+		{
+			"Action": "Include",
+			"FromFile": "data/furniture.json, data/gifttastes.json, data/objects.json, data/shops.json, data/recipebooks.json, data/recipes.json, data/recipesoverrides.json, data/mail_recipes.json"
+		},
+		// add subfiles - forage pack
+		{
+			"Action": "Include",
+			"When": {
+				"Enable Extended Forage Pack": true
+			},
+			"FromFile": "data/forage.json"
+		},
+		// add subfiles - flexible cooking
+		{
+			"Action": "Include",
+			"When": {
+				"Enable Flexible Recipes": true
+			},
+			"FromFile": "data/flexiblerecipes.json"
+		}
+    ]
+}

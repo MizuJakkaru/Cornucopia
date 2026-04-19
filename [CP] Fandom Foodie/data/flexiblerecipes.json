@@ -1,0 +1,1297 @@
+{
+	"Changes": [
+		// base recipes
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"Entries": {
+				"Cornucopia_Estus": {
+					"ProductQualifiedId": "(O)Cornucopia_Estus",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)768",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "leafy_green_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)60",
+							"Amount": 1
+						}
+					]
+				},
+				"Cornucopia_RedKibble": {
+					"ProductQualifiedId": "(O)Cornucopia_RedKibble",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "edible_mushroom",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EdibleMushroomAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 256,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Tofu",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cornucopia_SakumaDrops": {
+					"ProductQualifiedId": "(O)Cornucopia_SakumaDrops",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)350",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cornucopia_SquareCake": {
+					"ProductQualifiedId": "(O)Cornucopia_SquareCake",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)638",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cornucopia_Sweetroll": {
+					"ProductQualifiedId": "(O)Cornucopia_Sweetroll",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Vanilla",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": false,
+			},
+			"Entries": {
+				"Cornucopia_ArchonBurger": {
+					"ProductQualifiedId": "(O)Cornucopia_ArchonBurger",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)216",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)404",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "leafy_green_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
+			},
+			"Entries": {
+				"Cornucopia_ArchonBurger": {
+					"ProductQualifiedId": "(O)Cornucopia_ArchonBurger",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)216",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)639",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "leafy_green_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		},
+		// extended recipes
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+			},
+			"Entries": {
+				"CornucopiaGG_Cornucopia_ArchonLoaf": {
+					"ProductQualifiedId": "(O)Cornucopia_ArchonLoaf",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FlourAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)147",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "leafy_green_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaSS_Cornucopia_Brawndo": {
+					"ProductQualifiedId": "(O)Cornucopia_Brawndo",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)RiverJelly",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaAA_Cornucopia_FlamingFireFlakes": {
+					"ProductQualifiedId": "(O)Cornucopia_FlamingFireFlakes",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)262",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaAA_Cornucopia_HayburgerandFries": {
+					"ProductQualifiedId": "(O)Cornucopia_HayburgerandFries",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)216",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)178",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "leafy_green_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)256",
+							"Amount": 1
+						}
+					]
+				},
+				"CornucopiaWW_Cornucopia_HotrootSoup": {
+					"ProductQualifiedId": "(O)Cornucopia_HotrootSoup",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)720",
+							"Amount": 2
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)20",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaAA_Cornucopia_Konpeito": {
+					"ProductQualifiedId": "(O)Cornucopia_Konpeito",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)350",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 2,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaAA_Cornucopia_NifftyCookies": {
+					"ProductQualifiedId": "(O)Cornucopia_NifftyCookies",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)684",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaGG_Cornucopia_NukaCola": {
+					"ProductQualifiedId": "(O)Cornucopia_NukaCola",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)412",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)909",
+							"Amount": 1
+						}
+					]
+				},
+				"CornucopiaGG_Cornucopia_OlympianAmbrosia": {
+					"ProductQualifiedId": "(O)Cornucopia_OlympianAmbrosia",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "category_fruits",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FruitAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 208,
+								"Y": 400,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)340",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)768",
+							"Amount": 1
+						}
+					]
+				},
+				"CornucopiaWW_Cornucopia_OtiksSpicedPotatoes": {
+					"ProductQualifiedId": "(O)Cornucopia_OtiksSpicedPotatoes",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)192",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaGG_Cornucopia_Poffins": {
+					"ProductQualifiedId": "(O)Cornucopia_Poffins",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "category_fruits",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FruitAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 208,
+								"Y": 400,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaGG_Cornucopia_RareCandy": {
+					"ProductQualifiedId": "(O)Cornucopia_RareCandy",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)773",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaAA_Cornucopia_ScoobySnacks": {
+					"ProductQualifiedId": "(O)Cornucopia_ScoobySnacks",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FlourAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)340",
+							"Amount": 1
+						}
+					]
+				},
+				"CornucopiaWW_Cornucopia_SecondBreakfast": {
+					"ProductQualifiedId": "(O)Cornucopia_SecondBreakfast",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)216",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "soft_cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SoftCheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)256",
+							"Amount": 1
+						}
+					]
+				},
+				"CornucopiaGG_Cornucopia_SlurpJuice": {
+					"ProductQualifiedId": "(O)Cornucopia_SlurpJuice",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)413",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaGG_Cornucopia_SpookyDonut": {
+					"ProductQualifiedId": "(O)Cornucopia_SpookyDonut",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)420",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaGG_Cornucopia_SuperspicyCurry": {
+					"ProductQualifiedId": "(O)Cornucopia_SuperspicyCurry",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 3,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)192",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)423",
+							"Amount": 1
+						}
+					]
+				},
+				"CornucopiaGG_Cornucopia_TriloBites": {
+					"ProductQualifiedId": "(O)Cornucopia_TriloBites",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)589",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FlourAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaGG_Cornucopia_YetosSuperbSoup": {
+					"ProductQualifiedId": "(O)Cornucopia_YetosSuperbSoup",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)795",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)276",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "soft_cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SoftCheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": false,
+			},
+			"Entries": {
+				"CornucopiaSS_Cornucopia_JellyBabies": {
+					"ProductQualifiedId": "(O)Cornucopia_JellyBabies",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)881",
+							"Amount": 3
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)350",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+			},
+			"Entries": {
+				"CornucopiaSS_Cornucopia_JellyBabies": {
+					"ProductQualifiedId": "(O)Cornucopia_JellyBabies",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_GellingPowder",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)350",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.CookingRecipes": false,
+			},
+			"Entries": {
+				"CornucopiaAA_Cornucopia_CookieCat": {
+					"ProductQualifiedId": "(O)Cornucopia_CookieCat",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_CocoaPod",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.CookingRecipes": true,
+			},
+			"Entries": {
+				"CornucopiaAA_Cornucopia_CookieCat": {
+					"ProductQualifiedId": "(O)Cornucopia_CookieCat",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Chocolate",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		},
+		// animal husbandry recipes
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"Enable Animal Husbandry Pack": true,
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
+			},
+			"Entries": {
+				"CornucopiaPP_Cornucopia_AdeptusTemptation": {
+					"ProductQualifiedId": "(O)Cornucopia_AdeptusTemptation",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)640",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)717",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)720",
+							"Amount": 2
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "edible_mushroom",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EdibleMushroomAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 256,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaPP_Cornucopia_BigKahunaBurger": {
+					"ProductQualifiedId": "(O)Cornucopia_BigKahunaBurger",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)216",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)639",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)832",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Onion",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "soft_cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SoftCheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaPP_Cornucopia_BurritoXXL": {
+					"ProductQualifiedId": "(O)Cornucopia_BurritoXXL",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)229",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)639",
+							"Amount": 2
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaPP_Cornucopia_GotchaPorkRoast": {
+					"ProductQualifiedId": "(O)Cornucopia_GotchaPorkRoast",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)192",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)666",
+							"Amount": 2
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "edible_mushroom",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EdibleMushroomAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 256,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaPP_Cornucopia_HeckranBoneSoup": {
+					"ProductQualifiedId": "(O)Cornucopia_HeckranBoneSoup",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "category_meat, meat_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MeatAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 240,
+								"Y": 416,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)580",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "leafy_green_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_LeafyGreenAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"CornucopiaPP_Cornucopia_Sandvich": {
+					"ProductQualifiedId": "(O)Cornucopia_Sandvich",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)216",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)640",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Lettuce",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Olive",
+							"Amount": 1
+						}
+					]
+				}
+			}
+		}
+	]
+}

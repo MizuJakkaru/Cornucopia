@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Furniture",
+        	"Entries": {
+                "Cornucopia_DecorativeCake": "Cornucopia_DecorativeCake/lamp/1 1/1 1/1/2000/-1/{{i18n:DecorativeCake_name}}/0/Cornucopia.FandomFoodie\\Furniture//, "
+            }
+        },
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Festival_FeastOfTheWinterStar_Pierre",
+				"Items"
+			],
+			"Entries": {
+				"Cornucopia_DecorativeCake": {
+					"Id": "Cornucopia_DecorativeCake",
+					"ItemId": "Cornucopia_DecorativeCake",
+					"Price": 1000
+				}
+			},
+			"MoveEntries": [
+				{ "Id": "Cornucopia_DecorativeCake", "AfterId": "(F)1296" }
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+			"Entries": {
+				"Cornucopia_DecorativeCake": {
+					"DescriptionOverride": "{{i18n:DecorativeCake_description}}"
+				}
+			}
+		}
+    ]
+}
