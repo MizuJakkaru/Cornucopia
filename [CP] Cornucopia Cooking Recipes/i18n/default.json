@@ -1212,7 +1212,7 @@
 	"Mail_DemetriusSeafoodBoil_body": "Despite being called a 'seafood' boil, this dish actually contains multiple non-seafood ingredients. It may be more appropriate to call it a 'seafood and groundfood' boil.^This is one of my favorite childhood recipes. My thanks for all your help around the lab.^   -Demetrius",
 	"Mail_DemetriusSeafoodBoil_title": "Demetrius' Seafood and Groundfood Boil",
 	
-	"Mail_DwarfAncientWonder_body": "Human, here is another message that I am entrusting to the whims of the 'postal service'.^^This very ancient recipe has been passed down by my people for millennia. It is one of the few pieces of knowledge that have survived from our ancient civilization.^^You will need some very rare ingredients in order to make this dish. But I will tell you now...it tastes incredible!^   -Dwarf",
+	"Mail_DwarfAncientWonder_body": "Human, here is another message that I am entrusting to the whims of the 'postal service'.^^This very ancient recipe has been passed down by my people for millennia. It is one of the few pieces of knowledge that have survived from our ancient civilization.^^You will need some very rare ingredients in order to make this dish. But I will tell you now... it tastes incredible!^   -Dwarf",
 	"Mail_DwarfAncientWonder_title": "The Ancient Wonder",
 	
 	"Mail_DwarfHardtack_body": "Human, I have learned how to use this thing called the 'postal service' in order to 'mail' you a recipe I find most interesting. Another human taught it to me many years ago. You can bake the aboveground crop called wheat into a very hard cake that lasts for decades. And it has no flavor at all!^^Do humans like food without flavor? You should try cave carrot stew some time.^   -Dwarf",
@@ -1233,7 +1233,7 @@
 	"Mail_GeorgeCheesecake_body": "Well, farmer, I thought one day I may give this recipe to my grandson... but you and I both know he's not much of an ace in the kitchen! So here, maybe you'll get some use out of this. When I was younger and much more sprightly, I taught myself to bake this cake to impress a young lady in my life. And guess what... it was served at our wedding too!^   -George^^P.S. Blackberries are her favorite.",
 	"Mail_GeorgeCheesecake_title": "George's Wedding Cheesecake",
 	
-	"Mail_GusZucchiniFritters_body": "Hi @, you're the only one I'd trust with this recipe. Yes, that's right - it's my famous zucchini fritters! ...Truth be told, you're kind of the only cooking apprentice I have. Thought I might pass this recipe onto you...not that I don't have many years left in me.^Don't forget the spicy marinara sauce, it's just as important as the fritters themselves. They sell like hotcakes every week!^   -Gus",
+	"Mail_GusZucchiniFritters_body": "Hi @, you're the only one I'd trust with this recipe. Yes, that's right - it's my famous zucchini fritters! ...Truth be told, you're kind of the only cooking apprentice I have. Thought I might pass this recipe onto you... not that I don't have many years left in me.^Don't forget the spicy marinara sauce, it's just as important as the fritters themselves. They sell like hotcakes every week!^   -Gus",
 	"Mail_GusZucchiniFritters_title": "Gus's Famous Zucchini Fritters",
 	
 	"Mail_HaleyRecipe_body": "@, I found this recipe clipping in one of my magazines.^^Baking is kind of a lot of work, so why don't you make this for me instead? Emily makes us eat rabbit food every day. Something sweet would be nice.^^   -Haley",
@@ -1299,7 +1299,7 @@
 	"Mail_SamDonut_body": "@,^It's a donut. What more can I say?^Not but for real, you've been an amazing friend to me. Just wanted to return some of that energy. Catch ya later,^   -Sam",
 	"Mail_SamDonut_title": "Sam's Donut",
 	
-	"Mail_SebastianRecipe_body": "Hey @,^Well, you're one of the few people in this town who doesn't talk to me like I'm a freak. Have a recipe I found, I guess. I'm not much of a cook, so...farmers like cooking, right?^   -Sebastian",
+	"Mail_SebastianRecipe_body": "Hey @,^Well, you're one of the few people in this town who doesn't talk to me like I'm a freak. Have a recipe I found, I guess. I'm not much of a cook, so... farmers like cooking, right?^   -Sebastian",
 	"Mail_SebastianRecipe_title": "Sebastian's Recipe",
 	
 	"Mail_SebastianFancySushiPlatter_body": "Hi @,^^Sometimes, I wish this valley had a real high-end restaurant nearby. Someone I know online was telling me about the crazy types of fish that people eat raw - like poisonous pufferfish and sea urchins. Wild, right?^^I have to try that some day. If you catch a good pufferfish, make sure to let me try some - though, maybe you should be the one to taste-test it for poison first.^^Just kidding, lol.^   -Sebastian",
@@ -1325,8 +1325,8 @@
 	
 	"WizardQuest_dialogue1": "That hue... that aroma... that power... Could it be...?",
 	"WizardQuest_dialogue2": "It is! The elusive 'Ancient Wonder'! I sense immense magical potential emanating from this dish!",
-	"WizardQuest_dialogue3": "You've earned yourself a place in my book. Here's the recipe for a potent concoction made from obscure ingredients...only a true mage can wield this.",
-	"WizardQuest_dialogue4": "Now, leave me to my devices...I must examine this 'wonder' myself...",
+	"WizardQuest_dialogue3": "You've earned yourself a place in my book. Here's the recipe for a potent concoction made from obscure ingredients... only a true mage can wield this.",
+	"WizardQuest_dialogue4": "Now, leave me to my devices... I must examine this 'wonder' myself...",
 	
 	"Elliott_dialogue.default.intro": "Ah, @, I see you've been charmed by the recipe I sent you. How wonderful! The aroma of this recalls to mind...",
 	"Elliott_dialogue.default.end": "My thanks for the fond memory, @, you're an inspiration as always. Hmm... I must write the rest of this idea down before it escapes me...",
@@ -1335,11 +1335,11 @@
 	"Elliott_dialogue.CremeBrulee.3": "I see your own vanilla beans are delectable as well!",
 	"Elliott_dialogue.ChefSalad.1": "...My brief stay in a tiny mountain cottage, fresh herbs drying in the windows. The homesteader invites a famished traveler in for a plate of hand-picked garden greens...",
 	"Elliott_dialogue.ChefSalad.2": "...I remember now the personal flair of the dish, boiled eggs cut into the shapes of stars, dotting nature's canvas...",
-	"Elliott_dialogue.FigToast.1": "..A garden hemmed by the marble ruins of a society long gone, told only by the unmoving statues of forgotten gods and goddesses.",
+	"Elliott_dialogue.FigToast.1": "...A garden hemmed by the marble ruins of a society long gone, told only by the unmoving statues of forgotten gods and goddesses.",
 	"Elliott_dialogue.FigToast.2": "The decadent figs hung heavy from a tree in the center of that courtyard, said to be a cursed lover of one of those wily and impulsive dieties. An enrapturing legend, for sure!",
-	"Elliott_dialogue.FishnChips.1": "Does my nose deceive me...fish and chips! And warm from the pan, as well! *crunch*",
+	"Elliott_dialogue.FishnChips.1": "Does my nose deceive me... fish and chips! And warm from the pan, as well! *crunch*",
 	"Elliott_dialogue.FishnChips.2": "I'll confess the truth to you, @. This is quite a special dish for me. You see, it was the first truly homely meal I was able to experience in my life.",
-	"Elliott_dialogue.FishnChips.3": "That day I picked up the quill and set out into the world for good...I walked for hours, not knowing where my feet were leading me.",
+	"Elliott_dialogue.FishnChips.3": "That day I picked up the quill and set out into the world for good... I walked for hours, not knowing where my feet were leading me.",
 	"Elliott_dialogue.FishnChips.4": "Until I found myself on a cobblestone pier, at the very edge of a town I'd never been to. I never thought I'd ever eat something so deep-fried and material as fish and chips, but that day, it was the best thing I'd ever tasted.",
 	"Elliott_dialogue.FishnChips.5": "Thank you for the reminder of that wonderful experience, @. You've given me a lot to ponder on.",
 	
@@ -1445,7 +1445,7 @@
 	"RecipeBook_ComfortFood_Page2": "'When we say 'comfort food', we're talking about memories, food that takes you back in time and makes you feel warm and secure again. These dishes may fill your stomach easily, but what they truly fill the best is your soul.'",
 	
 	"RecipeBook_SnackFood_Page1": "'If you're a true aficionado, you'll know — there's no king of culinary travel quite like that of a locale's street food! Sizzling oil in flaming-hot woks, the shouts of hawkers up and down the alley...'",
-	"RecipeBook_SnackFood_Page2": "'...the press of shoulder-to-shoulder foot traffic under the lights of the night market...street food is truly individual! So order up some tasty skewers, grab a cup of freshly squeezed cane juice, and sink your teeth into some of these recipes!'",
+	"RecipeBook_SnackFood_Page2": "'...the press of shoulder-to-shoulder foot traffic under the lights of the night market... street food is truly individual! So order up some tasty skewers, grab a cup of freshly squeezed cane juice, and sink your teeth into some of these recipes!'",
 	
 	"RecipeBook_Woodland_Page1": "'One of my favorite ventures! Imagine a fog-drenched forest studded with the ingredients of nature's bounty... Berries, fiddleheads, wild rice and corn, carefully tended to for generations.'",
 	"RecipeBook_Woodland_Page2": "'Whether one is roasting the day's catch on the warm village hearth, or chasing an airy arepa with a glass of sparkling strawberry juice, there is delight to be found in natural, hearty flavors foraged straight from the earth...'",
