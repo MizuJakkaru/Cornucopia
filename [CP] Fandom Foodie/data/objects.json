@@ -456,6 +456,34 @@
 						"allergen_egg"
 					]
 				},
+				"Cornucopia_Tab": {
+					"Name": "Cornucopia_Tab",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 94,
+					"DisplayName": "{{i18n:Tab_name}}",
+					"Description": "{{i18n:Tab_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 400,
+					"Edibility": 50,
+					"IsDrink": true,
+					"Buffs": [
+						{
+							"Id": "Drink",
+							"Duration": 1440,
+							"CustomAttributes": {
+								"Speed": 2.0,
+								"LuckLevel": 2.0
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"color_pink",
+						"food_drink"
+					]
+				},
 				"Cornucopia_WonkaBar": {
 					"Name": "Cornucopia_WonkaBar",
 					"Category": -7,
@@ -733,6 +761,34 @@
 						"food_bakery"
 					]
 				},
+				"Cornucopia_DragonbreathChili": {
+					"Name": "CornucopiaGG_Cornucopia_DragonbreathChili",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 97,
+					"DisplayName": "{{i18n:DragonbreathChili_name}}",
+					"Description": "{{i18n:DragonbreathChili_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 300,
+					"Edibility": 60,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 1440,
+							"CustomAttributes": {
+								"Attack": 2.0
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"color_red",
+						"food_spicy",
+						"food_soup"
+					]
+				},
 				"Cornucopia_DwarfBread": {
 					"Name": "CornucopiaWW_Cornucopia_DwarfBread",
 					"Category": -7,
@@ -781,6 +837,28 @@
 						"cornucopia_food",
 						"color_yellow",
 						"food_soup"
+					]
+				},
+				"Cornucopia_FishFingersandCustard": {
+					"Name": "CornucopiaSS_Cornucopia_FishFingersandCustard",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 92,
+					"DisplayName": "{{i18n:FishFingersandCustard_name}}",
+					"Description": "{{i18n:FishFingersandCustard_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 350,
+					"Edibility": 150,
+					"IsDrink": false,
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"color_yellow",
+						"food_sweet",
+						"{{DairyTag}}",
+						"allergen_egg",
+						"allergen_fish",
+						"{{NonveganTag}}"
 					]
 				},
 				"Cornucopia_FlamingFireFlakes": {
@@ -1328,6 +1406,39 @@
 						"allergen_nut"
 					]
 				},
+				"Cornucopia_NeoKobePizza": {
+					"Name": "CornucopiaGG_Cornucopia_NeoKobePizza",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 95,
+					"DisplayName": "{{i18n:NeoKobePizza_name}}",
+					"Description": "{{i18n:NeoKobePizza_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 350,
+					"Edibility": 60,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 800,
+							"CustomAttributes": {
+								"Defense": 1.0,
+								"LuckLevel": 2.0
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"color_yellow",
+						"food_party",
+						"food_soup",
+						"{{NonveganTag}}",
+						"allergen_egg",
+						"{{DairyTag}}",
+						"allergen_gluten"
+					]
+				},
 				"Cornucopia_NifftyCookies": {
 					"Name": "CornucopiaAA_Cornucopia_NifftyCookies",
 					"Category": -7,
@@ -1482,6 +1593,23 @@
 						"allergen_egg"
 					]
 				},
+				"Cornucopia_PandoranNiktsyey": {
+					"Name": "CornucopiaSS_Cornucopia_PandoranNiktsyey",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 93,
+					"DisplayName": "{{i18n:PandoranNiktsyey_name}}",
+					"Description": "{{i18n:PandoranNiktsyey_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 350,
+					"Edibility": 110,
+					"IsDrink": false,
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"color_green"
+					]
+				},
 				"Cornucopia_PigeonMilkCoffee": {
 					"Name": "CornucopiaGG_Cornucopia_PigeonMilkCoffee",
 					"Category": -7,
@@ -1562,6 +1690,33 @@
 						"{{NonveganTag}}",
 						"color_yellow_green",
 						"food_bakery",
+						"food_sweet"
+					]
+				},
+				"Cornucopia_PowerPellets": {
+					"Name": "CornucopiaGG_Cornucopia_PowerPellets",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 90,
+					"DisplayName": "{{i18n:PowerPellets_name}}",
+					"Description": "{{i18n:PowerPellets_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 300,
+					"Edibility": 150,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 800,
+							"CustomAttributes": {
+								"Speed": 3.0,
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"color_orange",
 						"food_sweet"
 					]
 				},
@@ -2001,6 +2156,36 @@
 						"allergen_shellfish"
 					]
 				},
+				"Cornucopia_WestfallStew": {
+					"Name": "CornucopiaGG_Cornucopia_WestfallStew",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 96,
+					"DisplayName": "{{i18n:WestfallStew_name}}",
+					"Description": "{{i18n:WestfallStew_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 200,
+					"Edibility": 10,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 1440,
+							"CustomAttributes": {
+								"Defense": 2.0
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"color_green",
+						"food_soup",
+						"food_tref",
+						"food_haram",
+						"{{NonveganTag}}"
+					]
+				},
 				"Cornucopia_YetosSuperbSoup": {
 					"Name": "CornucopiaGG_Cornucopia_YetosSuperbSoup",
 					"Category": -7,
@@ -2035,6 +2220,38 @@
 						"food_soup",
 						"food_seafood",
 						"allergen_fish"
+					]
+				},
+				"Cornucopia_YoshiCookies": {
+					"Name": "CornucopiaGG_Cornucopia_YoshiCookies",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 91,
+					"DisplayName": "{{i18n:YoshiCookies_name}}",
+					"Description": "{{i18n:YoshiCookies_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 200,
+					"Edibility": 40,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 800,
+							"CustomAttributes": {
+								"Magnetism": 64,
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"color_yellow",
+						"food_sweet",
+						"food_bakery",
+						"food_cookie",
+						"food_tref",
+						"food_haram",
+						"{{NonveganTag}}"
 					]
 				}
 			}
@@ -2300,6 +2517,37 @@
 						"allergen_meat"
 					]
 				},
+				"Cornucopia_GroxBurger": {
+					"Name": "CornucopiaPP_Cornucopia_GroxBurger",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 99,
+					"DisplayName": "{{i18n:GroxBurger_name}}",
+					"Description": "{{i18n:GroxBurger_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 330,
+					"Edibility": 90,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 1440,
+							"CustomAttributes": {
+								"Attack": 3.0,
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"food_nonvegetarian",
+						"food_tref",
+						"color_green",
+						"food_sandwich",
+						"allergen_gluten",
+						"allergen_meat"
+					]
+				},
 				"Cornucopia_KrustyBurger": {
 					"Name": "CornucopiaPP_Cornucopia_KrustyBurger",
 					"Category": -7,
@@ -2439,6 +2687,36 @@
 						"food_tref",
 						"food_haram",
 						"{{DairyTag}}",
+						"color_unknown",
+						"food_sandwich",
+						"allergen_meat",
+						"allergen_gluten"
+					]
+				},
+				"Cornucopia_SinnersSandwich": {
+					"Name": "CornucopiaPP_Cornucopia_SinnersSandwich",
+					"Category": -7,
+					"Type": "Cooking",
+					"SpriteIndex": 98,
+					"DisplayName": "{{i18n:SinnersSandwich_name}}",
+					"Description": "{{i18n:SinnersSandwich_description}}",
+					"Texture": "MCornucopia.FandomFoodie/Objects",
+					"Price": 275,
+					"Edibility": 80,
+					"IsDrink": false,
+					"Buffs": [
+						{
+							"Id": "Food",
+							"Duration": 800,
+							"CustomAttributes": {
+								"Defense": 3.0,
+							}
+						}
+					],
+					"ContextTags": [
+						"modid_cornucopia.fandomfoodie",
+						"cornucopia_food",
+						"food_nonvegetarian",
 						"color_unknown",
 						"food_sandwich",
 						"allergen_meat",

@@ -178,6 +178,30 @@
 							}
 						}
 					]
+				},
+				"Cornucopia_Tab": {
+					"ProductQualifiedId": "(O)Cornucopia_Tab",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)78",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 3,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
 				}
 			}
 		},
@@ -900,6 +924,40 @@
 							}
 						}
 					]
+				},
+				"CornucopiaGG_Cornucopia_YoshiCookies": {
+					"ProductQualifiedId": "(O)Cornucopia_YoshiCookies",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)613",
+							"Amount": 2
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)107",
+							"Amount": 1
+						}
+					]
 				}
 			}
 		},
@@ -1025,6 +1083,38 @@
 							}
 						}
 					]
+				},
+				"CornucopiaGG_Cornucopia_DragonbreathChili": {
+					"ProductQualifiedId": "(O)Cornucopia_DragonbreathChili",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "category_meat, meat_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MeatAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 240,
+								"Y": 416,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 3,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
 				}
 			}
 		},
@@ -1070,6 +1160,60 @@
 								"Width": 16,
 								"Height": 16
 							}
+						}
+					]
+				}
+			}
+		},
+		,
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"HasMod|contains=Cornucopia.CookingRecipes": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.CookingRecipes_WorldTravelerEnabled": true,
+			},
+			"Entries": {
+				"CornucopiaGG_Cornucopia_DragonbreathChili": {
+					"ProductQualifiedId": "(O)Cornucopia_DragonbreathChili",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "category_meat, meat_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MeatAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 240,
+								"Y": 416,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 3,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_CurryPowder",
+							"Amount": 1
 						}
 					]
 				}

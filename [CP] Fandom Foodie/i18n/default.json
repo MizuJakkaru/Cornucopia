@@ -257,6 +257,33 @@
 	"Shane_dialogue.SpinachPuffs": "Oooh, thanks! They're best when they're still hot!",
 	"Harvey_dialogue.WonkaBar": "Thank you very much! I'll keep this at the clinic for a rainy day.",
 	
+	// update 1.xxx
+	"Tab_name": "TaB",
+	"Tab_description": "Free the heavenly brown elixir from the jewels of pink carapace and imbibe like the wind.",
+	"Mail_Tab_body": "@,^ Years in the future, but not many, this recipe will be remembered as the pinnacle of humankind's flavor alchemy. I have gifted to you the most valuable instructions on how to recreate the sugarly nectar. Proceed with caution. Too much caffeinated jittering may agitate all the little bubbles curiously hidden in the liquid, creating too much pressure in the can.^   -Krobus",
+	"Mail_Tab_title": "TaB Recipe",
+	"Krobus_dialogue.Tab": "Whatever mighty wizard concocted this potion is truly deserving of fear and respect.",
+	
+	"DragonbreathChili_name": "Dragonbreath Chili",
+	"DragonbreathChili_description": "May cause one to occassional belch flame!",
+	"FishFingersandCustard_name": "Fish Fingers and Custard",
+	"FishFingersandCustard_description": "New mouth, new rules. It's like eating after cleaning your teeth, everything tastes wrong!",
+	"NeoKobePizza_name": "Neo Kobe Pizza",
+	"NeoKobePizza_description": "Pizza floating in ramen broth. Put it in right when you're ready to eat it.",
+	"PandoranNiktsyey_name": "Pandoran Niktsyey",
+	"PandoranNiktsyey_description": "Ideal for a Na'vi scout who spends their day on the move.",
+	"PowerPellets_name": "Power Pellets",
+	"PowerPellets_description": "Just why are these dots so tasty?",
+	"WestfallStew_name": "Westfall Stew",
+	"WestfallStew_description": "Must remain seated while eating.",
+	"YoshiCookies_name": "Yoshi Cookies",
+	"YoshiCookies_description": "The favorite snack of friendly dinosaurs!",
+	"GroxBurger_name": "Grox Burger",
+	"GroxBurger_description": "Well known across the Imperium, it's apparently super palatable and tasty.",
+	"SinnersSandwich_name": "Sinner's Sandwich",
+	"SinnersSandwich_description": "A self-inflicted punishment to atone for past sins.",
+
+	
 	
 		"config.Enable Extended Recipes Pack.name": "Enable Extended Recipes Pack",
 		"config.Enable Extended Recipes Pack.description": "Enable another 50+ fandom recipes.",

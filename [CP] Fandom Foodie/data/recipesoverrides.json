@@ -12,9 +12,13 @@
 			"Fields": {
 				"CornucopiaGG_Cornucopia_MemoryLanePastry": {
 					"0": "246 1 Cornucopia_SweetPotato 1 400 1"									//swap yam for sweet potato			
+				},
+				"CornucopiaGG_Cornucopia_WestfallStew": {
+					"0": "767 1 812 1 583 1 Cornucopia_Okra 1"									//add okra		
 				}
 			}
 		},
+		// artisan machines
 		{
 			"Action": "EditData",
 			"Target": "Data/CookingRecipes",
@@ -29,6 +33,9 @@
 				},
 				"CornucopiaSS_Cornucopia_MuddersMilk": {
 					"0": "-6 1 91 1 Cornucopia_PeanutButter 1 262 1"							//swap peanut for peanut butter			
+				},
+				"CornucopiaGG_Cornucopia_NeoKobePizza": {
+					"0": "206 1 Cornucopia_WheatNoodles 1 Cornucopia_SoySauce 1 -5 1"			//swap wheat for wheat noodles		
 				},
 				"CornucopiaSS_Cornucopia_SoylentGreen": {
 					"0": "Cornucopia_GellingPowder 1 153 2 157 2"								//swap bone fragment for gelling powder
@@ -91,6 +98,9 @@
 			"Fields": {
 				"CornucopiaGG_Cornucopia_ButterscotchCinnamonPie": {
 					"0": "Cornucopia_Butterscotch 1 Cornucopia_CinnamonSticks 1 246 1 -6 1"		//swap sugar for butterscotch
+				},
+				"CornucopiaGG_Cornucopia_DragonbreathChili": {
+					"0": "Cornucopia_Tofu 1 260 3 Cornucopia_CurryPowder 1"		
 				},
 				"CornucopiaAA_Cornucopia_MarmaladeSandwich": {
 					"0": "216 1 Cornucopia_Marmalade 1"											//swap orange & sugar for marmalade
