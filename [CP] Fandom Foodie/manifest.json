@@ -2,7 +2,7 @@
     "Name": "Cornucopia - Fandom Foodie",
     "Author": "Cornucopia",
     "Description": "A Cornucopia standalone mod for Stardew Valley 1.6 Content Patcher themed around cooking recipes and food across dozens of fandoms.",
-    "Version": "1.0.1",
+    "Version": "1.1.0",
     "MinimumApiVersion": "4.0.0",
     "UniqueID": "Cornucopia.FandomFoodie",
     "UpdateKeys": ["Nexus:40067"],
