@@ -16,6 +16,7 @@
 				"Cornucopia.CorkingRecipes_RedKibble": "{{i18n:Mail_RedKibble_body}}%item cookingRecipe Cornucopia_RedKibble%%[#]{{i18n:Mail_RedKibble_title}}",
 				"Cornucopia.CorkingRecipes_SakumaDrops": "{{i18n:Mail_SakumaDrops_body}}%item cookingRecipe Cornucopia_SakumaDrops%%[#]{{i18n:Mail_SakumaDrops_title}}",
 				"Cornucopia.CorkingRecipes_SpinachPuffs": "{{i18n:Mail_SpinachPuffs_body}}%item cookingRecipe Cornucopia_SpinachPuffs%%[#]{{i18n:Mail_SpinachPuffs_title}}",
+				"Cornucopia.CorkingRecipes_Tab": "{{i18n:Mail_Tab_body}}%item cookingRecipe Cornucopia_Tab%%[#]{{i18n:Mail_Tab_title}}",
 				"Cornucopia.CorkingRecipes_WonkaBar": "{{i18n:Mail_WonkaBar_body}}%item cookingRecipe Cornucopia_WonkaBar%%[#]{{i18n:Mail_WonkaBar_title}}",
 			}
 		},
@@ -129,6 +130,15 @@
 					"MarkActionApplied": true,
 					"Actions": [
 						"AddMail Current Cornucopia.CorkingRecipes_SpinachPuffs tomorrow",
+					]
+				},
+				"Cornucopia.CookingRecipes_TabMail": {
+					"Id": "Cornucopia.CookingRecipes_TabMail",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HEARTS Current Krobus 3, ANY \"PLAYER_SHIPPED_BASIC_ITEM Any (O)78\" \"Spiderbuttons.BETAS_ITEM_IN_WORLD (O)78\"",
+					"MarkActionApplied": true,
+					"Actions": [
+						"AddMail Current Cornucopia.CorkingRecipes_Tab tomorrow",
 					]
 				},
 				"Cornucopia.CookingRecipes_WonkaBarMail": {

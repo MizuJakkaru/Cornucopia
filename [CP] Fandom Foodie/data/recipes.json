@@ -19,6 +19,7 @@
 				"Cornucopia_SpinachPuffs": "Cornucopia_Spinach 2 246 1/25 5/Cornucopia_SpinachPuffs/none/",
 				"Cornucopia_SquareCake": "638 1 246 1 245 1 -5 1/25 5/Cornucopia_SquareCake/none/",
 				"Cornucopia_Sweetroll": "Cornucopia_Vanilla 1 246 1 245 1 -5 1/25 5/Cornucopia_Sweetroll/none/",
+				"Cornucopia_Tab": "78 1 245 3/25 5/Cornucopia_Tab/none/",
 				"Cornucopia_WonkaBar": "Cornucopia_CocoaPod 1 -6 1 PrizeTicket 1/25 5/Cornucopia_WonkaBar/none/"
 			}
 		},
@@ -37,8 +38,10 @@
 				"CornucopiaAA_Cornucopia_CookieCat": "Cornucopia_CocoaPod 1 -6 1 245 1/25 5/Cornucopia_CookieCat/none/",
 				"CornucopiaSS_Cornucopia_CrawlerBiscuits": "246 1 CaveJelly 1/25 5/Cornucopia_CrawlerBiscuits/none/",
 				"CornucopiaWW_Cornucopia_DeepernEverPie": "246 1 192 1 Cornucopia_Turnip 1 284 1/25 5/Cornucopia_DeepernEverPie/none/",
+				"CornucopiaGG_Cornucopia_DragonbreathChili": "Cornucopia_Tofu 1 260 3/25 5/Cornucopia_DragonbreathChili/none/",
 				"CornucopiaWW_Cornucopia_DwarfBread": "390 10/25 5/Cornucopia_DwarfBread/none/",
 				"CornucopiaGG_Cornucopia_ElixirSoup": "SummerSquash 1 Carrot 1 399 1/25 5/Cornucopia_ElixirSoup/none/",
+				"CornucopiaSS_Cornucopia_FishFingersandCustard": "701 1 -5 1 -6 1/25 5/Cornucopia_FishFingersandCustard/none/",
 				"CornucopiaAA_Cornucopia_FlamingFireFlakes": "262 1 260 1 247 1/25 5/Cornucopia_FlamingFireFlakes/none/",
 				"CornucopiaAA_Cornucopia_FoodoftheSpirits": "800 1 717 1 Cornucopia_Tofu 1/25 5/Cornucopia_FoodoftheSpirits/none/",
 				"CornucopiaWW_Cornucopia_Frobscottle": "Cornucopia_Raspberry 1 Cornucopia_Vanilla 1 350 1/25 5/Cornucopia_Frobscottle/none/",
@@ -57,14 +60,17 @@
 				"CornucopiaAA_Cornucopia_MarmaladeSandwich": "216 1 635 1 245 1/25 5/Cornucopia_MarmaladeSandwich/none/",
 				"CornucopiaGG_Cornucopia_MemoryLanePastry": "246 1 280 1 400 1/25 5/Cornucopia_MemoryLanePastry/none/",
 				"CornucopiaSS_Cornucopia_MuddersMilk": "-6 1 91 1 Cornucopia_Peanut 1 262 1/25 5/Cornucopia_MuddersMilk/none/",
+				"CornucopiaGG_Cornucopia_NeoKobePizza": "206 1 246 1 Cornucopia.SoySauce 1 -5 1/25 5/Cornucopia_NeoKobePizza/none/",
 				"CornucopiaAA_Cornucopia_NifftyCookies": "684 1 246 1 245 1/25 5/Cornucopia_NifftyCookies/none/",
 				"CornucopiaGG_Cornucopia_NukaCola": "412 1 245 1 909 1/25 5/Cornucopia_NukaCola/none/",
 				"CornucopiaGG_Cornucopia_OlympianAmbrosia": "268 1 -6 1 340 1 768 1/25 5/Cornucopia_OlympianAmbrosia/none/",
 				"CornucopiaWW_Cornucopia_OtiksSpicedPotatoes": "192 1 260 1 247 1/25 5/Cornucopia_OtiksSpicedPotatoes/none/",
 				"CornucopiaSS_Cornucopia_PanGalacticGargleBlaster": "680 1 350 1 635 1 Cornucopia_Olive 1/25 5/Cornucopia_PanGalacticGargleBlaster/none/",
+				"CornucopiaSS_Cornucopia_PandoranNiktsyey": "250 1 Powdermelon 1 431 1/25 5/Cornucopia_PandoranNiktsyey/none/",
 				"CornucopiaGG_Cornucopia_PigeonMilkCoffee": "433 4 -6 1 170 1/25 5/Cornucopia_PigeonMilkCoffee/none/",
 				"CornucopiaGG_Cornucopia_Poffins": "254 1 246 1 -5 1/25 5/Cornucopia_Poffins/none/",
 				"CornucopiaGG_Cornucopia_Powdercake": "270 1 340 1 169 1/25 5/Cornucopia_Powdercake/none/",
+				"CornucopiaGG_Cornucopia_PowerPellets": "638 1 400 1 635 1 613 1 254 1/25 5/Cornucopia_PowerPellets/none/",
 				"CornucopiaSS_Cornucopia_Raktajino": "433 4 Cornucopia_CinnamonSticks 1 -6 1/25 5/Cornucopia_Raktajino/none/",
 				"CornucopiaGG_Cornucopia_RareCandy": "773 1 245 1/25 5/Cornucopia_RareCandy/none/",
 				"CornucopiaAA_Cornucopia_ReptarBar": "Cornucopia_CocoaPod 1 Cornucopia_Pistachio 1/25 5/Cornucopia_ReptarBar/none/",
@@ -80,7 +86,9 @@
 				"CornucopiaGG_Cornucopia_SpookyDonut": "420 1 246 1 245 1 -5 1/25 5/Cornucopia_SpookyDonut/none/",
 				"CornucopiaGG_Cornucopia_SuperspicyCurry": "260 3 192 1 423 1/25 5/Cornucopia_SuperspicyCurry/none/",
 				"CornucopiaGG_Cornucopia_TriloBites": "589 1 246 1 247 1/25 5/Cornucopia_TriloBites/none/",
-				"CornucopiaGG_Cornucopia_YetosSuperbSoup": "795 1 276 1 426 1/25 5/Cornucopia_YetosSuperbSoup/none/"
+				"CornucopiaGG_Cornucopia_WestfallStew": "767 1 812 1 583 1/25 5/Cornucopia_WestfallStew/none/",
+				"CornucopiaGG_Cornucopia_YetosSuperbSoup": "795 1 276 1 426 1/25 5/Cornucopia_YetosSuperbSoup/none/",
+				"CornucopiaGG_Cornucopia_YoshiCookies": "613 2 246 1 245 1 107 1/25 5/Cornucopia_YoshiCookies/none/"
 			}
 		},
 		// animal husbandry
@@ -98,13 +106,15 @@
 				"CornucopiaPP_Cornucopia_BurritoXXL": "229 1 639 2 424 1/25 5/Cornucopia_BurritoXXL/none/",
 				"CornucopiaPP_Cornucopia_ChefsChoicePlatter": "639 1 832 1 715 1 719 2/25 5/Cornucopia_ChefsChoicePlatter/none/",
 				"CornucopiaPP_Cornucopia_GotchaPorkRoast": "192 1 666 2 404 1/25 5/Cornucopia_GotchaPorkRoast/none/",
+				"CornucopiaPP_Cornucopia_GroxBurger": "216 1 639 1 796 1 Cornucopia_Lettuce 1/25 5/Cornucopia_GroxBurger/none/",
 				"CornucopiaPP_Cornucopia_HeckranBoneSoup": "644 1 580 1 278 1/25 5/Cornucopia_HeckranBoneSoup/none/",
 				"CornucopiaPP_Cornucopia_HotDogSushi": "640 1 423 1 152 1/25 5/Cornucopia_HotDogSushi/none/",
 				"CornucopiaPP_Cornucopia_KrustyBurger": "216 1 639 1 Cornucopia_Soybeans 1/25 5/Cornucopia_KrustyBurger/none/",
 				"CornucopiaPP_Cornucopia_MegaBeefBowl": "639 2 423 1 Cornucopia_Onion 1/25 5/Cornucopia_MegaBeefBowl/none/",
 				"CornucopiaPP_Cornucopia_MysteryFoodX": "641 1 423 1 422 1/25 5/Cornucopia_MysteryFoodX/none/",
 				"CornucopiaPP_Cornucopia_NeverwinterStew": "644 1 346 1 412 1 262 1/25 5/Cornucopia_NeverwinterStew/none/",
-				"CornucopiaPP_Cornucopia_Sandvich": "216 1 640 1 Cornucopia_Lettuce 1 424 1 Cornucopia_Olive 1/25 5/Cornucopia_Sandvich/none/"
+				"CornucopiaPP_Cornucopia_Sandvich": "216 1 640 1 Cornucopia_Lettuce 1 424 1 Cornucopia_Olive 1/25 5/Cornucopia_Sandvich/none/",
+				"CornucopiaPP_Cornucopia_SinnersSandwich": "216 1 641 1 400 1 270 1/25 5/Cornucopia_SinnersSandwich/none/"
 			}
 		}
 	]

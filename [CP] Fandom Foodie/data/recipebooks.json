@@ -23,12 +23,14 @@
 					"ExcludeFromRandomSale": true,
 					"ContextTags": [
 						"modid_cornucopia.fandomfoodie",
-						"color_blue",
+						"color_dark_cyan",
 						"book_item",
-						"spu_recipe_book"
+						"spu_recipe_book",
+						"spu_book_color"
 					],
 					"CustomFields": {
-						"Spiderbuttons.SpecialPowerUtilities/Books/RecipePrefix": "CornucopiaAA_"
+						"Spiderbuttons.SpecialPowerUtilities/Books/RecipePrefix": "CornucopiaAA_",
+						"Spiderbuttons.SpecialPowerUtilities/Books/Color": "#7ca9ff"
 					}
 				},
 				"Cornucopia_RecipeBook_FandomFoodieGourmetGaming": {
@@ -49,10 +51,12 @@
 						"modid_cornucopia.fandomfoodie",
 						"color_purple",
 						"book_item",
-						"spu_recipe_book"
+						"spu_recipe_book",
+						"spu_book_color"
 					],
 					"CustomFields": {
-						"Spiderbuttons.SpecialPowerUtilities/Books/RecipePrefix": "CornucopiaGG_"
+						"Spiderbuttons.SpecialPowerUtilities/Books/RecipePrefix": "CornucopiaGG_",
+						"Spiderbuttons.SpecialPowerUtilities/Books/Color": "#af7cff"
 					}
 				},
 				"Cornucopia_RecipeBook_FandomFoodieStarsSaucers": {
@@ -71,7 +75,7 @@
 					"ExcludeFromRandomSale": true,
 					"ContextTags": [
 						"modid_cornucopia.fandomfoodie",
-						"color_black",
+						"color_gray",
 						"book_item",
 						"spu_recipe_book"
 					],
