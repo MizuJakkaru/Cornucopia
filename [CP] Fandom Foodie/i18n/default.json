@@ -257,7 +257,7 @@
 	"Shane_dialogue.SpinachPuffs": "Oooh, thanks! They're best when they're still hot!",
 	"Harvey_dialogue.WonkaBar": "Thank you very much! I'll keep this at the clinic for a rainy day.",
 	
-	// update 1.xxx
+	// update 1.1.0
 	"Tab_name": "TaB",
 	"Tab_description": "Free the heavenly brown elixir from the jewels of pink carapace and imbibe like the wind.",
 	"Mail_Tab_body": "@,^ Years in the future, but not many, this recipe will be remembered as the pinnacle of humankind's flavor alchemy. I have gifted to you the most valuable instructions on how to recreate the sugary nectar. Proceed with caution. Too much caffeinated jittering may agitate all the little bubbles curiously hidden in the liquid, creating too much pressure in the can.^   -Krobus",
@@ -282,6 +282,22 @@
 	"GroxBurger_description": "Well known across the Imperium, it's apparently super palatable and tasty.",
 	"SinnersSandwich_name": "Sinner's Sandwich",
 	"SinnersSandwich_description": "A self-inflicted punishment to atone for past sins.",
+	
+	// update 1.2.0
+	"BlueChocolateChipCookies_name": "Blue Chocolate Chip Cookies",
+	"BlueChocolateChipCookies_description": "The comforting taste of home for a wayward demigod.",
+	"ForkrootTea_name": "Forkroot Tea",
+	"ForkrootTea_description": "A powerful sedative for channelers of the One Power. To those without magic, it simply tastes of mint.",
+	"GiggleCakes_name": "Giggle Cakes",
+	"GiggleCakes_description": "The fluffiest pancake flavored like your favorite fruit!",
+	"MarisCookie_name": "Mari's Cookie",
+	"MarisCookie_description": "Everyone's favorite cookie. Made with MARI's love.",
+	"NanoCola_name": "Nano Cola",
+	"NanoCola_description": "Nerf this!",
+	"SimpleWafers_name": "Simple Wafers",
+	"SimpleWafers_description": "Come home to the impossible flavor of your own completion.",
+	"SoporSlimePie_name": "Sopor Slime Pie",
+	"SoporSlimePie_description": "Filled with a relaxing ooze that helps assuage the terrible visions of blood and carnage.",
 
 	
 	

@@ -413,6 +413,53 @@
 						}
 					]
 				},
+				"CornucopiaAA_Cornucopia_GiggleCakes": {
+					"ProductQualifiedId": "(O)Cornucopia_GiggleCakes",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_fruits",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FruitAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 208,
+								"Y": 400,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_CinnamonSticks",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)MysticSyrup",
+							"Amount": 1
+						}
+					]
+				},
 				"CornucopiaAA_Cornucopia_HayburgerandFries": {
 					"ProductQualifiedId": "(O)Cornucopia_HayburgerandFries",
 					"ProductAmount": 1,
@@ -764,6 +811,35 @@
 						}
 					]
 				},
+				"CornucopiaAA_Cornucopia_SimpleWafers": {
+					"ProductQualifiedId": "(O)Cornucopia_SimpleWafers",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)578",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Vanilla",
+							"Amount": 1
+						}
+					]
+				},
 				"CornucopiaGG_Cornucopia_SlurpJuice": {
 					"ProductQualifiedId": "(O)Cornucopia_SlurpJuice",
 					"ProductAmount": 1,
@@ -1047,6 +1123,53 @@
 				"HasMod|contains=Cornucopia.CookingRecipes": false,
 			},
 			"Entries": {
+				"CornucopiaWW_Cornucopia_BlueChocolateChipCookies": {
+					"ProductQualifiedId": "(O)Cornucopia_BlueChocolateChipCookies",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_CocoaPod",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)SeaJelly",
+							"Amount": 1
+						}
+					]
+				},
 				"CornucopiaAA_Cornucopia_CookieCat": {
 					"ProductQualifiedId": "(O)Cornucopia_CookieCat",
 					"ProductAmount": 1,
@@ -1126,6 +1249,53 @@
 				"HasMod|contains=Cornucopia.CookingRecipes": true,
 			},
 			"Entries": {
+				"CornucopiaWW_Cornucopia_BlueChocolateChipCookies": {
+					"ProductQualifiedId": "(O)Cornucopia_BlueChocolateChipCookies",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)246",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Chocolate",
+							"Amount": 1
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)SeaJelly",
+							"Amount": 1
+						}
+					]
+				},
 				"CornucopiaAA_Cornucopia_CookieCat": {
 					"ProductQualifiedId": "(O)Cornucopia_CookieCat",
 					"ProductAmount": 1,

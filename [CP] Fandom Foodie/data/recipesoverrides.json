@@ -35,10 +35,27 @@
 					"0": "-6 1 91 1 Cornucopia_PeanutButter 1 262 1"							//swap peanut for peanut butter			
 				},
 				"CornucopiaGG_Cornucopia_NeoKobePizza": {
-					"0": "206 1 Cornucopia_WheatNoodles 1 Cornucopia_SoySauce 1 -5 1"			//swap wheat for wheat noodles		
+					"0": "206 1 Cornucopia_WheatNoodles 1 Cornucopia_SoySauce 1 -5 1"			//swap wheat for wheat noodles & soybeans for soy sauce		
 				},
 				"CornucopiaSS_Cornucopia_SoylentGreen": {
 					"0": "Cornucopia_GellingPowder 1 153 2 157 2"								//swap bone fragment for gelling powder
+				},
+			}
+		},
+		// artisan machines & extended trees
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Priority": "Late",
+			"When": {
+				"Enable Extended Recipes Pack": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter: hostPlayer |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+			},
+			"Fields": {
+				"CornucopiaGG_Cornucopia_NanoCola": {
+					"0": "400 1 Cornucopia_ChewingGum 1 245 1"									//add chewing gum		
 				},
 			}
 		},
@@ -72,11 +89,17 @@
 				"HasMod|contains=Cornucopia.CookingRecipes": true,
 			},
 			"Fields": {
+				"CornucopiaWW_Cornucopia_BlueChocolateChipCookies": {
+					"0": "C246 1 245 1 -5 1 Cornucopia_Chocolate 1 SeaJelly 1"									//swap cocoa pod for chocolate
+				},
 				"CornucopiaAA_Cornucopia_CookieCat": {
-					"0": "Cornucopia_Chocolate 1 -6 1 245 1"									//swap cocoa pod for chocolate
+					"0": "Cornucopia_Chocolate 1 -6 1 245 1"
 				},
 				"CornucopiaAA_Cornucopia_ReptarBar": {
 					"0": "Cornucopia_Chocolate 1 Cornucopia_Pistachio 1"
+				},
+				"CornucopiaGG_Cornucopia_MarisCookie": {
+					"0": "246 1 Cornucopia_BrownSugar 1 -5 1 74 1"												//swap sugar for brown sugar
 				}
 			}
 		},

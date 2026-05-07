@@ -46,7 +46,7 @@
 						"Entries",
 						"Universal_Hate"
 					],
-					"Value": "Cornucopia_DwarfBread Cornucopia_DubiousFood Cornucopia_Gagh Cornucopia_GrubPlatter Cornucopia_SlimeDecoction",
+					"Value": "Cornucopia_DwarfBread Cornucopia_DubiousFood Cornucopia_Gagh Cornucopia_GrubPlatter Cornucopia_SlimeDecoction Cornucopia_SoporSlimePie",
 					"Delimiter": " "
 				},
 				{
@@ -306,7 +306,7 @@
 						"Maru",
 						1
 					],
-					"Value": "Cornucopia_RedKibble",
+					"Value": "Cornucopia_MarisCookie Cornucopia_RedKibble",
 					"Delimiter": " "
 				},
 				{
@@ -406,7 +406,7 @@
 						"Willy",
 						1
 					],
-					"Value": "Cornucopia_SeaSaltIceCream",
+					"Value": "Cornucopia_SeaSaltIceCream Cornucopia_BlueChocolateChipCookies",
 					"Delimiter": " "
 				},
 				{
@@ -427,6 +427,16 @@
 						1
 					],
 					"Value": "Cornucopia_Potion",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Wizard",
+						7
+					],
+					"Value": "Cornucopia_ForkrootTea",
 					"Delimiter": " "
 				}
 			]
