@@ -1537,7 +1537,7 @@
 					"Name": "CornucopiaGG_Cornucopia_NanoCola",
 					"Category": -7,
 					"Type": "Cooking",
-					"SpriteIndex": 0,
+					"SpriteIndex": 106,
 					"DisplayName": "{{i18n:NanoCola_name}}",
 					"Description": "{{i18n:NanoCola_description}}",
 					"Texture": "MCornucopia.FandomFoodie/Objects",
