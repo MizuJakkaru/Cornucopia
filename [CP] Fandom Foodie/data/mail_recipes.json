@@ -12,11 +12,11 @@
 				"Cornucopia.CorkingRecipes_KikisCake": "{{i18n:Mail_KikisCake_body}}%item cookingRecipe Cornucopia_KikisCake%%[#]{{i18n:Mail_KikisCake_title}}",
 				"Cornucopia.CorkingRecipes_KrabbyPatty": "{{i18n:Mail_KrabbyPatty_body}}%item cookingRecipe Cornucopia_KrabbyPatty%%[#]{{i18n:Mail_KrabbyPatty_title}}",
 				"Cornucopia.CorkingRecipes_LembasBread": "{{i18n:Mail_LembasBread_body}}%item cookingRecipe Cornucopia_LembasBread%%[#]{{i18n:Mail_LembasBread_title}}",
-				"Cornucopia.CorkingRecipes_Potion": "{{i18n:Mail_Potion_body}}%item cookingRecipe Cornucopia_Potion%%[#]{{i18n:Mail_Potion_title}}",
+				"Cornucopia.CorkingRecipes_Potion": "{{i18n:Mail_Potion_body}}%item cookingRecipe Cornucopia_Potion%%[letterbg 2][#]{{i18n:Mail_Potion_title}}",
 				"Cornucopia.CorkingRecipes_RedKibble": "{{i18n:Mail_RedKibble_body}}%item cookingRecipe Cornucopia_RedKibble%%[#]{{i18n:Mail_RedKibble_title}}",
 				"Cornucopia.CorkingRecipes_SakumaDrops": "{{i18n:Mail_SakumaDrops_body}}%item cookingRecipe Cornucopia_SakumaDrops%%[#]{{i18n:Mail_SakumaDrops_title}}",
 				"Cornucopia.CorkingRecipes_SpinachPuffs": "{{i18n:Mail_SpinachPuffs_body}}%item cookingRecipe Cornucopia_SpinachPuffs%%[#]{{i18n:Mail_SpinachPuffs_title}}",
-				"Cornucopia.CorkingRecipes_Tab": "{{i18n:Mail_Tab_body}}%item cookingRecipe Cornucopia_Tab%%[#]{{i18n:Mail_Tab_title}}",
+				"Cornucopia.CorkingRecipes_Tab": "{{i18n:Mail_Tab_body}}%item cookingRecipe Cornucopia_Tab%%[letterbg 3][#]{{i18n:Mail_Tab_title}}",
 				"Cornucopia.CorkingRecipes_WonkaBar": "{{i18n:Mail_WonkaBar_body}}%item cookingRecipe Cornucopia_WonkaBar%%[#]{{i18n:Mail_WonkaBar_title}}",
 			}
 		},
