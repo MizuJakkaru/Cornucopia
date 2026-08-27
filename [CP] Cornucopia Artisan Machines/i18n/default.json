@@ -243,11 +243,13 @@
   "MarnieSpecialOrder_objective0": "Gather 50 bottles of milk.",
   "MarnieSpecialOrder_objective1": "Place the milk in Marnie's kitchen.",
   "MarnieSpecialOrder_letter": "Dear @,^ I can't begin to express how grateful I am to you for the other day. Making yogurt with Jas and Shane really helped us create a wonderful memory and I couldn't have done it without you. I attached the crafting recipe for you to make yogurt jars of your very own!^   -Marnie %item craftingRecipe Cornucopia_YogurtJar %%[#]Yogurt Jar Recipe",
+  "MarnieSpecialOrder_letter.reminder": "Dear @,^ I can't begin to express how grateful I am to you for the other day. Making yogurt with Jas and Shane really helped us create a wonderful memory and I couldn't have done it without you. I attached the crafting recipe for you to make yogurt jars of your very own!^   -Marnie %item craftingRecipe Cornucopia_YogurtJar %%[#]Yogurt Jar Recipe",
   
   "EmilySpecialOrder_name": "Oils Essential",
   "EmilySpecialOrder_text": "Hey everyone! I've been experimenting with some new channeling techniques using essential oils and essences of different flowers and such. I could really use help collecting some new exciting ingredients. Wanna help me out?",
   "EmilySpecialOrder_objective": "Deliver 15 {Crop:Text} to Emily's studio.",
   "EmilySpecialOrder_letter": "@!^ Thank you @, you really helped me connect with my deepest energies (and unexpectantly with my sister!). I wanted to give you a thank you present so you can make essential oils of your every own. If you need any suggestions feel free to ask!^   -Emily %item craftingRecipe Cornucopia_Alembic %%[#]Alembic Recipe",
+  "EmilySpecialOrder_letter.reminder": "@!^ Thank you @, you really helped me connect with my deepest energies (and unexpectantly with my sister!). I wanted to give you a thank you present so you can make essential oils of your every own. If you need any suggestions feel free to ask!^   -Emily %item craftingRecipe Cornucopia_Alembic %%[#]Alembic Recipe",
   
   "GusSpecialOrder_name": "Smoky Flavors on the Horizon",
   "GusSpecialOrder_text": "I'm looking to try out a new dish or two using smoked fish. If someone could ship some smoked fish, maybe I could pick up what I need from the markets and scratch my creative itch.",

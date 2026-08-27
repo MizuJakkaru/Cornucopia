@@ -49,7 +49,7 @@
 						}
 					}
 				},
-				"Cornucopia_BambooSeeds": {
+				/*"Cornucopia_BambooSeeds": {
 					"YieldOverrides": {
 						"6": { //number of phase which you harvest to get this (0=seed)
 							"IgnoreDefaultDrops": false,
@@ -62,7 +62,7 @@
 							]
 						}
 					}
-				},
+				},*/
 				"Cornucopia_CilantroSeeds": {
 					"YieldOverrides": {
 						"4": { //number of phase which you harvest to get this (0=seed)

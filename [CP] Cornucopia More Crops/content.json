@@ -182,7 +182,7 @@
         },
 		{
             "Action": "Load",
-            "Target": "Cornucopia.MoreCrops/treesapodilla_spring, Cornucopia.MoreCrops/treesapodilla_summer, Cornucopia.MoreCrops/treesapodilla_fall, Cornucopia.MoreCrops/treesapodilla_winter, Cornucopia.MoreCrops/treedate_empty, Cornucopia.MoreCrops/treedate_fall",
+            "Target": "Cornucopia.MoreCrops/treesapodilla_spring, Cornucopia.MoreCrops/treesapodilla_summer, Cornucopia.MoreCrops/treesapodilla_fall, Cornucopia.MoreCrops/treesapodilla_winter, Cornucopia.MoreCrops/treedate_empty, Cornucopia.MoreCrops/treedate_fall, Cornucopia.MoreCrops/treebamboo_summer",
             "FromFile": "assets/{{TargetWithoutPath}}.png"
         },
 		

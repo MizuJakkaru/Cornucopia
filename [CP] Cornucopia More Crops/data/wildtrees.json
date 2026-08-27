@@ -93,6 +93,80 @@
 					"CustomFields": {
 						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:Date_name}}"
 					}
+				},
+				"Cornucopia_BambooSeeds": {
+					"Textures": [
+						{
+							"Texture": "Cornucopia.MoreCrops/treebamboo_summer",
+							"Condition": "ANY \"LOCATION_SEASON Here spring summer fall winter\" \"LOCATION_IS_INDOORS Here\""
+						}
+					],
+					"SeedItemId": "(O)Cornucopia_BambooSeeds",
+					"DebrisColor": 100004,
+					"IsLeafyInWinter": true,
+					"UseAlternateSpriteWhenNotShaken": false,
+					"SeedOnShakeChance": 0,
+					"SeedSpreadChance": 0.65,
+					"GrowthChance": 0.5,
+					"SeedOnChopChance": 0,
+					"AllowWoodpeckers": false,
+					"DropWoodOnChop": false,
+					"DropHardwoodOnLumberChop": false,
+					"ChopItems": [
+						{
+							"MinSize": null,
+							"MaxSize": null,
+							"ForStump": false,
+							"Season": null,
+							"Chance": 1.0,
+							"Condition": null,
+							"Id": "(O)Cornucopia_Bamboo",
+							"ItemId": "(O)Cornucopia_Bamboo",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 4,
+							"MaxStack": 7,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": 0,
+							"QualityModifiers": null,
+							"QualityModifierMode": 0,
+							"ModData": null,
+							"PerItemCondition": null
+						},
+						{
+							"MinSize": null,
+							"MaxSize": null,
+							"ForStump": true,
+							"Season": null,
+							"Chance": 1.0,
+							"Condition": null,
+							"Id": "(O)Cornucopia_Bamboo",
+							"ItemId": "(O)Cornucopia_Bamboo",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 1,
+							"MaxStack": 3,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": 0,
+							"QualityModifiers": null,
+							"QualityModifierMode": 0,
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					],
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:Bamboo_name}}"
+					}
 				}
 			}
 		}

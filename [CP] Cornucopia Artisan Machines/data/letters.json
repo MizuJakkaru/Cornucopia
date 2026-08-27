@@ -10,6 +10,8 @@
 				"Cornucopia.ArtisanMachines_AlembicRecipe": "{{i18n:EmilySpecialOrder_letter}}",
 				"Cornucopia.ArtisanMachines_DeluxeSmokerRecipe": "{{i18n:GusSpecialOrder_letter}}",
 				"Cornucopia.ArtisanMachines_WaxBarrelRecipe": "{{i18n:GeorgeSpecialOrder_letter}}",
+				"Cornucopia.ArtisanMachines_YogurtJarReminder": "{{i18n:MarnieSpecialOrder_letter.reminder}}",
+				"Cornucopia.ArtisanMachines_AlembicReminder": "{{i18n:EmilySpecialOrder_letter.reminder}}",
 			}
 
 		},
@@ -22,6 +24,30 @@
 					"Trigger": "DayEnding",
 					"Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Dehydrator",
 					"Action": "AddMail Current Cornucopia.ArtisanMachines_PierreDehydratorAlternate tomorrow"
+				}
+			},
+			"Entries": {
+				"Cornucopia.ArtisanMachines_SendWaxBarrelRecipe": {
+					"Id": "Cornucopia.ArtisanMachines_SendWaxBarrelRecipe",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_MAIL Cornucopia.ArtisanMachines_WaxBarrel Current Received",
+					"Action": "AddMail Current Cornucopia.ArtisanMachines_WaxBarrelRecipe tomorrow"
+				}
+			},
+			"Entries": {
+				"Cornucopia.ArtisanMachines_SendYogurtJarReminder": {
+					"Id": "Cornucopia.ArtisanMachines_SendYogurtJarReminder",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_MAIL Cornucopia.ArtisanMachines_YogurtJar Current Received",
+					"Action": "AddMail Current Cornucopia.ArtisanMachines_SendYogurtJarReminder tomorrow"
+				}
+			},
+			"Entries": {
+				"Cornucopia.ArtisanMachines_SendAlembicReminder": {
+					"Id": "Cornucopia.ArtisanMachines_SendAlembicReminder",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_MAIL Cornucopia.ArtisanMachines_Alembic Current Received",
+					"Action": "AddMail Current Cornucopia.ArtisanMachines_SendAlembicReminder tomorrow"
 				}
 			}
 		}

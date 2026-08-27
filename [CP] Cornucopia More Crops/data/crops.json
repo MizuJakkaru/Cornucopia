@@ -177,7 +177,7 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 49
 				},
-				"Cornucopia_BambooSeeds": {
+				/*"Cornucopia_BambooSeeds": {
 					"Seasons": [ "spring", "summer" ],
 					"DaysInPhase": [ 1, 2, 1, 2, 2, 1 ],
 					"HarvestItemId": "Cornucopia_Bamboo",
@@ -187,7 +187,7 @@
 					"HarvestMinStack": 1,
 					"HarvestMaxStack": 2,
 					//"ExtraHarvestChance": "{{75Percent}}",
-				},
+				},*/
 				"Cornucopia_BarleySeeds": {
 					"Seasons": [ "fall" ],
 					"DaysInPhase": [ 1, 1, 1, 1 ],
