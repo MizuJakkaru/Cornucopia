@@ -7,7 +7,7 @@
 			"Target": "furyx639.CustomBush/Data",
 			//"When": {"Enable Essential Pack": true},
 			"Entries": {
-				"(O)Cornucopia_OliveSeeds": {
+				/*"(O)Cornucopia_OliveSeeds": {
 					"DisplayName": "{{i18n:Olive_name}}",
 					"Description": "{{i18n:OliveSeeds_description}}",
 					"AgeToProduce": 30,
@@ -25,7 +25,7 @@
 					"Texture": "Cornucopia.MoreCrops/teabushes",
 					"IndoorTexture": "Cornucopia.MoreCrops/teabushes_indoors",
 					"TextureSpriteRow": 18,
-				},
+				},*/
 				"(O)Cornucopia_RaspberrySeeds": {
 					"DisplayName": "{{i18n:Raspberry_name}}",
 					"Description": "{{i18n:RaspberrySeeds_description}}",
