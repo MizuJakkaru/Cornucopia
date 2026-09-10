@@ -507,6 +507,7 @@
 					"Texture": "Cornucopia.MoreCrops/Crops",
 					"SpriteIndex": 57,
 					"RegrowDays": 3,
+					"IsRaised": true,
 				}
 			}
 		},
