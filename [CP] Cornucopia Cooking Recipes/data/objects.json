@@ -6066,7 +6066,7 @@
 					"Texture": "MCornucopia.CookingRecipes/Objects",
 					"Price": 750,
 					"Edibility": 36,
-					"IsDrink": true,
+					"IsDrink": false,
 					"Buffs": [
 						{
 							"Id": "Food",

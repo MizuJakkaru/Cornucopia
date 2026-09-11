@@ -13,6 +13,25 @@
 					"ItemId": "(O)Cornucopia_SesameSeeds",
 					"Chance": 0.025
 				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_SesameSeeds",
+					"ToPosition": "Top"
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {
+				"Enable Extended Crops Pack": true
+			},
+			"TargetField": [
+				"Desert",
+				"ArtifactSpots"
+			],
+			"Entries": {
 				"Cornucopia_LentilsSeeds": {
 					"Id": "Cornucopia_LentilsSeeds",
 					"ItemId": "(O)Cornucopia_LentilsSeeds",
@@ -20,10 +39,6 @@
 				},
 			},
 			"MoveEntries": [
-				{
-					"Id": "Cornucopia_SesameSeeds",
-					"ToPosition": "Top"
-				},
 				{
 					"Id": "Cornucopia_LentilsSeeds",
 					"ToPosition": "Top"
