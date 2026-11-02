@@ -219,7 +219,7 @@
 					"Description": "{{i18n:CookieButter_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 250,
-					"Edibility": -300,
+					"Edibility": 50,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
@@ -361,7 +361,8 @@
 					"Description": "{{i18n:FishSauce_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
-					"Edibility": -300,
+					"Edibility": -10,
+					"IsDrink": true,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
@@ -383,7 +384,7 @@
 					"Description": "{{i18n:FlavoredYogurt_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 250,
-					"Edibility": 15,
+					"Edibility": 80,
 					"ColorOverlayFromNextIndex": true,
 					"IsDrink": true,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
@@ -427,7 +428,7 @@
 					"Description": "{{i18n:Garum_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 300,
-					"Edibility": -300,
+					"Edibility": -10,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
@@ -488,7 +489,7 @@
 					"Description": "{{i18n:HoneyButter_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 250,
-					"Edibility": -300,
+					"Edibility": 30,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
@@ -507,7 +508,7 @@
 					"Description": "{{i18n:MapleButter_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 325,
-					"Edibility": -300,
+					"Edibility": 30,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_sand",
@@ -526,7 +527,7 @@
 					"Description": "{{i18n:Margarine_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
-					"Edibility": -300,
+					"Edibility": 5,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
@@ -545,7 +546,7 @@
 					"Description": "{{i18n:NutButter_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 230,
-					"Edibility": -300,
+					"Edibility": 20,
 					"ColorOverlayFromNextIndex": true,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
@@ -613,7 +614,7 @@
 					"Description": "{{i18n:PickledEggs_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 300,
-					"Edibility": -300,
+					"Edibility": 18,
 					"ColorOverlayFromNextIndex": true,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
@@ -636,7 +637,7 @@
 					"Description": "{{i18n:PickledFish_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 100,
-					"Edibility": -300,
+					"Edibility": 18,
 					"ColorOverlayFromNextIndex": true,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
@@ -659,7 +660,7 @@
 					"Description": "{{i18n:PineNuts_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 80,
-					"Edibility": -300,
+					"Edibility": 5,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_sand",
@@ -815,7 +816,7 @@
 					"Description": "{{i18n:ShrimpPaste_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 150,
-					"Edibility": -300,
+					"Edibility": -30,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_red",
@@ -838,7 +839,7 @@
 					"Description": "{{i18n:SmokedCheese_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 400,
-					"Edibility": 36,
+					"Edibility": 50,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_red",
@@ -1027,7 +1028,7 @@
 					"Description": "{{i18n:PlainYogurt_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
-					"Edibility": 15,
+					"Edibility": 50,
 					"IsDrink": true,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
@@ -1105,7 +1106,7 @@
 					"Description": "{{i18n:Sauerkraut_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 450,
-					"Edibility": -300,
+					"Edibility": 20,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_yellow",
@@ -1125,7 +1126,7 @@
 					"Description": "{{i18n:Starmite_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 400,
-					"Edibility": -300,
+					"Edibility": -50,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_purple",
@@ -1212,7 +1213,7 @@
 					"Description": "{{i18n:BrinedOlives_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 100,
-					"Edibility": -300,
+					"Edibility": 10,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_green",
@@ -1312,7 +1313,7 @@
 					"Description": "{{i18n:PeanutButter_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
-					"Edibility": -300,
+					"Edibility": 20,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_brown",
@@ -1355,7 +1356,7 @@
 					"Description": "{{i18n:PickleSpears_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 100,
-					"Edibility": -300,
+					"Edibility": 10,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_green",
@@ -1375,7 +1376,7 @@
 					"Description": "{{i18n:StinkyTofu_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 400,
-					"Edibility": 5,
+					"Edibility": -10,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_white",
@@ -1394,7 +1395,7 @@
 					"Description": "{{i18n:SoySauce_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 300,
-					"Edibility": -300,
+					"Edibility": -5,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_dark_brown",
@@ -1463,7 +1464,7 @@
 					"Description": "{{i18n:Kimchi_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 300,
-					"Edibility": -300,
+					"Edibility": 10,
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_orange",

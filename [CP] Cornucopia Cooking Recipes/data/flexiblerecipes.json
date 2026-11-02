@@ -6819,9 +6819,17 @@
 							"Amount": 1
 						},
 						{
-							"Type": "Item",
-							"Value": "(O)Cornucopia_Tahini",
-							"Amount": 1
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
 						},
 						{
 							"Type": "ContextTag",

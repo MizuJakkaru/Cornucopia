@@ -196,7 +196,7 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "machines/cask.json, machines/cheesepress.json, machines/keg.json, machines/loom.json, machines/mill.json, machines/oilmaker.json, machines/dehydrator.json"
+			"FromFile": "machines/cask.json, machines/cheesepress.json, machines/keg.json, machines/loom.json, machines/mill.json, machines/oilmaker.json, machines/dehydrator.json, machines/seedmaker.json"
 		},
 		{
 			"Action": "Include",

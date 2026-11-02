@@ -1329,14 +1329,14 @@
 		},
 		{
 			"Name": "RecipeBook_InlandSea_List",
-			"Value": "{{i18n:GarlicNaan_name}}{{i18n:separator}}{{i18n:Haleem_name}}{{i18n:separator}}{{i18n:Halloumi_name}}{{i18n:separator}}{{i18n:PantaBhat_name}}{{i18n:separator}}{{i18n:HoriatikiSalad_name}}{{i18n:separator}}{{i18n:Pita_name}}{{i18n:separator}}{{i18n:RusticChorba_name}}{{i18n:separator}}{{i18n:DalTadka_name}}{{i18n:separator}}{{i18n:Dolmas_name}}{{i18n:separator}}{{i18n:Falafel_name}}{{i18n:separator}}{{i18n:GreenPilaf_name}}{{i18n:separator}}{{i18n:Halva_name}}{{i18n:pageseparator}}",
+			"Value": "{{i18n:GarlicNaan_name}}{{i18n:separator}}{{i18n:Haleem_name}}{{i18n:separator}}{{i18n:Halloumi_name}}{{i18n:separator}}{{i18n:PantaBhat_name}}{{i18n:separator}}{{i18n:HoriatikiSalad_name}}{{i18n:separator}}{{i18n:Pita_name}}{{i18n:separator}}{{i18n:RusticChorba_name}}{{i18n:separator}}{{i18n:DalTadka_name}}{{i18n:separator}}{{i18n:Dolmas_name}}{{i18n:separator}}{{i18n:Falafel_name}}{{i18n:separator}}{{i18n:GreenPilaf_name}}{{i18n:separator}}{{i18n:JeweledRice_name}}{{i18n:pageseparator}}",
 			"When": {
 				"WorldTraveler_Extended": true
 			}
 		},
 		{
 			"Name": "RecipeBook_InlandSea_ListB",
-			"Value": "{{i18n:pageseparator}}{{i18n:JeweledRice_name}}{{i18n:separator}}{{i18n:Kheer_name}}{{i18n:separator}}{{i18n:MintChutney_name}}{{i18n:separator}}{{i18n:Muhammara_name}}{{i18n:separator}}{{i18n:PalakPaneer_name}}{{i18n:separator}}{{i18n:PitaChips_name}}{{i18n:separator}}{{i18n:RoseDrink_name}}{{i18n:separator}}{{i18n:RoseWater_name}}{{i18n:separator}}{{i18n:SweetPilaf_name}}{{i18n:separator}}{{i18n:Tabbouleh_name}}{{i18n:separator}}{{i18n:Tzatziki_name}}{{i18n:pageend}}",
+			"Value": "{{i18n:pageseparator}}{{i18n:Kheer_name}}{{i18n:separator}}{{i18n:MintChutney_name}}{{i18n:separator}}{{i18n:Muhammara_name}}{{i18n:separator}}{{i18n:Nougat_name}}{{i18n:separator}}{{i18n:PalakPaneer_name}}{{i18n:separator}}{{i18n:PitaChips_name}}{{i18n:separator}}{{i18n:RoseDrink_name}}{{i18n:separator}}{{i18n:RoseWater_name}}{{i18n:separator}}{{i18n:SweetPilaf_name}}{{i18n:separator}}{{i18n:Tabbouleh_name}}{{i18n:separator}}{{i18n:Tzatziki_name}}{{i18n:pageend}}",
 		},
 		{
 			"Name": "RecipeBook_Delta_List",

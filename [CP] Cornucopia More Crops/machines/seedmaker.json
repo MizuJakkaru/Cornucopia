@@ -1,0 +1,42 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)25",
+				"OutputRules"
+			],
+			"Entries": {
+				"Cornucopia_BellPepperColored": {
+					"Id": "Cornucopia_BellPepperColored",
+					"Triggers": [
+						{
+							"RequiredItemId": "(O)Cornucopia_BellPepperYellow"
+						},
+						{
+							"RequiredItemId": "(O)Cornucopia_BellPepperOrange"
+						},
+						{
+							"RequiredItemId": "(O)Cornucopia_BellPepperGreen"
+						}
+					],
+					"OutputItem": [
+						{
+							"ItemId": "(O)Cornucopia_BellPepperSeeds",
+							"MinStack": 1,
+							"MaxStack": 3
+						}
+					],
+					"MinutesUntilReady": 20
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_BellPepperColored",
+					"BeforeId": "Default"
+				}
+			]
+		}
+	]
+}

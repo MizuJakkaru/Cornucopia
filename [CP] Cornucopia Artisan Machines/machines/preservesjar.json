@@ -100,8 +100,8 @@
 						{
 							"ItemId": "(O)Cornucopia_PickledEggs",
 							"Quality": 2,
-							"MinStack": 3,
-							"MaxStack": 3
+							"MinStack": 5,
+							"MaxStack": 5
 						}
 					],
 					"MinutesUntilReady": 4000
@@ -146,8 +146,9 @@
 							"CopyPrice": true,
 							"PriceModifierMode": "Stack",
 							"CustomData": {
-										"selph.ExtraMachineConfig.CopyColor": "true",
-									},
+								"selph.ExtraMachineConfig.CopyColor": "true",
+								"selph.ExtraMachineConfig.InputEdibilityMultiplier": 1.75
+							},
 							"PriceModifiers": [
 								{
 									"Modification": "Multiply",
@@ -183,8 +184,9 @@
 							"CopyPrice": true,
 							"PriceModifierMode": "Stack",
 							"CustomData": {
-										"selph.ExtraMachineConfig.CopyColor": "true",
-									},
+								"selph.ExtraMachineConfig.CopyColor": "true",
+								"selph.ExtraMachineConfig.InputEdibilityMultiplier": 1.75
+							},
 							"PriceModifiers": [
 								{
 									"Modification": "Multiply",

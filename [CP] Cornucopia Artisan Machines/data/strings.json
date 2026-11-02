@@ -13,6 +13,16 @@
 				"Cornucopia_NutCheese": "{{i18n: NutCheese_flavored}}",
 				"Cornucopia_NutMilk": "{{i18n: NutMilk_flavored}}",
             }
+        },
+		{
+            "Action": "EditData",
+            "Target": "Strings/SpecialOrderStrings",
+			"When": {
+				"Enable Juicer": true
+			},
+            "Entries": {
+				"Pam_Text": "Heard there's a spirit made out of potatoes that really packs a whallop, if you know what I mean. Mind dropping a few taters into a juicer and bringing me a batch or two?",
+            }
         }
 	]
 }

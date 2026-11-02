@@ -10545,17 +10545,9 @@
 							}
 						},
 						{
-							"Type": "ContextTag",
-							"Value": "sesame_seed_item, sesame_item",
-							"Amount": 4,
-							"OverrideText": "[LocalizedText Cornucopia.CookingRecipes/i18n:Indicator [EscapedText [LocalizedText Cornucopia.MoreCrops/i18n:SesameSeeds_name]]]",
-							"OverrideTexturePath": "Cornucopia.MoreCrops/Objects",
-							"OverrideTextureRect": {
-								"X": 208,
-								"Y": 208,
-								"Width": 16,
-								"Height": 16
-							}
+							"Type": "Item",
+							"Value": "(O)Cornucopia_Tahini",
+							"Amount": 1
 						},
 						{
 							"Type": "ContextTag",
@@ -15408,9 +15400,17 @@
 							}
 						},
 						{
-							"Type": "Item",
-							"Value": "(O)Cornucopia_Tahini",
-							"Amount": 1
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
 						},
 						{
 							"Type": "ContextTag",
