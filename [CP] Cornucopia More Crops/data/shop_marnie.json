@@ -12,22 +12,13 @@
 		"Cornucopia_CatnipSeeds": {
 			"Id": "Cornucopia_CatnipSeeds",
 			"ItemId": "Cornucopia_CatnipSeeds",
-			//"Condition": "SEASON spring",
-			//"Price": 60,
 			"IgnoreShopPriceModifiers": true
 		},
 		"Cornucopia_MelaleucaLeavesSapling": {
 			"Id": "Cornucopia_MelaleucaLeavesSapling",
 			"ItemId": "Cornucopia_MelaleucaLeavesSapling",
-			//"Condition": "YEAR 2",
-			//"Price": 2000,
+			"Price": 2800,
 			"IgnoreShopPriceModifiers": true,
-			"PriceModifiers": [
-				{
-					"Modification": "Multiply",
-					"Amount": 2.0
-				}
-			]
 		}
       },
 	  "MoveEntries": [

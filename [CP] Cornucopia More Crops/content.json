@@ -49,7 +49,7 @@
 		"Map Edits": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Enable small map edits (currently just adds sapodilla trees to Ginger Island)."
+			"Description": "Enable small map edits to add wild trees to Ginger Island and the Desert."
 		},
 		"SVE Compat Patch": {
 			"AllowValues": "true, false",
@@ -63,8 +63,7 @@
 		}
 	},
 	"DynamicTokens": [
-		//crop ExtraHarvestChance values for later testing
-		{
+	{
 			"Name": "10Percent",
 			"Value": "0.1"
 		},
@@ -182,7 +181,7 @@
         },
 		{
             "Action": "Load",
-            "Target": "Cornucopia.MoreCrops/treesapodilla_spring, Cornucopia.MoreCrops/treesapodilla_summer, Cornucopia.MoreCrops/treesapodilla_fall, Cornucopia.MoreCrops/treesapodilla_winter, Cornucopia.MoreCrops/treedate_empty, Cornucopia.MoreCrops/treedate_fall, Cornucopia.MoreCrops/treebamboo_summer",
+            "Target": "Cornucopia.MoreCrops/treesapodilla_spring, Cornucopia.MoreCrops/treesapodilla_summer, Cornucopia.MoreCrops/treesapodilla_fall, Cornucopia.MoreCrops/treesapodilla_winter, Cornucopia.MoreCrops/treedate_empty, Cornucopia.MoreCrops/treedate_fall, Cornucopia.MoreCrops/treedate_winter, Cornucopia.MoreCrops/treebamboo_summer, Cornucopia.MoreCrops/treebamboo_fall, Cornucopia.MoreCrops/treebamboo_winter, Cornucopia.MoreCrops/treeeucalyptus_spring, Cornucopia.MoreCrops/treeeucalyptus_summer, Cornucopia.MoreCrops/treeeucalyptus_fall, Cornucopia.MoreCrops/treeeucalyptus_winter, Cornucopia.MoreCrops/treecinnamon_spring, Cornucopia.MoreCrops/treecinnamon_summer, Cornucopia.MoreCrops/treecinnamon_fall, Cornucopia.MoreCrops/treecinnamon_winter, Cornucopia.MoreCrops/treecamphor_spring, Cornucopia.MoreCrops/treecamphor_summer, Cornucopia.MoreCrops/treecamphor_fall, Cornucopia.MoreCrops/treecamphor_winter, Cornucopia.MoreCrops/treemelaleuca_spring, Cornucopia.MoreCrops/treemelaleuca_summer, Cornucopia.MoreCrops/treemelaleuca_fall, Cornucopia.MoreCrops/treemelaleuca_winter",
             "FromFile": "assets/{{TargetWithoutPath}}.png"
         },
 		

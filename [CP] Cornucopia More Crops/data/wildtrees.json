@@ -46,7 +46,7 @@
 						}
 					],
 					"CustomFields": {
-						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:Sapodilla_name}}"
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:SapodillaTree_name}}"
 					}
 				},
 				"Cornucopia_DatePalmSeed": {
@@ -58,7 +58,11 @@
 						{
 							"Texture": "Cornucopia.MoreCrops/treedate_fall",
 							"Condition": "ANY \"LOCATION_SEASON Town fall\" \"LOCATION_IS_INDOORS Here\""
-						}
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treedate_winter",
+							"Condition": "LOCATION_SEASON Here winter, !LOCATION_IS_INDOORS Here"
+						},
 					],
 					"SeedItemId": "(O)Cornucopia_DatePalmSeed",
 					"DebrisColor": 100004,
@@ -82,6 +86,13 @@
 							"MaxStack": 1,
 							"Condition": "LOCATION_SEASON Town spring summer winter, !LOCATION_IS_INDOORS Here",
 							"Chance": 1
+						},
+						{
+							"ItemId": "(O)Cornucopia_PalmNut",
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Condition": "ANY \"LOCATION_SEASON Town fall\" \"LOCATION_IS_INDOORS Here\"",
+							"Chance": 0.25
 						}
 					],
 					"TapItems": [
@@ -91,15 +102,23 @@
 						}
 					],
 					"CustomFields": {
-						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:Date_name}}"
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:DatePalm_name}}"
 					}
 				},
 				"Cornucopia_BambooSeeds": {
 					"Textures": [
 						{
 							"Texture": "Cornucopia.MoreCrops/treebamboo_summer",
-							"Condition": "ANY \"LOCATION_SEASON Here spring summer fall winter\" \"LOCATION_IS_INDOORS Here\""
-						}
+							"Condition": "LOCATION_SEASON Here summer"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treebamboo_fall",
+							"Condition": "ANY \"LOCATION_SEASON Here spring fall\" \"LOCATION_IS_INDOORS Here\""
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treebamboo_winter",
+							"Condition": "LOCATION_SEASON Here winter"
+						},
 					],
 					"SeedItemId": "(O)Cornucopia_BambooSeeds",
 					"DebrisColor": 100004,
@@ -114,60 +133,204 @@
 					"DropHardwoodOnLumberChop": false,
 					"ChopItems": [
 						{
-							"MinSize": null,
-							"MaxSize": null,
 							"ForStump": false,
-							"Season": null,
-							"Chance": 1.0,
-							"Condition": null,
-							"Id": "(O)Cornucopia_Bamboo",
+							"Id": "ChopTree",
 							"ItemId": "(O)Cornucopia_Bamboo",
-							"RandomItemId": null,
-							"MaxItems": null,
 							"MinStack": 4,
 							"MaxStack": 7,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": 0,
-							"QualityModifiers": null,
-							"QualityModifierMode": 0,
-							"ModData": null,
-							"PerItemCondition": null
 						},
 						{
-							"MinSize": null,
-							"MaxSize": null,
 							"ForStump": true,
-							"Season": null,
-							"Chance": 1.0,
-							"Condition": null,
-							"Id": "(O)Cornucopia_Bamboo",
+							"Id": "ChopStump",
 							"ItemId": "(O)Cornucopia_Bamboo",
-							"RandomItemId": null,
-							"MaxItems": null,
 							"MinStack": 1,
 							"MaxStack": 3,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": 0,
-							"QualityModifiers": null,
-							"QualityModifierMode": 0,
-							"ModData": null,
-							"PerItemCondition": null
 						}
 					],
 					"CustomFields": {
 						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:Bamboo_name}}"
 					}
 				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"When": {
+				"Enable Herbs Pack": true
+			},
+			"Entries": {
+				"Cornucopia_CinnamonSticksSapling": {
+					"Textures": [
+						{
+							"Texture": "Cornucopia.MoreCrops/treecinnamon_spring",
+							"Condition": "LOCATION_SEASON Here spring"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treecinnamon_summer",
+							"Condition": "ANY \"LOCATION_SEASON Here summer\" \"LOCATION_IS_INDOORS Here\""
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treecinnamon_fall",
+							"Condition": "LOCATION_SEASON Here fall"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treecinnamon_winter",
+							"Condition": "LOCATION_SEASON Here winter"
+						}
+					],
+					"SeedItemId": "(O)Cornucopia_CinnamonSticksSapling",
+					"SeedOnShakeChance": 0,
+					"SeedOnChopChance": 1,
+					"DropWoodOnChop": false,
+					"DropHardwoodOnLumberChop": false,
+					"ChopItems": [
+						{
+							"ForStump": false,
+							"Id": "ChopTree",
+							"ItemId": "(O)Cornucopia_CinnamonSticks",
+							"MinStack": 2,
+							"MaxStack": 5,
+						},
+						{
+							"ForStump": true,
+							"Id": "ChopStump",
+							"ItemId": "(O)Cornucopia_CinnamonSticks",
+							"MinStack": 1,
+							"MaxStack": 2,
+						}
+					],
+					"ShakeItems": [
+						{
+							"Id": "(O)Cornucopia_CinnamonSticks",
+							"ItemId": "(O)Cornucopia_CinnamonSticks",
+							"Chance": 0.2
+						},
+					],
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:CinnamonTree_name}}"
+					}
+				},
+				"Cornucopia_CamphorLeavesSapling": {
+					"Textures": [
+						{
+							"Texture": "Cornucopia.MoreCrops/treecamphor_spring",
+							"Condition": "LOCATION_SEASON Here spring"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treecamphor_summer",
+							"Condition": "ANY \"LOCATION_SEASON Here summer\" \"LOCATION_IS_INDOORS Here\""
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treecamphor_fall",
+							"Condition": "LOCATION_SEASON Here fall"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treecamphor_winter",
+							"Condition": "LOCATION_SEASON Here winter"
+						}
+					],
+					"SeedItemId": "(O)Cornucopia_CamphorLeavesSapling",
+					"SeedOnShakeChance": 0,
+					"SeedOnChopChance": 1,
+					"IsLeafyInWinter": true,
+					"ShakeItems": [
+						{
+							"Id": "(O)Cornucopia_CamphorLeaves",
+							"ItemId": "(O)Cornucopia_CamphorLeaves",
+							"Chance": 0.2,
+							"Condition": "!LOCATION_SEASON Here winter"
+						},
+						{
+							"Id": "ExtraInSeason",
+							"ItemId": "(O)Cornucopia_CamphorLeaves",
+							"Chance": 0.3,
+							"Condition": "ANY \"LOCATION_SEASON Here summer\" \"LOCATION_IS_INDOORS Here\""
+						},
+					],
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:CamphorTree_name}}"
+					}
+				},
+				"Cornucopia_EucalyptusLeavesSapling": {
+					"Textures": [
+						{
+							"Texture": "Cornucopia.MoreCrops/treeeucalyptus_spring",
+							"Condition": "ANY \"LOCATION_SEASON Here spring\" \"LOCATION_IS_INDOORS Here\""
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treeeucalyptus_summer",
+							"Condition": "LOCATION_SEASON Here summer"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treeeucalyptus_fall",
+							"Condition": "LOCATION_SEASON Here fall"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treeeucalyptus_winter",
+							"Condition": "LOCATION_SEASON Here winter"
+						}
+					],
+					"SeedItemId": "(O)Cornucopia_EucalyptusLeavesSapling",
+					"SeedOnShakeChance": 0,
+					"SeedOnChopChance": 1,
+					"ShakeItems": [
+						{
+							"Id": "(O)Cornucopia_EucalyptusLeaves",
+							"ItemId": "(O)Cornucopia_EucalyptusLeaves",
+							"Chance": 0.2
+						},
+						{
+							"Id": "ExtraInSeason",
+							"ItemId": "(O)Cornucopia_EucalyptusLeaves",
+							"Chance": 0.3,
+							"Condition": "ANY \"LOCATION_SEASON Here spring\" \"LOCATION_IS_INDOORS Here\""
+						},
+					],
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:EucalyptusTree_name}}"
+					}
+				},
+				"Cornucopia_MelaleucaLeavesSapling": {
+					"Textures": [
+						{
+							"Texture": "Cornucopia.MoreCrops/treemelaleuca_spring",
+							"Condition": "ANY \"LOCATION_SEASON Here spring\" \"LOCATION_IS_INDOORS Here\""
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treemelaleuca_summer",
+							"Condition": "LOCATION_SEASON Here summer"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treemelaleuca_fall",
+							"Condition": "LOCATION_SEASON Here fall"
+						},
+						{
+							"Texture": "Cornucopia.MoreCrops/treemelaleuca_winter",
+							"Condition": "LOCATION_SEASON Here winter"
+						}
+					],
+					"SeedItemId": "(O)Cornucopia_MelaleucaLeavesSapling",
+					"SeedOnShakeChance": 0,
+					"SeedOnChopChance": 1,
+					"ShakeItems": [
+						{
+							"Id": "(O)Cornucopia_MelaleucaLeaves",
+							"ItemId": "(O)Cornucopia_MelaleucaLeaves",
+							"Chance": 0.2,
+							"Condition": "!LOCATION_SEASON Here winter"
+						},
+						{
+							"Id": "ExtraInSeason",
+							"ItemId": "(O)Cornucopia_MelaleucaLeaves",
+							"Chance": 0.3,
+							"Condition": "ANY \"LOCATION_SEASON Here spring\" \"LOCATION_IS_INDOORS Here\""
+						},
+					],
+					"CustomFields": {
+						"UIInfoSuite.ExtendedData/DisplayName": "{{i18n:MelaleucaTree_name}}"
+					}
+				},
 			}
 		}
 	]

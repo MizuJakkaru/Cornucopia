@@ -42,11 +42,6 @@
 					"ItemId": "Cornucopia_BlueAgaveSeeds",
 					"IgnoreShopPriceModifiers": true
 				},
-				"Cornucopia_BambooSeeds": {
-					"Id": "Cornucopia_BambooSeeds",
-					"ItemId": "Cornucopia_BambooSeeds",
-					"IgnoreShopPriceModifiers": true
-				},
 			},
 			"MoveEntries": [
 				{
@@ -55,10 +50,6 @@
 				},
 				{
 					"Id": "Cornucopia_AgaveSeeds",
-					"AfterId": "(O)494"
-				},
-				{
-					"Id": "Cornucopia_BambooSeeds",
 					"AfterId": "(O)494"
 				},
 			]
@@ -107,17 +98,17 @@
 						}
 					]
 				},
-				
 				"Cornucopia_DatePalmSeed": {
 					"Id": "Cornucopia_DatePalmSeed",
 					"ItemId": "Cornucopia_DatePalmSeed",
 					"IgnoreShopPriceModifiers": true,
-					"PriceModifiers": [
-						{
-							"Modification": "Multiply",
-							"Amount": 2.0
-						}
-					]
+					"Price": 240
+				},
+				"Cornucopia_BambooSeeds": {
+					"Id": "Cornucopia_BambooSeeds",
+					"ItemId": "Cornucopia_BambooSeeds",
+					"IgnoreShopPriceModifiers": true,
+					"Price": 1600
 				}
 			},
 			"MoveEntries": [
@@ -135,7 +126,11 @@
 				},
 				{
 					"Id": "Cornucopia_DatePalmSeed",
-					"BeforeId": "(BC)196"
+					"AfterId": "Cornucopia_SugarcaneSeeds"
+				},
+				{
+					"Id": "Cornucopia_BambooSeeds",
+					"AfterId": "Cornucopia_SugarcaneSeeds"
 				}
 			]
 		},

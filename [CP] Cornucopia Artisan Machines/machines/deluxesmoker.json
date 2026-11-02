@@ -82,6 +82,75 @@
 							],
 							"OutputItem": [
 								{
+									"ID": "CornucopiaPineNutCheese",
+									"ItemId": "(O)Cornucopia_SmokedCheese",
+									"ObjectInternalName": "{0} Cornucopia_SmokedCheese",
+									"ObjectDisplayName": "[LocalizedText Strings\\Objects:SmokedFish_Name] {{i18n:NutCheese_PineNutMilk}}",
+									"Condition": "ITEM_CONTEXT_TAG Input id_o_cornucopia_nutcheese preserve_sheet_index_cornucopia_pinenuts",
+									"PreserveId": "DROP_IN_PRESERVE",
+									"CopyPrice": true,
+									"PriceModifierMode": "Stack",
+									"CopyQuality": true,
+									"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2
+										}
+									]
+								},
+								{
+									"ID": "CornucopiaSoyCheese",
+									"ItemId": "(O)Cornucopia_SmokedCheese",
+									"ObjectInternalName": "{0} Cornucopia_SmokedCheese",
+									"ObjectDisplayName": "[LocalizedText Strings\\Objects:SmokedFish_Name] {{i18n:NutCheese_SoyMilk}}",
+									"Condition": "ITEM_CONTEXT_TAG Input id_o_cornucopia_nutcheese preserve_sheet_index_cornucopia_soybeans",
+									"PreserveId": "DROP_IN_PRESERVE",
+									"CopyPrice": true,
+									"PriceModifierMode": "Stack",
+									"CopyQuality": true,
+									"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2
+										}
+									]
+								},
+								{
+									"ID": "CornucopiaOatCheese",
+									"ItemId": "(O)Cornucopia_SmokedCheese",
+									"ObjectInternalName": "{0} Cornucopia_SmokedCheese",
+									"ObjectDisplayName": "[LocalizedText Strings\\Objects:SmokedFish_Name] {{i18n:NutCheese_OatMilk}}",
+									"Condition": "ITEM_CONTEXT_TAG Input id_o_cornucopia_nutcheese preserve_sheet_index_cornucopia_oats",
+									"PreserveId": "DROP_IN_PRESERVE",
+									"CopyPrice": true,
+									"PriceModifierMode": "Stack",
+									"CopyQuality": true,
+									"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2
+										}
+									]
+								},
+								{
+									"Id": "Default_NutCheese",
+									"ItemId": "(O)Cornucopia_SmokedCheese",
+									"ObjectInternalName": "{0} Cornucopia_SmokedCheese",
+									"ObjectDisplayName": "[LocalizedText Strings/Objects:SmokedFish_Flavored_Name %PRESERVED_DISPLAY_NAME %PRESERVED_DISPLAY_NAME] [LocalizedText Strings/Objects:Cheese_Name]",
+									"Condition": "ITEM_CONTEXT_TAG Input id_o_cornucopia_nutcheese",
+									"PreserveId": "DROP_IN_PRESERVE",
+									"CopyPrice": true,
+									"PriceModifierMode": "Stack",
+									"CopyQuality": true,
+									"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2
+										}
+									]
+								},
+								{
+									"Id": "Default",
 									"ItemId": "(O)Cornucopia_SmokedCheese",
 									"ObjectInternalName": "{0} Cornucopia_SmokedCheese",
 									"ObjectDisplayName": "[LocalizedText Strings/Objects:SmokedFish_Flavored_Name %PRESERVED_DISPLAY_NAME %PRESERVED_DISPLAY_NAME]",
@@ -97,7 +166,8 @@
 									]
 								}
 							],
-							"MinutesUntilReady": 720
+							"MinutesUntilReady": 720,
+							"UseFirstValidOutput": true	,
 						},
 						{
 							"Id": "Cornucopia_SmokedEgg",

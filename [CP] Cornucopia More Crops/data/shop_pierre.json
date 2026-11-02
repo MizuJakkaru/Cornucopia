@@ -234,6 +234,51 @@
 					"AfterId": "(O)633"
 				}
 			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"When": {
+				"Enable Herbs Pack": true
+			},
+			"Entries": {
+				"Cornucopia_CinnamonSticksSapling": {
+					"Id": "Cornucopia_CinnamonSticksSapling",
+					"ItemId": "Cornucopia_CinnamonSticksSapling",
+					"Price": 2000,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_CamphorLeavesSapling": {
+					"Id": "Cornucopia_CamphorLeavesSapling",
+					"ItemId": "Cornucopia_CamphorLeavesSapling",
+					"Price": 2600,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_EucalyptusLeavesSapling": {
+					"Id": "Cornucopia_EucalyptusLeavesSapling",
+					"ItemId": "Cornucopia_EucalyptusLeavesSapling",
+					"Price": 4200,
+					"IgnoreShopPriceModifiers": true
+				},
+			},
+			"MoveEntries": [
+				{
+					"Id": "Cornucopia_CinnamonSticksSapling",
+					"BeforeId": "(BC)Dehydrator (Recipe)"
+				},
+				{
+					"Id": "Cornucopia_CamphorLeavesSapling",
+					"BeforeId": "(BC)Dehydrator (Recipe)"
+				},
+				{
+					"Id": "Cornucopia_EucalyptusLeavesSapling",
+					"BeforeId": "(BC)Dehydrator (Recipe)"
+				},
+			]
 		}
 	]
 }

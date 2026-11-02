@@ -50,7 +50,7 @@
 					"Description": "{{i18n:Butter_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 200,
-					"Edibility": -300,
+					"Edibility": 20,
 					"ExcludeFromShippingCollection": "{{DefaultExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",
@@ -1542,7 +1542,7 @@
 					"Description": "{{i18n:EgglessEgg_description}}",
 					"Texture": "Cornucopia.ArtisanMachines/Objects",
 					"Price": 50,
-					"Edibility": 50,
+					"Edibility": 15,
 					"ExcludeFromShippingCollection": "{{Cornucopia.MoreCrops_ExtendedCropsPackExcludeFromShipping}}",
 					"ContextTags": [
 						"color_yellow",

@@ -203,7 +203,7 @@
 					"Texture": "Cornucopia.MoreCrops/FruitTrees",
 					"TextureSpriteRow": 25
 				},
-				"Cornucopia_CinnamonSticksSapling": {
+				/*"Cornucopia_CinnamonSticksSapling": {
 					"DisplayName": "{{i18n:Cinnamon_name}}",
 					"Seasons": [ "winter" ],
 					"Fruit": [{"ItemId": "Cornucopia_CinnamonSticks"}],
@@ -216,7 +216,7 @@
 					"Fruit": [{"ItemId": "Cornucopia_EucalyptusLeaves"}],
 					"Texture": "Cornucopia.MoreCrops/FruitTrees",
 					"TextureSpriteRow": 27
-				},
+				},*/
 				"Cornucopia_MelaleucaLeavesSapling": {
 					"DisplayName": "{{i18n:Melaleuca_name}}",
 					"Seasons": [ "spring" ],
