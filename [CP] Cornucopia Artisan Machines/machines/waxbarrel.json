@@ -34,7 +34,12 @@
 							"Triggers": [
 								{
 									"RequiredItemId": "(O)Cornucopia_EssentialOil"
-								}
+								},
+								{
+									"RequiredTags": [
+										"alcohol_item"
+									]
+								},
 							],
 							"OutputItem": [
 								{
@@ -94,6 +99,11 @@
 								{
 									"RequiredTags": [
 										"berry_item"
+									]
+								},
+								{
+									"RequiredTags": [
+										"alcohol_item"
 									]
 								},
 								{
