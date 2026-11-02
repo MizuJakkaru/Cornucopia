@@ -1407,7 +1407,6 @@
 					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.015,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1
 				},
@@ -1417,7 +1416,6 @@
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.04,
 					"MinFishingLevel": 6,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1
 				}
@@ -1450,7 +1448,6 @@
 					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.04,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1
 				},
@@ -1460,7 +1457,6 @@
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.04,
 					"MinFishingLevel": 6,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1
 				}
@@ -1493,7 +1489,6 @@
 					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.015,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1
 				},
@@ -1503,7 +1498,6 @@
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.04,
 					"MinFishingLevel": 6,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1
 				}
@@ -1537,7 +1531,6 @@
 					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.02,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1,
 					"FishAreaId": "ESBay"
@@ -1548,7 +1541,6 @@
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.04,
 					"MinFishingLevel": 6,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1,
 					"FishAreaId": "ESBay"
@@ -1583,7 +1575,6 @@
 					"ItemId": "(O)Cornucopia_LostPage_Archipelago",
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.02,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1,
 					"FishAreaID": "Ocean"
@@ -1594,7 +1585,6 @@
 					"Condition": "PLAYER_HAS_MAIL Any Cornucopia.CookingRecipes_Chef_Met Received, !PLAYER_HAS_MAIL Host Cornucopia.CookingRecipes_LostPage_Archipelago_Obtained Received",
 					"Chance": 0.04,
 					"MinFishingLevel": 6,
-					"MinDistanceFromShore": 2,
 					"CuriosityLureBuff": 0.07,
 					"CatchLimit": 1,
 					"FishAreaID": "Ocean"

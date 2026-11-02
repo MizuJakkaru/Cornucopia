@@ -44,7 +44,7 @@
 				"Cornucopia.CookingRecipes_RandomDish": {
 					"Id": "Cornucopia.CookingRecipes_RandomDish",
 					"ItemId": "RANDOM_ITEMS (O)",
-					"PerItemCondition": "ITEM_ID Target Cornucopia_Steckerlfisch Cornucopia_CoconutFish Cornucopia_FishHeadCurry Cornucopia_FishStock Cornucopia_OneManThousand Cornucopia_SalmonChowder",
+					"PerItemCondition": "ITEM_ID Target Cornucopia_Steckerlfisch Cornucopia_CoconutFish Cornucopia_FishHeadCurry Cornucopia_FishStock Cornucopia_SalmonChowder Cornucopia_SourFishSoup",
 					"IgnoreShopPriceModifiers": false,
 					"MaxItems": 1
 				}

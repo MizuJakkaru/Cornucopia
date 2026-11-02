@@ -1,24 +1,5 @@
 {
 	"Changes": [
-		//trash can recipes for base install
-		{
-			"Action": "EditData",
-			"Target": "Data/GarbageCans",
-			"TargetField": [
-				"BeforeAll"
-			],
-			"Entries": {
-				"Cornucopia_DubiousFood": {
-					"Id": "Cornucopia_DubiousFood (Recipe)",
-					"ItemId": "(O)Cornucopia_DubiousFood",
-					"IsRecipe": true,
-					"IgnoreBaseChance": true,
-					"BaseChance": 0.07,
-					"IsMegaSuccess": true,
-					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_DubiousFood"
-				}
-			}
-		},
 		//shop recipes for base install
 		{
 			"Action": "EditData",

@@ -113,7 +113,7 @@
 								"category_vegetable"
 							],
 							"RequiredCount": 5,
-							"Condition": "!ITEM_CONTEXT_TAG Input grain_item, !ITEM_CONTEXT_TAG Input nut_item, ITEM_EDIBILITY Input 1"
+							"Condition": "!ITEM_CONTEXT_TAG Input grain_item, !ITEM_CONTEXT_TAG Input nut_item"
 						},
 						{
 							"RequiredTags": [

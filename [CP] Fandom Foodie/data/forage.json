@@ -378,6 +378,15 @@
 				"Cornucopia_RareCandy": {
 					"Id": "Cornucopia_RareCandy",
 					"ItemId": "(O)Cornucopia_RareCandy"
+				},
+				"Cornucopia_DubiousFood": {
+					"Id": "Cornucopia_DubiousFood (Recipe)",
+					"ItemId": "(O)Cornucopia_DubiousFood",
+					"IsRecipe": true,
+					"IgnoreBaseChance": true,
+					"BaseChance": 0.07,
+					"IsMegaSuccess": true,
+					"Condition": "!PLAYER_HAS_COOKING_RECIPE Current Cornucopia_DubiousFood"
 				}
 			}
 		},

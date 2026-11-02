@@ -118,7 +118,7 @@
 				"Cornucopia.CookingRecipes_AddWizardQuest": {
 					"Id": "Cornucopia.CookingRecipes_AddWizardQuest",
 					"Trigger": "Spiderbuttons.BETAS_MenuChanged",
-					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_ReadingWizardNote Received",
+					"Condition": "PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_ReadingWizardNote Received, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_WizardToastQuestCompleted received",
 					"HostOnly": false,
 					"MarkActionApplied": false,
 					"Actions": [

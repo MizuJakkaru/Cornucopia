@@ -134,6 +134,12 @@
                     "Target": ["Fields", "Lewis", 1],
                     "Value": "Cornucopia_Olive", 
                     "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 1],
+                    "Value": "Cornucopia_Stout, Cornucopia_DarkAle, Cornucopia_Porter", 
+                    "Delimiter": " "
                 }
             ]
         },
