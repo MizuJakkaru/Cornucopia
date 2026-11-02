@@ -33,6 +33,14 @@
 								"selph.ExtraMachineConfig.RequirementTags.1": "item_egg",
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
+						},
+						{
+							"Id": "Cornucopia_GarlicMayonnaiseEgglessEgg",
+							"ItemId": "(O)Cornucopia_GarlicMayonnaise",
+							"CustomData": {
+								"selph.ExtraMachineConfig.RequirementId.1": "Cornucopia_EgglessEgg",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
+							}
 						}
 					],
 					"MinutesUntilReady": 180
@@ -67,6 +75,14 @@
 								"selph.ExtraMachineConfig.RequirementTags.1": "item_egg",
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
+						},
+						{
+							"Id": "Cornucopia_SpicyMayonnaiseEgglessEgg",
+							"ItemId": "(O)Cornucopia_SpicyMayonnaise",
+							"CustomData": {
+								"selph.ExtraMachineConfig.RequirementId.1": "Cornucopia_EgglessEgg",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
+							}
 						}
 					],
 					"MinutesUntilReady": 180
@@ -94,6 +110,14 @@
 							"ItemId": "(O)Cornucopia_TruffleMayonnaise",
 							"CustomData": {
 								"selph.ExtraMachineConfig.RequirementTags.1": "item_egg",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
+							}
+						},
+						{
+							"Id": "Cornucopia_TruffleMayonnaiseEgglessEgg",
+							"ItemId": "(O)Cornucopia_TruffleMayonnaise",
+							"CustomData": {
+								"selph.ExtraMachineConfig.RequirementId.1": "Cornucopia_EgglessEgg",
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
 						}

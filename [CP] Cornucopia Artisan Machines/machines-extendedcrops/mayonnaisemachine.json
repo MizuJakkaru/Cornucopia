@@ -38,6 +38,14 @@
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
 						},
+						{
+							"Id": "Cornucopia_WasabiMayonnaiseEgglessEgg",
+							"ItemId": "(O)Cornucopia_WasabiMayonnaise",
+							"CustomData": {
+								"selph.ExtraMachineConfig.RequirementId.1": "Cornucopia_EgglessEgg",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
+							}
+						}
 					],
 					"MinutesUntilReady": 180,
 					"InvalidCountMessage": "[LocalizedText Strings\\Objects:Machine_NeedsInputCount 3]"

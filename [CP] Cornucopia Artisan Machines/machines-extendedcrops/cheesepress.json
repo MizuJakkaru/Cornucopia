@@ -20,7 +20,9 @@
 							"RequiredTags": [
 								"bean_item",
 								"!soybean_item"
-							]
+							],
+							"RequiredCount": 3,
+							"InvalidCountMessage": "{{i18n:CompactMillInvalidCount_Input}}"
 						}
 					],
 					"OutputItem": [

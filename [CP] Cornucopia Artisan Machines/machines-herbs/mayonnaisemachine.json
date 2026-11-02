@@ -33,6 +33,14 @@
 								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
 							}
 						},
+						{
+							"Id": "Cornucopia_DillMayonnaiseEgglessEgg",
+							"ItemId": "(O)Cornucopia_DillMayonnaise",
+							"CustomData": {
+								"selph.ExtraMachineConfig.RequirementId.1": "Cornucopia_EgglessEgg",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MayonnaiseMachineFuelNeededMessage}}"
+							}
+						}
 					],
 					"MinutesUntilReady": 180,
 				}

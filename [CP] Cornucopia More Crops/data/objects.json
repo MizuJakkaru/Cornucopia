@@ -1039,7 +1039,7 @@
 					"DisplayName": "{{i18n:Groundcherries_name}}",
 					"Description": "{{i18n:Groundcherries_description}}",
 					"Texture": "Cornucopia.MoreCrops/Objects",
-					"Price": 60,
+					"Price": 30,
 					"Edibility": 10,
 					"ContextTags": [
 						"berry_item",
