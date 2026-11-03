@@ -24,7 +24,7 @@
 		"SVE Compat Patch": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Removes SVE butter churn and butter and replaces it with Cornucopia butter. DO NOT USE WITH SVE BUNDLE OPTIONS (Use CCCB instead)."
+			"Description": "Removes SVE butter churn and butter and replaces it with Cornucopia butter. IF USING WITH SVE BUNDLE OPTIONS, YOU WILL NEED THE MOD \"Cornucopia SVE Community Center Butter Patch\"!!"
 		},
 		"Require Items For Perfection": {
 			"AllowValues": "true, false",

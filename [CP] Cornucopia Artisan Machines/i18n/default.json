@@ -332,4 +332,17 @@
   
 	"EgglessEgg_name": "Eggless Egg",
 	"EgglessEgg_description": "A scrambled bean mixture that can be used as a replacement for eggs when cooking.",
+	
+	"config.Enable Vinegar Keg.name": "Enable Vinegar Keg",
+	"config.Enable Vinegar Keg.description": "Adds a smaller keg which can turn grapes, apples, and unmilled rice into vinegar.",
+	"config.Enable Juicer.name": "Enable Juicer",
+	"config.Enable Juicer.description": "Adds a new machine to make fruit and vegetable juice.",
+	"config.Enable Vegetable Wine.name": "Enable Vegetable Wine",
+	"config.Enable Vegetable Wine.description": "(Only when Juicer is enabled) Allows vegetable wine to come from the keg. Vegetable juice will still come from the juicer.",
+	"config.Enable Vanilla Recipe Changes.name": "Enable Vanilla Recipe Changes",
+	"config.Enable Vanilla Recipe Changes.description": "Replaces a few vanilla recipe ingredients to use versions from Cornucopia (such as using Coconut Milk instead of Coconut).",
+	"config.SVE Compat Patch.name": "SVE Compat Patch",
+	"config.SVE Compat Patch.description": "Removes SVE butter churn and butter and replaces it with Cornucopia butter. IF USING WITH SVE BUNDLE OPTIONS, YOU WILL NEED THE MOD \"Cornucopia SVE Community Center Butter Patch\"!!",
+	"config.Require Items For Perfection.name": "Require Items For Perfection",
+	"config.Require Items For Perfection.description": "(Recommended) Artisan goods added by this mod appear on the shipping menu and are generally required for achieving perfection."
 }
