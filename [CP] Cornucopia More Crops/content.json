@@ -51,6 +51,11 @@
 			"Default": "true",
 			"Description": "Enable small map edits to add wild trees to Ginger Island and the Desert."
 		},
+		"Enable Vanilla Recipe Changes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Edits a few vanilla recipes to use thematic ingredients from Cornucopia (such as Salmon Dinner requiring Lemon to match its vanilla description)."
+		},
 		"SVE Compat Patch": {
 			"AllowValues": "true, false",
 			"Default": "true",

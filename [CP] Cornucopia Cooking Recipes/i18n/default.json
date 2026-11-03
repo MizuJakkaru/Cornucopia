@@ -1656,6 +1656,7 @@
 	"RecipeBook_Delta_ImageDescription": "This recipe book shows a giant pan being tossed over a massive flame! A medley of ingredients jump out of the pan - shrimps, mushrooms, noodles, peppers, leeks, and more! Everything is being wok-fried to delicious perfection.",
 	
 	//journal quest text
+	//DO NOT USE THE SYMBOL / IN ChefQuest_objective.no!!!!!!!!!!
 	"LostPageReturn_name": "Lost Page Return",
 	"ChefQuest_name": "The Mysterious Lady's Quest",
 	"ChefQuest_description": "A mysterious lady asked you for help finding the lost pages of her notebook. Collect lost pages around the valley and turn them in.",

@@ -3,6 +3,9 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/CookingRecipes",
+			"When": {
+				"Enable Vanilla Recipe Changes": true
+			},
 			"Fields": {
 				"Chocolate Cake": {
 					"0": "Cornucopia_CocoaPod 1 246 1 245 1 -5 1"
@@ -13,7 +16,8 @@
 			"Action": "EditData",
 			"Target": "Data/CookingRecipes",
 			"When": {
-				"Enable Extended Trees Pack": true
+				"Enable Extended Trees Pack": true,
+				"Enable Vanilla Recipe Changes": true
 			},
 			"Fields": {
 				"Salmon Dinner": {
@@ -25,7 +29,8 @@
 			"Action": "EditData",
 			"Target": "Data/CookingRecipes",
 			"When": {
-				"Enable Herbs Pack": true
+				"Enable Herbs Pack": true,
+				"Enable Vanilla Recipe Changes": true
 			},
 			"Fields": {
 				"Stuffing": {

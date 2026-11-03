@@ -203,6 +203,6 @@
 			"Entries": {
 				"Condition": "!ITEM_CONTEXT_TAG Input flower_cannabinoid"
 			}
-		},
+		}
 	]
 }

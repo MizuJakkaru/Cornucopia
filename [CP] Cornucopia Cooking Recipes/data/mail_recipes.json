@@ -222,9 +222,9 @@
 					]
 				},
 				"Cornucopia.CookingRecipes_ElliottCremeBrulee": {
-					"Id": "Cornucopia.CookingRecipes_ElliottCremeBrulee, {{HomeCook_Essential}}",
+					"Id": "Cornucopia.CookingRecipes_ElliottCremeBrulee",
 					"Trigger": "DayEnding",
-					"Condition": "PLAYER_HEARTS Current Elliott 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received",
+					"Condition": "PLAYER_HEARTS Current Elliott 2, !PLAYER_HAS_MAIL Current Cornucopia.CookingRecipes_MailSentToday Received, {{HomeCook_Essential}}",
 					"MarkActionApplied": true,
 					"Actions": [
 						"AddMail Current Cornucopia.CorkingRecipes_ElliottCremeBrulee tomorrow",
