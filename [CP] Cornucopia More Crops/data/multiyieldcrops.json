@@ -49,20 +49,6 @@
 						}
 					}
 				},
-				/*"Cornucopia_BambooSeeds": {
-					"YieldOverrides": {
-						"6": { //number of phase which you harvest to get this (0=seed)
-							"IgnoreDefaultDrops": false,
-							"Drops": [
-								{
-									"Id": "Bamboo seeds",
-									"ItemId": "(O)Cornucopia_BambooSeeds",
-									"PerItemCondition": "RANDOM 0.5",
-								},
-							]
-						}
-					}
-				},*/
 				"Cornucopia_CilantroSeeds": {
 					"YieldOverrides": {
 						"4": { //number of phase which you harvest to get this (0=seed)

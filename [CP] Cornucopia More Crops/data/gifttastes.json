@@ -239,7 +239,7 @@
 				{
                     "Operation": "Append",
                     "Target": ["Fields", "Leah", 1],
-                    "Value": "Cornucopia_Bamboo Cornucopia_ChickenoftheWoods", 
+                    "Value": "Cornucopia_BambooSeeds Cornucopia_ChickenoftheWoods", 
                     "Delimiter": " "
                 },
 				{
