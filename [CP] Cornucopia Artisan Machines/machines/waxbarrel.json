@@ -35,11 +35,6 @@
 								{
 									"RequiredItemId": "(O)Cornucopia_EssentialOil"
 								},
-								{
-									"RequiredTags": [
-										"alcohol_item"
-									]
-								},
 							],
 							"OutputItem": [
 								{

@@ -21,6 +21,11 @@
 			"Default": "B",
 			"Description": "Label hyperflexible ingredients in the cooking menu with this option, letting you know which ingredients can be substituted. Only does something when Enable Hyperflexible Recipes is turned on."
 		},
+		"Restrict Fish Recipes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Recipes that take any Fish item will be limited to fish, and not take crab pot items such as Clam, Crab, etc."
+		},
 		"Enable Flavored Recipes": {
 			"AllowValues": "true, false",
 			"Default": "true",

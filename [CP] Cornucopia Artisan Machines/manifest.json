@@ -26,6 +26,10 @@
 		{
 			"UniqueID": "Cornucopia.MoreFlowers",
 			"IsRequired": false
-		}
+		},
+		{
+			"UniqueID": "mushymato.DISCO",
+			"IsRequired": false
+		},
 	]
 }

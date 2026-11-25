@@ -324,10 +324,28 @@
 									"RequiredItemId": "(O)395"
 								},
 								{
+									"RequiredItemId": "(O)614"
+								},
+								{
 									"RequiredTags": [
 										"cornucopia_yogurtjar_flavoredyogurt"
 										]
-								}
+								},
+								{
+									"RequiredTags": [
+										"food_sweet"
+										]
+								},
+								{
+									"RequiredTags": [
+										"food_dessert"
+										]
+								},
+								{
+									"RequiredTags": [
+										"food_bakery"
+										]
+								},
 							],
 							"UseFirstValidOutput": true,
 							"OutputItem": [

@@ -1,0 +1,794 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "mushymato.DISCO/Data/Cornucopia.ArtisanMachines",
+			"Entries": {
+				"Cornucopia_FlavoredYogurt": {
+					"TypeIdentifier": "(O)",
+					"LocalItemId": "Cornucopia_FlavoredYogurt",
+					"SourceTextures": "Cornucopia.ArtisanMachines/Yogurt",
+					"SourceSpritePerIndex": 2,
+					"ConfigIconSpriteIndex": 90,
+					"PreserveIconScale": "0.5",
+					"Rules": [
+						{
+							"RequiredColor": "color_black",
+							"SpriteIndexList": 0
+						},
+						{
+							"RequiredColor": "color_dark_gray",
+							"SpriteIndexList": 10
+						},
+						{
+							"RequiredColor": "color_gray",
+							"SpriteIndexList": 20
+						},
+						{
+							"RequiredColor": "color_white",
+							"SpriteIndexList": 30
+						},
+						{
+							"RequiredColor": "color_iron",
+							"SpriteIndexList": 40
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "color_prismatic"
+							},
+							"SpriteIndexList": 50,
+							"Precedence": -400
+						},
+						{
+							"RequiredColor": "color_red",
+							"SpriteIndexList": 60
+						},
+						{
+							"RequiredColor": "color_dark_red",
+							"SpriteIndexList": 70
+						},
+						{
+							"RequiredColor": "color_pink",
+							"SpriteIndexList": 80
+						},
+						{
+							"RequiredColor": "color_salmon",
+							"SpriteIndexList": 90
+						},
+						{
+							"RequiredColor": "color_orange",
+							"SpriteIndexList": 8
+						},
+						{
+							"RequiredColor": "color_dark_orange",
+							"SpriteIndexList": 18
+						},
+						{
+							"RequiredColor": "color_brown",
+							"SpriteIndexList": 28
+							},
+						{
+							"RequiredColor": "color_dark_brown",
+							"SpriteIndexList": 38
+						},
+						{
+							"RequiredColor": "color_copper",
+							"SpriteIndexList": 48
+						},
+						{
+							"RequiredColor": "color_green",
+							"SpriteIndexList": 6
+						},
+						{
+							"RequiredColor": "color_dark_green",
+							"SpriteIndexList": 16
+						},
+						{
+							"RequiredColor": "color_lime",
+							"SpriteIndexList": 26
+						},
+						{
+							"RequiredColor": "color_yellow_green",
+							"SpriteIndexList": 36
+						},
+						{
+							"RequiredColor": "color_jade",
+							"SpriteIndexList": 46
+						},
+						{
+							"RequiredColor": "color_sea_green",
+							"SpriteIndexList": 56
+						},
+						{
+							"RequiredColor": "color_blue",
+							"SpriteIndexList": 2
+						},
+						{
+							"RequiredColor": "color_dark_blue",
+							"SpriteIndexList": 12
+						},
+						{
+							"RequiredColor": "color_light_cyan",
+							"SpriteIndexList": 22
+						},
+						{
+							"RequiredColor": "color_dark_cyan",
+							"SpriteIndexList": 32
+						},
+						{
+							"RequiredColor": "color_cyan",
+							"SpriteIndexList": 42
+						},
+						{
+							"RequiredColor": "color_aquamarine",
+							"SpriteIndexList": 52
+						},
+						{
+							"RequiredColor": "color_purple",
+							"SpriteIndexList": 4
+						},
+						{
+							"RequiredColor": "color_dark_purple",
+							"SpriteIndexList": 14
+						},
+						{
+							"RequiredColor": "color_dark_pink",
+							"SpriteIndexList": 24
+						},
+						{
+							"RequiredColor": "color_pale_violet_red",
+							"SpriteIndexList": 34
+						},
+						{
+							"RequiredColor": "color_poppyseed",
+							"SpriteIndexList": 44
+						},
+						{
+							"RequiredColor": "color_iridium",
+							"SpriteIndexList": 54
+						},
+						{
+							"RequiredColor": "color_yellow",
+							"SpriteIndexList": 62
+						},
+						{
+							"RequiredColor": "color_dark_yellow",
+							"SpriteIndexList": 72
+						},
+						{
+							"RequiredColor": "color_gold",
+							"SpriteIndexList": 82
+						},
+						{
+							"RequiredColor": "color_sand",
+							"SpriteIndexList": 92
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Papaya"
+							},
+							"SpriteIndexList": 100,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Vanilla"
+							},
+							"SpriteIndexList": 110,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_CocoaPod"
+							},
+							"SpriteIndexList": 120,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Grapefruit"
+							},
+							"SpriteIndexList": 130,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Pear"
+							},
+							"SpriteIndexList": 140,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Elderberries"
+							},
+							"SpriteIndexList": 150,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_DragonFruit"
+							},
+							"SpriteIndexList": 102,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Groundcherry"
+							},
+							"SpriteIndexList": 112,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Kiwi"
+							},
+							"SpriteIndexList": 122,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Honeydew"
+							},
+							"SpriteIndexList": 132,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Cantaloupe"
+							},
+							"SpriteIndexList": 142,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_410"//blackberry
+							},
+							"SpriteIndexList": 152,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_398"//grape
+							},
+							"SpriteIndexList": 64,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_613"//apple
+							},
+							"SpriteIndexList": 74,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_834"//mango
+							},
+							"SpriteIndexList": 84,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_832"//pineapple
+							},
+							"SpriteIndexList": 94,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Lychee"
+							},
+							"SpriteIndexList": 104,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_268"//starfruit
+							},
+							"SpriteIndexList": 114,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_636"//peach
+							},
+							"SpriteIndexList": 124,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_638"//cherry
+							},
+							"SpriteIndexList": 134,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_637"//pomegranate
+							},
+							"SpriteIndexList": 144,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_296"//salmonberry
+							},
+							"SpriteIndexList": 66,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_282"//cranberry
+							},
+							"SpriteIndexList": 76,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_258"//blueberry
+							},
+							"SpriteIndexList": 86,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_254"//melon
+							},
+							"SpriteIndexList": 96,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_88"//coconut
+							},
+							"SpriteIndexList": 106,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_90"//cactus
+							},
+							"SpriteIndexList": 116,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_91"//banana
+							},
+							"SpriteIndexList": 126,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Fig"
+							},
+							"SpriteIndexList": 136,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Powdermelon"//powdermelon
+							},
+							"SpriteIndexList": 146,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_340"//honey
+							},
+							"SpriteIndexList": 58,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_591"//tulip
+							},
+							"SpriteIndexList": 68,
+							"Precedence": -500
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_593"//spangle
+							},
+							"SpriteIndexList": 78,
+							"Precedence": -500
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_595"//fairyrose
+							},
+							"SpriteIndexList": 88,
+							"Precedence": -500
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_597"//jazz
+							},
+							"SpriteIndexList": 98,
+							"Precedence": -500
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_376"//poppy
+							},
+							"SpriteIndexList": 108,
+							"Precedence": -500
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_PassionFruit"
+							},
+							"SpriteIndexList": 118,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_BlackCurrants"
+							},
+							"SpriteIndexList": 128,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_WhiteGrape"
+							},
+							"SpriteIndexList": 138,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Watermelon"
+							},
+							"SpriteIndexList": 148,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//sweetpea
+							},
+							"SpriteIndexList": 154,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//sunflower
+							},
+							"SpriteIndexList": 156,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Lavender"
+							},
+							"SpriteIndexList": 158,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Rose"
+							},
+							"SpriteIndexList": 160,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_PrismaticRose"
+							},
+							"SpriteIndexList": 162,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "nut_item"
+							},
+							"SpriteIndexList": 164,
+							"Precedence": -300
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//hazelnut
+							},
+							"SpriteIndexList": 166,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Pistachio"
+							},
+							"SpriteIndexList": 168,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//chocolate cake
+							},
+							"SpriteIndexList": 170,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//pink cake
+							},
+							"SpriteIndexList": 172,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//rhubarb pie
+							},
+							"SpriteIndexList": 174,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//cookies
+							},
+							"SpriteIndexList": 176,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//icecream
+							},
+							"SpriteIndexList": 178,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//banana pudding
+							},
+							"SpriteIndexList": 180,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//mangostickyrice
+							},
+							"SpriteIndexList": 182,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//pumpkinpie
+							},
+							"SpriteIndexList": 184,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//ricepudding
+							},
+							"SpriteIndexList": 186,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//blueberrytart
+							},
+							"SpriteIndexList": 188,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//greentea
+							},
+							"SpriteIndexList": 190,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//coffee
+							},
+							"SpriteIndexList": 192,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_"//blackberry cobbler
+							},
+							"SpriteIndexList": 194,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_CinnamonRoll"
+							},
+							"SpriteIndexList": 196,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Brownie"
+							},
+							"SpriteIndexList": 198,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_CinnamonApplePie"
+							},
+							"SpriteIndexList": 200,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_BakedApple"
+							},
+							"SpriteIndexList": 202,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Churros"
+							},
+							"SpriteIndexList": 204,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Waffles"
+							},
+							"SpriteIndexList": 206,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_SmotheredWaffles"
+							},
+							"SpriteIndexList": 208,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_CandyCorn"
+							},
+							"SpriteIndexList": 210,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_HotChocolate"
+							},
+							"SpriteIndexList": 212,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_StrawberryShortcake"
+							},
+							"SpriteIndexList": 214,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_CottonCandy"
+							},
+							"SpriteIndexList": 216,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Donut"
+							},
+							"SpriteIndexList": 218,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Cupcakes"
+							},
+							"SpriteIndexList": 220,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_PecanPie"
+							},
+							"SpriteIndexList": 222,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Peppermint"
+							},
+							"SpriteIndexList": 224,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_RainbowCake"
+							},
+							"SpriteIndexList": 226,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Smores"
+							},
+							"SpriteIndexList": 228,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_SandwichCookies"
+							},
+							"SpriteIndexList": 230,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Sachertorte"
+							},
+							"SpriteIndexList": 232,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Butterscotch"
+							},
+							"SpriteIndexList": 234,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Taffy"
+							},
+							"SpriteIndexList": 236,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Tiramisu"
+							},
+							"SpriteIndexList": 238,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_WhiteChocolate"
+							},
+							"SpriteIndexList": 240,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_Chocolate"
+							},
+							"SpriteIndexList": 242,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_ChocolateCoveredStrawberry"
+							},
+							"SpriteIndexList": 244,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_SourCherryPie"
+							},
+							"SpriteIndexList": 246,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_KeyLimePie"
+							},
+							"SpriteIndexList": 248,
+							"Precedence": -400
+						},
+						{
+							"Preserve": {
+								"RequiredContextTags": "id_o_Cornucopia_CaramelApple"
+							},
+							"SpriteIndexList": 250,
+							"Precedence": -400
+						}, 
+						]
+				}
+			}
+		}
+		]
+}

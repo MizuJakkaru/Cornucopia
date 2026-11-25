@@ -23,6 +23,7 @@
 					],
 					"OutputItem": [
 						{
+							"Id": "(O)Cornucopia_BellPepperSeeds",
 							"ItemId": "(O)Cornucopia_BellPepperSeeds",
 							"MinStack": 1,
 							"MaxStack": 3
